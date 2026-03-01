@@ -1,0 +1,62 @@
+<screen name="WeatherDetailView" position="center,center" size="1600,950" flags="wfNoBorder" backgroundColor="#ff000000">
+    <!-- Description -->
+    <widget name="title_main" position="70,27" size="1460,60" font="Regular;42" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
+    <widget name="title_location" position="70,87" size="1460,50" font="Regular; 32" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget name="radar_map" position="70,144" size="443,608" zPosition="3" transparent="1" backgroundColor="#40000000" scale="1"/>
+    <widget name="title_today" position="525,140" size="520,40" font="Regular;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00"/>
+    <widget name="summary_today" position="523,192" size="520,80" font="Regular;26" transparent="1" zPosition="3" halign="left" valign="top" foregroundColor="#ffffff"/>
+    <widget name="title_tomorrow" position="1055,142" size="506,40" font="Regular;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00"/>
+    <widget name="summary_tomorrow" position="1054,192" size="508,80" font="Regular;26" transparent="1" zPosition="3" halign="left" valign="top" foregroundColor="#ffffff"/>
+    <widget name="title_wind_today" position="525,517" size="520,40" font="Regular;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00"/>
+    <widget name="title_wind_tomorrow" position="1055,517" size="506,40" font="Regular;32" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#00ff00"/>
+    <widget name="label_morning_1" position="522,282" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="label_afternoon_1" position="650,282" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="label_evening_1" position="780,282" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="label_overnight_1" position="910,283" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="symbol_morning_1" position="535,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="symbol_afternoon_1" position="660,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="symbol_evening_1" position="790,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="symbol_overnight_1" position="920,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="temp_label_morning_1" position="535,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_morning_1" position="535,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="temp_label_afternoon_1" position="665,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_afternoon_1" position="665,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="temp_label_evening_1" position="790,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_evening_1" position="790,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="temp_label_overnight_1" position="920,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_overnight_1" position="920,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="label_morning_2" position="1050,282" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="label_afternoon_2" position="1185,282" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="label_evening_2" position="1315,282" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="label_overnight_2" position="1445,282" size="120,35" font="Regular;26" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffaa00"/>
+    <widget name="symbol_morning_2" position="1065,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="symbol_afternoon_2" position="1195,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="symbol_evening_2" position="1325,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="symbol_overnight_2" position="1455,322" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="temp_label_morning_2" position="1065,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_morning_2" position="1065,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="temp_label_afternoon_2" position="1200,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_afternoon_2" position="1200,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="temp_label_evening_2" position="1325,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_evening_2" position="1325,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="temp_label_overnight_2" position="1455,432" size="100,35" font="Regular;24" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00ff00"/>
+    <widget name="temp_overnight_2" position="1455,462" size="100,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#ffff00"/>
+    <widget name="icon_latitude" position="70,767" size="42,42" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="value_latitude" position="119,767" size="200,42" font="Regular;26" transparent="1" zPosition="3" halign="left" valign="center" foregroundColor="#ffffff"/>
+    <widget name="icon_longitude" position="473,767" size="42,42" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="value_longitude" position="268,767" size="200,42" font="Regular;26" transparent="1" zPosition="3" halign="right" valign="center" foregroundColor="#ffffff"/>
+    <widget name="zoom_label" position="1085,784" size="450,40" font="Regular;30" transparent="1" zPosition="3" halign="right" valign="center" backgroundColor="#40000000" foregroundColor="#49bbff"/>
+    <widget name="wind_icon_today" position="1063,567" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/thumb/wN.png" scale="1" zPosition="10" alphatest="on"/>
+    <widget name="wind_icon_tomorrow" position="538,572" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/thumb/wN.png" scale="1" zPosition="10" alphatest="on"/>
+    <!-- Button icons -->
+    <widget source="key_ok" render="Label" position="55,832" size="300,60" font="Regular;32" backgroundColor="#9b9797" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_red" render="Label" position="355,832" size="300,60" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_green" render="Label" position="655,832" size="300,60" font="Regular;32" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="955,832" size="300,60" font="Regular;32" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_blue" render="Label" position="1255,832" size="300,60" font="Regular;32" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <!-- Button icons -->
+    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="516,780" size="1044,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <!-- Background plates -->
+    <widget name="background_plate" position="18,18" backgroundColor="#ff9632" size="1564,914" zPosition="1" cornerRadius="42"/>
+    <widget name="selection_overlay" position="38,38" backgroundColor="#00000000" size="1524,874" zPosition="2" cornerRadius="42"/>
+</screen>
