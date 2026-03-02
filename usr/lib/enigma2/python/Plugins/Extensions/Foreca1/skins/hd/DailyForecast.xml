@@ -1,19 +1,19 @@
 <screen name="DailyForecast" position="center,center" size="1280,720" title="Foreca 1 Weekly Forecast" flags="wfNoBorder" backgroundColor="#ff000000">
     <widget name="title" position="36,26" size="1200,33" font="Regular; 28" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4"/>
     <widget name="info" position="36,62" size="1200,26" font="Regular; 25" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
-    <widget source="menu" render="Listbox" position="70,108" size="1127,516" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#00000000" foregroundColor="#ffffff">
+    <widget source="menu" render="Listbox" position="70,100" size="1120,480" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#00000000" foregroundColor="#ffffff">
         <convert type="TemplatedMultiContent">
             {"template": [
-                MultiContentEntryPixmapAlphaTest(pos = (13, 3), size = (46, 46), png = 0),
-                MultiContentEntryText(pos = (80, 13), size = (100, 23), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 1, color = 0xffffff, color_sel = 0xffffff),
-                MultiContentEntryText(pos = (213, 13), size = (100, 23), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 2, color = 0xffffff, color_sel = 0xffffff),
-                MultiContentEntryText(pos = (346, 13), size = (266, 23), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 3, color = 0xffffff, color_sel = 0xffffff),
-                MultiContentEntryText(pos = (646, 13), size = (120, 23), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 4, color = 0xffffff, color_sel = 0xffffff),
-                 MultiContentEntryPixmapAlphaTest(pos = (800, 13), size = (20, 20), png = 5),
-                MultiContentEntryText(pos = (833, 13), size = (133, 23), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 6, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (70, 70), png = 0),
+                MultiContentEntryText(pos = (80, 10), size = (100, 60), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 1, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (213, 10), size = (100, 60), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 2, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (346, 10), size = (266, 60), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 3, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (646, 10), size = (120, 60), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 4, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryPixmapAlphaTest(pos = (800, 20), size = (30, 30), png = 5),
+                MultiContentEntryText(pos = (833, 10), size = (133, 60), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 6, color = 0xffffff, color_sel = 0xffffff),
             ],
             "fonts": [gFont("Regular", 18)],
-            "itemHeight": 53
+            "itemHeight": 80
             }
         </convert>
     </widget>

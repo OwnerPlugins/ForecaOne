@@ -2,7 +2,7 @@
     <!-- List -->
     <widget name="menu" itemHeight="35" position="45,105" size="1070,596" enableWrapAround="1" scrollbarMode="showOnDemand" valign="center" font="Regular;34" transparent="1" backgroundColor="#40000000" zPosition="3"/>
     <!-- Description -->
-    <widget name="Color selection" position="38,40" size="1080,50" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget name="color_selection" position="38,40" size="1080,50" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <widget name="color_info_label" position="45,825" size="1070,42" font="Regular;32" transparent="0" zPosition="3" halign="center" valign="center" backgroundColor="#40000000"/>
     <widget name="color_name_label" position="45,775" size="1070,42" font="Regular;32" transparent="1" zPosition="3" halign="center" valign="center" backgroundColor="#40000000"/>
     <widget name="color_preview" position="43,720" zPosition="3" size="1070,50" transparent="1" backgroundColor="#40000000"/>
