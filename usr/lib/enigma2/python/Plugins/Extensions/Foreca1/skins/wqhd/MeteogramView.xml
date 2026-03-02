@@ -1,5 +1,6 @@
 <screen name="MeteogramView" size="2560,1440" position="fill" flags="wfNoBorder">
     <eLabel backgroundColor="#00000000" position="0,0" size="2560,1440" zPosition="-7" />
+
     <!-- Logo e label di base -->
     <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" position="947,1211" size="667,154" alphatest="blend" transparent="1" scale="on" />
     <widget name="city_label" position="1695,1300" size="800,54" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
@@ -7,14 +8,10 @@
     <widget name="wind_unit_label" position="2411,1040" size="80,64" font="Regular;36" foregroundColor="#ff9900" transparent="1" halign="center" />
     <widget name="zero_line" position="160,760" size="2236,3" zPosition="5" alphatest="blend" />
 
-    <widget name="precip_text" position="115,1155" size="300,50" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />
-    <widget name="showers_text" position="475,1155" size="300,50" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />
-    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/precip_gram.png" position="75,1155" size="30,50" alphatest="blend" transparent="1" scale="on" />
-    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/dotbg.png" position="435,1155" size="24,5" alphatest="blend" transparent="1" scale="on" />
-    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/dotbg.png" position="435,1168" size="24,5" alphatest="blend" transparent="1" scale="on" />
-    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/dotbg.png" position="435,1178" size="24,5" alphatest="blend" transparent="1" scale="on" />
-    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/dotbg.png" position="435,1188" size="24,5" alphatest="blend" transparent="1" scale="on" />
-    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/dotbg.png" position="435,1200" size="24,5" alphatest="blend" transparent="1" scale="on" />
+    <widget name="precip_text" position="223,1200" size="500,50" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="showers_text" position="224,1130" size="500,50" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />
+    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/precip_gram.png" position="160,1200" size="50,50" alphatest="blend" transparent="1" scale="on" />
+    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/showers_gram.png" position="160,1130" size="50,50" alphatest="blend" transparent="1" scale="1" />
 
     <!-- Etichette data (9 date, da 0 a 8) -->
     <widget name="date_0" position="40,67" size="240,64" font="Regular;40" foregroundColor="#33bbff" transparent="1" halign="center" />
