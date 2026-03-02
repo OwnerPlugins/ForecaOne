@@ -5,7 +5,7 @@
     <widget name="city_label" position="1271,975" size="600,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <widget name="update_label" position="45,975" size="600,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <widget name="wind_unit_label" position="1808,780" size="60,48" font="Regular;27" foregroundColor="#ff9900" transparent="1" halign="center"/>
-    <widget name="zero_line" position="120,570" size="1677,2" zPosition="5" alphatest="blend"/>
+    <widget name="zero_line" position="120,570" size="1677,2" zPosition="8" alphatest="blend"/>
     <widget name="precip_text" position="95,900" size="220,30" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left"/>
     <widget name="showers_text" position="360,900" size="220,30" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left"/>
     <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/precip_gram.png" position="55,900" size="30,30" alphatest="blend" transparent="1" scale="1"/>
