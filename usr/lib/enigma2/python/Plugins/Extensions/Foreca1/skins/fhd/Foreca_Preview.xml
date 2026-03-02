@@ -80,7 +80,7 @@
     <widget name="station_name" position="95,548" size="491,40" font="Regular; 26" halign="left" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" valign="center" zPosition="10"/>
     <!-- Weather description and details -->
     <widget name="weather_description" position="28,120" size="770,40" zPosition="10" font="Regular; 34" foregroundColor="#fe00" backgroundColor="#00000000" transparent="1" valign="center" halign="center"/>
-    <widget name="icon_sun" position="245,177" size="320,250" scale="stretch" zPosition="8" backgroundColor="#40000000" transparent="1" alphatest="on"/>
+    <widget name="icon_sun" position="245,177" size="320,250" zPosition="8" backgroundColor="#40000000" transparent="1" alphatest="on" scale="1"/>
     <widget name="icon_dew_point" position="715,820" size="50,50" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
     <widget name="dewpoint_value" position="375,825" size="330,40" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" valign="center" halign="right"/>
     <widget name="icon_weather" position="345,215" size="120,120" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on"/>
