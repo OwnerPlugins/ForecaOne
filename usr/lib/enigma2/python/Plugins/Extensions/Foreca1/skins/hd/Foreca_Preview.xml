@@ -5,6 +5,8 @@
     <widget source="title_section_weather" render="Label" position="13,10" size="513,30" font="Regular; 20" foregroundColor="#0053a9ff" backgroundColor="#00000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <widget source="title_main" render="Label" position="545,17" size="720,37" font="Regular; 21" foregroundColor="#0053a9ff" backgroundColor="#00000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <widget source="title_loading" render="Label" position="584,356" size="656,37" font="Regular;22" foregroundColor="#00000000" backgroundColor="#00000000" transparent="1" valign="center" zPosition="20" halign="center"/>
+
+
     <!-- Button icons -->
     <widget source="key_red" render="Label" position="636,660" size="133,23" font="Regular;21" backgroundColor="#ff0000" foregroundColor="#000080" halign="center" valign="center" zPosition="3"/>
     <widget source="key_green" render="Label" position="770,660" size="133,23" font="Regular;21" backgroundColor="#00ff00" foregroundColor="#000080" halign="center" valign="center" zPosition="3"/>
