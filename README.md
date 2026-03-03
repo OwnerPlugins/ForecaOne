@@ -1,7 +1,7 @@
 # 🌤️ Foreca Weather Forecast for Enigma2
 
 <p align="center">
-  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne" alt="Foreca One by Lululla Screenshot" width="600">
+  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne" alt="Foreca One" width="250">
 </p>
 
 <p align="center">
