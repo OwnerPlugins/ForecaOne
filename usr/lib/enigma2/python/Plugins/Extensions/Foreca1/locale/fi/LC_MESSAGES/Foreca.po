@@ -1,4 +1,4 @@
-# Foreca4 translations
+# Foreca1 translations
 # Copyright (C) 2025 Lululla Team
 # This file is distributed under the same license as the Lululla package.
 # [lululla] <ekekaz@gmail.com>, 2025.
@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:54+0100\n"
-"PO-Revision-Date: 2026-02-26 19:57+0100\n"
+"PO-Revision-Date: 2026-03-04 13:52+0100\n"
 "Last-Translator: Orlandox\n"
 "Language-Team: Orlandox\n"
 "Language: fi\n"
@@ -112,7 +112,7 @@ msgid "Changes apply immediately"
 msgstr "Muutokset tulevat heti voimaan"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Valitse yksityiskohtainen näkymä"
 
 msgid "City Selection"
 msgstr "Kaupungin valinta"
@@ -189,7 +189,6 @@ msgstr "Nykyinen: {}"
 msgid "Czech Republic"
 msgstr "Tšekki"
 
-#, fuzzy
 msgid "Data provided by Foreca"
 msgstr "Forecan toimittamat tiedot"
 
@@ -268,6 +267,12 @@ msgstr "Suosikki 1"
 msgid "Favorite 2"
 msgstr "Suosikki 2"
 
+msgid "Favorites Details"
+msgstr "Suosikkien Tiedot"
+
+msgid "Favorites details"
+msgstr "Suosikkien tiedot"
+
 msgid "Feels like"
 msgstr "Tuntuu kuin"
 
@@ -286,37 +291,29 @@ msgstr "Ensimmäinen neljännes"
 msgid "Fog"
 msgstr "Sumua"
 
-#, fuzzy
 msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca Live -kartat (API)"
+msgstr "Foreca 1 Live -kartat (API)"
 
-#, fuzzy
 msgid "Foreca 1 No stations found"
-msgstr "Asemia ei löytynyt"
+msgstr "Foreca 1 asemia ei löytynyt"
 
-#, fuzzy
 msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "Foreca-asemat: {} asemaa lähellä ({})"
+msgstr "Foreca1 asemat: {} asemaa lähellä ({})"
 
-#, fuzzy
 msgid "Foreca 1 Weather Forecast"
-msgstr "Foreca-sääennuste"
+msgstr "Foreca 1 sääennuste"
 
-#, fuzzy
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Forecan sää ja ennuste"
-
-#, fuzzy
 msgid "Foreca 1 | Map {}"
-msgstr "Foreca | Kartta {}"
+msgstr "Foreca 1 | Kartta {}"
 
-#, fuzzy
 msgid "Foreca One"
-msgstr "Foreca"
+msgstr "Foreca One"
 
-#, fuzzy
 msgid "Foreca One Menu"
-msgstr "Foreca-valikko"
+msgstr "Foreca One valikko"
+
+msgid "Foreca One Weather and Forecast"
+msgstr "Foreca One sää ja ennuste"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "Löytyi %d kaupunkia paikallisesti hakusanalla '%s'"
@@ -363,9 +360,8 @@ msgstr "Korkea"
 msgid "Home"
 msgstr "Koti"
 
-#, fuzzy
 msgid "Hour Details"
-msgstr "Näytä yksityiskohdat"
+msgstr "Tuntikohtaiset tiedot"
 
 msgid "Humidity"
 msgstr "Kosteus"
@@ -455,7 +451,7 @@ msgid "Luxembourg"
 msgstr "Luxemburg"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Kartta ja ruudut ladattu"
 
 msgid "Map {} selected"
 msgstr "Kartta {} valittu"
@@ -619,19 +615,15 @@ msgstr "Pilvistä, ukkosta"
 msgid "Overnight"
 msgstr "Yöllä"
 
-#, fuzzy
 msgid "Page Down"
 msgstr "Sivu alas"
 
-#, fuzzy
 msgid "Page Up"
 msgstr "Sivu ylös"
 
-#, fuzzy
 msgid "Page down"
 msgstr "Sivu alas"
 
-#, fuzzy
 msgid "Page up"
 msgstr "Sivu ylös"
 
@@ -674,12 +666,11 @@ msgstr "Portugali"
 msgid "Precipitation"
 msgstr "Sademäärä"
 
-msgid "Precipitation: {}%"
-msgstr "Sateen todennäköisyys: {}%"
+msgid "Precipitation: {}"
+msgstr "Sademäärä: {}"
 
-#, fuzzy
 msgid "Precipitations"
-msgstr "Sateen todennäköisyys:"
+msgstr "Jatkuva sade"
 
 msgid "Press RED to search again"
 msgstr "Paina PUNAISTA hakeaksesi uudelleen"
@@ -712,7 +703,7 @@ msgid "Red - Color select"
 msgstr "Punainen - Valitse väri"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Virkistä"
 
 msgid "Rhineland-Palatine"
 msgstr "Rheinland-Pfalz"
@@ -783,9 +774,8 @@ msgstr "Valitse tuulen yksikkö"
 msgid "Select {} unit"
 msgstr "Valitse yksikkö: {}"
 
-#, fuzzy
 msgid "Selected hour details"
-msgstr "Näytä yksityiskohdat"
+msgstr "Valitun tunnin tiedot"
 
 msgid "Sets"
 msgstr "Lasku"
@@ -793,9 +783,8 @@ msgstr "Lasku"
 msgid "Show info"
 msgstr "Näytä tiedot"
 
-#, fuzzy
 msgid "Showers"
-msgstr "Hitaampi: {}s"
+msgstr "Mahdollinen kuuroittainen sade"
 
 msgid "Slovakia"
 msgstr "Slovakia"
@@ -849,7 +838,7 @@ msgid "Temperature: {}°C"
 msgstr "Lämpötila: {}°C"
 
 msgid "Thank's @Orlandox and other firends for suggestions and test"
-msgstr ""
+msgstr "Kiitos @Orlandox ja muut ystävät ehdotuksista ja testeistä."
 
 msgid "Thin upper cloud"
 msgstr "Ohutta yläpilveä"
@@ -858,7 +847,7 @@ msgid "Thuringia"
 msgstr "Thüringen"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Tämän päivän/huomisen tiedot"
 
 msgid "Transparency Settings"
 msgstr "Läpinäkyvyysasetukset"
@@ -867,7 +856,7 @@ msgid "Transparency level"
 msgstr "Läpinäkyvyystaso"
 
 msgid "Try again later"
-msgstr ""
+msgstr "Yritä myöhemmin uudelleen"
 
 msgid "Try different zoom or layer"
 msgstr "Kokeile eri zoomausta tai tasoa"
@@ -876,7 +865,7 @@ msgid "Try different zoom or region"
 msgstr "Kokeile eri zoomausta tai aluetta"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV-indeksi"
 
 msgid "UV N/A"
 msgstr "UV: N/A"
@@ -971,17 +960,14 @@ msgstr "Viikon ennuste"
 msgid "Wind"
 msgstr "Tuuli"
 
-#, fuzzy
 msgid "Wind Direction today"
-msgstr "Sää huomenna"
+msgstr "Tuulen suunta tänään"
 
-#, fuzzy
 msgid "Wind Direction tomorrow"
-msgstr "Sää huomenna"
+msgstr "Tuulen suunta huomenna"
 
-#, fuzzy
 msgid "Wind direction"
-msgstr "Sää huomenna"
+msgstr "Tuulen suunta"
 
 msgid "Wind speed"
 msgstr "Tuulen nopeus"
@@ -1037,6 +1023,39 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
+#~ msgid "Precipitations:"
+#~ msgstr "Sateen todennäköisyys:"
+
+#~ msgid "Dewpoint"
+#~ msgstr "Kastepiste"
+
+#~ msgid "Dewpoint:"
+#~ msgstr "Kastepiste:"
+
+#~ msgid "Distance"
+#~ msgstr "Etäisyys"
+
+#~ msgid "Feels like:"
+#~ msgstr "Tuntuu kuin:"
+
+#~ msgid "Gust"
+#~ msgstr "Puuska"
+
+#~ msgid "Humidity:"
+#~ msgstr "Kosteus:"
+
+#~ msgid "Precip"
+#~ msgstr "Sateen todennäköisyys"
+
+#~ msgid "Rain"
+#~ msgstr "Sade"
+
+#~ msgid "Rain prob."
+#~ msgstr "Sateen todennäk."
+
+#~ msgid "Snow prob."
+#~ msgstr "Lumisateen todennäk."
+
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 päivän ennuste"
 
@@ -1046,44 +1065,17 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 #~ msgid "Blue"
 #~ msgstr "Sininen"
 
-#~ msgid "Dewpoint"
-#~ msgstr "Kastepiste"
-
-#~ msgid "Distance"
-#~ msgstr "Etäisyys"
-
-#~ msgid "Feels like:"
-#~ msgstr "Tuntuu kuin:"
-
 #~ msgid "Green"
 #~ msgstr "Vihreä"
-
-#~ msgid "Gust"
-#~ msgstr "Puuska"
 
 #~ msgid "HTML"
 #~ msgstr "HTML"
 
-#~ msgid "Humidity:"
-#~ msgstr "Kosteus:"
-
 #~ msgid "Last update"
 #~ msgstr "Viimeisin päivitys"
 
-#~ msgid "Precip"
-#~ msgstr "Sade"
-
-#~ msgid "Rain"
-#~ msgstr "Sade"
-
-#~ msgid "Rain prob."
-#~ msgstr "Sateen todennäköisyys"
-
 #~ msgid "Red"
 #~ msgstr "Punainen"
-
-#~ msgid "Snow prob."
-#~ msgstr "Lumisateen todennäköisyys"
 
 #~ msgid "UV"
 #~ msgstr "UV"

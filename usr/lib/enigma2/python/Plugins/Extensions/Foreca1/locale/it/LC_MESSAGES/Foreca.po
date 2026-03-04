@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-02 18:46+0100\n"
+"PO-Revision-Date: 2026-03-04 13:52+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -267,6 +267,12 @@ msgstr "Preferito 1"
 msgid "Favorite 2"
 msgstr "Preferito 2"
 
+msgid "Favorites Details"
+msgstr "Dettagli Favoriti"
+
+msgid "Favorites details"
+msgstr "Dettagli Favoriti"
+
 msgid "Feels like"
 msgstr "Percepita"
 
@@ -297,9 +303,6 @@ msgstr "Stazioni Foreca 1 {} stazioni nelle vicinanze ({})"
 msgid "Foreca 1 Weather Forecast"
 msgstr "Foreca 1 Previsioni del tempo"
 
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Foreca 1 Meteo e previsioni"
-
 msgid "Foreca 1 | Map {}"
 msgstr "Foreca 1 | Mappa {}"
 
@@ -308,6 +311,9 @@ msgstr "Foreca One"
 
 msgid "Foreca One Menu"
 msgstr "Menu Foreca One"
+
+msgid "Foreca One Weather and Forecast"
+msgstr "Foreca One Meteo e Previsioni"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "Trovate %d città localmente per '%s'"
@@ -660,8 +666,8 @@ msgstr "Portogallo"
 msgid "Precipitation"
 msgstr "Precipitazioni"
 
-msgid "Precipitation: {}%"
-msgstr "Precipitazioni: {}%"
+msgid "Precipitation: {}"
+msgstr "Precipitazioni: {}"
 
 msgid "Precipitations"
 msgstr "Precipitazioni"

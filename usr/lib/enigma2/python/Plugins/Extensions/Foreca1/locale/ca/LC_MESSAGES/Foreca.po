@@ -280,6 +280,14 @@ msgstr "Favorit 1"
 msgid "Favorite 2"
 msgstr "Favorit 2"
 
+#, fuzzy
+msgid "Favorites Details"
+msgstr "Favorit 1"
+
+#, fuzzy
+msgid "Favorites details"
+msgstr "Favorit 1"
+
 msgid "Feels like"
 msgstr "Sensació tèrmica"
 
@@ -318,10 +326,6 @@ msgid "Foreca 1 Weather Forecast"
 msgstr "Pronòstic del temps Foreca"
 
 #, fuzzy
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Temps i pronòstic Foreca 4"
-
-#, fuzzy
 msgid "Foreca 1 | Map {}"
 msgstr "Mapes Foreca en directe (API)"
 
@@ -332,6 +336,10 @@ msgstr "Foreca 4"
 #, fuzzy
 msgid "Foreca One Menu"
 msgstr "Menú Foreca"
+
+#, fuzzy
+msgid "Foreca One Weather and Forecast"
+msgstr "Temps i pronòstic Foreca 4"
 
 msgid "Found %d cities locally for '%s'"
 msgstr ""
@@ -695,7 +703,7 @@ msgid "Precipitation"
 msgstr "Precipitació"
 
 #, fuzzy
-msgid "Precipitation: {}%"
+msgid "Precipitation: {}"
 msgstr "Precipitació"
 
 #, fuzzy

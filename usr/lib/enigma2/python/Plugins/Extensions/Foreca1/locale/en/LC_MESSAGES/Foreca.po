@@ -281,6 +281,14 @@ msgstr "Green - Favorite 1"
 msgid "Favorite 2"
 msgstr "Yellow - Favorite 2"
 
+#, fuzzy
+msgid "Favorites Details"
+msgstr "Green - Favorite 1"
+
+#, fuzzy
+msgid "Favorites details"
+msgstr "Green - Favorite 1"
+
 msgid "Feels like"
 msgstr "Feels like"
 
@@ -316,10 +324,6 @@ msgid "Foreca 1 Weather Forecast"
 msgstr "Foreca Weather Forecast"
 
 #, fuzzy
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Foreca 4 Weather and Forecast"
-
-#, fuzzy
 msgid "Foreca 1 | Map {}"
 msgstr "Foreca 4"
 
@@ -330,6 +334,10 @@ msgstr "Foreca 4"
 #, fuzzy
 msgid "Foreca One Menu"
 msgstr "Foreca 4"
+
+#, fuzzy
+msgid "Foreca One Weather and Forecast"
+msgstr "Foreca 4 Weather and Forecast"
 
 msgid "Found %d cities locally for '%s'"
 msgstr ""
@@ -702,7 +710,7 @@ msgid "Precipitation"
 msgstr "Precipitations:"
 
 #, fuzzy
-msgid "Precipitation: {}%"
+msgid "Precipitation: {}"
 msgstr "Precipitations:"
 
 #, fuzzy

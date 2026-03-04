@@ -7,6 +7,8 @@
 
 
 
+
+
 msgid "0 - Today"
 msgstr ""
 
@@ -256,6 +258,12 @@ msgstr ""
 msgid "Favorite 2"
 msgstr ""
 
+msgid "Favorites Details"
+msgstr ""
+
+msgid "Favorites details"
+msgstr ""
+
 msgid "Feels like"
 msgstr ""
 
@@ -286,9 +294,6 @@ msgstr ""
 msgid "Foreca 1 Weather Forecast"
 msgstr ""
 
-msgid "Foreca 1 Weather and Forecast"
-msgstr ""
-
 msgid "Foreca 1 | Map {}"
 msgstr ""
 
@@ -296,6 +301,9 @@ msgid "Foreca One"
 msgstr ""
 
 msgid "Foreca One Menu"
+msgstr ""
+
+msgid "Foreca One Weather and Forecast"
 msgstr ""
 
 msgid "Found %d cities locally for '%s'"
@@ -649,7 +657,7 @@ msgstr ""
 msgid "Precipitation"
 msgstr ""
 
-msgid "Precipitation: {}%"
+msgid "Precipitation: {}"
 msgstr ""
 
 msgid "Precipitations"

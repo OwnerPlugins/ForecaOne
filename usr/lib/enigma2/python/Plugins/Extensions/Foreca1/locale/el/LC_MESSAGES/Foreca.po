@@ -265,6 +265,12 @@ msgstr "Αγαπημένο 1"
 msgid "Favorite 2"
 msgstr "Αγαπημένο 2"
 
+msgid "Favorites Details"
+msgstr "Λεπτομέρειες Αγαπημένων"
+
+msgid "Favorites details"
+msgstr "Λεπτομέρειες αγαπημένων"
+
 msgid "Feels like"
 msgstr "Αίσθηση ως"
 
@@ -295,9 +301,6 @@ msgstr "Σταθμοί: {} σταθμοί κοντά ({} )  Foreca 1"
 msgid "Foreca 1 Weather Forecast"
 msgstr "Πρόγνωση καιρού Foreca 1"
 
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Καιρός και πρόγνωση Foreca 1"
-
 msgid "Foreca 1 | Map {}"
 msgstr "Foreca 1 | Χάρτης {}"
 
@@ -306,6 +309,9 @@ msgstr "Foreca One"
 
 msgid "Foreca One Menu"
 msgstr "Μενού Foreca One"
+
+msgid "Foreca One Weather and Forecast"
+msgstr "Καιρός και πρόγνωση Foreca One"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "Βρέθηκαν %d πόλεις τοπικά για '%s'"
@@ -658,12 +664,11 @@ msgstr "Πορτογαλία"
 msgid "Precipitation"
 msgstr "Βροχόπτωση"
 
-msgid "Precipitation: {}%"
-msgstr "Βροχόπτωση: {}%"
+msgid "Precipitation: {}"
+msgstr "Βροχόπτωση: {}"
 
-#, fuzzy
 msgid "Precipitations"
-msgstr "Βροχοπτώσεις:"
+msgstr "Βροχοπτώσεις"
 
 msgid "Press RED to search again"
 msgstr "Πατήστε το ΚΟΚΚΙΝΟ για νέα αναζήτηση"
@@ -776,9 +781,8 @@ msgstr "Δύση"
 msgid "Show info"
 msgstr "Εμφάνιση πληροφοριών"
 
-#, fuzzy
 msgid "Showers"
-msgstr "Αργότερα: {}δ"
+msgstr "Ντορέματα"
 
 msgid "Slovakia"
 msgstr "Σλοβακία"
