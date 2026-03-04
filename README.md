@@ -3,7 +3,7 @@
 # 🌤️ Foreca 1 Weather Forecast – Enigma2 Plugin
 
 <p align="center">
-  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="Foreca1 Screenshot" width="600">
+  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="Foreca1 Screenshot" width="400">
 </p>
 
 <p align="center">
