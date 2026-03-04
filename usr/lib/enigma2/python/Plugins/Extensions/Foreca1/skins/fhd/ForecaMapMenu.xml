@@ -5,7 +5,7 @@
     <widget name="title" position="35,33" size="998,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4"/>
     <widget name="info" position="35,97" size="996,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="34,822" size="1000,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="34,822" size="1000,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
     <!-- Background plates -->
     <widget name="background_plate" size="1025,892" zPosition="1" position="21,21" backgroundColor="#ff9632" cornerRadius="28"/>
     <widget name="selection_overlay" size="1000,866" zPosition="2" position="34,34" backgroundColor="#00000000" cornerRadius="28"/>

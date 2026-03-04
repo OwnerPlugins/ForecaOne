@@ -21,5 +21,5 @@
     <widget name="background_plate" size="2448,1384" zPosition="1" position="47,28" backgroundColor="#ff9632" cornerRadius="50"/>
     <widget name="selection_overlay" size="2363,1320" zPosition="2" position="90,62" backgroundColor="#00000000" cornerRadius="50"/>
     <!-- Info tasti -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="136,1284" size="2260,87" font="Regular; 51" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="136,1284" size="2260,87" font="Regular; 51" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
 </screen>

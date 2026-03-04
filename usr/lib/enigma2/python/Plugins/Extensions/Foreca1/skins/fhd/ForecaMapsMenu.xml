@@ -11,7 +11,7 @@
     </widget>
     <widget source="session.VideoPicture" render="Pig" position="1184,323" zPosition="20" size="629,392" backgroundColor="#ff000000" transparent="0"/>
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="80,958" size="1030,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="80,958" size="1030,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
     <!-- Background plates -->
     <widget name="background_plate" size="1878,1038" zPosition="1" position="21,21" backgroundColor="#ff9632" cornerRadius="50"/>
     <widget name="selection_overlay" size="1830,990" zPosition="2" position="45,44" backgroundColor="#00000000" cornerRadius="50"/>

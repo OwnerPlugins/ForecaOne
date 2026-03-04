@@ -14,7 +14,7 @@
     <!-- Description -->
     <widget name="description" position="30,618" size="1213,33" font="Regular; 21" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="30,652" size="1213,33" font="Regular;25" halign="center" valign="center" zPosition="5" transparent="1" foregroundColor="#aaaaaa" />
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="30,652" size="1213,33" font="Regular;25" halign="center" valign="center" zPosition="5" transparent="1" foregroundColor="#aaaaaa" />
     <!-- Service name e Pig -->
     <widget source="session.CurrentService" render="Label" position="782,168" size="433,33" font="Regular;21" backgroundColor="#40000000" transparent="1" halign="center" foregroundColor="#00ffffff" zPosition="30" valign="center" noWrap="1">
         <convert type="ServiceName">Name</convert>

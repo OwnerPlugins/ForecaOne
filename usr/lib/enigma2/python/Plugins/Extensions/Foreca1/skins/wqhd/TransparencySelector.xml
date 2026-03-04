@@ -4,7 +4,7 @@
     <!-- List -->
     <widget name="menu" itemHeight="74" position="80,160" size="1307,734" enableWrapAround="1" scrollbarMode="showOnDemand" valign="center" font="Regular;46" transparent="1" backgroundColor="#00000000" zPosition="3"/>
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="80,934" size="1307,67" font="Regular; 43" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="80,934" size="1307,67" font="Regular; 43" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
     <!-- Background plates -->
     <widget name="background_plate" position="28,22" backgroundColor="#ff9632" size="1411,1091" zPosition="1" cornerRadius="32"/>
     <widget name="selection_overlay" position="46,39" backgroundColor="#40000000" size="1376,1056" zPosition="2" cornerRadius="32"/>

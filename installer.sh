@@ -1,7 +1,7 @@
 #!/bin/bash
 
-version='1.0.1'
-changelog='\HOUR DETAILS ON OK SELECT AND ADD UP/DOWN/CH+/CH-'
+version='1.0.2'
+changelog='\MAJOR FIX AND OTHER SCREEN ;)\nOffer coffe if you like this plugin'
 
 TMPPATH=/tmp/ForecaOne-install
 FILEPATH=/tmp/ForecaOne-main.tar.gz

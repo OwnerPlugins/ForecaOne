@@ -7,7 +7,7 @@
     <widget name="color_name_label" position="45,775" size="1070,42" font="Regular;32" transparent="1" zPosition="3" halign="center" valign="center" backgroundColor="#40000000" />
     <widget name="color_preview" position="43,720" zPosition="3" size="1070,50" transparent="1" backgroundColor="#40000000" />
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="34,868" size="1092,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" />
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="34,868" size="1092,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" />
     <!-- Background plates -->
     <widget name="background_plate" position="21,16" backgroundColor="#ff9632" size="1118,908" zPosition="1" cornerRadius="32" />
     <widget name="selection_overlay" position="34,29" backgroundColor="#00000000" size="1092,882" zPosition="2" cornerRadius="32" />

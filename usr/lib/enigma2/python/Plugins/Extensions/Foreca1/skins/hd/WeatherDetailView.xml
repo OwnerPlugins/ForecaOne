@@ -55,7 +55,7 @@
     <widget source="key_yellow" render="Label" position="636,554" size="200,40" font="Regular;21" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <widget source="key_blue" render="Label" position="836,554" size="200,40" font="Regular;21" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="344,520" size="696,33" font="Regular;25" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="344,520" size="696,33" font="Regular;25" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
     <!-- Background plates -->
     <widget name="background_plate" position="12,12" backgroundColor="#ff9632" size="1042,609" zPosition="1" cornerRadius="42"/>
     <widget name="selection_overlay" position="25,25" backgroundColor="#00000000" size="1016,582" zPosition="2" cornerRadius="42"/>

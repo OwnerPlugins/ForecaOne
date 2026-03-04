@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:54+0100\n"
-"PO-Revision-Date: 2026-03-04 13:52+0100\n"
+"PO-Revision-Date: 2026-03-04 15:49+0200\n"
 "Last-Translator: Orlandox\n"
 "Language-Team: Orlandox\n"
 "Language: fi\n"
@@ -268,7 +268,7 @@ msgid "Favorite 2"
 msgstr "Suosikki 2"
 
 msgid "Favorites Details"
-msgstr "Suosikkien Tiedot"
+msgstr "Suosikkien tiedot"
 
 msgid "Favorites details"
 msgstr "Suosikkien tiedot"
@@ -303,6 +303,9 @@ msgstr "Foreca1 asemat: {} asemaa lähellä ({})"
 msgid "Foreca 1 Weather Forecast"
 msgstr "Foreca 1 sääennuste"
 
+msgid "Foreca 1 Weather and Forecast"
+msgstr "Foreca 1 sää ja ennuste"
+
 msgid "Foreca 1 | Map {}"
 msgstr "Foreca 1 | Kartta {}"
 
@@ -311,9 +314,6 @@ msgstr "Foreca One"
 
 msgid "Foreca One Menu"
 msgstr "Foreca One valikko"
-
-msgid "Foreca One Weather and Forecast"
-msgstr "Foreca One sää ja ennuste"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "Löytyi %d kaupunkia paikallisesti hakusanalla '%s'"
@@ -669,6 +669,12 @@ msgstr "Sademäärä"
 msgid "Precipitation: {}"
 msgstr "Sademäärä: {}"
 
+msgid "Precipitations:"
+msgstr "Sateen todennäköisyys:"
+
+msgid "Precipitation: {}%"
+msgstr "Sateen todennäköisyys: {}%"
+
 msgid "Precipitations"
 msgstr "Jatkuva sade"
 
@@ -831,6 +837,9 @@ msgstr "Lämpötila"
 msgid "Temperature"
 msgstr "Lämpötila"
 
+msgid "Temperature: {}"
+msgstr "Lämpötila: {}"
+
 msgid "Temperature: {}{}"
 msgstr "Lämpötila: {}{}"
 
@@ -975,6 +984,9 @@ msgstr "Tuulen nopeus"
 msgid "Wind: {} km/h {}"
 msgstr "Tuuli: {} km/h {}"
 
+msgid "Wind: {}"
+msgstr "Tuuli: {}"
+
 msgid "Wind: {} {} {}"
 msgstr "Tuuli: {} {} {}"
 
@@ -1023,41 +1035,38 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
-#~ msgid "Precipitations:"
-#~ msgstr "Sateen todennäköisyys:"
+msgid "Dewpoint"
+msgstr "Kastepiste"
 
-#~ msgid "Dewpoint"
-#~ msgstr "Kastepiste"
+msgid "Dewpoint:"
+msgstr "Kastepiste:"
 
-#~ msgid "Dewpoint:"
-#~ msgstr "Kastepiste:"
+msgid "Distance"
+msgstr "Etäisyys"
 
-#~ msgid "Distance"
-#~ msgstr "Etäisyys"
+msgid "Feels like:"
+msgstr "Tuntuu kuin:"
 
-#~ msgid "Feels like:"
-#~ msgstr "Tuntuu kuin:"
+msgid "Gust"
+msgstr "Puuska"
 
-#~ msgid "Gust"
-#~ msgstr "Puuska"
+msgid "Humidity:"
+msgstr "Kosteus:"
 
-#~ msgid "Humidity:"
-#~ msgstr "Kosteus:"
+msgid "Precip"
+msgstr "Sateen todennäköisyys"
 
-#~ msgid "Precip"
-#~ msgstr "Sateen todennäköisyys"
+msgid "Rain"
+msgstr "Sade"
 
-#~ msgid "Rain"
-#~ msgstr "Sade"
+msgid "Rain prob."
+msgstr "Sateen todennäk."
 
-#~ msgid "Rain prob."
-#~ msgstr "Sateen todennäk."
+msgid "Snow prob."
+msgstr "Lumisateen todennäk."
 
-#~ msgid "Snow prob."
-#~ msgstr "Lumisateen todennäk."
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
 
 #~ msgid "AQI"
 #~ msgstr "AQI"

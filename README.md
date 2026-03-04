@@ -1,12 +1,17 @@
-# 🌤️ Foreca Weather Forecast for Enigma2
+## 🇬🇧 English README
+
+# 🌤️ Foreca 1 Weather Forecast – Enigma2 Plugin
 
 <p align="center">
-  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="Foreca One by Lululla" width="250">
+  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/plugin.png" alt="Foreca1 Screenshot" width="600">
 </p>
 
 <p align="center">
+  <a href="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml">
+    <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
+  </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
-    <img src="https://img.shields.io/badge/Version-1.0.1-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.0.2-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
@@ -18,30 +23,52 @@
 
 ---
 
-## 🌍 Overview
+## 📋 Table of Contents
 
-**Foreca1 Weather Forecast** is a comprehensive Enigma2 plugin that provides accurate and detailed weather forecasts for up to 10 days using data from **Foreca**. It offers both free public data and authenticated API access for enhanced features like live weather maps.
-
-Whether you are a casual user or a weather enthusiast, this plugin delivers all the information you need right on your Enigma2 receiver.
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Initial Configuration](#initial-configuration)
+- [Using the Plugin](#using-the-plugin)
+  - [Main Screen](#main-screen)
+  - [Main Menu](#main-menu)
+  - [City Selection](#city-selection)
+  - [Daily Forecast (7 days)](#daily-forecast-7-days)
+  - [Meteogram](#meteogram)
+  - [Observation Stations](#observation-stations)
+  - [Weather Maps](#weather-maps)
+  - [Unit Settings](#unit-settings)
+  - [Color and Transparency](#color-and-transparency)
+  - [Plugin Info](#plugin-info)
+- [Authenticated API Configuration (Optional)](#authenticated-api-configuration-optional)
+- [Troubleshooting](#troubleshooting)
+- [Credits](#credits)
+- [License](#license)
 
 ---
 
-## ✨ Key Features
+## Introduction
+
+**Foreca 1 Weather Forecast** is a comprehensive Enigma2 plugin that provides detailed weather forecasts for up to 10 days using public data from **Foreca**. With an intuitive interface and extensive customization options, you can always keep an eye on the weather directly from your receiver.
+
+---
+
+## Key Features
 
 ### ✅ Works with or without API
 - **Free mode** – uses public Foreca endpoints and scraping for most features.
-- **API mode** – unlock live maps, station observations, and more with a free 30-day trial.
+- **API mode** – unlocks live maps, observation stations, and more with a **free 30‑day trial**.
 
 ### 📊 Weather Data
 - **Current conditions** with extended details:
   - Temperature, feels like, dew point
-  - Wind speed, gusts, direction
+  - Wind (speed, gusts, direction)
   - Humidity, pressure, UV index, AQI
   - Rain/snow probability and amount
   - Last update time
 - **10‑day daily forecast** (min/max temp, wind, precipitation, weather symbol)
-- **Hourly forecast** for the selected day (scrolling list with icons)
-- **7‑day meteogram** – temperature curve, rain bars, wind info
+- **Hourly forecast** for the selected day (scrollable list with icons)
+- **7‑day meteogram** – temperature curve, rain bars, icons and wind
 
 ### 🌙 Moon Information
 - Moon phase with icon
@@ -50,50 +77,42 @@ Whether you are a casual user or a weather enthusiast, this plugin delivers all 
 - Moonrise and moonset times (from USNO API, async)
 
 ### 📡 Observation Stations
-- Nearby weather stations (from authenticated API or scraping)
+- Nearby stations (from authenticated API or scraping)
 - Temperature, feels like, humidity, pressure, wind, visibility
 
 ### 🗺️ Weather Maps
-- **Wetterkontor slideshow** – regional maps (Europe, Germany, continents)
-- **Foreca1 Live Maps (API)** – temperature, wind, precipitation, clouds, radar
+- **Wetterkontor** – slideshow of regional maps (Europe, Germany, continents)
+- **Foreca Live Maps (API)** – temperature, wind, precipitation, clouds, radar
   - 3×3 tile grid with zoom in/out
-  - Timeline support (change forecast time)
-  - Background overlays for geography
-  - Local tile cache to save API quota
+  - Multiple forecast times
+  - Overlay on geographic backgrounds
+  - Local tile cache to respect API limits
 
 ### ⚙️ Advanced Unit Management
-- Choose between **Metric** and **Imperial** systems
-- **Customizable units**:
+- Choose between **metric** and **imperial** systems
+- **Customize individual units**:
   - Wind: km/h, m/s, mph, kts
   - Pressure: hPa, mmHg, inHg
   - Temperature: °C, °F
   - Precipitation: mm, in
-- Changes apply instantly – no restart needed
+- Changes apply immediately, no restart needed
 
 ### 🎨 User Interface
-- **Global color theme** – set once, applied to all screens
-- **Transparency** – adjustable overlay transparency
-- **Multilingual** – full GetText support with Google Translate fallback
-- **Keyboard navigation** – all screens are fully controllable via remote
+- **Global theme** – set a background color once, applied to all screens
+- **Adjustable transparency** for overlays
+- **Multilingual** – built‑in GetText support with Google Translate fallback
+- **Full remote control navigation** – all screens accessible via keys
 
 ### 🔧 Technical Highlights
 - Python 3 compatible
-- Asynchronous downloads (moon data, maps, stations)
+- Asynchronous downloads (moon, maps, stations)
 - Debug mode with detailed logs
-- Smart caching (tiles, API tokens, translations)
-- Skin system with FHD, HD, WQHD support
+- Smart caching (translations, API tokens, map tiles)
+- Skins for FHD, HD, WQHD resolutions
 
 ---
 
-## 📅 Project Information
-
-- **First release:** 01/03/2026
-- **Source of weather data:** [https://www.foreca.com](https://www.foreca.com)
-- **License:** GNU General Public License v3.0
-
----
-
-## 🚀 Installation
+## Installation
 
 1. Copy the `Foreca1` folder to your Enigma2 plugins directory:
    ```
@@ -103,20 +122,24 @@ Whether you are a casual user or a weather enthusiast, this plugin delivers all 
    ```
    chmod -R 755 /usr/lib/enigma2/python/Plugins/Extensions/Foreca1
    ```
-3. Restart Enigma2 or the plugin menu.
+3. Restart Enigma2 or the plugin menu to make the plugin visible.
 
 ---
 
-## 🔑 API Configuration (Optional)
+## Initial Configuration
 
-To enable live maps and authenticated station data, you need a **free Foreca trial account**:
+### Offline City List
+The plugin uses a `new_city.cfg` file containing the list of supported cities (format: `ID/City_Name` per line). If the file does not exist, online search is used. You can generate it manually or let the plugin create it automatically during a search.
 
-1. Register at [https://developer.foreca.com](https://developer.foreca.com) (30‑day trial, 1000 tile requests/day).
-2. Create a file `api_config.txt` in the plugin folder:
+### API Credentials (Optional)
+To enable live maps and API stations, you need a Foreca account (free 30‑day trial, 1000 requests/day).
+
+1. Register at [https://developer.foreca.com](https://developer.foreca.com)
+2. Create the file `api_config.txt` in the plugin folder:
    ```
    /usr/lib/enigma2/python/Plugins/Extensions/Foreca1/api_config.txt
    ```
-3. Add your credentials:
+3. Insert your credentials:
    ```ini
    API_USER=your_username
    API_PASSWORD=your_password
@@ -124,112 +147,195 @@ To enable live maps and authenticated station data, you need a **free Foreca tri
    MAP_SERVER=map-eu.foreca.com
    AUTH_SERVER=pfa.foreca.com
    ```
-4. An example file `api_config.txt.example` is provided.
+   (change the servers if needed, e.g. `map-us.foreca.com` for US maps)
 
-> **Without API credentials** the plugin still works perfectly using public data and scraping.
+An example file `api_config.txt.example` is created automatically if the main file does not exist.
+
+**Note:** without these credentials, the plugin still works perfectly using public data.
 
 ---
 
-## 🧭 How to Use
+## Using the Plugin
 
 ### Main Screen
-- **0‑9** – jump to day (0 = today)
-- **LEFT/RIGHT** – previous/next day
-- **OK** – open today/tomorrow detail + radar map
-- **RED** – color selector
-- **GREEN** – load favorite 1
-- **YELLOW** – load favorite 2
-- **BLUE** – load home city
+Upon startup, the main screen displays:
+- City, date and day name
+- Current weather (icon, temperature, description)
+- Extended details (feels like, dew point, wind, gusts, rain, humidity, pressure, UV, AQI, probability, update time)
+- Sun information (sunrise, sunset, day length)
+- Moon phase (icon, name, illumination, distance, rise/set times)
+- Nearest observation station (if available)
+- Hourly list for the selected day (scrollable with UP/DOWN)
+
+**Function keys:**
+- **0‑9** – jump directly to the corresponding day (0 = today, 1 = tomorrow, … 9 = today+9)
+- **←/→** – previous/next day
+- **OK** – open today/tomorrow detail screen (with periods and radar map)
+- **RED** – open color selector
+- **GREEN** – load favorite 1 (`fav1.cfg`)
+- **YELLOW** – load favorite 2 (`fav2.cfg`)
+- **BLUE** – load home city (`home.cfg`)
 - **MENU** – open main menu
-- **INFO** – about plugin
-- **EXIT** – close plugin
+- **INFO** – plugin information
+- **EXIT** – exit plugin (return to TV or plugin menu)
 
 ### Main Menu
-- **City Selection** – search and assign favorites
-- **Weather Maps** – Wetterkontor slideshow or Foreca1 live maps
-- **Weekly Forecast** – 7‑day detailed forecast
-- **Meteogram** – graphical 7‑day trend
-- **Station Observations** – nearby stations
-- **Unit Settings** – simple (metric/imperial) or advanced (custom units)
+Pressing **MENU** opens a choice with the following options:
+
+- **City Selection** – search and assign cities to favorites
+- **Weather Maps** – submenu to choose between Wetterkontor and Foreca Live Maps
+- **Weekly Forecast** – 7‑day detailed forecast screen
+- **Meteogram** – graphical weather trend
+- **Station Observations** – list of nearby stations
+- **Unit Settings (Simple)** – quick choice between metric and imperial
+- **Unit Settings (Advanced)** – customize wind, pressure, temperature, precipitation
 - **Color Selector** – change global background color
 - **Transparency** – adjust overlay transparency
 - **Info** – version and credits
+- **Exit** – close menu (return to main screen)
+
+### City Selection
+- **RED** – open virtual keyboard to enter city name
+- Search is performed first online (Foreca API), then offline on `new_city.cfg` if no results
+- **GREEN** – assign selected city to favorite 1
+- **YELLOW** – assign to favorite 2
+- **BLUE** – assign as home
+- **OK** – load city into main screen and close panel
+- **EXIT** – return to menu without changes
+
+### Daily Forecast (7 days)
+Each row contains:
+- Abbreviated day name and date
+- Min/max temperatures (converted according to chosen units)
+- Abbreviated weather description
+- Precipitation probability
+- Wind speed and direction
+
+**Navigation:**
+- **UP/DOWN** – move selection
+- **PAGE UP/PAGE DOWN** – jump one page
+- **OK** – open a window with complete details of the selected day
+- **EXIT** – return to main menu
+
+### Meteogram
+Shows temperature trend (coloured curve), precipitation bars, weather icons and wind for 3‑hour intervals over the next 7 days. Includes temperature and precipitation scales and date markers.
+
+**Keys:**
+- **OK/EXIT** – close meteogram
+
+### Observation Stations
+Data comes from:
+1. Authenticated API (if configured)
+2. Fallback: scraping of Foreca website
+
+For each station: name, distance, temperature, feels like, dew point, humidity, pressure, visibility, update time.
+- **UP/DOWN** – navigate through stations
+- **OK** – show details of selected station (if not already visible)
+
+### Weather Maps
+The **Weather Maps** submenu offers two options:
+
+#### Wetterkontor Maps (slideshow)
+- **RED** – play/pause
+- **GREEN** – next image
+- **YELLOW** – previous image
+- **BLUE** – exit
+- **UP/DOWN** – increase/decrease slideshow speed
+
+#### Foreca Live Maps (API)
+Requires valid credentials. Shows list of available layers (temperature, wind, precipitation, clouds, radar). After selection, the viewer opens:
+- **←/→** – change forecast time (if available)
+- **GREEN** – zoom in
+- **YELLOW** – zoom out
+- **RED/EXIT** – close
+
+**Note:** without credentials, this menu item is hidden.
+
+### Unit Settings
+
+#### Simple
+Choose between **metric** (Celsius, km/h, hPa, mm) and **imperial** (Fahrenheit, mph, inHg, in) with UP/DOWN and confirm with GREEN.
+
+#### Advanced
+Customize individual categories:
+- Wind: km/h, m/s, mph, kts
+- Pressure: hPa, mmHg, inHg
+- Temperature: °C, °F
+- Precipitation: mm, in
+
+Navigate categories with YELLOW (next) and BLUE (prev). Inside a category, select the unit with OK (a checkmark appears). Save all with GREEN.
+
+After saving, the main screen updates immediately with the new units.
+
+### Color and Transparency
+- **Color Selector** – lists predefined colors (from `color_database.txt`). Use UP/DOWN to move, OK to confirm. The color is applied to all screens (global theme).
+- **Transparency** – lists levels from 6% to 56%. OK confirms, change is visible immediately.
+
+### Plugin Info
+Shows version, authors and credits. Press OK or EXIT to close.
 
 ---
 
-## 🌐 Language Support
+## Authenticated API Configuration (Optional)
 
-The plugin uses **GetText** for translations. Currently supported languages:
+1. Obtain username and password from [Foreca Developer](https://developer.foreca.com) (free trial).
+2. Create the file `api_config.txt` in the plugin folder with the following content:
+   ```ini
+   API_USER=your_username
+   API_PASSWORD=your_password
+   TOKEN_EXPIRE_HOURS=720
+   MAP_SERVER=map-eu.foreca.com
+   AUTH_SERVER=pfa.foreca.com
+   ```
+3. (Optional) Adjust parameters as needed (e.g. `MAP_SERVER=map-us.foreca.com` for US maps).
 
-- English (en)
-- Italian (it)
-- German (de)
-- French (fr)
-- Spanish (es)
-- … and many more (fallback to English)
-
-If your language is missing, you can contribute by translating the `.po` files.
-
----
-
-## 🗺️ Foreca1 Live Maps – Details
-
-### How it works
-1. **Capabilities request** – fetches available layers from Foreca1.
-2. **Tile grid** – downloads a 3×3 grid of tiles (size depends on screen resolution).
-3. **Background overlay** – each layer is overlaid on a geographic background (e.g. `europa.png`, `temp_map.png`).
-4. **Timeline** – use LEFT/RIGHT to browse forecast times.
-5. **Zoom** – zoom in/out with GREEN/YELLOW.
-
-### Background mapping
-
-| Layer type       | Background PNG       |
-|------------------|----------------------|
-| Temperature      | `temp_map.png`       |
-| Precipitation    | `rain_map.png`       |
-| Wind             | `europa.png`         |
-| Clouds           | `cloud_map.png`      |
-| Pressure         | `pressure_map.png`   |
-| Radar            | `rain_map.png`       |
-
-Regional backgrounds (e.g. `italien.png`, `deutschland.png`) are used when available.
+An example file `api_config.txt.example` is created automatically.
 
 ---
 
-## 📦 Version History
+## Troubleshooting
 
-### 1.0.0 (01/03/2026)
-- Complete rewrite from original code by @Bauernbub
-- Added authenticated map API support
-- Implemented global color theme and transparency
-- Introduced advanced unit management
-- Full translation system with GetText
-- Asynchronous moon data
-- Many bug fixes and optimizations
-- Thanks to @Orlandox and all testers!
+### 1. Main screen shows no weather data
+- Check internet connection.
+- Verify that the selected city is valid.
+- Look at debug files in the plugin's `debug/` folder.
 
----
+### 2. City search finds no results
+- Online search might be temporarily unavailable. Make sure `api.foreca.net` is reachable.
+- Ensure `new_city.cfg` exists and contains at least a few cities.
+- Try a more generic term (e.g. “Rome” instead of “Rome, Italy”).
 
-## 👥 Credits
+### 3. Live maps do not work
+- Check that `api_config.txt` exists and contains correct credentials.
+- Verify that your Foreca account has access to map APIs.
+- Enable debug (`DEBUG = True` in `plugin.py`) and examine logs.
 
-- **Original design & idea:** @Bauernbub
-- **Major recode & maintenance:** @Lululla
-- **Contributions:** Assistant (API refactoring, meteogram, translations, unit system, map viewer, and many fixes)
+### 4. Navigation in DailyForecast does not respond
+- Make sure you are pressing UP/DOWN, not numeric keys (which change the day in the main screen).
+- Verify that the skin has a `list` widget with adequate dimensions.
 
----
+### 5. Units do not update after saving
+- This issue has been fixed in recent versions. Check that the `units_closed` callback is present in `plugin.py` and that the unit screens return `True` upon saving.
 
-## ⚠️ Known Limitations & Future Work
-
-- **Satellite imagery** – API supports it, not yet implemented in viewer.
-- **Wind background** – no dedicated wind map, falls back to `europa.png`.
-- **Trial plan limit** – 1000 tile requests per day; the cache helps, but heavy usage may exceed it.
-- **Map panning** – currently not implemented (only zoom and time change).
+### 6. Color is not applied to all screens
+- The function `apply_global_theme` must be called in every secondary screen (already done for all main screens). If a custom screen lacks the `background_plate` and `selection_overlay` widgets, the theme will not be applied.
 
 ---
 
-## 📄 License
+## Credits
 
-This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
+- **Original design and idea:** @Bauernbub
+- **Modifications and further development:** @Lululla
+- **Contributions:** Assistant (API refactoring, meteogram, new data integration, extensive debugging, menu navigation, station scraping, lunar data, advanced units, global theme, DailyForecast fixes)
+
+Thanks to @Orlandox and all friends who provided suggestions and tested the plugin.
+
+---
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0**.  
+See the [LICENSE](LICENSE) file for details.
 
 ---
 

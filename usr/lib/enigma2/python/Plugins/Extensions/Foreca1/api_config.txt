@@ -1,4 +1,4 @@
-# Foreca 1 API Configuration Template
+# Foreca One API Configuration Template
 # Rename this file to api_config.txt and fill in your credentials
 # Get your API keys from: https://developer.foreca.com/
 
