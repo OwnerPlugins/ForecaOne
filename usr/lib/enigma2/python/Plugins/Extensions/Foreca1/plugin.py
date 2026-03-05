@@ -121,7 +121,7 @@ def my_speed_wind(indata, metka):
             return '%.01f' % val
         else:
             return '%.01f' % val
-    except BaseException:
+    except:
         return '0.00'
 
 
@@ -199,8 +199,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             if not self.weather_api_auth.check_credentials():
                 self.weather_api_auth = None
                 if DEBUG:
-                    print(
-                        "[Foreca1] Authenticated API not configured (no credentials)")
+                    print("[Foreca1] Authenticated API not configured (no credentials)")
         except Exception as e:
             print(f"[Foreca1] Authenticated API initialization error: {e}")
             self.weather_api_auth = None
@@ -250,20 +249,14 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # Read Favorites
         self.path_loc0 = self._read_favorite('home') or '103169070/Rome-Italy'
-        self.path_loc1 = self._read_favorite(
-            'fav1') or '100524901/Moscow-Russia'
-        self.path_loc2 = self._read_favorite(
-            'fav2') or '102961214/Thurles-County-Tipperary-Ireland'
+        self.path_loc1 = self._read_favorite('fav1') or '100524901/Moscow-Russia'
+        self.path_loc2 = self._read_favorite('fav2') or '102961214/Thurles-County-Tipperary-Ireland'
         self.skin = load_skin_for_class(Foreca_Preview)
 
         Screen.__init__(self, session)
 
         HelpableScreen.__init__(self)
-        self.setTitle(
-            _("Foreca One Weather Forecast") +
-            " " +
-            _("v.") +
-            VERSION)
+        self.setTitle(_("Foreca One Weather Forecast") + " " + _("v.") + VERSION)
 
         self.timezones = Timezones()
         self.tz = None
@@ -529,38 +522,21 @@ class Foreca_Preview(Screen, HelpableScreen):
                     "wind_speed": self.f_wind_speed[idx],
                     "precipitation": self.f_precipitation[idx],
                     "humidity": self.f_rel_hum[idx],
-                    "uvi": self.f_uvi[idx] if hasattr(
-                        self,
-                        'f_uvi') and idx < len(
-                        self.f_uvi) else 'N/A',
+                    "uvi": self.f_uvi[idx] if hasattr(self, 'f_uvi') and idx < len(self.f_uvi) else 'N/A',
                     "date": self.f_date[0] if self.f_date else "N/A",
                     "day": self.f_day if self.f_day else "N/A",
                     "town": self.town,
                     "country": self.country,
                 }
-                self.session.open(
-                    HourDetailView,
-                    self.weather_api,
-                    self,
-                    self.unit_manager,
-                    hour_data)
+                self.session.open(HourDetailView, self.weather_api, self, self.unit_manager, hour_data)
         elif action == "day":
-            self.session.open(
-                WeatherDetailView,
-                self.weather_api,
-                self,
-                self.unit_manager)
+            self.session.open(WeatherDetailView, self.weather_api, self, self.unit_manager)
         elif action == "favorites":
-            self.session.open(
-                FavoritesDetailView,
-                self.weather_api,
-                self,
-                self.unit_manager)
+            self.session.open(FavoritesDetailView, self.weather_api, self, self.unit_manager)
 
     def keyNumberGlobal(self, number):
         self.tag = number
-        self._load_favorite(
-            self.myloc, [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc])
+        self._load_favorite(self.myloc, [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc])
 
     def red(self):
         self.session.open(ColorSelector, self)
@@ -568,14 +544,12 @@ class Foreca_Preview(Screen, HelpableScreen):
     def left(self):
         if self.tag > 0:
             self.tag -= 1
-            self._load_favorite(
-                self.myloc, [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc])
+            self._load_favorite(self.myloc, [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc])
 
     def right(self):
         if self.tag < 9:
             self.tag += 1
-            self._load_favorite(
-                self.myloc, [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc])
+            self._load_favorite(self.myloc, [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc])
 
     def nextUp(self):
         self["menu"].pageUp()
@@ -624,44 +598,23 @@ class Foreca_Preview(Screen, HelpableScreen):
             return
         key = choice[1]
         if key == "city":
-            self.session.openWithCallback(
-                self.city_selected, CityPanel4, self.menu_dialog)
+            self.session.openWithCallback(self.city_selected, CityPanel4, self.menu_dialog)
         elif key == "daily_forecast":
-            location_id = [self.path_loc0, self.path_loc1,
-                           self.path_loc2][self.myloc].split('/')[0]
+            location_id = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc].split('/')[0]
             location_name = self.town
             if location_id:
-                self.session.openWithCallback(
-                    self.after_main_menu,
-                    DailyForecast,
-                    self.weather_api,
-                    location_id,
-                    location_name)
+                self.session.openWithCallback(self.after_main_menu, DailyForecast, self.weather_api, location_id, location_name)
             else:
-                self.session.open(
-                    MessageBox,
-                    _("No location selected"),
-                    MessageBox.TYPE_INFO)
+                self.session.open(MessageBox, _("No location selected"), MessageBox.TYPE_INFO)
         elif key == "meteogram":
-            location_id = [self.path_loc0, self.path_loc1,
-                           self.path_loc2][self.myloc].split('/')[0]
+            location_id = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc].split('/')[0]
             location_name = self.town
             if location_id:
-                self.session.openWithCallback(
-                    self.after_main_menu,
-                    MeteogramView,
-                    self.weather_api,
-                    location_id,
-                    location_name,
-                    self.unit_manager)
+                self.session.openWithCallback(self.after_main_menu, MeteogramView, self.weather_api, location_id, location_name, self.unit_manager)
             else:
-                self.session.open(
-                    MessageBox,
-                    _("No location selected"),
-                    MessageBox.TYPE_INFO)
+                self.session.open(MessageBox, _("No location selected"), MessageBox.TYPE_INFO)
         elif key == "stations":
-            location_id = [self.path_loc0, self.path_loc1,
-                           self.path_loc2][self.myloc].split('/')[0]
+            location_id = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc].split('/')[0]
             location_name = self.town
             if location_id:
                 self.session.openWithCallback(
@@ -676,28 +629,18 @@ class Foreca_Preview(Screen, HelpableScreen):
                     getattr(self, 'tz_offset', None)
                 )
             else:
-                self.session.open(
-                    MessageBox,
-                    _("No location selected"),
-                    MessageBox.TYPE_INFO)
+                self.session.open(MessageBox, _("No location selected"), MessageBox.TYPE_INFO)
         elif key == "units_simple":
-            self.session.openWithCallback(
-                self.after_units, UnitSettingsSimple, self.unit_manager)
+            self.session.openWithCallback(self.after_units, UnitSettingsSimple, self.unit_manager)
         elif key == "units_advanced":
             from .unit_manager import UnitSettingsAdvanced
-            self.session.openWithCallback(
-                self.after_units,
-                UnitSettingsAdvanced,
-                self.unit_manager)
+            self.session.openWithCallback(self.after_units, UnitSettingsAdvanced, self.unit_manager)
         elif key == "colorselector":
-            self.session.openWithCallback(
-                self.after_main_menu, ColorSelector, self)
+            self.session.openWithCallback(self.after_main_menu, ColorSelector, self)
         elif key == "transparency":
-            self.session.openWithCallback(
-                self.after_main_menu, TransparencySelector, self)
+            self.session.openWithCallback(self.after_main_menu, TransparencySelector, self)
         elif key == "info":
-            self.session.openWithCallback(
-                self.after_main_menu, InfoDialog, self)
+            self.session.openWithCallback(self.after_main_menu, InfoDialog, self)
         elif key == "maps":
             self.open_maps_menu()
         elif key == "exit":
@@ -761,8 +704,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             # Check if the timezone exists in the system
             if self.timezones.timezones.get(tz_name.split('/')[0]):  # area
                 # Create a timezone object using the time module (approximate conversion)
-                # Note: Base Python does not have a real timezone object, but
-                # we can calculate the offset
+                # Note: Base Python does not have a real timezone object, but we can calculate the offset
                 self.tz_name = tz_name
                 # Advanced option: if Python is >= 3.9, zoneinfo can be used
                 try:
@@ -778,8 +720,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.town = self.country = self.lon = self.lat = 'N/A'
 
         if DEBUG:
-            _write_favorite_debug(
-                f"# DEBUG: Location loaded: town={self.town}, country={self.country}, lon={self.lon}, lat={self.lat}")
+            _write_favorite_debug(f"# DEBUG: Location loaded: town={self.town}, country={self.country}, lon={self.lon}, lat={self.lat}")
 
         # Get current weather
         current = self.weather_api.get_current_weather(location_id)
@@ -788,30 +729,21 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.fl_temp = str(current.feel_temp)
             self.pic = current.condition
             self.wind = self.degreesToWindDirection(current.wind_direction)
-            self.wind_speed = str(
-                current.wind_speed) if current.wind_speed is not None else 'N/A'
-            self.wind_gust = str(
-                current.wind_gust) if current.wind_gust is not None else 'N/A'
-            self.rain_mm = str(
-                current.precipitation) if current.precipitation is not None else '0.0'
-            self.hum = str(
-                current.humidity) if current.humidity is not None else 'N/A'
-            self.pressure = str(
-                current.pressure) if current.pressure is not None else 'N/A'
-            self.dewpoint = str(
-                current.dewpoint) if current.dewpoint is not None else 'N/A'
+            self.wind_speed = str(current.wind_speed) if current.wind_speed is not None else 'N/A'
+            self.wind_gust = str(current.wind_gust) if current.wind_gust is not None else 'N/A'
+            self.rain_mm = str(current.precipitation) if current.precipitation is not None else '0.0'
+            self.hum = str(current.humidity) if current.humidity is not None else 'N/A'
+            self.pressure = str(current.pressure) if current.pressure is not None else 'N/A'
+            self.dewpoint = str(current.dewpoint) if current.dewpoint is not None else 'N/A'
             self.uvi = str(current.uvi) if current.uvi is not None else 'N/A'
             self.aqi = str(current.aqi) if current.aqi is not None else 'N/A'
-            self.rainp = str(
-                current.rainp) if current.rainp is not None else 'N/A'
-            self.snowp = str(
-                current.snowp) if current.snowp is not None else 'N/A'
+            self.rainp = str(current.rainp) if current.rainp is not None else 'N/A'
+            self.snowp = str(current.snowp) if current.snowp is not None else 'N/A'
             self.updated = str(current.updated) if current.updated else 'N/A'
             # Convert updated to local time
             if self.updated != 'N/A':
                 try:
-                    utc_dt = datetime.datetime.fromisoformat(
-                        self.updated.replace('Z', '+00:00'))
+                    utc_dt = datetime.datetime.fromisoformat(self.updated.replace('Z', '+00:00'))
                     local_dt = self.utc_to_local(utc_dt)
                     self.updated = local_dt.strftime("%H:%M %d/%m")
                 except Exception as e:
@@ -825,7 +757,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                     f"Wind: {self.wind} {self.wind_speed} km/h, Gust: {self.wind_gust} km/h\n"
                     f"Humidity: {self.hum}%, Pressure: {self.pressure}, Dewpoint: {self.dewpoint}\n"
                     f"Precipitation: {self.rain_mm} mm, UV Index: {self.uvi}, AQI: {self.aqi}, Rain: {self.rainp}, Snow: {self.snowp}\n"
-                    f" updated: Current updated {self.updated}:\n")
+                    f" updated: Current updated {self.updated}:\n"
+                )
                 _write_favorite_debug(dbg_text)
         else:
             if DEBUG:
@@ -834,39 +767,30 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # Daily forecast
         days_needed = max(self.tag + 1, 1)
-        daily_all = self.weather_api.get_daily_forecast(
-            location_id, days=days_needed)
+        daily_all = self.weather_api.get_daily_forecast(location_id, days=days_needed)
         if daily_all and len(daily_all) > self.tag:
             day_selected = daily_all[self.tag]
 
             # --- SUNRISE/SUNSET ---
-            self.sunrise = day_selected.sunrise.strftime(
-                "%H:%M") if day_selected.sunrise else 'N/A'
-            self.sunset = day_selected.sunset.strftime(
-                "%H:%M") if day_selected.sunset else 'N/A'
+            self.sunrise = day_selected.sunrise.strftime("%H:%M") if day_selected.sunrise else 'N/A'
+            self.sunset = day_selected.sunset.strftime("%H:%M") if day_selected.sunset else 'N/A'
             hours = day_selected.daylength // 60 if day_selected.daylength else 0
             mins = day_selected.daylength % 60 if day_selected.daylength else 0
             self.daylen = f"{hours} h {mins} min"
 
             # --- DATA THAT CHANGES WITH THE DAY (present in daily) ---
-            # <-- only for tomorrow, the day after tomorrow, etc.
-            if self.tag > 0:
+            if self.tag > 0:   # <-- only for tomorrow, the day after tomorrow, etc.
                 self.cur_temp = str(day_selected.max_temp)
                 self.fl_temp = str(day_selected.max_temp)
                 self.pic = day_selected.condition
-                self.wind = self.degreesToWindDirection(
-                    day_selected.wind_direction)
+                self.wind = self.degreesToWindDirection(day_selected.wind_direction)
                 self.wind_speed = str(day_selected.wind_speed)
                 self.rain_mm = str(day_selected.precipitation)
                 self.hum = str(day_selected.humidity)
-                self.uvi = str(
-                    day_selected.uvi) if day_selected.uvi is not None else 'N/A'
-                self.rainp = str(
-                    day_selected.rainp) if day_selected.rainp is not None else 'N/A'
-                self.snowp = str(
-                    day_selected.snowp) if day_selected.snowp is not None else 'N/A'
-                self.updated = str(
-                    day_selected.updated) if day_selected.updated else 'N/A'
+                self.uvi = str(day_selected.uvi) if day_selected.uvi is not None else 'N/A'
+                self.rainp = str(day_selected.rainp) if day_selected.rainp is not None else 'N/A'
+                self.snowp = str(day_selected.snowp) if day_selected.snowp is not None else 'N/A'
+                self.updated = str(day_selected.updated) if day_selected.updated else 'N/A'
         else:
             # Fallback: reset all daily fields (including new ones)
             self.sunrise = self.sunset = self.daylen = 'N/A'
@@ -876,32 +800,26 @@ class Foreca_Preview(Screen, HelpableScreen):
             # self.dewpoint remains untouched
 
         if DEBUG:
-            debug_msg = (
-                f"# DEBUG: Daily forecast for day {self.tag}:\n"
-                f"sunrise={self.sunrise}, sunset={self.sunset}, daylen={self.daylen}\n"
-                f"temp={self.cur_temp}, condition={self.pic}, wind={self.wind} {self.wind_speed}\n"
-                f"rain={self.rain_mm}, hum={self.hum}\n"
-                f"(current values preserved: uvi={self.uvi}, rainp={self.rainp}, snowp={self.snowp}, updated={self.updated})")
+            debug_msg = (f"# DEBUG: Daily forecast for day {self.tag}:\n"
+                         f"sunrise={self.sunrise}, sunset={self.sunset}, daylen={self.daylen}\n"
+                         f"temp={self.cur_temp}, condition={self.pic}, wind={self.wind} {self.wind_speed}\n"
+                         f"rain={self.rain_mm}, hum={self.hum}\n"
+                         f"(current values preserved: uvi={self.uvi}, rainp={self.rainp}, snowp={self.snowp}, updated={self.updated})")
             _write_favorite_debug(debug_msg)
 
         # Hourly forecast
-        hourly = self.weather_api.get_hourly_forecast(
-            location_id, day=day_index)
+        hourly = self.weather_api.get_hourly_forecast(location_id, day=day_index)
         if hourly:
             self.f_time = [h.time.strftime("%H:%M") for h in hourly]
             self.f_cur_temp = [str(h.temp) for h in hourly]
             self.f_flike_temp = [str(h.feel_temp) for h in hourly]
             self.f_symb = [h.condition for h in hourly]
-            self.f_wind = [
-                self.degreesToWindDirection(
-                    h.wind_direction) for h in hourly]
+            self.f_wind = [self.degreesToWindDirection(h.wind_direction) for h in hourly]
             self.f_wind_speed = [str(h.wind_speed) for h in hourly]
             # self.f_precipitation = [str(h.precipitation) for h in hourly]
-            self.f_precipitation = [
-                str(h.precip_prob) if h.precip_prob is not None else '0' for h in hourly]
+            self.f_precipitation = [str(h.precip_prob) if h.precip_prob is not None else '0' for h in hourly]
             self.f_rel_hum = [str(h.humidity) for h in hourly]
-            self.f_uvi = [str(h.uvi) if hasattr(h, 'uvi')
-                          and h.uvi is not None else 'N/A' for h in hourly]
+            self.f_uvi = [str(h.uvi) if hasattr(h, 'uvi') and h.uvi is not None else 'N/A' for h in hourly]
             target_date = datetime.date.today() + datetime.timedelta(days=day_index)
             self.f_date = [target_date.strftime("%Y-%m-%d")] * len(hourly)
             self.f_day = target_date.strftime("%A")
@@ -911,15 +829,15 @@ class Foreca_Preview(Screen, HelpableScreen):
                 for i in range(len(hourly)):
                     _write_favorite_debug(
                         f"# DEBUG: Hour {self.f_time[i]}: Temp={self.f_cur_temp[i]}°C, Feels={self.f_flike_temp[i]}°C, Condition={self.f_symb[i]}, "
-                        f"Wind={self.f_wind[i]} {self.f_wind_speed[i]} km/h, Precip={self.f_precipitation[i]}%, Humidity={self.f_rel_hum[i]}%, UV={self.f_uvi[i]}")
+                        f"Wind={self.f_wind[i]} {self.f_wind_speed[i]} km/h, Precip={self.f_precipitation[i]}%, Humidity={self.f_rel_hum[i]}%, UV={self.f_uvi[i]}"
+                    )
         else:
             if DEBUG:
-                debug_msg = (
-                    f"# DEBUG: Daily forecast for day {self.tag}:\n"
-                    f"sunrise={self.sunrise}, sunset={self.sunset}, daylen={self.daylen}\n"
-                    f"temp={self.cur_temp}, condition={self.pic}, wind={self.wind} {self.wind_speed}\n"
-                    f"rain={self.rain_mm}, hum={self.hum}, uvi={self.uvi}, rainp={self.rainp}, snowp={self.snowp}\n"
-                    f"updated={self.updated}")
+                debug_msg = (f"# DEBUG: Daily forecast for day {self.tag}:\n"
+                             f"sunrise={self.sunrise}, sunset={self.sunset}, daylen={self.daylen}\n"
+                             f"temp={self.cur_temp}, condition={self.pic}, wind={self.wind} {self.wind_speed}\n"
+                             f"rain={self.rain_mm}, hum={self.hum}, uvi={self.uvi}, rainp={self.rainp}, snowp={self.snowp}\n"
+                             f"updated={self.updated}")
                 _write_favorite_debug(debug_msg)
             self.f_time = self.f_cur_temp = self.f_flike_temp = self.f_symb = self.f_wind = self.f_wind_speed = self.f_precipitation = self.f_rel_hum = self.f_date = self.f_uvi = []
             self.f_day = 'N/A'
@@ -938,7 +856,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             try:
                 with open(path, "r") as f:
                     return f.read().strip()
-            except BaseException:
+            except:
                 pass
         return None
 
@@ -950,7 +868,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                     parts = f.read().strip().split()
                     if len(parts) >= 3:
                         return parts[0], parts[1], parts[2]
-            except BaseException:
+            except:
                 pass
         return 0, 80, 239
 
@@ -960,7 +878,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             try:
                 with open(path, "r") as f:
                     return f.read().strip()
-            except BaseException:
+            except:
                 pass
         return '#40000000'
 
@@ -974,8 +892,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f.write(city_id)
             chmod(filename, 0o655)
             if DEBUG:
-                print(
-                    f"[Foreca1] Saved {names[index]} = {city_id} (perms 655)")
+                print(f"[Foreca1] Saved {names[index]} = {city_id} (perms 655)")
         except Exception as e:
             print(f"[Foreca1] Error saving {names[index]}: {e}")
 
@@ -986,8 +903,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f.write(f"{self.rgbmyr} {self.rgbmyg} {self.rgbmyb}")
             chmod(path, 0o655)
             if DEBUG:
-                print(
-                    f"[Foreca1] Color saved: {self.rgbmyr} {self.rgbmyg} {self.rgbmyb}")
+                print(f"[Foreca1] Color saved: {self.rgbmyr} {self.rgbmyg} {self.rgbmyb}")
         except Exception as e:
             print("[Foreca1] Error saving color:", e)
 
@@ -1009,32 +925,24 @@ class Foreca_Preview(Screen, HelpableScreen):
         if DEBUG:
             from datetime import datetime
             write_current_weather_debug("\n" + "=" * 60)
-            write_current_weather_debug(
-                f"UPDATE TIME: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            write_current_weather_debug(f"UPDATE TIME: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             write_current_weather_debug(f"Town        : {self.town}")
-            write_current_weather_debug(
-                f"Unit system : {self.unit_manager.get_simple_system()}")
+            write_current_weather_debug(f"Unit system : {self.unit_manager.get_simple_system()}")
             write_current_weather_debug("RAW DATA:")
             write_current_weather_debug(f"  Temp       = {self.cur_temp}")
             write_current_weather_debug(f"  Feels like = {self.fl_temp}")
             write_current_weather_debug(f"  Dewpoint   = {self.dewpoint}")
             write_current_weather_debug(f"  Condition  = {self.pic}")
-            write_current_weather_debug(
-                f"  Wind       = {self.wind} {self.wind_speed}")
+            write_current_weather_debug(f"  Wind       = {self.wind} {self.wind_speed}")
             write_current_weather_debug(f"  Gust       = {self.wind_gust}")
             write_current_weather_debug(f"  Rain       = {self.rain_mm}")
             write_current_weather_debug(f"  Humidity   = {self.hum}")
             write_current_weather_debug(f"  Pressure   = {self.pressure}")
-            write_current_weather_debug(
-                f"  UV index   = {getattr(self, 'uvi', 'N/A')}")
-            write_current_weather_debug(
-                f"  AQI        = {getattr(self, 'aqi', 'N/A')}")
-            write_current_weather_debug(
-                f"  Rain prob. = {getattr(self, 'rainp', 'N/A')}%")
-            write_current_weather_debug(
-                f"  Snow prob. = {getattr(self, 'snowp', 'N/A')}%")
-            write_current_weather_debug(
-                f"  Updated    = {getattr(self, 'updated', 'N/A')}")
+            write_current_weather_debug(f"  UV index   = {getattr(self, 'uvi', 'N/A')}")
+            write_current_weather_debug(f"  AQI        = {getattr(self, 'aqi', 'N/A')}")
+            write_current_weather_debug(f"  Rain prob. = {getattr(self, 'rainp', 'N/A')}%")
+            write_current_weather_debug(f"  Snow prob. = {getattr(self, 'snowp', 'N/A')}%")
+            write_current_weather_debug(f"  Updated    = {getattr(self, 'updated', 'N/A')}")
             write_current_weather_debug(f"  Sunrise    = {self.sunrise}")
             write_current_weather_debug(f"  Sunset     = {self.sunset}")
             write_current_weather_debug(f"  Day length = {self.daylen}")
@@ -1045,8 +953,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- TEMPERATURE ---
         if self.cur_temp != 'N/A':
-            temp_val, temp_unit = self.unit_manager.convert_temperature(
-                float(self.cur_temp))
+            temp_val, temp_unit = self.unit_manager.convert_temperature(float(self.cur_temp))
             cur_temp_text = f"{temp_val:.0f}{temp_unit}"
         else:
             cur_temp_text = "N/A"
@@ -1054,8 +961,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- FEELS LIKE ---
         if self.fl_temp != 'N/A':
-            fl_val, fl_unit = self.unit_manager.convert_temperature(
-                float(self.fl_temp))
+            fl_val, fl_unit = self.unit_manager.convert_temperature(float(self.fl_temp))
             feels_text = f"{_('Feels like')} {fl_val:.0f}{fl_unit}"
         else:
             feels_text = f"{_('Feels like')} N/A"
@@ -1067,8 +973,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- WIND ---
         if self.wind_speed != 'N/A':
-            wind_val, wind_unit = self.unit_manager.convert_wind(
-                float(self.wind_speed))
+            wind_val, wind_unit = self.unit_manager.convert_wind(float(self.wind_speed))
             wind_text = f"{_('Wind speed')}: {wind_val:.1f} {wind_unit}"
         else:
             wind_text = f"{_('Wind speed')} N/A"
@@ -1076,8 +981,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- WIND GUST ---
         if self.wind_gust != 'N/A':
-            gust_val, gust_unit = self.unit_manager.convert_wind(
-                float(self.wind_gust))
+            gust_val, gust_unit = self.unit_manager.convert_wind(float(self.wind_gust))
             gust_text = f"{_('Gust')}: {gust_val:.1f} {gust_unit}"
         else:
             gust_text = f"{_('Gust')} N/A"
@@ -1085,8 +989,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- PRESSURE ---
         if self.pressure != 'N/A':
-            press_val, press_unit = self.unit_manager.convert_pressure(
-                float(self.pressure))
+            press_val, press_unit = self.unit_manager.convert_pressure(float(self.pressure))
             if press_unit == 'inHg':
                 press_text = f"{press_val:.2f} {press_unit}"
             else:
@@ -1097,8 +1000,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- RAIN ---
         if self.rain_mm != 'N/A':
-            rain_val, rain_unit = self.unit_manager.convert_precipitation(
-                float(self.rain_mm))
+            rain_val, rain_unit = self.unit_manager.convert_precipitation(float(self.rain_mm))
             rain_text = f"{_('Rain')}: {rain_val:.1f} {rain_unit}"
         else:
             rain_text = "N/A"
@@ -1150,12 +1052,9 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["icon_wind"].instance.show()
 
         # --- SUNRISE, SUNSET, DAY LENGTH ---
-        self["sunrise_value"].setText(
-            self.sunrise if self.sunrise != 'N/A' else 'N/A')
-        self["sunset_value"].setText(
-            self.sunset if self.sunset != 'N/A' else 'N/A')
-        self["day_length"].setText(
-            self.daylen if self.daylen != 'N/A' else 'N/A')
+        self["sunrise_value"].setText(self.sunrise if self.sunrise != 'N/A' else 'N/A')
+        self["sunset_value"].setText(self.sunset if self.sunset != 'N/A' else 'N/A')
+        self["day_length"].setText(self.daylen if self.daylen != 'N/A' else 'N/A')
         self["sunrise_value"].instance.invalidate()
         self["sunset_value"].instance.invalidate()
         self["day_length"].instance.invalidate()
@@ -1202,11 +1101,10 @@ class Foreca_Preview(Screen, HelpableScreen):
         if hasattr(self, 'updated') and self.updated != 'N/A':
             try:
                 from datetime import datetime
-                dt = datetime.fromisoformat(
-                    self.updated.replace('Z', '+00:00'))
+                dt = datetime.fromisoformat(self.updated.replace('Z', '+00:00'))
                 updated_str = dt.strftime("%H:%M %d/%m")
                 self["updated_label"].setText(f"{_('Updated')} {updated_str}")
-            except BaseException:
+            except:
                 self["updated_label"].setText(f"{_('Updated')} {self.updated}")
         else:
             self["updated_label"].setText(_('Updated: N/A'))
@@ -1222,19 +1120,13 @@ class Foreca_Preview(Screen, HelpableScreen):
             write_current_weather_debug(f"  Pressure    : {press_text}")
             write_current_weather_debug(f"  Rain        : {rain_text}")
             write_current_weather_debug(f"  Humidity    : {hum_text}")
-            write_current_weather_debug(
-                f"  Description : {self['weather_description'].getText()}")
+            write_current_weather_debug(f"  Description : {self['weather_description'].getText()}")
             if hasattr(self, 'uvi'):
-                write_current_weather_debug(
-                    f"  UV index    : {self.uvi} ({uvi_desc})")
-            write_current_weather_debug(
-                f"  AQI         : {self['aqi_value'].getText()}")
-            write_current_weather_debug(
-                f"  Rain prob.  : {self['rainp_value'].getText()}")
-            write_current_weather_debug(
-                f"  Snow prob.  : {self['snowp_value'].getText()}")
-            write_current_weather_debug(
-                f"  Updated     : {self['updated_label'].getText()}")
+                write_current_weather_debug(f"  UV index    : {self.uvi} ({uvi_desc})")
+            write_current_weather_debug(f"  AQI         : {self['aqi_value'].getText()}")
+            write_current_weather_debug(f"  Rain prob.  : {self['rainp_value'].getText()}")
+            write_current_weather_debug(f"  Snow prob.  : {self['snowp_value'].getText()}")
+            write_current_weather_debug(f"  Updated     : {self['updated_label'].getText()}")
             write_current_weather_debug("=" * 60)
 
     def my_forecast_weather(self):
@@ -1249,8 +1141,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             try:
                 with open(dbg_path, "a") as dbg:
                     dbg.write("\n" + "=" * 70 + "\n")
-                    dbg.write(
-                        f"FORECAST UPDATE START: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    dbg.write(f"FORECAST UPDATE START: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                     dbg.write("=" * 70 + "\n")
             except Exception as e:
                 print(f"[Foreca1] Forecast debug write error: {e}")
@@ -1278,20 +1169,13 @@ class Foreca_Preview(Screen, HelpableScreen):
                         dbg.write("-" * 60 + "\n")
                         dbg.write(f"INDEX: {i}\n")
                         dbg.write(f"Time: {self.f_time[i]}\n")
-                        dbg.write(
-                            f"Raw temperature: {self.f_cur_temp[i] if i < len(self.f_cur_temp) else 'N/A'}\n")
-                        dbg.write(
-                            f"Raw symbol: {self.f_symb[i] if i < len(self.f_symb) else 'N/A'}\n")
-                        dbg.write(
-                            f"Raw wind direction: {self.f_wind[i] if i < len(self.f_wind) else 'N/A'}\n")
-                        dbg.write(
-                            f"Raw wind speed: {self.f_wind_speed[i] if i < len(self.f_wind_speed) else 'N/A'}\n")
-                        dbg.write(
-                            f"Raw feels like: {self.f_flike_temp[i] if i < len(self.f_flike_temp) else 'N/A'}\n")
-                        dbg.write(
-                            f"Raw precipitation: {self.f_precipitation[i] if i < len(self.f_precipitation) else 'N/A'}\n")
-                        dbg.write(
-                            f"Raw humidity: {self.f_rel_hum[i] if i < len(self.f_rel_hum) else 'N/A'}\n")
+                        dbg.write(f"Raw temperature: {self.f_cur_temp[i] if i < len(self.f_cur_temp) else 'N/A'}\n")
+                        dbg.write(f"Raw symbol: {self.f_symb[i] if i < len(self.f_symb) else 'N/A'}\n")
+                        dbg.write(f"Raw wind direction: {self.f_wind[i] if i < len(self.f_wind) else 'N/A'}\n")
+                        dbg.write(f"Raw wind speed: {self.f_wind_speed[i] if i < len(self.f_wind_speed) else 'N/A'}\n")
+                        dbg.write(f"Raw feels like: {self.f_flike_temp[i] if i < len(self.f_flike_temp) else 'N/A'}\n")
+                        dbg.write(f"Raw precipitation: {self.f_precipitation[i] if i < len(self.f_precipitation) else 'N/A'}\n")
+                        dbg.write(f"Raw humidity: {self.f_rel_hum[i] if i < len(self.f_rel_hum) else 'N/A'}\n")
                 except Exception as e:
                     print(f"[Foreca1] Forecast debug single entry error: {e}")
 
@@ -1299,38 +1183,30 @@ class Foreca_Preview(Screen, HelpableScreen):
             try:
                 temp_val = float(self.f_cur_temp[i])
                 if self.unit_manager:
-                    converted, unit = self.unit_manager.convert_temperature(
-                        temp_val)
+                    converted, unit = self.unit_manager.convert_temperature(temp_val)
                     temp_str = f"{int(converted)}{unit}"
                 else:
-                    temp_str = f"+{int(temp_val)}" if temp_val >= 0 else str(
-                        int(temp_val)) + "°C"
-            except BaseException:
+                    temp_str = f"+{int(temp_val)}" if temp_val >= 0 else str(int(temp_val)) + "°C"
+            except:
                 temp_str = "N/A"
 
             # Weather icon
             symb = self.f_symb[i] if i < len(self.f_symb) else 'n600'
-            icon_path = resolveFilename(
-                SCOPE_PLUGINS, f"Extensions/Foreca1/thumb/{symb}.png")
+            icon_path = resolveFilename(SCOPE_PLUGINS, f"Extensions/Foreca1/thumb/{symb}.png")
             if exists(icon_path):
                 icon_meteo = LoadPixmap(cached=True, path=icon_path)
             else:
-                icon_meteo = LoadPixmap(
-                    cached=True, path=resolveFilename(
-                        SCOPE_PLUGINS, "Extensions/Foreca1/thumb/n600.png"))
+                icon_meteo = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/Foreca1/thumb/n600.png"))
 
             # Wind direction
             try:
                 wind_dir_str = self.f_wind[i] if i < len(self.f_wind) else "wN"
-                wind_icon_path = resolveFilename(
-                    SCOPE_PLUGINS, f"Extensions/Foreca1/thumb/{wind_dir_str}.png")
+                wind_icon_path = resolveFilename(SCOPE_PLUGINS, f"Extensions/Foreca1/thumb/{wind_dir_str}.png")
                 if exists(wind_icon_path):
                     icon_wind = LoadPixmap(cached=True, path=wind_icon_path)
                 else:
-                    icon_wind = LoadPixmap(
-                        cached=True, path=resolveFilename(
-                            SCOPE_PLUGINS, "Extensions/Foreca1/thumb/wN.png"))
-            except BaseException:
+                    icon_wind = LoadPixmap(cached=True, path=resolveFilename(SCOPE_PLUGINS, "Extensions/Foreca1/thumb/wN.png"))
+            except:
                 wind_dir_str = "w360"
 
             # --- Wind speed con conversione ---
@@ -1341,25 +1217,23 @@ class Foreca_Preview(Screen, HelpableScreen):
                     wind_speed_str = f"{int(converted)} {unit}"
                 else:
                     wind_speed_str = f"{int(speed * 3.6)} km/h"
-            except BaseException:
+            except:
                 wind_speed_str = "N/A"
 
             # --- Feels like con conversione ---
             try:
                 fl_val = float(self.f_flike_temp[i])
                 if self.unit_manager:
-                    converted, unit = self.unit_manager.convert_temperature(
-                        fl_val)
+                    converted, unit = self.unit_manager.convert_temperature(fl_val)
                     fl_str = f"{int(converted)}{unit}"
                 else:
                     fl_str = f"+{int(fl_val)}" if fl_val >= 0 else str(int(fl_val)) + "°C"
-            except BaseException:
+            except:
                 fl_str = "N/A"
             feels_like_str = f"{_('Feels like:')} {fl_str}"
 
             # Precipitation
-            precip = self.f_precipitation[i] if i < len(
-                self.f_precipitation) else '0'
+            precip = self.f_precipitation[i] if i < len(self.f_precipitation) else '0'
             precip_str = f"{_('Precipitations:')} {precip}%"
 
             # Humidity
@@ -1390,15 +1264,13 @@ class Foreca_Preview(Screen, HelpableScreen):
             from datetime import datetime
             try:
                 with open(dbg_path, "a") as dbg:
-                    dbg.write(
-                        f"FORECAST UPDATE END: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    dbg.write(f"FORECAST UPDATE END: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                     dbg.write("=" * 70 + "\n\n")
             except Exception as e:
                 print(f"[Foreca1] Forecast debug write error: {e}")
 
     def _update_titles(self):
-        date_str = str(self.f_date[0]) if self.f_date else _(
-            "No date available")
+        date_str = str(self.f_date[0]) if self.f_date else _("No date available")
         day_str = trans(self.f_day) if is_valid(self.f_day) else ""
         title_text = f"{self.town}, {trans(self.country)} - {date_str}"
         if day_str:
@@ -1425,19 +1297,9 @@ class Foreca_Preview(Screen, HelpableScreen):
     def _update_button(self):
         if DEBUG:
             print("[DEBUG] update_button() called")
-            print(
-                "[DEBUG] self.rgbmyr, g, b =",
-                self.rgbmyr,
-                self.rgbmyg,
-                self.rgbmyb)
+            print("[DEBUG] self.rgbmyr, g, b =", self.rgbmyr, self.rgbmyg, self.rgbmyb)
         self.color = gRGB(int(self.rgbmyr), int(self.rgbmyg), int(self.rgbmyb))
-        for name in [
-            "selection_overlay",
-            "background_plate",
-            "color_bg_today",
-            "color_bg_forecast",
-            "color_bg_sun",
-                "color_bg_coords"]:
+        for name in ["selection_overlay", "background_plate", "color_bg_today", "color_bg_forecast", "color_bg_sun", "color_bg_coords"]:
             if name in self:
                 if DEBUG:
                     print(f"[DEBUG] {name} exists")
@@ -1447,18 +1309,12 @@ class Foreca_Preview(Screen, HelpableScreen):
                     self[name].instance.setBackgroundColor(self.color)
                     self[name].instance.invalidate()
                 else:
-                    print(
-                        f"[DEBUG] {name} instance is None (widget non creato dalla skin?)")
+                    print(f"[DEBUG] {name} instance is None (widget non creato dalla skin?)")
             else:
                 print(f"[DEBUG] {name} NOT in self (manca nella skin?)")
 
         transparent_color = parseColor(self.alpha)
-        for name in [
-            "transp_bg_today",
-            "transp_bg_forecast",
-            "transp_bg_sun",
-            "transp_bg_coords",
-                "transp_bg_header"]:
+        for name in ["transp_bg_today", "transp_bg_forecast", "transp_bg_sun", "transp_bg_coords", "transp_bg_header"]:
             if name in self:
                 if self[name].instance:
                     self[name].instance.setBackgroundColor(transparent_color)
@@ -1469,8 +1325,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
     def _update_station_label(self):
         """Update the nearest station name (if available) using auth API or scraping."""
-        location_id = [self.path_loc0, self.path_loc1,
-                       self.path_loc2][self.myloc].split('/')[0]
+        location_id = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc].split('/')[0]
         if not location_id:
             return
 
@@ -1486,8 +1341,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         # 1. Try with authenticated API (if available)
         if hasattr(self, 'weather_api_auth') and self.weather_api_auth:
             try:
-                observations = self.weather_api_auth.get_station_observations(
-                    location_id, station_limit=1)
+                observations = self.weather_api_auth.get_station_observations(location_id, station_limit=1)
                 if observations and len(observations) > 0:
                     obs = observations[0]
                     station_name = obs.get('station', 'N/A')
@@ -1501,11 +1355,9 @@ class Foreca_Preview(Screen, HelpableScreen):
                 print(f"[Foreca1] Auth station error: {e}")
 
         # 2. Fallback to scraping (via free API)
-        if station_text == _("No station data") and hasattr(
-                self.weather_api, 'get_nearby_stations_scraped'):
+        if station_text == _("No station data") and hasattr(self.weather_api, 'get_nearby_stations_scraped'):
             try:
-                stations = self.weather_api.get_nearby_stations_scraped(
-                    location_id)
+                stations = self.weather_api.get_nearby_stations_scraped(location_id)
                 if stations and len(stations) > 0:
                     first = stations[0]
                     station_name = first.get('station', 'N/A')
@@ -1536,8 +1388,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         if "moon_label" in self:
             self["moon_label"].setText(_(phase_name))
         if "moon_illum" in self:
-            self["moon_illum"].setText(
-                _("Visibility") + f" {illumination:.1f}%")
+            self["moon_illum"].setText(_("Visibility") + f" {illumination:.1f}%")
         if "moon_distance" in self:
             distance = self.moon.get_moon_distance()
             self["moon_distance"].setText(_("Distance {} km").format(distance))
@@ -1549,8 +1400,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 offset_hours = self.tz_offset
             elif hasattr(self, 'tz'):
                 from datetime import datetime
-                offset_hours = self.tz.utcoffset(
-                    datetime.now()).total_seconds() / 3600
+                offset_hours = self.tz.utcoffset(datetime.now()).total_seconds() / 3600
             self.moon.get_moon_data_async(
                 float(self.lat), float(self.lon),
                 callback=self._moon_api_callback,
@@ -1569,17 +1419,14 @@ class Foreca_Preview(Screen, HelpableScreen):
             def update_ui():
                 info = self.moon.get_phase_info()
                 if "icon_moon" in self and info["icon_path"]:
-                    self["icon_moon"].instance.setPixmapFromFile(
-                        info["icon_path"])
+                    self["icon_moon"].instance.setPixmapFromFile(info["icon_path"])
                 if "moon_label" in self:
                     self["moon_label"].setText(_(info["name"]))
                 if "moon_illum" in self:
-                    self["moon_illum"].setText(
-                        _("Illumination") + f" {info['illumination']:.1f}%")
+                    self["moon_illum"].setText(_("Illumination") + f" {info['illumination']:.1f}%")
                 if "moon_distance" in self:
                     distance = self.moon.get_moon_distance()
-                    self["moon_distance"].setText(
-                        _("Distance {} km").format(distance))
+                    self["moon_distance"].setText(_("Distance {} km").format(distance))
             reactor.callFromThread(update_ui)
 
     def open_foreca_api_maps(self, callback=None):
@@ -1588,14 +1435,13 @@ class Foreca_Preview(Screen, HelpableScreen):
                 MessageBox,
                 _("API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials.").format(CONFIG_FILE),
                 MessageBox.TYPE_ERROR,
-                timeout=10)
+                timeout=10
+            )
             return
         try:
             # Use the currently selected location (self.myloc)
-            current_path = [self.path_loc0,
-                            self.path_loc1, self.path_loc2][self.myloc]
-            location_id = current_path.split(
-                '/')[0] if '/' in current_path else current_path
+            current_path = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc]
+            location_id = current_path.split('/')[0] if '/' in current_path else current_path
             region = self.determine_region_from_location(
                 location_id=location_id,
                 country_name=self.country,
@@ -1603,34 +1449,18 @@ class Foreca_Preview(Screen, HelpableScreen):
                 lat=self.lat
             )
             if DEBUG:
-                print(
-                    f"[DEBUG] Opening ForecaMapMenu with region='{region}', unit_system='{self.unit_manager.get_simple_system()}'")
+                print(f"[DEBUG] Opening ForecaMapMenu with region='{region}', unit_system='{self.unit_manager.get_simple_system()}'")
             api = ForecaMapAPI(region=region)
             if not api.check_credentials():
-                self.session.open(
-                    MessageBox,
-                    _("API credentials not configured."),
-                    MessageBox.TYPE_ERROR)
+                self.session.open(MessageBox, _("API credentials not configured."), MessageBox.TYPE_ERROR)
                 return
             if callback:
-                self.session.openWithCallback(
-                    callback,
-                    ForecaMapMenu,
-                    api,
-                    self.unit_manager.get_simple_system(),
-                    region)
+                self.session.openWithCallback(callback, ForecaMapMenu, api, self.unit_manager.get_simple_system(), region)
             else:
-                self.session.open(
-                    ForecaMapMenu,
-                    api,
-                    self.unit_manager.get_simple_system(),
-                    region)
+                self.session.open(ForecaMapMenu, api, self.unit_manager.get_simple_system(), region)
         except Exception as e:
             print("[Foreca1] Error opening API maps:", e)
-            self.session.open(
-                MessageBox,
-                _("Could not initialize map API."),
-                MessageBox.TYPE_ERROR)
+            self.session.open(MessageBox, _("Could not initialize map API."), MessageBox.TYPE_ERROR)
 
     def open_maps_menu(self):
         maps_menu = [
@@ -1646,41 +1476,27 @@ class Foreca_Preview(Screen, HelpableScreen):
         )
 
     def open_daily_forecast(self):
-        location_id = [self.path_loc0, self.path_loc1,
-                       self.path_loc2][self.myloc].split('/')[0]
+        location_id = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc].split('/')[0]
         location_name = self.town
         if not location_id:
-            self.session.open(
-                MessageBox,
-                _("No location selected"),
-                MessageBox.TYPE_INFO)
+            self.session.open(MessageBox, _("No location selected"), MessageBox.TYPE_INFO)
             return
-        self.session.open(
-            DailyForecast,
-            self.weather_api,
-            location_id,
-            location_name)
+        self.session.open(DailyForecast, self.weather_api, location_id, location_name)
 
     def open_meteogram(self):
         # debug: start opening meteogram
         if DEBUG:
-            write_meteogram_debug(
-                f"[DEBUG] open_meteogram called - myloc={self.myloc}, town={self.town}")
+            write_meteogram_debug(f"[DEBUG] open_meteogram called - myloc={self.myloc}, town={self.town}")
 
-        location_id = [self.path_loc0, self.path_loc1,
-                       self.path_loc2][self.myloc].split('/')[0]
+        location_id = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc].split('/')[0]
         location_name = self.town
 
         # debug: location info
         if DEBUG:
-            write_meteogram_debug(
-                f"[DEBUG] location_id={location_id}, location_name={location_name}")
+            write_meteogram_debug(f"[DEBUG] location_id={location_id}, location_name={location_name}")
 
         if not location_id:
-            self.session.open(
-                MessageBox,
-                _("No location selected"),
-                MessageBox.TYPE_INFO)
+            self.session.open(MessageBox, _("No location selected"), MessageBox.TYPE_INFO)
             return
         self.session.open(
             MeteogramView,
@@ -1695,21 +1511,15 @@ class Foreca_Preview(Screen, HelpableScreen):
             write_meteogram_debug("[DEBUG] MeteogramView opened successfully")
 
     def open_station_observations(self):
-        location_id = [self.path_loc0, self.path_loc1,
-                       self.path_loc2][self.myloc].split('/')[0]
+        location_id = [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc].split('/')[0]
         location_name = self.town
         if not location_id:
-            self.session.open(
-                MessageBox,
-                _("No location selected"),
-                MessageBox.TYPE_INFO)
+            self.session.open(MessageBox, _("No location selected"), MessageBox.TYPE_INFO)
             return
         self.session.open(
             ForecaStations,
-            # free API (for scraping)
-            self.weather_api,
-            # authenticated API (if exists)
-            getattr(self, 'weather_api_auth', None),
+            self.weather_api,                           # free API (for scraping)
+            getattr(self, 'weather_api_auth', None),    # authenticated API (if exists)
             location_id,
             location_name,
             self.unit_manager
@@ -1756,41 +1566,27 @@ class Foreca_Preview(Screen, HelpableScreen):
             return
         key = choice[1]
         if key == "wetterkontor":
-            self.session.openWithCallback(
-                self.after_maps_menu, ForecaMapsMenu, 'europe')
+            self.session.openWithCallback(self.after_maps_menu, ForecaMapsMenu, 'europe')
         elif key == "foreca_api":
             self.open_foreca_api_maps(callback=self.after_maps_menu)
         elif key == "satellite":
-            self.session.openWithCallback(
-                self.after_maps_menu,
-                MessageBox,
-                _("Satellite photos coming soon!"),
-                MessageBox.TYPE_INFO)
+            self.session.openWithCallback(self.after_maps_menu, MessageBox, _("Satellite photos coming soon!"), MessageBox.TYPE_INFO)
 
-    def determine_region_from_location(
-            self, location_id, country_name, lon, lat):
+    def determine_region_from_location(self, location_id, country_name, lon, lat):
         try:
             if lon and lat and lon != 'N/A' and lat != 'N/A':
                 lon_float = float(lon)
                 lat_float = float(lat)
                 if DEBUG:
-                    print(
-                        f"[DEBUG] determine_region: lon={lon_float}, lat={lat_float}")
+                    print(f"[DEBUG] determine_region: lon={lon_float}, lat={lat_float}")
                 if -125.0 <= lon_float <= -66.0 and 24.0 <= lat_float <= 49.0:
                     if DEBUG:
                         print("[DEBUG] -> us (by coordinates)")
                     return 'us'
-        except BaseException:
+        except:
             pass
         country_lower = str(country_name).lower()
-        us_countries = [
-            'united states',
-            'usa',
-            'u.s.a',
-            'u.s.',
-            'america',
-            'canada',
-            'mexico']
+        us_countries = ['united states', 'usa', 'u.s.a', 'u.s.', 'america', 'canada', 'mexico']
         if any(us in country_lower for us in us_countries):
             if DEBUG:
                 print("[DEBUG] -> us (by country name)")
@@ -1815,7 +1611,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         """Convert UV index to descriptive category."""
         try:
             uvi_val = int(uvi)
-        except BaseException:
+        except:
             return _("Unknown")
         if uvi_val <= 2:
             return _("Low")
@@ -1832,7 +1628,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         """Return a color based on UV index intensity."""
         try:
             uvi_val = int(uvi)
-        except BaseException:
+        except:
             return parseColor("#ffffff")
         if uvi_val <= 2:
             return parseColor("#00ff00")  # green
@@ -1850,8 +1646,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         import subprocess
         try:
             # Use the 'date' command with TZ environment variable to get offset
-            output = subprocess.check_output(
-                ["date", "+%z"], env={"TZ": tz_name}, universal_newlines=True).strip()
+            output = subprocess.check_output(["date", "+%z"], env={"TZ": tz_name}, universal_newlines=True).strip()
             # output is like "+0200" or "-0500"
             if output and len(output) == 5:
                 sign = 1 if output[0] == '+' else -1
@@ -1893,20 +1688,15 @@ def checkInternet():
     try:
         import socket
         socket.setdefaulttimeout(0.5)
-        socket.socket(
-            socket.AF_INET, socket.SOCK_STREAM).connect(
-            ('8.8.8.8', 53))
+        socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(('8.8.8.8', 53))
         return True
-    except BaseException:
+    except:
         return False
 
 
 def main(session, **kwargs):
     if not checkInternet():
-        session.open(
-            MessageBox,
-            _("No Internet connection detected."),
-            MessageBox.TYPE_INFO)
+        session.open(MessageBox, _("No Internet connection detected."), MessageBox.TYPE_INFO)
         return
     session.open(Foreca_Preview)
 
