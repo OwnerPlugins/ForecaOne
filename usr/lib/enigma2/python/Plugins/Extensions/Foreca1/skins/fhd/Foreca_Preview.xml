@@ -38,16 +38,16 @@
     <widget source="menu" render="Listbox" position="840,145" size="1050,775" scrollbarMode="showOnDemand" zPosition="10" transparent="1" backgroundColor="#00000000">
         <convert type="TemplatedMultiContent">
             {"template": [
-                MultiContentEntryText(pos = (40, 0), size = (90, 110), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+                MultiContentEntryText(pos = (20, 0), size = (90, 110), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
                 
-                MultiContentEntryPixmapAlphaTest(pos = (135, 24), size = (70, 70), png = 4),
+                MultiContentEntryPixmapAlphaBlend(pos = (110, 24), size = (70, 70), png = 4),
 
-                MultiContentEntryText(pos = (250, 20), size = (140, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
-                MultiContentEntryText(pos = (250, 65), size = (140, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3),
+                MultiContentEntryText(pos = (200, 20), size = (140, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                MultiContentEntryText(pos = (200, 65), size = (140, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3),
                 
-                MultiContentEntryPixmapAlphaTest(pos = (470, 30), size = (50, 50), png = 2),
-                MultiContentEntryText(pos = (530, 20), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 5),
-                MultiContentEntryText(pos = (530, 65), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 6),
+                MultiContentEntryPixmapAlphaBlend(pos = (350, 30), size = (50, 50), png = 2),
+                MultiContentEntryText(pos = (410, 20), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 5),
+                MultiContentEntryText(pos = (410, 65), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 6),
                 
                 MultiContentEntryText(pos = (500, 1), size = (600, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 7),
                 MultiContentEntryText(pos = (520, 31), size = (350, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 8),
@@ -65,11 +65,11 @@
     <widget name="icon_temp_perc" position="40,611" size="50,50" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="temperature_feelslike" position="95,615" size="330,40" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" valign="center" />
     <!-- Moon phase -->
-    <widget name="icon_moon" position="360,347" size="90,90" pixmap="moon/moon1.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="icon_moon" position="360,347" size="90,90" pixmap="moon/moon0000.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moon_label" position="145,435" size="500,40" font="Regular; 32" foregroundColor="#92f1fc" backgroundColor="#00000000" transparent="1" valign="center" halign="center" zPosition="10" />
-    <widget name="icon_moon_light" position="40,473" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon_light.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="icon_moon_light" position="40,473" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/moon_light.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moon_illum" position="95,480" size="250,40" font="Regular; 26" foregroundColor="#ff9632" backgroundColor="#00000000" transparent="1" valign="center" halign="left" zPosition="10" />
-    <widget name="icon_moon_dist" position="700,478" size="80,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon_dist.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="icon_moon_dist" position="700,478" size="80,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/moon_dist.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moon_distance" position="360,480" size="330,40" zPosition="10" font="Regular; 26" foregroundColor="#ff9632" backgroundColor="#00000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_moonrise" position="40,338" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/moonrise.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moonrise_label" position="100,365" size="170,30" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#00000000" transparent="1" valign="center" halign="left" />

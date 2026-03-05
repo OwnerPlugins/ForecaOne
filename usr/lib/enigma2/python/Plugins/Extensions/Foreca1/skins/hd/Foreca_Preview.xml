@@ -65,11 +65,11 @@
     <widget name="icon_temp_perc" position="26,407" size="33,33" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="temperature_feelslike" position="63,410" size="200,26" zPosition="10" font="Regular; 17" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" valign="center" />
     <!-- Moon phase -->
-    <widget name="icon_moon" position="240,231" size="60,60" pixmap="moon/moon1.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="icon_moon" position="240,231" size="60,60" pixmap="moon/moon0000.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moon_label" position="95,290" size="333,30" font="Regular; 21" foregroundColor="#92f1fc" backgroundColor="#00000000" transparent="1" valign="center" halign="center" zPosition="10" />
-    <widget name="icon_moon_light" position="26,315" size="33,33" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon_light.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="icon_moon_light" position="26,315" size="33,33" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/moon_light.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moon_illum" position="63,320" size="166,26" font="Regular; 17" foregroundColor="#ff9632" backgroundColor="#00000000" transparent="1" valign="center" halign="left" zPosition="10" />
-    <widget name="icon_moon_dist" position="466,318" size="53,33" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon_dist.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="icon_moon_dist" position="466,318" size="53,33" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/moon_dist.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moon_distance" position="243,320" size="220,26" zPosition="10" font="Regular; 17" foregroundColor="#ff9632" backgroundColor="#00000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_moonrise" position="26,225" size="33,33" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/moonrise.png" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="moonrise_label" position="63,218" size="160,20" zPosition="10" font="Regular; 18" foregroundColor="#ff9632" backgroundColor="#00000000" transparent="1" valign="center" halign="left" />
