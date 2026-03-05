@@ -377,6 +377,9 @@ msgstr "Umidità: {}%"
 msgid "Hungary"
 msgstr "Ungheria"
 
+msgid "Illumination"
+msgstr ""
+
 msgid "Image %(current)d/%(total)d"
 msgstr "Immaggine %(current)d/%(total)d"
 

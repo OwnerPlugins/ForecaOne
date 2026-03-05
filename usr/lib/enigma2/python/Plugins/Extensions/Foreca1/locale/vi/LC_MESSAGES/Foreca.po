@@ -371,6 +371,9 @@ msgstr ""
 msgid "Hungary"
 msgstr ""
 
+msgid "Illumination"
+msgstr ""
+
 msgid "Image %(current)d/%(total)d"
 msgstr ""
 

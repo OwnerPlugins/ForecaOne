@@ -378,6 +378,9 @@ msgstr "Kosteus: {}%"
 msgid "Hungary"
 msgstr "Unkari"
 
+msgid "Illumination"
+msgstr ""
+
 msgid "Image %(current)d/%(total)d"
 msgstr "Kuva %(current)d/%(total)d"
 

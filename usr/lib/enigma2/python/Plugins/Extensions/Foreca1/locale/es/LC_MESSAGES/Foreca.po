@@ -399,6 +399,9 @@ msgstr "Humedad"
 msgid "Hungary"
 msgstr "Hungría"
 
+msgid "Illumination"
+msgstr ""
+
 msgid "Image %(current)d/%(total)d"
 msgstr ""
 

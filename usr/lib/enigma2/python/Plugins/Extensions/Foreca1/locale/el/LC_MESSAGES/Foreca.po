@@ -375,6 +375,9 @@ msgstr "Υγρασία: {}%"
 msgid "Hungary"
 msgstr "Ουγγαρία"
 
+msgid "Illumination"
+msgstr ""
+
 msgid "Image %(current)d/%(total)d"
 msgstr "Εικόνα %(current)d/%(total)d"
 

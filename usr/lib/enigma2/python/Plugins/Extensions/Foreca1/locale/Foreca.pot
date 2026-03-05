@@ -11,6 +11,7 @@
 
 
 
+
 msgid "0 - Today"
 msgstr ""
 
@@ -363,6 +364,9 @@ msgid "Humidity: {}%"
 msgstr ""
 
 msgid "Hungary"
+msgstr ""
+
+msgid "Illumination"
 msgstr ""
 
 msgid "Image %(current)d/%(total)d"

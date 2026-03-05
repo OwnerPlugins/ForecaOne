@@ -377,6 +377,9 @@ msgstr "الرطوبة: {}%"
 msgid "Hungary"
 msgstr "المجر"
 
+msgid "Illumination"
+msgstr ""
+
 msgid "Image %(current)d/%(total)d"
 msgstr "الصورة %(current)d/%(total)d"
 
