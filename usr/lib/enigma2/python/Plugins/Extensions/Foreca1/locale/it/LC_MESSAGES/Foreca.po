@@ -291,29 +291,34 @@ msgstr "Primo Quarto"
 msgid "Fog"
 msgstr "Nebbia"
 
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca 1 Mappe Live (API)"
-
-msgid "Foreca 1 No stations found"
-msgstr "Foreca 1 Nessuna stazione trovata"
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "Stazioni Foreca 1 {} stazioni nelle vicinanze ({})"
-
-msgid "Foreca 1 Weather Forecast"
-msgstr "Foreca 1 Previsioni del tempo"
-
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca 1 | Mappa {}"
-
 msgid "Foreca One"
 msgstr "Foreca One"
+
+#, fuzzy
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca 1 Mappe Live (API)"
 
 msgid "Foreca One Menu"
 msgstr "Menu Foreca One"
 
+#, fuzzy
+msgid "Foreca One No stations found"
+msgstr "Foreca 1 Nessuna stazione trovata"
+
+#, fuzzy
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Stazioni Foreca 1 {} stazioni nelle vicinanze ({})"
+
+#, fuzzy
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Meteo e Previsioni"
+
 msgid "Foreca One Weather and Forecast"
 msgstr "Foreca One Meteo e Previsioni"
+
+#, fuzzy
+msgid "Foreca One | Map {}"
+msgstr "Foreca 1 | Mappa {}"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "Trovate %d città localmente per '%s'"
@@ -479,9 +484,6 @@ msgstr "Asia Centrale"
 
 msgid "Middle East"
 msgstr "Medio Oriente"
-
-msgid "Min: {}°C, Max: {}°C"
-msgstr ""
 
 msgid "Moderate"
 msgstr "Moderato"
@@ -831,6 +833,10 @@ msgstr "Temperatura"
 msgid "Temperature"
 msgstr "Temperatura"
 
+#, fuzzy
+msgid "Temperature: {}"
+msgstr "Temperatura: {}{}"
+
 msgid "Temperature: {}{}"
 msgstr "Temperatura: {}{}"
 
@@ -972,6 +978,10 @@ msgstr "Direzione del Vento"
 msgid "Wind speed"
 msgstr "Velocità del Vento"
 
+#, fuzzy
+msgid "Wind: {}"
+msgstr "Vento: {} {} {}"
+
 msgid "Wind: {} km/h {}"
 msgstr "Vento: {} km/h {}"
 
@@ -1022,6 +1032,9 @@ msgstr "• Utilizzare i tasti freccia per navigare\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GIALLO per salvare Preferito 2\n"
+
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "Foreca 1 Previsioni del tempo"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "Previsione 7 Giorni"

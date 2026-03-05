@@ -167,6 +167,10 @@ msgstr "اختيار اللون"
 msgid "Condition: {}"
 msgstr "الحالة: {}"
 
+#, fuzzy
+msgid "Continents Weather Maps"
+msgstr "خرائط الطقس الأوروبية"
+
 msgid "Could not initialize map API."
 msgstr "تعذر تهيئة واجهة برمجة تطبيقات الخريطة."
 
@@ -287,29 +291,34 @@ msgstr "الربع الأول"
 msgid "Fog"
 msgstr "ضباب"
 
-msgid "Foreca 1 Live Maps (API)"
-msgstr "خرائط Foreca 1 الحية (API)"
-
-msgid "Foreca 1 No stations found"
-msgstr "Foreca 1 لم يتم العثور على محطات"
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "Foreca 1 المحطات: {} محطة قريبة ({})"
-
-msgid "Foreca 1 Weather Forecast"
-msgstr "توقعات الطقس Foreca 1"
-
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca 1 | الخريطة {}"
-
 msgid "Foreca One"
 msgstr "Foreca One"
+
+#, fuzzy
+msgid "Foreca One Live Maps (API)"
+msgstr "خرائط Foreca 1 الحية (API)"
 
 msgid "Foreca One Menu"
 msgstr "قائمة Foreca One"
 
+#, fuzzy
+msgid "Foreca One No stations found"
+msgstr "Foreca 1 لم يتم العثور على محطات"
+
+#, fuzzy
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca 1 المحطات: {} محطة قريبة ({})"
+
+#, fuzzy
+msgid "Foreca One Weather Forecast"
+msgstr "طقس وتوقعات Foreca One"
+
 msgid "Foreca One Weather and Forecast"
 msgstr "طقس وتوقعات Foreca One"
+
+#, fuzzy
+msgid "Foreca One | Map {}"
+msgstr "Foreca 1 | الخريطة {}"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "تم العثور على %d مدينة محليًا لـ '%s'"
@@ -475,9 +484,6 @@ msgstr "آسيا الوسطى"
 
 msgid "Middle East"
 msgstr "الشرق الأوسط"
-
-msgid "Min: {}°C, Max: {}°C"
-msgstr "الصغرى: {}°م، العظمى: {}°م"
 
 msgid "Moderate"
 msgstr "معتدل"
@@ -827,6 +833,10 @@ msgstr "درجة الحرارة"
 msgid "Temperature"
 msgstr "درجة الحرارة"
 
+#, fuzzy
+msgid "Temperature: {}"
+msgstr "درجة الحرارة: {}{}"
+
 msgid "Temperature: {}{}"
 msgstr "درجة الحرارة: {}{}"
 
@@ -968,6 +978,10 @@ msgstr "اتجاه الرياح"
 msgid "Wind speed"
 msgstr "سرعة الرياح"
 
+#, fuzzy
+msgid "Wind: {}"
+msgstr "الرياح: {} {} {}"
+
 msgid "Wind: {} km/h {}"
 msgstr "الرياح: {} كم/س {}"
 
@@ -1018,3 +1032,9 @@ msgstr "• استخدم مفاتيح الأسهم للتنقل\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• أصفر للحفظ كالمفضلة 2\n"
+
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "توقعات الطقس Foreca 1"
+
+#~ msgid "Min: {}°C, Max: {}°C"
+#~ msgstr "الصغرى: {}°م، العظمى: {}°م"

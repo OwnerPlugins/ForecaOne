@@ -308,36 +308,36 @@ msgid "Fog"
 msgstr "Nebel"
 
 #, fuzzy
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca Live-Karten (API)"
-
-#, fuzzy
-msgid "Foreca 1 No stations found"
-msgstr "Keine Stationen gefunden"
-
-#, fuzzy
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "Keine Stationen gefunden"
-
-#, fuzzy
-msgid "Foreca 1 Weather Forecast"
-msgstr "Foreca Wettervorhersage"
-
-#, fuzzy
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca Live-Karten (API)"
-
-#, fuzzy
 msgid "Foreca One"
 msgstr "Foreca 4"
+
+#, fuzzy
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca Live-Karten (API)"
 
 #, fuzzy
 msgid "Foreca One Menu"
 msgstr "Foreca-Menü"
 
 #, fuzzy
+msgid "Foreca One No stations found"
+msgstr "Keine Stationen gefunden"
+
+#, fuzzy
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Keine Stationen gefunden"
+
+#, fuzzy
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca 4 Wetter und Vorhersage"
+
+#, fuzzy
 msgid "Foreca One Weather and Forecast"
 msgstr "Foreca 4 Wetter und Vorhersage"
+
+#, fuzzy
+msgid "Foreca One | Map {}"
+msgstr "Foreca Live-Karten (API)"
 
 msgid "Found %d cities locally for '%s'"
 msgstr ""
@@ -506,9 +506,6 @@ msgstr "Zentralasien"
 
 msgid "Middle East"
 msgstr "Mittlerer Osten"
-
-msgid "Min: {}°C, Max: {}°C"
-msgstr ""
 
 msgid "Moderate"
 msgstr ""
@@ -877,6 +874,10 @@ msgid "Temperature"
 msgstr "Temperatur"
 
 #, fuzzy
+msgid "Temperature: {}"
+msgstr "Temperatur"
+
+#, fuzzy
 msgid "Temperature: {}{}"
 msgstr "Temperatur"
 
@@ -1027,6 +1028,10 @@ msgstr "Wetter morgen"
 msgid "Wind speed"
 msgstr ""
 
+#, fuzzy
+msgid "Wind: {}"
+msgstr "Wind"
+
 msgid "Wind: {} km/h {}"
 msgstr ""
 
@@ -1077,6 +1082,10 @@ msgstr "• Pfeiltasten zum Navigieren\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GELB zum Speichern als Favorit 2\n"
+
+#, fuzzy
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "Foreca Wettervorhersage"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

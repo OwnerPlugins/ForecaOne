@@ -310,36 +310,36 @@ msgid "Fog"
 msgstr "Mlha"
 
 #, fuzzy
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca Živé mapy (API)"
-
-#, fuzzy
-msgid "Foreca 1 No stations found"
-msgstr "Nebyly nalezeny žádné stanice"
-
-#, fuzzy
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "Nebyly nalezeny žádné stanice"
-
-#, fuzzy
-msgid "Foreca 1 Weather Forecast"
-msgstr "Předpověď počasí Foreca"
-
-#, fuzzy
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca Živé mapy (API)"
-
-#, fuzzy
 msgid "Foreca One"
 msgstr "Foreca 4"
+
+#, fuzzy
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca Živé mapy (API)"
 
 #, fuzzy
 msgid "Foreca One Menu"
 msgstr "Menu Foreca"
 
 #, fuzzy
+msgid "Foreca One No stations found"
+msgstr "Nebyly nalezeny žádné stanice"
+
+#, fuzzy
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Nebyly nalezeny žádné stanice"
+
+#, fuzzy
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca 4 Počasí a předpověď"
+
+#, fuzzy
 msgid "Foreca One Weather and Forecast"
 msgstr "Foreca 4 Počasí a předpověď"
+
+#, fuzzy
+msgid "Foreca One | Map {}"
+msgstr "Foreca Živé mapy (API)"
 
 msgid "Found %d cities locally for '%s'"
 msgstr ""
@@ -508,9 +508,6 @@ msgstr "Střední Asie"
 
 msgid "Middle East"
 msgstr "Střední východ"
-
-msgid "Min: {}°C, Max: {}°C"
-msgstr ""
 
 msgid "Moderate"
 msgstr ""
@@ -879,6 +876,10 @@ msgid "Temperature"
 msgstr "Teplota"
 
 #, fuzzy
+msgid "Temperature: {}"
+msgstr "Teplota"
+
+#, fuzzy
 msgid "Temperature: {}{}"
 msgstr "Teplota"
 
@@ -1029,6 +1030,10 @@ msgstr "Počasí zítra"
 msgid "Wind speed"
 msgstr ""
 
+#, fuzzy
+msgid "Wind: {}"
+msgstr "Vítr"
+
 msgid "Wind: {} km/h {}"
 msgstr ""
 
@@ -1079,6 +1084,10 @@ msgstr "• Pro navigaci použijte šipky\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ŽLUTÁ pro uložení jako Oblíbené 2\n"
+
+#, fuzzy
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "Předpověď počasí Foreca"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

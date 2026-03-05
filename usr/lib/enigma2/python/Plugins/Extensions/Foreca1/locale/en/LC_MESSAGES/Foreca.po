@@ -310,25 +310,11 @@ msgid "Fog"
 msgstr ""
 
 #, fuzzy
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca 4"
-
-msgid "Foreca 1 No stations found"
-msgstr ""
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr ""
-
-#, fuzzy
-msgid "Foreca 1 Weather Forecast"
-msgstr "Foreca Weather Forecast"
-
-#, fuzzy
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca 4"
-
-#, fuzzy
 msgid "Foreca One"
+msgstr "Foreca 4"
+
+#, fuzzy
+msgid "Foreca One Live Maps (API)"
 msgstr "Foreca 4"
 
 #, fuzzy
@@ -336,8 +322,23 @@ msgid "Foreca One Menu"
 msgstr "Foreca 4"
 
 #, fuzzy
+msgid "Foreca One No stations found"
+msgstr "Foreca 4"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr ""
+
+#, fuzzy
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca 4 Weather and Forecast"
+
+#, fuzzy
 msgid "Foreca One Weather and Forecast"
 msgstr "Foreca 4 Weather and Forecast"
+
+#, fuzzy
+msgid "Foreca One | Map {}"
+msgstr "Foreca 4"
 
 msgid "Found %d cities locally for '%s'"
 msgstr ""
@@ -509,9 +510,6 @@ msgid "Middle Asia"
 msgstr ""
 
 msgid "Middle East"
-msgstr ""
-
-msgid "Min: {}°C, Max: {}°C"
 msgstr ""
 
 msgid "Moderate"
@@ -888,6 +886,9 @@ msgstr ""
 msgid "Temperature"
 msgstr ""
 
+msgid "Temperature: {}"
+msgstr ""
+
 msgid "Temperature: {}{}"
 msgstr ""
 
@@ -1041,6 +1042,10 @@ msgstr "Weather tomorrow"
 msgid "Wind speed"
 msgstr ""
 
+#, fuzzy
+msgid "Wind: {}"
+msgstr "Wind"
+
 msgid "Wind: {} km/h {}"
 msgstr ""
 
@@ -1091,6 +1096,10 @@ msgstr ""
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "Foreca Weather Forecast"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

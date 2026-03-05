@@ -289,28 +289,28 @@ msgstr ""
 msgid "Fog"
 msgstr ""
 
-msgid "Foreca 1 Live Maps (API)"
-msgstr ""
-
-msgid "Foreca 1 No stations found"
-msgstr ""
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr ""
-
-msgid "Foreca 1 Weather Forecast"
-msgstr ""
-
-msgid "Foreca 1 | Map {}"
-msgstr ""
-
 msgid "Foreca One"
+msgstr ""
+
+msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
 msgstr ""
 
+msgid "Foreca One No stations found"
+msgstr ""
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr ""
+
+msgid "Foreca One Weather Forecast"
+msgstr ""
+
 msgid "Foreca One Weather and Forecast"
+msgstr ""
+
+msgid "Foreca One | Map {}"
 msgstr ""
 
 msgid "Found %d cities locally for '%s'"
@@ -476,9 +476,6 @@ msgid "Middle Asia"
 msgstr ""
 
 msgid "Middle East"
-msgstr ""
-
-msgid "Min: {}°C, Max: {}°C"
 msgstr ""
 
 msgid "Moderate"
@@ -829,6 +826,9 @@ msgstr ""
 msgid "Temperature"
 msgstr ""
 
+msgid "Temperature: {}"
+msgstr ""
+
 msgid "Temperature: {}{}"
 msgstr ""
 
@@ -968,6 +968,9 @@ msgid "Wind direction"
 msgstr ""
 
 msgid "Wind speed"
+msgstr ""
+
+msgid "Wind: {}"
 msgstr ""
 
 msgid "Wind: {} km/h {}"

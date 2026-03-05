@@ -289,29 +289,34 @@ msgstr "Πρώτο τέταρτο"
 msgid "Fog"
 msgstr "Ομίχλη"
 
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Ζωντανοί χάρτες (API) Foreca 1"
-
-msgid "Foreca 1 No stations found"
-msgstr "Δεν βρέθηκαν σταθμοί  Foreca 1"
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "Σταθμοί: {} σταθμοί κοντά ({} )  Foreca 1"
-
-msgid "Foreca 1 Weather Forecast"
-msgstr "Πρόγνωση καιρού Foreca 1"
-
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca 1 | Χάρτης {}"
-
 msgid "Foreca One"
 msgstr "Foreca One"
+
+#, fuzzy
+msgid "Foreca One Live Maps (API)"
+msgstr "Ζωντανοί χάρτες (API) Foreca 1"
 
 msgid "Foreca One Menu"
 msgstr "Μενού Foreca One"
 
+#, fuzzy
+msgid "Foreca One No stations found"
+msgstr "Δεν βρέθηκαν σταθμοί  Foreca 1"
+
+#, fuzzy
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Σταθμοί: {} σταθμοί κοντά ({} )  Foreca 1"
+
+#, fuzzy
+msgid "Foreca One Weather Forecast"
+msgstr "Καιρός και πρόγνωση Foreca One"
+
 msgid "Foreca One Weather and Forecast"
 msgstr "Καιρός και πρόγνωση Foreca One"
+
+#, fuzzy
+msgid "Foreca One | Map {}"
+msgstr "Foreca 1 | Χάρτης {}"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "Βρέθηκαν %d πόλεις τοπικά για '%s'"
@@ -477,9 +482,6 @@ msgstr "Κεντρική Ασία"
 
 msgid "Middle East"
 msgstr "Μέση Ανατολή"
-
-msgid "Min: {}°C, Max: {}°C"
-msgstr "Ελάχιστη: {}°C, Μέγιστη: {}°C"
 
 msgid "Moderate"
 msgstr "Μέτριο"
@@ -829,6 +831,10 @@ msgstr "Θερμοκρασία"
 msgid "Temperature"
 msgstr "Θερμοκρασία"
 
+#, fuzzy
+msgid "Temperature: {}"
+msgstr "Θερμοκρασία: {}{}"
+
 msgid "Temperature: {}{}"
 msgstr "Θερμοκρασία: {}{}"
 
@@ -970,6 +976,10 @@ msgstr "Κατεύθυνση ανέμου"
 msgid "Wind speed"
 msgstr "Ταχύτητα ανέμου"
 
+#, fuzzy
+msgid "Wind: {}"
+msgstr "Άνεμος: {} {} {}"
+
 msgid "Wind: {} km/h {}"
 msgstr "Άνεμος: {} χλμ/ω {}"
 
@@ -1020,6 +1030,12 @@ msgstr "• Χρησιμοποιήστε τα βέλη για πλοήγηση\n
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2\n"
+
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "Πρόγνωση καιρού Foreca 1"
+
+#~ msgid "Min: {}°C, Max: {}°C"
+#~ msgstr "Ελάχιστη: {}°C, Μέγιστη: {}°C"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "Πρόγνωση 7 ημερών"

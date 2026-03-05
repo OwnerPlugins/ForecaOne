@@ -291,29 +291,35 @@ msgstr "Ensimmäinen neljännes"
 msgid "Fog"
 msgstr "Sumua"
 
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca 1 Live -kartat (API)"
-
-msgid "Foreca 1 No stations found"
-msgstr "Foreca 1 asemia ei löytynyt"
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "Foreca1 asemat: {} asemaa lähellä ({})"
-
-msgid "Foreca 1 Weather Forecast"
-msgstr "Foreca 1 sääennuste"
-
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Foreca 1 sää ja ennuste"
-
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca 1 | Kartta {}"
-
 msgid "Foreca One"
 msgstr "Foreca One"
 
+#, fuzzy
+msgid "Foreca One Live Maps (API)"
+msgstr "Foreca 1 Live -kartat (API)"
+
 msgid "Foreca One Menu"
 msgstr "Foreca One valikko"
+
+#, fuzzy
+msgid "Foreca One No stations found"
+msgstr "Foreca 1 asemia ei löytynyt"
+
+#, fuzzy
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca1 asemat: {} asemaa lähellä ({})"
+
+#, fuzzy
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca 1 sääennuste"
+
+#, fuzzy
+msgid "Foreca One Weather and Forecast"
+msgstr "Foreca 1 sää ja ennuste"
+
+#, fuzzy
+msgid "Foreca One | Map {}"
+msgstr "Foreca 1 | Kartta {}"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "Löytyi %d kaupunkia paikallisesti hakusanalla '%s'"
@@ -479,9 +485,6 @@ msgstr "Keski-Aasia"
 
 msgid "Middle East"
 msgstr "Lähi-itä"
-
-msgid "Min: {}°C, Max: {}°C"
-msgstr "Min: {}°C, Max: {}°C"
 
 msgid "Moderate"
 msgstr "Kohtalainen"
@@ -668,12 +671,6 @@ msgstr "Sademäärä"
 
 msgid "Precipitation: {}"
 msgstr "Sademäärä: {}"
-
-msgid "Precipitations:"
-msgstr "Sateen todennäköisyys:"
-
-msgid "Precipitation: {}%"
-msgstr "Sateen todennäköisyys: {}%"
 
 msgid "Precipitations"
 msgstr "Jatkuva sade"
@@ -981,11 +978,11 @@ msgstr "Tuulen suunta"
 msgid "Wind speed"
 msgstr "Tuulen nopeus"
 
-msgid "Wind: {} km/h {}"
-msgstr "Tuuli: {} km/h {}"
-
 msgid "Wind: {}"
 msgstr "Tuuli: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Tuuli: {} km/h {}"
 
 msgid "Wind: {} {} {}"
 msgstr "Tuuli: {} {} {}"
@@ -1035,38 +1032,47 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
-msgid "Dewpoint"
-msgstr "Kastepiste"
+#~ msgid "Min: {}°C, Max: {}°C"
+#~ msgstr "Min: {}°C, Max: {}°C"
 
-msgid "Dewpoint:"
-msgstr "Kastepiste:"
+#~ msgid "Precipitations:"
+#~ msgstr "Sateen todennäköisyys:"
 
-msgid "Distance"
-msgstr "Etäisyys"
+#~ msgid "Precipitation: {}%"
+#~ msgstr "Sateen todennäköisyys: {}%"
 
-msgid "Feels like:"
-msgstr "Tuntuu kuin:"
+#~ msgid "Dewpoint"
+#~ msgstr "Kastepiste"
 
-msgid "Gust"
-msgstr "Puuska"
+#~ msgid "Dewpoint:"
+#~ msgstr "Kastepiste:"
 
-msgid "Humidity:"
-msgstr "Kosteus:"
+#~ msgid "Distance"
+#~ msgstr "Etäisyys"
 
-msgid "Precip"
-msgstr "Sateen todennäköisyys"
+#~ msgid "Feels like:"
+#~ msgstr "Tuntuu kuin:"
 
-msgid "Rain"
-msgstr "Sade"
+#~ msgid "Gust"
+#~ msgstr "Puuska"
 
-msgid "Rain prob."
-msgstr "Sateen todennäk."
+#~ msgid "Humidity:"
+#~ msgstr "Kosteus:"
 
-msgid "Snow prob."
-msgstr "Lumisateen todennäk."
+#~ msgid "Precip"
+#~ msgstr "Sateen todennäköisyys"
 
-msgid "7 Day Forecast"
-msgstr "7 päivän ennuste"
+#~ msgid "Rain"
+#~ msgstr "Sade"
+
+#~ msgid "Rain prob."
+#~ msgstr "Sateen todennäk."
+
+#~ msgid "Snow prob."
+#~ msgstr "Lumisateen todennäk."
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 päivän ennuste"
 
 #~ msgid "AQI"
 #~ msgstr "AQI"
