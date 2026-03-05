@@ -39,20 +39,19 @@
         <convert type="TemplatedMultiContent">
             {"template": [
                 MultiContentEntryText(pos = (20, 0), size = (90, 110), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                
-                MultiContentEntryPixmapAlphaBlend(pos = (110, 24), size = (70, 70), png = 4),
 
+                MultiContentEntryPixmapAlphaBlend(pos = (110, 24), size = (70, 70), png = 4),
                 MultiContentEntryText(pos = (200, 20), size = (140, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
                 MultiContentEntryText(pos = (200, 65), size = (140, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3),
                 
-                MultiContentEntryPixmapAlphaBlend(pos = (350, 30), size = (50, 50), png = 2),
+                MultiContentEntryPixmapAlphaBlend(pos = (360, 30), size = (50, 50), png = 2),
                 MultiContentEntryText(pos = (410, 20), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 5),
                 MultiContentEntryText(pos = (410, 65), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 6),
                 
-                MultiContentEntryText(pos = (500, 1), size = (600, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 7),
-                MultiContentEntryText(pos = (520, 31), size = (350, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 8),
-                MultiContentEntryText(pos = (520, 56), size = (350, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 9),
-                MultiContentEntryText(pos = (520, 81), size = (350, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 10),
+                MultiContentEntryText(pos = (540, 1), size = (500, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 7),
+                MultiContentEntryText(pos = (560, 31), size = (480, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 8),
+                MultiContentEntryText(pos = (560, 56), size = (480, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 9),
+                MultiContentEntryText(pos = (560, 81), size = (480, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 10),
             ],
             "fonts": [gFont("Regular", 26), gFont("Regular", 20)],
             "itemHeight": 110
