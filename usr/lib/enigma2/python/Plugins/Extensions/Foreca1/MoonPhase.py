@@ -134,7 +134,8 @@ class MoonPhase:
             phase_name = self.api_data["phase"]
             # Calculate icon index based on phase and illumination
             icon_number = self._moon_phase_to_icon(phase_name, illum_percent)
-            # For consistency, we also estimate the phase (0-1) from illumination (not needed, but we keep it)
+            # For consistency, we also estimate the phase (0-1) from
+            # illumination (not needed, but we keep it)
             phase = illum_percent / 100.0  # approximation
             name = phase_name
             illumination = illum_percent
@@ -152,7 +153,8 @@ class MoonPhase:
         if self.icon_path:
             # Build full path (e.g., moon0012.png) with zero-padded to 4 digits
             icon_file = join(self.icon_path, f"moon{icon_number:04d}.png")
-            # If the file does not exist, look for the nearest PNG (safety fallback)
+            # If the file does not exist, look for the nearest PNG (safety
+            # fallback)
 
             if not exists(icon_file):
                 icon_file = self._find_nearest_icon(icon_number)

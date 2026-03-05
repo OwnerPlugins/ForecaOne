@@ -35,9 +35,26 @@ class Place:
 
 
 class CurrentWeather:
-    def __init__(self, datetime, temp, condition, feel_temp, humidity, wind_speed, wind_direction, precipitation,
-                 pressure=None, wind_gust=None, dewpoint=None, uvi=None, aqi=None,
-                 rainp=None, snowp=None, snowff=None, flikeFCA=None, updated=None):
+    def __init__(
+            self,
+            datetime,
+            temp,
+            condition,
+            feel_temp,
+            humidity,
+            wind_speed,
+            wind_direction,
+            precipitation,
+            pressure=None,
+            wind_gust=None,
+            dewpoint=None,
+            uvi=None,
+            aqi=None,
+            rainp=None,
+            snowp=None,
+            snowff=None,
+            flikeFCA=None,
+            updated=None):
         self.datetime = datetime
         self.temp = temp
         self.condition = condition
@@ -59,8 +76,25 @@ class CurrentWeather:
 
 
 class DayForecast:
-    def __init__(self, date, min_temp, max_temp, wind_speed, wind_direction, humidity, condition, precipitation,
-                 sunrise, sunset, daylength, maxwind=None, pres=None, uvi=None, rainp=None, snowp=None, updated=None):
+    def __init__(
+            self,
+            date,
+            min_temp,
+            max_temp,
+            wind_speed,
+            wind_direction,
+            humidity,
+            condition,
+            precipitation,
+            sunrise,
+            sunset,
+            daylength,
+            maxwind=None,
+            pres=None,
+            uvi=None,
+            rainp=None,
+            snowp=None,
+            updated=None):
         self.date = date
         self.min_temp = min_temp
         self.max_temp = max_temp
@@ -81,7 +115,17 @@ class DayForecast:
 
 
 class HourForecast:
-    def __init__(self, time, temp, feel_temp, condition, humidity, wind_speed, wind_direction, precipitation, precip_prob=None):
+    def __init__(
+            self,
+            time,
+            temp,
+            feel_temp,
+            condition,
+            humidity,
+            wind_speed,
+            wind_direction,
+            precipitation,
+            precip_prob=None):
         self.time = time
         self.temp = temp
         self.feel_temp = feel_temp
@@ -190,7 +234,8 @@ class ForecaFreeAPI:
             if resp.status_code == 200:
                 return resp.json()
             else:
-                logging.getLogger(__name__).error(f"HTTP {resp.status_code} for {url}")
+                logging.getLogger(__name__).error(
+                    f"HTTP {resp.status_code} for {url}")
                 return None
         except Exception as e:
             logging.getLogger(__name__).error(f"Error fetching {url}: {e}")
@@ -231,7 +276,11 @@ class ForecaFreeAPI:
             ))
         return places
 
-    def get_location_by_coords(self, lat: float, lon: float, accuracy=1000) -> Optional[Place]:
+    def get_location_by_coords(
+            self,
+            lat: float,
+            lon: float,
+            accuracy=1000) -> Optional[Place]:
         url = f"{self.BASE_URL}/locations/{lon},{lat}.json"
         params = {"accuracy": accuracy}
         data = self._fetch_json(url, params)
@@ -273,7 +322,10 @@ class ForecaFreeAPI:
         )
 
     # ---------- Daily forecast (10 days) ----------
-    def get_daily_forecast(self, location_id: str, days: int = 10) -> List[DayForecast]:
+    def get_daily_forecast(
+            self,
+            location_id: str,
+            days: int = 10) -> List[DayForecast]:
         url = f"{self.BASE_URL}/data/favorites/{location_id}.json"
         data = self._fetch_json(url)
         if not data or location_id not in data:
@@ -282,9 +334,12 @@ class ForecaFreeAPI:
         days_forecast = []
         for item in forecast_list:
             try:
-                date = datetime.datetime.strptime(item["date"], "%Y-%m-%d").date()
-                sunrise = datetime.datetime.strptime(item["sunrise"], "%H:%M:%S").time()
-                sunset = datetime.datetime.strptime(item["sunset"], "%H:%M:%S").time()
+                date = datetime.datetime.strptime(
+                    item["date"], "%Y-%m-%d").date()
+                sunrise = datetime.datetime.strptime(
+                    item["sunrise"], "%H:%M:%S").time()
+                sunset = datetime.datetime.strptime(
+                    item["sunset"], "%H:%M:%S").time()
             except (KeyError, ValueError):
                 continue
             day = DayForecast(
@@ -310,7 +365,9 @@ class ForecaFreeAPI:
         return days_forecast
 
     # ---------- Current weather (using /recent endpoint) ----------
-    def get_current_weather(self, location_id: str) -> Optional[CurrentWeather]:
+    def get_current_weather(
+            self,
+            location_id: str) -> Optional[CurrentWeather]:
         url = f"{self.BASE_URL}/data/recent/{location_id}.json"
         data = self._fetch_json(url)
         if not data or location_id not in data:
@@ -341,11 +398,15 @@ class ForecaFreeAPI:
                 updated=item.get("updated")
             )
         except Exception as e:
-            logging.getLogger(__name__).error(f"Error parsing current weather: {e}")
+            logging.getLogger(__name__).error(
+                f"Error parsing current weather: {e}")
             return None
 
     # ---------- Hourly forecast (scraping) ----------
-    def get_hourly_forecast(self, location_id: str, day: int = 0) -> List[HourForecast]:
+    def get_hourly_forecast(
+            self,
+            location_id: str,
+            day: int = 0) -> List[HourForecast]:
         place = self.get_location_by_id(location_id)
         if not place:
             return []
@@ -366,7 +427,8 @@ class ForecaFreeAPI:
             'tomorrow': {}
         }
 
-        # Get daily forecast for today and tomorrow (for min/max temps and general text)
+        # Get daily forecast for today and tomorrow (for min/max temps and
+        # general text)
         daily_all = self.get_daily_forecast(location_id, days=2)
         if len(daily_all) < 2:
             return result  # Not enough data
@@ -459,51 +521,77 @@ class ForecaFreeAPI:
             return []
 
         # Look for the observations section
-        obs_section = re.search(r'<section class="item observations front">(.*?)</section>', html, re.DOTALL | re.IGNORECASE)
+        obs_section = re.search(
+            r'<section class="item observations front">(.*?)</section>',
+            html,
+            re.DOTALL | re.IGNORECASE)
         if not obs_section:
             return []
         obs_html = obs_section.group(1)
 
         stations = []
         # Each station is an <a class="obsLink"...>...</a>
-        for match in re.finditer(r'<a class="obsLink"[^>]*>(.*?)</a>', obs_html, re.DOTALL | re.IGNORECASE):
+        for match in re.finditer(
+            r'<a class="obsLink"[^>]*>(.*?)</a>',
+            obs_html,
+                re.DOTALL | re.IGNORECASE):
             inner = match.group(1)
 
             # Station name
-            name_match = re.search(r'<div class="locationName"><p>(.*?)</p>', inner, re.DOTALL)
-            station_name = name_match.group(1).strip() if name_match else "Unknown"
+            name_match = re.search(
+                r'<div class="locationName"><p>(.*?)</p>', inner, re.DOTALL)
+            station_name = name_match.group(
+                1).strip() if name_match else "Unknown"
 
             # Current temperature
-            temp_match = re.search(r'<span class="value temp temp_c[^"]*">([+-]?\d+)', inner)
+            temp_match = re.search(
+                r'<span class="value temp temp_c[^"]*">([+-]?\d+)', inner)
             temp = int(temp_match.group(1)) if temp_match else None
 
             # Feels like temperature
-            feels_match = re.search(r'<p[^>]*class="feelsLike".*?<span[^>]*class="value temp temp_c"[^>]*>([+-]?\d+)', inner, re.DOTALL | re.IGNORECASE)
+            feels_match = re.search(
+                r'<p[^>]*class="feelsLike".*?<span[^>]*class="value temp temp_c"[^>]*>([+-]?\d+)',
+                inner,
+                re.DOTALL | re.IGNORECASE)
             feels_like = int(feels_match.group(1)) if feels_match else None
 
             # Dewpoint
-            dew_match = re.search(r'<p[^>]*class="dewpoint".*?<span[^>]*class="value temp temp_c"[^>]*>([+-]?\d+)', inner, re.DOTALL | re.IGNORECASE)
+            dew_match = re.search(
+                r'<p[^>]*class="dewpoint".*?<span[^>]*class="value temp temp_c"[^>]*>([+-]?\d+)',
+                inner,
+                re.DOTALL | re.IGNORECASE)
             dewpoint = int(dew_match.group(1)) if dew_match else None
 
             # Humidity
-            hum_match = re.search(r'<p[^>]*class="humidity".*?<span[^>]*>(\d+)', inner, re.DOTALL | re.IGNORECASE)
+            hum_match = re.search(
+                r'<p[^>]*class="humidity".*?<span[^>]*>(\d+)',
+                inner,
+                re.DOTALL | re.IGNORECASE)
             humidity = int(hum_match.group(1)) if hum_match else None
 
             # Pressure (hPa)
-            press_match = re.search(r'pres_hpa"[^>]*>(\d+)', inner, re.DOTALL | re.IGNORECASE)
+            press_match = re.search(
+                r'pres_hpa"[^>]*>(\d+)',
+                inner,
+                re.DOTALL | re.IGNORECASE)
             pressure = int(press_match.group(1)) if press_match else None
 
             # Visibility (m)
-            vis_match = re.search(r'vis_km"[^>]*>(\d+)', inner, re.DOTALL | re.IGNORECASE)
+            vis_match = re.search(
+                r'vis_km"[^>]*>(\d+)',
+                inner,
+                re.DOTALL | re.IGNORECASE)
             visibility = int(vis_match.group(1)) if vis_match else None
 
             # Last update time
-            time_match = re.search(r'<span class="value time time_24h">(\d{1,2}:\d{2})', inner)
+            time_match = re.search(
+                r'<span class="value time time_24h">(\d{1,2}:\d{2})', inner)
             time_ago = time_match.group(1) if time_match else None
 
             # Station ID
             station_id_match = re.search(r'stationId=(\d+)', inner)
-            station_id = station_id_match.group(1) if station_id_match else None
+            station_id = station_id_match.group(
+                1) if station_id_match else None
 
             stations.append({
                 'station': station_name,
@@ -656,7 +744,8 @@ class ForecaWeatherAPI:
                 return self.token
             else:
                 if DEBUG:
-                    print(f"[Foreca1WeatherAPI] Auth error: {response.status_code}")
+                    print(
+                        f"[Foreca1WeatherAPI] Auth error: {response.status_code}")
                     print(f"Response: {response.text[:200]}")
                 return None
 
@@ -706,7 +795,8 @@ class ForecaWeatherAPI:
             response = requests.get(
                 url, headers=headers, params=params, timeout=15)
             if DEBUG:
-                print(f"[Foreca1WeatherAPI] HTTP Status: {response.status_code}")
+                print(
+                    f"[Foreca1WeatherAPI] HTTP Status: {response.status_code}")
 
             if response.status_code == 200:
                 data = response.json()

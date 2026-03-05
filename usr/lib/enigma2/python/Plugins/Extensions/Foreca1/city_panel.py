@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Copyright (c) @Lululla 2026
-# city_panel.py - City selection panel with offline file and online search fallback
+# city_panel.py - City selection panel with offline file and online search
+# fallback
 
 import requests
 from os.path import exists, join
@@ -165,7 +166,11 @@ class CityPanel4(Screen, HelpableScreen):
 
         city_cfg_path = join(SYSTEM_DIR, "new_city.cfg")
         if not exists(city_cfg_path):
-            self.session.open(MessageBox, _("City list file not found!"), MessageBox.TYPE_WARNING, timeout=5)
+            self.session.open(
+                MessageBox,
+                _("City list file not found!"),
+                MessageBox.TYPE_WARNING,
+                timeout=5)
             return
 
         try:
@@ -177,22 +182,27 @@ class CityPanel4(Screen, HelpableScreen):
                         continue
                     if line.startswith("#"):
                         text = line
-                        mlist_entry = self.create_city_entry(text, is_header=True)
+                        mlist_entry = self.create_city_entry(
+                            text, is_header=True)
                         self.Mlist.append(mlist_entry)
                         continue
                     if "/" not in line:
                         if DEBUG:
-                            print(f"[CityPanel4] Line {line_number} not valid: {line}")
+                            print(
+                                f"[CityPanel4] Line {line_number} not valid: {line}")
                         continue
                     city_id, city_name = line.split("/", 1)
                     city_name = city_name.replace("_", " ")
-                    mlist_entry = self.create_city_entry(city_name, city_id=city_id)
+                    mlist_entry = self.create_city_entry(
+                        city_name, city_id=city_id)
                     self.Mlist.append(mlist_entry)
                     self.city_list.append((city_name, city_id))
                     line_number += 1
 
             if DEBUG:
-                print("[CityPanel4] Loaded", len(self.Mlist), "entries from file")
+                print(
+                    "[CityPanel4] Loaded", len(
+                        self.Mlist), "entries from file")
             self.filtered_list = self.Mlist
             self["Mlist"].setList(self.filtered_list)
             self["Mlist"].selectionEnabled(True)
@@ -286,7 +296,8 @@ class CityPanel4(Screen, HelpableScreen):
                 "limit": 20,
                 "lang": current_lang
             }
-            response = requests.get(url, params=params, headers=HEADERS, timeout=8)
+            response = requests.get(
+                url, params=params, headers=HEADERS, timeout=8)
             response.raise_for_status()
             data = response.json()
         except Exception as e:
@@ -305,7 +316,8 @@ class CityPanel4(Screen, HelpableScreen):
             name = res.get("name", "")
             country = res.get("countryName", "")
             display_name = f"{name}, {country}" if country else name
-            entry = self.create_city_entry(display_name, city_id=city_id, is_header=False)
+            entry = self.create_city_entry(
+                display_name, city_id=city_id, is_header=False)
             new_entries.append(entry)
             new_city_list.append((display_name, city_id))
 
@@ -316,7 +328,9 @@ class CityPanel4(Screen, HelpableScreen):
         self["Mlist"].selectionEnabled(True)
         self.select_first_item()
         count = len(self.filtered_list)
-        self["description"].setText(_("Found %d cities online for '%s'") % (count, search_term))
+        self["description"].setText(
+            _("Found %d cities online for '%s'") %
+            (count, search_term))
         return True
 
     def search_offline(self, search_term):
@@ -337,7 +351,9 @@ class CityPanel4(Screen, HelpableScreen):
                     new_city_list.append((data[0], data[1]))
 
         if not new_entries:
-            self.session.open(MessageBox, _("No cities found locally for '%s'") % search_term, MessageBox.TYPE_INFO, timeout=5)
+            self.session.open(
+                MessageBox, _("No cities found locally for '%s'") %
+                search_term, MessageBox.TYPE_INFO, timeout=5)
             self["description"].setText(_("Press RED to search again"))
             return
 
@@ -348,7 +364,9 @@ class CityPanel4(Screen, HelpableScreen):
         self["Mlist"].selectionEnabled(True)
         self.select_first_item()
         count = len(self.filtered_list)
-        self["description"].setText(_("Found %d cities locally for '%s'") % (count, search_term))
+        self["description"].setText(
+            _("Found %d cities locally for '%s'") %
+            (count, search_term))
 
     def update_description(self):
         idx = self["Mlist"].getCurrentIndex()
@@ -415,7 +433,11 @@ class CityPanel4(Screen, HelpableScreen):
             self.close((city_id, 'assign', fav_index))
         except Exception as e:
             print("[CityPanel] Error saving:", e)
-            self.session.open(MessageBox, _("Error saving favorite!"), MessageBox.TYPE_ERROR, timeout=5)
+            self.session.open(
+                MessageBox,
+                _("Error saving favorite!"),
+                MessageBox.TYPE_ERROR,
+                timeout=5)
 
     def show_info(self):
         info = (
@@ -494,7 +516,8 @@ class CityPanel4(Screen, HelpableScreen):
         abs_step = abs(step)
         for xz in range(abs_step):
             nxt = (current + direction) % total
-            while len(self.filtered_list[nxt][0]) > 2 and self.filtered_list[nxt][0][2]:
+            while len(self.filtered_list[nxt][0]
+                      ) > 2 and self.filtered_list[nxt][0][2]:
                 nxt = (nxt + direction) % total
             current = nxt
         self["Mlist"].moveToIndex(current)

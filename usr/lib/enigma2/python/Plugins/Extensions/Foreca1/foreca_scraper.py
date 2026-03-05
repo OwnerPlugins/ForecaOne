@@ -121,7 +121,7 @@ def scrape_hourly_forecast(place: Place, day: int = 0) -> List[HourForecast]:
             if precip_prob is not None:
                 try:
                     precip_prob = int(precip_prob)
-                except:
+                except BaseException:
                     precip_prob = None
 
             hf = HourForecast(

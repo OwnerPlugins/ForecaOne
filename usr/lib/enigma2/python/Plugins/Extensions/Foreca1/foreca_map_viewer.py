@@ -74,17 +74,33 @@ def get_background_for_layer(layer_title, region="europe"):
         return region_map[region_lower]
     if any(word in region_lower for word in ['italy', 'italia', 'italien']):
         return 'italien.png'
-    if any(word in region_lower for word in ['germany', 'deutsch', 'germania']):
+    if any(
+        word in region_lower for word in [
+            'germany',
+            'deutsch',
+            'germania']):
         return 'deutschland.png'
-    if any(word in region_lower for word in ['france', 'francia', 'frankreich']):
+    if any(
+        word in region_lower for word in [
+            'france',
+            'francia',
+            'frankreich']):
         return 'frankreich.png'
     if any(word in region_lower for word in ['spain', 'espana', 'spanien']):
         return 'spanien.png'
-    if any(word in region_lower for word in ['uk', 'britain', 'grossbritannien']):
+    if any(
+        word in region_lower for word in [
+            'uk',
+            'britain',
+            'grossbritannien']):
         return 'grossbritannien.png'
     if any(word in region_lower for word in ['austria', 'oesterreich']):
         return 'oesterreich.png'
-    if any(word in region_lower for word in ['switzerland', 'schweiz', 'svizzera']):
+    if any(
+        word in region_lower for word in [
+            'switzerland',
+            'schweiz',
+            'svizzera']):
         return 'schweiz.png'
     return 'europa.png'
 
@@ -226,7 +242,8 @@ class ForecaMapViewer(Screen, HelpableScreen):
             self.widget_width = size.width()
             self.widget_height = size.height()
             if DEBUG:
-                print(f"[DEBUG] Widget map size: {self.widget_width}x{self.widget_height}")
+                print(
+                    f"[DEBUG] Widget map size: {self.widget_width}x{self.widget_height}")
 
     def _apply_theme(self):
         apply_global_theme(self)
@@ -275,7 +292,8 @@ class ForecaMapViewer(Screen, HelpableScreen):
 
     def download_tile_grid_async(self, timestamp, callback):
         def download_thread():
-            cx, cy = self.latlon_to_tile(self.center_lat, self.center_lon, self.zoom_level)
+            cx, cy = self.latlon_to_tile(
+                self.center_lat, self.center_lon, self.zoom_level)
             offset_cols = self.grid_cols // 2
             offset_rows = self.grid_rows // 2
 
@@ -296,13 +314,16 @@ class ForecaMapViewer(Screen, HelpableScreen):
                         try:
                             if DEBUG:
                                 with Image.open(path) as img:
-                                    print(f"[DEBUG] Tile zoom={self.zoom_level} ({tx},{ty}) size: {img.size}")
-                            tile_paths.append((dx + offset_cols, dy + offset_rows, path))
+                                    print(
+                                        f"[DEBUG] Tile zoom={self.zoom_level} ({tx},{ty}) size: {img.size}")
+                            tile_paths.append(
+                                (dx + offset_cols, dy + offset_rows, path))
                         except Exception as e:
-                            print(f"[Foreca1] Tile corrotta, saltata: {path} - {e}")
+                            print(
+                                f"[Foreca1] Tile corrotta, saltata: {path} - {e}")
                             try:
                                 remove(path)
-                            except:
+                            except BaseException:
                                 pass
             if DEBUG:
                 print(f"[DEBUG] Tile valide scaricate: {len(tile_paths)}")
@@ -332,7 +353,8 @@ class ForecaMapViewer(Screen, HelpableScreen):
             if std_r < threshold and std_g < threshold and std_b < threshold:
                 # Mean color
                 mean_r, mean_g, mean_b = stat.mean
-                # Typical placeholders: pink (R>200, G<200, B>200) or uniform grays (R,G,B close)
+                # Typical placeholders: pink (R>200, G<200, B>200) or uniform
+                # grays (R,G,B close)
                 if (mean_r > 200 and mean_g < 200 and mean_b > 200) or \
                    (abs(mean_r - mean_g) < 20 and abs(mean_g - mean_b) < 20):
                     return True
@@ -362,18 +384,21 @@ class ForecaMapViewer(Screen, HelpableScreen):
                         colors = tile.convert('RGB').getcolors(maxcolors=256)
                         print(f"[DEBUG] Tile (10,7) colors: {colors}")
                         stat = ImageStat.Stat(tile.convert('RGB'))
-                        print(f"[DEBUG] Tile (10,7) mean: {stat.mean}, stddev: {stat.stddev}")
+                        print(
+                            f"[DEBUG] Tile (10,7) mean: {stat.mean}, stddev: {stat.stddev}")
 
                 if self.is_uniform_tile(tile):
                     if DEBUG:
-                        print(f"[Foreca1] Tile uniforme saltata: ({col},{row}) {path}")
+                        print(
+                            f"[Foreca1] Tile uniforme saltata: ({col},{row}) {path}")
                     continue
 
                 x = col * self.tile_size
                 y = row * self.tile_size
                 merged.paste(tile, (x, y), tile)
 
-            merged_path = join(CACHE_BASE, f"merged_{self.layer_id}_{self.zoom_level}.png")
+            merged_path = join(CACHE_BASE,
+                               f"merged_{self.layer_id}_{self.zoom_level}.png")
             merged.save(merged_path, 'PNG')
             return merged_path
 
@@ -397,8 +422,10 @@ class ForecaMapViewer(Screen, HelpableScreen):
                 if composite_path and exists(composite_path):
                     img = Image.open(composite_path)
                     if hasattr(self, 'widget_width') and self.widget_width > 0:
-                        img = img.resize((self.widget_width, self.widget_height), Image.Resampling.LANCZOS)
-                        resized_path = composite_path.replace('.png', '_widget.png')
+                        img = img.resize(
+                            (self.widget_width, self.widget_height), Image.Resampling.LANCZOS)
+                        resized_path = composite_path.replace(
+                            '.png', '_widget.png')
                         img.save(resized_path, 'PNG')
                         self["map"].instance.setPixmapFromFile(resized_path)
                     else:
@@ -483,12 +510,14 @@ class ForecaMapViewer(Screen, HelpableScreen):
 
     def prev_time(self):
         if len(self.timestamps) > 1:
-            self.current_time_index = (self.current_time_index - 1) % len(self.timestamps)
+            self.current_time_index = (
+                self.current_time_index - 1) % len(self.timestamps)
             self.load_current_tile()
 
     def next_time(self):
         if len(self.timestamps) > 1:
-            self.current_time_index = (self.current_time_index + 1) % len(self.timestamps)
+            self.current_time_index = (
+                self.current_time_index + 1) % len(self.timestamps)
             self.load_current_tile()
 
     def exit(self):

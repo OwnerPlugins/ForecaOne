@@ -495,7 +495,8 @@ def trans(text, target_lang=None):
     if cached is not None:
         return cached
 
-    # Translate (translate_text already handles internal caching if use_cache=True)
+    # Translate (translate_text already handles internal caching if
+    # use_cache=True)
     translated = translate_text(text, target_lang, use_cache=True)
     if translated and translated != text:
         return translated
@@ -547,8 +548,9 @@ def test_translation():
     if DEBUG:
         print("=" * 60)
         stats = get_cache_stats()
-        print(f"Cache statistics: {stats['hits']} hits, {stats['misses']} misses, "
-              f"rate: {stats['hit_rate']:.1%}")
+        print(
+            f"Cache statistics: {stats['hits']} hits, {stats['misses']} misses, "
+            f"rate: {stats['hit_rate']:.1%}")
         print("=" * 60)
 
     return all_passed
