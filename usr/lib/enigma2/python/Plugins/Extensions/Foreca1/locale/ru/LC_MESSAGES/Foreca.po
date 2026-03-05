@@ -50,6 +50,9 @@ msgstr "9 - Сегодня + 9 дней"
 msgid "API credentials not configured."
 msgstr "1. Не настроены учётные данные API\n"
 
+msgid "AQI {}"
+msgstr ""
+
 msgid "AQI: N/A"
 msgstr ""
 
@@ -225,6 +228,12 @@ msgstr "Дания"
 msgid "Details"
 msgstr ""
 
+msgid "Dewpoint {}"
+msgstr ""
+
+msgid "Dewpoint {}°C"
+msgstr ""
+
 #, fuzzy
 msgid "Distance {} km"
 msgstr "Расстояние"
@@ -309,6 +318,14 @@ msgid "Feels like"
 msgstr "Ощущается как"
 
 #, fuzzy
+msgid "Feels like {}"
+msgstr "Ощущается как"
+
+#, fuzzy
+msgid "Feels like {}{}"
+msgstr "Ощущается как"
+
+#, fuzzy
 msgid "Feels like: {}"
 msgstr "Ощущается как"
 
@@ -388,6 +405,12 @@ msgstr "Греция"
 
 msgid "Green - Favorite 1"
 msgstr "Зелёная кнопка - Избранное 1"
+
+msgid "Gust {}"
+msgstr ""
+
+msgid "Gust: {:.1f} {}"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -767,7 +790,13 @@ msgstr "Предыдущая страница"
 msgid "Previous page"
 msgstr "Предыдущая страница"
 
+msgid "Rain prob. {}%"
+msgstr ""
+
 msgid "Rain prob.: N/A"
+msgstr ""
+
+msgid "Rain: {:.1f} {}"
 msgstr ""
 
 msgid "Red - Color select"
@@ -866,6 +895,9 @@ msgstr "Словакия"
 
 msgid "Slower: {}s"
 msgstr "Медленнее: {}с"
+
+msgid "Snow prob. {}%"
+msgstr ""
 
 msgid "Snow prob.: N/A"
 msgstr ""
@@ -978,6 +1010,10 @@ msgstr ""
 msgid "Update completed. Please restart Enigma2."
 msgstr ""
 
+#, fuzzy
+msgid "Updated {}"
+msgstr "Быстрее: {}с"
+
 msgid "Updated: N/A"
 msgstr ""
 
@@ -1070,6 +1106,13 @@ msgid "Wind direction"
 msgstr "Погода завтра"
 
 msgid "Wind speed"
+msgstr ""
+
+#, fuzzy
+msgid "Wind speed {}"
+msgstr "Ветер"
+
+msgid "Wind speed: {:.1f} {}"
 msgstr ""
 
 #, fuzzy

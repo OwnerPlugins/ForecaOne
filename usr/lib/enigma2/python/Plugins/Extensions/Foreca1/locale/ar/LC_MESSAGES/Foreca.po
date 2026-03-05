@@ -50,6 +50,9 @@ msgstr "9 - اليوم + 9 أيام"
 msgid "API credentials not configured."
 msgstr "لم يتم تكوين بيانات اعتماد API."
 
+msgid "AQI {}"
+msgstr ""
+
 msgid "AQI: N/A"
 msgstr "مؤشر جودة الهواء: غير متوفر"
 
@@ -219,6 +222,12 @@ msgstr "الدنمارك"
 msgid "Details"
 msgstr "التفاصيل"
 
+msgid "Dewpoint {}"
+msgstr ""
+
+msgid "Dewpoint {}°C"
+msgstr ""
+
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
 
@@ -296,6 +305,14 @@ msgid "Feels like"
 msgstr "يبدو كـ"
 
 #, fuzzy
+msgid "Feels like {}"
+msgstr "يبدو كـ: {}{}"
+
+#, fuzzy
+msgid "Feels like {}{}"
+msgstr "يبدو كـ: {}{}"
+
+#, fuzzy
 msgid "Feels like: {}"
 msgstr "يبدو كـ: {}{}"
 
@@ -369,6 +386,12 @@ msgstr "اليونان"
 
 msgid "Green - Favorite 1"
 msgstr "أخضر - المفضلة 1"
+
+msgid "Gust {}"
+msgstr ""
+
+msgid "Gust: {:.1f} {}"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "هامبورغ"
@@ -732,8 +755,16 @@ msgstr "الصورة السابقة"
 msgid "Previous page"
 msgstr "الصفحة السابقة"
 
+#, fuzzy
+msgid "Rain prob. {}%"
+msgstr "احتمالية المطر: غير متوفرة"
+
 msgid "Rain prob.: N/A"
 msgstr "احتمالية المطر: غير متوفرة"
+
+#, fuzzy
+msgid "Rain: {:.1f} {}"
+msgstr "الرياح: {} {} {}"
 
 msgid "Red - Color select"
 msgstr "أحمر - اختيار اللون"
@@ -827,6 +858,10 @@ msgstr "سلوفاكيا"
 
 msgid "Slower: {}s"
 msgstr "أبطأ: {}ث"
+
+#, fuzzy
+msgid "Snow prob. {}%"
+msgstr "احتمالية الثلج: غير متوفرة"
 
 msgid "Snow prob.: N/A"
 msgstr "احتمالية الثلج: غير متوفرة"
@@ -934,6 +969,10 @@ msgstr ""
 msgid "Update completed. Please restart Enigma2."
 msgstr ""
 
+#, fuzzy
+msgid "Updated {}"
+msgstr "آخر تحديث: {}"
+
 msgid "Updated: N/A"
 msgstr "آخر تحديث: غير متوفر"
 
@@ -1020,6 +1059,14 @@ msgid "Wind direction"
 msgstr "اتجاه الرياح"
 
 msgid "Wind speed"
+msgstr "سرعة الرياح"
+
+#, fuzzy
+msgid "Wind speed {}"
+msgstr "سرعة الرياح"
+
+#, fuzzy
+msgid "Wind speed: {:.1f} {}"
 msgstr "سرعة الرياح"
 
 #, fuzzy

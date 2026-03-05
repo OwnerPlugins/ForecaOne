@@ -52,6 +52,9 @@ msgstr "9 - Avui + 9 dies"
 msgid "API credentials not configured."
 msgstr "1. No hi ha credencials API configurades\n"
 
+msgid "AQI {}"
+msgstr ""
+
 msgid "AQI: N/A"
 msgstr ""
 
@@ -227,6 +230,12 @@ msgstr "Dinamarca"
 msgid "Details"
 msgstr ""
 
+msgid "Dewpoint {}"
+msgstr ""
+
+msgid "Dewpoint {}°C"
+msgstr ""
+
 #, fuzzy
 msgid "Distance {} km"
 msgstr "Distància"
@@ -311,6 +320,14 @@ msgid "Feels like"
 msgstr "Sensació tèrmica"
 
 #, fuzzy
+msgid "Feels like {}"
+msgstr "Sensació tèrmica"
+
+#, fuzzy
+msgid "Feels like {}{}"
+msgstr "Sensació tèrmica"
+
+#, fuzzy
 msgid "Feels like: {}"
 msgstr "Sensació tèrmica"
 
@@ -390,6 +407,12 @@ msgstr "Grècia"
 
 msgid "Green - Favorite 1"
 msgstr "Verd - Favorit 1"
+
+msgid "Gust {}"
+msgstr ""
+
+msgid "Gust: {:.1f} {}"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -769,7 +792,13 @@ msgstr "Pàgina anterior"
 msgid "Previous page"
 msgstr "Pàgina anterior"
 
+msgid "Rain prob. {}%"
+msgstr ""
+
 msgid "Rain prob.: N/A"
+msgstr ""
+
+msgid "Rain: {:.1f} {}"
 msgstr ""
 
 msgid "Red - Color select"
@@ -868,6 +897,9 @@ msgstr "Eslovàquia"
 
 msgid "Slower: {}s"
 msgstr "Més lent: {}s"
+
+msgid "Snow prob. {}%"
+msgstr ""
 
 msgid "Snow prob.: N/A"
 msgstr ""
@@ -980,6 +1012,10 @@ msgstr ""
 msgid "Update completed. Please restart Enigma2."
 msgstr ""
 
+#, fuzzy
+msgid "Updated {}"
+msgstr "Més ràpid: {}s"
+
 msgid "Updated: N/A"
 msgstr ""
 
@@ -1072,6 +1108,13 @@ msgid "Wind direction"
 msgstr "Temps demà"
 
 msgid "Wind speed"
+msgstr ""
+
+#, fuzzy
+msgid "Wind speed {}"
+msgstr "Vent"
+
+msgid "Wind speed: {:.1f} {}"
 msgstr ""
 
 #, fuzzy

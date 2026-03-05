@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-05 22:50+0100\n"
+"PO-Revision-Date: 2026-03-05 23:18+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -50,6 +50,9 @@ msgstr "9 - Oggi + 9 giorni"
 
 msgid "API credentials not configured."
 msgstr "Nessuna credenziale API configurata."
+
+msgid "AQI {}"
+msgstr "IQA {}"
 
 msgid "AQI: N/A"
 msgstr "IQA: N/A"
@@ -219,6 +222,12 @@ msgstr "Danimarca"
 msgid "Details"
 msgstr "Dettagli"
 
+msgid "Dewpoint {}"
+msgstr "Punto di rugiada {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Punto di rugiada {}°C"
+
 msgid "Distance {} km"
 msgstr "Distanza {} km"
 
@@ -294,6 +303,12 @@ msgstr "Dettagli Favoriti"
 msgid "Feels like"
 msgstr "Percepita"
 
+msgid "Feels like {}"
+msgstr "Percepita {}"
+
+msgid "Feels like {}{}"
+msgstr "Percepita {}{}"
+
 msgid "Feels like: {}"
 msgstr "Percepita: {}"
 
@@ -362,6 +377,12 @@ msgstr "Grecia"
 
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
+
+msgid "Gust {}"
+msgstr "Raffica {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Raffica: {:.1f} {}"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -723,8 +744,14 @@ msgstr "Immagine Precedente"
 msgid "Previous page"
 msgstr "Pagina precedente"
 
+msgid "Rain prob. {}%"
+msgstr "Prob. pioggia. {}%"
+
 msgid "Rain prob.: N/A"
 msgstr "Prob. di pioggia: N/D"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Pioggia: {:.1f} {}"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -819,6 +846,9 @@ msgstr "Slovacchia"
 msgid "Slower: {}s"
 msgstr "Più lento: {}s"
 
+msgid "Snow prob. {}%"
+msgstr "Prob. neve. {}%"
+
 msgid "Snow prob.: N/A"
 msgstr "Prob. neve: N/D"
 
@@ -895,7 +925,7 @@ msgid "Try different zoom or region"
 msgstr "Prova uno zoom o una regione diversi"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV Indice"
 
 msgid "UV N/A"
 msgstr ""
@@ -923,6 +953,9 @@ msgstr "Aggiornamento annullato."
 
 msgid "Update completed. Please restart Enigma2."
 msgstr "Aggiornamento completato. Riavviare Enigma2."
+
+msgid "Updated {}"
+msgstr "Aggiornato {}"
 
 msgid "Updated: N/A"
 msgstr "Aggiornato: N/D"
@@ -1011,6 +1044,12 @@ msgstr "Direzione del Vento"
 msgid "Wind speed"
 msgstr "Velocità del Vento"
 
+msgid "Wind speed {}"
+msgstr "Velocità del Vento {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Velocità del Vento: {:.1f} {}"
+
 msgid "Wind: {}"
 msgstr "Vento: {}"
 
@@ -1083,9 +1122,6 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 #~ msgid "Blue"
 #~ msgstr "Blu"
 
-#~ msgid "Dewpoint"
-#~ msgstr "Punto di rugiada"
-
 #~ msgid "Distance"
 #~ msgstr "Distanza"
 
@@ -1094,9 +1130,6 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 #~ msgid "Green"
 #~ msgstr "Verde"
-
-#~ msgid "Gust"
-#~ msgstr "Raffica"
 
 #~ msgid "HTML"
 #~ msgstr "HTML"
@@ -1113,14 +1146,8 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 #~ msgid "Rain"
 #~ msgstr "Pioggia"
 
-#~ msgid "Rain prob."
-#~ msgstr "Prob. pioggia."
-
 #~ msgid "Red"
 #~ msgstr "Rosso"
-
-#~ msgid "Snow prob."
-#~ msgstr "Prob. neve."
 
 #~ msgid "Created by @Bauernbub"
 #~ msgstr "Creatore @Bauernbub"
