@@ -64,12 +64,15 @@ class TransparencySelector(Screen, HelpableScreen):
         self._update_background_with_alpha(self.foreca_preview.alpha)
         items = []
         for level in self.transparency_levels:
-            items.append(_("Transparency level") + f" {level['name']} ({level['value']})")
+            items.append(
+                _("Transparency level") +
+                f" {level['name']} ({level['value']})")
         self["menu"].setList(items)
         current_alpha = self.foreca_preview.alpha
         for idx, level in enumerate(self.transparency_levels):
             if level["value"] == current_alpha:
-                if self["menu"].instance and 0 <= idx < len(self.transparency_levels):
+                if self["menu"].instance and 0 <= idx < len(
+                        self.transparency_levels):
                     self["menu"].moveToIndex(idx)
                 break
 
@@ -81,12 +84,14 @@ class TransparencySelector(Screen, HelpableScreen):
         r = int(self.foreca_preview.rgbmyr)
         g = int(self.foreca_preview.rgbmyg)
         b = int(self.foreca_preview.rgbmyb)
-        # Extract the two alpha characters from the string (e.g., '#90000000' -> '90')
+        # Extract the two alpha characters from the string (e.g., '#90000000'
+        # -> '90')
         alpha_hex = alpha_str[1:3]
         # Build the full ARGB color
         color_str = f"#{alpha_hex}{r:02x}{g:02x}{b:02x}"
         # Apply to background_plate
-        self["background_plate"].instance.setBackgroundColor(parseColor(color_str))
+        self["background_plate"].instance.setBackgroundColor(
+            parseColor(color_str))
         self["background_plate"].instance.invalidate()
 
     def update_preview(self):
@@ -95,12 +100,16 @@ class TransparencySelector(Screen, HelpableScreen):
             level = self.transparency_levels[idx]
             # Update background with selected alpha
             self._update_background_with_alpha(level["value"])
-            # Update selection overlay (if desired, you can leave it unchanged or also apply alpha)
+            # Update selection overlay (if desired, you can leave it unchanged
+            # or also apply alpha)
             if "selection_overlay" in self and self["selection_overlay"].instance:
-                self["selection_overlay"].instance.setBackgroundColor(parseColor(level["value"]))
+                self["selection_overlay"].instance.setBackgroundColor(
+                    parseColor(level["value"]))
                 self["selection_overlay"].instance.invalidate()
 
-            self['title_label'].setText(_('Window transparency') + f" - {level['name']}")
+            self['title_label'].setText(
+                _('Window transparency') +
+                f" - {level['name']}")
         self.instance.invalidate()
 
     def move_up(self):

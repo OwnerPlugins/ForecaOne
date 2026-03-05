@@ -39,7 +39,8 @@ res = (desk.size().width(), desk.size().height())
 if res == (1920, 1080):     # FHD
     GRAPH_WIDTH = 1665      # total width of the chart (as in skin)
     GRAPH_HEIGHT = 522      # total height of the chart (as in skin)
-    HOUR_STEP = 48          # pixels per 3‑hour step (1670/35 ≈ 47.7, we use 48)
+    # pixels per 3‑hour step (1670/35 ≈ 47.7, we use 48)
+    HOUR_STEP = 48
 elif res == (1280, 720):    # HD
     GRAPH_WIDTH = 1105      # total width of the chart (as in skin)
     GRAPH_HEIGHT = 348      # total height of the chart (as in skin)
@@ -101,7 +102,7 @@ def wind_arrow(degrees):
         deg = int(degrees) % 360
         directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW']
         return directions[round(deg / 45) % 8]
-    except:
+    except BaseException:
         return 'N'
 
 
@@ -112,7 +113,15 @@ class MeteogramView(Screen, HelpableScreen):
     All widget names are unique to this plugin.
     """
 
-    def __init__(self, session, weather_api, location_id, location_name, unit_manager=None, tz=None, tz_offset=None):
+    def __init__(
+            self,
+            session,
+            weather_api,
+            location_id,
+            location_name,
+            unit_manager=None,
+            tz=None,
+            tz_offset=None):
         self.skin = load_skin_for_class(MeteogramView)
         Screen.__init__(self, session)
         HelpableScreen.__init__(self)
@@ -134,7 +143,8 @@ class MeteogramView(Screen, HelpableScreen):
         # --- Main widgets (custom names) ---
         self["temp_curve"] = Pixmap()               # SVG temperature line
         self["update_label"] = Label()              # last update time
-        self["wind_unit_label"] = Label()           # wind speed unit (km/h or mph)
+        # wind speed unit (km/h or mph)
+        self["wind_unit_label"] = Label()
         self["city_label"] = Label()                # city name
         self["zero_line"] = Pixmap()                # 0°C indicator (PNG)
 
@@ -241,7 +251,8 @@ class MeteogramView(Screen, HelpableScreen):
         write_meteogram_debug(f"Forecast length: {len(forecast)}")
         write_meteogram_debug(f"Ranges: {ranges}")
         if forecast:
-            write_meteogram_debug(f"First element keys: {list(forecast[0].keys())}")
+            write_meteogram_debug(
+                f"First element keys: {list(forecast[0].keys())}")
 
         # Update time (first element's 'updated' field)
         if forecast and len(forecast) > 1:
@@ -251,11 +262,14 @@ class MeteogramView(Screen, HelpableScreen):
                 if self.tz:
                     dt_local = dt_utc.astimezone(self.tz)
                 elif self.tz_offset is not None:
-                    dt_local = dt_utc + datetime.timedelta(hours=self.tz_offset)
+                    dt_local = dt_utc + \
+                        datetime.timedelta(hours=self.tz_offset)
                 else:
                     dt_local = dt_utc  # fallback a UTC
-                self["update_label"].setText(_("Updated: {}").format(dt_local.strftime('%d.%m.%y %H:%M')))
-            except:
+                self["update_label"].setText(
+                    _("Updated: {}").format(
+                        dt_local.strftime('%d.%m.%y %H:%M')))
+            except BaseException:
                 pass
 
         self["city_label"].setText(self.loc_name)
@@ -342,7 +356,9 @@ class MeteogramView(Screen, HelpableScreen):
         # Get temperature range
         temp_block = ranges.get('temp', {})
         if unit_flag == 'c':
-            conf = temp_block.get('metric', {'start': -20, 'end': 40, 'step': 5})
+            conf = temp_block.get(
+                'metric', {
+                    'start': -20, 'end': 40, 'step': 5})
         else:
             conf = temp_block.get('us', {'start': -4, 'end': 104, 'step': 9})
 
@@ -356,7 +372,8 @@ class MeteogramView(Screen, HelpableScreen):
         for idx, item in enumerate(forecast):
             if idx >= PERIODS:
                 break
-            temp_val = item.get('temp') if unit_flag == 'c' else item.get('tempf')
+            temp_val = item.get(
+                'temp') if unit_flag == 'c' else item.get('tempf')
             if temp_val is None:
                 temp_val = 0
             ratio = 1 - (temp_val - tmin) / (tmax - tmin)
@@ -382,7 +399,8 @@ class MeteogramView(Screen, HelpableScreen):
             x2, y2, t2 = points[i + 1]
             avg_temp = (t1 + t2) / 2
             color = temp_to_color(avg_temp)
-            segments.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="3" />')
+            segments.append(
+                f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="3" />')
 
         # Create SVG
         svg = f'''<?xml version="1.0" encoding="utf-8"?>
@@ -415,8 +433,10 @@ class MeteogramView(Screen, HelpableScreen):
         zero_target = 0 if unit_flag == 'c' else 32
         if tmin < zero_target < tmax:
             # Calculate the Y coordinate corresponding to zero_target
-            # The graph has y = GRAPH_TOP for tmax, y = GRAPH_TOP+GRAPH_HEIGHT for tmin
-            zero_y = int(GRAPH_TOP + GRAPH_HEIGHT * (tmax - zero_target) / (tmax - tmin))
+            # The graph has y = GRAPH_TOP for tmax, y = GRAPH_TOP+GRAPH_HEIGHT
+            # for tmin
+            zero_y = int(GRAPH_TOP + GRAPH_HEIGHT *
+                         (tmax - zero_target) / (tmax - tmin))
             # Determine X based on the resolution
             res_type = get_resolution_type()
             if res_type == 'hd':
@@ -481,7 +501,8 @@ class MeteogramView(Screen, HelpableScreen):
                 sy = 0
 
             if DEBUG:
-                print(f"[Meteogram] Period {n}: lx={lx:.2f}, s={s:.2f}, lh={lh}, sh={sh}, ly={ly}, sy={sy}")
+                print(
+                    f"[Meteogram] Period {n}: lx={lx:.2f}, s={s:.2f}, lh={lh}, sh={sh}, ly={ly}, sy={sy}")
 
             # Build SVG with solid colors
             if sh > 0:
@@ -586,7 +607,7 @@ class MeteogramView(Screen, HelpableScreen):
             try:
                 dt = datetime.datetime.strptime(ds, "%Y-%m-%d")
                 self[f"date_{idx}"].setText(dt.strftime("%a, %d.%m"))
-            except:
+            except BaseException:
                 self[f"date_{idx}"].setText(ds)
 
             if exists(sep_img):

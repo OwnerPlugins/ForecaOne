@@ -104,7 +104,8 @@ class MoonPhase:
         if self.icon_path:
             # Build full path (e.g., moon12.png)
             icon_file = join(self.icon_path, f"moon{icon_number}.png")
-            # If the file does not exist, look for the nearest PNG (safety fallback)
+            # If the file does not exist, look for the nearest PNG (safety
+            # fallback)
             if not exists(icon_file):
                 icon_file = self._find_nearest_icon(icon_number)
 
@@ -131,7 +132,8 @@ class MoonPhase:
             month += 12
         A = year // 100
         B = 2 - A + A // 4
-        JD = int(365.25 * (year + 4716)) + int(30.6001 * (month + 1)) + day + B - 1524.5
+        JD = int(365.25 * (year + 4716)) + \
+            int(30.6001 * (month + 1)) + day + B - 1524.5
         return JD
 
     def _get_moon_mean_anomaly(self, JD):
@@ -140,10 +142,17 @@ class MoonPhase:
         M = 134.963 + 477198.867 * T + 0.008997 * T**2  # degrees
         return radians(M % 360)
 
-    def get_moon_data_async(self, lat, lon, callback, max_days=2, offset_hours=None):
+    def get_moon_data_async(
+            self,
+            lat,
+            lon,
+            callback,
+            max_days=2,
+            offset_hours=None):
         """Executes the API request in a separate thread and calls a callback with the results."""
         def worker():
-            result = self.get_moon_data_from_api(lat, lon, max_days, offset_hours)
+            result = self.get_moon_data_from_api(
+                lat, lon, max_days, offset_hours)
             if callback:
                 callback(result)
         Thread(target=worker).start()
@@ -195,8 +204,11 @@ class MoonPhase:
                 if moonrise != "N/A" and moonset != "N/A":
                     if days_offset == 0:
                         phase_name = props.get("curphase", "N/A")
-                        illum_str = props.get("fracillum", "0%").replace("%", "").strip()
-                        illumination = float(illum_str) / 100.0 if illum_str != "N/A" else None
+                        illum_str = props.get(
+                            "fracillum", "0%").replace(
+                            "%", "").strip()
+                        illumination = float(
+                            illum_str) / 100.0 if illum_str != "N/A" else None
                     break
 
             return {

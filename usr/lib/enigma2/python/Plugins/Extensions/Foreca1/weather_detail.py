@@ -58,9 +58,13 @@ class WeatherDetailView(Screen, HelpableScreen):
         self.lat = foreca_preview.lat
         self.lon = foreca_preview.lon
         self.myloc = foreca_preview.myloc
-        self.paths = [foreca_preview.path_loc0, foreca_preview.path_loc1, foreca_preview.path_loc2]
+        self.paths = [
+            foreca_preview.path_loc0,
+            foreca_preview.path_loc1,
+            foreca_preview.path_loc2]
         current_path = self.paths[self.myloc]
-        self.location_id = current_path.split('/')[0] if '/' in current_path else current_path
+        self.location_id = current_path.split(
+            '/')[0] if '/' in current_path else current_path
         self.rgbmyr = foreca_preview.rgbmyr
         self.rgbmyg = foreca_preview.rgbmyg
         self.rgbmyb = foreca_preview.rgbmyb
@@ -157,7 +161,8 @@ class WeatherDetailView(Screen, HelpableScreen):
 
     def _fetch_data(self):
         if hasattr(self.weather_api, 'get_today_tomorrow_details'):
-            return self.weather_api.get_today_tomorrow_details(self.location_id) or {}
+            return self.weather_api.get_today_tomorrow_details(
+                self.location_id) or {}
         return {}
 
     def _on_layout_finished(self):
@@ -182,7 +187,8 @@ class WeatherDetailView(Screen, HelpableScreen):
             return
         from threading import Thread
         self._downloading = True
-        self['zoom_label'].setText(_("Zoom: ") + str(self.zoom_level) + " (loading...)")
+        self['zoom_label'].setText(
+            _("Zoom: ") + str(self.zoom_level) + " (loading...)")
         Thread(target=self._download_map_thread).start()
 
     def _download_map_thread(self):
@@ -198,7 +204,8 @@ class WeatherDetailView(Screen, HelpableScreen):
                 # Update the Pixmap in the main thread
                 reactor.callFromThread(self._update_map_pixmap, output_file)
             else:
-                print(f"[WeatherDetail] Download failed for zoom {self.zoom_level}")
+                print(
+                    f"[WeatherDetail] Download failed for zoom {self.zoom_level}")
         except Exception as e:
             print(f"[WeatherDetail] Download error: {e}")
         finally:
@@ -239,7 +246,8 @@ class WeatherDetailView(Screen, HelpableScreen):
         for period in periods:
             period_data = day_data.get(period, {})
             symbol = period_data.get('symbol', 'd000')
-            # Use the API's mapping if needed, but we assume symbol is already correct
+            # Use the API's mapping if needed, but we assume symbol is already
+            # correct
             path = join(PLUGIN_PATH, "thumb", f"{symbol}.png")
             widget = self[f'symbol_{period}_{suffix}']
             if exists(path):
@@ -263,13 +271,16 @@ class WeatherDetailView(Screen, HelpableScreen):
         rain = day.get('rain_mm', 0)
 
         if max_t != 'N/A' and min_t != 'N/A':
-            max_converted, unused = self.unit_manager.convert_temperature(max_t)
-            min_converted, unused = self.unit_manager.convert_temperature(min_t)
+            max_converted, unused = self.unit_manager.convert_temperature(
+                max_t)
+            min_converted, unused = self.unit_manager.convert_temperature(
+                min_t)
             temp_str = f"{int(min_converted)}° - {int(max_converted)}°{self.unit_manager.get_temp_label()[-1]}"
         else:
             temp_str = f"{min_t}° - {max_t}°C"
 
-        rain_converted, rain_unit = self.unit_manager.convert_precipitation(rain)
+        rain_converted, rain_unit = self.unit_manager.convert_precipitation(
+            rain)
         rain_str = f"{rain_converted:.1f}{rain_unit}"
 
         return f"{trans(text)} {temp_str}. {rain_str}."
@@ -279,9 +290,10 @@ class WeatherDetailView(Screen, HelpableScreen):
         if temp_val is None or temp_val == 'N/A':
             return 'N/A'
         try:
-            converted, _ = self.unit_manager.convert_temperature(float(temp_val))
+            converted, _ = self.unit_manager.convert_temperature(
+                float(temp_val))
             return str(int(converted))
-        except:
+        except BaseException:
             return 'N/A'
 
     def _update_titles(self):
@@ -312,26 +324,30 @@ class WeatherDetailView(Screen, HelpableScreen):
         for suffix, day in [('today', today), ('tomorrow', tomorrow)]:
             wind_dir = day.get('wind_dir')
             if DEBUG:
-                print(f"[WeatherDetail] wind_dir for {suffix}: {wind_dir} (tipo: {type(wind_dir)})")
+                print(
+                    f"[WeatherDetail] wind_dir for {suffix}: {wind_dir} (tipo: {type(wind_dir)})")
             if wind_dir is not None and wind_dir != 'N/A':
                 try:
                     deg = float(wind_dir)
                     icon_name = self._degrees_to_wind_icon(deg)
-                except:
+                except BaseException:
                     icon_name = "wN"
                 path = join(PLUGIN_PATH, "thumb", f"{icon_name}.png")
                 if DEBUG:
                     print(f"[WeatherDetail] Icon path for {suffix}: {path}")
                 if exists(path):
-                    self[f'wind_icon_{suffix}'].instance.setPixmapFromFile(path)
+                    self[f'wind_icon_{suffix}'].instance.setPixmapFromFile(
+                        path)
                 else:
                     fallback = join(PLUGIN_PATH, "thumb", "wN.png")
                     if exists(fallback):
-                        self[f'wind_icon_{suffix}'].instance.setPixmapFromFile(fallback)
+                        self[f'wind_icon_{suffix}'].instance.setPixmapFromFile(
+                            fallback)
                 self[f'wind_icon_{suffix}'].show()
             else:
                 if DEBUG:
-                    print(f"[WeatherDetail] wind_dir assente per {suffix}, nascondo icona")
+                    print(
+                        f"[WeatherDetail] wind_dir assente per {suffix}, nascondo icona")
                 self[f'wind_icon_{suffix}'].hide()
 
     def _update_temperature_values(self):
@@ -340,15 +356,19 @@ class WeatherDetailView(Screen, HelpableScreen):
         for suffix, data in [('1', today), ('2', tomorrow)]:
             # Morning
             val = data.get('morning', {}).get('temp')
-            self[f'temp_morning_{suffix}'].setText(self._convert_temp_value(val))
+            self[f'temp_morning_{suffix}'].setText(
+                self._convert_temp_value(val))
             val = data.get('afternoon', {}).get('temp')
-            self[f'temp_afternoon_{suffix}'].setText(self._convert_temp_value(val))
+            self[f'temp_afternoon_{suffix}'].setText(
+                self._convert_temp_value(val))
             # Evening
             val = data.get('evening', {}).get('temp')
-            self[f'temp_evening_{suffix}'].setText(self._convert_temp_value(val))
+            self[f'temp_evening_{suffix}'].setText(
+                self._convert_temp_value(val))
             # Night
             val = data.get('overnight', {}).get('temp')
-            self[f'temp_overnight_{suffix}'].setText(self._convert_temp_value(val))
+            self[f'temp_overnight_{suffix}'].setText(
+                self._convert_temp_value(val))
 
     def _update_background_colors(self):
         bg = gRGB(
@@ -378,5 +398,5 @@ class WeatherDetailView(Screen, HelpableScreen):
             directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW']
             index = round(deg / 45) % 8
             return "w" + directions[index]
-        except:
+        except BaseException:
             return "wN"

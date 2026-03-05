@@ -118,7 +118,8 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
             reactor.callLater(0.1, self.do_layout)
 
     def do_layout(self):
-        # Get position and size of the "map" widget (which will contain the composite)
+        # Get position and size of the "map" widget (which will contain the
+        # composite)
         map_widget = self["map"]
         if map_widget and map_widget.instance:
             pos = map_widget.getPosition()
@@ -141,10 +142,12 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
         self.scale_x = self.bg_width / float(self.grid_cols * 256)
         self.scale_y = self.bg_height / float(self.grid_rows * 256)
 
-        # Position the background (if present) – optional, the skin already does it
+        # Position the background (if present) – optional, the skin already
+        # does it
         if "background" in self and self["background"].instance:
             self["background"].instance.move(ePoint(self.bg_x, self.bg_y))
-            self["background"].instance.resize(eSize(self.bg_width, self.bg_height))
+            self["background"].instance.resize(
+                eSize(self.bg_width, self.bg_height))
             self["background"].instance.setZPosition(2)
             self["background"].show()
 
@@ -172,7 +175,7 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
         try:
             dt = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
             display_time = dt.strftime("%d/%m %H:%M UTC")
-        except:
+        except BaseException:
             display_time = timestamp
 
         self["time"].setText(f"{display_time}")
@@ -182,7 +185,8 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
         Thread(target=self.download_tiles, args=(timestamp,)).start()
 
     def download_tiles(self, timestamp):
-        cx, cy = self.latlon_to_tile(self.center_lat, self.center_lon, self.zoom_level)
+        cx, cy = self.latlon_to_tile(
+            self.center_lat, self.center_lon, self.zoom_level)
         offset_cols = self.grid_cols // 2
         offset_rows = self.grid_rows // 2
         tile_files = []
@@ -244,15 +248,19 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
         if exists(bg_path):
             try:
                 bg_img = Image.open(bg_path).convert("RGB")
-                bg_img = bg_img.resize((self.bg_width, self.bg_height), Image.Resampling.LANCZOS)
-                temp_bg = join(CACHE_BASE, f"background_{self.region}_{self.zoom_level}.png")
+                bg_img = bg_img.resize(
+                    (self.bg_width, self.bg_height), Image.Resampling.LANCZOS)
+                temp_bg = join(
+                    CACHE_BASE,
+                    f"background_{self.region}_{self.zoom_level}.png")
                 bg_img.save(temp_bg, 'PNG')
                 # bg_img = Image.open(bg_path).convert("RGBA")
                 # bg_img = bg_img.resize((self.bg_width, self.bg_height), Image.Resampling.LANCZOS)
                 # temp_bg = join(CACHE_BASE, f"background_{self.region}_{self.zoom_level}.png")
                 # bg_img.save(temp_bg, 'PNG')
                 if DEBUG:
-                    print(f"[DEBUG] Background generated: {temp_bg} size {self.bg_width}x{self.bg_height}")
+                    print(
+                        f"[DEBUG] Background generated: {temp_bg} size {self.bg_width}x{self.bg_height}")
                 return temp_bg
             except Exception as e:
                 print(f"[ForecaSVG] Error generating background: {e}")
@@ -282,11 +290,14 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
                 print(f"[Foreca1SVG] Error processing {path}: {e}")
         svg_content += '</svg>'
 
-        temp_svg = join(CACHE_BASE, f"composite_{self.layer_id}_{self.zoom_level}.svg")
+        temp_svg = join(
+            CACHE_BASE,
+            f"composite_{self.layer_id}_{self.zoom_level}.svg")
         with open(temp_svg, 'w', encoding='utf-8') as f:
             f.write(svg_content)
         if DEBUG:
-            print(f"[DEBUG] Composite SVG (original colors) generated: {temp_svg}")
+            print(
+                f"[DEBUG] Composite SVG (original colors) generated: {temp_svg}")
         return temp_svg
 
     def display_svg(self, svg_path, bg_path):
@@ -315,9 +326,10 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
         try:
             dt = datetime.strptime(current_time, "%Y-%m-%dT%H:%M:%SZ")
             display_time = dt.strftime("%d/%m %H:%M UTC")
-        except:
+        except BaseException:
             display_time = current_time
-        self["time"].setText(f"{display_time} | Grid: {self.grid_cols}x{self.grid_rows}")
+        self["time"].setText(
+            f"{display_time} | Grid: {self.grid_cols}x{self.grid_rows}")
         self["info"].setText(_("Map & Tiles Loaded"))
 
     def update_layer_info(self):
@@ -357,12 +369,14 @@ class ForecaSVGMapViewer(Screen, HelpableScreen):
 
     def prev_time(self):
         if len(self.timestamps) > 1:
-            self.current_time_index = (self.current_time_index - 1) % len(self.timestamps)
+            self.current_time_index = (
+                self.current_time_index - 1) % len(self.timestamps)
             self.load_current_tile()
 
     def next_time(self):
         if len(self.timestamps) > 1:
-            self.current_time_index = (self.current_time_index + 1) % len(self.timestamps)
+            self.current_time_index = (
+                self.current_time_index + 1) % len(self.timestamps)
             self.load_current_tile()
 
     def exit(self):

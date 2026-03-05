@@ -69,7 +69,8 @@ class ForecaMapMenu(Screen, HelpableScreen):
             layer_type = layer.get('type', 'N/A')
             colorschemes = layer.get('colorschemes', [])
             if DEBUG:
-                print(f"  ID: {layer_id}, Title: {title}, Type: {layer_type}, Schemes: {colorschemes}")
+                print(
+                    f"  ID: {layer_id}, Title: {title}, Type: {layer_type}, Schemes: {colorschemes}")
 
         if not self.layers:
             self["info"].setText(_("Error loading maps. Check connection."))
@@ -86,7 +87,9 @@ class ForecaMapMenu(Screen, HelpableScreen):
 
         self["list"].setList(items)
         self.setTitle(trans("Foreca One Maps") + " - " + self.region.upper())
-        self["title"].setText(trans("Foreca One | Region {} | Unit System: {}").format(self.region.upper(), self.unit_system))
+        self["title"].setText(
+            trans("Foreca One | Region {} | Unit System: {}").format(
+                self.region.upper(), self.unit_system))
 
     def up(self):
         self["list"].up()

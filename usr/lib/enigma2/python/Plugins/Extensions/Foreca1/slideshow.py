@@ -331,7 +331,8 @@ class ForecaMapsMenu(Screen, HelpableScreen):
             region_name = current
             title_text = _("Foreca One | Map {}").format(region_name)
             if DEBUG:
-                print(f"[DEBUG] title_text = '{title_text}' (len={len(title_text)})")
+                print(
+                    f"[DEBUG] title_text = '{title_text}' (len={len(title_text)})")
             self["title"].setText(title_text)
             self["info"].setText(_("Map {} selected").format(region_name))
             if self["title"].instance:

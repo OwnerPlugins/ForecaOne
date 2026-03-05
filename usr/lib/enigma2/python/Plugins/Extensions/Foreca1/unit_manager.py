@@ -415,7 +415,10 @@ class UnitSettingsSimple(Screen, HelpableScreen):
 
     def open_advanced(self):
         """Open advanced unit settings"""
-        self.session.openWithCallback(self.advanced_closed, UnitSettingsAdvanced, self.unit_manager)
+        self.session.openWithCallback(
+            self.advanced_closed,
+            UnitSettingsAdvanced,
+            self.unit_manager)
 
     def advanced_closed(self, result=None):
         """Callback after advanced settings closed"""
@@ -496,7 +499,7 @@ class UnitSettingsAdvanced(Screen, HelpableScreen):
                 "blue": (self.next_category, _("Next")),
                 "yellow": (self.prev_category, _("Prev")),
                 "left": (self.prev_category, _("Prev")),
-                "right":  (self.next_category, _("Next")),
+                "right": (self.next_category, _("Next")),
                 "up": (self.up, _("Up")),
                 "down": (self.down, _("Down")),
                 "ok": (self.select_current, _("Select")),
@@ -522,7 +525,8 @@ class UnitSettingsAdvanced(Screen, HelpableScreen):
     def update_list(self):
         """Update the list with the options of the current category"""
         if DEBUG:
-            print(f"[UnitSettingsAdvanced] update_list called for category: {self.current_category[2]}")
+            print(
+                f"[UnitSettingsAdvanced] update_list called for category: {self.current_category[2]}")
         cat_key, options, cat_name = self.current_category
         self["title"].setText(_("Select {} unit").format(cat_name))
 
@@ -541,7 +545,9 @@ class UnitSettingsAdvanced(Screen, HelpableScreen):
             items.append(f"{marker}{label}")
 
         self["list"].setList(items)
-        self["info"].setText(_("Current: {}").format(self._get_current_label()))
+        self["info"].setText(
+            _("Current: {}").format(
+                self._get_current_label()))
 
         for idx, (label, unit) in enumerate(options):
             if unit == current_unit:
@@ -571,20 +577,24 @@ class UnitSettingsAdvanced(Screen, HelpableScreen):
 
     def next_category(self):
         if DEBUG:
-            print(f"[UnitSettingsAdvanced] next_category called, current index: {self.category_index}")
+            print(
+                f"[UnitSettingsAdvanced] next_category called, current index: {self.category_index}")
         self.category_index = (self.category_index + 1) % len(self.categories)
         self.current_category = self.categories[self.category_index]
         if DEBUG:
-            print(f"[UnitSettingsAdvanced] new index: {self.category_index}, category: {self.current_category[2]}")
+            print(
+                f"[UnitSettingsAdvanced] new index: {self.category_index}, category: {self.current_category[2]}")
         self.update_list()
 
     def prev_category(self):
         if DEBUG:
-            print(f"[UnitSettingsAdvanced] prev_category called, current index: {self.category_index}")
+            print(
+                f"[UnitSettingsAdvanced] prev_category called, current index: {self.category_index}")
         self.category_index = (self.category_index - 1) % len(self.categories)
         self.current_category = self.categories[self.category_index]
         if DEBUG:
-            print(f"[UnitSettingsAdvanced] new index: {self.category_index}, category: {self.current_category[2]}")
+            print(
+                f"[UnitSettingsAdvanced] new index: {self.category_index}, category: {self.current_category[2]}")
         self.update_list()
 
     def select_current(self):

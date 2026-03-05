@@ -40,7 +40,8 @@ class ForecaMapAPI:
         self.load_config()
         self.load_token()
         if DEBUG:
-            print(f"[Foreca1MapAPI] Initialized for user: {self.user}, region: {region}")
+            print(
+                f"[Foreca1MapAPI] Initialized for user: {self.user}, region: {region}")
 
     def load_config(self):
         """Load configuration from file"""
@@ -68,7 +69,8 @@ class ForecaMapAPI:
                             value = value.strip()
                             config_data[key] = value
                 if DEBUG:
-                    print(f"[Foreca1MapAPI] Configuration loaded from {CONFIG_FILE}")
+                    print(
+                        f"[Foreca1MapAPI] Configuration loaded from {CONFIG_FILE}")
             except Exception as e:
                 print(f"[Foreca1MapAPI] Error loading config: {e}")
                 # Create example config file
@@ -255,7 +257,8 @@ class ForecaMapAPI:
                     with open(cache_file, 'r') as f:
                         data = load(f)
                         if DEBUG:
-                            print(f"[Foreca1MapAPI] Capabilities from cache: {len(data.get('images', []))} layers")
+                            print(
+                                f"[Foreca1MapAPI] Capabilities from cache: {len(data.get('images', []))} layers")
                         return data.get('images', [])
                 except Exception as e:
                     print(f"[Foreca1MapAPI] Cache capabilities error: {e}")
@@ -291,10 +294,12 @@ class ForecaMapAPI:
         """Converte dati SVG in PNG usando rsvg-convert."""
         try:
             # Verifica se rsvg-convert è disponibile
-            subprocess.run(['rsvg-convert', '--version'], capture_output=True, check=True)
+            subprocess.run(['rsvg-convert', '--version'],
+                           capture_output=True, check=True)
         except (subprocess.CalledProcessError, FileNotFoundError):
             if DEBUG:
-                print("[Foreca1MapAPI] rsvg-convert non trovato, impossibile convertire SVG")
+                print(
+                    "[Foreca1MapAPI] rsvg-convert non trovato, impossibile convertire SVG")
             return False
 
         try:
@@ -302,7 +307,8 @@ class ForecaMapAPI:
                 f.write(svg_data)
                 svg_path = f.name
 
-            subprocess.run(['rsvg-convert', '-o', output_png, svg_path], check=True, timeout=10)
+            subprocess.run(['rsvg-convert', '-o', output_png,
+                           svg_path], check=True, timeout=10)
             unlink(svg_path)
             return True
         except Exception as e:
@@ -341,7 +347,8 @@ class ForecaMapAPI:
                     f.write(response.content)
                 return cache_file
             else:
-                print(f"[Foreca1MapAPI] Tile download error: {response.status_code}")
+                print(
+                    f"[Foreca1MapAPI] Tile download error: {response.status_code}")
                 return None
         except Exception as e:
             print(f"[Foreca1MapAPI] Tile download exception: {e}")
@@ -372,14 +379,17 @@ class ForecaMapAPI:
                             if DEBUG:
                                 with Image.open(path) as img:
                                     # Debug only, if it fails skip
-                                    print(f"[DEBUG] Tile zoom={self.zoom_level} ({tx},{ty}) size: {img.size}")
-                            tile_paths.append((dx + offset_cols, dy + offset_rows, path))
+                                    print(
+                                        f"[DEBUG] Tile zoom={self.zoom_level} ({tx},{ty}) size: {img.size}")
+                            tile_paths.append(
+                                (dx + offset_cols, dy + offset_rows, path))
                         except Exception as e:
-                            print(f"[Foreca1] Corrupted tile, skipped: {path} - {e}")
+                            print(
+                                f"[Foreca1] Corrupted tile, skipped: {path} - {e}")
                             # Remove corrupted file to avoid future reuse
                             try:
                                 remove(path)
-                            except:
+                            except BaseException:
                                 pass
 
             if len(tile_paths) > 0:

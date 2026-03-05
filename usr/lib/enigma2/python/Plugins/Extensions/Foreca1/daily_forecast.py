@@ -32,7 +32,7 @@ def _degrees_to_cardinal(deg):
         deg = int(deg) % 360
         directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW']
         return directions[round(deg / 45) % 8]
-    except:
+    except BaseException:
         return 'N'
 
 
@@ -74,7 +74,8 @@ class DailyForecast(Screen, HelpableScreen):
     def load_forecast(self):
         self["info"].setText(_("Loading weekly forecast..."))
         try:
-            self.forecast_days = self.api.get_daily_forecast(self.location_id, days=7)
+            self.forecast_days = self.api.get_daily_forecast(
+                self.location_id, days=7)
         except Exception as e:
             print(f"[DailyForecast] API error: {e}")
             self.forecast_days = []
@@ -114,8 +115,10 @@ class DailyForecast(Screen, HelpableScreen):
 
         # Temperature with unit
         if hasattr(self.api, 'unit_manager') and self.api.unit_manager:
-            min_val, temp_unit = self.api.unit_manager.convert_temperature(day.min_temp)
-            max_val, _unused = self.api.unit_manager.convert_temperature(day.max_temp)
+            min_val, temp_unit = self.api.unit_manager.convert_temperature(
+                day.min_temp)
+            max_val, _unused = self.api.unit_manager.convert_temperature(
+                day.max_temp)
             temp_str = f"{int(min_val)} - {int(max_val)}{temp_unit[-1]}"
         else:
             temp_str = f"{day.min_temp} - {day.max_temp}C"
@@ -134,7 +137,8 @@ class DailyForecast(Screen, HelpableScreen):
 
         # Precipitation
         if hasattr(self.api, 'unit_manager') and self.api.unit_manager:
-            precip_val, precip_unit = self.api.unit_manager.convert_precipitation(day.precipitation)
+            precip_val, precip_unit = self.api.unit_manager.convert_precipitation(
+                day.precipitation)
             precip = f"{precip_val:.1f}{precip_unit}"
         else:
             precip = f"{day.precipitation} mm"
@@ -149,7 +153,8 @@ class DailyForecast(Screen, HelpableScreen):
         # Wind
         wind_dir = _degrees_to_cardinal(day.wind_direction)
         if hasattr(self.api, 'unit_manager') and self.api.unit_manager:
-            wind_val, wind_unit = self.api.unit_manager.convert_wind(day.wind_speed)
+            wind_val, wind_unit = self.api.unit_manager.convert_wind(
+                day.wind_speed)
             wind_val = int(wind_val)
             wind_str = f"{wind_val} {wind_unit} {wind_dir}"
         else:
@@ -188,8 +193,10 @@ class DailyForecast(Screen, HelpableScreen):
 
         # --- Temperature with conversion ---
         if hasattr(self.api, 'unit_manager') and self.api.unit_manager:
-            min_val, temp_unit = self.api.unit_manager.convert_temperature(day.min_temp)
-            max_val, unused = self.api.unit_manager.convert_temperature(day.max_temp)
+            min_val, temp_unit = self.api.unit_manager.convert_temperature(
+                day.min_temp)
+            max_val, unused = self.api.unit_manager.convert_temperature(
+                day.max_temp)
             temp_str = f"{int(min_val)}-{int(max_val)}{temp_unit}"
         else:
             temp_str = f"{day.min_temp}-{day.max_temp}°C"
@@ -197,7 +204,8 @@ class DailyForecast(Screen, HelpableScreen):
 
         # --- Wind with conversion ---
         if hasattr(self.api, 'unit_manager') and self.api.unit_manager:
-            wind_val, wind_unit = self.api.unit_manager.convert_wind(day.wind_speed)
+            wind_val, wind_unit = self.api.unit_manager.convert_wind(
+                day.wind_speed)
             wind_val = round(wind_val, 1)
             wind_dir = _degrees_to_cardinal(day.wind_direction)
             wind_str = f"{wind_val} {wind_unit} {wind_dir}"
@@ -207,14 +215,19 @@ class DailyForecast(Screen, HelpableScreen):
 
         # --- Precipitation (already converted) ---
         if hasattr(self.api, 'unit_manager') and self.api.unit_manager:
-            precip_val, precip_unit = self.api.unit_manager.convert_precipitation(day.precipitation)
+            precip_val, precip_unit = self.api.unit_manager.convert_precipitation(
+                day.precipitation)
             precip_str = f"{precip_val:.1f}{precip_unit}"
         else:
             precip_str = f"{day.precipitation} mm"
         lines.append(_("Precipitation: {}").format(precip_str))
 
         lines.append(_("Humidity: {}%").format(day.humidity))
-        lines.append(_("Condition: {}").format(trans(_symbol_to_description(day.condition))))
+        lines.append(
+            _("Condition: {}").format(
+                trans(
+                    _symbol_to_description(
+                        day.condition))))
 
         details = "\n".join(lines)
         self.session.open(MessageBox, details, MessageBox.TYPE_INFO)

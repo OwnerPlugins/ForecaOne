@@ -24,7 +24,13 @@ from .foreca_weather_api import _symbol_to_description
 
 
 class HourDetailView(Screen, HelpableScreen):
-    def __init__(self, session, weather_api, foreca_preview, unit_manager, hour_data):
+    def __init__(
+            self,
+            session,
+            weather_api,
+            foreca_preview,
+            unit_manager,
+            hour_data):
         """
         hour_data: dict containing all available data for the selected hour.
         """
@@ -121,7 +127,7 @@ class HourDetailView(Screen, HelpableScreen):
             temp_val = float(self.hour_data['temp'])
             converted, unit = self.unit_manager.convert_temperature(temp_val)
             self["temp_value"].setText(f"{converted:.0f}{unit}")
-        except:
+        except BaseException:
             self["temp_value"].setText("N/A")
 
         # Feels like
@@ -129,7 +135,7 @@ class HourDetailView(Screen, HelpableScreen):
             feels_val = float(self.hour_data['feels_like'])
             converted, unit = self.unit_manager.convert_temperature(feels_val)
             self["feels_value"].setText(f"{converted:.0f}{unit}")
-        except:
+        except BaseException:
             self["feels_value"].setText("N/A")
 
         # Wind direction icon
@@ -146,7 +152,7 @@ class HourDetailView(Screen, HelpableScreen):
             speed = float(self.hour_data['wind_speed'])
             converted, unit = self.unit_manager.convert_wind(speed)
             self["wind_speed_value"].setText(f"{converted:.1f} {unit}")
-        except:
+        except BaseException:
             self["wind_speed_value"].setText("N/A")
 
         # Precipitation (probability)
@@ -167,16 +173,20 @@ class HourDetailView(Screen, HelpableScreen):
         # Background colors
         bg = gRGB(int(self.rgbmyr), int(self.rgbmyg), int(self.rgbmyb))
         self["background_plate"].instance.setBackgroundColor(bg)
-        self["selection_overlay"].instance.setBackgroundColor(parseColor(self.alpha))
+        self["selection_overlay"].instance.setBackgroundColor(
+            parseColor(self.alpha))
 
     def _format_summary(self):
         data = self.hour_data
         desc = _symbol_to_description(data['condition'])
         desc_trans = trans(desc)
         try:
-            temp_val, temp_unit = self.unit_manager.convert_temperature(float(data['temp']))
-            feels_val, _dummy = self.unit_manager.convert_temperature(float(data['feels_like']))
-            wind_val, wind_unit = self.unit_manager.convert_wind(float(data['wind_speed']))
+            temp_val, temp_unit = self.unit_manager.convert_temperature(
+                float(data['temp']))
+            feels_val, _dummy = self.unit_manager.convert_temperature(
+                float(data['feels_like']))
+            wind_val, wind_unit = self.unit_manager.convert_wind(
+                float(data['wind_speed']))
         except Exception as e:
             print(f"[HourDetail] Conversion error: {e}")
             temp_val = feels_val = wind_val = 0

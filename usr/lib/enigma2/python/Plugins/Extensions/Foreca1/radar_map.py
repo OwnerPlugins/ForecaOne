@@ -135,7 +135,9 @@ class RadarMapView(Screen, HelpableScreen):
                 return
             output_file = join(TEMP_DIR, f'radar_map_{self.zoom_level}.png')
             url = f"https://map-cf.foreca.net/teaser/map/light/rain/{self.zoom_level}/{self.lon}/{self.lat}/380/598.png?names&units=mm"
-            self._current_download = Thread(target=self._download_map, args=(url, output_file))
+            self._current_download = Thread(
+                target=self._download_map, args=(
+                    url, output_file))
             self._current_download.start()
 
     def _download_map(self, url, output_file):
@@ -147,7 +149,8 @@ class RadarMapView(Screen, HelpableScreen):
                     f.write(response.content)
                 reactor.callFromThread(self._set_map_pixmap, output_file)
             else:
-                print(f"[RadarMap] Download failed for zoom {self.zoom_level}: status {response.status_code}")
+                print(
+                    f"[RadarMap] Download failed for zoom {self.zoom_level}: status {response.status_code}")
         except Exception as e:
             print(f"[RadarMap] Download error: {e}")
 

@@ -24,7 +24,16 @@ from . import (
 class ForecaStations(Screen, HelpableScreen):
     """Screen for nearby weather station observations"""
 
-    def __init__(self, session, api_free, api_auth, location_id, location_name, unit_manager=None, tz=None, tz_offset=None):
+    def __init__(
+            self,
+            session,
+            api_free,
+            api_auth,
+            location_id,
+            location_name,
+            unit_manager=None,
+            tz=None,
+            tz_offset=None):
         self.skin = load_skin_for_class(ForecaStations)
         self.session = session
         self.api_free = api_free
@@ -77,9 +86,12 @@ class ForecaStations(Screen, HelpableScreen):
         self.source = None  # Track the source used
 
         # 1. Try authenticated API (if available)
-        if self.api_auth and hasattr(self.api_auth, 'get_station_observations'):
+        if self.api_auth and hasattr(
+                self.api_auth,
+                'get_station_observations'):
             try:
-                observations = self.api_auth.get_station_observations(self.location_id, station_limit=15)
+                observations = self.api_auth.get_station_observations(
+                    self.location_id, station_limit=15)
                 if observations:
                     self.source = "API"
                     print("[ForecaStations] Authenticated API used")
@@ -88,9 +100,11 @@ class ForecaStations(Screen, HelpableScreen):
                 observations = []
 
         # 2. Fallback to scraping
-        if not observations and self.api_free and hasattr(self.api_free, 'get_nearby_stations_scraped'):
+        if not observations and self.api_free and hasattr(
+                self.api_free, 'get_nearby_stations_scraped'):
             try:
-                observations = self.api_free.get_nearby_stations_scraped(self.location_id)
+                observations = self.api_free.get_nearby_stations_scraped(
+                    self.location_id)
                 if observations:
                     self.source = _("Scraped")
                     if DEBUG:
@@ -128,7 +142,9 @@ class ForecaStations(Screen, HelpableScreen):
             self["list"].setList(items)
             self["list"].moveToIndex(0)
             self.show_station_details()
-            self["info"].setText(_("Foreca One Stations: {} stations nearby ({})").format(len(items), self.source or '?'))
+            self["info"].setText(
+                _("Foreca One Stations: {} stations nearby ({})").format(
+                    len(items), self.source or '?'))
         else:
             self["list"].setList([(_("Foreca One No stations found"), None)])
 
@@ -199,21 +215,21 @@ class ForecaStations(Screen, HelpableScreen):
         temp = station.get('temperature')
         if temp is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(temp)
-            self["temperature"].setText(f"{_('Temperature')}: {int(converted)}{unit}")
+            self["temperature"].setText(
+                f"{_('Temperature')}: {int(converted)}{unit}")
         else:
             self["temperature"].setText(
-                f"{_('Temperature')}: {temp}°C" if temp is not None else f"{_('Temperature')}: N/A"
-            )
+                f"{_('Temperature')}: {temp}°C" if temp is not None else f"{_('Temperature')}: N/A")
 
         # Dew point
         dew = station.get('dewpoint')
         if dew is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(dew)
-            self["dewpoint"].setText(f"{_('Dewpoint')}: {int(converted)}{unit}")
+            self["dewpoint"].setText(
+                f"{_('Dewpoint')}: {int(converted)}{unit}")
         else:
             self["dewpoint"].setText(
-                f"{_('Dewpoint')}: {dew}°C" if dew is not None else f"{_('Dewpoint')}: N/A"
-            )
+                f"{_('Dewpoint')}: {dew}°C" if dew is not None else f"{_('Dewpoint')}: N/A")
 
         # Visibility (in meters, not converted)
         vis = station.get('visibility', 'N/A')
@@ -223,11 +239,11 @@ class ForecaStations(Screen, HelpableScreen):
         feels = station.get('feelsLikeTemp')
         if feels is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(feels)
-            self["feels_like"].setText(f"{_('Feels like')}: {int(converted)}{unit}")
+            self["feels_like"].setText(
+                f"{_('Feels like')}: {int(converted)}{unit}")
         else:
             self["feels_like"].setText(
-                f"{_('Feels like')}: {feels}°C" if feels is not None else f"{_('Feels like')}: N/A"
-            )
+                f"{_('Feels like')}: {feels}°C" if feels is not None else f"{_('Feels like')}: N/A")
 
         # Humidity
         hum = station.get('relHumidity', 'N/A')
@@ -244,19 +260,18 @@ class ForecaStations(Screen, HelpableScreen):
             self["pressure"].setText(f"{_('Pressure')}: {press_str}")
         else:
             self["pressure"].setText(
-                f"{_('Pressure')}: {press} hPa" if press is not None else f"{_('Pressure')}: N/A"
-            )
+                f"{_('Pressure')}: {press} hPa" if press is not None else f"{_('Pressure')}: N/A")
 
         # Wind
         wind_speed = station.get('windSpeed')
         wind_dir = station.get('windDirString', '')
         if wind_speed is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_wind(wind_speed)
-            self["wind"].setText(f"{_('Wind')}: {int(converted)} {unit} {wind_dir}")
+            self["wind"].setText(
+                f"{_('Wind')}: {int(converted)} {unit} {wind_dir}")
         else:
             self["wind"].setText(
-                f"{_('Wind')}: {wind_speed} km/h {wind_dir}" if wind_speed is not None else f"{_('Wind')}: N/A"
-            )
+                f"{_('Wind')}: {wind_speed} km/h {wind_dir}" if wind_speed is not None else f"{_('Wind')}: N/A")
 
         self.apply_widget_colors(station)
 
@@ -269,15 +284,25 @@ class ForecaStations(Screen, HelpableScreen):
 
         # Collect formatted data
         lines = []
-        lines.append(_("Station: {}").format(station.get('station', _('Unknown'))))
-        lines.append(_("Distance: {} m").format(station.get('distance', 'N/A')))
+        lines.append(
+            _("Station: {}").format(
+                station.get(
+                    'station',
+                    _('Unknown'))))
+        lines.append(
+            _("Distance: {} m").format(
+                station.get(
+                    'distance',
+                    'N/A')))
 
         # Temperature
         temp = station.get('temperature')
         if temp is not None:
             if self.unit_manager:
                 converted, unit = self.unit_manager.convert_temperature(temp)
-                lines.append(_("Temperature: {}{}").format(int(converted), unit))
+                lines.append(
+                    _("Temperature: {}{}").format(
+                        int(converted), unit))
             else:
                 lines.append(_("Temperature: {}°C").format(temp))
 
@@ -286,7 +311,9 @@ class ForecaStations(Screen, HelpableScreen):
         if feels is not None:
             if self.unit_manager:
                 converted, unit = self.unit_manager.convert_temperature(feels)
-                lines.append(_("Feels like: {}{}").format(int(converted), unit))
+                lines.append(
+                    _("Feels like: {}{}").format(
+                        int(converted), unit))
             else:
                 lines.append(_("Feels like: {}°C").format(feels))
 
@@ -314,9 +341,12 @@ class ForecaStations(Screen, HelpableScreen):
         if wind_speed is not None:
             if self.unit_manager:
                 converted, unit = self.unit_manager.convert_wind(wind_speed)
-                lines.append(_("Wind: {} {} {}").format(int(converted), unit, wind_dir))
+                lines.append(
+                    _("Wind: {} {} {}").format(
+                        int(converted), unit, wind_dir))
             else:
-                lines.append(_("Wind: {} km/h {}").format(wind_speed, wind_dir))
+                lines.append(
+                    _("Wind: {} km/h {}").format(wind_speed, wind_dir))
 
         # Visibility
         vis = station.get('visibility')
@@ -342,13 +372,20 @@ class ForecaStations(Screen, HelpableScreen):
         press = station.get('pressure')
         wind_speed = station.get('windSpeed')
 
-        color_station_name = parseColor("#00FF00") if station_name != "Unknown" else parseColor("#AAAAAA")
-        color_temperature = parseColor("#FF6347") if isinstance(temp, (int, float)) else parseColor("#AAAAAA")
-        color_dewpoint = parseColor("#4682B4") if isinstance(dew, (int, float)) else parseColor("#AAAAAA")
-        color_visibility = parseColor("#32CD32") if isinstance(vis, (int, float)) else parseColor("#AAAAAA")
-        color_feels_like = parseColor("#FFD700") if isinstance(feels, (int, float)) else parseColor("#AAAAAA")
-        color_humidity = parseColor("#00FFFF") if isinstance(hum, (int, float)) else parseColor("#AAAAAA")
-        color_pressure = parseColor("#8A2BE2") if isinstance(press, (int, float)) else parseColor("#AAAAAA")
+        color_station_name = parseColor(
+            "#00FF00") if station_name != "Unknown" else parseColor("#AAAAAA")
+        color_temperature = parseColor("#FF6347") if isinstance(
+            temp, (int, float)) else parseColor("#AAAAAA")
+        color_dewpoint = parseColor("#4682B4") if isinstance(
+            dew, (int, float)) else parseColor("#AAAAAA")
+        color_visibility = parseColor("#32CD32") if isinstance(
+            vis, (int, float)) else parseColor("#AAAAAA")
+        color_feels_like = parseColor("#FFD700") if isinstance(
+            feels, (int, float)) else parseColor("#AAAAAA")
+        color_humidity = parseColor("#00FFFF") if isinstance(
+            hum, (int, float)) else parseColor("#AAAAAA")
+        color_pressure = parseColor("#8A2BE2") if isinstance(
+            press, (int, float)) else parseColor("#AAAAAA")
         if isinstance(wind_speed, (int, float)):
             if wind_speed >= 20:
                 color_wind = parseColor("#FF0000")
@@ -360,7 +397,8 @@ class ForecaStations(Screen, HelpableScreen):
             color_wind = parseColor("#AAAAAA")
 
         if self["station_name"].instance:
-            self["station_name"].instance.setForegroundColor(color_station_name)
+            self["station_name"].instance.setForegroundColor(
+                color_station_name)
         if self["temperature"].instance:
             self["temperature"].instance.setForegroundColor(color_temperature)
         if self["dewpoint"].instance:

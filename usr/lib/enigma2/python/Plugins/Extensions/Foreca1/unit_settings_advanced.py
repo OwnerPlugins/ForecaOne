@@ -110,7 +110,9 @@ class UnitSettingsAdvanced(Screen, HelpableScreen):
             items.append(f"{marker}{label}")
 
         self["list"].setList(items)
-        self["info"].setText(_("Current: {}").format(self._get_current_label()))
+        self["info"].setText(
+            _("Current: {}").format(
+                self._get_current_label()))
 
         # Posiziona il cursore sull'opzione corrente (usa moveToIndex)
         for idx, (label, unit) in enumerate(options):
