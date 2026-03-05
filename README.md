@@ -9,7 +9,7 @@
     <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
-    <img src="https://img.shields.io/badge/Version-1.0.5-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.0.4-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
@@ -189,6 +189,7 @@ Pressing **MENU** opens a choice with the following options:
 - **Unit Settings (Advanced)** – customize wind, pressure, temperature, precipitation
 - **Color Selector** – change global background color
 - **Transparency** – adjust overlay transparency
+- **Check Update** – version update from github
 - **Info** – version and credits
 - **Exit** – close menu (return to main screen)
 
@@ -268,6 +269,9 @@ After saving, the main screen updates immediately with the new units.
 ### Color and Transparency
 - **Color Selector** – lists predefined colors (from `color_database.txt`). Use UP/DOWN to move, OK to confirm. The color is applied to all screens (global theme).
 - **Transparency** – lists levels from 6% to 56%. OK confirms, change is visible immediately.
+
+### Check Update
+Checks if an update has been released online and runs it.
 
 ### Plugin Info
 Shows version, authors and credits. Press OK or EXIT to close.
