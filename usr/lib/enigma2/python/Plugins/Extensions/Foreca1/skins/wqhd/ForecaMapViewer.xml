@@ -1,20 +1,20 @@
 <screen name="ForecaMapViewer" position="center,center" size="2560,1440" flags="wfNoBorder" backgroundColor="#ff000000">
     <!-- Description -->
-    <widget name="title" position="62,58" size="2427,67" font="Regular; 56" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4"/>
-    <widget name="info" position="1563,1307" size="884,38" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
-    <widget name="time" position="1527,1347" size="923,47" font="Regular; 43" foregroundColor="#ffffff" backgroundColor="#40000000" transparent="1" halign="right" zPosition="4"/>
-    <widget name="layerinfo" position="62,115" size="2427,60" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4"/>
-    <widget name="zoom_label" position="2183,84" size="267,47" font="Regular; 40" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#40000000" foregroundColor="#49bbff"/>
+    <widget name="title" position="62,58" size="2427,67" font="Regular; 56" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="1525,1307" size="920,45" font="Regular; 36" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="4" halign="right" />
+    <widget name="time" position="1525,1347" size="920,45" font="Regular; 43" foregroundColor="#ffffff" backgroundColor="#40000000" transparent="1" halign="right" zPosition="4" />
+    <widget name="layerinfo" position="62,115" size="2427,60" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="zoom_label" position="2183,84" size="267,47" font="Regular; 40" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#40000000" foregroundColor="#49bbff" />
     <!-- map image -->
-    <widget name="map" position="66,170" size="2426,1138" zPosition="3" scale="1" backgroundColor="#40000000"/>
+    <widget name="map" position="66,170" size="2426,1138" zPosition="3" scale="1" backgroundColor="#40000000" />
     <!-- Button icons -->
-    <widget source="key_red" render="Label" position="100,1327" size="240,47" font="Regular;43" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5"/>
-    <widget source="key_green" render="Label" position="340,1327" size="240,47" font="Regular;43" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5"/>
-    <widget source="key_yellow" render="Label" position="580,1327" size="240,47" font="Regular;43" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5"/>
-    <widget source="key_blue" render="Label" position="820,1327" size="240,47" font="Regular;43" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5"/>
+    <widget source="key_red" render="Label" position="100,1327" size="240,47" font="Regular;43" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
+    <widget source="key_green" render="Label" position="340,1327" size="240,47" font="Regular;43" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
+    <widget source="key_yellow" render="Label" position="580,1327" size="240,47" font="Regular;43" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
+    <widget source="key_blue" render="Label" position="820,1327" size="240,47" font="Regular;43" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
     <!-- Background plates -->
-    <widget name="background_plate" size="2516,1394" zPosition="1" position="20,27" backgroundColor="#ff9632" cornerRadius="50"/>
-    <widget name="selection_overlay" size="2438,1331" zPosition="2" position="60,56" backgroundColor="#00000000" cornerRadius="50"/>
+    <widget name="background_plate" size="2516,1394" zPosition="1" position="20,27" backgroundColor="#ff9632" cornerRadius="50" />
+    <widget name="selection_overlay" size="2438,1331" zPosition="2" position="60,56" backgroundColor="#00000000" cornerRadius="50" />
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤" position="1059,1310" size="615,76" font="Regular; 43" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa"/>
+    <eLabel text="▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤" position="1059,1310" size="615,76" font="Regular; 43" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" />
 </screen>
