@@ -5,7 +5,7 @@ Priority: optional
 Architecture: all
 Maintainer: @lululla
 Description: Current weather and forecast for the next 10 days
-Source: enigma2-plugin-extensions-foreca
+Source: enigma2-plugin-extensions-foreca-one
 Homepage: linuxsat-support.com - corvoboys.org
-OE: enigma2-plugin-extensions-foreca
+OE: enigma2-plugin-extensions-foreca-one
 License: gpl-3.0

@@ -5,8 +5,20 @@
 status='/var/lib/opkg/status'
 package='enigma2-plugin-extensions-foreca-one'
 
+# Backup configuration before removing anything
+CONFIG_DIR="/etc/enigma2/foreca"
+BACKUP_DIR="/tmp/foreca_config_backup"
+
+if [ -d "$CONFIG_DIR" ]; then
+    echo "Backing up configuration from $CONFIG_DIR to $BACKUP_DIR..."
+    rm -rf "$BACKUP_DIR"
+    cp -r "$CONFIG_DIR" "$BACKUP_DIR"
+    echo "✓ Backup completed."
+fi
+
+# Remove previous package if installed
 if grep -q $package $status; then
-opkg remove $package > /dev/null 2>&1
+    opkg remove $package > /dev/null 2>&1
 fi
 
 # Remove old version if found
@@ -47,4 +59,5 @@ if [ -e "/usr/bin/enigma2" ]; then
 else
     echo "⚠ Enigma2 not found in standard location"
 fi
+
 exit 0
