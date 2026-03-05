@@ -1065,6 +1065,9 @@ msgstr ""
 msgid "v."
 msgstr "в."
 
+msgid "{hours} h {mins} min"
+msgstr ""
+
 msgid "• BLUE to save as Home\n"
 msgstr "• СИНИЙ для сохранения как Домой\n"
 

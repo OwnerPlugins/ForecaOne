@@ -12,6 +12,7 @@
 
 
 
+
 msgid "0 - Today"
 msgstr ""
 
@@ -1000,6 +1001,9 @@ msgid "Zoom:"
 msgstr ""
 
 msgid "v."
+msgstr ""
+
+msgid "{hours} h {mins} min"
 msgstr ""
 
 msgid "• BLUE to save as Home\n"

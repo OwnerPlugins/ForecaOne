@@ -1015,6 +1015,9 @@ msgstr "التكبير:"
 msgid "v."
 msgstr "الإصدار."
 
+msgid "{hours} h {mins} min"
+msgstr ""
+
 msgid "• BLUE to save as Home\n"
 msgstr "• أزرق للحفظ كالصفحة الرئيسية\n"
 

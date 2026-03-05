@@ -1006,6 +1006,9 @@ msgstr ""
 msgid "v."
 msgstr ""
 
+msgid "{hours} h {mins} min"
+msgstr ""
+
 msgid "• BLUE to save as Home\n"
 msgstr ""
 

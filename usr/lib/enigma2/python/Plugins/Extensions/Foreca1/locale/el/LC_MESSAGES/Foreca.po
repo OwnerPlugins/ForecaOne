@@ -1006,6 +1006,9 @@ msgstr "Ζουμ:"
 msgid "v."
 msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr ""
+
 msgid "• BLUE to save as Home\n"
 msgstr "• ΜΠΛΕ για αποθήκευση ως Αρχική\n"
 
