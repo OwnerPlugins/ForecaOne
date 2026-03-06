@@ -1052,8 +1052,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- TEMPERATURE ---
         if self.cur_temp != 'N/A':
-            temp_val, temp_unit = self.unit_manager.convert_temperature(
-                float(self.cur_temp))
+            temp_val, temp_unit = self.unit_manager.convert_temperature(float(self.cur_temp))
             cur_temp_text = "{}{}".format(int(temp_val), temp_unit)
         else:
             cur_temp_text = "N/A"
@@ -1061,8 +1060,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- FEELS LIKE ---
         if self.fl_temp != 'N/A':
-            fl_val, fl_unit = self.unit_manager.convert_temperature(
-                float(self.fl_temp))
+            fl_val, fl_unit = self.unit_manager.convert_temperature(float(self.fl_temp))
             feels_text = _("Feels like {}{}").format(int(fl_val), fl_unit)
         else:
             feels_text = _("Feels like {}").format("N/A")
@@ -1077,8 +1075,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- WIND ---
         if self.wind_speed != 'N/A':
-            wind_val, wind_unit = self.unit_manager.convert_wind(
-                float(self.wind_speed))
+            wind_val, wind_unit = self.unit_manager.convert_wind(float(self.wind_speed))
             wind_text = _("Wind speed: {:.1f} {}").format(wind_val, wind_unit)
         else:
             wind_text = _("Wind speed {}").format("N/A")
@@ -1095,8 +1092,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # --- PRESSURE ---
         if self.pressure != 'N/A':
-            press_val, press_unit = self.unit_manager.convert_pressure(
-                float(self.pressure))
+            press_val, press_unit = self.unit_manager.convert_pressure(float(self.pressure))
             if press_unit == 'inHg':
                 press_text = "{:.2f} {}".format(press_val, press_unit)
             else:
@@ -1215,11 +1211,9 @@ class Foreca_Preview(Screen, HelpableScreen):
                 dt = datetime.fromisoformat(
                     self.updated.replace('Z', '+00:00'))
                 updated_str = dt.strftime("%H:%M %d/%m")
-                self["updated_label"].setText(
-                    _("Updated {}").format(updated_str))
+                self["updated_label"].setText(_("Updated {}").format(updated_str))
             except BaseException:
-                self["updated_label"].setText(
-                    _("Updated {}").format(self.updated))
+                self["updated_label"].setText(_("Updated {}").format(self.updated))
         else:
             self["updated_label"].setText(_('Updated: N/A'))
 
@@ -1414,10 +1408,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         try:
             resp = requests.get(INSTALLER_URL, timeout=10)
             if resp.status_code != 200:
-                self.session.open(
-                    MessageBox,
-                    _("Could not fetch update information."),
-                    MessageBox.TYPE_ERROR)
+                self.session.open(MessageBox, _("Could not fetch update information."), MessageBox.TYPE_ERROR)
                 return
 
             data = resp.text
@@ -1434,14 +1425,10 @@ class Foreca_Preview(Screen, HelpableScreen):
                     if "'" in line:
                         remote_changelog = line.split("'")[1]
                     else:
-                        remote_changelog = line.split(
-                            "=")[1].strip().strip('"')
+                        remote_changelog = line.split("=")[1].strip().strip('"')
 
             if remote_version is None:
-                self.session.open(
-                    MessageBox,
-                    _("Could not parse version information."),
-                    MessageBox.TYPE_ERROR)
+                self.session.open(MessageBox, _("Could not parse version information."), MessageBox.TYPE_ERROR)
                 return
 
             current_version = VERSION
@@ -1450,11 +1437,9 @@ class Foreca_Preview(Screen, HelpableScreen):
             def version_tuple(v):
                 return tuple(map(int, v.split('.')))
             if version_tuple(remote_version) > version_tuple(current_version):
-                msg = _("New version {version} is available.").format(
-                    version=remote_version) + "\n"
+                msg = _("New version {version} is available.").format(version=remote_version) + "\n"
                 if remote_changelog:
-                    msg += _("Changelog: {changelog}").format(
-                        changelog=remote_changelog) + "\n"
+                    msg += _("Changelog: {changelog}").format(changelog=remote_changelog) + "\n"
                 msg += _("Do you want to install it now?")
                 self.session.openWithCallback(
                     lambda answer: self.install_update(answer, INSTALLER_URL),
@@ -1463,17 +1448,10 @@ class Foreca_Preview(Screen, HelpableScreen):
                     MessageBox.TYPE_YESNO
                 )
             else:
-                self.session.open(
-                    MessageBox,
-                    _("You already have the latest version."),
-                    MessageBox.TYPE_INFO,
-                    timeout=4)
+                self.session.open(MessageBox, _("You already have the latest version."), MessageBox.TYPE_INFO, timeout=4)
         except Exception as e:
             print("[Foreca1] Update check error:", e)
-            self.session.open(
-                MessageBox,
-                _("Error checking for updates."),
-                MessageBox.TYPE_ERROR)
+            self.session.open(MessageBox, _("Error checking for updates."), MessageBox.TYPE_ERROR)
 
     def install_update(self, answer, installer_url):
         """Runs the update script if the user confirmed."""
@@ -1488,18 +1466,11 @@ class Foreca_Preview(Screen, HelpableScreen):
                 closeOnSuccess=True
             )
         else:
-            self.session.open(
-                MessageBox,
-                _("Update canceled."),
-                MessageBox.TYPE_INFO,
-                timeout=3)
+            self.session.open(MessageBox, _("Update canceled."), MessageBox.TYPE_INFO, timeout=3)
 
     def update_finished(self, result=None):
         """Callback executed when the installation finishes."""
-        self.session.open(
-            MessageBox,
-            _("Update completed. Please restart Enigma2."),
-            MessageBox.TYPE_INFO)
+        self.session.open(MessageBox, _("Update completed. Please restart Enigma2."), MessageBox.TYPE_INFO)
 
     def _update_titles(self):
         date_str = str(self.f_date[0]) if self.f_date else _(
@@ -1671,26 +1642,21 @@ class Foreca_Preview(Screen, HelpableScreen):
             from twisted.internet import reactor
 
             def update_ui():
-                if "moonrise_value" in self and api_data.get(
-                        "rise", "N/A") != "N/A":
+                if "moonrise_value" in self and api_data.get("rise", "N/A") != "N/A":
                     self["moonrise_value"].setText(api_data["rise"])
-                if "moonset_value" in self and api_data.get(
-                        "set", "N/A") != "N/A":
+                if "moonset_value" in self and api_data.get("set", "N/A") != "N/A":
                     self["moonset_value"].setText(api_data["set"])
 
                 info = self.moon.get_phase_info()
                 if "icon_moon" in self and info["icon_path"]:
-                    self["icon_moon"].instance.setPixmapFromFile(
-                        info["icon_path"])
+                    self["icon_moon"].instance.setPixmapFromFile(info["icon_path"])
                 if "moon_label" in self:
                     self["moon_label"].setText(_(info["name"]))
                 if "moon_illum" in self:
-                    self["moon_illum"].setText(
-                        _("Illumination") + f" {info['illumination']:.1f}%")
+                    self["moon_illum"].setText(_("Illumination") + f" {info['illumination']:.1f}%")
                 if "moon_distance" in self:
                     distance = self.moon.get_moon_distance()
-                    self["moon_distance"].setText(
-                        _("Distance {} km").format(distance))
+                    self["moon_distance"].setText(_("Distance {} km").format(distance))
 
             reactor.callFromThread(update_ui)
 

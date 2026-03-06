@@ -69,7 +69,7 @@ class HourDetailView(Screen, HelpableScreen):
         self["wind_speed_label"] = Label(_("Wind speed"))
         self["wind_speed_value"] = Label()
 
-        self["precip_label"] = Label(_("Precipitation"))
+        self["precip_label"] = Label(_("Rain Prob."))
         self["precip_value"] = Label()
         self["humidity_label"] = Label(_("Humidity"))
         self["humidity_value"] = Label()
@@ -194,5 +194,5 @@ class HourDetailView(Screen, HelpableScreen):
 
         summary = f"{desc_trans}. {_('Temp')}: {temp_val:.0f}{temp_unit}, {_('Feels like')}: {feels_val:.0f}{temp_unit}. "
         summary += f"{_('Wind')}: {wind_val:.1f} {wind_unit} {data['wind_dir']}. "
-        summary += f"{_('Precip')}: {data['precipitation']}%, {_('Humidity')}: {data['humidity']}%, {_('UV')}: {data['uvi']}."
+        summary += f"{_('Rain Prob.')}: {data['precipitation']}%, {_('Humidity')}: {data['humidity']}%, {_('UV')}: {data['uvi']}."
         return summary

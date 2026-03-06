@@ -40,6 +40,10 @@ msgstr "6 - Сегодня + 6 дней"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сегодня + 7 дней"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Прогноз"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Сегодня + 8 дней"
 
@@ -95,6 +99,9 @@ msgstr "Бельгия"
 
 msgid "Berlin"
 msgstr "Берлин"
+
+msgid "Blue"
+msgstr "Синий"
 
 msgid "Blue - Home"
 msgstr "Синяя кнопка - Домой"
@@ -228,11 +235,17 @@ msgstr "Дания"
 msgid "Details"
 msgstr ""
 
+msgid "Dewpoint"
+msgstr ""
+
 msgid "Dewpoint {}"
 msgstr ""
 
 msgid "Dewpoint {}°C"
 msgstr ""
+
+msgid "Distance"
+msgstr "Расстояние"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -403,6 +416,9 @@ msgstr "Великобритания"
 msgid "Greece"
 msgstr "Греция"
 
+msgid "Green"
+msgstr "Зеленый"
+
 msgid "Green - Favorite 1"
 msgstr "Зелёная кнопка - Избранное 1"
 
@@ -411,6 +427,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -493,6 +512,9 @@ msgstr "Клавиатура"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Последнее обновление"
+
+msgid "Last update"
 msgstr "Последнее обновление"
 
 msgid "Latvia"
@@ -790,6 +812,9 @@ msgstr "Предыдущая страница"
 msgid "Previous page"
 msgstr "Предыдущая страница"
 
+msgid "Rain Prob."
+msgstr ""
+
 msgid "Rain prob. {}%"
 msgstr ""
 
@@ -798,6 +823,9 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
+
+msgid "Red"
+msgstr "Красный"
 
 msgid "Red - Color select"
 msgstr "Красная кнопка - Выбор цвета"
@@ -976,6 +1004,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1183,38 +1214,16 @@ msgstr "• ЗЕЛЁНЫЙ для сохранения как Избранное
 #~ msgstr "Прогноз Погоды в Фореке"
 
 #, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Прогноз"
-
-#~ msgid "Blue"
-#~ msgstr "Синий"
-
-#~ msgid "Distance"
-#~ msgstr "Расстояние"
-
-#, fuzzy
 #~ msgid "Feels like:"
 #~ msgstr "Ощущается как"
-
-#~ msgid "Green"
-#~ msgstr "Зеленый"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
 
 #, fuzzy
 #~ msgid "Humidity:"
 #~ msgstr "Влажность"
 
-#~ msgid "Last update"
-#~ msgstr "Последнее обновление"
-
 #, fuzzy
 #~ msgid "Precip"
 #~ msgstr "Осадки"
-
-#~ msgid "Red"
-#~ msgstr "Красный"
 
 #~ msgid "stations nearby"
 #~ msgstr "станции поблизости"

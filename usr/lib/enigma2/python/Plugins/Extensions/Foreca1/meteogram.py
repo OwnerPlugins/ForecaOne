@@ -23,7 +23,7 @@ from . import (
     _,
     DEBUG,
     load_skin_for_class,
-    get_resolution_type,
+    # get_resolution_type,
     apply_global_theme,
     PLUGIN_PATH,
     TEMP_DIR,
@@ -33,26 +33,40 @@ from . import (
 from .google_translate import _get_system_language
 
 
-# Constants for graph dimensions (should match skin)
+# =============================================================================
+# SCREEN RESOLUTION DEPENDENT CONSTANTS
+# =============================================================================
+# GRAPH_WIDTH  – total width of the chart area (pixels)
+# GRAPH_HEIGHT – total height of the chart area (pixels)
+# HOUR_STEP    – horizontal distance between two consecutive 3‑hour points (pixels)
+# GRAPH_TOP    – Y‑coordinate of the top of the chart (where maximum temperature is drawn)
+# =============================================================================
+
 desk = getDesktop(0)
 res = (desk.size().width(), desk.size().height())
-if res == (1920, 1080):     # FHD
-    GRAPH_WIDTH = 1665      # total width of the chart (as in skin)
-    GRAPH_HEIGHT = 522      # total height of the chart (as in skin)
-    # pixels per 3‑hour step (1670/35 ≈ 47.7, we use 48)
-    HOUR_STEP = 48
-elif res == (1280, 720):    # HD
-    GRAPH_WIDTH = 1105      # total width of the chart (as in skin)
-    GRAPH_HEIGHT = 348      # total height of the chart (as in skin)
-    HOUR_STEP = 32          # pixels per 3‑hour step
-elif res == (2560, 1440):   # WQHD
-    GRAPH_WIDTH = 2215      # total width of the chart (as in skin)
-    GRAPH_HEIGHT = 696      # total height of the chart (as in skin)
-    HOUR_STEP = 64          # pixels per 3‑hour step
 
-GRAPH_LEFT = 0              # coincides with the X position of the temp_curve widget
-GRAPH_TOP = 198             # coincides with the Y position of the temp_curve widget
-PERIODS = 35                # number of 3‑hour periods displayed
+if res == (1920, 1080):     # Full HD
+    GRAPH_WIDTH  = 1665
+    GRAPH_HEIGHT = 522
+    HOUR_STEP    = 48
+    GRAPH_TOP    = 198
+elif res == (1280, 720):    # HD ready
+    GRAPH_WIDTH  = 1105
+    GRAPH_HEIGHT = 348
+    HOUR_STEP    = 32
+    GRAPH_TOP    = 132
+elif res == (2560, 1440):   # WQHD
+    GRAPH_WIDTH  = 2215
+    GRAPH_HEIGHT = 696
+    HOUR_STEP    = 64
+    GRAPH_TOP    = 264
+else:                       # fallback (should match skin defaults)
+    GRAPH_WIDTH  = 1665
+    GRAPH_HEIGHT = 522
+    HOUR_STEP    = 48
+    GRAPH_TOP    = 198
+
+PERIODS = 35    # Number of 3-hour periods to display (covers ~4.5 days, but typically we have 7 days)
 
 
 TEMP_PALETTE = [
@@ -345,20 +359,19 @@ class MeteogramView(Screen, HelpableScreen):
 
     def _draw_temperature_color(self, forecast, ranges):
         """
-        Draw the temperature curve as colored segments.
-        Each segment's color is based on the average temperature of its endpoints.
+        Draws the temperature curve as coloured segments.
+        Each segment's colour is based on the average temperature of its endpoints.
+        Also draws the 0°C (or 32°F) line if the temperature range crosses zero.
         """
-        # Determine unit
+        # Determine which temperature unit is currently used
         unit_flag = 'c'
         if self.units:
             unit_flag = 'c' if self.units.get_simple_system() == 'metric' else 'f'
 
-        # Get temperature range
+        # Retrieve the temperature scale from the JSON data
         temp_block = ranges.get('temp', {})
         if unit_flag == 'c':
-            conf = temp_block.get(
-                'metric', {
-                    'start': -20, 'end': 40, 'step': 5})
+            conf = temp_block.get('metric', {'start': -20, 'end': 40, 'step': 5})
         else:
             conf = temp_block.get('us', {'start': -4, 'end': 104, 'step': 9})
 
@@ -366,33 +379,32 @@ class MeteogramView(Screen, HelpableScreen):
         tmax = conf['end']
         tstep = conf['step']
 
-        # Build list of points with temperatures
-        points = []          # (x, y, temp)
+        # Build a list of points: (x, y, temperature)
+        points = []
         x = 0
         for idx, item in enumerate(forecast):
             if idx >= PERIODS:
                 break
-            temp_val = item.get(
-                'temp') if unit_flag == 'c' else item.get('tempf')
+            # Get the temperature value (Celsius or Fahrenheit)
+            temp_val = item.get('temp') if unit_flag == 'c' else item.get('tempf')
             if temp_val is None:
                 temp_val = 0
+            # Y coordinate: 0 = tmax (top of graph), GRAPH_HEIGHT = tmin (bottom)
             ratio = 1 - (temp_val - tmin) / (tmax - tmin)
             y = int(GRAPH_HEIGHT * ratio)
             points.append((x, y, temp_val))
             x += HOUR_STEP
 
-        # Generate SVG with colored segments
+        # Generate an SVG with coloured line segments
         palette = TEMP_PALETTE
         n_colors = len(palette)
 
-        # Function to map temperature to color
         def temp_to_color(t):
             frac = (t - tmin) / (tmax - tmin)
             idx = int(frac * (n_colors - 1))
             idx = max(0, min(n_colors - 1, idx))
             return palette[idx]
 
-        # Build path segments
         segments = []
         for i in range(len(points) - 1):
             x1, y1, t1 = points[i]
@@ -400,16 +412,17 @@ class MeteogramView(Screen, HelpableScreen):
             avg_temp = (t1 + t2) / 2
             color = temp_to_color(avg_temp)
             segments.append(
-                f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="3" />')
+                f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="3" />'
+            )
 
-        # Create SVG
         svg = f'''<?xml version="1.0" encoding="utf-8"?>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="{GRAPH_WIDTH}" height="{GRAPH_HEIGHT}" viewBox="0 0 {GRAPH_WIDTH} {GRAPH_HEIGHT}">
-                {''.join(segments)}
-            </svg>
-        '''
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+         width="{GRAPH_WIDTH}" height="{GRAPH_HEIGHT}"
+         viewBox="0 0 {GRAPH_WIDTH} {GRAPH_HEIGHT}">
+        {''.join(segments)}
+    </svg>'''
 
-        # Save and load
+        # Save and load the SVG into the temp_curve pixmap
         svg_file = join(TEMP_DIR, 'foreca_temp_curve.svg')
         try:
             with open(svg_file, 'w') as f:
@@ -418,7 +431,7 @@ class MeteogramView(Screen, HelpableScreen):
         except Exception as e:
             print(f"[Meteogram] Failed to write temperature SVG: {e}")
 
-        # Temperature scale (left side)
+        # Left‑hand temperature scale (8 labels)
         temps = []
         v = tmin
         while v <= tmax:
@@ -428,27 +441,21 @@ class MeteogramView(Screen, HelpableScreen):
             self[f"temp_scale_{i}"].setText(txt)
         self["temp_scale_0"].setText(("°C" if unit_flag == 'c' else "°F"))
 
-        # Zero line (if needed)
-        # Zero line if temperature range crosses zero
+        # -------------------------------------------------------------------------
+        # Zero line (0°C / 32°F)
+        # -------------------------------------------------------------------------
         zero_target = 0 if unit_flag == 'c' else 32
         if tmin < zero_target < tmax:
-            # Calculate the Y coordinate corresponding to zero_target
-            # The graph has y = GRAPH_TOP for tmax, y = GRAPH_TOP+GRAPH_HEIGHT
-            # for tmin
-            zero_y = int(GRAPH_TOP + GRAPH_HEIGHT *
-                         (tmax - zero_target) / (tmax - tmin))
-            # Determine X based on the resolution
-            res_type = get_resolution_type()
-            if res_type == 'hd':
-                x_pos = 80
-            elif res_type == 'wqhd':
-                x_pos = 160
-            else:  # fhd or default
-                x_pos = 120
+            # fraction from the top (where tmax is at y = GRAPH_TOP)
+            fraction = (tmax - zero_target) / (tmax - tmin)
+            zero_y = int(GRAPH_TOP + GRAPH_HEIGHT * fraction)
+
             zero_img = join(PLUGIN_PATH, "images", "zeroh.png")
             if exists(zero_img):
                 self["zero_line"].instance.setPixmapFromFile(zero_img)
-                self["zero_line"].move(ePoint(x_pos, zero_y))
+                # Keep the horizontal position defined in the skin
+                current_pos = self["zero_line"].instance.position()
+                self["zero_line"].move(ePoint(current_pos.x(), zero_y))
                 self["zero_line"].show()
             else:
                 self["zero_line"].hide()

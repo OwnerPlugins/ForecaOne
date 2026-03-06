@@ -125,22 +125,32 @@ class MoonPhase:
 
     def get_phase_info(self):
         """
-        Returns a dictionary with phase, illumination, name, icon number and path.
-        Gives priority to API data if available, otherwise uses internal calculation.
+        Returns a dictionary with phase, illumination, name, icon number, and icon path.
+        Gives priority to API data if available, otherwise falls back to internal calculation.
         """
         if self.api_data and self.api_data["illumination"] is not None and self.api_data["phase"] != "N/A":
             # Use API data
             illum_percent = self.api_data["illumination"] * 100
             phase_name = self.api_data["phase"]
-            # Calculate icon index based on phase and illumination
-            icon_number = self._moon_phase_to_icon(phase_name, illum_percent)
-            # For consistency, we also estimate the phase (0-1) from
-            # illumination (not needed, but we keep it)
-            phase = illum_percent / 100.0  # approximation
-            name = phase_name
-            illumination = illum_percent
+
+            # Determine whether the phase is waxing or waning
+            crescente = phase_name in ["Waxing Crescent", "First Quarter", "Waxing Gibbous"]
+
+            # Linear mapping: illumination 0% → icon 0 (new), 100% → icon 50 (full)
+            if crescente:
+                icon_number = int(round(illum_percent * 50 / 100))
+            else:
+                icon_number = int(round(50 + (100 - illum_percent) * 50 / 100))
+
+            # Handle special cases (New Moon and Full Moon)
+            if phase_name == "New Moon":
+                icon_number = 0 if illum_percent < 10 else 100
+            elif phase_name == "Full Moon":
+                icon_number = 50
+
+            icon_number = max(0, min(99, icon_number))  # 0-99 for 100 icons? Actually you have 101 (0-100), so 100 is valid
         else:
-            # Fallback to internal calculation
+            # Fallback to internal calculation (as before)
             phase = self._get_current_phase_value()
             illumination = self._illumination_from_phase(phase)
             name = self._get_phase_name(phase)
@@ -155,14 +165,13 @@ class MoonPhase:
             icon_file = join(self.icon_path, f"moon{icon_number:04d}.png")
             # If the file does not exist, look for the nearest PNG (safety
             # fallback)
-
             if not exists(icon_file):
                 icon_file = self._find_nearest_icon(icon_number)
 
         return {
-            "phase": phase,
-            "illumination": illumination,
-            "name": name,
+            "phase": phase if not self.api_data else None,  # not needed
+            "illumination": illum_percent if self.api_data else illumination,
+            "name": phase_name if self.api_data else name,
             "icon_number": icon_number,
             "icon_path": icon_file
         }

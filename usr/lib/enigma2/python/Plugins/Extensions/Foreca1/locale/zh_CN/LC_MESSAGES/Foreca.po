@@ -36,6 +36,9 @@ msgstr "6-今天+ 6天"
 msgid "7 - Today + 7 days"
 msgstr "7-今天+ 7天"
 
+msgid "7 Day Forecast"
+msgstr "未来七天天气预报"
+
 msgid "8 - Today + 8 days"
 msgstr "8-今天+ 8天"
 
@@ -93,6 +96,9 @@ msgstr "比利时"
 
 msgid "Berlin"
 msgstr "柏林"
+
+msgid "Blue"
+msgstr "蓝色"
 
 msgid "Blue - Home"
 msgstr "蓝色-主页"
@@ -222,6 +228,9 @@ msgstr "丹麦"
 msgid "Details"
 msgstr "详情"
 
+msgid "Dewpoint"
+msgstr "露点温度:"
+
 #, fuzzy
 msgid "Dewpoint {}"
 msgstr "露点温度:"
@@ -229,6 +238,9 @@ msgstr "露点温度:"
 #, fuzzy
 msgid "Dewpoint {}°C"
 msgstr "露点温度:"
+
+msgid "Distance"
+msgstr "距离"
 
 msgid "Distance {} km"
 msgstr "距离: {}千米"
@@ -380,6 +392,9 @@ msgstr "大不列颠及北爱尔兰"
 msgid "Greece"
 msgstr "希腊"
 
+msgid "Green"
+msgstr "绿"
+
 msgid "Green - Favorite 1"
 msgstr "绿色-收藏 1"
 
@@ -389,6 +404,9 @@ msgstr "强风"
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "德国汉堡"
@@ -470,6 +488,9 @@ msgstr "键盘设置"
 
 msgid "Last Quarter"
 msgstr "下弦月"
+
+msgid "Last update"
+msgstr "最近更新时间"
 
 msgid "Latvia"
 msgstr "拉脱维亚"
@@ -752,6 +773,10 @@ msgid "Previous page"
 msgstr "转到上一页的事件"
 
 #, fuzzy
+msgid "Rain Prob."
+msgstr "降雨概率"
+
+#, fuzzy
 msgid "Rain prob. {}%"
 msgstr "降雨概率"
 
@@ -761,6 +786,9 @@ msgstr "降雨概率:N/A"
 #, fuzzy
 msgid "Rain: {:.1f} {}"
 msgstr "风速: {} {} {}"
+
+msgid "Red"
+msgstr "红色"
 
 msgid "Red - Color select"
 msgstr "红色-颜色选择"
@@ -933,6 +961,9 @@ msgstr "尝试其他缩放或图层"
 
 msgid "Try different zoom or region"
 msgstr "尝试其他缩放比例或区域"
+
+msgid "UV"
+msgstr "紫外线"
 
 msgid "UV Index"
 msgstr "紫外线指数"
@@ -1124,17 +1155,8 @@ msgstr "然后使用箭头键移动.\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "黄色-分配给收藏夹2\n"
 
-#~ msgid "7 Day Forecast"
-#~ msgstr "未来七天天气预报"
-
 #~ msgid "AQI"
 #~ msgstr "AQI值"
-
-#~ msgid "Blue"
-#~ msgstr "蓝色"
-
-#~ msgid "Distance"
-#~ msgstr "距离"
 
 #~ msgid "E"
 #~ msgstr "东"
@@ -1160,17 +1182,8 @@ msgstr "黄色-分配给收藏夹2\n"
 #~ msgid "Foreca 1 | Map {}"
 #~ msgstr "Foreca 4 天气预报"
 
-#~ msgid "Green"
-#~ msgstr "绿"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
 #~ msgid "Humidity:"
 #~ msgstr "空气湿度:"
-
-#~ msgid "Last update"
-#~ msgstr "最近更新时间"
 
 #~ msgid "Min: {}°C, Max: {}°C"
 #~ msgstr "最小：{} °C ，最大：{} °C"
@@ -1187,14 +1200,8 @@ msgstr "黄色-分配给收藏夹2\n"
 #~ msgid "Rain"
 #~ msgstr "雨"
 
-#~ msgid "Red"
-#~ msgstr "红色"
-
 #~ msgid "S"
 #~ msgstr "南"
-
-#~ msgid "UV"
-#~ msgstr "紫外线"
 
 #~ msgid "Updated"
 #~ msgstr " 更新时间"

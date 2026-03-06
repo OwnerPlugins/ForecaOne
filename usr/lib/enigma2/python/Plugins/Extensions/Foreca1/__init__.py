@@ -14,7 +14,7 @@ import gettext
 import codecs
 
 
-VERSION = "1.0.4"
+VERSION = "1.0.5"
 BASEURL = "https://www.foreca.com/"
 TEMP_DIR = '/tmp/foreca'
 SYSTEM_DIR = '/etc/enigma2/foreca'

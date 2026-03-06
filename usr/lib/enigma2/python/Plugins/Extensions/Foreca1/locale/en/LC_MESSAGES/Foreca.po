@@ -41,6 +41,10 @@ msgstr "6 - Today + 6 days"
 msgid "7 - Today + 7 days"
 msgstr "7 - Today + 7 days"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Foreca 4"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Today + 8 days"
 
@@ -97,6 +101,9 @@ msgid "Belgium"
 msgstr ""
 
 msgid "Berlin"
+msgstr ""
+
+msgid "Blue"
 msgstr ""
 
 msgid "Blue - Home"
@@ -233,10 +240,16 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
+msgid "Dewpoint"
+msgstr ""
+
 msgid "Dewpoint {}"
 msgstr ""
 
 msgid "Dewpoint {}°C"
+msgstr ""
+
+msgid "Distance"
 msgstr ""
 
 msgid "Distance {} km"
@@ -404,6 +417,9 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
+msgid "Green"
+msgstr ""
+
 msgid "Green - Favorite 1"
 msgstr "Green - Favorite 1"
 
@@ -411,6 +427,9 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
+msgstr ""
+
+msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -495,6 +514,9 @@ msgid "Keyboard"
 msgstr ""
 
 msgid "Last Quarter"
+msgstr ""
+
+msgid "Last update"
 msgstr ""
 
 msgid "Latvia"
@@ -798,6 +820,9 @@ msgstr "Up - Previous page"
 msgid "Previous page"
 msgstr "Up - Previous page"
 
+msgid "Rain Prob."
+msgstr ""
+
 msgid "Rain prob. {}%"
 msgstr ""
 
@@ -805,6 +830,9 @@ msgid "Rain prob.: N/A"
 msgstr ""
 
 msgid "Rain: {:.1f} {}"
+msgstr ""
+
+msgid "Red"
 msgstr ""
 
 msgid "Red - Color select"
@@ -985,6 +1013,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1190,10 +1221,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Foreca 1 Weather Forecast"
 #~ msgstr "Foreca Weather Forecast"
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Foreca 4"
 
 #, fuzzy
 #~ msgid "Feels like:"

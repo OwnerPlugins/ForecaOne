@@ -6,7 +6,7 @@
     <widget name="city_label" position="1695,1300" size="800,54" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <widget name="update_label" position="60,1300" size="800,54" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <widget name="wind_unit_label" position="2411,1040" size="80,64" font="Regular;36" foregroundColor="#ff9900" transparent="1" halign="center" />
-    <widget name="zero_line" position="160,760" size="2236,3" zPosition="5" alphatest="blend" />
+    <widget name="zero_line" position="160,665" size="2236,3" zPosition="5" alphatest="blend" />
 
     <widget name="precip_text" position="223,1200" size="500,50" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />
     <widget name="showers_text" position="224,1130" size="500,50" font="Regular; 24" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="10" halign="left" />

@@ -4,13 +4,13 @@
     <widget source="menu" render="Listbox" position="105,162" size="1691,775" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#00000000" foregroundColor="#ffffff">
         <convert type="TemplatedMultiContent">
             {"template": [
-                MultiContentEntryPixmapAlphaTest(pos = (20, 5), size = (70, 70), png = 0),
-                MultiContentEntryText(pos = (120, 20), size = (150, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 1, color = 0xffffff, color_sel = 0xffffff),
-                MultiContentEntryText(pos = (320, 20), size = (150, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 2, color = 0xffffff, color_sel = 0xffffff),
-                MultiContentEntryText(pos = (520, 20), size = (400, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 3, color = 0xffffff, color_sel = 0xffffff),
-                MultiContentEntryText(pos = (970, 20), size = (180, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 4, color = 0xffffff, color_sel = 0xffffff),
-                 MultiContentEntryPixmapAlphaTest(pos = (1200, 20), size = (30, 30), png = 5),
-                MultiContentEntryText(pos = (1250, 20), size = (200, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 6, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryPixmapAlphaBlend(pos = (20, 5), size = (70, 70), png = 0),
+                MultiContentEntryText(pos = (110, 20), size = (150, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 1, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (280, 20), size = (150, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 2, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (450, 20), size = (750, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 3, color = 0xffffff, color_sel = 0xffffff),
+                MultiContentEntryText(pos = (1220, 20), size = (220, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 4, color = 0xffffff, color_sel = 0xffffff),
+                 MultiContentEntryPixmapAlphaBlend(pos = (1450, 20), size = (30, 30), png = 5),
+                MultiContentEntryText(pos = (1485, 20), size = (200, 35), font=0, flags = RT_HALIGN_CENTER|RT_VALIGN_CENTER, text = 6, color = 0xffffff, color_sel = 0xffffff),
             ],
             "fonts": [gFont("Regular", 28)],
             "itemHeight": 80

@@ -41,6 +41,10 @@ msgstr "6 - اليوم + 6 أيام"
 msgid "7 - Today + 7 days"
 msgstr "7 - اليوم + 7 أيام"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "موافق - التوقعات"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - اليوم + 8 أيام"
 
@@ -94,6 +98,9 @@ msgstr "بلجيكا"
 
 msgid "Berlin"
 msgstr "برلين"
+
+msgid "Blue"
+msgstr ""
 
 msgid "Blue - Home"
 msgstr "أزرق - الصفحة الرئيسية"
@@ -222,11 +229,18 @@ msgstr "الدنمارك"
 msgid "Details"
 msgstr "التفاصيل"
 
+msgid "Dewpoint"
+msgstr ""
+
 msgid "Dewpoint {}"
 msgstr ""
 
 msgid "Dewpoint {}°C"
 msgstr ""
+
+#, fuzzy
+msgid "Distance"
+msgstr "المسافة {} كم"
 
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
@@ -384,6 +398,10 @@ msgstr "بريطانيا العظمى"
 msgid "Greece"
 msgstr "اليونان"
 
+#, fuzzy
+msgid "Green"
+msgstr "اليونان"
+
 msgid "Green - Favorite 1"
 msgstr "أخضر - المفضلة 1"
 
@@ -393,6 +411,9 @@ msgstr ""
 #, fuzzy
 msgid "Gust: {:.1f} {}"
 msgstr "الرياح: {} {} {}"
+
+msgid "HTML"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "هامبورغ"
@@ -473,6 +494,10 @@ msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
 msgid "Last Quarter"
+msgstr "الربع الأخير"
+
+#, fuzzy
+msgid "Last update"
 msgstr "الربع الأخير"
 
 msgid "Latvia"
@@ -757,6 +782,10 @@ msgid "Previous page"
 msgstr "الصفحة السابقة"
 
 #, fuzzy
+msgid "Rain Prob."
+msgstr "احتمالية المطر: غير متوفرة"
+
+#, fuzzy
 msgid "Rain prob. {}%"
 msgstr "احتمالية المطر: غير متوفرة"
 
@@ -766,6 +795,9 @@ msgstr "احتمالية المطر: غير متوفرة"
 #, fuzzy
 msgid "Rain: {:.1f} {}"
 msgstr "الرياح: {} {} {}"
+
+msgid "Red"
+msgstr ""
 
 msgid "Red - Color select"
 msgstr "أحمر - اختيار اللون"
@@ -939,6 +971,9 @@ msgstr "جرب تكبيرًا أو طبقة مختلفة"
 
 msgid "Try different zoom or region"
 msgstr "جرب تكبيرًا أو منطقة مختلفة"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "مؤشر الأشعة فوق البنفسجية"

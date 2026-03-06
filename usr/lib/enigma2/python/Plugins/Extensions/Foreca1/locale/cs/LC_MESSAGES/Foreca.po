@@ -42,6 +42,10 @@ msgstr "6 - Dnes + 6 dnů"
 msgid "7 - Today + 7 days"
 msgstr "7 - Dnes + 7 dnů"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Předpověď"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Dnes + 8 dnů"
 
@@ -97,6 +101,9 @@ msgstr "Belgie"
 
 msgid "Berlin"
 msgstr "Berlín"
+
+msgid "Blue"
+msgstr "Modrá"
 
 msgid "Blue - Home"
 msgstr "Modrá - Domov"
@@ -230,11 +237,17 @@ msgstr "Dánsko"
 msgid "Details"
 msgstr ""
 
+msgid "Dewpoint"
+msgstr ""
+
 msgid "Dewpoint {}"
 msgstr ""
 
 msgid "Dewpoint {}°C"
 msgstr ""
+
+msgid "Distance"
+msgstr "Vzdálenost"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -405,6 +418,9 @@ msgstr "Velká Británie"
 msgid "Greece"
 msgstr "Řecko"
 
+msgid "Green"
+msgstr "Zelená"
+
 msgid "Green - Favorite 1"
 msgstr "Zelená - Oblíbené 1"
 
@@ -413,6 +429,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburk"
@@ -495,6 +514,9 @@ msgstr "Klávesnice"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Poslední aktualizace"
+
+msgid "Last update"
 msgstr "Poslední aktualizace"
 
 msgid "Latvia"
@@ -792,6 +814,9 @@ msgstr "Předchozí strana"
 msgid "Previous page"
 msgstr "Předchozí strana"
 
+msgid "Rain Prob."
+msgstr ""
+
 msgid "Rain prob. {}%"
 msgstr ""
 
@@ -800,6 +825,9 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
+
+msgid "Red"
+msgstr "Červená"
 
 msgid "Red - Color select"
 msgstr "Červená - Výběr barvy"
@@ -978,6 +1006,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1184,38 +1215,16 @@ msgstr "• ŽLUTÁ pro uložení jako Oblíbené 2\n"
 #~ msgstr "Předpověď počasí Foreca"
 
 #, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Předpověď"
-
-#~ msgid "Blue"
-#~ msgstr "Modrá"
-
-#~ msgid "Distance"
-#~ msgstr "Vzdálenost"
-
-#, fuzzy
 #~ msgid "Feels like:"
 #~ msgstr "Pocitová teplota"
-
-#~ msgid "Green"
-#~ msgstr "Zelená"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
 
 #, fuzzy
 #~ msgid "Humidity:"
 #~ msgstr "Vlhkost"
 
-#~ msgid "Last update"
-#~ msgstr "Poslední aktualizace"
-
 #, fuzzy
 #~ msgid "Precip"
 #~ msgstr "Srážky"
-
-#~ msgid "Red"
-#~ msgstr "Červená"
 
 #~ msgid "stations nearby"
 #~ msgstr "stanice v okolí"

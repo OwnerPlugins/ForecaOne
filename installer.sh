@@ -1,7 +1,7 @@
 #!/bin/bash
 
-version='1.0.4'
-changelog='\nMoon Fix - @Orlandox ;)\nOffer coffee if you like this plugin'
+version='1.0.5'
+changelog='\nMoon Recode Jwl Calc\nFix Zeroline Meteogramm\nMinor fix on screen\nOffer coffee if you like this plugin'
 
 TMPPATH=/tmp/ForecaOne-install
 FILEPATH=/tmp/ForecaOne-main.tar.gz

@@ -42,6 +42,10 @@ msgstr "6 - Avui + 6 dies"
 msgid "7 - Today + 7 days"
 msgstr "7 - Avui + 7 dies"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Pronòstic"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Avui + 8 dies"
 
@@ -97,6 +101,9 @@ msgstr "Bèlgica"
 
 msgid "Berlin"
 msgstr "Berlín"
+
+msgid "Blue"
+msgstr "Blau"
 
 msgid "Blue - Home"
 msgstr "Blau - Inici"
@@ -230,11 +237,17 @@ msgstr "Dinamarca"
 msgid "Details"
 msgstr ""
 
+msgid "Dewpoint"
+msgstr ""
+
 msgid "Dewpoint {}"
 msgstr ""
 
 msgid "Dewpoint {}°C"
 msgstr ""
+
+msgid "Distance"
+msgstr "Distància"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -405,6 +418,9 @@ msgstr "Gran Bretanya"
 msgid "Greece"
 msgstr "Grècia"
 
+msgid "Green"
+msgstr "Verd"
+
 msgid "Green - Favorite 1"
 msgstr "Verd - Favorit 1"
 
@@ -413,6 +429,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -495,6 +514,9 @@ msgstr "Teclat"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Última actualització"
+
+msgid "Last update"
 msgstr "Última actualització"
 
 msgid "Latvia"
@@ -792,6 +814,9 @@ msgstr "Pàgina anterior"
 msgid "Previous page"
 msgstr "Pàgina anterior"
 
+msgid "Rain Prob."
+msgstr ""
+
 msgid "Rain prob. {}%"
 msgstr ""
 
@@ -800,6 +825,9 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
+
+msgid "Red"
+msgstr "Vermell"
 
 msgid "Red - Color select"
 msgstr "Vermell - Selecció de color"
@@ -978,6 +1006,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1184,38 +1215,16 @@ msgstr "• GROC per desar com a Favorit 2\n"
 #~ msgstr "Pronòstic del temps Foreca"
 
 #, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Pronòstic"
-
-#~ msgid "Blue"
-#~ msgstr "Blau"
-
-#~ msgid "Distance"
-#~ msgstr "Distància"
-
-#, fuzzy
 #~ msgid "Feels like:"
 #~ msgstr "Sensació tèrmica"
-
-#~ msgid "Green"
-#~ msgstr "Verd"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
 
 #, fuzzy
 #~ msgid "Humidity:"
 #~ msgstr "Humitat"
 
-#~ msgid "Last update"
-#~ msgstr "Última actualització"
-
 #, fuzzy
 #~ msgid "Precip"
 #~ msgstr "Precipitació"
-
-#~ msgid "Red"
-#~ msgstr "Vermell"
 
 #~ msgid "stations nearby"
 #~ msgstr "estacions properes"
