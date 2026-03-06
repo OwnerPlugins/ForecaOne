@@ -1,4 +1,4 @@
-# 🌤️ Foreca 1 Weather Forecast – Enigma2 Plugin
+# 🌤️ Foreca One Weather Forecast – Enigma2 Plugin
 
 <p align="center">
   <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="Foreca1 Screenshot" width="300">
@@ -9,7 +9,7 @@
     <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
-    <img src="https://img.shields.io/badge/Version-1.0.4-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.0.5-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
