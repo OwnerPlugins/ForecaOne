@@ -50,6 +50,9 @@ msgstr "9 - اليوم + 9 أيام"
 msgid "API credentials not configured."
 msgstr "لم يتم تكوين بيانات اعتماد API."
 
+msgid "AQI {}"
+msgstr ""
+
 msgid "AQI: N/A"
 msgstr "مؤشر جودة الهواء: غير متوفر"
 
@@ -219,6 +222,12 @@ msgstr "الدنمارك"
 msgid "Details"
 msgstr "التفاصيل"
 
+msgid "Dewpoint {}"
+msgstr ""
+
+msgid "Dewpoint {}°C"
+msgstr ""
+
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
 
@@ -295,6 +304,18 @@ msgstr "تفاصيل المفضلة"
 msgid "Feels like"
 msgstr "يبدو كـ"
 
+#, fuzzy
+msgid "Feels like {}"
+msgstr "يبدو كـ: {}{}"
+
+#, fuzzy
+msgid "Feels like {}{}"
+msgstr "يبدو كـ: {}{}"
+
+#, fuzzy
+msgid "Feels like: {}"
+msgstr "يبدو كـ: {}{}"
+
 msgid "Feels like: {}{}"
 msgstr "يبدو كـ: {}{}"
 
@@ -365,6 +386,13 @@ msgstr "اليونان"
 
 msgid "Green - Favorite 1"
 msgstr "أخضر - المفضلة 1"
+
+msgid "Gust {}"
+msgstr ""
+
+#, fuzzy
+msgid "Gust: {:.1f} {}"
+msgstr "الرياح: {} {} {}"
 
 msgid "Hamburg"
 msgstr "هامبورغ"
@@ -700,6 +728,10 @@ msgstr "هطول الأمطار: {}"
 msgid "Precipitations"
 msgstr "هطول الأمطار"
 
+#, fuzzy
+msgid "Precipitations: {}%"
+msgstr "هطول الأمطار: {}"
+
 msgid "Press RED to search again"
 msgstr "اضغط على الأحمر للبحث مرة أخرى"
 
@@ -724,8 +756,16 @@ msgstr "الصورة السابقة"
 msgid "Previous page"
 msgstr "الصفحة السابقة"
 
+#, fuzzy
+msgid "Rain prob. {}%"
+msgstr "احتمالية المطر: غير متوفرة"
+
 msgid "Rain prob.: N/A"
 msgstr "احتمالية المطر: غير متوفرة"
+
+#, fuzzy
+msgid "Rain: {:.1f} {}"
+msgstr "الرياح: {} {} {}"
 
 msgid "Red - Color select"
 msgstr "أحمر - اختيار اللون"
@@ -819,6 +859,10 @@ msgstr "سلوفاكيا"
 
 msgid "Slower: {}s"
 msgstr "أبطأ: {}ث"
+
+#, fuzzy
+msgid "Snow prob. {}%"
+msgstr "احتمالية الثلج: غير متوفرة"
 
 msgid "Snow prob.: N/A"
 msgstr "احتمالية الثلج: غير متوفرة"
@@ -926,6 +970,10 @@ msgstr ""
 msgid "Update completed. Please restart Enigma2."
 msgstr ""
 
+#, fuzzy
+msgid "Updated {}"
+msgstr "آخر تحديث: {}"
+
 msgid "Updated: N/A"
 msgstr "آخر تحديث: غير متوفر"
 
@@ -1015,6 +1063,14 @@ msgid "Wind speed"
 msgstr "سرعة الرياح"
 
 #, fuzzy
+msgid "Wind speed {}"
+msgstr "سرعة الرياح"
+
+#, fuzzy
+msgid "Wind speed: {:.1f} {}"
+msgstr "سرعة الرياح"
+
+#, fuzzy
 msgid "Wind: {}"
 msgstr "الرياح: {} {} {}"
 
@@ -1074,46 +1130,6 @@ msgstr "• استخدم مفاتيح الأسهم للتنقل\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• أصفر للحفظ كالمفضلة 2\n"
-
-#, fuzzy
-#~ msgid "Feels like {}"
-#~ msgstr "يبدو كـ: {}{}"
-
-#, fuzzy
-#~ msgid "Feels like {}{}"
-#~ msgstr "يبدو كـ: {}{}"
-
-#, fuzzy
-#~ msgid "Feels like: {}"
-#~ msgstr "يبدو كـ: {}{}"
-
-#, fuzzy
-#~ msgid "Precipitations: {}%"
-#~ msgstr "هطول الأمطار: {}"
-
-#, fuzzy
-#~ msgid "Rain prob. {}%"
-#~ msgstr "احتمالية المطر: غير متوفرة"
-
-#, fuzzy
-#~ msgid "Rain: {:.1f} {}"
-#~ msgstr "الرياح: {} {} {}"
-
-#, fuzzy
-#~ msgid "Snow prob. {}%"
-#~ msgstr "احتمالية الثلج: غير متوفرة"
-
-#, fuzzy
-#~ msgid "Updated {}"
-#~ msgstr "آخر تحديث: {}"
-
-#, fuzzy
-#~ msgid "Wind speed {}"
-#~ msgstr "سرعة الرياح"
-
-#, fuzzy
-#~ msgid "Wind speed: {:.1f} {}"
-#~ msgstr "سرعة الرياح"
 
 #~ msgid "Foreca 1 Weather Forecast"
 #~ msgstr "توقعات الطقس Foreca 1"

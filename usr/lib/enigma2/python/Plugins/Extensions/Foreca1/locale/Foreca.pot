@@ -14,6 +14,7 @@
 
 
 
+
 msgid "0 - Today"
 msgstr ""
 
@@ -45,6 +46,9 @@ msgid "9 - Today + 9 days"
 msgstr ""
 
 msgid "API credentials not configured."
+msgstr ""
+
+msgid "AQI {}"
 msgstr ""
 
 msgid "AQI: N/A"
@@ -215,6 +219,12 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
+msgid "Dewpoint {}"
+msgstr ""
+
+msgid "Dewpoint {}°C"
+msgstr ""
+
 msgid "Distance {} km"
 msgstr ""
 
@@ -290,6 +300,15 @@ msgstr ""
 msgid "Feels like"
 msgstr ""
 
+msgid "Feels like {}"
+msgstr ""
+
+msgid "Feels like {}{}"
+msgstr ""
+
+msgid "Feels like: {}"
+msgstr ""
+
 msgid "Feels like: {}{}"
 msgstr ""
 
@@ -354,6 +373,12 @@ msgid "Greece"
 msgstr ""
 
 msgid "Green - Favorite 1"
+msgstr ""
+
+msgid "Gust {}"
+msgstr ""
+
+msgid "Gust: {:.1f} {}"
 msgstr ""
 
 msgid "Hamburg"
@@ -689,6 +714,9 @@ msgstr ""
 msgid "Precipitations"
 msgstr ""
 
+msgid "Precipitations: {}%"
+msgstr ""
+
 msgid "Press RED to search again"
 msgstr ""
 
@@ -713,7 +741,13 @@ msgstr ""
 msgid "Previous page"
 msgstr ""
 
+msgid "Rain prob. {}%"
+msgstr ""
+
 msgid "Rain prob.: N/A"
+msgstr ""
+
+msgid "Rain: {:.1f} {}"
 msgstr ""
 
 msgid "Red - Color select"
@@ -807,6 +841,9 @@ msgid "Slovakia"
 msgstr ""
 
 msgid "Slower: {}s"
+msgstr ""
+
+msgid "Snow prob. {}%"
 msgstr ""
 
 msgid "Snow prob.: N/A"
@@ -914,6 +951,9 @@ msgstr ""
 msgid "Update completed. Please restart Enigma2."
 msgstr ""
 
+msgid "Updated {}"
+msgstr ""
+
 msgid "Updated: N/A"
 msgstr ""
 
@@ -999,6 +1039,12 @@ msgid "Wind direction"
 msgstr ""
 
 msgid "Wind speed"
+msgstr ""
+
+msgid "Wind speed {}"
+msgstr ""
+
+msgid "Wind speed: {:.1f} {}"
 msgstr ""
 
 msgid "Wind: {}"

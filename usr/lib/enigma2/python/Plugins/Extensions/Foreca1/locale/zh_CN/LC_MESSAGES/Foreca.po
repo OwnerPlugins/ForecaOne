@@ -4,12 +4,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 23:33+0800\n"
 "PO-Revision-Date: 2026-03-06 15:11+0800\n"
+"Last-Translator: 沙鸥_lexlong2007 <lexlong2007@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: 沙鸥_lexlong2007 <lexlong2007@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.3\n"
 
 msgid "0 - Today"
@@ -36,29 +36,11 @@ msgstr "6-今天+ 6天"
 msgid "7 - Today + 7 days"
 msgstr "7-今天+ 7天"
 
-msgid "7 Day Forecast"
-msgstr "未来七天天气预报"
-
 msgid "8 - Today + 8 days"
 msgstr "8-今天+ 8天"
 
 msgid "9 - Today + 9 days"
 msgstr "9 -今天+ 9天"
-
-msgid ""
-"API configuration file not found!\n"
-"\n"
-"Please create file:\n"
-"{0}\n"
-"\n"
-"with your Foreca API credentials."
-msgstr ""
-"未找到API配置文件！\n"
-"\n"
-"请创建文件：\n"
-"{0}\n"
-"\n"
-"使用您的Foreca API凭据."
 
 msgid "API credentials not configured."
 msgstr ""
@@ -67,8 +49,8 @@ msgstr ""
 "\n"
 "创建的示例文件： api_config.txt"
 
-msgid "AQI"
-msgstr "AQI值"
+msgid "AQI {}"
+msgstr ""
 
 msgid "AQI: N/A"
 msgstr "AQI ：不适用"
@@ -112,9 +94,6 @@ msgstr "比利时"
 msgid "Berlin"
 msgstr "柏林"
 
-msgid "Blue"
-msgstr "蓝色"
-
 msgid "Blue - Home"
 msgstr "蓝色-主页"
 
@@ -130,21 +109,20 @@ msgstr "取消"
 msgid "Celsius, km/h, hPa"
 msgstr "摄氏度，千米/时， 百帕"
 
+msgid "Changelog: {changelog}"
+msgstr "更新日志： {changelog}"
+
 msgid "Changes apply immediately"
 msgstr "更改立即应用"
+
+msgid "Check for updates"
+msgstr "检查更新"
 
 msgid "Choose detail view"
 msgstr "选择详细信息视图"
 
 msgid "City Selection"
 msgstr "城市筛选"
-
-msgid ""
-"City Selection Help:\n"
-"\n"
-msgstr ""
-"城市选择帮助：\n"
-"\n"
 
 msgid "City list file not found!"
 msgstr "未找到城市列表文件！"
@@ -200,6 +178,9 @@ msgstr "天气状况: {}"
 msgid "Continents Weather Maps"
 msgstr "大陆天气地图"
 
+msgid "Could not fetch update information."
+msgstr "无法获取更新信息。"
+
 msgid "Could not initialize map API."
 msgstr ""
 "无法初始化地图API.\n"
@@ -207,6 +188,9 @@ msgstr ""
 
 msgid "Could not load forecast data"
 msgstr "没有可用的预测数据"
+
+msgid "Could not parse version information."
+msgstr "无法解析版本信息。"
 
 msgid "Current weather and forecast"
 msgstr "当前天气和预报"
@@ -238,17 +222,22 @@ msgstr "丹麦"
 msgid "Details"
 msgstr "详情"
 
-msgid "Dewpoint"
+#, fuzzy
+msgid "Dewpoint {}"
 msgstr "露点温度:"
 
-msgid "Distance"
-msgstr "距离"
+#, fuzzy
+msgid "Dewpoint {}°C"
+msgstr "露点温度:"
 
 msgid "Distance {} km"
 msgstr "距离: {}千米"
 
 msgid "Distance: {} m"
 msgstr "距离: {}米"
+
+msgid "Do you want to install it now?"
+msgstr "您想现在安装吗？"
 
 msgid "Down"
 msgstr "下"
@@ -262,11 +251,11 @@ msgstr "正在下载图像..."
 msgid "Downloading tiles..."
 msgstr "正在下载..."
 
-msgid "E"
-msgstr "东"
-
 msgid "East Asia"
 msgstr "东亚"
+
+msgid "Error checking for updates."
+msgstr "检查更新时出错。"
 
 msgid "Error displaying map"
 msgstr "显示预测时出错"
@@ -316,8 +305,17 @@ msgstr "收藏夹详细天气"
 msgid "Feels like"
 msgstr "体感温度"
 
-msgid "Feels like:"
-msgstr "体感:"
+#, fuzzy
+msgid "Feels like {}"
+msgstr "体感温度: {}{}"
+
+#, fuzzy
+msgid "Feels like {}{}"
+msgstr "体感温度: {}{}"
+
+#, fuzzy
+msgid "Feels like: {}"
+msgstr "体感温度: {}{}"
 
 msgid "Feels like: {}{}"
 msgstr "体感温度: {}{}"
@@ -333,24 +331,6 @@ msgstr "上弦月"
 
 msgid "Fog"
 msgstr "雾"
-
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca 1实时地图(API)"
-
-msgid "Foreca 1 No stations found"
-msgstr "未找到站点"
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "正在加载附近的站点..."
-
-msgid "Foreca 1 Weather Forecast"
-msgstr "Foreca天气预报"
-
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Foreca天气预报"
-
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca 4 天气预报"
 
 msgid "Foreca One"
 msgstr "Foreca One 天气预报"
@@ -400,17 +380,15 @@ msgstr "大不列颠及北爱尔兰"
 msgid "Greece"
 msgstr "希腊"
 
-msgid "Green"
-msgstr "绿"
-
 msgid "Green - Favorite 1"
 msgstr "绿色-收藏 1"
 
-msgid "Gust"
+#, fuzzy
+msgid "Gust {}"
 msgstr "强风"
 
-msgid "HTML"
-msgstr "HTML"
+msgid "Gust: {:.1f} {}"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "德国汉堡"
@@ -436,14 +414,14 @@ msgstr "小时详情"
 msgid "Humidity"
 msgstr "湿度"
 
-msgid "Humidity:"
-msgstr "空气湿度:"
-
 msgid "Humidity: {}%"
 msgstr "空气湿度: {}%"
 
 msgid "Hungary"
 msgstr "匈牙利"
+
+msgid "Illumination"
+msgstr "光照"
 
 msgid "Image %(current)d/%(total)d"
 msgstr "图片% (当前) d/% (总计) d"
@@ -492,9 +470,6 @@ msgstr "键盘设置"
 
 msgid "Last Quarter"
 msgstr "下弦月"
-
-msgid "Last update"
-msgstr "最近更新时间"
 
 msgid "Latvia"
 msgstr "拉脱维亚"
@@ -556,9 +531,6 @@ msgstr "中亚"
 msgid "Middle East"
 msgstr "中东"
 
-msgid "Min: {}°C, Max: {}°C"
-msgstr "最小：{} °C ，最大：{} °C"
-
 msgid "Moderate"
 msgstr "适中"
 
@@ -580,14 +552,14 @@ msgstr "下移一行"
 msgid "Move up"
 msgstr "上移一行"
 
-msgid "N"
-msgstr "北"
-
 msgid "Netherlands"
 msgstr "荷兰"
 
 msgid "New Moon"
 msgstr "新月"
+
+msgid "New version {version} is available."
+msgstr "新版本{version}可用。"
 
 msgid "Next"
 msgstr "稍后"
@@ -657,13 +629,6 @@ msgstr "打开的键盘"
 
 msgid "Open Map"
 msgstr "气象图视频"
-
-msgid ""
-"Original design and idea by @Bauernbub\n"
-"Rewrite by Lululla, 2026"
-msgstr ""
-"Bauernbub的原创设计和创意\n"
-"Lululla改写， 2026年"
 
 msgid "Overcast"
 msgstr "灰蒙蒙"
@@ -749,23 +714,18 @@ msgstr "波兰"
 msgid "Portugal"
 msgstr "葡萄牙"
 
-msgid "Precip"
-msgstr "降雨量"
-
 msgid "Precipitation"
 msgstr "降水"
 
 msgid "Precipitation: {}"
 msgstr "降水: {}"
 
-msgid "Precipitation: {}%"
-msgstr "降水: {}%"
-
 msgid "Precipitations"
 msgstr "沉积物："
 
-msgid "Precipitations:"
-msgstr "沉积物："
+#, fuzzy
+msgid "Precipitations: {}%"
+msgstr "降水: {}%"
 
 msgid "Press RED to search again"
 msgstr "按红色键进行旧的分组搜索"
@@ -791,17 +751,16 @@ msgstr "上张图像"
 msgid "Previous page"
 msgstr "转到上一页的事件"
 
-msgid "Rain"
-msgstr "雨"
-
-msgid "Rain prob."
+#, fuzzy
+msgid "Rain prob. {}%"
 msgstr "降雨概率"
 
 msgid "Rain prob.: N/A"
 msgstr "降雨概率:N/A"
 
-msgid "Red"
-msgstr "红色"
+#, fuzzy
+msgid "Rain: {:.1f} {}"
+msgstr "风速: {} {} {}"
 
 msgid "Red - Color select"
 msgstr "红色-颜色选择"
@@ -823,9 +782,6 @@ msgstr "月出"
 
 msgid "Russia"
 msgstr "俄罗斯"
-
-msgid "S"
-msgstr "南"
 
 msgid "Saarland"
 msgstr "萨尔州"
@@ -899,7 +855,8 @@ msgstr "斯洛伐克"
 msgid "Slower: {}s"
 msgstr "较慢： {}秒"
 
-msgid "Snow prob."
+#, fuzzy
+msgid "Snow prob. {}%"
 msgstr "降雪概率"
 
 msgid "Snow prob.: N/A"
@@ -977,9 +934,6 @@ msgstr "尝试其他缩放或图层"
 msgid "Try different zoom or region"
 msgstr "尝试其他缩放比例或区域"
 
-msgid "UV"
-msgstr "紫外线"
-
 msgid "UV Index"
 msgstr "紫外线指数"
 
@@ -1004,14 +958,24 @@ msgstr "上"
 msgid "Up - Previous page"
 msgstr "向上-上一页"
 
-msgid "Updated"
-msgstr " 更新时间"
+msgid "Update canceled."
+msgstr "更新已取消。"
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "更新完成。请重新启动Enigma2。"
+
+#, fuzzy
+msgid "Updated {}"
+msgstr "更新时间: {}"
 
 msgid "Updated: N/A"
 msgstr "更新时间:N/A"
 
 msgid "Updated: {}"
 msgstr "更新时间: {}"
+
+msgid "Updating..."
+msgstr "更新..."
 
 msgid "Use arrow keys to scroll"
 msgstr "然后使用箭头键移动."
@@ -1033,9 +997,6 @@ msgstr "能见度"
 
 msgid "Visibility: {} m"
 msgstr "能见度： {}米"
-
-msgid "W"
-msgstr "西"
 
 msgid "Waning Crescent"
 msgstr "残月"
@@ -1094,6 +1055,14 @@ msgstr "风向"
 msgid "Wind speed"
 msgstr "風速"
 
+#, fuzzy
+msgid "Wind speed {}"
+msgstr "風速"
+
+#, fuzzy
+msgid "Wind speed: {:.1f} {}"
+msgstr "風速"
+
 msgid "Wind: {}"
 msgstr "风速: {} "
 
@@ -1109,6 +1078,9 @@ msgstr "窗口透明度"
 msgid "Yellow - Favorite 2"
 msgstr "黄色-收藏 2"
 
+msgid "You already have the latest version."
+msgstr "恭喜，已经是最新版本了！"
+
 msgid "Zoom In"
 msgstr "放大"
 
@@ -1121,15 +1093,9 @@ msgstr "放大+"
 msgid "Zoom-"
 msgstr "缩小 -"
 
-msgid "Zoom: "
+#, fuzzy
+msgid "Zoom:"
 msgstr "缩放"
-
-msgid ""
-"http://linuxsat-support.com\n"
-"http://www.corvoboys.org"
-msgstr ""
-"http://linuxsat-support.com\n"
-"http://www.corvoboys.org"
 
 msgid "v."
 msgstr "v."
@@ -1155,71 +1121,92 @@ msgstr "•红色以打开搜索键盘\n"
 msgid "• Use arrow keys to navigate\n"
 msgstr "然后使用箭头键移动.\n"
 
-msgid ""
-"• VOL+/VOL- to jump 100 cities\n"
-"\n"
-msgstr ""
-"• VOL +/VOL-可跳过100个城市\n"
-"\n"
-
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "黄色-分配给收藏夹2\n"
 
-msgid "▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤"
-msgstr "▲/▼ ◄/► 频道+ 频道- ≡ ℹ ❓ ✖ ⬤"
+#~ msgid "7 Day Forecast"
+#~ msgstr "未来七天天气预报"
 
-msgid "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
-msgstr "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
+#~ msgid "AQI"
+#~ msgstr "AQI值"
 
-msgid "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
-msgstr "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
+#~ msgid "Blue"
+#~ msgstr "蓝色"
 
-#: plugin.py:1441
-#, python-brace-format
-msgid "Changelog: {changelog}"
-msgstr "更新日志： {changelog}"
+#~ msgid "Distance"
+#~ msgstr "距离"
 
-#: plugin.py:613
-msgid "Check for updates"
-msgstr "检查更新"
+#~ msgid "E"
+#~ msgstr "东"
 
-#: plugin.py:1410
-msgid "Could not fetch update information."
-msgstr "无法获取更新信息。"
+#~ msgid "Feels like:"
+#~ msgstr "体感:"
 
-#: plugin.py:1430
-msgid "Could not parse version information."
-msgstr "无法解析版本信息。"
+#~ msgid "Foreca 1 Live Maps (API)"
+#~ msgstr "Foreca 1实时地图(API)"
 
-#: plugin.py:1442
-msgid "Do you want to install it now?"
-msgstr "您想现在安装吗？"
+#~ msgid "Foreca 1 No stations found"
+#~ msgstr "未找到站点"
 
-#: plugin.py:1453
-msgid "Error checking for updates."
-msgstr "检查更新时出错。"
+#~ msgid "Foreca 1 Stations: {} stations nearby ({})"
+#~ msgstr "正在加载附近的站点..."
 
-#: plugin.py:1655
-msgid "Illumination"
-msgstr "光照"
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "Foreca天气预报"
 
-#: plugin.py:1439
-#, python-brace-format
-msgid "New version {version} is available."
-msgstr "新版本{version}可用。"
+#~ msgid "Foreca 1 Weather and Forecast"
+#~ msgstr "Foreca天气预报"
 
-#: plugin.py:1468
-msgid "Update canceled."
-msgstr "更新已取消。"
+#~ msgid "Foreca 1 | Map {}"
+#~ msgstr "Foreca 4 天气预报"
 
-#: plugin.py:1472
-msgid "Update completed. Please restart Enigma2."
-msgstr "更新完成。请重新启动Enigma2。"
+#~ msgid "Green"
+#~ msgstr "绿"
 
-#: plugin.py:1462
-msgid "Updating..."
-msgstr "更新..."
+#~ msgid "HTML"
+#~ msgstr "HTML"
 
-#: plugin.py:1450
-msgid "You already have the latest version."
-msgstr "恭喜，已经是最新版本了！"
+#~ msgid "Humidity:"
+#~ msgstr "空气湿度:"
+
+#~ msgid "Last update"
+#~ msgstr "最近更新时间"
+
+#~ msgid "Min: {}°C, Max: {}°C"
+#~ msgstr "最小：{} °C ，最大：{} °C"
+
+#~ msgid "N"
+#~ msgstr "北"
+
+#~ msgid "Precip"
+#~ msgstr "降雨量"
+
+#~ msgid "Precipitations:"
+#~ msgstr "沉积物："
+
+#~ msgid "Rain"
+#~ msgstr "雨"
+
+#~ msgid "Red"
+#~ msgstr "红色"
+
+#~ msgid "S"
+#~ msgstr "南"
+
+#~ msgid "UV"
+#~ msgstr "紫外线"
+
+#~ msgid "Updated"
+#~ msgstr " 更新时间"
+
+#~ msgid "W"
+#~ msgstr "西"
+
+#~ msgid "▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤"
+#~ msgstr "▲/▼ ◄/► 频道+ 频道- ≡ ℹ ❓ ✖ ⬤"
+
+#~ msgid "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
+#~ msgstr "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
+
+#~ msgid "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
+#~ msgstr "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"

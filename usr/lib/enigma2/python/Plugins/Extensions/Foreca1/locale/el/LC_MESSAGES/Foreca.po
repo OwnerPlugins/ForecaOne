@@ -49,6 +49,9 @@ msgstr "9 - Σήμερα + 9 ημέρες"
 msgid "API credentials not configured."
 msgstr "Τα διαπιστευτήρια API δεν έχουν ρυθμιστεί."
 
+msgid "AQI {}"
+msgstr ""
+
 msgid "AQI: N/A"
 msgstr "AQI: Μ/Δ"
 
@@ -217,6 +220,14 @@ msgstr "Δανία"
 msgid "Details"
 msgstr "Λεπτομέρειες"
 
+#, fuzzy
+msgid "Dewpoint {}"
+msgstr "Σημείο δρόσου"
+
+#, fuzzy
+msgid "Dewpoint {}°C"
+msgstr "Σημείο δρόσου"
+
 msgid "Distance {} km"
 msgstr "Απόσταση {} χλμ"
 
@@ -293,6 +304,18 @@ msgstr "Λεπτομέρειες αγαπημένων"
 msgid "Feels like"
 msgstr "Αίσθηση ως"
 
+#, fuzzy
+msgid "Feels like {}"
+msgstr "Αίσθηση ως: {}{}"
+
+#, fuzzy
+msgid "Feels like {}{}"
+msgstr "Αίσθηση ως: {}{}"
+
+#, fuzzy
+msgid "Feels like: {}"
+msgstr "Αίσθηση ως: {}{}"
+
 msgid "Feels like: {}{}"
 msgstr "Αίσθηση ως: {}{}"
 
@@ -358,6 +381,14 @@ msgstr "Ελλάδα"
 
 msgid "Green - Favorite 1"
 msgstr "Πράσινο - Αγαπημένο 1"
+
+#, fuzzy
+msgid "Gust {}"
+msgstr "Ριπή ανέμου"
+
+#, fuzzy
+msgid "Gust: {:.1f} {}"
+msgstr "Άνεμος: {} {} {}"
 
 msgid "Hamburg"
 msgstr "Αμβούργο"
@@ -693,6 +724,10 @@ msgstr "Βροχόπτωση: {}"
 msgid "Precipitations"
 msgstr "Βροχοπτώσεις"
 
+#, fuzzy
+msgid "Precipitations: {}%"
+msgstr "Βροχόπτωση: {}"
+
 msgid "Press RED to search again"
 msgstr "Πατήστε το ΚΟΚΚΙΝΟ για νέα αναζήτηση"
 
@@ -717,8 +752,16 @@ msgstr "Προηγούμενη εικόνα"
 msgid "Previous page"
 msgstr "Προηγούμενη σελίδα"
 
+#, fuzzy
+msgid "Rain prob. {}%"
+msgstr "Πιθανότ. βροχής"
+
 msgid "Rain prob.: N/A"
 msgstr "Πιθανότ. βροχής: Μ/Δ"
+
+#, fuzzy
+msgid "Rain: {:.1f} {}"
+msgstr "Άνεμος: {} {} {}"
 
 msgid "Red - Color select"
 msgstr "Κόκκινο - Επιλογή χρώματος"
@@ -812,6 +855,10 @@ msgstr "Σλοβακία"
 
 msgid "Slower: {}s"
 msgstr "Αργότερα: {}δ"
+
+#, fuzzy
+msgid "Snow prob. {}%"
+msgstr "Πιθανότ. χιονιού"
 
 msgid "Snow prob.: N/A"
 msgstr "Πιθανότ. χιονιού: Μ/Δ"
@@ -919,6 +966,10 @@ msgstr "Ενημερώθηκε"
 msgid "Update completed. Please restart Enigma2."
 msgstr ""
 
+#, fuzzy
+msgid "Updated {}"
+msgstr "Ενημερώθηκε: {}"
+
 msgid "Updated: N/A"
 msgstr "Ενημερώθηκε: Μ/Δ"
 
@@ -1007,6 +1058,14 @@ msgstr "Κατεύθυνση ανέμου"
 msgid "Wind speed"
 msgstr "Ταχύτητα ανέμου"
 
+#, fuzzy
+msgid "Wind speed {}"
+msgstr "Ταχύτητα ανέμου"
+
+#, fuzzy
+msgid "Wind speed: {:.1f} {}"
+msgstr "Ταχύτητα ανέμου"
+
 msgid "Wind: {}"
 msgstr "Άνεμος: {}"
 
@@ -1066,58 +1125,6 @@ msgstr "• Χρησιμοποιήστε τα βέλη για πλοήγηση\n
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2\n"
-
-#, fuzzy
-#~ msgid "Dewpoint {}"
-#~ msgstr "Σημείο δρόσου"
-
-#, fuzzy
-#~ msgid "Dewpoint {}°C"
-#~ msgstr "Σημείο δρόσου"
-
-#, fuzzy
-#~ msgid "Feels like {}"
-#~ msgstr "Αίσθηση ως: {}{}"
-
-#, fuzzy
-#~ msgid "Feels like {}{}"
-#~ msgstr "Αίσθηση ως: {}{}"
-
-#, fuzzy
-#~ msgid "Feels like: {}"
-#~ msgstr "Αίσθηση ως: {}{}"
-
-#, fuzzy
-#~ msgid "Gust {}"
-#~ msgstr "Ριπή ανέμου"
-
-#, fuzzy
-#~ msgid "Precipitations: {}%"
-#~ msgstr "Βροχόπτωση: {}"
-
-#, fuzzy
-#~ msgid "Rain prob. {}%"
-#~ msgstr "Πιθανότ. βροχής"
-
-#, fuzzy
-#~ msgid "Rain: {:.1f} {}"
-#~ msgstr "Άνεμος: {} {} {}"
-
-#, fuzzy
-#~ msgid "Snow prob. {}%"
-#~ msgstr "Πιθανότ. χιονιού"
-
-#, fuzzy
-#~ msgid "Updated {}"
-#~ msgstr "Ενημερώθηκε: {}"
-
-#, fuzzy
-#~ msgid "Wind speed {}"
-#~ msgstr "Ταχύτητα ανέμου"
-
-#, fuzzy
-#~ msgid "Wind speed: {:.1f} {}"
-#~ msgstr "Ταχύτητα ανέμου"
 
 #~ msgid "Foreca 1 Weather Forecast"
 #~ msgstr "Πρόγνωση καιρού Foreca 1"

@@ -51,6 +51,9 @@ msgstr "9 - Oggi + 9 giorni"
 msgid "API credentials not configured."
 msgstr "Nessuna credenziale API configurata."
 
+msgid "AQI {}"
+msgstr "IQA {}"
+
 msgid "AQI: N/A"
 msgstr "IQA: N/A"
 
@@ -219,6 +222,12 @@ msgstr "Danimarca"
 msgid "Details"
 msgstr "Dettagli"
 
+msgid "Dewpoint {}"
+msgstr "Punto di rugiada {}"
+
+msgid "Dewpoint {}°C"
+msgstr "Punto di rugiada {}°C"
+
 msgid "Distance {} km"
 msgstr "Distanza {} km"
 
@@ -294,6 +303,15 @@ msgstr "Dettagli Favoriti"
 msgid "Feels like"
 msgstr "Percepita"
 
+msgid "Feels like {}"
+msgstr "Percepita {}"
+
+msgid "Feels like {}{}"
+msgstr "Percepita {}{}"
+
+msgid "Feels like: {}"
+msgstr "Percepita: {}"
+
 msgid "Feels like: {}{}"
 msgstr "Percepita: {}{}"
 
@@ -359,6 +377,12 @@ msgstr "Grecia"
 
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
+
+msgid "Gust {}"
+msgstr "Raffica {}"
+
+msgid "Gust: {:.1f} {}"
+msgstr "Raffica: {:.1f} {}"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -693,6 +717,9 @@ msgstr "Precipitazioni: {}"
 msgid "Precipitations"
 msgstr "Precipitazioni"
 
+msgid "Precipitations: {}%"
+msgstr "Precipitazioni: {}%"
+
 msgid "Press RED to search again"
 msgstr "Premi ROSSO per cercare di nuovo"
 
@@ -717,8 +744,14 @@ msgstr "Immagine Precedente"
 msgid "Previous page"
 msgstr "Pagina precedente"
 
+msgid "Rain prob. {}%"
+msgstr "Prob. pioggia. {}%"
+
 msgid "Rain prob.: N/A"
 msgstr "Prob. di pioggia: N/D"
+
+msgid "Rain: {:.1f} {}"
+msgstr "Pioggia: {:.1f} {}"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -812,6 +845,9 @@ msgstr "Slovacchia"
 
 msgid "Slower: {}s"
 msgstr "Più lento: {}s"
+
+msgid "Snow prob. {}%"
+msgstr "Prob. neve. {}%"
 
 msgid "Snow prob.: N/A"
 msgstr "Prob. neve: N/D"
@@ -918,6 +954,9 @@ msgstr "Aggiornamento annullato."
 msgid "Update completed. Please restart Enigma2."
 msgstr "Aggiornamento completato. Riavviare Enigma2."
 
+msgid "Updated {}"
+msgstr "Aggiornato {}"
+
 msgid "Updated: N/A"
 msgstr "Aggiornato: N/D"
 
@@ -1005,6 +1044,12 @@ msgstr "Direzione del Vento"
 msgid "Wind speed"
 msgstr "Velocità del Vento"
 
+msgid "Wind speed {}"
+msgstr "Velocità del Vento {}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "Velocità del Vento: {:.1f} {}"
+
 msgid "Wind: {}"
 msgstr "Vento: {}"
 
@@ -1064,51 +1109,6 @@ msgstr "• Utilizzare i tasti freccia per navigare\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GIALLO per salvare Preferito 2\n"
-
-#~ msgid "AQI {}"
-#~ msgstr "IQA {}"
-
-#~ msgid "Dewpoint {}"
-#~ msgstr "Punto di rugiada {}"
-
-#~ msgid "Dewpoint {}°C"
-#~ msgstr "Punto di rugiada {}°C"
-
-#~ msgid "Feels like {}"
-#~ msgstr "Percepita {}"
-
-#~ msgid "Feels like {}{}"
-#~ msgstr "Percepita {}{}"
-
-#~ msgid "Feels like: {}"
-#~ msgstr "Percepita: {}"
-
-#~ msgid "Gust {}"
-#~ msgstr "Raffica {}"
-
-#~ msgid "Gust: {:.1f} {}"
-#~ msgstr "Raffica: {:.1f} {}"
-
-#~ msgid "Precipitations: {}%"
-#~ msgstr "Precipitazioni: {}%"
-
-#~ msgid "Rain prob. {}%"
-#~ msgstr "Prob. pioggia. {}%"
-
-#~ msgid "Rain: {:.1f} {}"
-#~ msgstr "Pioggia: {:.1f} {}"
-
-#~ msgid "Snow prob. {}%"
-#~ msgstr "Prob. neve. {}%"
-
-#~ msgid "Updated {}"
-#~ msgstr "Aggiornato {}"
-
-#~ msgid "Wind speed {}"
-#~ msgstr "Velocità del Vento {}"
-
-#~ msgid "Wind speed: {:.1f} {}"
-#~ msgstr "Velocità del Vento: {:.1f} {}"
 
 #~ msgid "Foreca 1 Weather Forecast"
 #~ msgstr "Foreca 1 Previsioni del tempo"
