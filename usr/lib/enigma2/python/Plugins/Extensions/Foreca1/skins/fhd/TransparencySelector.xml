@@ -2,7 +2,7 @@
     <!-- Description -->
     <widget name="title_label" position="30,26" size="1131,56" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <!-- List -->
-    <widget name="menu" itemHeight="55" position="60,120" size="980,550" enableWrapAround="1" scrollbarMode="showOnDemand" valign="center" font="Regular;34" transparent="1" backgroundColor="#00000000" zPosition="3"/>
+    <widget name="menu" itemHeight="44" position="60,120" size="980,540" enableWrapAround="1" scrollbarMode="showOnDemand" valign="center" font="Regular;34" transparent="1" backgroundColor="#00000000" zPosition="3"/>
     <!-- Button icons -->
     <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="60,700" size="980,50" font="Regular; 32" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
     <!-- Background plates -->

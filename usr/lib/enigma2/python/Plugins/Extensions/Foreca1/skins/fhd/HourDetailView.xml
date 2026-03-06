@@ -22,7 +22,7 @@
     <widget name="wind_speed_value" position="715,380" size="100,30" font="Regular; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="3" />
     <ePixmap position="660,355" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/wind_speed_detail.png" zPosition="10" scale="1" />
 
-    <widget name="precip_label" position="715,435" size="150,30" font="Regular; 24" foregroundColor="#cccccc" transparent="1" zPosition="3" halign="left" />
+    <widget name="precip_label" position="715,435" size="250,30" font="Regular; 24" foregroundColor="#cccccc" transparent="1" zPosition="3" halign="left" />
     <widget name="precip_value" position="715,465" size="100,30" font="Regular; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="3" />
     <ePixmap position="660,440" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/precipitation.png" zPosition="10" scale="1" />
 

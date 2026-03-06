@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:54+0100\n"
-"PO-Revision-Date: 2026-03-05 19:16+0100\n"
+"PO-Revision-Date: 2026-03-06 11:39+0200\n"
 "Last-Translator: Orlandox\n"
 "Language-Team: Orlandox\n"
 "Language: fi\n"
@@ -108,14 +108,11 @@ msgstr "Peruuta"
 msgid "Celsius, km/h, hPa"
 msgstr "Celsius, km/h, hPa"
 
-msgid "Changelog: {changelog}"
-msgstr ""
-
 msgid "Changes apply immediately"
 msgstr "Muutokset tulevat heti voimaan"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Tarkista päivitykset"
 
 msgid "Choose detail view"
 msgstr "Valitse yksityiskohtainen näkymä"
@@ -124,7 +121,7 @@ msgid "City Selection"
 msgstr "Kaupungin valinta"
 
 msgid "City list file not found!"
-msgstr "Kaupunkiluettelotiedostoa ei löydy!"
+msgstr "Kaupunkilistatiedostoa ei löydy!"
 
 msgid "Clear"
 msgstr "Selkeää"
@@ -172,22 +169,16 @@ msgid "Color select"
 msgstr "Värin valinta"
 
 msgid "Condition: {}"
-msgstr "Sää: {}"
+msgstr "Tila: {}"
 
 msgid "Continents Weather Maps"
-msgstr "Maanosien säätiedotuskartat"
-
-msgid "Could not fetch update information."
-msgstr ""
+msgstr "Mantereiden sääkartat"
 
 msgid "Could not initialize map API."
 msgstr "Kartta-API:n alustaminen epäonnistui."
 
 msgid "Could not load forecast data"
 msgstr "Ennustetietojen lataaminen epäonnistui"
-
-msgid "Could not parse version information."
-msgstr ""
 
 msgid "Current weather and forecast"
 msgstr "Tämänhetkinen sää ja ennuste"
@@ -225,9 +216,6 @@ msgstr "Etäisyys {} km"
 msgid "Distance: {} m"
 msgstr "Etäisyys: {} m"
 
-msgid "Do you want to install it now?"
-msgstr ""
-
 msgid "Down"
 msgstr "Alas"
 
@@ -238,14 +226,10 @@ msgid "Downloading images..."
 msgstr "Ladataan kuvia..."
 
 msgid "Downloading tiles..."
-msgstr "Ladataan nimikkeitä..."
+msgstr "Ladataan ruutuja..."
 
 msgid "East Asia"
 msgstr "Itä-Aasia"
-
-#, fuzzy
-msgid "Error checking for updates."
-msgstr "Virhe tallennettaessa suosikkia!"
 
 msgid "Error displaying map"
 msgstr "Virhe kartan näyttämisessä"
@@ -260,7 +244,7 @@ msgid "Europe"
 msgstr "Eurooppa"
 
 msgid "European Weather Maps"
-msgstr "Euroopan säätiedotuskartat"
+msgstr "Euroopan sääkartat"
 
 msgid "Evening"
 msgstr "Ilta"
@@ -278,7 +262,7 @@ msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
 msgid "Faster: {}s"
-msgstr "Nopeampi: {}s"
+msgstr "Nopeammin: {}s"
 
 msgid "Favorite 1"
 msgstr "Suosikki 1"
@@ -347,7 +331,7 @@ msgid "Full Moon"
 msgstr "Täysikuu"
 
 msgid "German States Weather Maps"
-msgstr "Saksan osavaltioiden säätiedotuskartat"
+msgstr "Saksan osavaltioiden sääkartat"
 
 msgid "Germany"
 msgstr "Saksa"
@@ -368,7 +352,7 @@ msgid "Header - not selectable"
 msgstr "Otsikko - ei valittavissa"
 
 msgid "Help"
-msgstr "Ohje"
+msgstr "HELP"
 
 msgid "Hesse"
 msgstr "Hessen"
@@ -392,7 +376,7 @@ msgid "Hungary"
 msgstr "Unkari"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Valaistus"
 
 msgid "Image %(current)d/%(total)d"
 msgstr "Kuva %(current)d/%(total)d"
@@ -413,7 +397,7 @@ msgid "Increase Speed"
 msgstr "Lisää nopeutta"
 
 msgid "Info"
-msgstr "Tietoja"
+msgstr "INFO"
 
 msgid "Info - About"
 msgstr "INFO - Tiedot"
@@ -482,7 +466,7 @@ msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Etu-Pommeri"
 
 msgid "Menu"
-msgstr "Valikko"
+msgstr "MENU"
 
 msgid "Menu - Settings"
 msgstr "MENU - Asetukset"
@@ -529,10 +513,6 @@ msgstr "Alankomaat"
 msgid "New Moon"
 msgstr "Uusi kuu"
 
-#, fuzzy
-msgid "New version {version} is available."
-msgstr "Asemadataa ei ole saatavilla"
-
 msgid "Next"
 msgstr "Seuraava"
 
@@ -570,7 +550,7 @@ msgid "No stations found"
 msgstr "Asemia ei löytynyt"
 
 msgid "No tiles available"
-msgstr "Nimikkeitä ei ole saatavilla"
+msgstr "Ruutuja ei ole saatavilla"
 
 msgid "North Africa"
 msgstr "Pohjois-Afrikka"
@@ -594,7 +574,7 @@ msgid "OK - Open Map"
 msgstr "OK - Avaa kartta"
 
 msgid "Ok - Zone"
-msgstr "OK - Alue"
+msgstr "OK - Lisätiedot"
 
 msgid "Open Keyboard"
 msgstr "Avaa näppäimistö"
@@ -636,7 +616,7 @@ msgid "Overcast, thunderstorms with rain"
 msgstr "Pilvistä, ukkosta"
 
 msgid "Overnight"
-msgstr "Yöllä"
+msgstr "Yö"
 
 msgid "Page Down"
 msgstr "Sivu alas"
@@ -699,7 +679,7 @@ msgid "Press RED to search again"
 msgstr "Paina PUNAISTA hakeaksesi uudelleen"
 
 msgid "Pressure"
-msgstr "Paine"
+msgstr "Ilmanpaine"
 
 msgid "Pressure: {}"
 msgstr "Ilmanpaine: {}"
@@ -768,7 +748,7 @@ msgid "Scraped"
 msgstr "Poimittu"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr "Haku yrittää ensin verkkoa, jos epäonnistuu, käyttää paikallista luetteloa."
+msgstr "Haku yrittää ensin verkkoa, jos epäonnistuu, käyttää paikallista listaa."
 
 msgid "Search your City"
 msgstr "Hae kaupunkia"
@@ -813,7 +793,7 @@ msgid "Slovakia"
 msgstr "Slovakia"
 
 msgid "Slower: {}s"
-msgstr "Hitaampi: {}s"
+msgstr "Hitaammin: {}s"
 
 msgid "Snow prob.: N/A"
 msgstr "Lumisateen todennäköisyys: N/A"
@@ -914,22 +894,11 @@ msgstr "Ylös"
 msgid "Up - Previous page"
 msgstr "Ylös - Edellinen sivu"
 
-#, fuzzy
-msgid "Update canceled."
-msgstr "Päivitetty"
-
-msgid "Update completed. Please restart Enigma2."
-msgstr ""
-
 msgid "Updated: N/A"
 msgstr "Päivitetty: N/A"
 
 msgid "Updated: {}"
 msgstr "Päivitetty: {}"
-
-#, fuzzy
-msgid "Updating..."
-msgstr "Ladataan..."
 
 msgid "Use arrow keys to scroll"
 msgstr "Käytä nuolinäppäimiä vierittääksesi"
@@ -1025,7 +994,7 @@ msgid "Yellow - Favorite 2"
 msgstr "Keltainen - Suosikki 2"
 
 msgid "You already have the latest version."
-msgstr ""
+msgstr "Sinulla on jo uusin versio."
 
 msgid "Zoom In"
 msgstr "Lähennä"
@@ -1044,9 +1013,6 @@ msgstr "Zoomaus:"
 
 msgid "v."
 msgstr "v."
-
-msgid "{hours} h {mins} min"
-msgstr ""
 
 msgid "• BLUE to save as Home\n"
 msgstr "• SININEN tallentaaksesi kodiksi\n"
@@ -1069,87 +1035,74 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
-#, fuzzy
-#~ msgid "Dewpoint {}"
-#~ msgstr "Kastepiste"
+msgid "Dewpoint"
+msgstr "Kastepiste"
 
-#, fuzzy
-#~ msgid "Dewpoint {}°C"
-#~ msgstr "Kastepiste"
+msgid "Dewpoint:"
+msgstr "Kastepiste:"
 
-#, fuzzy
-#~ msgid "Feels like {}"
-#~ msgstr "Tuntuu kuin: {}{}"
+msgid "Distance"
+msgstr "Etäisyys"
 
-#, fuzzy
-#~ msgid "Feels like {}{}"
-#~ msgstr "Tuntuu kuin: {}{}"
+msgid "Feels like:"
+msgstr "Tuntuu kuin:"
 
-#, fuzzy
-#~ msgid "Feels like: {}"
-#~ msgstr "Tuntuu kuin: {}{}"
+msgid "Gust"
+msgstr "Tuulen puuska"
 
-#, fuzzy
-#~ msgid "Gust {}"
-#~ msgstr "Puuska"
+msgid "Humidity:"
+msgstr "Kosteus:"
 
-#, fuzzy
-#~ msgid "Precipitations: {}%"
-#~ msgstr "Sateen todennäköisyys: {}%"
+msgid "Rain"
+msgstr "Sade"
 
-#, fuzzy
-#~ msgid "Rain prob. {}%"
-#~ msgstr "Sateen todennäk."
+msgid "Rain prob."
+msgstr "Sateen todennäk."
 
-#, fuzzy
-#~ msgid "Rain: {:.1f} {}"
-#~ msgstr "Tuuli: {} {} {}"
+msgid "Snow prob."
+msgstr "Lumisateen todennäk."
 
-#, fuzzy
-#~ msgid "Snow prob. {}%"
-#~ msgstr "Lumisateen todennäk."
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
 
-#, fuzzy
-#~ msgid "Updated {}"
-#~ msgstr "Päivitetty: {}"
+msgid "AQI"
+msgstr "AQI"
 
-#, fuzzy
-#~ msgid "Wind speed {}"
-#~ msgstr "Tuulen nopeus"
+msgid "Updated"
+msgstr "Päivitetty"
 
-#, fuzzy
-#~ msgid "Wind speed: {:.1f} {}"
-#~ msgstr "Tuulen nopeus"
+msgid "Created by @Bauernbub"
+msgstr "Luonut @Bauernbub"
+
+msgid "Foreca | Region {} | Unit System: {}"
+msgstr "Foreca | Alue {} | Yksikköjärjestelmä: {}"
+
+msgid "Rain:"
+msgstr "Sade:"
+
+msgid "mod. Lululla, 2026"
+msgstr "muok. Lululla, 2026"
+
+msgid "Color selection"
+msgstr "Värin valinta"
+
+msgid "stations nearby"
+msgstr "asemat lähellä"
+
+msgid "No data available"
+msgstr "Dataa ei ole saatavilla"
+
+msgid "Precip"
+msgstr "Sateen todennäköisyys"
+
+msgid "Precipitations:"
+msgstr "Sateen todennäköisyys:"
 
 #~ msgid "Min: {}°C, Max: {}°C"
 #~ msgstr "Min: {}°C, Max: {}°C"
 
-#~ msgid "Precipitations:"
-#~ msgstr "Sateen todennäköisyys:"
-
-#~ msgid "Dewpoint:"
-#~ msgstr "Kastepiste:"
-
-#~ msgid "Distance"
-#~ msgstr "Etäisyys"
-
-#~ msgid "Feels like:"
-#~ msgstr "Tuntuu kuin:"
-
-#~ msgid "Humidity:"
-#~ msgstr "Kosteus:"
-
-#~ msgid "Precip"
-#~ msgstr "Sateen todennäköisyys"
-
-#~ msgid "Rain"
-#~ msgstr "Sade"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
-
-#~ msgid "AQI"
-#~ msgstr "AQI"
+#~ msgid "Precipitation: {}%"
+#~ msgstr "Sateen todennäköisyys: {}%"
 
 #~ msgid "Blue"
 #~ msgstr "Sininen"
@@ -1168,28 +1121,6 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
 #~ msgid "UV"
 #~ msgstr "UV"
-
-#~ msgid "Created by @Bauernbub"
-#~ msgstr "Luonut @Bauernbub"
-
-#~ msgid "Foreca | Region {} | Unit System: {}"
-#~ msgstr "Foreca | Alue {} | Yksikköjärjestelmä: {}"
-
-#, fuzzy
-#~ msgid "Rain:"
-#~ msgstr "Sade"
-
-#~ msgid "mod. Lululla, 2026"
-#~ msgstr "muok. Lululla, 2026"
-
-#~ msgid "Color selection"
-#~ msgstr "Värin valinta"
-
-#~ msgid "stations nearby"
-#~ msgstr "asemat lähellä"
-
-#~ msgid "No data available"
-#~ msgstr "Dataa ei ole saatavilla"
 
 #~ msgid "km/h"
 #~ msgstr "km/h"

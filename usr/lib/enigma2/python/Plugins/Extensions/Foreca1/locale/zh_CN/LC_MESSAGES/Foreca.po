@@ -1,1064 +1,1225 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:55+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Language zh-CN\n"
-"Language: zh-CN\n"
+"POT-Creation-Date: 2026-03-04 23:33+0800\n"
+"PO-Revision-Date: 2026-03-06 15:11+0800\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: 沙鸥_lexlong2007 <lexlong2007@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.3\n"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0-今日"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1-今天+ 1天"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2-今天+ 2天"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3-今天+ 3天"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4-今天+ 4天"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5-今天+ 5天"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6-今天+ 6天"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7-今天+ 7天"
+
+msgid "7 Day Forecast"
+msgstr "未来七天天气预报"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8-今天+ 8天"
 
 msgid "9 - Today + 9 days"
+msgstr "9 -今天+ 9天"
+
+msgid ""
+"API configuration file not found!\n"
+"\n"
+"Please create file:\n"
+"{0}\n"
+"\n"
+"with your Foreca API credentials."
 msgstr ""
+"未找到API配置文件！\n"
+"\n"
+"请创建文件：\n"
+"{0}\n"
+"\n"
+"使用您的Foreca API凭据."
 
 msgid "API credentials not configured."
 msgstr ""
+"未配置API凭据.\n"
+"请创建api_config.txt文件.\n"
+"\n"
+"创建的示例文件： api_config.txt"
+
+msgid "AQI"
+msgstr "AQI值"
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "AQI ：不适用"
 
 msgid "Advanced"
-msgstr ""
+msgstr "高级"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "高级设置"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "下午"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "分配到收藏夹1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "分配到收藏夹2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "分配给"
 
 msgid "Australia"
-msgstr ""
+msgstr "澳大利亚"
 
 msgid "Austria"
-msgstr ""
+msgstr "奥地利"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "巴登-符腾堡州"
 
 msgid "Barometer"
-msgstr ""
+msgstr "气压"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "巴伐利亚"
 
 msgid "Belgium"
-msgstr ""
+msgstr "比利时"
 
 msgid "Berlin"
-msgstr ""
+msgstr "柏林"
+
+msgid "Blue"
+msgstr "蓝色"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "蓝色-主页"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "勃兰登堡"
 
 msgid "Bremen"
-msgstr ""
+msgstr "不来梅"
 
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
-
-msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "摄氏度，千米/时， 百帕"
 
 msgid "Changes apply immediately"
-msgstr ""
-
-msgid "Check for updates"
-msgstr ""
+msgstr "更改立即应用"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "选择详细信息视图"
 
 msgid "City Selection"
+msgstr "城市筛选"
+
+msgid ""
+"City Selection Help:\n"
+"\n"
 msgstr ""
+"城市选择帮助：\n"
+"\n"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "未找到城市列表文件！"
 
 msgid "Clear"
-msgstr ""
+msgstr "晴朗"
 
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "多云"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "多云有小雨"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "多云小雪"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "多云和小湿雪"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "多云和阵雨"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "多云和降雪"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "多云和潮湿的降雪"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "多云、有雨的雷暴"
 
 msgid "Color"
-msgstr ""
+msgstr "颜色"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "预定分组更新"
 
 msgid "Color data"
-msgstr ""
+msgstr "颜色数据"
 
 msgid "Color name"
-msgstr ""
+msgstr "颜色名称"
 
 msgid "Color select"
-msgstr ""
+msgstr "颜色选择"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "天气状况: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
-
-msgid "Could not fetch update information."
-msgstr ""
+msgstr "大陆天气地图"
 
 msgid "Could not initialize map API."
 msgstr ""
+"无法初始化地图API.\n"
+"检查配置."
 
 msgid "Could not load forecast data"
-msgstr ""
-
-msgid "Could not parse version information."
-msgstr ""
+msgstr "没有可用的预测数据"
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "当前天气和预报"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "未来10天的当前天气和预报"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "实时: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "捷克共和国"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "数据由Foreca提供"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "日期: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "星期:"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "降低速度"
 
 msgid "Denmark"
-msgstr ""
+msgstr "丹麦"
 
 msgid "Details"
-msgstr ""
+msgstr "详情"
+
+msgid "Dewpoint"
+msgstr "露点温度:"
+
+msgid "Distance"
+msgstr "距离"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "距离: {}千米"
 
 msgid "Distance: {} m"
-msgstr ""
-
-msgid "Do you want to install it now?"
-msgstr ""
+msgstr "距离: {}米"
 
 msgid "Down"
-msgstr ""
+msgstr "下"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "向下-下一页"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "正在下载图像..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "正在下载..."
+
+msgid "E"
+msgstr "东"
 
 msgid "East Asia"
-msgstr ""
-
-msgid "Error checking for updates."
-msgstr ""
+msgstr "东亚"
 
 msgid "Error displaying map"
-msgstr ""
+msgstr "显示预测时出错"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "加载地图时出错.请检查连接."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "保存收藏时出错！"
 
 msgid "Europe"
-msgstr ""
+msgstr "欧洲"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "欧洲天气地图"
 
 msgid "Evening"
-msgstr ""
+msgstr "晚间"
 
 msgid "Exit"
-msgstr ""
+msgstr "退出"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "退出-结束"
 
 msgid "Extreme"
-msgstr ""
+msgstr "极度"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "华氏度，英里/小时，英寸汞柱"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "更快： {}秒"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "收藏 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "收藏 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "收藏夹详细天气"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "收藏夹详细天气"
 
 msgid "Feels like"
-msgstr ""
+msgstr "体感温度"
+
+msgid "Feels like:"
+msgstr "体感:"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "体感温度: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "体感： {} °C"
 
 msgid "Finland"
-msgstr ""
+msgstr "芬兰"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "上弦月"
 
 msgid "Fog"
-msgstr ""
+msgstr "雾"
+
+msgid "Foreca 1 Live Maps (API)"
+msgstr "Foreca 1实时地图(API)"
+
+msgid "Foreca 1 No stations found"
+msgstr "未找到站点"
+
+msgid "Foreca 1 Stations: {} stations nearby ({})"
+msgstr "正在加载附近的站点..."
+
+msgid "Foreca 1 Weather Forecast"
+msgstr "Foreca天气预报"
+
+msgid "Foreca 1 Weather and Forecast"
+msgstr "Foreca天气预报"
+
+msgid "Foreca 1 | Map {}"
+msgstr "Foreca 4 天气预报"
 
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca One 天气预报"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One实时地图(API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca One菜单"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One未找到站点"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One站： {}站附近({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca One天气预报"
 
 msgid "Foreca One Weather and Forecast"
-msgstr ""
+msgstr "Foreca One天气和预报"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One |地图{}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "为'%s'在本地找到%d个城市"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "在线为'%s'找到%d个城市"
 
 msgid "France"
-msgstr ""
+msgstr "法国"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "满月"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "德国各州天气地图"
 
 msgid "Germany"
-msgstr ""
+msgstr "德国"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "大不列颠及北爱尔兰"
 
 msgid "Greece"
-msgstr ""
+msgstr "希腊"
+
+msgid "Green"
+msgstr "绿"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "绿色-收藏 1"
+
+msgid "Gust"
+msgstr "强风"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "德国汉堡"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "页眉-不可选择"
 
 msgid "Help"
-msgstr ""
+msgstr "帮助..."
 
 msgid "Hesse"
-msgstr ""
+msgstr "黑森"
 
 msgid "High"
-msgstr ""
+msgstr "高"
 
 msgid "Home"
-msgstr ""
+msgstr "首页"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "小时详情"
 
 msgid "Humidity"
-msgstr ""
+msgstr "湿度"
+
+msgid "Humidity:"
+msgstr "空气湿度:"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "空气湿度: {}%"
 
 msgid "Hungary"
-msgstr ""
-
-msgid "Illumination"
-msgstr ""
+msgstr "匈牙利"
 
 msgid "Image %(current)d/%(total)d"
-msgstr ""
+msgstr "图片% (当前) d/% (总计) d"
 
 msgid "Image %(current)d/%(total)d (Paused)"
-msgstr ""
+msgstr "图片% (当前) d/% (总计) d （已暂停）"
 
 msgid "Image Downloaded"
-msgstr ""
+msgstr "图片已下载"
 
 msgid "Image not available"
-msgstr ""
+msgstr "图片不可用"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "国家天气制度"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "增加速度"
 
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 msgid "Info - About"
-msgstr ""
+msgstr "信息-关于"
 
 msgid "Ireland"
-msgstr ""
+msgstr "爱尔兰"
 
 msgid "Italy"
-msgstr ""
+msgstr "意大利"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "向下跳100"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "向上跳跃100次"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "向下跳500"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "向上跳500"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "键盘设置"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "下弦月"
+
+msgid "Last update"
+msgstr "最近更新时间"
 
 msgid "Latvia"
-msgstr ""
+msgstr "拉脱维亚"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "左-前一天"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "左箭头-前一天"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "正在加载可用地图..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "正在加载附近的站点..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "正在加载每周预测..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "正在加载..."
 
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "下萨克森"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "卢森堡"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "已加载地图图块"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "已选择地图{}"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "梅克伦堡"
 
 msgid "Menu"
-msgstr ""
+msgstr "菜单"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "菜单设置 - "
 
 msgid "Meteogram"
-msgstr ""
+msgstr "气象图"
 
 msgid "Metric System"
-msgstr ""
+msgstr "度量系统"
 
 msgid "Middle America"
-msgstr ""
+msgstr "中美洲"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "中亚"
 
 msgid "Middle East"
-msgstr ""
+msgstr "中东"
+
+msgid "Min: {}°C, Max: {}°C"
+msgstr "最小：{} °C ，最大：{} °C"
 
 msgid "Moderate"
-msgstr ""
+msgstr "适中"
 
 msgid "Morning"
-msgstr ""
+msgstr "上午"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "大部晴朗"
 
 msgid "Move Down"
-msgstr ""
+msgstr "下移一行"
 
 msgid "Move Up"
-msgstr ""
+msgstr "上移一行"
 
 msgid "Move down"
-msgstr ""
+msgstr "下移一行"
 
 msgid "Move up"
-msgstr ""
+msgstr "上移一行"
+
+msgid "N"
+msgstr "北"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "荷兰"
 
 msgid "New Moon"
-msgstr ""
-
-msgid "New version {version} is available."
-msgstr ""
+msgstr "新月"
 
 msgid "Next"
-msgstr ""
+msgstr "稍后"
 
 msgid "Next Image"
-msgstr ""
+msgstr "下一张图片"
 
 msgid "Next page"
-msgstr ""
+msgstr "下一页"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "未检测到互联网连接."
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "未找到“%s”的本地城市"
 
 msgid "No city selected"
-msgstr ""
+msgstr "没有选择城市"
 
 msgid "No data"
-msgstr ""
+msgstr "InfoBar前端数据源"
 
 msgid "No date available"
-msgstr ""
+msgstr "无数据"
 
 msgid "No location selected"
-msgstr ""
+msgstr "未选择位置"
 
 msgid "No station data"
-msgstr ""
+msgstr "没有可用的预测数据"
 
 msgid "No station data available"
-msgstr ""
+msgstr "没有可用的预测数据"
 
 msgid "No stations found"
-msgstr ""
+msgstr "未找到站点"
 
 msgid "No tiles available"
-msgstr ""
+msgstr "没有可用的图块"
 
 msgid "North Africa"
-msgstr ""
+msgstr "北非"
 
 msgid "North America"
-msgstr ""
+msgstr "北美洲"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "北莱茵-- 威斯特伐利亚"
 
 msgid "Norway"
-msgstr ""
+msgstr "挪威"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "确定-其他信息"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "OK-天气预报"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "OK - 打开地图"
 
 msgid "Ok - Zone"
-msgstr ""
+msgstr "Ok - 区域"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "打开的键盘"
 
 msgid "Open Map"
+msgstr "气象图视频"
+
+msgid ""
+"Original design and idea by @Bauernbub\n"
+"Rewrite by Lululla, 2026"
 msgstr ""
+"Bauernbub的原创设计和创意\n"
+"Lululla改写， 2026年"
 
 msgid "Overcast"
-msgstr ""
+msgstr "灰蒙蒙"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "阴天有小雨"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "阴天有小雨"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "多云和小湿雪"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "晚些时候多雨"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "阴天有阵雨"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "雪"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "阵雪"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "多云和小湿雪"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "多云和潮湿的降雪"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "阴天有小雨"
 
 msgid "Overnight"
-msgstr ""
+msgstr "隔夜"
 
 msgid "Page Down"
-msgstr ""
+msgstr "下一页"
 
 msgid "Page Up"
-msgstr ""
+msgstr "上一页"
 
 msgid "Page down"
-msgstr ""
+msgstr "下一页"
 
 msgid "Page up"
-msgstr ""
+msgstr "上一页"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "多云"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "多云，有小雨"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "多云小雪"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "多云和小湿雪"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "阴转多云"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "多云和潮湿的降雪"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "多云和潮湿的降雪"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "多云，有小雨"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "播放 / 暂停"
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "请耐心等待 ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "波兰"
 
 msgid "Portugal"
-msgstr ""
+msgstr "葡萄牙"
+
+msgid "Precip"
+msgstr "降雨量"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "降水"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "降水: {}"
+
+msgid "Precipitation: {}%"
+msgstr "降水: {}%"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "沉积物："
+
+msgid "Precipitations:"
+msgstr "沉积物："
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "按红色键进行旧的分组搜索"
 
 msgid "Pressure"
-msgstr ""
+msgstr "压 力:"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "气压: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "气压: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "上一頁"
 
 msgid "Previous"
-msgstr ""
+msgstr "以前"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "上张图像"
 
 msgid "Previous page"
-msgstr ""
+msgstr "转到上一页的事件"
+
+msgid "Rain"
+msgstr "雨"
+
+msgid "Rain prob."
+msgstr "降雨概率"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "降雨概率:N/A"
+
+msgid "Red"
+msgstr "红色"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "红色-颜色选择"
 
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "莱茵兰-帕拉丁"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "右-第二天"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "向右箭头-第二天"
 
 msgid "Rise"
-msgstr ""
+msgstr "月出"
 
 msgid "Russia"
-msgstr ""
+msgstr "俄罗斯"
+
+msgid "S"
+msgstr "南"
 
 msgid "Saarland"
-msgstr ""
+msgstr "萨尔州"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "卫星照片"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "卫星照片和地图"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Saxony"
-msgstr ""
+msgstr "萨克森州"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "萨克森-安哈尔特"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "石勒苏益格-荷尔斯泰因"
 
 msgid "Scraped"
-msgstr ""
+msgstr "分拆"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "搜索首先尝试联机，如果失败，则使用本地列表."
 
 msgid "Search your City"
-msgstr ""
+msgstr "搜索您的城市"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "'%s'搜索..."
 
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 msgid "Select Region"
-msgstr ""
+msgstr "选择地区"
 
 msgid "Select a city"
-msgstr ""
+msgstr "选择您的城市"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "按OK键选择一个供应商"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "选择服务信息以查看:"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "选择服务信息以查看:"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "选择 {} 单位"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "选择小时详情"
 
 msgid "Sets"
-msgstr ""
+msgstr "月落"
 
 msgid "Show info"
-msgstr ""
+msgstr "显示信息"
 
 msgid "Showers"
-msgstr ""
+msgstr "阵雨"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "斯洛伐克"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "较慢： {}秒"
+
+msgid "Snow prob."
+msgstr "降雪概率"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "降雪概率:N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "南非"
 
 msgid "South America"
-msgstr ""
+msgstr "南美洲"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "东南亚"
 
 msgid "Spain"
-msgstr ""
+msgstr "西班牙"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "工作站观测"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "观测点: {}"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "日出"
 
 msgid "Sunset"
-msgstr ""
+msgstr "日落"
 
 msgid "Sweden"
-msgstr ""
+msgstr "瑞典"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "瑞士"
 
 msgid "Temp"
-msgstr ""
+msgstr "温度"
 
 msgid "Temperature"
-msgstr ""
+msgstr "CPU温度"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "温度: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "温度: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "温度: {}°C"
 
 msgid "Thank's @Orlandox and other firends for suggestions and test"
-msgstr ""
+msgstr "感谢@Orlandox和其他朋友的建议和测试"
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "薄上云"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "图林根州"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "今天/明天详情"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "透明度设置"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "透明度水平"
 
 msgid "Try again later"
-msgstr ""
+msgstr "请稍后重试"
 
 msgid "Try different zoom or layer"
-msgstr ""
+msgstr "尝试其他缩放或图层"
 
 msgid "Try different zoom or region"
-msgstr ""
+msgstr "尝试其他缩放比例或区域"
+
+msgid "UV"
+msgstr "紫外线"
 
 msgid "UV Index"
-msgstr ""
+msgstr "紫外线指数"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "紫外线 N/A"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "设置更改失败"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "单位设置（高级）"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "单位设置（简单）"
 
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "向上-上一页"
 
-msgid "Update canceled."
-msgstr ""
-
-msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgid "Updated"
+msgstr " 更新时间"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "更新时间:N/A"
 
 msgid "Updated: {}"
-msgstr ""
-
-msgid "Updating..."
-msgstr ""
+msgstr "更新时间: {}"
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "然后使用箭头键移动."
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "用于← → 更改时间|确定退出"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "使用▲/▼更改，确定选择"
 
 msgid "Using current time"
-msgstr ""
+msgstr "使用当前时间"
 
 msgid "Very high"
-msgstr ""
+msgstr "很高"
 
 msgid "Visibility"
-msgstr ""
+msgstr "能见度"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "能见度： {}米"
+
+msgid "W"
+msgstr "西"
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "残月"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "亏凸月"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "盈凸月"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "盈凸月"
 
 msgid "Weather"
-msgstr ""
+msgstr "天气:"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "天气地图"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "菜单-天气图"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "大陆天气地图"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "德国各州天气地图"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "大陆天气地图"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "气象雷达"
 
 msgid "Weather today"
-msgstr ""
+msgstr "今日天气"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "明天的天气"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "每周预测"
 
 msgid "Wind"
-msgstr ""
+msgstr "风速"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "今日风向"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "明天的风向"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "风向"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "風速"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "风速: {} "
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "风速： {}千米/时{}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "风速: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "窗口透明度"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
-
-msgid "You already have the latest version."
-msgstr ""
+msgstr "黄色-收藏 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "放大"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "缩小"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "放大+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "缩小 -"
 
-msgid "Zoom:"
+msgid "Zoom: "
+msgstr "缩放"
+
+msgid ""
+"http://linuxsat-support.com\n"
+"http://www.corvoboys.org"
 msgstr ""
+"http://linuxsat-support.com\n"
+"http://www.corvoboys.org"
 
 msgid "v."
-msgstr ""
+msgstr "v."
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{hours}小时{mins}分钟"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "蓝色-分配给首页\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH +/CH-跃升500个城市\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "绿色-收藏 1\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "选择城市,然后按OK\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "•红色以打开搜索键盘\n"
 
 msgid "• Use arrow keys to navigate\n"
+msgstr "然后使用箭头键移动.\n"
+
+msgid ""
+"• VOL+/VOL- to jump 100 cities\n"
+"\n"
 msgstr ""
+"• VOL +/VOL-可跳过100个城市\n"
+"\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "黄色-分配给收藏夹2\n"
+
+msgid "▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤"
+msgstr "▲/▼ ◄/► 频道+ 频道- ≡ ℹ ❓ ✖ ⬤"
+
+msgid "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
+msgstr "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
+
+msgid "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
+msgstr "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
+
+#: plugin.py:1441
+#, python-brace-format
+msgid "Changelog: {changelog}"
+msgstr "更新日志： {changelog}"
+
+#: plugin.py:613
+msgid "Check for updates"
+msgstr "检查更新"
+
+#: plugin.py:1410
+msgid "Could not fetch update information."
+msgstr "无法获取更新信息。"
+
+#: plugin.py:1430
+msgid "Could not parse version information."
+msgstr "无法解析版本信息。"
+
+#: plugin.py:1442
+msgid "Do you want to install it now?"
+msgstr "您想现在安装吗？"
+
+#: plugin.py:1453
+msgid "Error checking for updates."
+msgstr "检查更新时出错。"
+
+#: plugin.py:1655
+msgid "Illumination"
+msgstr "光照"
+
+#: plugin.py:1439
+#, python-brace-format
+msgid "New version {version} is available."
+msgstr "新版本{version}可用。"
+
+#: plugin.py:1468
+msgid "Update canceled."
+msgstr "更新已取消。"
+
+#: plugin.py:1472
+msgid "Update completed. Please restart Enigma2."
+msgstr "更新完成。请重新启动Enigma2。"
+
+#: plugin.py:1462
+msgid "Updating..."
+msgstr "更新..."
+
+#: plugin.py:1450
+msgid "You already have the latest version."
+msgstr "恭喜，已经是最新版本了！"
