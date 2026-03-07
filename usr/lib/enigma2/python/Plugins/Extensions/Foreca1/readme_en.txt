@@ -1,9 +1,7 @@
-## 🇬🇧 English README
-
-# 🌤️ Foreca 1 Weather Forecast – Enigma2 Plugin
+# 🌤️ Foreca One Weather Forecast – Enigma2 Plugin
 
 <p align="center">
-  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/plugin.png" alt="Foreca1 Screenshot" width="600">
+  <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="Foreca1 Screenshot" width="300">
 </p>
 
 <p align="center">
@@ -11,7 +9,7 @@
     <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
-    <img src="https://img.shields.io/badge/Version-1.0.2-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.0.6-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
@@ -20,8 +18,6 @@
     <img src="https://img.shields.io/badge/Python-3.x-yellow.svg" alt="Python">
   </a>
 </p>
-
----
 
 ## 📋 Table of Contents
 
@@ -36,22 +32,20 @@
   - [Daily Forecast (7 days)](#daily-forecast-7-days)
   - [Meteogram](#meteogram)
   - [Observation Stations](#observation-stations)
+  - [Lunar Calendar (NEW)](#lunar-calendar-new)
   - [Weather Maps](#weather-maps)
   - [Unit Settings](#unit-settings)
   - [Color and Transparency](#color-and-transparency)
+  - [Check Update](#check-update)
   - [Plugin Info](#plugin-info)
 - [Authenticated API Configuration (Optional)](#authenticated-api-configuration-optional)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 - [License](#license)
 
----
-
 ## Introduction
 
-**Foreca 1 Weather Forecast** is a comprehensive Enigma2 plugin that provides detailed weather forecasts for up to 10 days using public data from **Foreca**. With an intuitive interface and extensive customization options, you can always keep an eye on the weather directly from your receiver.
-
----
+**Foreca 1 Weather Forecast** is a comprehensive Enigma2 plugin that provides detailed weather forecasts for up to 10 days using public data from **Foreca**. With an intuitive interface and extensive customization options, you can always keep an eye on the weather directly from your receiver. The plugin now also includes a **complete lunar calendar** with precise astronomical calculations.
 
 ## Key Features
 
@@ -70,22 +64,23 @@
 - **Hourly forecast** for the selected day (scrollable list with icons)
 - **7‑day meteogram** – temperature curve, rain bars, icons and wind
 
-### 🌙 Moon Information
-- Moon phase with icon
-- Illumination percentage
-- Earth–Moon distance
+### 🌙 Moon Information (Enhanced)
+- **Lunar Calendar** – a dedicated screen showing all lunar phases for the next 12 months
+- For each phase: date, time, phase name, illumination, Earth‑Moon distance, and the corresponding icon
+- Accurate calculations based on Meeus algorithms, fallback to USNO API
+- Moon phase with icon on main screen
 - Moonrise and moonset times (from USNO API, async)
 
 ### 📡 Observation Stations
 - Nearby stations (from authenticated API or scraping)
 - Temperature, feels like, humidity, pressure, wind, visibility
 
-### 🗺️ Weather Maps
+### 🗺️ Weather Maps (Improved)
 - **Wetterkontor** – slideshow of regional maps (Europe, Germany, continents)
 - **Foreca Live Maps (API)** – temperature, wind, precipitation, clouds, radar
   - 3×3 tile grid with zoom in/out
   - Multiple forecast times
-  - Overlay on geographic backgrounds
+  - Overlay on geographic backgrounds (now supports **North America, South America, Asia, Australia, Africa, and world fallback**)
   - Local tile cache to respect API limits
 
 ### ⚙️ Advanced Unit Management
@@ -102,15 +97,13 @@
 - **Adjustable transparency** for overlays
 - **Multilingual** – built‑in GetText support with Google Translate fallback
 - **Full remote control navigation** – all screens accessible via keys
+- **Skins for FHD, HD, WQHD** – perfect on any screen
 
 ### 🔧 Technical Highlights
 - Python 3 compatible
 - Asynchronous downloads (moon, maps, stations)
 - Debug mode with detailed logs
 - Smart caching (translations, API tokens, map tiles)
-- Skins for FHD, HD, WQHD resolutions
-
----
 
 ## Installation
 
@@ -123,8 +116,6 @@
    chmod -R 755 /usr/lib/enigma2/python/Plugins/Extensions/Foreca1
    ```
 3. Restart Enigma2 or the plugin menu to make the plugin visible.
-
----
 
 ## Initial Configuration
 
@@ -153,8 +144,6 @@ An example file `api_config.txt.example` is created automatically if the main fi
 
 **Note:** without these credentials, the plugin still works perfectly using public data.
 
----
-
 ## Using the Plugin
 
 ### Main Screen
@@ -163,7 +152,7 @@ Upon startup, the main screen displays:
 - Current weather (icon, temperature, description)
 - Extended details (feels like, dew point, wind, gusts, rain, humidity, pressure, UV, AQI, probability, update time)
 - Sun information (sunrise, sunset, day length)
-- Moon phase (icon, name, illumination, distance, rise/set times)
+- **Moon phase** (icon, name, illumination, distance, rise/set times) – now using precise astronomical calculations
 - Nearest observation station (if available)
 - Hourly list for the selected day (scrollable with UP/DOWN)
 
@@ -187,10 +176,12 @@ Pressing **MENU** opens a choice with the following options:
 - **Weekly Forecast** – 7‑day detailed forecast screen
 - **Meteogram** – graphical weather trend
 - **Station Observations** – list of nearby stations
+- **Lunar Calendar (NEW)** – view all lunar phases for the next 12 months
 - **Unit Settings (Simple)** – quick choice between metric and imperial
 - **Unit Settings (Advanced)** – customize wind, pressure, temperature, precipitation
 - **Color Selector** – change global background color
 - **Transparency** – adjust overlay transparency
+- **Check Update** – version update from github
 - **Info** – version and credits
 - **Exit** – close menu (return to main screen)
 
@@ -232,6 +223,22 @@ For each station: name, distance, temperature, feels like, dew point, humidity, 
 - **UP/DOWN** – navigate through stations
 - **OK** – show details of selected station (if not already visible)
 
+### 🌙 Lunar Calendar (NEW)
+This new screen displays a table of **all lunar phases for the next 12 months**, starting from the next month. For each phase you see:
+
+- Month and year
+- Icon of the moon phase (using the same 101‑icon set as the main screen)
+- Phase name (e.g. "Full Moon")
+- Day of the month
+- Time (in UTC)
+
+**Navigation:**
+- **UP/DOWN** – scroll through phases
+- **PAGE UP/PAGE DOWN** – jump one page
+- **OK** – show detailed information: exact date/time, illumination percentage, Earth‑Moon distance
+
+The calculations are performed offline using precise astronomical algorithms (Meeus), so no internet connection is required. The data is consistent and accurate for any location (geocentric).
+
 ### Weather Maps
 The **Weather Maps** submenu offers two options:
 
@@ -271,10 +278,11 @@ After saving, the main screen updates immediately with the new units.
 - **Color Selector** – lists predefined colors (from `color_database.txt`). Use UP/DOWN to move, OK to confirm. The color is applied to all screens (global theme).
 - **Transparency** – lists levels from 6% to 56%. OK confirms, change is visible immediately.
 
+### Check Update
+Checks if an update has been released online and runs it.
+
 ### Plugin Info
 Shows version, authors and credits. Press OK or EXIT to close.
-
----
 
 ## Authenticated API Configuration (Optional)
 
@@ -290,8 +298,6 @@ Shows version, authors and credits. Press OK or EXIT to close.
 3. (Optional) Adjust parameters as needed (e.g. `MAP_SERVER=map-us.foreca.com` for US maps).
 
 An example file `api_config.txt.example` is created automatically.
-
----
 
 ## Troubleshooting
 
@@ -320,26 +326,24 @@ An example file `api_config.txt.example` is created automatically.
 ### 6. Color is not applied to all screens
 - The function `apply_global_theme` must be called in every secondary screen (already done for all main screens). If a custom screen lacks the `background_plate` and `selection_overlay` widgets, the theme will not be applied.
 
----
+### 7. Lunar phases seem inaccurate
+- The plugin now uses high‑precision algorithms (Meeus). If you still suspect errors, enable debug and check the calculated Julian Day vs. official sources.
 
 ## Credits
 
 - **Original design and idea:** @Bauernbub
 - **Modifications and further development:** @Lululla
-- **Contributions:** Assistant (API refactoring, meteogram, new data integration, extensive debugging, menu navigation, station scraping, lunar data, advanced units, global theme, DailyForecast fixes)
+- **Contributions:** Assistant (API refactoring, meteogram, new data integration, extensive debugging, menu navigation, station scraping, **lunar calendar**, advanced units, global theme, DailyForecast fixes, map improvements)
 
 Thanks to @Orlandox and all friends who provided suggestions and tested the plugin.
-
----
 
 ## License
 
 This project is licensed under the **GNU General Public License v3.0**.  
 See the [LICENSE](LICENSE) file for details.
 
----
-
 <p align="center">
   <i>Enjoy the weather, rain or shine! ☀️🌧️</i><br>
   © Lululla 2026
 </p>
+```

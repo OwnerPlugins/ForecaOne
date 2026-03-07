@@ -5,11 +5,15 @@
 
 import time
 import socket
+from os.path import join, dirname, exists
+from os import makedirs, remove
+import json
+import hashlib
 from json import loads, JSONDecodeError
 from sys import version_info
 from Components.config import config
 
-from . import DEBUG, HEADERS
+from . import DEBUG, HEADERS, SYSTEM_DIR
 
 PY3 = version_info[0] >= 3
 
@@ -44,12 +48,61 @@ REQUEST_TIMEOUT = 8
 MAX_CHARS_PER_REQUEST = 2000
 
 # Local cache to avoid repetitive requests
+CACHE_FILE = join(SYSTEM_DIR, "translation_cache.json")
 _translation_cache = {}
 _cache_hits = 0
 _cache_misses = 0
+_cache_dirty = False          # flag to know if there are changes to save
 
 # Enable logging
 ENABLE_LOGGING = True
+
+
+# ============================================================
+# CACHE PERSISTENCE
+# ============================================================
+
+
+def _ensure_cache_dir():
+    """Create the directory for the cache file if it does not exist."""
+    cache_dir = dirname(CACHE_FILE)
+    if not exists(cache_dir):
+        try:
+            makedirs(cache_dir)
+        except Exception as e:
+            _log(f"Error creating cache directory: {e}")
+
+
+def load_cache_from_disk():
+    """Load the cache from the JSON file at startup."""
+    global _translation_cache
+    _ensure_cache_dir()
+    if exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                _translation_cache = json.load(f)
+            _log(f"Cache loaded from disk ({len(_translation_cache)} entries)")
+        except Exception as e:
+            _log(f"Error loading cache: {e}")
+            _translation_cache = {}
+    else:
+        _translation_cache = {}
+
+
+def save_cache_to_disk():
+    """Save the cache to disk if there are changes."""
+    global _cache_dirty
+    if not _cache_dirty:
+        return
+    _ensure_cache_dir()
+    try:
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(_translation_cache, f, ensure_ascii=False, indent=2)
+        _log(f"Cache saved to disk ({len(_translation_cache)} entries)")
+        _cache_dirty = False
+    except Exception as e:
+        _log(f"Error saving cache: {e}")
+
 
 # ============================================================
 # UTILITY FUNCTIONS
@@ -174,14 +227,19 @@ def _is_text_arabic(text):
 
 
 def _get_cache_key(text, target_lang):
-    """Generate a unique cache key"""
-    return f"{target_lang}:{hash(text)}"
+    """Generate a unique cache key using MD5 (stable across runs)"""
+    # Use MD5 because it is fast and deterministic
+    key_string = f"{target_lang}:{text}".encode('utf-8')
+    return hashlib.md5(key_string).hexdigest()
 
 
 def _cache_translation(text, target_lang, translated):
-    """Store a translation in the cache"""
+    """Store a translation in the cache and save immediately to disk."""
+    global _cache_dirty
     cache_key = _get_cache_key(text, target_lang)
     _translation_cache[cache_key] = translated
+    _cache_dirty = True
+    save_cache_to_disk()
     return translated
 
 
@@ -209,11 +267,17 @@ def get_cache_stats():
 
 
 def clear_cache():
-    """Clear the translation cache"""
-    global _cache_hits, _cache_misses
+    """Clear the translation cache and delete the file"""
+    global _cache_hits, _cache_misses, _cache_dirty
     _translation_cache.clear()
     _cache_hits = 0
     _cache_misses = 0
+    _cache_dirty = False
+    if exists(CACHE_FILE):
+        try:
+            remove(CACHE_FILE)
+        except Exception as e:
+            _log(f"Error deleting cache file: {e}")
     _log("Cache cleared")
 
 
@@ -516,6 +580,7 @@ def translate_batch_strings(texts, target_lang=None):
     # Use the existing cache via translate_batch
     return translate_batch(valid_texts, target_lang, use_cache=True)
 
+
 # ============================================================
 # TEST FUNCTION (for debugging)
 # ============================================================
@@ -560,6 +625,8 @@ def test_translation():
 # INITIALIZATION
 # ============================================================
 
+# Load cache at module startup
+load_cache_from_disk()
 
 if __name__ == "__main__":
     # Test mode when run directly

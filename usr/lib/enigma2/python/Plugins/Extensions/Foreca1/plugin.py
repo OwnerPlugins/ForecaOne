@@ -91,6 +91,7 @@ from .google_translate import (
 )
 from .info_dialog import InfoDialog
 from .meteogram import MeteogramView
+from .moon_calendar import MoonCalendar
 from .slideshow import ForecaMapsMenu
 from .transparency_selector import TransparencySelector
 from .unit_manager import UnitManager, UnitSettingsSimple
@@ -610,6 +611,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             (_("Station Observations"), "stations"),
             (_("Unit Settings (Simple)"), "units_simple"),
             (_("Unit Settings (Advanced)"), "units_advanced"),
+            (_("Lunar Calendar"), "moon_calendar"),
             (_("Color select"), "colorselector"),
             (_("Transparency Settings"), "transparency"),
             (_("Check for updates"), "update"),
@@ -693,6 +695,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self.after_units,
                 UnitSettingsAdvanced,
                 self.unit_manager)
+        elif key == "moon_calendar":
+            self.session.openWithCallback(self.after_main_menu, MoonCalendar, self.moon)
         elif key == "colorselector":
             self.session.openWithCallback(
                 self.after_main_menu, ColorSelector, self)

@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Copyright (c) @Lululla 2026
-# MoonPhase.py - Astronomical constants
+# MoonPhase.py - Astronomical constants with precise calculations
 
 import glob
 import time
 import datetime
 from os.path import exists, join, isdir, basename
 from time import mktime, localtime
-from math import pi, cos, radians
+from math import pi, cos, radians, sin  # , degrees, asin, atan2
+# import math
 from threading import Thread
 import requests
 
@@ -41,18 +42,6 @@ class MoonPhase:
         self.icon_path = icon_path
         self.total_icons = total_icons
         self.api_data = None  # stores data obtained from the USNO API
-        # Phase names in English (approximate, you can modify them)
-        self.phase_names_en = {
-            (0.0, 0.03): _("New Moon"),
-            (0.03, 0.22): _("Waxing Crescent"),
-            (0.22, 0.28): _("First Quarter"),
-            (0.28, 0.47): _("Waxing Gibbous"),
-            (0.47, 0.53): _("Full Moon"),
-            (0.53, 0.72): _("Waning Gibbous"),
-            (0.72, 0.78): _("Last Quarter"),
-            (0.78, 0.97): _("Waning Crescent"),
-            (0.97, 1.0): _("New Moon")
-        }
 
     def _moon_phase_to_icon(self, phase_name, illum_percent):
         """
@@ -96,98 +85,290 @@ class MoonPhase:
             # fallback to center
             return phase_centers.get(phase_name, 50)
 
+    # -------------------------------------------------------------------------
+    # Precise lunar calculations (based on Meeus / external code)
+    # -------------------------------------------------------------------------
+    def _compute_lunar_data(self, jd):
+        """
+        Computes precise lunar data for a given Julian Day (geocentric).
+        Returns a dictionary with:
+            - illumination: percentage (0-100)
+            - phase_name: string (e.g. "Waxing Crescent")
+            - distance: Earth-Moon distance in km
+            - phase_value: (0-1) not really needed
+        """
+        # Julian centuries since J2000.0
+        T = (jd - 2451545.0) / 36525.0
+
+        # Mean elements of the Moon (in degrees)
+        # Lm = 218.3164477 + 481267.88123421 * T - 0.0015786 * T * T + T * T * T / 538841 - T * T * T * T / 65194000
+        Dm = 297.8501921 + 445267.114034 * T - 0.0018819 * T * T + T * T * T / 545868 - T * T * T * T / 113065000
+        Ms = 357.5291092 + 35999.0502909 * T - 0.0001536 * T * T + T * T * T / 24490000
+        Mm = 134.9633964 + 477198.8675055 * T + 0.0087414 * T * T + T * T * T / 69699 - T * T * T * T / 14712000
+        Fm = 93.272095 + 483202.0175233 * T - 0.0036539 * T * T - T * T * T / 3526000 + T * T * T * T / 863310000
+
+        # Correction for eccentricity of Earth's orbit
+        E = 1 - 0.002516 * T - 0.0000074 * T * T
+        """
+        # ---- Longitude correction (EL) ----
+        EL = (
+            6.289 * sin(radians(Mm))
+            + 1.274 * sin(radians(2 * Dm - Mm))
+            + 0.658 * sin(radians(2 * Dm))
+            + 0.214 * sin(radians(2 * Mm))
+            - 0.186 * sin(radians(Ms)) * E
+            - 0.114 * sin(radians(2 * Fm))
+            + 0.059 * sin(radians(2 * Dm - 2 * Mm))
+            + 0.057 * sin(radians(2 * Dm - Ms - Mm)) * E
+            + 0.053 * sin(radians(2 * Dm + Mm))
+            + 0.046 * sin(radians(2 * Dm - Ms)) * E
+            - 0.041 * sin(radians(Ms - Mm)) * E
+            - 0.035 * sin(radians(Dm))
+            - 0.030 * sin(radians(Ms + Mm)) * E
+            + 0.017 * sin(radians(2 * Ms))
+            + 0.016 * sin(radians(2 * Dm - 2 * Fm))
+            + 0.015 * sin(radians(2 * Dm - Mm - Fm))
+            + 0.011 * sin(radians(2 * Dm + Mm - 2 * Fm))
+            + 0.009 * sin(radians(2 * Dm + 2 * Mm - 2 * Fm))
+            + 0.007 * sin(radians(4 * Dm - Mm))
+            + 0.006 * sin(radians(4 * Dm - 2 * Mm))
+            + 0.005 * sin(radians(2 * Dm - 2 * Ms))
+            + 0.005 * sin(radians(4 * Dm))
+            + 0.004 * sin(radians(2 * Dm - 3 * Mm))
+            + 0.004 * sin(radians(2 * Fm - 2 * Dm))
+            + 0.004 * sin(radians(2 * Mm - 2 * Dm))
+            + 0.003 * sin(radians(2 * Mm - 2 * Fm))
+            + 0.003 * sin(radians(3 * Mm))
+            + 0.003 * sin(radians(4 * Dm - Mm - Ms))
+            + 0.002 * sin(radians(3 * Mm - 2 * Dm))
+            + 0.002 * sin(radians(2 * Dm - Mm + Ms))
+            + 0.002 * sin(radians(2 * Dm + Mm - Ms))
+            + 0.002 * sin(radians(3 * Dm))
+            + 0.001 * sin(radians(2 * Dm + 2 * Mm))
+            + 0.001 * sin(radians(3 * Mm + 2 * Dm))
+            + 0.001 * sin(radians(5 * Dm - Mm))
+            + 0.001 * sin(radians(2 * Dm - 3 * Mm + Ms))
+            + 0.001 * sin(radians(2 * Dm - 3 * Mm - Ms))
+        )
+
+        # ---- Latitude correction (EB) ----
+        EB = (
+            5.128 * sin(radians(Fm))
+            + 0.281 * sin(radians(Mm + Fm))
+            + 0.278 * sin(radians(Mm - Fm))
+            + 0.173 * sin(radians(2 * Dm - Fm))
+            + 0.055 * sin(radians(2 * Dm - Mm + Fm))
+            + 0.046 * sin(radians(2 * Dm - Mm - Fm))
+            + 0.033 * sin(radians(2 * Dm + Fm))
+            + 0.017 * sin(radians(2 * Mm + Fm))
+            + 0.009 * sin(radians(2 * Dm + Mm - Fm))
+            + 0.009 * sin(radians(2 * Mm - Fm))
+        )
+        """
+        # ---- Distance correction (ER) ----
+        ER = (
+            -20.905355 * cos(radians(Mm))
+            - 3.699111 * cos(radians(2 * Dm - Mm))
+            - 2.955968 * cos(radians(2 * Dm))
+            - 0.569925 * cos(radians(2 * Mm))
+            + 0.048888 * cos(radians(Ms)) * E
+            - 0.003149 * cos(radians(2 * Fm))
+            + 0.246158 * cos(radians(2 * Dm - 2 * Mm))
+            - 0.152138 * cos(radians(2 * Dm - Ms - Mm)) * E
+            - 0.170733 * cos(radians(2 * Dm + Mm))
+            - 0.204586 * cos(radians(2 * Dm - Ms)) * E
+            - 0.129620 * cos(radians(Mm - Ms)) * E
+            + 0.108743 * cos(radians(Dm))
+            + 0.104755 * cos(radians(Mm + Ms)) * E
+            + 0.010321 * cos(radians(2 * Dm - 2 * Fm))
+            + 0.079661 * cos(radians(Mm - 2 * Fm))
+            - 0.034782 * cos(radians(4 * Dm - Mm))
+            - 0.023210 * cos(radians(3 * Mm))
+            - 0.021636 * cos(radians(4 * Dm - 2 * Mm))
+            + 0.024208 * cos(radians(2 * Dm + Ms - Mm)) * E
+            + 0.030824 * cos(radians(2 * Dm + Ms)) * E
+            - 0.008379 * cos(radians(Dm - Mm))
+            - 0.016675 * cos(radians(Dm + Ms)) * E
+            - 0.012831 * cos(radians(2 * Dm - Ms + Mm)) * E
+            - 0.010445 * cos(radians(2 * Dm + 2 * Mm))
+        )
+
+        # ---- Illumination and phase ----
+        # First compute the illumination angle IM
+        IM = (
+            180 - Dm
+            - 6.289 * sin(radians(Mm))
+            + 2.100 * sin(radians(Ms)) * E
+            - 1.274 * sin(radians(2 * Dm - Mm))
+            - 0.658 * sin(radians(2 * Dm))
+            - 0.214 * sin(radians(2 * Mm))
+            - 0.114 * sin(radians(Dm))
+        )
+        # Normalize IM to [0,360)
+        IM = IM % 360
+        illumination = (1 + cos(radians(IM))) / 2 * 100
+
+        # Distance in km
+        distance = int(385000.56 + ER * 1000)
+
+        # Determine phase name based on illumination and trend
+        # We need the trend: compare illumination at two slightly different times
+        # Simpler: use the value of Dm to decide waxing/waning?
+        # In the original code they compared pha2 - pha1, but we can use Dm.
+        # Actually the phase name can be derived from illumination and the sign of the derivative.
+        # For simplicity, we use the same logic as in the original external code:
+        # They computed two illuminations at slightly different times (0.5 day apart) to get trend.
+        # We'll do the same.
+
+        # Compute illumination a little later (0.5 day)
+        jd2 = jd + 0.5
+        T2 = (jd2 - 2451545.0) / 36525.0
+        # Recompute Dm2, Ms2, Mm2
+        Dm2 = 297.8501921 + 445267.114034 * T2 - 0.0018819 * T2 * T2 + T2 * T2 * T2 / 545868 - T2 * T2 * T2 * T2 / 113065000
+        Ms2 = 357.5291092 + 35999.0502909 * T2 - 0.0001536 * T2 * T2 + T2 * T2 * T2 / 24490000
+        Mm2 = 134.9633964 + 477198.8675055 * T2 + 0.0087414 * T2 * T2 + T2 * T2 * T2 / 69699 - T2 * T2 * T2 * T2 / 14712000
+        IM2 = (
+            180 - Dm2
+            - 6.289 * sin(radians(Mm2))
+            + 2.100 * sin(radians(Ms2)) * (1 - 0.002516 * T2 - 0.0000074 * T2 * T2)
+            - 1.274 * sin(radians(2 * Dm2 - Mm2))
+            - 0.658 * sin(radians(2 * Dm2))
+            - 0.214 * sin(radians(2 * Mm2))
+            - 0.114 * sin(radians(Dm2))
+        )
+        IM2 = IM2 % 360
+        illum2 = (1 + cos(radians(IM2))) / 2 * 100
+        trend = 1 if illum2 > illumination else -1
+
+        # Map illumination to phase name using the same intervals as in external code
+        if illumination <= 5:
+            phase_name = "New Moon"
+        elif illumination <= 50:
+            if trend == 1:
+                phase_name = "Waxing Crescent"
+            else:
+                phase_name = "Waning Crescent"
+        elif illumination <= 55:
+            if trend == 1:
+                phase_name = "First Quarter"
+            else:
+                phase_name = "Last Quarter"
+        elif illumination <= 95:
+            if trend == 1:
+                phase_name = "Waxing Gibbous"
+            else:
+                phase_name = "Waning Gibbous"
+        else:
+            phase_name = "Full Moon"
+
+        return {
+            'illumination': illumination,
+            'phase_name': phase_name,
+            'distance': distance,
+            'trend': trend
+        }
+
+    # -------------------------------------------------------------------------
+    # Original methods (simplified, now replaced by precise one for fallback)
+    # -------------------------------------------------------------------------
     def _get_current_phase_value(self):
-        """Calculates the current lunar phase (0-1, 0 = New Moon)"""
-        # Seconds from epoch to the reference date
+        # This method is kept for compatibility but not used in precise mode
+        # We'll still use it if needed, but better to use precise.
         ref_time = mktime(self.NEW_MOON_REF)
         ref_days = ref_time / 86400.0
-
-        # Current time in days
         now_days = mktime(localtime()) / 86400.0
-
-        # Days passed since the reference
         days_since_ref = now_days - ref_days
-
-        # Fraction of the synodic cycle (0-1)
         phase = (days_since_ref % self.SYNODIC_MONTH) / self.SYNODIC_MONTH
         return phase
 
     def _illumination_from_phase(self, phase):
-        """Returns the illumination percentage (0-100) given the phase (0-1, 0 = new)"""
-        # Formula: illumination = (1 - cos(2π * phase)) / 2
         return (1 - cos(2 * pi * phase)) / 2 * 100
 
     def _get_phase_name(self, phase):
-        for (low, high), name in self.phase_names_en.items():
-            if low <= phase < high:
-                return MOON_PHASES.get(name, name)
-        return MOON_PHASES["New Moon"]
+        # Approximate phase names
+        if phase < 0.03 or phase >= 0.97:
+            return "New Moon"
+        elif phase < 0.22:
+            return "Waxing Crescent"
+        elif phase < 0.28:
+            return "First Quarter"
+        elif phase < 0.47:
+            return "Waxing Gibbous"
+        elif phase < 0.53:
+            return "Full Moon"
+        elif phase < 0.72:
+            return "Waning Gibbous"
+        elif phase < 0.78:
+            return "Last Quarter"
+        else:
+            return "Waning Crescent"
 
+    # -------------------------------------------------------------------------
+    # Public API
+    # -------------------------------------------------------------------------
     def get_phase_info(self):
         """
         Returns a dictionary with phase, illumination, name, icon number, and icon path.
-        Gives priority to API data if available, otherwise falls back to internal calculation.
+        Gives priority to API data if available, otherwise falls back to precise internal calculation.
         """
         if self.api_data and self.api_data["illumination"] is not None and self.api_data["phase"] != "N/A":
             # Use API data
             illum_percent = self.api_data["illumination"] * 100
             phase_name = self.api_data["phase"]
-
-            # Determine whether the phase is waxing or waning
-            crescente = phase_name in [
-                "Waxing Crescent",
-                "First Quarter",
-                "Waxing Gibbous"]
-
-            # Linear mapping: illumination 0% → icon 0 (new), 100% → icon 50
-            # (full)
+            # Determine waxing/waning from phase name
+            crescente = phase_name in ["Waxing Crescent", "First Quarter", "Waxing Gibbous"]
+            # Linear mapping
             if crescente:
                 icon_number = int(round(illum_percent * 50 / 100))
             else:
                 icon_number = int(round(50 + (100 - illum_percent) * 50 / 100))
-
-            # Handle special cases (New Moon and Full Moon)
             if phase_name == "New Moon":
                 icon_number = 0 if illum_percent < 10 else 100
             elif phase_name == "Full Moon":
                 icon_number = 50
-
-            # 0-99 for 100 icons? Actually you have 101 (0-100), so 100 is
-            # valid
-            icon_number = max(0, min(99, icon_number))
+            icon_number = max(0, min(100, icon_number))
+            illumination = illum_percent
+            name = phase_name
+            # We don't have distance from API, use precise calculation for distance
+            jd = self._get_julian_day()
+            distance = self._compute_lunar_data(jd)['distance']
         else:
-            # Fallback to internal calculation (as before)
-            phase = self._get_current_phase_value()
-            illumination = self._illumination_from_phase(phase)
-            name = self._get_phase_name(phase)
-            # Linear mapping phase -> icon
-            icon_number = int(round(phase * (self.total_icons - 1)))
-            icon_number = max(0, min(self.total_icons - 1, icon_number))
+            # Fallback to precise calculation
+            jd = self._get_julian_day()
+            data = self._compute_lunar_data(jd)
+            illumination = data['illumination']
+            name = data['phase_name']
+            distance = data['distance']
+            # Map illumination to icon using the same logic as API case
+            crescente = data['trend'] == 1
+            if crescente:
+                icon_number = int(round(illumination * 50 / 100))
+            else:
+                icon_number = int(round(50 + (100 - illumination) * 50 / 100))
+            if name == "New Moon":
+                icon_number = 0 if illumination < 10 else 100
+            elif name == "Full Moon":
+                icon_number = 50
+            icon_number = max(0, min(100, icon_number))
 
-        # Find the icon file
+        # Find icon file
         icon_file = None
         if self.icon_path:
-            # Build full path (e.g., moon0012.png) with zero-padded to 4 digits
             icon_file = join(self.icon_path, f"moon{icon_number:04d}.png")
-            # If the file does not exist, look for the nearest PNG (safety
-            # fallback)
             if not exists(icon_file):
                 icon_file = self._find_nearest_icon(icon_number)
 
         return {
-            "phase": phase if not self.api_data else None,  # not needed
-            "illumination": illum_percent if self.api_data else illumination,
-            "name": phase_name if self.api_data else name,
+            "illumination": illumination,
+            "name": name,
             "icon_number": icon_number,
-            "icon_path": icon_file
+            "icon_path": icon_file,
+            "distance": distance
         }
 
     def _get_julian_day(self, t=None):
-        """Julian day for time t (in seconds) or current time."""
         if t is None:
             t = mktime(localtime())
-        # Simplified JD formula (valid after 1900)
-        # Uses the time library to obtain an accurate date
         dt = datetime.datetime.utcfromtimestamp(t)
         year = dt.year
         month = dt.month
@@ -197,37 +378,58 @@ class MoonPhase:
             month += 12
         A = year // 100
         B = 2 - A + A // 4
-        JD = int(365.25 * (year + 4716)) + \
-            int(30.6001 * (month + 1)) + day + B - 1524.5
+        JD = int(365.25 * (year + 4716)) + int(30.6001 * (month + 1)) + day + B - 1524.5
         return JD
 
-    def _get_moon_mean_anomaly(self, JD):
-        """Moon mean anomaly in degrees."""
-        T = (JD - 2451545.0) / 36525.0  # Julian centuries since J2000
-        M = 134.963 + 477198.867 * T + 0.008997 * T**2  # degrees
-        return radians(M % 360)
+    def get_phase_info_for_jd(self, jd):
+        """
+        Restituisce le informazioni lunari per un dato Julian Day.
+        Simile a get_phase_info() ma basato su jd specificato.
+        """
+        data = self._compute_lunar_data(jd)
+        illumination = data['illumination']
+        name = data['phase_name']
+        distance = data['distance']
+        trend = data['trend']
 
-    def get_moon_data_async(
-            self,
-            lat,
-            lon,
-            callback,
-            max_days=2,
-            offset_hours=None):
-        """Executes the API request in a separate thread and calls a callback with the results."""
+        # Mappa illuminazione a icona (come in get_phase_info)
+        crescente = (trend == 1)
+        if crescente:
+            icon_number = int(round(illumination * 50 / 100))
+        else:
+            icon_number = int(round(50 + (100 - illumination) * 50 / 100))
+        if name == "New Moon":
+            icon_number = 0 if illumination < 10 else 100
+        elif name == "Full Moon":
+            icon_number = 50
+        icon_number = max(0, min(100, icon_number))
+
+        icon_file = None
+        if self.icon_path:
+            icon_file = join(self.icon_path, f"moon{icon_number:04d}.png")
+            if not exists(icon_file):
+                icon_file = self._find_nearest_icon(icon_number)
+
+        return {
+            'illumination': illumination,
+            'name': name,
+            'distance': distance,
+            'icon_number': icon_number,
+            'icon_path': icon_file,
+            'jd': jd
+        }
+
+    # -------------------------------------------------------------------------
+    # API methods (unchanged)
+    # -------------------------------------------------------------------------
+    def get_moon_data_async(self, lat, lon, callback, max_days=2, offset_hours=None):
         def worker():
-            result = self.get_moon_data_from_api(
-                lat, lon, max_days, offset_hours)
+            result = self.get_moon_data_from_api(lat, lon, max_days, offset_hours)
             if callback:
                 callback(result)
         Thread(target=worker).start()
 
     def get_moon_data_from_api(self, lat, lon, max_days=2, offset_hours=None):
-        """
-        Searches for moonrise and moonset in the following days (up to max_days)
-        to ensure the next moonset is found, even if it occurs after midnight.
-        Returns a dictionary with rise, set, phase, illumination.
-        """
         if offset_hours is None:
             offset_hours = self._get_offset_hours()
         try:
@@ -240,7 +442,6 @@ class MoonPhase:
             for days_offset in range(max_days + 1):
                 check_date = base_date + datetime.timedelta(days=days_offset)
                 date_str = check_date.strftime("%Y-%m-%d")
-
                 url = "https://aa.usno.navy.mil/api/rstt/oneday"
                 params = {
                     "date": date_str,
@@ -248,16 +449,13 @@ class MoonPhase:
                     "tz": str(offset_hours),
                     "dst": "false"
                 }
-
                 response = requests.get(url, params=params, timeout=10)
                 if response.status_code != 200:
                     continue
-
                 data = response.json()
                 props = data.get("properties", {}).get("data", {})
                 if not props:
                     continue
-
                 for item in props.get("moondata", []):
                     phen = item.get("phen", "")
                     time_val = item.get("time", "N/A")
@@ -265,24 +463,18 @@ class MoonPhase:
                         moonrise = time_val
                     elif phen == "Set" and moonset == "N/A":
                         moonset = time_val
-
                 if moonrise != "N/A" and moonset != "N/A":
                     if days_offset == 0:
                         phase_name = props.get("curphase", "N/A")
-                        illum_str = props.get(
-                            "fracillum", "0%").replace(
-                            "%", "").strip()
-                        illumination = float(
-                            illum_str) / 100.0 if illum_str != "N/A" else None
+                        illum_str = props.get("fracillum", "0%").replace("%", "").strip()
+                        illumination = float(illum_str) / 100.0 if illum_str != "N/A" else None
                     break
-
             result = {
                 "rise": moonrise,
                 "set": moonset,
                 "phase": phase_name,
                 "illumination": illumination
             }
-            # Save the obtained data for later use
             if illumination is not None:
                 self.api_data = result
             return result
@@ -291,7 +483,6 @@ class MoonPhase:
             return None
 
     def _get_offset_hours(self):
-        """Calculates the current UTC offset in hours using the time module."""
         lt = time.localtime()
         if lt.tm_isdst > 0:
             offset_sec = -time.altzone
@@ -300,48 +491,11 @@ class MoonPhase:
         return round(offset_sec / 3600.0, 1)
 
     def get_moon_distance(self):
-        """
-        Calculates the approximate Earth-Moon distance in km.
-        Formula based on the Moon's mean anomaly (Chapront).
-        Accuracy: error less than 1000 km (more than sufficient).
-        """
-        # Reference date J2000 (January 1, 2000, 12:00 UTC)
-        J2000 = 2451545.0
-        # Seconds since 1970-01-01 00:00 UTC
-        now = mktime(localtime())
-        # Approximate Julian days (formula valid after 1970)
-        jd = 2440587.5 + now / 86400.0
-        # Julian centuries since J2000
-        T = (jd - J2000) / 36525.0
-
-        # Moon mean anomaly in degrees (Chapront formula)
-        M = 134.963 + 477198.867 * T + 0.008997 * T**2
-        M_rad = radians(M % 360)  # Normalize and convert to radians
-
-        # Distance in km (empirical formula)
-        dist_km = (385000.56
-                   - 20905.355 * cos(M_rad)
-                   - 3699.111 * cos(2 * M_rad)
-                   - 2955.968 * cos(3 * M_rad)
-                   - 569.925 * cos(4 * M_rad))
-        return round(dist_km)
-
-    def get_moon_rise_set_approx(self, lat, lon, date=None):
-        """
-        Calculates approximate moonrise and moonset times.
-        WARNING: this implementation is highly simplified and not very accurate.
-        A full implementation would require a complex iterative algorithm.
-        Returns a tuple (rise, set) in UTC time or None.
-        """
-        # A proper implementation would require a library such as ephem or skyfield.
-        # Leaving a placeholder.
-        return None, None
+        # Use precise calculation
+        jd = self._get_julian_day()
+        return self._compute_lunar_data(jd)['distance']
 
     def _find_nearest_icon(self, target_num):
-        """
-        Searches in the icon folder for the file moonXXXX.png with XXXX closest to target_num.
-        Returns the path of the found file, or None.
-        """
         if not self.icon_path or not isdir(self.icon_path):
             return None
         pattern = join(self.icon_path, "moon*.png")
@@ -349,12 +503,10 @@ class MoonPhase:
         numbers = []
         for f in files:
             base = basename(f)
-            # Extract the number from "moon0123.png"
             num_str = base.replace('moon', '').replace('.png', '')
             if num_str.isdigit():
                 numbers.append((int(num_str), f))
         if not numbers:
             return None
-
         nearest = min(numbers, key=lambda x: abs(x[0] - target_num))
         return nearest[1]

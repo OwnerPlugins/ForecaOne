@@ -20,6 +20,7 @@ from Components.Pixmap import Pixmap
 from Components.Sources.StaticText import StaticText
 from Components.Label import Label
 
+from .google_translate import trans
 from . import (
     _,
     DEBUG,
@@ -52,85 +53,126 @@ REGION_CENTERS = {
 }
 
 
-def get_background_for_layer(layer_title, region="europe"):
-    region_lower = region.lower()
-    region_map = {
-        'eu': 'europa.png',
-        'europe': 'europa.png',
-        'us': 'nordamerika.png',
-        'usa': 'nordamerika.png',
-        'it': 'italien.png',
-        'italy': 'italien.png',
-        'de': 'deutschland.png',
-        'germany': 'deutschland.png',
-        'fr': 'frankreich.png',
-        'france': 'frankreich.png',
-        'uk': 'grossbritannien.png',
-        'gb': 'grossbritannien.png',
-        'es': 'spanien.png',
-        'at': 'oesterreich.png',
-    }
-    if region_lower in region_map:
-        return region_map[region_lower]
-    if any(word in region_lower for word in ['italy', 'italia', 'italien']):
-        return 'italien.png'
-    if any(
-        word in region_lower for word in [
-            'germany',
-            'deutsch',
-            'germania']):
-        return 'deutschland.png'
-    if any(
-        word in region_lower for word in [
-            'france',
-            'francia',
-            'frankreich']):
-        return 'frankreich.png'
-    if any(word in region_lower for word in ['spain', 'espana', 'spanien']):
-        return 'spanien.png'
-    if any(
-        word in region_lower for word in [
-            'uk',
-            'britain',
-            'grossbritannien']):
-        return 'grossbritannien.png'
-    if any(word in region_lower for word in ['austria', 'oesterreich']):
-        return 'oesterreich.png'
-    if any(
-        word in region_lower for word in [
-            'switzerland',
-            'schweiz',
-            'svizzera']):
-        return 'schweiz.png'
-    return 'europa.png'
+# -----------------------------------------------------------------------------
+# Background selection based on coordinates
+# -----------------------------------------------------------------------------
+
+def get_background_for_layer(lat, lon, region=None):
+    """
+    Return the filename of a geographic background image.
+    The region parameter (e.g., 'eu', 'us') has highest priority.
+    If region is not provided or the corresponding file is missing,
+    fall back to coordinate-based selection using precise continental extents.
+    """
+    # 1) Priority: Known region (specific layer)
+    if region:
+        region_map = {
+            'eu': 'europa.png',
+            'europe': 'europa.png',
+            'us': 'nordamerika.png',
+            'usa': 'nordamerika.png',
+            'it': 'italien.png',
+            'italy': 'italien.png',
+            'de': 'deutschland.png',
+            'germany': 'deutschland.png',
+            'fr': 'frankreich.png',
+            'france': 'frankreich.png',
+            'uk': 'grossbritannien.png',
+            'gb': 'grossbritannien.png',
+            'es': 'spanien.png',
+            'spain': 'spanien.png',
+            'at': 'oesterreich.png',
+            'austria': 'oesterreich.png',
+            'ch': 'schweiz.png',
+            'switzerland': 'schweiz.png',
+        }
+        reg_low = region.lower()
+        if reg_low in region_map:
+            fname = region_map[reg_low]
+            if exists(join(THUMB_PATH, fname)):
+                print(f"[DEBUG] get_background: using region {region} -> {fname}")
+                return fname
+            else:
+                print(f"[DEBUG] get_background: region {region} file {fname} not found")
+
+    # 2) Selection based on the precise coordinates of the continents
+    # Europa (lat 36°N - 71°N, lon 9°34'W - 66°10'E)
+    if -9.57 <= lon <= 66.17 and 36 <= lat <= 71.13:
+        if exists(join(THUMB_PATH, 'europa.png')):
+            print("[DEBUG] get_background: coordinate-based -> europa.png")
+            return 'europa.png'
+
+    # Africa (lat 34°51'S - 37°21'N, lon 17°33'W - 51°28'E)
+    if -17.56 <= lon <= 51.46 and -34.85 <= lat <= 37.35:
+        if exists(join(THUMB_PATH, 'africa.png')):
+            print("[DEBUG] get_background: coordinate-based -> africa.png")
+            return 'africa.png'
+
+    # Asia (lat 1°16'S - 77°43'N, lon 26°04'E - 169°40'W)
+    if (26.07 <= lon <= 180) and -1.27 <= lat <= 77.72:
+        if exists(join(THUMB_PATH, 'asia.png')):
+            print("[DEBUG] get_background: coordinate-based -> asia.png")
+            return 'asia.png'
+    if (-180 <= lon <= -169.67) and -1.27 <= lat <= 77.72:
+        if exists(join(THUMB_PATH, 'asia.png')):
+            print("[DEBUG] get_background: coordinate-based -> asia.png")
+            return 'asia.png'
+
+    # Nord America (lat 7°12'N - 83°40'N, lon 172°27'E - 12°08'W)
+    if (lon >= -180 and lon <= -12.13) and 7.2 <= lat <= 83.67:
+        if exists(join(THUMB_PATH, 'nordamerika.png')):
+            print("[DEBUG] get_background: coordinate-based -> nordamerika.png")
+            return 'nordamerika.png'
+    if (lon >= 172.45 and lon <= 180) and 7.2 <= lat <= 83.67:
+        if exists(join(THUMB_PATH, 'nordamerika.png')):
+            print("[DEBUG] get_background: coordinate-based -> nordamerika.png")
+            return 'nordamerika.png'
+
+    # Sud America (lat 12°27'N - 56°30'S, lon 81°20'W - 34°47'W)
+    if -81.33 <= lon <= -34.78 and -56.5 <= lat <= 12.45:
+        if exists(join(THUMB_PATH, 'suedamerika.png')):
+            print("[DEBUG] get_background: coordinate-based -> suedamerika.png")
+            return 'suedamerika.png'
+
+    # Oceania (lat 55°03'S - 28°38'N, lon 110°E - 180°)
+    if 110 <= lon <= 180 and -55.05 <= lat <= 28.63:
+        if exists(join(THUMB_PATH, 'oceania.png')):
+            print("[DEBUG] get_background: coordinate-based -> oceania.png")
+            return 'oceania.png'
+
+    # Antartide (lat < -60°)
+    if lat <= -60:
+        if exists(join(THUMB_PATH, 'antarctica.png')):
+            print("[DEBUG] get_background: coordinate-based -> antarctica.png")
+            return 'antarctica.png'
+
+    # 3) Fallback globale
+    if exists(join(THUMB_PATH, 'world.png')):
+        print("[DEBUG] get_background: fallback -> world.png")
+        return 'world.png'
+
+    print("[DEBUG] get_background: no background found")
+    return None
 
 
-def create_composite_map(
-    weather_tiles_path,
-    layer_title,
-    region,
-    canvas_size=(
-        FINAL_WIDTH,
-        FINAL_HEIGHT)):
-    """
-    Creates the final map by overlaying weather tiles onto the geographic background.
-    For layers of type "windsvg", the background may not be necessary.
-    """
+def create_composite_map(weather_tiles_path, layer_title, center_lat, center_lon, region=None, canvas_size=(FINAL_WIDTH, FINAL_HEIGHT)):
     BG_COLOR = (176, 196, 222)  # light steel blue
     canvas = Image.new("RGBA", canvas_size, BG_COLOR + (255,))
 
-    # Geographic background (always present)
-    bg_file = get_background_for_layer(layer_title, region)
-    bg_path = join(THUMB_PATH, bg_file)
-    if exists(bg_path):
-        try:
-            bg = Image.open(bg_path).convert("RGBA")
-            bg = bg.resize(canvas_size, Image.Resampling.LANCZOS)
-            canvas.paste(bg, (0, 0), bg)
-        except Exception as e:
-            print(f"[Composite] Background loading error: {e}")
+    # Geographic background (if available) – pass region hint
+    # bg_file = get_background_for_layer(center_lat, center_lon, region)
+    bg_file = get_background_for_layer(center_lat, center_lon)
+    if bg_file:
+        bg_path = join(THUMB_PATH, bg_file)
+        if exists(bg_path):
+            try:
+                bg = Image.open(bg_path).convert("RGBA")
+                bg = bg.resize(canvas_size, Image.Resampling.LANCZOS)
+                canvas.paste(bg, (0, 0), bg)
+            except Exception as e:
+                print(f"[Composite] Background error: {e}")
 
-    # Weather tiles
+    # Overlay the weather tiles
     if exists(weather_tiles_path):
         try:
             weather = Image.open(weather_tiles_path).convert("RGBA")
@@ -168,10 +210,37 @@ class ForecaMapViewer(Screen, HelpableScreen):
         self.unit_system = unit_system
         self.region = region.lower()
 
-        if self.region in REGION_CENTERS:
-            self.center_lat, self.center_lon = REGION_CENTERS[self.region]
+        # Get layer extent if available
+        extent = layer.get('extent', {})
+        if extent and 'minLat' in extent and 'maxLat' in extent and 'minLon' in extent and 'maxLon' in extent:
+            self.center_lat = (extent['minLat'] + extent['maxLat']) / 2.0
+            self.center_lon = (extent['minLon'] + extent['maxLon']) / 2.0
+            self.min_zoom = extent.get('minZoom', 2)
+            self.max_zoom = extent.get('maxZoom', 21)
+
+            # --- : if the extension is global, use the center of the region ---
+            # We consider it global if it covers almost the entire planet
+            if (extent['minLat'] <= -80 and extent['maxLat'] >= 80 and
+                    extent['minLon'] <= -170 and extent['maxLon'] >= 170):
+                if self.region in REGION_CENTERS:
+                    old_lat, old_lon = self.center_lat, self.center_lon
+                    self.center_lat, self.center_lon = REGION_CENTERS[self.region]
+                    if DEBUG:
+                        print(f"[DEBUG] Layer globale ({old_lat},{old_lon}) → sovrascritto con centro regione '{self.region}': ({self.center_lat},{self.center_lon})")
+
+            if DEBUG:
+                print(f"[DEBUG] Layer extent: lat {extent['minLat']}-{extent['maxLat']}, lon {extent['minLon']}-{extent['maxLon']}")
+                print(f"[DEBUG] Center: ({self.center_lat}, {self.center_lon})")
         else:
-            self.center_lat, self.center_lon = 50.0, 10.0
+            # Fallback to region-based center
+            if self.region in REGION_CENTERS:
+                self.center_lat, self.center_lon = REGION_CENTERS[self.region]
+            else:
+                self.center_lat, self.center_lon = 50.0, 10.0
+            self.min_zoom = 2
+            self.max_zoom = 21
+            if DEBUG:
+                print(f"[DEBUG] Using region center: ({self.center_lat}, {self.center_lon})")
 
         desktop = getDesktop(0)
         self.screen_w = desktop.size().width()
@@ -190,15 +259,15 @@ class ForecaMapViewer(Screen, HelpableScreen):
         self.map_w = self.grid_cols * self.tile_size
         self.map_h = self.grid_rows * self.tile_size
 
+        # Compute initial zoom level based on latitude (if possible)
         try:
             lat_float = float(self.center_lat)
-            self.zoom_level = max(4, min(6, int(8 - abs(lat_float) / 15)))
+            # Heuristic: higher zoom near equator
+            self.zoom_level = max(self.min_zoom, min(self.max_zoom, int(8 - abs(lat_float) / 15)))
         except (ValueError, TypeError):
-            self.zoom_level = 5
+            self.zoom_level = max(self.min_zoom, min(self.max_zoom, 5))
 
-        self.min_zoom = 2
-        self.max_zoom = 21
-
+        # Get timestamps from layer
         self.timestamps = layer.get('times', {}).get('available', [])
         self.current_time_index = layer.get('times', {}).get('current', 0)
         self.setTitle(f"Foreca One: {self.layer_title}")
@@ -386,13 +455,13 @@ class ForecaMapViewer(Screen, HelpableScreen):
                         stat = ImageStat.Stat(tile.convert('RGB'))
                         print(
                             f"[DEBUG] Tile (10,7) mean: {stat.mean}, stddev: {stat.stddev}")
-
+                """
                 if self.is_uniform_tile(tile):
                     if DEBUG:
                         print(
                             f"[Foreca1] Tile uniforme saltata: ({col},{row}) {path}")
                     continue
-
+                """
                 x = col * self.tile_size
                 y = row * self.tile_size
                 merged.paste(tile, (x, y), tile)
@@ -414,7 +483,9 @@ class ForecaMapViewer(Screen, HelpableScreen):
                 composite_path = create_composite_map(
                     merged_image_path,
                     self.layer_title,
-                    self.region,
+                    self.center_lat,
+                    self.center_lon,
+                    region=self.region,
                     canvas_size=(self.map_w, self.map_h)
                 )
 
@@ -471,21 +542,21 @@ class ForecaMapViewer(Screen, HelpableScreen):
     def get_data_type_from_layer(self, layer_name):
         layer_lower = layer_name.lower()
         if 'temp' in layer_lower:
-            return "Temperature"
+            return trans("Temperature")
         elif 'wind' in layer_lower:
-            return "Wind"
+            return trans("Wind")
         elif 'cloud' in layer_lower:
-            return "Cloud Cover"
+            return trans("Cloud Cover")
         elif 'precip' in layer_lower or 'rain' in layer_lower:
-            return "Precipitation"
+            return trans("Precipitation")
         elif 'pressure' in layer_lower:
-            return "Pressure"
+            return trans("Pressure")
         elif 'snow' in layer_lower:
-            return "Snow"
+            return trans("Snow")
         elif 'radar' in layer_lower:
-            return "Radar"
+            return trans("Radar")
         else:
-            return layer_name
+            return trans(layer_name)
 
     def zoom_in(self):
         if self.zoom_level < self.max_zoom:
