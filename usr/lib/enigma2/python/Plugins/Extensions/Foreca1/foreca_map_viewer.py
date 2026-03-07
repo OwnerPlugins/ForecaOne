@@ -90,12 +90,10 @@ def get_background_for_layer(lat, lon, region=None):
         if reg_low in region_map:
             fname = region_map[reg_low]
             if exists(join(THUMB_PATH, fname)):
-                print(
-                    f"[DEBUG] get_background: using region {region} -> {fname}")
+                print(f"[DEBUG] get_background: using region {region} -> {fname}")
                 return fname
             else:
-                print(
-                    f"[DEBUG] get_background: region {region} file {fname} not found")
+                print(f"[DEBUG] get_background: region {region} file {fname} not found")
 
     # 2) Selection based on the precise coordinates of the continents
     # Europa (lat 36°N - 71°N, lon 9°34'W - 66°10'E)
@@ -157,15 +155,7 @@ def get_background_for_layer(lat, lon, region=None):
     return None
 
 
-def create_composite_map(
-    weather_tiles_path,
-    layer_title,
-    center_lat,
-    center_lon,
-    region=None,
-    canvas_size=(
-        FINAL_WIDTH,
-        FINAL_HEIGHT)):
+def create_composite_map(weather_tiles_path, layer_title, center_lat, center_lon, region=None, canvas_size=(FINAL_WIDTH, FINAL_HEIGHT)):
     BG_COLOR = (176, 196, 222)  # light steel blue
     canvas = Image.new("RGBA", canvas_size, BG_COLOR + (255,))
 
@@ -236,14 +226,11 @@ class ForecaMapViewer(Screen, HelpableScreen):
                     old_lat, old_lon = self.center_lat, self.center_lon
                     self.center_lat, self.center_lon = REGION_CENTERS[self.region]
                     if DEBUG:
-                        print(
-                            f"[DEBUG] Layer globale ({old_lat},{old_lon}) → sovrascritto con centro regione '{self.region}': ({self.center_lat},{self.center_lon})")
+                        print(f"[DEBUG] Layer globale ({old_lat},{old_lon}) → sovrascritto con centro regione '{self.region}': ({self.center_lat},{self.center_lon})")
 
             if DEBUG:
-                print(
-                    f"[DEBUG] Layer extent: lat {extent['minLat']}-{extent['maxLat']}, lon {extent['minLon']}-{extent['maxLon']}")
-                print(
-                    f"[DEBUG] Center: ({self.center_lat}, {self.center_lon})")
+                print(f"[DEBUG] Layer extent: lat {extent['minLat']}-{extent['maxLat']}, lon {extent['minLon']}-{extent['maxLon']}")
+                print(f"[DEBUG] Center: ({self.center_lat}, {self.center_lon})")
         else:
             # Fallback to region-based center
             if self.region in REGION_CENTERS:
@@ -253,8 +240,7 @@ class ForecaMapViewer(Screen, HelpableScreen):
             self.min_zoom = 2
             self.max_zoom = 21
             if DEBUG:
-                print(
-                    f"[DEBUG] Using region center: ({self.center_lat}, {self.center_lon})")
+                print(f"[DEBUG] Using region center: ({self.center_lat}, {self.center_lon})")
 
         desktop = getDesktop(0)
         self.screen_w = desktop.size().width()
@@ -277,10 +263,7 @@ class ForecaMapViewer(Screen, HelpableScreen):
         try:
             lat_float = float(self.center_lat)
             # Heuristic: higher zoom near equator
-            self.zoom_level = max(
-                self.min_zoom, min(
-                    self.max_zoom, int(
-                        8 - abs(lat_float) / 15)))
+            self.zoom_level = max(self.min_zoom, min(self.max_zoom, int(8 - abs(lat_float) / 15)))
         except (ValueError, TypeError):
             self.zoom_level = max(self.min_zoom, min(self.max_zoom, 5))
 

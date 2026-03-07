@@ -91,8 +91,7 @@ class MoonCalendar(Screen, HelpableScreen):
         for p in self.phases:
             self.list.append(self._create_entry(p))
         self["menu"].setList(self.list)
-        self["info"].setText(
-            trans("Found {} lunar phases").format(len(self.phases)))
+        self["info"].setText(trans("Found {} lunar phases").format(len(self.phases)))
 
     def _get_month_phases(self, year, month):
         """
@@ -115,8 +114,7 @@ class MoonCalendar(Screen, HelpableScreen):
 
         month_phases = []
         for phase_target in target_phases:
-            jd_phase = self._find_next_phase_after(
-                jd_start, phase_target, jd_ref)
+            jd_phase = self._find_next_phase_after(jd_start, phase_target, jd_ref)
             dt = self._jd_to_date(jd_phase)
             # If the date is still in the same month, add it
             if dt.year == year and dt.month == month:
@@ -196,12 +194,9 @@ class MoonCalendar(Screen, HelpableScreen):
             return
         phase = self.phases[idx - 1]
         details = trans("Phase: {}").format(phase['phase_name']) + "\n"
-        details += trans("Date: {}").format(
-            phase['date'].strftime("%d/%m/%Y")) + "\n"
-        details += trans("Time: {}").format(
-            phase['date'].strftime("%H:%M")) + "\n"
-        details += trans("Illumination: {:.1f}%").format(
-            phase['illumination']) + "\n"
+        details += trans("Date: {}").format(phase['date'].strftime("%d/%m/%Y")) + "\n"
+        details += trans("Time: {}").format(phase['date'].strftime("%H:%M")) + "\n"
+        details += trans("Illumination: {:.1f}%").format(phase['illumination']) + "\n"
         details += trans("Distance: {} km").format(phase['distance'])
         self.session.open(MessageBox, details, MessageBox.TYPE_INFO)
 

@@ -102,13 +102,10 @@ class MoonPhase:
 
         # Mean elements of the Moon (in degrees)
         # Lm = 218.3164477 + 481267.88123421 * T - 0.0015786 * T * T + T * T * T / 538841 - T * T * T * T / 65194000
-        Dm = 297.8501921 + 445267.114034 * T - 0.0018819 * T * \
-            T + T * T * T / 545868 - T * T * T * T / 113065000
+        Dm = 297.8501921 + 445267.114034 * T - 0.0018819 * T * T + T * T * T / 545868 - T * T * T * T / 113065000
         Ms = 357.5291092 + 35999.0502909 * T - 0.0001536 * T * T + T * T * T / 24490000
-        Mm = 134.9633964 + 477198.8675055 * T + 0.0087414 * \
-            T * T + T * T * T / 69699 - T * T * T * T / 14712000
-        Fm = 93.272095 + 483202.0175233 * T - 0.0036539 * T * \
-            T - T * T * T / 3526000 + T * T * T * T / 863310000
+        Mm = 134.9633964 + 477198.8675055 * T + 0.0087414 * T * T + T * T * T / 69699 - T * T * T * T / 14712000
+        Fm = 93.272095 + 483202.0175233 * T - 0.0036539 * T * T - T * T * T / 3526000 + T * T * T * T / 863310000
 
         # Correction for eccentricity of Earth's orbit
         E = 1 - 0.002516 * T - 0.0000074 * T * T
@@ -227,42 +224,23 @@ class MoonPhase:
         jd2 = jd + 0.5
         T2 = (jd2 - 2451545.0) / 36525.0
         # Recompute Dm2, Ms2, Mm2
-        Dm2 = 297.8501921 + 445267.114034 * T2 - 0.0018819 * T2 * \
-            T2 + T2 * T2 * T2 / 545868 - T2 * T2 * T2 * T2 / 113065000
-        Ms2 = 357.5291092 + 35999.0502909 * T2 - \
-            0.0001536 * T2 * T2 + T2 * T2 * T2 / 24490000
-        Mm2 = 134.9633964 + 477198.8675055 * T2 + 0.0087414 * T2 * \
-            T2 + T2 * T2 * T2 / 69699 - T2 * T2 * T2 * T2 / 14712000
-        IM2 = (180 -
-               Dm2 -
-               6.289 *
-               sin(radians(Mm2)) +
-               2.100 *
-               sin(radians(Ms2)) *
-               (1 -
-                0.002516 *
-                T2 -
-                0.0000074 *
-                T2 *
-                T2) -
-               1.274 *
-               sin(radians(2 *
-                           Dm2 -
-                           Mm2)) -
-               0.658 *
-               sin(radians(2 *
-                           Dm2)) -
-               0.214 *
-               sin(radians(2 *
-                           Mm2)) -
-               0.114 *
-               sin(radians(Dm2)))
+        Dm2 = 297.8501921 + 445267.114034 * T2 - 0.0018819 * T2 * T2 + T2 * T2 * T2 / 545868 - T2 * T2 * T2 * T2 / 113065000
+        Ms2 = 357.5291092 + 35999.0502909 * T2 - 0.0001536 * T2 * T2 + T2 * T2 * T2 / 24490000
+        Mm2 = 134.9633964 + 477198.8675055 * T2 + 0.0087414 * T2 * T2 + T2 * T2 * T2 / 69699 - T2 * T2 * T2 * T2 / 14712000
+        IM2 = (
+            180 - Dm2
+            - 6.289 * sin(radians(Mm2))
+            + 2.100 * sin(radians(Ms2)) * (1 - 0.002516 * T2 - 0.0000074 * T2 * T2)
+            - 1.274 * sin(radians(2 * Dm2 - Mm2))
+            - 0.658 * sin(radians(2 * Dm2))
+            - 0.214 * sin(radians(2 * Mm2))
+            - 0.114 * sin(radians(Dm2))
+        )
         IM2 = IM2 % 360
         illum2 = (1 + cos(radians(IM2))) / 2 * 100
         trend = 1 if illum2 > illumination else -1
 
-        # Map illumination to phase name using the same intervals as in
-        # external code
+        # Map illumination to phase name using the same intervals as in external code
         if illumination <= 5:
             phase_name = "New Moon"
         elif illumination <= 50:
@@ -338,10 +316,7 @@ class MoonPhase:
             illum_percent = self.api_data["illumination"] * 100
             phase_name = self.api_data["phase"]
             # Determine waxing/waning from phase name
-            crescente = phase_name in [
-                "Waxing Crescent",
-                "First Quarter",
-                "Waxing Gibbous"]
+            crescente = phase_name in ["Waxing Crescent", "First Quarter", "Waxing Gibbous"]
             # Linear mapping
             if crescente:
                 icon_number = int(round(illum_percent * 50 / 100))
@@ -354,8 +329,7 @@ class MoonPhase:
             icon_number = max(0, min(100, icon_number))
             illumination = illum_percent
             name = phase_name
-            # We don't have distance from API, use precise calculation for
-            # distance
+            # We don't have distance from API, use precise calculation for distance
             jd = self._get_julian_day()
             distance = self._compute_lunar_data(jd)['distance']
         else:
@@ -404,8 +378,7 @@ class MoonPhase:
             month += 12
         A = year // 100
         B = 2 - A + A // 4
-        JD = int(365.25 * (year + 4716)) + \
-            int(30.6001 * (month + 1)) + day + B - 1524.5
+        JD = int(365.25 * (year + 4716)) + int(30.6001 * (month + 1)) + day + B - 1524.5
         return JD
 
     def get_phase_info_for_jd(self, jd):
@@ -449,16 +422,9 @@ class MoonPhase:
     # -------------------------------------------------------------------------
     # API methods (unchanged)
     # -------------------------------------------------------------------------
-    def get_moon_data_async(
-            self,
-            lat,
-            lon,
-            callback,
-            max_days=2,
-            offset_hours=None):
+    def get_moon_data_async(self, lat, lon, callback, max_days=2, offset_hours=None):
         def worker():
-            result = self.get_moon_data_from_api(
-                lat, lon, max_days, offset_hours)
+            result = self.get_moon_data_from_api(lat, lon, max_days, offset_hours)
             if callback:
                 callback(result)
         Thread(target=worker).start()
@@ -500,11 +466,8 @@ class MoonPhase:
                 if moonrise != "N/A" and moonset != "N/A":
                     if days_offset == 0:
                         phase_name = props.get("curphase", "N/A")
-                        illum_str = props.get(
-                            "fracillum", "0%").replace(
-                            "%", "").strip()
-                        illumination = float(
-                            illum_str) / 100.0 if illum_str != "N/A" else None
+                        illum_str = props.get("fracillum", "0%").replace("%", "").strip()
+                        illumination = float(illum_str) / 100.0 if illum_str != "N/A" else None
                     break
             result = {
                 "rise": moonrise,
