@@ -696,7 +696,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 UnitSettingsAdvanced,
                 self.unit_manager)
         elif key == "moon_calendar":
-            self.session.openWithCallback(self.after_main_menu, MoonCalendar, self.moon)
+            self.session.openWithCallback(
+                self.after_main_menu, MoonCalendar, self.moon)
         elif key == "colorselector":
             self.session.openWithCallback(
                 self.after_main_menu, ColorSelector, self)
