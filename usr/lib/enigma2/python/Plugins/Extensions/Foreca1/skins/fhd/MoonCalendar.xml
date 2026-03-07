@@ -1,18 +1,18 @@
-<screen name="MoonCalendar" position="center,center" size="1920,1080" title="Lunar Calendar" flags="wfNoBorder" backgroundColor="#000000">
+<screen name="MoonCalendar" position="center,center" size="1920,1080" title="Lunar Calendar" flags="wfNoBorder" backgroundColor="#ff000000">
     <widget name="title" position="45,44" size="1830,50" font="Regular;42" foregroundColor="#a0ff" transparent="1" halign="center" valign="center" zPosition="3" />
     <widget name="info" position="45,99" size="1830,40" font="Regular;32" foregroundColor="#a0ff" transparent="1" halign="center" zPosition="3" />
     <widget source="menu" render="Listbox" position="55,149" size="1800,800" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#000000">
         <convert type="TemplatedMultiContent">
             {"template": [
-                MultiContentEntryText(pos = (20, 32), size = (250, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
-                MultiContentEntryPixmapAlphaTest(pos = (300, 5), size = (90, 90), png = 1),
-                MultiContentEntryText(pos = (420, 32), size = (400, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 2),
-                MultiContentEntryText(pos = (900, 32), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3),
-                MultiContentEntryText(pos = (1050, 32), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 4),
+                MultiContentEntryPixmapAlphaTest(pos = (50, 5), size = (90, 90), png = 1),
+                MultiContentEntryText(pos = (160, 32), size = (620, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 2),
+                MultiContentEntryText(pos = (800, 32), size = (250, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+                MultiContentEntryText(pos = (1080, 32), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3),
+                MultiContentEntryText(pos = (1210, 32), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 4),
             ],
             "fonts": [gFont("Regular", 32)],
             "itemHeight": 100
-            }
+        }
         </convert>
     </widget>
     <widget name="background_plate" size="1878,1038" zPosition="1" position="21,21" backgroundColor="#ff9632" cornerRadius="50" />

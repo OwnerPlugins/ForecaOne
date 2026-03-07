@@ -1,13 +1,13 @@
 <screen name="FavoritesDetailView" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="#ff000000">
 
     <!-- Title -->
-    <widget name="title" position="46,43" size="1820,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="5" />
+    <widget name="title" position="46,43" size="1820,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="5" />
 
     <ePixmap position="1632,983" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
 
     <!-- Background plates -->
     <widget name="background_plate" size="1887,1045" zPosition="1" position="15,20" backgroundColor="#ff9632" cornerRadius="50" />
-    <widget name="selection_overlay" size="1828,998" zPosition="2" position="45,42" backgroundColor="#00000000" cornerRadius="50" />
+    <widget name="selection_overlay" size="1828,998" zPosition="2" position="45,42" backgroundColor="#000000" cornerRadius="50" />
 
     <!-- Exit button -->
     <widget source="key_red" render="Label" position="75,995" size="180,35" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />

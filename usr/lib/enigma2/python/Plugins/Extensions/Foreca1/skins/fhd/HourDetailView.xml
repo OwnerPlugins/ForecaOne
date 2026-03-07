@@ -1,11 +1,11 @@
 <screen name="HourDetailView" position="center,center" size="1600,950" flags="wfNoBorder" backgroundColor="#ff000000">
-    <widget name="title_location" position="50,50" size="1500,50" font="Regular; 36" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="3" />
-    <widget name="title_datetime" position="50,110" size="1500,40" font="Regular; 30" foregroundColor="#ffffff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="3" />
+    <widget name="title_location" position="50,50" size="1500,50" font="Regular; 36" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="3" />
+    <widget name="title_datetime" position="50,110" size="1500,40" font="Regular; 30" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="center" zPosition="3" />
 
-    <widget name="condition_icon" position="135,200" size="100,100" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="blend" />
+    <widget name="condition_icon" position="135,200" size="100,100" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="condition_text" position="240,200" size="400,100" font="Regular; 28" foregroundColor="#ffffff" transparent="1" valign="center" zPosition="3" />
 
-    <widget name="summary" position="262,540" size="1000,239" font="Regular; 36" foregroundColor="#ffffff" backgroundColor="#40000000" transparent="1" halign="center" valign="center" zPosition="3" />
+    <widget name="summary" position="262,540" size="1000,239" font="Regular; 36" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="center" valign="center" zPosition="3" />
 
     <widget name="temp_label" position="200,350" size="200,30" font="Regular; 24" foregroundColor="#cccccc" transparent="1" zPosition="3" halign="left" />
     <widget name="temp_value" position="200,380" size="100,30" font="Regular; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="3" />
@@ -15,8 +15,8 @@
     <widget name="feels_value" position="200,465" size="100,30" font="Regular; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="3" />
     <ePixmap position="145,440" size="50,50" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/temp_perc_detail.png" zPosition="10" scale="1" />
 
-    <widget name="wind_dir_label" position="813,232" size="500,30" font="Regular; 32" foregroundColor="#92f1fc" backgroundColor="#00000000" transparent="1" valign="center" halign="left" zPosition="10" />
-    <widget name="wind_dir_icon" position="730,208" size="80,80" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="blend" />
+    <widget name="wind_dir_label" position="813,232" size="500,30" font="Regular; 32" foregroundColor="#92f1fc" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
+    <widget name="wind_dir_icon" position="730,208" size="80,80" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     
     <widget name="wind_speed_label" position="715,350" size="150,30" font="Regular; 24" foregroundColor="#cccccc" transparent="1" zPosition="3" halign="left" />
     <widget name="wind_speed_value" position="715,380" size="100,30" font="Regular; 28" foregroundColor="#ffffff" transparent="1" halign="left" zPosition="3" />

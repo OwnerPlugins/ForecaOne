@@ -1,7 +1,7 @@
 <screen name="DailyForecast" position="center,center" size="1920,1080" title="Foreca 1 Weekly Forecast" flags="wfNoBorder" backgroundColor="#ff000000">
-    <widget name="title" position="55,40" size="1800,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" halign="center" zPosition="4"/>
-    <widget name="info" position="55,94" size="1800,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
-    <widget source="menu" render="Listbox" position="105,162" size="1691,775" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#00000000" foregroundColor="#ffffff">
+    <widget name="title" position="55,40" size="1800,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4"/>
+    <widget name="info" position="55,94" size="1800,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget source="menu" render="Listbox" position="105,162" size="1691,775" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#000000" foregroundColor="#ffffff">
         <convert type="TemplatedMultiContent">
             {"template": [
                 MultiContentEntryPixmapAlphaBlend(pos = (20, 5), size = (70, 70), png = 0),
@@ -19,7 +19,7 @@
     </widget>
     <!-- Background plates -->
     <widget name="background_plate" size="1836,1038" zPosition="1" position="35,21" backgroundColor="#ff9632" cornerRadius="50"/>
-    <widget name="selection_overlay" size="1772,990" zPosition="2" position="67,46" backgroundColor="#00000000" cornerRadius="50"/>
+    <widget name="selection_overlay" size="1772,990" zPosition="2" position="67,46" backgroundColor="#000000" cornerRadius="50"/>
     <!-- Info tasti -->
     <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="102,963" size="1695,65" font="Regular; 38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>
 </screen>
