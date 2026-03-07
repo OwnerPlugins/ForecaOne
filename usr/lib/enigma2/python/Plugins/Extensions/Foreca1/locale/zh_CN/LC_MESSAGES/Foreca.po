@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-04 23:33+0800\n"
-"PO-Revision-Date: 2026-03-06 15:11+0800\n"
+"PO-Revision-Date: 2026-03-07 19:51+0100\n"
 "Last-Translator: 沙鸥_lexlong2007 <lexlong2007@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.3\n"
+"X-Generator: Poedit 3.8\n"
 
 msgid "0 - Today"
 msgstr "0-今日"
@@ -36,6 +36,9 @@ msgstr "6-今天+ 6天"
 msgid "7 - Today + 7 days"
 msgstr "7-今天+ 7天"
 
+msgid "7 Day Forecast"
+msgstr "未来七天天气预报"
+
 msgid "8 - Today + 8 days"
 msgstr "8-今天+ 8天"
 
@@ -44,10 +47,6 @@ msgstr "9 -今天+ 9天"
 
 msgid "API credentials not configured."
 msgstr ""
-"未配置API凭据.\n"
-"请创建api_config.txt文件.\n"
-"\n"
-"创建的示例文件： api_config.txt"
 
 msgid "AQI {}"
 msgstr ""
@@ -94,6 +93,9 @@ msgstr "比利时"
 msgid "Berlin"
 msgstr "柏林"
 
+msgid "Blue"
+msgstr "蓝色"
+
 msgid "Blue - Home"
 msgstr "蓝色-主页"
 
@@ -103,9 +105,8 @@ msgstr "勃兰登堡"
 msgid "Bremen"
 msgstr "不来梅"
 
-#, fuzzy
 msgid "Calculating..."
-msgstr "更新..."
+msgstr ""
 
 msgid "Cancel"
 msgstr "取消"
@@ -215,7 +216,7 @@ msgid "Date: {}"
 msgstr "日期: {}"
 
 msgid "Day"
-msgstr "星期:"
+msgstr "星期"
 
 msgid "Decrease Speed"
 msgstr "降低速度"
@@ -226,13 +227,17 @@ msgstr "丹麦"
 msgid "Details"
 msgstr "详情"
 
-#, fuzzy
-msgid "Dewpoint {}"
-msgstr "露点温度:"
+msgid "Dewpoint"
+msgstr "露点温度"
 
-#, fuzzy
+msgid "Dewpoint {}"
+msgstr ""
+
 msgid "Dewpoint {}°C"
-msgstr "露点温度:"
+msgstr ""
+
+msgid "Distance"
+msgstr "距离"
 
 msgid "Distance {} km"
 msgstr "距离: {}千米"
@@ -309,17 +314,14 @@ msgstr "收藏夹详细天气"
 msgid "Feels like"
 msgstr "体感温度"
 
-#, fuzzy
 msgid "Feels like {}"
-msgstr "体感温度: {}{}"
+msgstr ""
 
-#, fuzzy
 msgid "Feels like {}{}"
-msgstr "体感温度: {}{}"
+msgstr ""
 
-#, fuzzy
 msgid "Feels like: {}"
-msgstr "体感温度: {}{}"
+msgstr ""
 
 msgid "Feels like: {}{}"
 msgstr "体感温度: {}{}"
@@ -384,15 +386,20 @@ msgstr "大不列颠及北爱尔兰"
 msgid "Greece"
 msgstr "希腊"
 
+msgid "Green"
+msgstr "绿"
+
 msgid "Green - Favorite 1"
 msgstr "绿色-收藏 1"
 
-#, fuzzy
 msgid "Gust {}"
-msgstr "强风"
+msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "德国汉堡"
@@ -401,7 +408,7 @@ msgid "Header - not selectable"
 msgstr "页眉-不可选择"
 
 msgid "Help"
-msgstr "帮助..."
+msgstr ""
 
 msgid "Hesse"
 msgstr "黑森"
@@ -475,6 +482,9 @@ msgstr "键盘设置"
 msgid "Last Quarter"
 msgstr "下弦月"
 
+msgid "Last update"
+msgstr "最近更新时间"
+
 msgid "Latvia"
 msgstr "拉脱维亚"
 
@@ -487,9 +497,8 @@ msgstr "左箭头-前一天"
 msgid "Loading available maps..."
 msgstr "正在加载可用地图..."
 
-#, fuzzy
 msgid "Loading lunar phases..."
-msgstr "正在加载附近的站点..."
+msgstr ""
 
 msgid "Loading nearby stations..."
 msgstr "正在加载附近的站点..."
@@ -528,7 +537,7 @@ msgid "Menu"
 msgstr "菜单"
 
 msgid "Menu - Settings"
-msgstr "菜单设置 - "
+msgstr ""
 
 msgid "Meteogram"
 msgstr "气象图"
@@ -735,17 +744,16 @@ msgid "Precipitation: {}"
 msgstr "降水: {}"
 
 msgid "Precipitations"
-msgstr "沉积物："
+msgstr ""
 
-#, fuzzy
 msgid "Precipitations: {}%"
-msgstr "降水: {}%"
+msgstr ""
 
 msgid "Press RED to search again"
 msgstr "按红色键进行旧的分组搜索"
 
 msgid "Pressure"
-msgstr "压 力:"
+msgstr "压 力"
 
 msgid "Pressure: {}"
 msgstr "气压: {}"
@@ -765,20 +773,20 @@ msgstr "上张图像"
 msgid "Previous page"
 msgstr "转到上一页的事件"
 
-#, fuzzy
 msgid "Rain Prob."
-msgstr "降雨概率"
+msgstr ""
 
-#, fuzzy
 msgid "Rain prob. {}%"
-msgstr "降雨概率"
+msgstr ""
 
 msgid "Rain prob.: N/A"
 msgstr "降雨概率:N/A"
 
-#, fuzzy
 msgid "Rain: {:.1f} {}"
-msgstr "风速: {} {} {}"
+msgstr ""
+
+msgid "Red"
+msgstr "红色"
 
 msgid "Red - Color select"
 msgstr "红色-颜色选择"
@@ -808,7 +816,7 @@ msgid "Satellite Photos"
 msgstr "卫星照片"
 
 msgid "Satellite photos coming soon!"
-msgstr "卫星照片和地图"
+msgstr ""
 
 msgid "Save"
 msgstr "保存"
@@ -847,10 +855,10 @@ msgid "Select a map with OK"
 msgstr "按OK键选择一个供应商"
 
 msgid "Select unit system"
-msgstr "选择服务信息以查看:"
+msgstr "选择服务信息以查看"
 
 msgid "Select wind unit"
-msgstr "选择服务信息以查看:"
+msgstr "选择服务信息以查看"
 
 msgid "Select {} unit"
 msgstr "选择 {} 单位"
@@ -873,9 +881,8 @@ msgstr "斯洛伐克"
 msgid "Slower: {}s"
 msgstr "较慢： {}秒"
 
-#, fuzzy
 msgid "Snow prob. {}%"
-msgstr "降雪概率"
+msgstr ""
 
 msgid "Snow prob.: N/A"
 msgstr "降雪概率:N/A"
@@ -952,6 +959,9 @@ msgstr "尝试其他缩放或图层"
 msgid "Try different zoom or region"
 msgstr "尝试其他缩放比例或区域"
 
+msgid "UV"
+msgstr "紫外线"
+
 msgid "UV Index"
 msgstr "紫外线指数"
 
@@ -982,9 +992,8 @@ msgstr "更新已取消。"
 msgid "Update completed. Please restart Enigma2."
 msgstr "更新完成。请重新启动Enigma2。"
 
-#, fuzzy
 msgid "Updated {}"
-msgstr "更新时间: {}"
+msgstr ""
 
 msgid "Updated: N/A"
 msgstr "更新时间:N/A"
@@ -996,7 +1005,7 @@ msgid "Updating..."
 msgstr "更新..."
 
 msgid "Use arrow keys to scroll"
-msgstr "然后使用箭头键移动."
+msgstr ""
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "用于← → 更改时间|确定退出"
@@ -1029,7 +1038,7 @@ msgid "Waxing Gibbous"
 msgstr "盈凸月"
 
 msgid "Weather"
-msgstr "天气:"
+msgstr "天气"
 
 msgid "Weather Map"
 msgstr "天气地图"
@@ -1073,16 +1082,14 @@ msgstr "风向"
 msgid "Wind speed"
 msgstr "風速"
 
-#, fuzzy
 msgid "Wind speed {}"
-msgstr "風速"
+msgstr ""
 
-#, fuzzy
 msgid "Wind speed: {:.1f} {}"
-msgstr "風速"
+msgstr ""
 
 msgid "Wind: {}"
-msgstr "风速: {} "
+msgstr "风速: {}"
 
 msgid "Wind: {} km/h {}"
 msgstr "风速： {}千米/时{}"
@@ -1097,7 +1104,7 @@ msgid "Yellow - Favorite 2"
 msgstr "黄色-收藏 2"
 
 msgid "You already have the latest version."
-msgstr "恭喜，已经是最新版本了！"
+msgstr ""
 
 msgid "Zoom In"
 msgstr "放大"
@@ -1111,9 +1118,8 @@ msgstr "放大+"
 msgid "Zoom-"
 msgstr "缩小 -"
 
-#, fuzzy
 msgid "Zoom:"
-msgstr "缩放"
+msgstr ""
 
 msgid "v."
 msgstr "v."
@@ -1141,33 +1147,6 @@ msgstr "然后使用箭头键移动.\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "黄色-分配给收藏夹2\n"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "未来七天天气预报"
-
-#~ msgid "Blue"
-#~ msgstr "蓝色"
-
-#~ msgid "Dewpoint"
-#~ msgstr "露点温度:"
-
-#~ msgid "Distance"
-#~ msgstr "距离"
-
-#~ msgid "Green"
-#~ msgstr "绿"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "最近更新时间"
-
-#~ msgid "Red"
-#~ msgstr "红色"
-
-#~ msgid "UV"
-#~ msgstr "紫外线"
 
 #~ msgid "AQI"
 #~ msgstr "AQI值"
