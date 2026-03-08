@@ -42,6 +42,10 @@ msgstr "6 - Hoy + 6 días"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hoy + 7 días"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Pronóstico"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Hoy + 8 días"
 
@@ -97,6 +101,9 @@ msgstr "Bélgica"
 
 msgid "Berlin"
 msgstr "Berlín"
+
+msgid "Blue"
+msgstr "Azul"
 
 msgid "Blue - Home"
 msgstr "Azul - Inicio"
@@ -248,6 +255,9 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
+
+msgid "Distance"
+msgstr "Distancia"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -416,6 +426,10 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
+#, fuzzy
+msgid "Found {} lunar phases"
+msgstr "Cargando estaciones cercanas..."
+
 msgid "France"
 msgstr "Francia"
 
@@ -434,6 +448,9 @@ msgstr "Gran Bretaña"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -442,6 +459,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburgo"
@@ -528,6 +548,9 @@ msgstr "Teclado"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Última actualización"
+
+msgid "Last update"
 msgstr "Última actualización"
 
 msgid "Latvia"
@@ -707,6 +730,9 @@ msgstr "Abrir teclado"
 msgid "Open Map"
 msgstr ""
 
+msgid "Original design and idea by %s"
+msgstr ""
+
 msgid "Overcast"
 msgstr "Cubierto"
 
@@ -858,6 +884,9 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
+
+msgid "Red"
+msgstr "Rojo"
 
 msgid "Red - Color select"
 msgstr "Rojo - Selección de color"
@@ -1023,7 +1052,7 @@ msgstr "Temperatura"
 msgid "Temperature: {}°C"
 msgstr "Temperatura"
 
-msgid "Thanks @Orlandox and other friends for suggestions and testing"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr ""
 
 msgid "Thin upper cloud"
@@ -1048,6 +1077,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1262,32 +1294,6 @@ msgstr "• Use las teclas de flecha para navegar\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• AMARILLO para guardar como Favorito 2\n"
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Pronóstico"
-
-#~ msgid "Blue"
-#~ msgstr "Azul"
-
-#~ msgid "Distance"
-#~ msgstr "Distancia"
-
-#, fuzzy
-#~ msgid "Found {} lunar phases"
-#~ msgstr "Cargando estaciones cercanas..."
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Última actualización"
-
-#~ msgid "Red"
-#~ msgstr "Rojo"
 
 #, fuzzy
 #~ msgid "Foreca 1 Weather Forecast"

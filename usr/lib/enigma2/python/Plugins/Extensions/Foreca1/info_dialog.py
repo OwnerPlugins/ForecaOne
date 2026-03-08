@@ -15,6 +15,9 @@ from skin import parseColor
 from . import (
     _,
     VERSION,
+    _AUTHOR_,
+    THANKS,
+    IDEAS,
     load_skin_for_class,
     apply_global_theme,
 )
@@ -29,12 +32,13 @@ class InfoDialog(Screen, HelpableScreen):
         self.foreca_preview = foreca_preview
         self['version_label'] = Label(
             _('Foreca One Weather and Forecast ver. %s') % VERSION)
-        author_text = _('Original design and idea by %(author)s\nRewrite by %(rewrite)s') % {
-            'author': '@Bauernbub', 'rewrite': 'Lululla, 2026'}
-        self['author_label'] = Label(author_text)
         self['mod_label'] = Label(
-            _("Thanks @Orlandox and other friends for suggestions and testing"))
-
+            _('Thanks {thanks} and other friends for suggestions and testing').format(thanks=THANKS)
+        )
+        IA = '%s\n%s' % (IDEAS, _AUTHOR_)
+        self['author_label'] = Label(
+            _('Original design and idea by %s') % IA
+        )
         self['website_label'] = Label(
             'http://linuxsat-support.com\nhttp://www.corvoboys.org')
         self["background_plate"] = Label("")

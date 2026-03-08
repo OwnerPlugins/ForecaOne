@@ -12,9 +12,9 @@
     <!-- List -->
     <widget name="Mlist" position="80,196" size="1427,974" zPosition="3"/>
     <!-- Description -->
-    <widget name="description" position="60,1236" size="2427,67" font="Regular; 43" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
+    <widget name="description" position="60,1236" size="2427,67" font="Regular;43" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="center"/>
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="60,1304" size="2427,67" font="Regular;51" halign="center" valign="center" zPosition="5" transparent="1" foregroundColor="#aaaaaa"/>
+    <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="60,1304" size="2427,67" font="Regular;44" halign="center" valign="center" zPosition="5" transparent="1" foregroundColor="#aaaaaa"/>
     <!-- Service name e Pig -->
     <widget source="session.CurrentService" render="Label" position="1570,1023" size="867,67" font="Regular;43" backgroundColor="#40000000" transparent="1" halign="center" foregroundColor="#00ffffff" zPosition="30" valign="center" noWrap="1">
         <convert type="ServiceName">Name</convert>

@@ -2,9 +2,9 @@
     <!-- Description -->
     <widget name="title" position="33,20" size="663,40" font="Regular;28" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
     <widget name="info" position="32,76" size="663,33" font="Regular;21" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
-    <widget name="option_metric" position="100,153" size="466,46" font="Regular;25" halign="left" zPosition="3"/>
+    <widget name="option_metric" position="100,153" size="466,46" font="Regular; 24" halign="left" zPosition="3"/>
     <widget name="metric_details" position="126,200" size="440,40" font="Regular;17" halign="left" zPosition="3"/>
-    <widget name="option_imperial" position="100,253" size="466,46" font="Regular;25" halign="left" zPosition="3"/>
+    <widget name="option_imperial" position="100,253" size="466,46" font="Regular; 24" halign="left" zPosition="3"/>
     <widget name="imperial_details" position="126,300" size="440,40" font="Regular;17" halign="left" zPosition="3"/>
     <widget name="check_metric" position="60,153" size="33,33" alphatest="blend" scale="1" zPosition="3"/>
     <widget name="check_imperial" position="60,253" size="33,33" alphatest="blend" scale="1" zPosition="3"/>

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-08 10:28+0100\n"
+"PO-Revision-Date: 2026-03-08 11:23+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -41,6 +41,9 @@ msgstr "6 - Oggi + 6 giorni"
 
 msgid "7 - Today + 7 days"
 msgstr "7 - Oggi + 7 giorni"
+
+msgid "7 Day Forecast"
+msgstr "Previsione 7 Giorni"
 
 msgid "8 - Today + 8 days"
 msgstr "8 - Oggi + 8 giorni"
@@ -95,6 +98,9 @@ msgstr "Belgio"
 
 msgid "Berlin"
 msgstr "Berlino"
+
+msgid "Blue"
+msgstr "Blu"
 
 msgid "Blue - Home"
 msgstr "Blu - Principale"
@@ -240,6 +246,9 @@ msgstr "Punto di rugiada %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Punto di rugiada: N/A"
 
+msgid "Distance"
+msgstr "Distanza"
+
 msgid "Distance {} km"
 msgstr "Distanza {} km"
 
@@ -381,6 +390,9 @@ msgstr "Trovate %d città localmente per '%s'"
 msgid "Found %d cities online for '%s'"
 msgstr "Trovate %d città online per '%s'"
 
+msgid "Found {} lunar phases"
+msgstr "Trovate {} fasi lunari"
+
 msgid "France"
 msgstr "Francia"
 
@@ -399,6 +411,9 @@ msgstr "Gran Bretagna"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -407,6 +422,9 @@ msgstr "Raffica {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Raffica: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -491,6 +509,9 @@ msgstr "Tastiera"
 
 msgid "Last Quarter"
 msgstr "Ultimo Quarto"
+
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
 
 msgid "Latvia"
 msgstr "Lettonia"
@@ -660,6 +681,9 @@ msgstr "Apri Tastiera"
 msgid "Open Map"
 msgstr "Apri Mappa"
 
+msgid "Original design and idea by %s"
+msgstr "Progetto e idea originali di %s"
+
 msgid "Overcast"
 msgstr "Coperto"
 
@@ -800,6 +824,9 @@ msgstr "Prob. di pioggia: N/D"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Pioggia: {:.1f} {}"
+
+msgid "Red"
+msgstr "Rosso"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -954,8 +981,8 @@ msgstr "Temperatura: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Temperatura: {}°C"
 
-msgid "Thanks @Orlandox and other friends for suggestions and testing"
-msgstr "Grazie @Orlandox e altri amici per i suggerimenti e i test"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
+msgstr "Grazie {thanks} e altri amici per i suggerimenti e i test"
 
 msgid "Thin upper cloud"
 msgstr "Nubi alte sottili"
@@ -980,6 +1007,9 @@ msgstr "Prova uno zoom o un livello diverso"
 
 msgid "Try different zoom or region"
 msgstr "Prova uno zoom o una regione diversi"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV Indice"
@@ -1156,7 +1186,7 @@ msgid "v."
 msgstr "v."
 
 msgid "{hours} h {mins} min"
-msgstr "{hours} ore {mins} min."
+msgstr "{hours} ore {mins} min"
 
 msgid "• BLUE to save as Home\n"
 msgstr "• BLU per salvare Home\n"
@@ -1178,61 +1208,3 @@ msgstr "• Utilizzare i tasti freccia per navigare\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GIALLO per salvare Preferito 2\n"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Previsione 7 Giorni"
-
-#~ msgid "Blue"
-#~ msgstr "Blu"
-
-#~ msgid "Distance"
-#~ msgstr "Distanza"
-
-#~ msgid "Found {} lunar phases"
-#~ msgstr "Trovate {} fasi lunari"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Ultimo aggiornamento"
-
-#~ msgid "Red"
-#~ msgstr "Rosso"
-
-#~ msgid "Foreca 1 Weather Forecast"
-#~ msgstr "Foreca 1 Previsioni del tempo"
-
-#~ msgid "AQI"
-#~ msgstr "IQA"
-
-#~ msgid "Humidity:"
-#~ msgstr "Umidità:"
-
-#~ msgid "Precip"
-#~ msgstr "Precipitazioni"
-
-#~ msgid "Rain"
-#~ msgstr "Pioggia"
-
-#~ msgid "Created by @Bauernbub"
-#~ msgstr "Creatore @Bauernbub"
-
-#~ msgid "SVG Map Loaded"
-#~ msgstr "Mappa SVG caricata"
-
-#~ msgid "Foreca | Region {} | Unit System: {}"
-#~ msgstr "Foreca | Regione {} |  Sistema Unita: {}"
-
-#, fuzzy
-#~ msgid "Rain:"
-#~ msgstr "Pioggia"
-
-#~ msgid "stations nearby"
-#~ msgstr "stazioni vicine"
-
-#~ msgid "No data available"
-#~ msgstr "Nessun dato disponibile"

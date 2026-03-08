@@ -82,11 +82,11 @@ class MoonCalendar(Screen, HelpableScreen):
         # Build the list for the Listbox
         self.list = []
         self.list.append((
-            trans("Month"),        # 0
+            _("Month"),        # 0
             None,                  # 1: no icon
-            trans("Phase"),        # 2
-            trans("Day"),          # 3
-            trans("Time")          # 4
+            _("Phase"),        # 2
+            _("Day"),          # 3
+            _("Time")          # 4
         ))
         for p in self.phases:
             self.list.append(self._create_entry(p))

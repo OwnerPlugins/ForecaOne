@@ -1,9 +1,9 @@
 <screen name="InfoDialog" position="center,center" flags="wfNoBorder" backgroundColor="#ff000000" size="1707,712">
     <!-- Description -->
-    <widget name="version_label" position="400,47" size="1200,74" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
-    <widget name="author_label" position="400,120" size="1200,120" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
-    <widget name="mod_label" position="400,240" size="1200,140" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
-    <widget name="website_label" position="906,432" size="730,215" font="Regular; 51" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="version_label" position="400,47" size="1200,74" font="Regular;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="author_label" position="400,120" size="1200,120" font="Regular;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="mod_label" position="400,240" size="1200,140" font="Regular;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="website_label" position="906,432" size="730,215" font="Regular;48" foregroundColor="#53a9ff" backgroundColor="#40000000" transparent="1" valign="center" zPosition="10" halign="left" />
     <ePixmap position="400,432" size="496,219" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/offer_coffee.png" zPosition="10" scale="1" />
     <ePixmap position="56,49" size="330,330" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" zPosition="10" scale="1" />
     <!-- Background plates -->

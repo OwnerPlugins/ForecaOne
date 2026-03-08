@@ -15,6 +15,9 @@ import codecs
 
 
 VERSION = "1.0.6"
+_AUTHOR_ = "by Lululla - 2026"
+IDEAS = "@Bauernbub"
+THANKS = "@Orlandox"
 BASEURL = "https://www.foreca.com/"
 TEMP_DIR = '/tmp/foreca'
 SYSTEM_DIR = '/etc/enigma2/foreca'

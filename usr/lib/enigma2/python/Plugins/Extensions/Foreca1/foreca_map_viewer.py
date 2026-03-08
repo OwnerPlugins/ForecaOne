@@ -559,21 +559,21 @@ class ForecaMapViewer(Screen, HelpableScreen):
     def get_data_type_from_layer(self, layer_name):
         layer_lower = layer_name.lower()
         if 'temp' in layer_lower:
-            return trans("Temperature")
+            return _("Temperature")
         elif 'wind' in layer_lower:
-            return trans("Wind")
+            return _("Wind")
         elif 'cloud' in layer_lower:
-            return trans("Cloud Cover")
+            return _("Cloud Cover")
         elif 'precip' in layer_lower or 'rain' in layer_lower:
-            return trans("Precipitation")
+            return _("Precipitation")
         elif 'pressure' in layer_lower:
-            return trans("Pressure")
+            return _("Pressure")
         elif 'snow' in layer_lower:
-            return trans("Snow")
+            return _("Snow")
         elif 'radar' in layer_lower:
-            return trans("Radar")
+            return _("Radar")
         else:
-            return trans(layer_name)
+            return layer_name
 
     def zoom_in(self):
         if self.zoom_level < self.max_zoom:
