@@ -207,11 +207,13 @@ class MeteogramView(Screen, HelpableScreen):
         if exists(TEMP_DIR):
             try:
                 for f in listdir(TEMP_DIR):
-                    if f.startswith('foreca_temp_curve.svg') or f.startswith('rainbar_'):
+                    if f.startswith(
+                            'foreca_temp_curve.svg') or f.startswith('rainbar_'):
                         file_path = join(TEMP_DIR, f)
                         remove(file_path)
                 if DEBUG:
-                    print(f"[Meteogram] Cleaned temporary SVG files from {TEMP_DIR}")
+                    print(
+                        f"[Meteogram] Cleaned temporary SVG files from {TEMP_DIR}")
             except Exception as e:
                 print(f"[Meteogram] Error cleaning temp files: {e}")
 
