@@ -32,9 +32,8 @@ class InfoDialog(Screen, HelpableScreen):
 
         self['author_label'] = Label(
             _('Original design and idea by %(author)s\nRewrite by %(rewrite)s')) % {
-                'author': '@Bauernbub',
-                'rewrite': 'Lululla, 2026'
-        }
+            'author': '@Bauernbub',
+            'rewrite': 'Lululla, 2026'}
         self['mod_label'] = Label(
             _("Thanks @Orlandox and other friends for suggestions and testing"))
 

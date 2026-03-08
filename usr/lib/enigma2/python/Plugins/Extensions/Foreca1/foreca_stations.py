@@ -215,7 +215,9 @@ class ForecaStations(Screen, HelpableScreen):
         temp = station.get('temperature')
         if temp is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(temp)
-            self["temperature"].setText(_("Temperature: %d%s") % (int(converted), unit))
+            self["temperature"].setText(
+                _("Temperature: %d%s") %
+                (int(converted), unit))
         else:
             if temp is not None:
                 self["temperature"].setText(_("Temperature: %s°C") % temp)
@@ -226,7 +228,9 @@ class ForecaStations(Screen, HelpableScreen):
         dew = station.get('dewpoint')
         if dew is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(dew)
-            self["dewpoint"].setText(_("Dewpoint: %d%s") % (int(converted), unit))
+            self["dewpoint"].setText(
+                _("Dewpoint: %d%s") %
+                (int(converted), unit))
         else:
             if dew is not None:
                 self["dewpoint"].setText(_("Dewpoint: %s°C") % dew)
@@ -241,7 +245,9 @@ class ForecaStations(Screen, HelpableScreen):
         feels = station.get('feelsLikeTemp')
         if feels is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(feels)
-            self["feels_like"].setText(_("Feels like: %d%s") % (int(converted), unit))
+            self["feels_like"].setText(
+                _("Feels like: %d%s") %
+                (int(converted), unit))
         else:
             if feels is not None:
                 self["feels_like"].setText(_("Feels like: %s°C") % feels)
@@ -273,10 +279,14 @@ class ForecaStations(Screen, HelpableScreen):
 
         if wind_speed is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_wind(wind_speed)
-            self["wind"].setText(_("Wind: %d %s %s") % (int(converted), unit, wind_dir))
+            self["wind"].setText(
+                _("Wind: %d %s %s") %
+                (int(converted), unit, wind_dir))
         else:
             if wind_speed is not None:
-                self["wind"].setText(_("Wind: %s km/h %s") % (wind_speed, wind_dir))
+                self["wind"].setText(
+                    _("Wind: %s km/h %s") %
+                    (wind_speed, wind_dir))
             else:
                 self["wind"].setText(_("Wind: N/A"))
 

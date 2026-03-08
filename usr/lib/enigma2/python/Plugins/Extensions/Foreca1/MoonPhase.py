@@ -192,7 +192,8 @@ class MoonPhase:
         # Distance in km
         distance = int(385000.56 + ER * 1000)
 
-        # Trend (waxing/waning) by comparing illumination with a slightly later time
+        # Trend (waxing/waning) by comparing illumination with a slightly later
+        # time
         jd2 = jd + 0.5
         T2 = (jd2 - 2451545.0) / 36525.0
 
@@ -219,16 +220,30 @@ class MoonPhase:
             - T2 * T2 * T2 * T2 / 14712000
         )
 
-        IM2 = (
-            180
-            - Dm2
-            - 6.289 * sin(radians(Mm2))
-            + 2.100 * sin(radians(Ms2)) * (1 - 0.002516 * T2 - 0.0000074 * T2 * T2)
-            - 1.274 * sin(radians(2 * Dm2 - Mm2))
-            - 0.658 * sin(radians(2 * Dm2))
-            - 0.214 * sin(radians(2 * Mm2))
-            - 0.114 * sin(radians(Dm2))
-        )
+        IM2 = (180 -
+               Dm2 -
+               6.289 *
+               sin(radians(Mm2)) +
+               2.100 *
+               sin(radians(Ms2)) *
+               (1 -
+                0.002516 *
+                T2 -
+                0.0000074 *
+                T2 *
+                T2) -
+               1.274 *
+               sin(radians(2 *
+                           Dm2 -
+                           Mm2)) -
+               0.658 *
+               sin(radians(2 *
+                           Dm2)) -
+               0.214 *
+               sin(radians(2 *
+                           Mm2)) -
+               0.114 *
+               sin(radians(Dm2)))
 
         IM2 = IM2 % 360
         illum2 = (1 + cos(radians(IM2))) / 2 * 100
@@ -393,7 +408,8 @@ class MoonPhase:
         """
         data = self._compute_lunar_data(jd)
         illumination = data['illumination']
-        phase_name = data['phase_name']  # already calculated in _compute_lunar_data
+        # already calculated in _compute_lunar_data
+        phase_name = data['phase_name']
         distance = data['distance']
         trend = data['trend']
 
