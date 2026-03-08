@@ -42,10 +42,6 @@ msgstr "6 - Dnes + 6 dnů"
 msgid "7 - Today + 7 days"
 msgstr "7 - Dnes + 7 dnů"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Předpověď"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Dnes + 8 dnů"
 
@@ -55,9 +51,6 @@ msgstr "9 - Dnes + 9 dnů"
 #, fuzzy
 msgid "API credentials not configured."
 msgstr "1. Nejsou nakonfigurovány přihlašovací údaje API\n"
-
-msgid "API error"
-msgstr ""
 
 msgid "AQI {}"
 msgstr ""
@@ -104,9 +97,6 @@ msgstr "Belgie"
 
 msgid "Berlin"
 msgstr "Berlín"
-
-msgid "Blue"
-msgstr "Modrá"
 
 msgid "Blue - Home"
 msgstr "Modrá - Domov"
@@ -263,9 +253,6 @@ msgstr ""
 msgid "Dewpoint: N/A"
 msgstr ""
 
-msgid "Distance"
-msgstr "Vzdálenost"
-
 #, fuzzy
 msgid "Distance {} km"
 msgstr "Vzdálenost"
@@ -303,10 +290,6 @@ msgstr "Chyba při ukládání oblíbené položky!"
 
 #, fuzzy
 msgid "Error displaying map"
-msgstr "Chyba při ukládání oblíbené položky!"
-
-#, fuzzy
-msgid "Error loading data"
 msgstr "Chyba při ukládání oblíbené položky!"
 
 msgid "Error loading maps. Check connection."
@@ -389,9 +372,6 @@ msgstr "Pocitová teplota"
 msgid "Feels like: {}°C"
 msgstr "Pocitová teplota"
 
-msgid "Fetching radar data..."
-msgstr ""
-
 msgid "Finland"
 msgstr "Finsko"
 
@@ -440,13 +420,6 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
-msgid "Frame →"
-msgstr ""
-
-#, fuzzy
-msgid "Frame: {}"
-msgstr "Rychleji: {}s"
-
 msgid "France"
 msgstr "Francie"
 
@@ -465,9 +438,6 @@ msgstr "Velká Británie"
 msgid "Greece"
 msgstr "Řecko"
 
-msgid "Green"
-msgstr "Zelená"
-
 msgid "Green - Favorite 1"
 msgstr "Zelená - Oblíbené 1"
 
@@ -476,9 +446,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburk"
@@ -567,9 +534,6 @@ msgstr "Klávesnice"
 msgid "Last Quarter"
 msgstr "Poslední aktualizace"
 
-msgid "Last update"
-msgstr "Poslední aktualizace"
-
 msgid "Latvia"
 msgstr "Lotyšsko"
 
@@ -588,10 +552,6 @@ msgstr "Načítání blízkých stanic..."
 
 msgid "Loading nearby stations..."
 msgstr "Načítání blízkých stanic..."
-
-#, fuzzy
-msgid "Loading tiles..."
-msgstr "Stahování obrázků..."
 
 msgid "Loading weekly forecast..."
 msgstr "Načítání týdenní předpovědi..."
@@ -617,9 +577,6 @@ msgstr "Lucembursko"
 msgid "Map & Tiles Loaded"
 msgstr ""
 
-msgid "Map loaded"
-msgstr ""
-
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Není vybráno město"
@@ -632,9 +589,6 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menu - Nastavení"
-
-msgid "Merge failed"
-msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteogram"
@@ -692,10 +646,6 @@ msgstr "Další"
 msgid "Next Image"
 msgstr "Další strana"
 
-#, fuzzy
-msgid "Next frame"
-msgstr "Další strana"
-
 msgid "Next page"
 msgstr "Další strana"
 
@@ -731,10 +681,6 @@ msgstr "Nebyly nalezeny žádné stanice"
 
 #, fuzzy
 msgid "No tiles available"
-msgstr "Žádné dostupné datum"
-
-#, fuzzy
-msgid "No tiles downloaded"
 msgstr "Žádné dostupné datum"
 
 msgid "North Africa"
@@ -911,10 +857,6 @@ msgstr "Předchozí"
 msgid "Previous Image"
 msgstr "Předchozí strana"
 
-#, fuzzy
-msgid "Previous frame"
-msgstr "Předchozí strana"
-
 msgid "Previous page"
 msgstr "Předchozí strana"
 
@@ -936,9 +878,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Meteorologický radar"
-
-msgid "Red"
-msgstr "Červená"
 
 msgid "Red - Color select"
 msgstr "Červená - Výběr barvy"
@@ -1144,9 +1083,6 @@ msgstr ""
 msgid "Try different zoom or region"
 msgstr ""
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1263,10 +1199,6 @@ msgstr "Počasí zítra"
 msgid "Weekly Forecast"
 msgstr "Týdenní předpověď"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Mapy počasí"
-
 msgid "Wind"
 msgstr "Vítr"
 
@@ -1364,8 +1296,55 @@ msgstr "• Pro navigaci použijte šipky\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ŽLUTÁ pro uložení jako Oblíbené 2\n"
 
-msgid "← Frame"
-msgstr ""
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Předpověď"
+
+#~ msgid "Blue"
+#~ msgstr "Modrá"
+
+#~ msgid "Distance"
+#~ msgstr "Vzdálenost"
+
+#, fuzzy
+#~ msgid "Error loading data"
+#~ msgstr "Chyba při ukládání oblíbené položky!"
+
+#, fuzzy
+#~ msgid "Frame: {}"
+#~ msgstr "Rychleji: {}s"
+
+#~ msgid "Green"
+#~ msgstr "Zelená"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Poslední aktualizace"
+
+#, fuzzy
+#~ msgid "Loading tiles..."
+#~ msgstr "Stahování obrázků..."
+
+#, fuzzy
+#~ msgid "Next frame"
+#~ msgstr "Další strana"
+
+#, fuzzy
+#~ msgid "No tiles downloaded"
+#~ msgstr "Žádné dostupné datum"
+
+#, fuzzy
+#~ msgid "Previous frame"
+#~ msgstr "Předchozí strana"
+
+#~ msgid "Red"
+#~ msgstr "Červená"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Mapy počasí"
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"

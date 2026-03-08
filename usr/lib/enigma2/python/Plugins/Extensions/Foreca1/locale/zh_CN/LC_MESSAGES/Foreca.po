@@ -36,9 +36,6 @@ msgstr "6-今天+ 6天"
 msgid "7 - Today + 7 days"
 msgstr "7-今天+ 7天"
 
-msgid "7 Day Forecast"
-msgstr "未来七天天气预报"
-
 msgid "8 - Today + 8 days"
 msgstr "8-今天+ 8天"
 
@@ -46,9 +43,6 @@ msgid "9 - Today + 9 days"
 msgstr "9 -今天+ 9天"
 
 msgid "API credentials not configured."
-msgstr ""
-
-msgid "API error"
 msgstr ""
 
 msgid "AQI {}"
@@ -95,9 +89,6 @@ msgstr "比利时"
 
 msgid "Berlin"
 msgstr "柏林"
-
-msgid "Blue"
-msgstr "蓝色"
 
 msgid "Blue - Home"
 msgstr "蓝色-主页"
@@ -252,9 +243,6 @@ msgstr "露点温度"
 msgid "Dewpoint: N/A"
 msgstr "露点温度"
 
-msgid "Distance"
-msgstr "距离"
-
 msgid "Distance {} km"
 msgstr "距离: {}千米"
 
@@ -288,10 +276,6 @@ msgid "Error checking for updates."
 msgstr "检查更新时出错。"
 
 msgid "Error displaying map"
-msgstr "显示预测时出错"
-
-#, fuzzy
-msgid "Error loading data"
 msgstr "显示预测时出错"
 
 msgid "Error loading maps. Check connection."
@@ -366,9 +350,6 @@ msgstr "体感温度: {}{}"
 msgid "Feels like: {}°C"
 msgstr "体感： {} °C"
 
-msgid "Fetching radar data..."
-msgstr ""
-
 msgid "Finland"
 msgstr "芬兰"
 
@@ -409,13 +390,6 @@ msgstr "为'%s'在本地找到%d个城市"
 msgid "Found %d cities online for '%s'"
 msgstr "在线为'%s'找到%d个城市"
 
-msgid "Frame →"
-msgstr ""
-
-#, fuzzy
-msgid "Frame: {}"
-msgstr "日期: {}"
-
 msgid "France"
 msgstr "法国"
 
@@ -434,9 +408,6 @@ msgstr "大不列颠及北爱尔兰"
 msgid "Greece"
 msgstr "希腊"
 
-msgid "Green"
-msgstr "绿"
-
 msgid "Green - Favorite 1"
 msgstr "绿色-收藏 1"
 
@@ -445,9 +416,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "德国汉堡"
@@ -536,9 +504,6 @@ msgstr "键盘设置"
 msgid "Last Quarter"
 msgstr "下弦月"
 
-msgid "Last update"
-msgstr "最近更新时间"
-
 msgid "Latvia"
 msgstr "拉脱维亚"
 
@@ -556,10 +521,6 @@ msgstr ""
 
 msgid "Loading nearby stations..."
 msgstr "正在加载附近的站点..."
-
-#, fuzzy
-msgid "Loading tiles..."
-msgstr "正在下载..."
 
 msgid "Loading weekly forecast..."
 msgstr "正在加载每周预测..."
@@ -585,10 +546,6 @@ msgstr "卢森堡"
 msgid "Map & Tiles Loaded"
 msgstr "已加载地图图块"
 
-#, fuzzy
-msgid "Map loaded"
-msgstr "已加载地图图块"
-
 msgid "Map {} selected"
 msgstr "已选择地图{}"
 
@@ -599,9 +556,6 @@ msgid "Menu"
 msgstr "菜单"
 
 msgid "Menu - Settings"
-msgstr ""
-
-msgid "Merge failed"
 msgstr ""
 
 msgid "Meteogram"
@@ -658,10 +612,6 @@ msgstr "稍后"
 msgid "Next Image"
 msgstr "下一张图片"
 
-#, fuzzy
-msgid "Next frame"
-msgstr "下一页"
-
 msgid "Next page"
 msgstr "下一页"
 
@@ -693,10 +643,6 @@ msgid "No stations found"
 msgstr "未找到站点"
 
 msgid "No tiles available"
-msgstr "没有可用的图块"
-
-#, fuzzy
-msgid "No tiles downloaded"
 msgstr "没有可用的图块"
 
 msgid "North Africa"
@@ -864,10 +810,6 @@ msgstr "以前"
 msgid "Previous Image"
 msgstr "上张图像"
 
-#, fuzzy
-msgid "Previous frame"
-msgstr "转到上一页的事件"
-
 msgid "Previous page"
 msgstr "转到上一页的事件"
 
@@ -889,9 +831,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "气象雷达"
-
-msgid "Red"
-msgstr "红色"
 
 msgid "Red - Color select"
 msgstr "红色-颜色选择"
@@ -1090,9 +1029,6 @@ msgstr "尝试其他缩放或图层"
 msgid "Try different zoom or region"
 msgstr "尝试其他缩放比例或区域"
 
-msgid "UV"
-msgstr "紫外线"
-
 msgid "UV Index"
 msgstr "紫外线指数"
 
@@ -1202,10 +1138,6 @@ msgstr "明天的天气"
 msgid "Weekly Forecast"
 msgstr "每周预测"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "菜单-天气图"
-
 msgid "Wind"
 msgstr "风速"
 
@@ -1298,8 +1230,61 @@ msgstr "然后使用箭头键移动.\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "黄色-分配给收藏夹2\n"
 
-msgid "← Frame"
-msgstr ""
+#~ msgid "7 Day Forecast"
+#~ msgstr "未来七天天气预报"
+
+#~ msgid "Blue"
+#~ msgstr "蓝色"
+
+#~ msgid "Distance"
+#~ msgstr "距离"
+
+#, fuzzy
+#~ msgid "Error loading data"
+#~ msgstr "显示预测时出错"
+
+#, fuzzy
+#~ msgid "Frame: {}"
+#~ msgstr "日期: {}"
+
+#~ msgid "Green"
+#~ msgstr "绿"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "最近更新时间"
+
+#, fuzzy
+#~ msgid "Loading tiles..."
+#~ msgstr "正在下载..."
+
+#, fuzzy
+#~ msgid "Map loaded"
+#~ msgstr "已加载地图图块"
+
+#, fuzzy
+#~ msgid "Next frame"
+#~ msgstr "下一页"
+
+#, fuzzy
+#~ msgid "No tiles downloaded"
+#~ msgstr "没有可用的图块"
+
+#, fuzzy
+#~ msgid "Previous frame"
+#~ msgstr "转到上一页的事件"
+
+#~ msgid "Red"
+#~ msgstr "红色"
+
+#~ msgid "UV"
+#~ msgstr "紫外线"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "菜单-天气图"
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "图片% (当前) d/% (总计) d"

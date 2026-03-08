@@ -42,10 +42,6 @@ msgstr "6 - Hoy + 6 días"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hoy + 7 días"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Pronóstico"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Hoy + 8 días"
 
@@ -55,9 +51,6 @@ msgstr "9 - Hoy + 9 días"
 #, fuzzy
 msgid "API credentials not configured."
 msgstr "1. No hay credenciales de API configuradas\n"
-
-msgid "API error"
-msgstr ""
 
 msgid "AQI {}"
 msgstr ""
@@ -104,9 +97,6 @@ msgstr "Bélgica"
 
 msgid "Berlin"
 msgstr "Berlín"
-
-msgid "Blue"
-msgstr "Azul"
 
 msgid "Blue - Home"
 msgstr "Azul - Inicio"
@@ -263,9 +253,6 @@ msgstr ""
 msgid "Dewpoint: N/A"
 msgstr ""
 
-msgid "Distance"
-msgstr "Distancia"
-
 #, fuzzy
 msgid "Distance {} km"
 msgstr "Distancia"
@@ -303,10 +290,6 @@ msgstr "¡Error al guardar favorito!"
 
 #, fuzzy
 msgid "Error displaying map"
-msgstr "¡Error al guardar favorito!"
-
-#, fuzzy
-msgid "Error loading data"
 msgstr "¡Error al guardar favorito!"
 
 msgid "Error loading maps. Check connection."
@@ -389,9 +372,6 @@ msgstr "Sensación térmica"
 msgid "Feels like: {}°C"
 msgstr "Sensación térmica"
 
-msgid "Fetching radar data..."
-msgstr ""
-
 msgid "Finland"
 msgstr "Finlandia"
 
@@ -440,13 +420,6 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
-msgid "Frame →"
-msgstr ""
-
-#, fuzzy
-msgid "Frame: {}"
-msgstr "Más rápido: {}s"
-
 msgid "France"
 msgstr "Francia"
 
@@ -465,9 +438,6 @@ msgstr "Gran Bretaña"
 msgid "Greece"
 msgstr "Grecia"
 
-msgid "Green"
-msgstr "Verde"
-
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -476,9 +446,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburgo"
@@ -567,9 +534,6 @@ msgstr "Teclado"
 msgid "Last Quarter"
 msgstr "Última actualización"
 
-msgid "Last update"
-msgstr "Última actualización"
-
 msgid "Latvia"
 msgstr "Letonia"
 
@@ -588,10 +552,6 @@ msgstr "Cargando estaciones cercanas..."
 
 msgid "Loading nearby stations..."
 msgstr "Cargando estaciones cercanas..."
-
-#, fuzzy
-msgid "Loading tiles..."
-msgstr "Descargando imágenes..."
 
 msgid "Loading weekly forecast..."
 msgstr "Cargando pronóstico semanal..."
@@ -617,9 +577,6 @@ msgstr "Luxemburgo"
 msgid "Map & Tiles Loaded"
 msgstr ""
 
-msgid "Map loaded"
-msgstr ""
-
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Ninguna ciudad seleccionada"
@@ -632,9 +589,6 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menú - Configuración"
-
-msgid "Merge failed"
-msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteograma"
@@ -692,10 +646,6 @@ msgstr "Siguiente"
 msgid "Next Image"
 msgstr "Página siguiente"
 
-#, fuzzy
-msgid "Next frame"
-msgstr "Página siguiente"
-
 msgid "Next page"
 msgstr "Página siguiente"
 
@@ -731,10 +681,6 @@ msgstr "No se encontraron estaciones"
 
 #, fuzzy
 msgid "No tiles available"
-msgstr "No hay fecha disponible"
-
-#, fuzzy
-msgid "No tiles downloaded"
 msgstr "No hay fecha disponible"
 
 msgid "North Africa"
@@ -911,10 +857,6 @@ msgstr "Anterior"
 msgid "Previous Image"
 msgstr "Página anterior"
 
-#, fuzzy
-msgid "Previous frame"
-msgstr "Página anterior"
-
 msgid "Previous page"
 msgstr "Página anterior"
 
@@ -936,9 +878,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Radar meteorológico"
-
-msgid "Red"
-msgstr "Rojo"
 
 msgid "Red - Color select"
 msgstr "Rojo - Selección de color"
@@ -1144,9 +1083,6 @@ msgstr ""
 msgid "Try different zoom or region"
 msgstr ""
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1263,10 +1199,6 @@ msgstr "Clima mañana"
 msgid "Weekly Forecast"
 msgstr "Pronóstico semanal"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Mapas meteorológicos"
-
 msgid "Wind"
 msgstr "Viento"
 
@@ -1364,8 +1296,55 @@ msgstr "• Use las teclas de flecha para navegar\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• AMARILLO para guardar como Favorito 2\n"
 
-msgid "← Frame"
-msgstr ""
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Pronóstico"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgid "Distance"
+#~ msgstr "Distancia"
+
+#, fuzzy
+#~ msgid "Error loading data"
+#~ msgstr "¡Error al guardar favorito!"
+
+#, fuzzy
+#~ msgid "Frame: {}"
+#~ msgstr "Más rápido: {}s"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Última actualización"
+
+#, fuzzy
+#~ msgid "Loading tiles..."
+#~ msgstr "Descargando imágenes..."
+
+#, fuzzy
+#~ msgid "Next frame"
+#~ msgstr "Página siguiente"
+
+#, fuzzy
+#~ msgid "No tiles downloaded"
+#~ msgstr "No hay fecha disponible"
+
+#, fuzzy
+#~ msgid "Previous frame"
+#~ msgstr "Página anterior"
+
+#~ msgid "Red"
+#~ msgstr "Rojo"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Mapas meteorológicos"
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"

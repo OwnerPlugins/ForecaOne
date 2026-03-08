@@ -1342,7 +1342,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                     icon_wind = LoadPixmap(cached=True, path=wind_icon_path)
                 else:
                     icon_wind = None
-            except:
+            except BaseException:
                 icon_wind = None
 
             # --- Wind speed con conversione ---
