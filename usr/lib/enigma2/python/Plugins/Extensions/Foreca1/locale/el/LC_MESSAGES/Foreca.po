@@ -40,6 +40,9 @@ msgstr "6 - Σήμερα + 6 ημέρες"
 msgid "7 - Today + 7 days"
 msgstr "7 - Σήμερα + 7 ημέρες"
 
+msgid "7 Day Forecast"
+msgstr "Πρόγνωση 7 ημερών"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Σήμερα + 8 ημέρες"
 
@@ -93,6 +96,9 @@ msgstr "Βέλγιο"
 
 msgid "Berlin"
 msgstr "Βερολίνο"
+
+msgid "Blue"
+msgstr "Μπλε"
 
 msgid "Blue - Home"
 msgstr "Μπλε - Αρχική"
@@ -242,6 +248,9 @@ msgstr ""
 msgid "Dewpoint: N/A"
 msgstr ""
 
+msgid "Distance"
+msgstr "Απόσταση"
+
 msgid "Distance {} km"
 msgstr "Απόσταση {} χλμ"
 
@@ -383,6 +392,10 @@ msgstr "Βρέθηκαν %d πόλεις τοπικά για '%s'"
 msgid "Found %d cities online for '%s'"
 msgstr "Βρέθηκαν %d πόλεις online για '%s'"
 
+#, fuzzy
+msgid "Found {} lunar phases"
+msgstr "Φόρτωση σεληνιακών φάσεων..."
+
 msgid "France"
 msgstr "Γαλλία"
 
@@ -401,6 +414,9 @@ msgstr "Μεγάλη Βρετανία"
 msgid "Greece"
 msgstr "Ελλάδα"
 
+msgid "Green"
+msgstr "Πράσινος"
+
 msgid "Green - Favorite 1"
 msgstr "Πράσινο - Αγαπημένο 1"
 
@@ -409,6 +425,9 @@ msgstr "Ριπές ανέμου {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Ριπές ανέμου: {:.1f} {}"
+
+msgid "HTML"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "Αμβούργο"
@@ -493,6 +512,9 @@ msgstr "Πληκτρολόγιο"
 
 msgid "Last Quarter"
 msgstr "Τελευταίο τέταρτο"
+
+msgid "Last update"
+msgstr "Τελευταία ενημέρωση"
 
 msgid "Latvia"
 msgstr "Λετονία"
@@ -815,6 +837,9 @@ msgstr "Πιθανότ. βροχής: Μ/Δ"
 msgid "Rain: {:.1f} {}"
 msgstr "Βροχή: {:.1f} {}"
 
+msgid "Red"
+msgstr "Κόκκινος"
+
 msgid "Red - Color select"
 msgstr "Κόκκινο - Επιλογή χρώματος"
 
@@ -1000,6 +1025,9 @@ msgstr "Δοκιμάστε διαφορετικό ζουμ ή στρώμα"
 
 msgid "Try different zoom or region"
 msgstr "Δοκιμάστε διαφορετικό ζουμ ή περιοχή"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "Δείκτης UV"
@@ -1198,25 +1226,3 @@ msgstr "• Χρησιμοποιήστε τα βέλη για πλοήγηση\n
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2\n"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Πρόγνωση 7 ημερών"
-
-#~ msgid "Blue"
-#~ msgstr "Μπλε"
-
-#~ msgid "Distance"
-#~ msgstr "Απόσταση"
-
-#, fuzzy
-#~ msgid "Found {} lunar phases"
-#~ msgstr "Φόρτωση σεληνιακών φάσεων..."
-
-#~ msgid "Green"
-#~ msgstr "Πράσινος"
-
-#~ msgid "Last update"
-#~ msgstr "Τελευταία ενημέρωση"
-
-#~ msgid "Red"
-#~ msgstr "Κόκκινος"

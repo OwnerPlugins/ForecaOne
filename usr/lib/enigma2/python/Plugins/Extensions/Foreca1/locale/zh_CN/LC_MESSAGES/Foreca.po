@@ -36,6 +36,9 @@ msgstr "6-今天+ 6天"
 msgid "7 - Today + 7 days"
 msgstr "7-今天+ 7天"
 
+msgid "7 Day Forecast"
+msgstr "未来七天天气预报"
+
 msgid "8 - Today + 8 days"
 msgstr "8-今天+ 8天"
 
@@ -89,6 +92,9 @@ msgstr "比利时"
 
 msgid "Berlin"
 msgstr "柏林"
+
+msgid "Blue"
+msgstr "蓝色"
 
 msgid "Blue - Home"
 msgstr "蓝色-主页"
@@ -243,6 +249,9 @@ msgstr "露点温度"
 msgid "Dewpoint: N/A"
 msgstr "露点温度"
 
+msgid "Distance"
+msgstr "距离"
+
 msgid "Distance {} km"
 msgstr "距离: {}千米"
 
@@ -389,6 +398,9 @@ msgstr "为'%s'在本地找到%d个城市"
 msgid "Found %d cities online for '%s'"
 msgstr "在线为'%s'找到%d个城市"
 
+msgid "Found {} lunar phases"
+msgstr ""
+
 msgid "France"
 msgstr "法国"
 
@@ -407,6 +419,9 @@ msgstr "大不列颠及北爱尔兰"
 msgid "Greece"
 msgstr "希腊"
 
+msgid "Green"
+msgstr "绿"
+
 msgid "Green - Favorite 1"
 msgstr "绿色-收藏 1"
 
@@ -415,6 +430,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "德国汉堡"
@@ -500,6 +518,9 @@ msgstr "键盘设置"
 
 msgid "Last Quarter"
 msgstr "下弦月"
+
+msgid "Last update"
+msgstr "最近更新时间"
 
 msgid "Latvia"
 msgstr "拉脱维亚"
@@ -825,6 +846,9 @@ msgstr "降雨概率:N/A"
 msgid "Rain: {:.1f} {}"
 msgstr ""
 
+msgid "Red"
+msgstr "红色"
+
 msgid "Red - Color select"
 msgstr "红色-颜色选择"
 
@@ -1014,6 +1038,9 @@ msgstr "尝试其他缩放或图层"
 
 msgid "Try different zoom or region"
 msgstr "尝试其他缩放比例或区域"
+
+msgid "UV"
+msgstr "紫外线"
 
 msgid "UV Index"
 msgstr "紫外线指数"
@@ -1215,30 +1242,6 @@ msgstr "然后使用箭头键移动.\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "黄色-分配给收藏夹2\n"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "未来七天天气预报"
-
-#~ msgid "Blue"
-#~ msgstr "蓝色"
-
-#~ msgid "Distance"
-#~ msgstr "距离"
-
-#~ msgid "Green"
-#~ msgstr "绿"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "最近更新时间"
-
-#~ msgid "Red"
-#~ msgstr "红色"
-
-#~ msgid "UV"
-#~ msgstr "紫外线"
 
 #~ msgid "AQI"
 #~ msgstr "AQI值"

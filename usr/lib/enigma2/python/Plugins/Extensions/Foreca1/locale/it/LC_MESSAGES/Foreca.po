@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-08 11:23+0100\n"
+"PO-Revision-Date: 2026-03-08 12:36+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -41,6 +41,9 @@ msgstr "6 - Oggi + 6 giorni"
 
 msgid "7 - Today + 7 days"
 msgstr "7 - Oggi + 7 giorni"
+
+msgid "7 Day Forecast"
+msgstr "Previsione 7 Giorni"
 
 msgid "8 - Today + 8 days"
 msgstr "8 - Oggi + 8 giorni"
@@ -96,6 +99,9 @@ msgstr "Belgio"
 msgid "Berlin"
 msgstr "Berlino"
 
+msgid "Blue"
+msgstr "Blu"
+
 msgid "Blue - Home"
 msgstr "Blu - Principale"
 
@@ -138,9 +144,8 @@ msgstr "Sereno"
 msgid "Close"
 msgstr "Chiudi"
 
-#, fuzzy
 msgid "Cloud Cover"
-msgstr "Nuvoloso e rovesci"
+msgstr "Copertura nuvolosa"
 
 msgid "Cloudy"
 msgstr "Nuvoloso"
@@ -243,6 +248,9 @@ msgstr "Punto di rugiada %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Punto di rugiada: N/A"
+
+msgid "Distance"
+msgstr "Distanza"
 
 msgid "Distance {} km"
 msgstr "Distanza {} km"
@@ -385,6 +393,9 @@ msgstr "Trovate %d città localmente per '%s'"
 msgid "Found %d cities online for '%s'"
 msgstr "Trovate %d città online per '%s'"
 
+msgid "Found {} lunar phases"
+msgstr "Trovate {} fasi lunari"
+
 msgid "France"
 msgstr "Francia"
 
@@ -403,6 +414,9 @@ msgstr "Gran Bretagna"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -411,6 +425,9 @@ msgstr "Raffica {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Raffica: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -496,6 +513,9 @@ msgstr "Tastiera"
 msgid "Last Quarter"
 msgstr "Ultimo Quarto"
 
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
+
 msgid "Latvia"
 msgstr "Lettonia"
 
@@ -569,7 +589,7 @@ msgid "Moderate"
 msgstr "Moderato"
 
 msgid "Month"
-msgstr ""
+msgstr "Mese"
 
 msgid "Morning"
 msgstr "Mattina"
@@ -743,7 +763,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Parzialmente nuvoloso, possibili temporali con pioggia"
 
 msgid "Phase"
-msgstr ""
+msgstr "Fase"
 
 msgid "Play/Pause"
 msgstr "Riproduci/Pausa"
@@ -803,7 +823,7 @@ msgid "Previous page"
 msgstr "Pagina precedente"
 
 msgid "Radar"
-msgstr ""
+msgstr "Radar"
 
 msgid "Rain Prob."
 msgstr "Prob. pioggia."
@@ -816,6 +836,9 @@ msgstr "Prob. di pioggia: N/D"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Pioggia: {:.1f} {}"
+
+msgid "Red"
+msgstr "Rosso"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -911,7 +934,7 @@ msgid "Slower: {}s"
 msgstr "Più lento: {}s"
 
 msgid "Snow"
-msgstr ""
+msgstr "Nevicate"
 
 msgid "Snow prob. {}%"
 msgstr "Prob. neve. {}%"
@@ -983,7 +1006,7 @@ msgid "Thuringia"
 msgstr "Turingia"
 
 msgid "Time"
-msgstr ""
+msgstr "Ore"
 
 msgid "Today/Tomorrow details"
 msgstr "Dettagli di oggi/domani"
@@ -1002,6 +1025,9 @@ msgstr "Prova uno zoom o un livello diverso"
 
 msgid "Try different zoom or region"
 msgstr "Prova uno zoom o una regione diversi"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV Indice"
@@ -1200,27 +1226,3 @@ msgstr "• Utilizzare i tasti freccia per navigare\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GIALLO per salvare Preferito 2\n"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Previsione 7 Giorni"
-
-#~ msgid "Blue"
-#~ msgstr "Blu"
-
-#~ msgid "Distance"
-#~ msgstr "Distanza"
-
-#~ msgid "Found {} lunar phases"
-#~ msgstr "Trovate {} fasi lunari"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Ultimo aggiornamento"
-
-#~ msgid "Red"
-#~ msgstr "Rosso"
