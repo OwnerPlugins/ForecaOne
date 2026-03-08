@@ -81,16 +81,25 @@ class WeatherDetailView(Screen, HelpableScreen):
 
         self.weather_data = self._fetch_data()
 
-
         print("[DEBUG] weather_data keys:", self.weather_data.keys())
         if self.weather_data.get('today'):
             print("[DEBUG] today keys:", self.weather_data['today'].keys())
             for period in ['morning', 'afternoon', 'evening', 'overnight']:
-                print(f"[DEBUG] today[{period}]:", self.weather_data['today'].get(period, {}))
+                print(
+                    f"[DEBUG] today[{period}]:",
+                    self.weather_data['today'].get(
+                        period,
+                        {}))
         if self.weather_data.get('tomorrow'):
-            print("[DEBUG] tomorrow keys:", self.weather_data['tomorrow'].keys())
+            print(
+                "[DEBUG] tomorrow keys:",
+                self.weather_data['tomorrow'].keys())
             for period in ['morning', 'afternoon', 'evening', 'overnight']:
-                print(f"[DEBUG] tomorrow[{period}]:", self.weather_data['tomorrow'].get(period, {}))
+                print(
+                    f"[DEBUG] tomorrow[{period}]:",
+                    self.weather_data['tomorrow'].get(
+                        period,
+                        {}))
 
         self['title_main'] = Label(_('Weather Radar'))
         self['title_location'] = Label()
