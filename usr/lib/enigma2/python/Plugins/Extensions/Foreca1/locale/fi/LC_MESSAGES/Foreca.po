@@ -42,9 +42,6 @@ msgstr "6 - Tänään + 6 päivää"
 msgid "7 - Today + 7 days"
 msgstr "7 - Tänään + 7 päivää"
 
-msgid "7 Day Forecast"
-msgstr "7 päivän ennuste"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Tänään + 8 päivää"
 
@@ -99,9 +96,6 @@ msgstr "Belgia"
 msgid "Berlin"
 msgstr "Berliini"
 
-msgid "Blue"
-msgstr "Sininen"
-
 msgid "Blue - Home"
 msgstr "Sininen - Koti"
 
@@ -143,6 +137,10 @@ msgstr "Selkeää"
 
 msgid "Close"
 msgstr "Sulje"
+
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "Melko pilvistä, ajoittaista sadetta"
 
 msgid "Cloudy"
 msgstr "Melko pilvistä"
@@ -245,9 +243,6 @@ msgstr "Kastepiste: %s °C"
 
 msgid "Dewpoint: N/A"
 msgstr "Kastepiste: N/A"
-
-msgid "Distance"
-msgstr "Etäisyys"
 
 msgid "Distance {} km"
 msgstr "Etäisyys {} km"
@@ -390,9 +385,6 @@ msgstr "Löytyi %d kaupunkia paikallisesti hakusanalla '%s'"
 msgid "Found %d cities online for '%s'"
 msgstr "Löytyi %d kaupunkia verkosta hakusanalla '%s'"
 
-msgid "Found {} lunar phases"
-msgstr "Löydetty {} kuun vaihetta"
-
 msgid "France"
 msgstr "Ranska"
 
@@ -411,9 +403,6 @@ msgstr "Iso-Britannia"
 msgid "Greece"
 msgstr "Kreikka"
 
-msgid "Green"
-msgstr "Vihreä"
-
 msgid "Green - Favorite 1"
 msgstr "Vihreä - Suosikki 1"
 
@@ -422,9 +411,6 @@ msgstr "Tuulen puuska {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Tuulen puuska: {:.1f} {}"
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hampuri"
@@ -510,9 +496,6 @@ msgstr "Näppäimistö"
 msgid "Last Quarter"
 msgstr "Viimeinen neljännes"
 
-msgid "Last update"
-msgstr "Viimeisin päivitys"
-
 msgid "Latvia"
 msgstr "Latvia"
 
@@ -584,6 +567,9 @@ msgstr "Lähi-itä"
 
 msgid "Moderate"
 msgstr "Kohtalainen"
+
+msgid "Month"
+msgstr ""
 
 msgid "Morning"
 msgstr "Aamu"
@@ -756,6 +742,9 @@ msgstr "Puolipilvistä, ajoittain räntäsadetta"
 msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Puolipilvistä, mahdollisesti ukkosta"
 
+msgid "Phase"
+msgstr ""
+
 msgid "Play/Pause"
 msgstr "Toista/Keskeytä"
 
@@ -813,6 +802,9 @@ msgstr "Edellinen kuva"
 msgid "Previous page"
 msgstr "Edellinen sivu"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr "Sateen todennäk."
 
@@ -824,9 +816,6 @@ msgstr "Sateen todennäköisyys: N/A"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Sade: {:.1f} {}"
-
-msgid "Red"
-msgstr "Punainen"
 
 msgid "Red - Color select"
 msgstr "Punainen - Valitse väri"
@@ -921,6 +910,9 @@ msgstr "Slovakia"
 msgid "Slower: {}s"
 msgstr "Hitaammin: {}s"
 
+msgid "Snow"
+msgstr ""
+
 msgid "Snow prob. {}%"
 msgstr "Lumisateen todennäk. {}%"
 
@@ -990,6 +982,9 @@ msgstr "Ohutta yläpilveä"
 msgid "Thuringia"
 msgstr "Thüringen"
 
+msgid "Time"
+msgstr ""
+
 msgid "Today/Tomorrow details"
 msgstr "Tämän päivän/huomisen tiedot"
 
@@ -1007,9 +1002,6 @@ msgstr "Kokeile eri zoomausta tai tasoa"
 
 msgid "Try different zoom or region"
 msgstr "Kokeile eri zoomausta tai aluetta"
-
-msgid "UV"
-msgstr "UV"
 
 msgid "UV Index"
 msgstr "UV-indeksi"
@@ -1208,3 +1200,30 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 päivän ennuste"
+
+#~ msgid "Blue"
+#~ msgstr "Sininen"
+
+#~ msgid "Distance"
+#~ msgstr "Etäisyys"
+
+#~ msgid "Found {} lunar phases"
+#~ msgstr "Löydetty {} kuun vaihetta"
+
+#~ msgid "Green"
+#~ msgstr "Vihreä"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Viimeisin päivitys"
+
+#~ msgid "Red"
+#~ msgstr "Punainen"
+
+#~ msgid "UV"
+#~ msgstr "UV"

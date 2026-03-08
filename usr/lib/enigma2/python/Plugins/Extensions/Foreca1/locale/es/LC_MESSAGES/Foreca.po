@@ -42,10 +42,6 @@ msgstr "6 - Hoy + 6 días"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hoy + 7 días"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Pronóstico"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Hoy + 8 días"
 
@@ -102,9 +98,6 @@ msgstr "Bélgica"
 msgid "Berlin"
 msgstr "Berlín"
 
-msgid "Blue"
-msgstr "Azul"
-
 msgid "Blue - Home"
 msgstr "Azul - Inicio"
 
@@ -147,6 +140,10 @@ msgstr "Despejado"
 
 msgid "Close"
 msgstr ""
+
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "Nublado y chubascos"
 
 msgid "Cloudy"
 msgstr "Nublado"
@@ -255,9 +252,6 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
-
-msgid "Distance"
-msgstr "Distancia"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -426,10 +420,6 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
-#, fuzzy
-msgid "Found {} lunar phases"
-msgstr "Cargando estaciones cercanas..."
-
 msgid "France"
 msgstr "Francia"
 
@@ -448,9 +438,6 @@ msgstr "Gran Bretaña"
 msgid "Greece"
 msgstr "Grecia"
 
-msgid "Green"
-msgstr "Verde"
-
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -459,9 +446,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburgo"
@@ -550,9 +534,6 @@ msgstr "Teclado"
 msgid "Last Quarter"
 msgstr "Última actualización"
 
-msgid "Last update"
-msgstr "Última actualización"
-
 msgid "Latvia"
 msgstr "Letonia"
 
@@ -625,6 +606,9 @@ msgid "Middle East"
 msgstr "Oriente Medio"
 
 msgid "Moderate"
+msgstr ""
+
+msgid "Month"
 msgstr ""
 
 msgid "Morning"
@@ -805,6 +789,9 @@ msgstr "Parcialmente nublado y chubascos de aguanieve"
 msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Parcialmente nublado, posibles tormentas con lluvia"
 
+msgid "Phase"
+msgstr ""
+
 msgid "Play/Pause"
 msgstr "Reproducir/Pausa"
 
@@ -873,6 +860,9 @@ msgstr "Página anterior"
 msgid "Previous page"
 msgstr "Página anterior"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr ""
 
@@ -884,9 +874,6 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
-
-msgid "Red"
-msgstr "Rojo"
 
 msgid "Red - Color select"
 msgstr "Rojo - Selección de color"
@@ -985,6 +972,9 @@ msgstr "Eslovaquia"
 msgid "Slower: {}s"
 msgstr "Más lento: {}s"
 
+msgid "Snow"
+msgstr ""
+
 msgid "Snow prob. {}%"
 msgstr ""
 
@@ -1061,6 +1051,9 @@ msgstr "Nubes altas delgadas"
 msgid "Thuringia"
 msgstr "Turingia"
 
+msgid "Time"
+msgstr ""
+
 msgid "Today/Tomorrow details"
 msgstr ""
 
@@ -1077,9 +1070,6 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
-msgstr ""
-
-msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1294,6 +1284,32 @@ msgstr "• Use las teclas de flecha para navegar\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• AMARILLO para guardar como Favorito 2\n"
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Pronóstico"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgid "Distance"
+#~ msgstr "Distancia"
+
+#, fuzzy
+#~ msgid "Found {} lunar phases"
+#~ msgstr "Cargando estaciones cercanas..."
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Última actualización"
+
+#~ msgid "Red"
+#~ msgstr "Rojo"
 
 #, fuzzy
 #~ msgid "Foreca 1 Weather Forecast"

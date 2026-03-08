@@ -14,6 +14,7 @@
 
 
 
+
 msgid "0 - Today"
 msgstr ""
 
@@ -36,9 +37,6 @@ msgid "6 - Today + 6 days"
 msgstr ""
 
 msgid "7 - Today + 7 days"
-msgstr ""
-
-msgid "7 Day Forecast"
 msgstr ""
 
 msgid "8 - Today + 8 days"
@@ -95,9 +93,6 @@ msgstr ""
 msgid "Berlin"
 msgstr ""
 
-msgid "Blue"
-msgstr ""
-
 msgid "Blue - Home"
 msgstr ""
 
@@ -138,6 +133,9 @@ msgid "Clear"
 msgstr ""
 
 msgid "Close"
+msgstr ""
+
+msgid "Cloud Cover"
 msgstr ""
 
 msgid "Cloudy"
@@ -240,9 +238,6 @@ msgid "Dewpoint: %s°C"
 msgstr ""
 
 msgid "Dewpoint: N/A"
-msgstr ""
-
-msgid "Distance"
 msgstr ""
 
 msgid "Distance {} km"
@@ -386,9 +381,6 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
-msgid "Found {} lunar phases"
-msgstr ""
-
 msgid "France"
 msgstr ""
 
@@ -407,9 +399,6 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
-msgid "Green"
-msgstr ""
-
 msgid "Green - Favorite 1"
 msgstr ""
 
@@ -417,9 +406,6 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
-
-msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -506,9 +492,6 @@ msgstr ""
 msgid "Last Quarter"
 msgstr ""
 
-msgid "Last update"
-msgstr ""
-
 msgid "Latvia"
 msgstr ""
 
@@ -579,6 +562,9 @@ msgid "Middle East"
 msgstr ""
 
 msgid "Moderate"
+msgstr ""
+
+msgid "Month"
 msgstr ""
 
 msgid "Morning"
@@ -752,6 +738,9 @@ msgstr ""
 msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr ""
 
+msgid "Phase"
+msgstr ""
+
 msgid "Play/Pause"
 msgstr ""
 
@@ -809,6 +798,9 @@ msgstr ""
 msgid "Previous page"
 msgstr ""
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr ""
 
@@ -819,9 +811,6 @@ msgid "Rain prob.: N/A"
 msgstr ""
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
-
-msgid "Red"
 msgstr ""
 
 msgid "Red - Color select"
@@ -917,6 +906,9 @@ msgstr ""
 msgid "Slower: {}s"
 msgstr ""
 
+msgid "Snow"
+msgstr ""
+
 msgid "Snow prob. {}%"
 msgstr ""
 
@@ -986,6 +978,9 @@ msgstr ""
 msgid "Thuringia"
 msgstr ""
 
+msgid "Time"
+msgstr ""
+
 msgid "Today/Tomorrow details"
 msgstr ""
 
@@ -1002,9 +997,6 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
-msgstr ""
-
-msgid "UV"
 msgstr ""
 
 msgid "UV Index"
