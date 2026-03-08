@@ -14,7 +14,7 @@ import gettext
 import codecs
 
 
-VERSION = "1.0.7"
+VERSION = "1.0.8"
 _AUTHOR_ = "by Lululla - 2026"
 IDEAS = "@Bauernbub"
 THANKS = "@Orlandox"
@@ -203,6 +203,20 @@ def apply_global_theme(screen):
                         parseColor(alpha))
         except Exception as e:
             print("[Theme] Error loading alpha:", e)
+
+
+def get_icon_path(icon_name, fallback='na.png'):
+    """
+    Returns the full path of an icon from the thumb/ folder.
+    If the file does not exist, returns the path of the fallback icon (na.png).
+    """
+    path = join(THUMB_PATH, icon_name)
+    if exists(path):
+        return path
+
+    # Fallback to the na.png icon
+    fallback_path = join(THUMB_PATH, fallback)
+    return fallback_path if exists(fallback_path) else None
 
 
 """

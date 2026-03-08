@@ -1,7 +1,7 @@
 #!/bin/bash
 
-version='1.0.7'
-changelog='\nMajor Fix\nOffer coffee if you like this plugin'
+version='1.0.8'
+changelog='\nFix all skin\nAdd test rainmap\nOffer coffee if you like this plugin'
 
 TMPPATH=/tmp/ForecaOne-install
 FILEPATH=/tmp/ForecaOne-main.tar.gz

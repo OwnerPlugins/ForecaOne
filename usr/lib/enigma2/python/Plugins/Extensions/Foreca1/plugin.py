@@ -55,7 +55,6 @@ from enigma import gRGB, eTimer
 from skin import parseColor
 
 from Tools.BoundFunction import boundFunction
-from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from Tools.LoadPixmap import LoadPixmap
 
 from . import (
@@ -69,7 +68,8 @@ from . import (
     TEMP_DIR,
     DBG_DIR,
     CONFIG_FILE,
-    SYSTEM_DIR
+    SYSTEM_DIR,
+    get_icon_path
 )
 
 from .city_panel import CityPanel4
@@ -606,7 +606,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         menu_items = [
             (_("City Selection"), "city"),
             (_("Weather Maps"), "maps"),
-            (_("Test Wetter.de Maps"), "test_wetter"),
+            (_("RainViewer Radar"), "rainviewer"),
             (_("Weekly Forecast"), "daily_forecast"),
             (_("Meteogram"), "meteogram"),
             (_("Station Observations"), "stations"),
@@ -709,9 +709,9 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.update_me()
         elif key == "maps":
             self.open_maps_menu()
-        elif key == "test_wetter":
-            from .wetter_maps import WetterMapsViewer
-            self.session.open(WetterMapsViewer)
+        elif key == "rainviewer":
+            from .rain_maps import RainViewerMaps
+            self.session.open(RainViewerMaps, self)
         elif key == "info":
             self.session.openWithCallback(
                 self.after_main_menu, InfoDialog, self)
@@ -1140,18 +1140,15 @@ class Foreca_Preview(Screen, HelpableScreen):
         # --- ICONS ---
         # Weather icon
         if is_valid(self.pic):
-            icon_path = join(PLUGIN_PATH, "thumb", f"{self.pic}.png")
-            if exists(icon_path):
-                self["icon_weather"].instance.setPixmapFromFile(icon_path)
-            else:
-                fallback = join(PLUGIN_PATH, "thumb", "d000.png")
-                if exists(fallback):
-                    self["icon_weather"].instance.setPixmapFromFile(fallback)
+            icon_path = get_icon_path(f"{self.pic}.png")
         else:
-            fallback = join(PLUGIN_PATH, "thumb", "d000.png")
-            if exists(fallback):
-                self["icon_weather"].instance.setPixmapFromFile(fallback)
-        self["icon_weather"].instance.show()
+            icon_path = get_icon_path("d000.png")  # fallback a d000.png
+        if icon_path:
+            self["icon_weather"].instance.setPixmapFromFile(icon_path)
+        else:
+            self["icon_weather"].hide()
+            return
+        self["icon_weather"].show()
 
         # Wind icon
         if is_valid(self.wind):
@@ -1329,30 +1326,24 @@ class Foreca_Preview(Screen, HelpableScreen):
             except BaseException:
                 temp_str = "N/A"
 
-            # Weather icon
+            # Weather icon_meteo
             symb = self.f_symb[i] if i < len(self.f_symb) else 'n600'
-            icon_path = resolveFilename(
-                SCOPE_PLUGINS, f"Extensions/Foreca1/thumb/{symb}.png")
-            if exists(icon_path):
+            icon_path = get_icon_path(f"{symb}.png")
+            if icon_path:
                 icon_meteo = LoadPixmap(cached=True, path=icon_path)
             else:
-                icon_meteo = LoadPixmap(
-                    cached=True, path=resolveFilename(
-                        SCOPE_PLUGINS, "Extensions/Foreca1/thumb/n600.png"))
+                icon_meteo = None
 
             # Wind direction
             try:
                 wind_dir_str = self.f_wind[i] if i < len(self.f_wind) else "wN"
-                wind_icon_path = resolveFilename(
-                    SCOPE_PLUGINS, f"Extensions/Foreca1/thumb/{wind_dir_str}.png")
-                if exists(wind_icon_path):
+                wind_icon_path = get_icon_path(f"{wind_dir_str}.png")
+                if wind_icon_path:
                     icon_wind = LoadPixmap(cached=True, path=wind_icon_path)
                 else:
-                    icon_wind = LoadPixmap(
-                        cached=True, path=resolveFilename(
-                            SCOPE_PLUGINS, "Extensions/Foreca1/thumb/wN.png"))
-            except BaseException:
-                wind_dir_str = "w360"
+                    icon_wind = None
+            except:
+                icon_wind = None
 
             # --- Wind speed con conversione ---
             try:

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-08 18:39+0100\n"
+"PO-Revision-Date: 2026-03-08 23:34+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -42,6 +42,9 @@ msgstr "6 - Oggi + 6 giorni"
 msgid "7 - Today + 7 days"
 msgstr "7 - Oggi + 7 giorni"
 
+msgid "7 Day Forecast"
+msgstr "Previsione 7 Giorni"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Oggi + 8 giorni"
 
@@ -50,6 +53,9 @@ msgstr "9 - Oggi + 9 giorni"
 
 msgid "API credentials not configured."
 msgstr "Nessuna credenziale API configurata."
+
+msgid "API error"
+msgstr ""
 
 msgid "AQI {}"
 msgstr "IQA {}"
@@ -95,6 +101,9 @@ msgstr "Belgio"
 
 msgid "Berlin"
 msgstr "Berlino"
+
+msgid "Blue"
+msgstr "Blu"
 
 msgid "Blue - Home"
 msgstr "Blu - Principale"
@@ -243,6 +252,9 @@ msgstr "Punto di rugiada %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Punto di rugiada: N/A"
 
+msgid "Distance"
+msgstr "Distanza"
+
 msgid "Distance {} km"
 msgstr "Distanza {} km"
 
@@ -275,6 +287,9 @@ msgstr "Errore durante il controllo degli aggiornamenti."
 
 msgid "Error displaying map"
 msgstr "Errore durante la visualizzazione della Mappa"
+
+msgid "Error loading data"
+msgstr "Errore durante il caricamento dei dati"
 
 msgid "Error loading maps. Check connection."
 msgstr "Errore durante il caricamento delle mappe. Controllare la connessione."
@@ -345,6 +360,9 @@ msgstr "Percepita: {}{}"
 msgid "Feels like: {}°C"
 msgstr "Percepita: {}°C"
 
+msgid "Fetching radar data..."
+msgstr "Recupero dati radar in corso..."
+
 msgid "Finland"
 msgstr "Finlandia"
 
@@ -384,6 +402,12 @@ msgstr "Trovate %d città localmente per '%s'"
 msgid "Found %d cities online for '%s'"
 msgstr "Trovate %d città online per '%s'"
 
+msgid "Frame →"
+msgstr "Cornice  →"
+
+msgid "Frame: {}"
+msgstr "Cornice: {}"
+
 msgid "France"
 msgstr "Francia"
 
@@ -402,6 +426,9 @@ msgstr "Gran Bretagna"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -410,6 +437,9 @@ msgstr "Raffica {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Raffica: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -495,6 +525,9 @@ msgstr "Tastiera"
 msgid "Last Quarter"
 msgstr "Ultimo Quarto"
 
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
+
 msgid "Latvia"
 msgstr "Lettonia"
 
@@ -512,6 +545,9 @@ msgstr "Caricamento delle fasi lunari..."
 
 msgid "Loading nearby stations..."
 msgstr "Caricamento delle stazioni vicine..."
+
+msgid "Loading tiles..."
+msgstr "Caricamento schemi..."
 
 msgid "Loading weekly forecast..."
 msgstr "Caricamento previsioni settimanali..."
@@ -537,6 +573,9 @@ msgstr "Lussemburgo"
 msgid "Map & Tiles Loaded"
 msgstr "Mappa e  Schemi caricati"
 
+msgid "Map loaded"
+msgstr "Mappa caricata"
+
 msgid "Map {} selected"
 msgstr "Mappa {} selezionata"
 
@@ -548,6 +587,9 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menu - Impostazioni"
+
+msgid "Merge failed"
+msgstr "Unione fallita"
 
 msgid "Meteogram"
 msgstr "Meteogramma"
@@ -603,6 +645,9 @@ msgstr "Avanti"
 msgid "Next Image"
 msgstr "Immagine Successiva"
 
+msgid "Next frame"
+msgstr "Cornice successivo"
+
 msgid "Next page"
 msgstr "Pagina successiva"
 
@@ -635,6 +680,9 @@ msgstr "Nessuna stazione trovata"
 
 msgid "No tiles available"
 msgstr "Nessuno schema disponibile"
+
+msgid "No tiles downloaded"
+msgstr "Nessuno schema scaricato"
 
 msgid "North Africa"
 msgstr "Africa del Nord"
@@ -798,6 +846,9 @@ msgstr "Precedente"
 msgid "Previous Image"
 msgstr "Immagine Precedente"
 
+msgid "Previous frame"
+msgstr "Cornice precedente"
+
 msgid "Previous page"
 msgstr "Pagina precedente"
 
@@ -815,6 +866,12 @@ msgstr "Prob. di pioggia: N/D"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Pioggia: {:.1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "Radar RainViewer"
+
+msgid "Red"
+msgstr "Rosso"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -972,10 +1029,6 @@ msgstr "Temperatura: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Temperatura: {}°C"
 
-#, fuzzy
-msgid "Test Wetter.de Maps"
-msgstr "Mappe Meteo"
-
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Grazie {thanks} e altri amici per i suggerimenti e i test"
 
@@ -1011,6 +1064,9 @@ msgstr "Prova uno zoom o un livello diverso"
 
 msgid "Try different zoom or region"
 msgstr "Prova uno zoom o una regione diversi"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV Indice"
@@ -1120,6 +1176,9 @@ msgstr "Meteo domani"
 msgid "Weekly Forecast"
 msgstr "Previsioni settimanali"
 
+msgid "Wetter.de Maps Test"
+msgstr "Wetter.de Maps Test"
+
 msgid "Wind"
 msgstr "Vento"
 
@@ -1210,29 +1269,11 @@ msgstr "• Utilizzare i tasti freccia per navigare\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GIALLO per salvare Preferito 2\n"
 
+msgid "← Frame"
+msgstr "← Cornice"
+
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "Immaggine %(current)d/%(total)d"
 
-#~ msgid "7 Day Forecast"
-#~ msgstr "Previsione 7 Giorni"
-
-#~ msgid "Blue"
-#~ msgstr "Blu"
-
-#~ msgid "Distance"
-#~ msgstr "Distanza"
-
 #~ msgid "Found {} lunar phases"
 #~ msgstr "Trovate {} fasi lunari"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Ultimo aggiornamento"
-
-#~ msgid "Red"
-#~ msgstr "Rosso"

@@ -205,3 +205,4 @@ class FavoritesDetailView(Screen, HelpableScreen):
         self["background_plate"].instance.setBackgroundColor(bg)
         self["selection_overlay"].instance.setBackgroundColor(
             parseColor(self.alpha))
+    

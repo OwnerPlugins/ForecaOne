@@ -40,6 +40,10 @@ msgstr "6 - Сегодня + 6 дней"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сегодня + 7 дней"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Прогноз"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Сегодня + 8 дней"
 
@@ -49,6 +53,9 @@ msgstr "9 - Сегодня + 9 дней"
 #, fuzzy
 msgid "API credentials not configured."
 msgstr "1. Не настроены учётные данные API\n"
+
+msgid "API error"
+msgstr ""
 
 msgid "AQI {}"
 msgstr ""
@@ -95,6 +102,9 @@ msgstr "Бельгия"
 
 msgid "Berlin"
 msgstr "Берлин"
+
+msgid "Blue"
+msgstr "Синий"
 
 msgid "Blue - Home"
 msgstr "Синяя кнопка - Домой"
@@ -251,6 +261,9 @@ msgstr ""
 msgid "Dewpoint: N/A"
 msgstr ""
 
+msgid "Distance"
+msgstr "Расстояние"
+
 #, fuzzy
 msgid "Distance {} km"
 msgstr "Расстояние"
@@ -288,6 +301,10 @@ msgstr "Ошибка сохранения избранного!"
 
 #, fuzzy
 msgid "Error displaying map"
+msgstr "Ошибка сохранения избранного!"
+
+#, fuzzy
+msgid "Error loading data"
 msgstr "Ошибка сохранения избранного!"
 
 msgid "Error loading maps. Check connection."
@@ -370,6 +387,9 @@ msgstr "Ощущается как"
 msgid "Feels like: {}°C"
 msgstr "Ощущается как"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr "Финляндия"
 
@@ -418,6 +438,13 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
+msgid "Frame →"
+msgstr ""
+
+#, fuzzy
+msgid "Frame: {}"
+msgstr "Быстрее: {}с"
+
 msgid "France"
 msgstr "Франция"
 
@@ -436,6 +463,9 @@ msgstr "Великобритания"
 msgid "Greece"
 msgstr "Греция"
 
+msgid "Green"
+msgstr "Зеленый"
+
 msgid "Green - Favorite 1"
 msgstr "Зелёная кнопка - Избранное 1"
 
@@ -444,6 +474,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -532,6 +565,9 @@ msgstr "Клавиатура"
 msgid "Last Quarter"
 msgstr "Последнее обновление"
 
+msgid "Last update"
+msgstr "Последнее обновление"
+
 msgid "Latvia"
 msgstr "Латвия"
 
@@ -550,6 +586,10 @@ msgstr "Загрузка ближайших станций..."
 
 msgid "Loading nearby stations..."
 msgstr "Загрузка ближайших станций..."
+
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Загрузка изображений..."
 
 msgid "Loading weekly forecast..."
 msgstr "Загрузка недельного прогноза..."
@@ -575,6 +615,9 @@ msgstr "Люксембург"
 msgid "Map & Tiles Loaded"
 msgstr ""
 
+msgid "Map loaded"
+msgstr ""
+
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Город не выбран"
@@ -587,6 +630,9 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Меню - Настройки"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "Метеограмма"
@@ -644,6 +690,10 @@ msgstr "Далее"
 msgid "Next Image"
 msgstr "Следующая страница"
 
+#, fuzzy
+msgid "Next frame"
+msgstr "Следующая страница"
+
 msgid "Next page"
 msgstr "Следующая страница"
 
@@ -679,6 +729,10 @@ msgstr "Станции не найдены"
 
 #, fuzzy
 msgid "No tiles available"
+msgstr "Нет доступной даты"
+
+#, fuzzy
+msgid "No tiles downloaded"
 msgstr "Нет доступной даты"
 
 msgid "North Africa"
@@ -855,6 +909,10 @@ msgstr "Предыдущий"
 msgid "Previous Image"
 msgstr "Предыдущая страница"
 
+#, fuzzy
+msgid "Previous frame"
+msgstr "Предыдущая страница"
+
 msgid "Previous page"
 msgstr "Предыдущая страница"
 
@@ -872,6 +930,13 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
+
+#, fuzzy
+msgid "RainViewer Radar"
+msgstr "Метеорологический радар"
+
+msgid "Red"
+msgstr "Красный"
 
 msgid "Red - Color select"
 msgstr "Красная кнопка - Выбор цвета"
@@ -1040,10 +1105,6 @@ msgstr "Температура"
 msgid "Temperature: {}°C"
 msgstr "Температура"
 
-#, fuzzy
-msgid "Test Wetter.de Maps"
-msgstr "Погодные карты"
-
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr ""
 
@@ -1079,6 +1140,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1197,6 +1261,10 @@ msgstr "Погода завтра"
 msgid "Weekly Forecast"
 msgstr "Недельный прогноз"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Погодные карты"
+
 msgid "Wind"
 msgstr "Ветер"
 
@@ -1295,31 +1363,12 @@ msgstr "• Используйте клавиши со стрелками для
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ЗЕЛЁНЫЙ для сохранения как Избранное 1\n"
 
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Прогноз"
-
-#~ msgid "Blue"
-#~ msgstr "Синий"
-
-#~ msgid "Distance"
-#~ msgstr "Расстояние"
+msgid "← Frame"
+msgstr ""
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"
 #~ msgstr "Загрузка ближайших станций..."
-
-#~ msgid "Green"
-#~ msgstr "Зеленый"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Последнее обновление"
-
-#~ msgid "Red"
-#~ msgstr "Красный"
 
 #, fuzzy
 #~ msgid "Foreca 1 Weather Forecast"
