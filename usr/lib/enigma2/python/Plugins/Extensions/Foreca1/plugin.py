@@ -606,6 +606,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         menu_items = [
             (_("City Selection"), "city"),
             (_("Weather Maps"), "maps"),
+            (_("Test Wetter.de Maps"), "test_wetter"),
             (_("Weekly Forecast"), "daily_forecast"),
             (_("Meteogram"), "meteogram"),
             (_("Station Observations"), "stations"),
@@ -708,6 +709,9 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.update_me()
         elif key == "maps":
             self.open_maps_menu()
+        elif key == "test_wetter":
+            from .wetter_maps import WetterMapsViewer
+            self.session.open(WetterMapsViewer)
         elif key == "info":
             self.session.openWithCallback(
                 self.after_main_menu, InfoDialog, self)

@@ -1206,8 +1206,8 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "Kuva %(current)d/%(total)d"

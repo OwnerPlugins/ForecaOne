@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-08 12:36+0100\n"
+"PO-Revision-Date: 2026-03-08 18:39+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -246,13 +246,11 @@ msgstr "Punto di rugiada: N/A"
 msgid "Distance {} km"
 msgstr "Distanza {} km"
 
-#, fuzzy
 msgid "Distance: %s"
-msgstr "Distanza %s m"
+msgstr "Distanza %s"
 
-#, fuzzy
 msgid "Distance: {}"
-msgstr "Distanza {} m"
+msgstr "Distanza {}"
 
 msgid "Do you want to install it now?"
 msgstr "Vuoi installarlo ora?"
@@ -449,13 +447,11 @@ msgstr "Ungheria"
 msgid "Illumination"
 msgstr "Illuminazione"
 
-#, fuzzy
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Immagine %(current)d/%(total)d (Paused)"
+msgstr "Immagine %(current)d/%(total)d - %(day)s"
 
-#, fuzzy
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Immagine %(current)d/%(total)d (Paused)"
+msgstr "Immagine %(current)d/%(total)d – %(day)s (Paused)"
 
 msgid "Image Downloaded"
 msgstr "Immagine Scaricata"
@@ -988,15 +984,14 @@ msgstr "Turingia"
 msgid "Time"
 msgstr "Ore"
 
-#, fuzzy
 msgid "Today"
-msgstr "0 - Oggi"
+msgstr "Oggi"
 
 msgid "Today/Tomorrow details"
 msgstr "Dettagli di oggi/domani"
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Domani"
 
 msgid "Transparency Settings"
 msgstr "Impostazioni Trasparenza"
