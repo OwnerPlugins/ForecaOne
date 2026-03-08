@@ -41,9 +41,6 @@ msgstr ""
 msgid "7 - Today + 7 days"
 msgstr ""
 
-msgid "7 Day Forecast"
-msgstr ""
-
 msgid "8 - Today + 8 days"
 msgstr ""
 
@@ -51,9 +48,6 @@ msgid "9 - Today + 9 days"
 msgstr ""
 
 msgid "API credentials not configured."
-msgstr ""
-
-msgid "API error"
 msgstr ""
 
 msgid "AQI {}"
@@ -99,9 +93,6 @@ msgid "Belgium"
 msgstr ""
 
 msgid "Berlin"
-msgstr ""
-
-msgid "Blue"
 msgstr ""
 
 msgid "Blue - Home"
@@ -251,9 +242,6 @@ msgstr ""
 msgid "Dewpoint: N/A"
 msgstr ""
 
-msgid "Distance"
-msgstr ""
-
 msgid "Distance {} km"
 msgstr ""
 
@@ -285,9 +273,6 @@ msgid "Error checking for updates."
 msgstr ""
 
 msgid "Error displaying map"
-msgstr ""
-
-msgid "Error loading data"
 msgstr ""
 
 msgid "Error loading maps. Check connection."
@@ -359,9 +344,6 @@ msgstr ""
 msgid "Feels like: {}°C"
 msgstr ""
 
-msgid "Fetching radar data..."
-msgstr ""
-
 msgid "Finland"
 msgstr ""
 
@@ -401,12 +383,6 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
-msgid "Frame →"
-msgstr ""
-
-msgid "Frame: {}"
-msgstr ""
-
 msgid "France"
 msgstr ""
 
@@ -425,9 +401,6 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
-msgid "Green"
-msgstr ""
-
 msgid "Green - Favorite 1"
 msgstr ""
 
@@ -435,9 +408,6 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
-
-msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -524,9 +494,6 @@ msgstr ""
 msgid "Last Quarter"
 msgstr ""
 
-msgid "Last update"
-msgstr ""
-
 msgid "Latvia"
 msgstr ""
 
@@ -543,9 +510,6 @@ msgid "Loading lunar phases..."
 msgstr ""
 
 msgid "Loading nearby stations..."
-msgstr ""
-
-msgid "Loading tiles..."
 msgstr ""
 
 msgid "Loading weekly forecast..."
@@ -572,9 +536,6 @@ msgstr ""
 msgid "Map & Tiles Loaded"
 msgstr ""
 
-msgid "Map loaded"
-msgstr ""
-
 msgid "Map {} selected"
 msgstr ""
 
@@ -585,9 +546,6 @@ msgid "Menu"
 msgstr ""
 
 msgid "Menu - Settings"
-msgstr ""
-
-msgid "Merge failed"
 msgstr ""
 
 msgid "Meteogram"
@@ -644,9 +602,6 @@ msgstr ""
 msgid "Next Image"
 msgstr ""
 
-msgid "Next frame"
-msgstr ""
-
 msgid "Next page"
 msgstr ""
 
@@ -678,9 +633,6 @@ msgid "No stations found"
 msgstr ""
 
 msgid "No tiles available"
-msgstr ""
-
-msgid "No tiles downloaded"
 msgstr ""
 
 msgid "North Africa"
@@ -845,9 +797,6 @@ msgstr ""
 msgid "Previous Image"
 msgstr ""
 
-msgid "Previous frame"
-msgstr ""
-
 msgid "Previous page"
 msgstr ""
 
@@ -867,9 +816,6 @@ msgid "Rain: {:.1f} {}"
 msgstr ""
 
 msgid "RainViewer Radar"
-msgstr ""
-
-msgid "Red"
 msgstr ""
 
 msgid "Red - Color select"
@@ -1064,9 +1010,6 @@ msgstr ""
 msgid "Try different zoom or region"
 msgstr ""
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1175,9 +1118,6 @@ msgstr ""
 msgid "Weekly Forecast"
 msgstr ""
 
-msgid "Wetter.de Maps Test"
-msgstr ""
-
 msgid "Wind"
 msgstr ""
 
@@ -1266,7 +1206,4 @@ msgid "• Use arrow keys to navigate\n"
 msgstr ""
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
-
-msgid "← Frame"
 msgstr ""

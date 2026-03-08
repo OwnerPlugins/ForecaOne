@@ -42,10 +42,6 @@ msgstr "6 - Avui + 6 dies"
 msgid "7 - Today + 7 days"
 msgstr "7 - Avui + 7 dies"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Pronòstic"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Avui + 8 dies"
 
@@ -55,9 +51,6 @@ msgstr "9 - Avui + 9 dies"
 #, fuzzy
 msgid "API credentials not configured."
 msgstr "1. No hi ha credencials API configurades\n"
-
-msgid "API error"
-msgstr ""
 
 msgid "AQI {}"
 msgstr ""
@@ -104,9 +97,6 @@ msgstr "Bèlgica"
 
 msgid "Berlin"
 msgstr "Berlín"
-
-msgid "Blue"
-msgstr "Blau"
 
 msgid "Blue - Home"
 msgstr "Blau - Inici"
@@ -263,9 +253,6 @@ msgstr ""
 msgid "Dewpoint: N/A"
 msgstr ""
 
-msgid "Distance"
-msgstr "Distància"
-
 #, fuzzy
 msgid "Distance {} km"
 msgstr "Distància"
@@ -303,10 +290,6 @@ msgstr "Error en desar el favorit!"
 
 #, fuzzy
 msgid "Error displaying map"
-msgstr "Error en desar el favorit!"
-
-#, fuzzy
-msgid "Error loading data"
 msgstr "Error en desar el favorit!"
 
 msgid "Error loading maps. Check connection."
@@ -389,9 +372,6 @@ msgstr "Sensació tèrmica"
 msgid "Feels like: {}°C"
 msgstr "Sensació tèrmica"
 
-msgid "Fetching radar data..."
-msgstr ""
-
 msgid "Finland"
 msgstr "Finlàndia"
 
@@ -440,13 +420,6 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
-msgid "Frame →"
-msgstr ""
-
-#, fuzzy
-msgid "Frame: {}"
-msgstr "Més ràpid: {}s"
-
 msgid "France"
 msgstr "França"
 
@@ -465,9 +438,6 @@ msgstr "Gran Bretanya"
 msgid "Greece"
 msgstr "Grècia"
 
-msgid "Green"
-msgstr "Verd"
-
 msgid "Green - Favorite 1"
 msgstr "Verd - Favorit 1"
 
@@ -476,9 +446,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -567,9 +534,6 @@ msgstr "Teclat"
 msgid "Last Quarter"
 msgstr "Última actualització"
 
-msgid "Last update"
-msgstr "Última actualització"
-
 msgid "Latvia"
 msgstr "Letònia"
 
@@ -588,10 +552,6 @@ msgstr "Carregant estacions properes..."
 
 msgid "Loading nearby stations..."
 msgstr "Carregant estacions properes..."
-
-#, fuzzy
-msgid "Loading tiles..."
-msgstr "Descarregant imatges..."
 
 msgid "Loading weekly forecast..."
 msgstr "Carregant pronòstic setmanal..."
@@ -617,9 +577,6 @@ msgstr "Luxemburg"
 msgid "Map & Tiles Loaded"
 msgstr ""
 
-msgid "Map loaded"
-msgstr ""
-
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Cap ciutat seleccionada"
@@ -632,9 +589,6 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menú - Configuració"
-
-msgid "Merge failed"
-msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteograma"
@@ -692,10 +646,6 @@ msgstr "Següent"
 msgid "Next Image"
 msgstr "Pàgina següent"
 
-#, fuzzy
-msgid "Next frame"
-msgstr "Pàgina següent"
-
 msgid "Next page"
 msgstr "Pàgina següent"
 
@@ -731,10 +681,6 @@ msgstr "No s'han trobat estacions"
 
 #, fuzzy
 msgid "No tiles available"
-msgstr "No hi ha data disponible"
-
-#, fuzzy
-msgid "No tiles downloaded"
 msgstr "No hi ha data disponible"
 
 msgid "North Africa"
@@ -911,10 +857,6 @@ msgstr "Anterior"
 msgid "Previous Image"
 msgstr "Pàgina anterior"
 
-#, fuzzy
-msgid "Previous frame"
-msgstr "Pàgina anterior"
-
 msgid "Previous page"
 msgstr "Pàgina anterior"
 
@@ -936,9 +878,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Radar meteorològic"
-
-msgid "Red"
-msgstr "Vermell"
 
 msgid "Red - Color select"
 msgstr "Vermell - Selecció de color"
@@ -1144,9 +1083,6 @@ msgstr ""
 msgid "Try different zoom or region"
 msgstr ""
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1263,10 +1199,6 @@ msgstr "Temps demà"
 msgid "Weekly Forecast"
 msgstr "Pronòstic setmanal"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Mapes meteorològics"
-
 msgid "Wind"
 msgstr "Vent"
 
@@ -1364,8 +1296,55 @@ msgstr "• Utilitza les tecles de fletxa per navegar\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GROC per desar com a Favorit 2\n"
 
-msgid "← Frame"
-msgstr ""
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Pronòstic"
+
+#~ msgid "Blue"
+#~ msgstr "Blau"
+
+#~ msgid "Distance"
+#~ msgstr "Distància"
+
+#, fuzzy
+#~ msgid "Error loading data"
+#~ msgstr "Error en desar el favorit!"
+
+#, fuzzy
+#~ msgid "Frame: {}"
+#~ msgstr "Més ràpid: {}s"
+
+#~ msgid "Green"
+#~ msgstr "Verd"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Última actualització"
+
+#, fuzzy
+#~ msgid "Loading tiles..."
+#~ msgstr "Descarregant imatges..."
+
+#, fuzzy
+#~ msgid "Next frame"
+#~ msgstr "Pàgina següent"
+
+#, fuzzy
+#~ msgid "No tiles downloaded"
+#~ msgstr "No hi ha data disponible"
+
+#, fuzzy
+#~ msgid "Previous frame"
+#~ msgstr "Pàgina anterior"
+
+#~ msgid "Red"
+#~ msgstr "Vermell"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Mapes meteorològics"
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"

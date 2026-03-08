@@ -41,10 +41,6 @@ msgstr "6 - Today + 6 days"
 msgid "7 - Today + 7 days"
 msgstr "7 - Today + 7 days"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Foreca 4"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Today + 8 days"
 
@@ -52,9 +48,6 @@ msgid "9 - Today + 9 days"
 msgstr "9 - Today + 9 days"
 
 msgid "API credentials not configured."
-msgstr ""
-
-msgid "API error"
 msgstr ""
 
 msgid "AQI {}"
@@ -104,9 +97,6 @@ msgid "Belgium"
 msgstr ""
 
 msgid "Berlin"
-msgstr ""
-
-msgid "Blue"
 msgstr ""
 
 msgid "Blue - Home"
@@ -264,10 +254,6 @@ msgstr ""
 msgid "Dewpoint: N/A"
 msgstr ""
 
-#, fuzzy
-msgid "Distance"
-msgstr "Wind"
-
 msgid "Distance {} km"
 msgstr ""
 
@@ -300,9 +286,6 @@ msgid "Error checking for updates."
 msgstr ""
 
 msgid "Error displaying map"
-msgstr ""
-
-msgid "Error loading data"
 msgstr ""
 
 msgid "Error loading maps. Check connection."
@@ -387,9 +370,6 @@ msgstr "Feels like"
 msgid "Feels like: {}°C"
 msgstr "Feels like"
 
-msgid "Fetching radar data..."
-msgstr ""
-
 msgid "Finland"
 msgstr ""
 
@@ -436,12 +416,6 @@ msgstr ""
 msgid "Found %d cities online for '%s'"
 msgstr ""
 
-msgid "Frame →"
-msgstr ""
-
-msgid "Frame: {}"
-msgstr ""
-
 msgid "France"
 msgstr ""
 
@@ -461,9 +435,6 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
-msgid "Green"
-msgstr ""
-
 msgid "Green - Favorite 1"
 msgstr "Green - Favorite 1"
 
@@ -471,9 +442,6 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
-
-msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -564,9 +532,6 @@ msgstr ""
 msgid "Last Quarter"
 msgstr ""
 
-msgid "Last update"
-msgstr ""
-
 msgid "Latvia"
 msgstr ""
 
@@ -585,10 +550,6 @@ msgstr "Foreca 4"
 
 msgid "Loading nearby stations..."
 msgstr ""
-
-#, fuzzy
-msgid "Loading tiles..."
-msgstr "Foreca 4"
 
 #, fuzzy
 msgid "Loading weekly forecast..."
@@ -615,9 +576,6 @@ msgstr ""
 msgid "Map & Tiles Loaded"
 msgstr ""
 
-msgid "Map loaded"
-msgstr ""
-
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Color selection"
@@ -631,9 +589,6 @@ msgstr ""
 #, fuzzy
 msgid "Menu - Settings"
 msgstr "Menu - Select transparency"
-
-msgid "Merge failed"
-msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteogram"
@@ -693,10 +648,6 @@ msgid "Next Image"
 msgstr "Down - Next page"
 
 #, fuzzy
-msgid "Next frame"
-msgstr "Down - Next page"
-
-#, fuzzy
 msgid "Next page"
 msgstr "Down - Next page"
 
@@ -731,9 +682,6 @@ msgid "No stations found"
 msgstr ""
 
 msgid "No tiles available"
-msgstr ""
-
-msgid "No tiles downloaded"
 msgstr ""
 
 msgid "North Africa"
@@ -910,10 +858,6 @@ msgid "Previous Image"
 msgstr "Up - Previous page"
 
 #, fuzzy
-msgid "Previous frame"
-msgstr "Up - Previous page"
-
-#, fuzzy
 msgid "Previous page"
 msgstr "Up - Previous page"
 
@@ -935,9 +879,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Weather Radar"
-
-msgid "Red"
-msgstr ""
 
 msgid "Red - Color select"
 msgstr "Red - Color select"
@@ -1141,9 +1082,6 @@ msgstr ""
 msgid "Try different zoom or region"
 msgstr ""
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1260,10 +1198,6 @@ msgstr "Weather tomorrow"
 msgid "Weekly Forecast"
 msgstr "Foreca 4"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Weather Radar"
-
 msgid "Wind"
 msgstr "Wind"
 
@@ -1361,8 +1295,29 @@ msgstr ""
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr ""
 
-msgid "← Frame"
-msgstr ""
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Foreca 4"
+
+#, fuzzy
+#~ msgid "Distance"
+#~ msgstr "Wind"
+
+#, fuzzy
+#~ msgid "Loading tiles..."
+#~ msgstr "Foreca 4"
+
+#, fuzzy
+#~ msgid "Next frame"
+#~ msgstr "Down - Next page"
+
+#, fuzzy
+#~ msgid "Previous frame"
+#~ msgstr "Up - Previous page"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Weather Radar"
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"
