@@ -1,4 +1,5 @@
 #, fuzzy
+
 msgid "0 - Today"
 msgstr ""
 
@@ -951,6 +952,9 @@ msgid "Temperature: {}{}"
 msgstr ""
 
 msgid "Temperature: {}°C"
+msgstr ""
+
+msgid "Test Wetter.de Maps"
 msgstr ""
 
 msgid "Thanks {thanks} and other friends for suggestions and testing"

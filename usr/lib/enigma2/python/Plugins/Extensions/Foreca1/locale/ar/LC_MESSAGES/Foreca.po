@@ -1008,6 +1008,10 @@ msgid "Temperature: {}°C"
 msgstr "درجة الحرارة: {}°م"
 
 #, fuzzy
+msgid "Test Wetter.de Maps"
+msgstr "خرائط الطقس"
+
+#, fuzzy
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "شكرًا @Orlandox والأصدقاء الآخرين على الاقتراحات والاختبار"
 

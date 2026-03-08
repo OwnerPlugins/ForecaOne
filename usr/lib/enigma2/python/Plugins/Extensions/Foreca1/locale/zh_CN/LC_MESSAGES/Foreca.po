@@ -988,6 +988,10 @@ msgid "Temperature: {}°C"
 msgstr "温度: {}°C"
 
 #, fuzzy
+msgid "Test Wetter.de Maps"
+msgstr "菜单-天气图"
+
+#, fuzzy
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "感谢@Orlandox和其他朋友的建议和测试"
 

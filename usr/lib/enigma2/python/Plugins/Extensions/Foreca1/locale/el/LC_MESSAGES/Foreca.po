@@ -975,6 +975,10 @@ msgstr "Θερμοκρασία: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Θερμοκρασία: {}°C"
 
+#, fuzzy
+msgid "Test Wetter.de Maps"
+msgstr "Χάρτες καιρού"
+
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr ""
 

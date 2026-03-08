@@ -1040,6 +1040,10 @@ msgstr ""
 msgid "Temperature: {}°C"
 msgstr ""
 
+#, fuzzy
+msgid "Test Wetter.de Maps"
+msgstr "Weather Radar"
+
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr ""
 
