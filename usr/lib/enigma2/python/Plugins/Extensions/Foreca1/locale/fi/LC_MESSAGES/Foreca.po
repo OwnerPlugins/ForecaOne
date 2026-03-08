@@ -972,6 +972,10 @@ msgstr "Lämpötila: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Lämpötila: {}°C"
 
+#, fuzzy
+msgid "Test Wetter.de Maps"
+msgstr "Sääkartat"
+
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Kiitos {thanks} ja muut ystävät ehdotuksista ja testaamisesta"
 
@@ -1206,8 +1210,8 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
-msgid "7 Day Forecast"
-msgstr "7 päivän ennuste"
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 päivän ennuste"
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "Kuva %(current)d/%(total)d"

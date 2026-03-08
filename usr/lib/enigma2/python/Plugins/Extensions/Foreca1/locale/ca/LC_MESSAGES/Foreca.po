@@ -1042,6 +1042,10 @@ msgstr "Temperatura"
 msgid "Temperature: {}°C"
 msgstr "Temperatura"
 
+#, fuzzy
+msgid "Test Wetter.de Maps"
+msgstr "Mapes meteorològics"
+
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr ""
 
