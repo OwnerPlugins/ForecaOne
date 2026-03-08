@@ -35,10 +35,10 @@
     <ePixmap position="713,293" size="33,33" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/uva_detail.png" zPosition="10" scale="1" />
 
     <!-- Button icons -->
-    <widget source="key_red" render="Label" position="123,554" size="200,40" font="Regular;21" backgroundColor="red" foregroundColor="white" halign="center" valign="center" zPosition="3" />
-    <widget source="key_green" render="Label" position="323,554" size="200,40" font="Regular;21" backgroundColor="green" foregroundColor="white" halign="center" valign="center" zPosition="3" />
-    <widget source="key_yellow" render="Label" position="523,554" size="200,40" font="Regular;21" backgroundColor="#dada0b" foregroundColor="white" halign="center" valign="center" zPosition="3" />
-    <widget source="key_blue" render="Label" position="723,554" size="200,40" font="Regular;21" backgroundColor="#80ff" foregroundColor="white" halign="center" valign="center" zPosition="3" />
+    <widget source="key_red" render="Label" position="123,554" size="200,40" font="Regular;21" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="323,554" size="200,40" font="Regular;21" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="523,554" size="200,40" font="Regular;21" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="723,554" size="200,40" font="Regular;21" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
 
     <!-- Background plates -->
     <widget name="background_plate" position="12,12" backgroundColor="#ff9632" size="1042,609" zPosition="1" cornerRadius="42" />

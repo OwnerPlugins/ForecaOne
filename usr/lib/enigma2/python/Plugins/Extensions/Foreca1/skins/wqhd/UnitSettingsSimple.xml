@@ -11,7 +11,7 @@
     <!-- Button icons -->
     <widget source="key_red" render="Label" position="67,800" size="240,67" font="Regular;43" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <widget source="key_green" render="Label" position="307,800" size="240,67" font="Regular;43" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
-    <widget source="key_yellow" render="Label" position="547,800" size="240,67" font="Regular;43" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="547,800" size="240,67" font="Regular;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
     <widget source="key_blue" render="Label" position="787,800" size="240,67" font="Regular;43" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <!-- Background plates -->
     <widget name="background_plate" position="28,22" backgroundColor="#ff9632" size="1411,891" zPosition="1" cornerRadius="32"/>

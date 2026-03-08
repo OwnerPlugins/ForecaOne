@@ -7,7 +7,7 @@
     <!-- Button icons -->
     <widget source="key_red" render="Label" position="50,600" size="180,50" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <widget source="key_green" render="Label" position="230,600" size="180,50" font="Regular;32" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
-    <widget source="key_yellow" render="Label" position="410,600" size="180,50" font="Regular;32" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="410,600" size="180,50" font="Regular;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
     <widget source="key_blue" render="Label" position="590,600" size="180,50" font="Regular;32" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <!-- Background plates -->
     <widget name="background_plate" position="21,16" backgroundColor="#ff9632" size="1058,668" zPosition="1" cornerRadius="32"/>

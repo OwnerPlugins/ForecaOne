@@ -52,7 +52,7 @@
     <widget source="key_ok" render="Label" position="55,832" size="300,60" font="Regular;32" backgroundColor="#9b9797" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
     <widget source="key_red" render="Label" position="355,832" size="300,60" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
     <widget source="key_green" render="Label" position="655,832" size="300,60" font="Regular;32" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_yellow" render="Label" position="955,832" size="300,60" font="Regular;32" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="955,832" size="300,60" font="Regular;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
     <widget source="key_blue" render="Label" position="1255,832" size="300,60" font="Regular;32" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
     <!-- Button icons -->
     <eLabel text="▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤" position="516,765" size="400,42" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa" />

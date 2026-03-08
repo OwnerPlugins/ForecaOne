@@ -3,7 +3,7 @@
     <!-- Button widgets top -->
     <widget source="key_red" render="Label" position="480,80" size="400,80" font="Regular;43" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <widget source="key_green" render="Label" position="883,80" size="400,80" font="Regular;43" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
-    <widget source="key_yellow" render="Label" position="1280,80" size="400,80" font="Regular;43" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="1280,80" size="400,80" font="Regular;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
     <widget source="key_blue" render="Label" position="1680,80" size="400,80" font="Regular;43" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <widget source="key_ok" render="Label" position="79,80" size="400,80" font="Regular;43" backgroundColor="#9b9797" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <!-- Separators -->

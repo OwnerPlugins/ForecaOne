@@ -17,7 +17,7 @@
     <!-- Button icons -->
     <widget source="key_red" render="Label" position="760,580" size="180,50" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <widget source="key_green" render="Label" position="940,630" size="180,50" font="Regular;32" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
-    <widget source="key_yellow" render="Label" position="760,630" size="180,50" font="Regular;32" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
+    <widget source="key_yellow" render="Label" position="760,630" size="180,50" font="Regular;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3"/>
     <widget source="key_blue" render="Label" position="940,580" size="180,50" font="Regular;32" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3"/>
     <!-- Button icons -->
     <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="689,721" size="469,50" font="Regular;38" halign="center" valign="center" zPosition="3" transparent="1" foregroundColor="#aaaaaa"/>

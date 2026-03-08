@@ -8,7 +8,7 @@
     <!-- Button icons -->
     <widget source="key_red" render="Label" position="65,985" size="220,35" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
     <widget source="key_green" render="Label" position="285,985" size="220,35" font="Regular;32" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
-    <widget source="key_yellow" render="Label" position="505,985" size="220,35" font="Regular;32" backgroundColor="#dada0b" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
+    <widget source="key_yellow" render="Label" position="505,985" size="220,35" font="Regular;32" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="5" />
     <widget source="key_blue" render="Label" position="725,985" size="220,35" font="Regular;32" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
     <!-- map image -->
     <widget name="image" position="46,90" size="1830,890" zPosition="10" scale="1" />
