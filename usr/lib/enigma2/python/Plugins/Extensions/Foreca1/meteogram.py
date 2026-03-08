@@ -7,7 +7,7 @@
 import datetime
 from json import loads, JSONDecodeError
 from os.path import exists, join
-from os import makedirs
+from os import makedirs, listdir, remove
 import requests
 
 from enigma import getDesktop, ePoint
@@ -18,6 +18,7 @@ from Screens.HelpMenu import HelpableScreen
 from Components.ActionMap import HelpableActionMap
 from Components.Pixmap import Pixmap
 from Components.Label import Label
+
 
 from . import (
     _,
@@ -203,23 +204,16 @@ class MeteogramView(Screen, HelpableScreen):
         apply_global_theme(self)
 
     def cleanup_temp_files(self):
-        """Removes the temporary folder and all SVG files inside it."""
-        import shutil
         if exists(TEMP_DIR):
             try:
-                shutil.rmtree(TEMP_DIR)
+                for f in listdir(TEMP_DIR):
+                    if f.startswith('foreca_temp_curve.svg') or f.startswith('rainbar_'):
+                        file_path = join(TEMP_DIR, f)
+                        remove(file_path)
                 if DEBUG:
-                    print(f"[Meteogram] Cleaned folder {TEMP_DIR}")
+                    print(f"[Meteogram] Cleaned temporary SVG files from {TEMP_DIR}")
             except Exception as e:
-                print(f"[Meteogram] Error cleaning {TEMP_DIR}: {e}")
-        """
-        if exists(DBG_DIR):
-            try:
-                shutil.rmtree(DBG_DIR)
-                print(f"[Meteogram] Cleaned folder {DBG_DIR}")
-            except Exception as e:
-                print(f"[Meteogram] Error cleaning {DBG_DIR}: {e}")
-        """
+                print(f"[Meteogram] Error cleaning temp files: {e}")
 
     def fetch_data(self):
         """Download the detailed forecast page and extract JSON data."""
