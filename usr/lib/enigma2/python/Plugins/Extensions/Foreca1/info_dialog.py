@@ -33,8 +33,8 @@ class InfoDialog(Screen, HelpableScreen):
         self['version_label'] = Label(
             _('Foreca One Weather and Forecast ver. %s') % VERSION)
         self['mod_label'] = Label(
-            _('Thanks {thanks} and other friends for suggestions and testing').format(thanks=THANKS)
-        )
+            _('Thanks {thanks} and other friends for suggestions and testing').format(
+                thanks=THANKS))
         IA = '%s\n%s' % (IDEAS, _AUTHOR_)
         self['author_label'] = Label(
             _('Original design and idea by %s') % IA
