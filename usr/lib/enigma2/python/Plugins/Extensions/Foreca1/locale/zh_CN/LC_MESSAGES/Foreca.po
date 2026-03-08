@@ -227,8 +227,24 @@ msgstr ""
 msgid "Dewpoint {}°C"
 msgstr ""
 
+#, fuzzy
+msgid "Dewpoint: %d%s"
+msgstr "露点温度"
+
+#, fuzzy
+msgid "Dewpoint: %s°C"
+msgstr "露点温度"
+
+#, fuzzy
+msgid "Dewpoint: N/A"
+msgstr "露点温度"
+
 msgid "Distance {} km"
 msgstr "距离: {}千米"
+
+#, fuzzy
+msgid "Distance: %s m"
+msgstr "距离: {}米"
 
 msgid "Distance: {} m"
 msgstr "距离: {}米"
@@ -308,6 +324,18 @@ msgstr ""
 msgid "Feels like {}{}"
 msgstr ""
 
+#, fuzzy
+msgid "Feels like: %d%s"
+msgstr "体感:"
+
+#, fuzzy
+msgid "Feels like: %s°C"
+msgstr "体感： {} °C"
+
+#, fuzzy
+msgid "Feels like: N/A"
+msgstr "体感:"
+
 msgid "Feels like: {}"
 msgstr ""
 
@@ -344,7 +372,8 @@ msgstr "Foreca One站： {}站附近({})"
 msgid "Foreca One Weather Forecast"
 msgstr "Foreca One天气预报"
 
-msgid "Foreca One Weather and Forecast"
+#, fuzzy
+msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One天气和预报"
 
 msgid "Foreca One | Map {}"
@@ -406,6 +435,10 @@ msgstr "小时详情"
 
 msgid "Humidity"
 msgstr "湿度"
+
+#, fuzzy
+msgid "Humidity: %s%%"
+msgstr "空气湿度: {}%"
 
 msgid "Humidity: {}%"
 msgstr "空气湿度: {}%"
@@ -734,6 +767,18 @@ msgstr "按红色键进行旧的分组搜索"
 msgid "Pressure"
 msgstr "压 力"
 
+#, fuzzy
+msgid "Pressure: %s"
+msgstr "气压: {}"
+
+#, fuzzy
+msgid "Pressure: %s hPa"
+msgstr "气压: {} hPa"
+
+#, fuzzy
+msgid "Pressure: N/A"
+msgstr "气压: {}"
+
 msgid "Pressure: {}"
 msgstr "气压: {}"
 
@@ -899,6 +944,18 @@ msgstr "温度"
 msgid "Temperature"
 msgstr "CPU温度"
 
+#, fuzzy
+msgid "Temperature: %d%s"
+msgstr "温度: {}"
+
+#, fuzzy
+msgid "Temperature: %s°C"
+msgstr "温度: {}°C"
+
+#, fuzzy
+msgid "Temperature: N/A"
+msgstr "温度: {}"
+
 msgid "Temperature: {}"
 msgstr "温度: {}"
 
@@ -908,7 +965,8 @@ msgstr "温度: {}{}"
 msgid "Temperature: {}°C"
 msgstr "温度: {}°C"
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
+#, fuzzy
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
 msgstr "感谢@Orlandox和其他朋友的建议和测试"
 
 msgid "Thin upper cloud"
@@ -995,6 +1053,10 @@ msgstr "很高"
 msgid "Visibility"
 msgstr "能见度"
 
+#, fuzzy
+msgid "Visibility: %s m"
+msgstr "能见度： {}米"
+
 msgid "Visibility: {} m"
 msgstr "能见度： {}米"
 
@@ -1060,6 +1122,17 @@ msgstr ""
 
 msgid "Wind speed: {:.1f} {}"
 msgstr ""
+
+msgid "Wind: %d %s %s"
+msgstr ""
+
+#, fuzzy
+msgid "Wind: %s km/h %s"
+msgstr "风速： {}千米/时{}"
+
+#, fuzzy
+msgid "Wind: N/A"
+msgstr "风速: {}"
 
 msgid "Wind: {}"
 msgstr "风速: {}"
@@ -1127,9 +1200,6 @@ msgstr "黄色-分配给收藏夹2\n"
 #~ msgid "Blue"
 #~ msgstr "蓝色"
 
-#~ msgid "Dewpoint"
-#~ msgstr "露点温度"
-
 #~ msgid "Distance"
 #~ msgstr "距离"
 
@@ -1153,9 +1223,6 @@ msgstr "黄色-分配给收藏夹2\n"
 
 #~ msgid "E"
 #~ msgstr "东"
-
-#~ msgid "Feels like:"
-#~ msgstr "体感:"
 
 #~ msgid "Foreca 1 Live Maps (API)"
 #~ msgstr "Foreca 1实时地图(API)"

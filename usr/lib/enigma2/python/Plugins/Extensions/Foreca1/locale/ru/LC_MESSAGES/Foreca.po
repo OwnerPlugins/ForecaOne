@@ -238,8 +238,21 @@ msgstr ""
 msgid "Dewpoint {}°C"
 msgstr ""
 
+msgid "Dewpoint: %d%s"
+msgstr ""
+
+msgid "Dewpoint: %s°C"
+msgstr ""
+
+msgid "Dewpoint: N/A"
+msgstr ""
+
 #, fuzzy
 msgid "Distance {} km"
+msgstr "Расстояние"
+
+#, fuzzy
+msgid "Distance: %s m"
 msgstr "Расстояние"
 
 #, fuzzy
@@ -330,6 +343,18 @@ msgid "Feels like {}{}"
 msgstr "Ощущается как"
 
 #, fuzzy
+msgid "Feels like: %d%s"
+msgstr "Ощущается как"
+
+#, fuzzy
+msgid "Feels like: %s°C"
+msgstr "Ощущается как"
+
+#, fuzzy
+msgid "Feels like: N/A"
+msgstr "Ощущается как"
+
+#, fuzzy
 msgid "Feels like: {}"
 msgstr "Ощущается как"
 
@@ -376,7 +401,7 @@ msgid "Foreca One Weather Forecast"
 msgstr "Погода и прогноз Foreca 4"
 
 #, fuzzy
-msgid "Foreca One Weather and Forecast"
+msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Погода и прогноз Foreca 4"
 
 #, fuzzy
@@ -438,6 +463,10 @@ msgid "Hour Details"
 msgstr ""
 
 msgid "Humidity"
+msgstr "Влажность"
+
+#, fuzzy
+msgid "Humidity: %s%%"
 msgstr "Влажность"
 
 #, fuzzy
@@ -783,6 +812,18 @@ msgid "Pressure"
 msgstr "Давление"
 
 #, fuzzy
+msgid "Pressure: %s"
+msgstr "Давление"
+
+#, fuzzy
+msgid "Pressure: %s hPa"
+msgstr "Давление"
+
+#, fuzzy
+msgid "Pressure: N/A"
+msgstr "Давление"
+
+#, fuzzy
 msgid "Pressure: {}"
 msgstr "Давление"
 
@@ -957,6 +998,18 @@ msgid "Temperature"
 msgstr "Температура"
 
 #, fuzzy
+msgid "Temperature: %d%s"
+msgstr "Температура"
+
+#, fuzzy
+msgid "Temperature: %s°C"
+msgstr "Температура"
+
+#, fuzzy
+msgid "Temperature: N/A"
+msgstr "Температура"
+
+#, fuzzy
 msgid "Temperature: {}"
 msgstr "Температура"
 
@@ -968,7 +1021,7 @@ msgstr "Температура"
 msgid "Temperature: {}°C"
 msgstr "Температура"
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
 msgstr ""
 
 msgid "Thin upper cloud"
@@ -1061,6 +1114,10 @@ msgid "Visibility"
 msgstr ""
 
 #, fuzzy
+msgid "Visibility: %s m"
+msgstr "Расстояние"
+
+#, fuzzy
 msgid "Visibility: {} m"
 msgstr "Расстояние"
 
@@ -1131,6 +1188,16 @@ msgstr "Ветер"
 
 #, fuzzy
 msgid "Wind speed: {:.1f} {}"
+msgstr "Ветер"
+
+msgid "Wind: %d %s %s"
+msgstr ""
+
+msgid "Wind: %s km/h %s"
+msgstr ""
+
+#, fuzzy
+msgid "Wind: N/A"
 msgstr "Ветер"
 
 #, fuzzy
@@ -1220,10 +1287,6 @@ msgstr "• ЗЕЛЁНЫЙ для сохранения как Избранное
 #, fuzzy
 #~ msgid "Foreca 1 Weather Forecast"
 #~ msgstr "Прогноз Погоды в Фореке"
-
-#, fuzzy
-#~ msgid "Feels like:"
-#~ msgstr "Ощущается как"
 
 #, fuzzy
 #~ msgid "Humidity:"

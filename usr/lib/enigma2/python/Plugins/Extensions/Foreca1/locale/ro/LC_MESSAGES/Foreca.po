@@ -230,7 +230,19 @@ msgstr ""
 msgid "Dewpoint {}°C"
 msgstr ""
 
+msgid "Dewpoint: %d%s"
+msgstr ""
+
+msgid "Dewpoint: %s°C"
+msgstr ""
+
+msgid "Dewpoint: N/A"
+msgstr ""
+
 msgid "Distance {} km"
+msgstr ""
+
+msgid "Distance: %s m"
 msgstr ""
 
 msgid "Distance: {} m"
@@ -311,6 +323,15 @@ msgstr ""
 msgid "Feels like {}{}"
 msgstr ""
 
+msgid "Feels like: %d%s"
+msgstr ""
+
+msgid "Feels like: %s°C"
+msgstr ""
+
+msgid "Feels like: N/A"
+msgstr ""
+
 msgid "Feels like: {}"
 msgstr ""
 
@@ -347,7 +368,7 @@ msgstr ""
 msgid "Foreca One Weather Forecast"
 msgstr ""
 
-msgid "Foreca One Weather and Forecast"
+msgid "Foreca One Weather and Forecast ver. %s"
 msgstr ""
 
 msgid "Foreca One | Map {}"
@@ -408,6 +429,9 @@ msgid "Hour Details"
 msgstr ""
 
 msgid "Humidity"
+msgstr ""
+
+msgid "Humidity: %s%%"
 msgstr ""
 
 msgid "Humidity: {}%"
@@ -737,6 +761,15 @@ msgstr ""
 msgid "Pressure"
 msgstr ""
 
+msgid "Pressure: %s"
+msgstr ""
+
+msgid "Pressure: %s hPa"
+msgstr ""
+
+msgid "Pressure: N/A"
+msgstr ""
+
 msgid "Pressure: {}"
 msgstr ""
 
@@ -902,6 +935,15 @@ msgstr ""
 msgid "Temperature"
 msgstr ""
 
+msgid "Temperature: %d%s"
+msgstr ""
+
+msgid "Temperature: %s°C"
+msgstr ""
+
+msgid "Temperature: N/A"
+msgstr ""
+
 msgid "Temperature: {}"
 msgstr ""
 
@@ -911,7 +953,7 @@ msgstr ""
 msgid "Temperature: {}°C"
 msgstr ""
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
 msgstr ""
 
 msgid "Thin upper cloud"
@@ -998,6 +1040,9 @@ msgstr ""
 msgid "Visibility"
 msgstr ""
 
+msgid "Visibility: %s m"
+msgstr ""
+
 msgid "Visibility: {} m"
 msgstr ""
 
@@ -1062,6 +1107,15 @@ msgid "Wind speed {}"
 msgstr ""
 
 msgid "Wind speed: {:.1f} {}"
+msgstr ""
+
+msgid "Wind: %d %s %s"
+msgstr ""
+
+msgid "Wind: %s km/h %s"
+msgstr ""
+
+msgid "Wind: N/A"
 msgstr ""
 
 msgid "Wind: {}"
