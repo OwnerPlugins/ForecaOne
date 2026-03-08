@@ -8,14 +8,14 @@
     <widget name="current_time" position="810,194" size="200,80" zPosition="10" font="Regular;54" foregroundColor="#49bbff" backgroundColor="#00000000" transparent="1" valign="center" halign="center" />
 
     <!-- Button icons -->
-    <widget source="key_red" render="Label" position="1274,1320" size="267,47" font="Regular;43" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_green" render="Label" position="1540,1320" size="267,47" font="Regular;43" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
+    <widget source="key_red" render="Label" position="1274,1320" size="267,47" font="Regular;43" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="1540,1320" size="267,47" font="Regular;43" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
     <widget source="key_yellow" render="Label" position="1807,1320" size="267,47" font="Regular;43" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
-    <widget source="key_blue" render="Label" position="2074,1320" size="267,47" font="Regular;43" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_menu" render="Label" position="1540,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_info" render="Label" position="2074,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_help" render="Label" position="1807,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_ok" render="Label" position="1274,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="2074,1320" size="267,47" font="Regular;43" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_menu" render="Label" position="1540,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_info" render="Label" position="2074,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_help" render="Label" position="1807,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_ok" render="Label" position="1274,1367" size="267,47" font="Regular;43" backgroundColor="#92f1fc" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
     <!-- BACKGROUND PLATES -->
     <widget name="background_plate" size="2560,1440" zPosition="0" position="0,0" backgroundColor="#ff9632" cornerRadius="50" />
     <!-- Right side - Forecast section -->

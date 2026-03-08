@@ -1,11 +1,11 @@
 <screen name="CityPanel4" position="center,center" size="1280,720" title="Foreca 1 Select a city" flags="wfNoBorder" backgroundColor="#ff000000">
     <ePixmap position="861,101" size="267,57" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
     <!-- Button widgets top -->
-    <widget source="key_red" render="Label" position="350,35" size="200,40" font="Regular;21" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_green" render="Label" position="551,35" size="200,40" font="Regular;21" backgroundColor="#00ff00" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
+    <widget source="key_red" render="Label" position="350,35" size="200,40" font="Regular;21" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="551,35" size="200,40" font="Regular;21" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
     <widget source="key_yellow" render="Label" position="750,35" size="200,40" font="Regular;21" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
-    <widget source="key_blue" render="Label" position="950,35" size="200,40" font="Regular;21" backgroundColor="#0080ff" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
-    <widget source="key_ok" render="Label" position="149,35" size="200,40" font="Regular;21" backgroundColor="#9b9797" foregroundColor="#ffffff" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="950,35" size="200,40" font="Regular;21" backgroundColor="#0080ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_ok" render="Label" position="149,35" size="200,40" font="Regular;21" backgroundColor="#9b9797" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
     <!-- Separators -->
     <eLabel backgroundColor="#fe00" position="37,85" size="1204,3" zPosition="3" />
     <eLabel backgroundColor="#fe00" position="37,608" size="1204,2" zPosition="3" />
