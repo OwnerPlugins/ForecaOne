@@ -209,7 +209,7 @@ class ForecaStations(Screen, HelpableScreen):
 
         # Distance
         distance = station.get('distance', 'N/A')
-        self["distance"].setText(_("Distance: %s m") % distance)
+        self["distance"].setText(_("Distance: %s") % distance)
 
         # Temperature
         temp = station.get('temperature')
@@ -307,7 +307,7 @@ class ForecaStations(Screen, HelpableScreen):
                     'station',
                     _('Unknown'))))
         lines.append(
-            _("Distance: {} m").format(
+            _("Distance: {}").format(
                 station.get(
                     'distance',
                     'N/A')))
