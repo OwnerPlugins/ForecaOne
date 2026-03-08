@@ -207,71 +207,78 @@ class ForecaStations(Screen, HelpableScreen):
         station = selection[1]
         self["station_name"].setText(station.get('station', _('Unknown')))
 
-        # Distance (not converted, in meters)
+        # Distance
         distance = station.get('distance', 'N/A')
-        self["distance"].setText(f"{_('Distance')}: {distance}m")
+        self["distance"].setText(_("Distance: %s m") % distance)
 
         # Temperature
         temp = station.get('temperature')
         if temp is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(temp)
-            self["temperature"].setText(
-                f"{_('Temperature')}: {int(converted)}{unit}")
+            self["temperature"].setText(_("Temperature: %d%s") % (int(converted), unit))
         else:
-            self["temperature"].setText(
-                f"{_('Temperature')}: {temp}°C" if temp is not None else f"{_('Temperature')}: N/A")
+            if temp is not None:
+                self["temperature"].setText(_("Temperature: %s°C") % temp)
+            else:
+                self["temperature"].setText(_("Temperature: N/A"))
 
         # Dew point
         dew = station.get('dewpoint')
         if dew is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(dew)
-            self["dewpoint"].setText(
-                f"{_('Dewpoint')}: {int(converted)}{unit}")
+            self["dewpoint"].setText(_("Dewpoint: %d%s") % (int(converted), unit))
         else:
-            self["dewpoint"].setText(
-                f"{_('Dewpoint')}: {dew}°C" if dew is not None else f"{_('Dewpoint')}: N/A")
+            if dew is not None:
+                self["dewpoint"].setText(_("Dewpoint: %s°C") % dew)
+            else:
+                self["dewpoint"].setText(_("Dewpoint: N/A"))
 
-        # Visibility (in meters, not converted)
+        # Visibility
         vis = station.get('visibility', 'N/A')
-        self["visibility"].setText(f"{_('Visibility')}: {vis} m")
+        self["visibility"].setText(_("Visibility: %s m") % vis)
 
-        # Feels like temperature
+        # Feels like
         feels = station.get('feelsLikeTemp')
         if feels is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_temperature(feels)
-            self["feels_like"].setText(
-                f"{_('Feels like')}: {int(converted)}{unit}")
+            self["feels_like"].setText(_("Feels like: %d%s") % (int(converted), unit))
         else:
-            self["feels_like"].setText(
-                f"{_('Feels like')}: {feels}°C" if feels is not None else f"{_('Feels like')}: N/A")
+            if feels is not None:
+                self["feels_like"].setText(_("Feels like: %s°C") % feels)
+            else:
+                self["feels_like"].setText(_("Feels like: N/A"))
 
         # Humidity
         hum = station.get('relHumidity', 'N/A')
-        self["humidity"].setText(f"{_('Humidity')}: {hum}%")
+        self["humidity"].setText(_("Humidity: %s%%") % hum)
 
         # Pressure
         press = station.get('pressure')
         if press is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_pressure(press)
             if unit == 'inHg':
-                press_str = f"{converted:.2f} {unit}"
+                press_str = "%.2f %s" % (converted, unit)
             else:
-                press_str = f"{int(converted)} {unit}"
-            self["pressure"].setText(f"{_('Pressure')}: {press_str}")
+                press_str = "%d %s" % (int(converted), unit)
+            self["pressure"].setText(_("Pressure: %s") % press_str)
         else:
-            self["pressure"].setText(
-                f"{_('Pressure')}: {press} hPa" if press is not None else f"{_('Pressure')}: N/A")
+            if press is not None:
+                self["pressure"].setText(_("Pressure: %s hPa") % press)
+            else:
+                self["pressure"].setText(_("Pressure: N/A"))
 
         # Wind
         wind_speed = station.get('windSpeed')
         wind_dir = station.get('windDirString', '')
+
         if wind_speed is not None and self.unit_manager:
             converted, unit = self.unit_manager.convert_wind(wind_speed)
-            self["wind"].setText(
-                f"{_('Wind')}: {int(converted)} {unit} {wind_dir}")
+            self["wind"].setText(_("Wind: %d %s %s") % (int(converted), unit, wind_dir))
         else:
-            self["wind"].setText(
-                f"{_('Wind')}: {wind_speed} km/h {wind_dir}" if wind_speed is not None else f"{_('Wind')}: N/A")
+            if wind_speed is not None:
+                self["wind"].setText(_("Wind: %s km/h %s") % (wind_speed, wind_dir))
+            else:
+                self["wind"].setText(_("Wind: N/A"))
 
         self.apply_widget_colors(station)
 

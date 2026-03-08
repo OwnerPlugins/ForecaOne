@@ -8,8 +8,7 @@ import time
 import datetime
 from os.path import exists, join, isdir, basename
 from time import mktime, localtime
-from math import pi, cos, radians, sin  # , degrees, asin, atan2
-# import math
+from math import pi, cos, radians, sin
 from threading import Thread
 import requests
 
@@ -48,6 +47,7 @@ class MoonPhase:
         Maps the phase name and illumination percentage (0-100)
         to the icon index (0-100) according to your icon sequence.
         """
+
         # Indicative centers of the main phases
         phase_centers = {
             "New Moon": 0,
@@ -59,28 +59,37 @@ class MoonPhase:
             "Last Quarter": 75,
             "Waning Crescent": 87,
         }
+
         # Special cases with linear variation
         if phase_name == "New Moon":
             # Very close to 0% or 100%
             return 0 if illum_percent < 10 else 100
+
         elif phase_name == "Waxing Crescent":
             # illum from 0% to 50% -> icons from 0 to 25
             return int(illum_percent * 25 / 50)
+
         elif phase_name == "First Quarter":
             return 25
+
         elif phase_name == "Waxing Gibbous":
             # illum from 50% to 100% -> icons from 25 to 50
             return int(25 + (illum_percent - 50) * 25 / 50)
+
         elif phase_name == "Full Moon":
             return 50
+
         elif phase_name == "Waning Gibbous":
             # illum from 100% to 50% -> icons from 50 to 75
             return int(50 + (100 - illum_percent) * 25 / 50)
+
         elif phase_name == "Last Quarter":
             return 75
+
         elif phase_name == "Waning Crescent":
             # illum from 50% to 0% -> icons from 75 to 100
             return int(75 + (50 - illum_percent) * 25 / 50)
+
         else:
             # fallback to center
             return phase_centers.get(phase_name, 50)
@@ -88,87 +97,56 @@ class MoonPhase:
     # -------------------------------------------------------------------------
     # Precise lunar calculations (based on Meeus / external code)
     # -------------------------------------------------------------------------
+
     def _compute_lunar_data(self, jd):
         """
         Computes precise lunar data for a given Julian Day (geocentric).
+
         Returns a dictionary with:
             - illumination: percentage (0-100)
             - phase_name: string (e.g. "Waxing Crescent")
             - distance: Earth-Moon distance in km
-            - phase_value: (0-1) not really needed
+            - trend: +1 (waxing) or -1 (waning)
         """
-        # Julian centuries since J2000.0
+
         T = (jd - 2451545.0) / 36525.0
 
-        # Mean elements of the Moon (in degrees)
-        # Lm = 218.3164477 + 481267.88123421 * T - 0.0015786 * T * T + T * T * T / 538841 - T * T * T * T / 65194000
-        Dm = 297.8501921 + 445267.114034 * T - 0.0018819 * T * \
-            T + T * T * T / 545868 - T * T * T * T / 113065000
-        Ms = 357.5291092 + 35999.0502909 * T - 0.0001536 * T * T + T * T * T / 24490000
-        Mm = 134.9633964 + 477198.8675055 * T + 0.0087414 * \
-            T * T + T * T * T / 69699 - T * T * T * T / 14712000
-        Fm = 93.272095 + 483202.0175233 * T - 0.0036539 * T * \
-            T - T * T * T / 3526000 + T * T * T * T / 863310000
+        # Mean elements (degrees)
+        Dm = (
+            297.8501921
+            + 445267.114034 * T
+            - 0.0018819 * T * T
+            + T * T * T / 545868
+            - T * T * T * T / 113065000
+        )
 
-        # Correction for eccentricity of Earth's orbit
+        Ms = (
+            357.5291092
+            + 35999.0502909 * T
+            - 0.0001536 * T * T
+            + T * T * T / 24490000
+        )
+
+        Mm = (
+            134.9633964
+            + 477198.8675055 * T
+            + 0.0087414 * T * T
+            + T * T * T / 69699
+            - T * T * T * T / 14712000
+        )
+
+        Fm = (
+            93.272095
+            + 483202.0175233 * T
+            - 0.0036539 * T * T
+            - T * T * T / 3526000
+            + T * T * T * T / 863310000
+        )
+
+        # Eccentricity factor
         E = 1 - 0.002516 * T - 0.0000074 * T * T
-        """
-        # ---- Longitude correction (EL) ----
-        EL = (
-            6.289 * sin(radians(Mm))
-            + 1.274 * sin(radians(2 * Dm - Mm))
-            + 0.658 * sin(radians(2 * Dm))
-            + 0.214 * sin(radians(2 * Mm))
-            - 0.186 * sin(radians(Ms)) * E
-            - 0.114 * sin(radians(2 * Fm))
-            + 0.059 * sin(radians(2 * Dm - 2 * Mm))
-            + 0.057 * sin(radians(2 * Dm - Ms - Mm)) * E
-            + 0.053 * sin(radians(2 * Dm + Mm))
-            + 0.046 * sin(radians(2 * Dm - Ms)) * E
-            - 0.041 * sin(radians(Ms - Mm)) * E
-            - 0.035 * sin(radians(Dm))
-            - 0.030 * sin(radians(Ms + Mm)) * E
-            + 0.017 * sin(radians(2 * Ms))
-            + 0.016 * sin(radians(2 * Dm - 2 * Fm))
-            + 0.015 * sin(radians(2 * Dm - Mm - Fm))
-            + 0.011 * sin(radians(2 * Dm + Mm - 2 * Fm))
-            + 0.009 * sin(radians(2 * Dm + 2 * Mm - 2 * Fm))
-            + 0.007 * sin(radians(4 * Dm - Mm))
-            + 0.006 * sin(radians(4 * Dm - 2 * Mm))
-            + 0.005 * sin(radians(2 * Dm - 2 * Ms))
-            + 0.005 * sin(radians(4 * Dm))
-            + 0.004 * sin(radians(2 * Dm - 3 * Mm))
-            + 0.004 * sin(radians(2 * Fm - 2 * Dm))
-            + 0.004 * sin(radians(2 * Mm - 2 * Dm))
-            + 0.003 * sin(radians(2 * Mm - 2 * Fm))
-            + 0.003 * sin(radians(3 * Mm))
-            + 0.003 * sin(radians(4 * Dm - Mm - Ms))
-            + 0.002 * sin(radians(3 * Mm - 2 * Dm))
-            + 0.002 * sin(radians(2 * Dm - Mm + Ms))
-            + 0.002 * sin(radians(2 * Dm + Mm - Ms))
-            + 0.002 * sin(radians(3 * Dm))
-            + 0.001 * sin(radians(2 * Dm + 2 * Mm))
-            + 0.001 * sin(radians(3 * Mm + 2 * Dm))
-            + 0.001 * sin(radians(5 * Dm - Mm))
-            + 0.001 * sin(radians(2 * Dm - 3 * Mm + Ms))
-            + 0.001 * sin(radians(2 * Dm - 3 * Mm - Ms))
-        )
 
-        # ---- Latitude correction (EB) ----
-        EB = (
-            5.128 * sin(radians(Fm))
-            + 0.281 * sin(radians(Mm + Fm))
-            + 0.278 * sin(radians(Mm - Fm))
-            + 0.173 * sin(radians(2 * Dm - Fm))
-            + 0.055 * sin(radians(2 * Dm - Mm + Fm))
-            + 0.046 * sin(radians(2 * Dm - Mm - Fm))
-            + 0.033 * sin(radians(2 * Dm + Fm))
-            + 0.017 * sin(radians(2 * Mm + Fm))
-            + 0.009 * sin(radians(2 * Dm + Mm - Fm))
-            + 0.009 * sin(radians(2 * Mm - Fm))
-        )
-        """
-        # ---- Distance correction (ER) ----
+        # Distance correction (ER)
         ER = (
             -20.905355 * cos(radians(Mm))
             - 3.699111 * cos(radians(2 * Dm - Mm))
@@ -196,10 +174,10 @@ class MoonPhase:
             - 0.010445 * cos(radians(2 * Dm + 2 * Mm))
         )
 
-        # ---- Illumination and phase ----
-        # First compute the illumination angle IM
+        # Illumination angle IM (degrees)
         IM = (
-            180 - Dm
+            180
+            - Dm
             - 6.289 * sin(radians(Mm))
             + 2.100 * sin(radians(Ms)) * E
             - 1.274 * sin(radians(2 * Dm - Mm))
@@ -207,92 +185,92 @@ class MoonPhase:
             - 0.214 * sin(radians(2 * Mm))
             - 0.114 * sin(radians(Dm))
         )
-        # Normalize IM to [0,360)
+
         IM = IM % 360
         illumination = (1 + cos(radians(IM))) / 2 * 100
 
         # Distance in km
         distance = int(385000.56 + ER * 1000)
 
-        # Determine phase name based on illumination and trend
-        # We need the trend: compare illumination at two slightly different times
-        # Simpler: use the value of Dm to decide waxing/waning?
-        # In the original code they compared pha2 - pha1, but we can use Dm.
-        # Actually the phase name can be derived from illumination and the sign of the derivative.
-        # For simplicity, we use the same logic as in the original external code:
-        # They computed two illuminations at slightly different times (0.5 day apart) to get trend.
-        # We'll do the same.
-
-        # Compute illumination a little later (0.5 day)
+        # Trend (waxing/waning) by comparing illumination with a slightly later time
         jd2 = jd + 0.5
         T2 = (jd2 - 2451545.0) / 36525.0
-        # Recompute Dm2, Ms2, Mm2
-        Dm2 = 297.8501921 + 445267.114034 * T2 - 0.0018819 * T2 * \
-            T2 + T2 * T2 * T2 / 545868 - T2 * T2 * T2 * T2 / 113065000
-        Ms2 = 357.5291092 + 35999.0502909 * T2 - \
-            0.0001536 * T2 * T2 + T2 * T2 * T2 / 24490000
-        Mm2 = 134.9633964 + 477198.8675055 * T2 + 0.0087414 * T2 * \
-            T2 + T2 * T2 * T2 / 69699 - T2 * T2 * T2 * T2 / 14712000
-        IM2 = (180 -
-               Dm2 -
-               6.289 *
-               sin(radians(Mm2)) +
-               2.100 *
-               sin(radians(Ms2)) *
-               (1 -
-                0.002516 *
-                T2 -
-                0.0000074 *
-                T2 *
-                T2) -
-               1.274 *
-               sin(radians(2 *
-                           Dm2 -
-                           Mm2)) -
-               0.658 *
-               sin(radians(2 *
-                           Dm2)) -
-               0.214 *
-               sin(radians(2 *
-                           Mm2)) -
-               0.114 *
-               sin(radians(Dm2)))
+
+        Dm2 = (
+            297.8501921
+            + 445267.114034 * T2
+            - 0.0018819 * T2 * T2
+            + T2 * T2 * T2 / 545868
+            - T2 * T2 * T2 * T2 / 113065000
+        )
+
+        Ms2 = (
+            357.5291092
+            + 35999.0502909 * T2
+            - 0.0001536 * T2 * T2
+            + T2 * T2 * T2 / 24490000
+        )
+
+        Mm2 = (
+            134.9633964
+            + 477198.8675055 * T2
+            + 0.0087414 * T2 * T2
+            + T2 * T2 * T2 / 69699
+            - T2 * T2 * T2 * T2 / 14712000
+        )
+
+        IM2 = (
+            180
+            - Dm2
+            - 6.289 * sin(radians(Mm2))
+            + 2.100 * sin(radians(Ms2)) * (1 - 0.002516 * T2 - 0.0000074 * T2 * T2)
+            - 1.274 * sin(radians(2 * Dm2 - Mm2))
+            - 0.658 * sin(radians(2 * Dm2))
+            - 0.214 * sin(radians(2 * Mm2))
+            - 0.114 * sin(radians(Dm2))
+        )
+
         IM2 = IM2 % 360
         illum2 = (1 + cos(radians(IM2))) / 2 * 100
+
         trend = 1 if illum2 > illumination else -1
 
-        # Map illumination to phase name using the same intervals as in
-        # external code
-        if illumination <= 5:
+        # Phase name based on IM (more precise)
+        if IM < 20 or IM >= 340:
             phase_name = "New Moon"
-        elif illumination <= 50:
-            if trend == 1:
-                phase_name = "Waxing Crescent"
-            else:
-                phase_name = "Waning Crescent"
-        elif illumination <= 55:
-            if trend == 1:
-                phase_name = "First Quarter"
-            else:
-                phase_name = "Last Quarter"
-        elif illumination <= 95:
-            if trend == 1:
-                phase_name = "Waxing Gibbous"
-            else:
-                phase_name = "Waning Gibbous"
-        else:
+
+        elif IM < 70:
+            phase_name = "Waxing Crescent"
+
+        elif IM < 110:
+            phase_name = "First Quarter" if trend == 1 else "Last Quarter"
+
+        elif IM < 160:
+            phase_name = "Waxing Gibbous"
+
+        elif IM < 200:
             phase_name = "Full Moon"
 
+        elif IM < 250:
+            phase_name = "Waning Gibbous"
+
+        elif IM < 290:
+            phase_name = "Last Quarter" if trend == -1 else "First Quarter"
+
+        else:
+            phase_name = "Waning Crescent"
+
         return {
-            'illumination': illumination,
-            'phase_name': phase_name,
-            'distance': distance,
-            'trend': trend
+            "illumination": illumination,
+            "phase_name": phase_name,
+            "distance": distance,
+            "trend": trend,
         }
 
     # -------------------------------------------------------------------------
     # Original methods (simplified, now replaced by precise one for fallback)
     # -------------------------------------------------------------------------
+
     def _get_current_phase_value(self):
         # This method is kept for compatibility but not used in precise mode
         # We'll still use it if needed, but better to use precise.
@@ -410,25 +388,47 @@ class MoonPhase:
 
     def get_phase_info_for_jd(self, jd):
         """
-        Restituisce le informazioni lunari per un dato Julian Day.
-        Simile a get_phase_info() ma basato su jd specificato.
+        Returns lunar information for a given Julian Day.
+        Similar to get_phase_info() but based on the specified JD.
         """
         data = self._compute_lunar_data(jd)
         illumination = data['illumination']
-        name = data['phase_name']
+        phase_name = data['phase_name']  # already calculated in _compute_lunar_data
         distance = data['distance']
         trend = data['trend']
 
-        # Mappa illuminazione a icona (come in get_phase_info)
-        crescente = (trend == 1)
-        if crescente:
-            icon_number = int(round(illumination * 50 / 100))
-        else:
-            icon_number = int(round(50 + (100 - illumination) * 50 / 100))
-        if name == "New Moon":
+        # Map illumination to icon (0–100) linearly, with corrections for the main phases
+        # The icon must be consistent with the phase name.
+        if phase_name == "New Moon":
             icon_number = 0 if illumination < 10 else 100
-        elif name == "Full Moon":
+        elif phase_name == "Waxing Crescent":
+            # illumination from ~0 to 50% → icon from 0 to 25
+            icon_number = int(round(illumination * 25 / 50))
+        elif phase_name == "First Quarter":
+            icon_number = 25
+        elif phase_name == "Waxing Gibbous":
+            # illumination from ~50 to 100% → icon from 25 to 50
+            icon_number = int(round(25 + (illumination - 50) * 25 / 50))
+        elif phase_name == "Full Moon":
             icon_number = 50
+        elif phase_name == "Waning Gibbous":
+            # illumination from 100 to 50% → icon from 50 to 75
+            icon_number = int(round(50 + (100 - illumination) * 25 / 50))
+        elif phase_name == "Last Quarter":
+            icon_number = 75
+        elif phase_name == "Waning Crescent":
+            # illumination from 50 to 0% → icon from 75 to 100
+            icon_number = int(round(75 + (50 - illumination) * 25 / 50))
+        else:
+            # fallback (should not happen)
+            waxing = (trend == 1)
+            if waxing:
+                icon_number = int(round(illumination * 50 / 100))
+            else:
+                icon_number = int(round(50 + (100 - illumination) * 50 / 100))
+            icon_number = max(0, min(100, icon_number))
+
+        # Ensure the icon number stays within the 0–100 range
         icon_number = max(0, min(100, icon_number))
 
         icon_file = None
@@ -439,11 +439,12 @@ class MoonPhase:
 
         return {
             'illumination': illumination,
-            'name': name,
+            'name': phase_name,
             'distance': distance,
             'icon_number': icon_number,
             'icon_path': icon_file,
-            'jd': jd
+            'jd': jd,
+            'trend': trend
         }
 
     # -------------------------------------------------------------------------

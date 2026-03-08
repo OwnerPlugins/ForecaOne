@@ -28,13 +28,18 @@ class InfoDialog(Screen, HelpableScreen):
         self.setTitle(_("Info"))
         self.foreca_preview = foreca_preview
         self['version_label'] = Label(
-            _('Foreca One Weather and Forecast') + ' ver. ' + str(VERSION))
+            _('Foreca One Weather and Forecast ver. %s') % VERSION)
+
         self['author_label'] = Label(
-            _('Original design and idea by @Bauernbub\nRewrite by Lululla, 2026'))
+            _('Original design and idea by %(author)s\nRewrite by %(rewrite)s')) % {
+                'author': '@Bauernbub',
+                'rewrite': 'Lululla, 2026'
+        }
         self['mod_label'] = Label(
-            _("Thank's @Orlandox and other firends for suggestions and test"))
+            _("Thanks @Orlandox and other friends for suggestions and testing"))
+
         self['website_label'] = Label(
-            _('http://linuxsat-support.com\nhttp://www.corvoboys.org'))
+            'http://linuxsat-support.com\nhttp://www.corvoboys.org')
         self["background_plate"] = Label("")
         self["selection_overlay"] = Label("")
         self["actions"] = HelpableActionMap(

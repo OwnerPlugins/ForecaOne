@@ -40,6 +40,9 @@ msgstr "6 - Σήμερα + 6 ημέρες"
 msgid "7 - Today + 7 days"
 msgstr "7 - Σήμερα + 7 ημέρες"
 
+msgid "7 Day Forecast"
+msgstr "Πρόγνωση 7 ημερών"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Σήμερα + 8 ημέρες"
 
@@ -93,6 +96,9 @@ msgstr "Βέλγιο"
 
 msgid "Berlin"
 msgstr "Βερολίνο"
+
+msgid "Blue"
+msgstr "Μπλε"
 
 msgid "Blue - Home"
 msgstr "Μπλε - Αρχική"
@@ -229,8 +235,23 @@ msgstr "Σημείο δρόσου {}"
 msgid "Dewpoint {}°C"
 msgstr "Σημείο δρόσου {}°C"
 
+msgid "Dewpoint: %d%s"
+msgstr ""
+
+msgid "Dewpoint: %s°C"
+msgstr ""
+
+msgid "Dewpoint: N/A"
+msgstr ""
+
+msgid "Distance"
+msgstr "Απόσταση"
+
 msgid "Distance {} km"
 msgstr "Απόσταση {} χλμ"
+
+msgid "Distance: %s m"
+msgstr ""
 
 msgid "Distance: {} m"
 msgstr "Απόσταση: {} μ"
@@ -310,6 +331,15 @@ msgstr "Αίσθηση ως {}"
 msgid "Feels like {}{}"
 msgstr "Αίσθηση ως {}{}"
 
+msgid "Feels like: %d%s"
+msgstr ""
+
+msgid "Feels like: %s°C"
+msgstr ""
+
+msgid "Feels like: N/A"
+msgstr ""
+
 msgid "Feels like: {}"
 msgstr "Αίσθηση ως: {}"
 
@@ -346,8 +376,8 @@ msgstr "Σταθμοί: {} σταθμοί κοντά ({}) Foreca One"
 msgid "Foreca One Weather Forecast"
 msgstr "Πρόγνωση καιρού Foreca One"
 
-msgid "Foreca One Weather and Forecast"
-msgstr "Καιρός και πρόγνωση Foreca One"
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr ""
 
 msgid "Foreca One | Map {}"
 msgstr "Foreca One | Χάρτης {}"
@@ -357,6 +387,9 @@ msgstr "Βρέθηκαν %d πόλεις τοπικά για '%s'"
 
 msgid "Found %d cities online for '%s'"
 msgstr "Βρέθηκαν %d πόλεις online για '%s'"
+
+msgid "Found {} lunar phases"
+msgstr ""
 
 msgid "France"
 msgstr "Γαλλία"
@@ -376,6 +409,9 @@ msgstr "Μεγάλη Βρετανία"
 msgid "Greece"
 msgstr "Ελλάδα"
 
+msgid "Green"
+msgstr "Πράσινος"
+
 msgid "Green - Favorite 1"
 msgstr "Πράσινο - Αγαπημένο 1"
 
@@ -384,6 +420,9 @@ msgstr "Ριπές ανέμου {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Ριπές ανέμου: {:.1f} {}"
+
+msgid "HTML"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "Αμβούργο"
@@ -408,6 +447,9 @@ msgstr "Λεπτομέρειες ώρας"
 
 msgid "Humidity"
 msgstr "Υγρασία"
+
+msgid "Humidity: %s%%"
+msgstr ""
 
 msgid "Humidity: {}%"
 msgstr "Υγρασία: {}%"
@@ -465,6 +507,9 @@ msgstr "Πληκτρολόγιο"
 
 msgid "Last Quarter"
 msgstr "Τελευταίο τέταρτο"
+
+msgid "Last update"
+msgstr "Τελευταία ενημέρωση"
 
 msgid "Latvia"
 msgstr "Λετονία"
@@ -736,6 +781,15 @@ msgstr "Πατήστε το ΚΟΚΚΙΝΟ για νέα αναζήτηση"
 msgid "Pressure"
 msgstr "Πίεση"
 
+msgid "Pressure: %s"
+msgstr ""
+
+msgid "Pressure: %s hPa"
+msgstr ""
+
+msgid "Pressure: N/A"
+msgstr ""
+
 msgid "Pressure: {}"
 msgstr "Πίεση: {}"
 
@@ -765,6 +819,9 @@ msgstr "Πιθανότ. βροχής: Μ/Δ"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Βροχή: {:.1f} {}"
+
+msgid "Red"
+msgstr "Κόκκινος"
 
 msgid "Red - Color select"
 msgstr "Κόκκινο - Επιλογή χρώματος"
@@ -901,6 +958,15 @@ msgstr "Θερμοκρασία"
 msgid "Temperature"
 msgstr "Θερμοκρασία"
 
+msgid "Temperature: %d%s"
+msgstr ""
+
+msgid "Temperature: %s°C"
+msgstr ""
+
+msgid "Temperature: N/A"
+msgstr ""
+
 msgid "Temperature: {}"
 msgstr "Θερμοκρασία: {}"
 
@@ -910,8 +976,8 @@ msgstr "Θερμοκρασία: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Θερμοκρασία: {}°C"
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
-msgstr "Ευχαριστούμε τον @Orlandox και άλλους φίλους για τις προτάσεις και τις δοκιμές"
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
+msgstr ""
 
 msgid "Thin upper cloud"
 msgstr "Λεπτή ανώτερη νέφωση"
@@ -936,6 +1002,9 @@ msgstr "Δοκιμάστε διαφορετικό ζουμ ή στρώμα"
 
 msgid "Try different zoom or region"
 msgstr "Δοκιμάστε διαφορετικό ζουμ ή περιοχή"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "Δείκτης UV"
@@ -996,6 +1065,9 @@ msgstr "Πολύ υψηλή"
 
 msgid "Visibility"
 msgstr "Ορατότητα"
+
+msgid "Visibility: %s m"
+msgstr ""
 
 msgid "Visibility: {} m"
 msgstr "Ορατότητα: {} μ"
@@ -1063,6 +1135,15 @@ msgstr "Ταχύτητα ανέμου {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Ταχύτητα ανέμου: {:.1f} {}"
 
+msgid "Wind: %d %s %s"
+msgstr ""
+
+msgid "Wind: %s km/h %s"
+msgstr ""
+
+msgid "Wind: N/A"
+msgstr ""
+
 msgid "Wind: {}"
 msgstr "Άνεμος: {}"
 
@@ -1122,24 +1203,3 @@ msgstr "• Χρησιμοποιήστε τα βέλη για πλοήγηση\n
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2\n"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Πρόγνωση 7 ημερών"
-
-#~ msgid "Blue"
-#~ msgstr "Μπλε"
-
-#~ msgid "Dewpoint"
-#~ msgstr "Σημείο δρόσου"
-
-#~ msgid "Distance"
-#~ msgstr "Απόσταση"
-
-#~ msgid "Green"
-#~ msgstr "Πράσινος"
-
-#~ msgid "Last update"
-#~ msgstr "Τελευταία ενημέρωση"
-
-#~ msgid "Red"
-#~ msgstr "Κόκκινος"

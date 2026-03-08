@@ -42,6 +42,10 @@ msgstr "6 - Dnes + 6 dnů"
 msgid "7 - Today + 7 days"
 msgstr "7 - Dnes + 7 dnů"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Předpověď"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Dnes + 8 dnů"
 
@@ -97,6 +101,9 @@ msgstr "Belgie"
 
 msgid "Berlin"
 msgstr "Berlín"
+
+msgid "Blue"
+msgstr "Modrá"
 
 msgid "Blue - Home"
 msgstr "Modrá - Domov"
@@ -240,8 +247,24 @@ msgstr ""
 msgid "Dewpoint {}°C"
 msgstr ""
 
+msgid "Dewpoint: %d%s"
+msgstr ""
+
+msgid "Dewpoint: %s°C"
+msgstr ""
+
+msgid "Dewpoint: N/A"
+msgstr ""
+
+msgid "Distance"
+msgstr "Vzdálenost"
+
 #, fuzzy
 msgid "Distance {} km"
+msgstr "Vzdálenost"
+
+#, fuzzy
+msgid "Distance: %s m"
 msgstr "Vzdálenost"
 
 #, fuzzy
@@ -332,6 +355,18 @@ msgid "Feels like {}{}"
 msgstr "Pocitová teplota"
 
 #, fuzzy
+msgid "Feels like: %d%s"
+msgstr "Pocitová teplota"
+
+#, fuzzy
+msgid "Feels like: %s°C"
+msgstr "Pocitová teplota"
+
+#, fuzzy
+msgid "Feels like: N/A"
+msgstr "Pocitová teplota"
+
+#, fuzzy
 msgid "Feels like: {}"
 msgstr "Pocitová teplota"
 
@@ -378,7 +413,7 @@ msgid "Foreca One Weather Forecast"
 msgstr "Foreca 4 Počasí a předpověď"
 
 #, fuzzy
-msgid "Foreca One Weather and Forecast"
+msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca 4 Počasí a předpověď"
 
 #, fuzzy
@@ -390,6 +425,10 @@ msgstr ""
 
 msgid "Found %d cities online for '%s'"
 msgstr ""
+
+#, fuzzy
+msgid "Found {} lunar phases"
+msgstr "Načítání blízkých stanic..."
 
 msgid "France"
 msgstr "Francie"
@@ -409,6 +448,9 @@ msgstr "Velká Británie"
 msgid "Greece"
 msgstr "Řecko"
 
+msgid "Green"
+msgstr "Zelená"
+
 msgid "Green - Favorite 1"
 msgstr "Zelená - Oblíbené 1"
 
@@ -417,6 +459,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburk"
@@ -440,6 +485,10 @@ msgid "Hour Details"
 msgstr ""
 
 msgid "Humidity"
+msgstr "Vlhkost"
+
+#, fuzzy
+msgid "Humidity: %s%%"
 msgstr "Vlhkost"
 
 #, fuzzy
@@ -499,6 +548,9 @@ msgstr "Klávesnice"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Poslední aktualizace"
+
+msgid "Last update"
 msgstr "Poslední aktualizace"
 
 msgid "Latvia"
@@ -785,6 +837,18 @@ msgid "Pressure"
 msgstr "Tlak"
 
 #, fuzzy
+msgid "Pressure: %s"
+msgstr "Tlak"
+
+#, fuzzy
+msgid "Pressure: %s hPa"
+msgstr "Tlak"
+
+#, fuzzy
+msgid "Pressure: N/A"
+msgstr "Tlak"
+
+#, fuzzy
 msgid "Pressure: {}"
 msgstr "Tlak"
 
@@ -817,6 +881,9 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
+
+msgid "Red"
+msgstr "Červená"
 
 msgid "Red - Color select"
 msgstr "Červená - Výběr barvy"
@@ -959,6 +1026,18 @@ msgid "Temperature"
 msgstr "Teplota"
 
 #, fuzzy
+msgid "Temperature: %d%s"
+msgstr "Teplota"
+
+#, fuzzy
+msgid "Temperature: %s°C"
+msgstr "Teplota"
+
+#, fuzzy
+msgid "Temperature: N/A"
+msgstr "Teplota"
+
+#, fuzzy
 msgid "Temperature: {}"
 msgstr "Teplota"
 
@@ -970,7 +1049,7 @@ msgstr "Teplota"
 msgid "Temperature: {}°C"
 msgstr "Teplota"
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
 msgstr ""
 
 msgid "Thin upper cloud"
@@ -995,6 +1074,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1061,6 +1143,10 @@ msgstr ""
 
 msgid "Visibility"
 msgstr ""
+
+#, fuzzy
+msgid "Visibility: %s m"
+msgstr "Vzdálenost"
 
 #, fuzzy
 msgid "Visibility: {} m"
@@ -1135,6 +1221,16 @@ msgstr "Vítr"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Vítr"
 
+msgid "Wind: %d %s %s"
+msgstr ""
+
+msgid "Wind: %s km/h %s"
+msgstr ""
+
+#, fuzzy
+msgid "Wind: N/A"
+msgstr "Vítr"
+
 #, fuzzy
 msgid "Wind: {}"
 msgstr "Vítr"
@@ -1197,34 +1293,8 @@ msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ŽLUTÁ pro uložení jako Oblíbené 2\n"
 
 #, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Předpověď"
-
-#~ msgid "Blue"
-#~ msgstr "Modrá"
-
-#~ msgid "Distance"
-#~ msgstr "Vzdálenost"
-
-#~ msgid "Green"
-#~ msgstr "Zelená"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Poslední aktualizace"
-
-#~ msgid "Red"
-#~ msgstr "Červená"
-
-#, fuzzy
 #~ msgid "Foreca 1 Weather Forecast"
 #~ msgstr "Předpověď počasí Foreca"
-
-#, fuzzy
-#~ msgid "Feels like:"
-#~ msgstr "Pocitová teplota"
 
 #, fuzzy
 #~ msgid "Humidity:"

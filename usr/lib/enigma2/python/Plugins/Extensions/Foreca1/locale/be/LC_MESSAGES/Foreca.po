@@ -41,6 +41,9 @@ msgstr ""
 msgid "7 - Today + 7 days"
 msgstr ""
 
+msgid "7 Day Forecast"
+msgstr ""
+
 msgid "8 - Today + 8 days"
 msgstr ""
 
@@ -93,6 +96,9 @@ msgid "Belgium"
 msgstr ""
 
 msgid "Berlin"
+msgstr ""
+
+msgid "Blue"
 msgstr ""
 
 msgid "Blue - Home"
@@ -230,7 +236,22 @@ msgstr ""
 msgid "Dewpoint {}°C"
 msgstr ""
 
+msgid "Dewpoint: %d%s"
+msgstr ""
+
+msgid "Dewpoint: %s°C"
+msgstr ""
+
+msgid "Dewpoint: N/A"
+msgstr ""
+
+msgid "Distance"
+msgstr ""
+
 msgid "Distance {} km"
+msgstr ""
+
+msgid "Distance: %s m"
 msgstr ""
 
 msgid "Distance: {} m"
@@ -311,6 +332,15 @@ msgstr ""
 msgid "Feels like {}{}"
 msgstr ""
 
+msgid "Feels like: %d%s"
+msgstr ""
+
+msgid "Feels like: %s°C"
+msgstr ""
+
+msgid "Feels like: N/A"
+msgstr ""
+
 msgid "Feels like: {}"
 msgstr ""
 
@@ -347,7 +377,7 @@ msgstr ""
 msgid "Foreca One Weather Forecast"
 msgstr ""
 
-msgid "Foreca One Weather and Forecast"
+msgid "Foreca One Weather and Forecast ver. %s"
 msgstr ""
 
 msgid "Foreca One | Map {}"
@@ -357,6 +387,9 @@ msgid "Found %d cities locally for '%s'"
 msgstr ""
 
 msgid "Found %d cities online for '%s'"
+msgstr ""
+
+msgid "Found {} lunar phases"
 msgstr ""
 
 msgid "France"
@@ -377,6 +410,9 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
+msgid "Green"
+msgstr ""
+
 msgid "Green - Favorite 1"
 msgstr ""
 
@@ -384,6 +420,9 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
+msgstr ""
+
+msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -408,6 +447,9 @@ msgid "Hour Details"
 msgstr ""
 
 msgid "Humidity"
+msgstr ""
+
+msgid "Humidity: %s%%"
 msgstr ""
 
 msgid "Humidity: {}%"
@@ -465,6 +507,9 @@ msgid "Keyboard"
 msgstr ""
 
 msgid "Last Quarter"
+msgstr ""
+
+msgid "Last update"
 msgstr ""
 
 msgid "Latvia"
@@ -737,6 +782,15 @@ msgstr ""
 msgid "Pressure"
 msgstr ""
 
+msgid "Pressure: %s"
+msgstr ""
+
+msgid "Pressure: %s hPa"
+msgstr ""
+
+msgid "Pressure: N/A"
+msgstr ""
+
 msgid "Pressure: {}"
 msgstr ""
 
@@ -765,6 +819,9 @@ msgid "Rain prob.: N/A"
 msgstr ""
 
 msgid "Rain: {:.1f} {}"
+msgstr ""
+
+msgid "Red"
 msgstr ""
 
 msgid "Red - Color select"
@@ -902,6 +959,15 @@ msgstr ""
 msgid "Temperature"
 msgstr ""
 
+msgid "Temperature: %d%s"
+msgstr ""
+
+msgid "Temperature: %s°C"
+msgstr ""
+
+msgid "Temperature: N/A"
+msgstr ""
+
 msgid "Temperature: {}"
 msgstr ""
 
@@ -911,7 +977,7 @@ msgstr ""
 msgid "Temperature: {}°C"
 msgstr ""
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
 msgstr ""
 
 msgid "Thin upper cloud"
@@ -936,6 +1002,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -996,6 +1065,9 @@ msgid "Very high"
 msgstr ""
 
 msgid "Visibility"
+msgstr ""
+
+msgid "Visibility: %s m"
 msgstr ""
 
 msgid "Visibility: {} m"
@@ -1062,6 +1134,15 @@ msgid "Wind speed {}"
 msgstr ""
 
 msgid "Wind speed: {:.1f} {}"
+msgstr ""
+
+msgid "Wind: %d %s %s"
+msgstr ""
+
+msgid "Wind: %s km/h %s"
+msgstr ""
+
+msgid "Wind: N/A"
 msgstr ""
 
 msgid "Wind: {}"

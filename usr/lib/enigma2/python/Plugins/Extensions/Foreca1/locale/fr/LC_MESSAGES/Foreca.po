@@ -42,6 +42,10 @@ msgstr "6 - Aujourd'hui + 6 jours"
 msgid "7 - Today + 7 days"
 msgstr "7 - Aujourd'hui + 7 jours"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Prévisions"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Aujourd'hui + 8 jours"
 
@@ -97,6 +101,9 @@ msgstr "Belgique"
 
 msgid "Berlin"
 msgstr "Berlin"
+
+msgid "Blue"
+msgstr "Bleu"
 
 msgid "Blue - Home"
 msgstr "Bleu - Accueil"
@@ -240,8 +247,24 @@ msgstr ""
 msgid "Dewpoint {}°C"
 msgstr ""
 
+msgid "Dewpoint: %d%s"
+msgstr ""
+
+msgid "Dewpoint: %s°C"
+msgstr ""
+
+msgid "Dewpoint: N/A"
+msgstr ""
+
+msgid "Distance"
+msgstr "Distance"
+
 #, fuzzy
 msgid "Distance {} km"
+msgstr "Distance"
+
+#, fuzzy
+msgid "Distance: %s m"
 msgstr "Distance"
 
 #, fuzzy
@@ -332,6 +355,18 @@ msgid "Feels like {}{}"
 msgstr "Ressenti"
 
 #, fuzzy
+msgid "Feels like: %d%s"
+msgstr "Ressenti"
+
+#, fuzzy
+msgid "Feels like: %s°C"
+msgstr "Ressenti"
+
+#, fuzzy
+msgid "Feels like: N/A"
+msgstr "Ressenti"
+
+#, fuzzy
 msgid "Feels like: {}"
 msgstr "Ressenti"
 
@@ -378,7 +413,7 @@ msgid "Foreca One Weather Forecast"
 msgstr "Météo et prévisions Foreca 4"
 
 #, fuzzy
-msgid "Foreca One Weather and Forecast"
+msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Météo et prévisions Foreca 4"
 
 #, fuzzy
@@ -390,6 +425,10 @@ msgstr ""
 
 msgid "Found %d cities online for '%s'"
 msgstr ""
+
+#, fuzzy
+msgid "Found {} lunar phases"
+msgstr "Chargement des stations à proximité..."
 
 msgid "France"
 msgstr "France"
@@ -409,6 +448,9 @@ msgstr "Grande-Bretagne"
 msgid "Greece"
 msgstr "Grèce"
 
+msgid "Green"
+msgstr "Vert"
+
 msgid "Green - Favorite 1"
 msgstr "Vert - Favori 1"
 
@@ -417,6 +459,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hambourg"
@@ -440,6 +485,10 @@ msgid "Hour Details"
 msgstr ""
 
 msgid "Humidity"
+msgstr "Humidité"
+
+#, fuzzy
+msgid "Humidity: %s%%"
 msgstr "Humidité"
 
 #, fuzzy
@@ -499,6 +548,9 @@ msgstr "Clavier"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Dernière mise à jour"
+
+msgid "Last update"
 msgstr "Dernière mise à jour"
 
 msgid "Latvia"
@@ -785,6 +837,18 @@ msgid "Pressure"
 msgstr "Pression"
 
 #, fuzzy
+msgid "Pressure: %s"
+msgstr "Pression"
+
+#, fuzzy
+msgid "Pressure: %s hPa"
+msgstr "Pression"
+
+#, fuzzy
+msgid "Pressure: N/A"
+msgstr "Pression"
+
+#, fuzzy
 msgid "Pressure: {}"
 msgstr "Pression"
 
@@ -817,6 +881,9 @@ msgstr ""
 
 msgid "Rain: {:.1f} {}"
 msgstr ""
+
+msgid "Red"
+msgstr "Rouge"
 
 msgid "Red - Color select"
 msgstr "Rouge - Sélection de couleur"
@@ -959,6 +1026,18 @@ msgid "Temperature"
 msgstr "Température"
 
 #, fuzzy
+msgid "Temperature: %d%s"
+msgstr "Température"
+
+#, fuzzy
+msgid "Temperature: %s°C"
+msgstr "Température"
+
+#, fuzzy
+msgid "Temperature: N/A"
+msgstr "Température"
+
+#, fuzzy
 msgid "Temperature: {}"
 msgstr "Température"
 
@@ -970,7 +1049,7 @@ msgstr "Température"
 msgid "Temperature: {}°C"
 msgstr "Température"
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
 msgstr ""
 
 msgid "Thin upper cloud"
@@ -995,6 +1074,9 @@ msgid "Try different zoom or layer"
 msgstr ""
 
 msgid "Try different zoom or region"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1061,6 +1143,10 @@ msgstr ""
 
 msgid "Visibility"
 msgstr ""
+
+#, fuzzy
+msgid "Visibility: %s m"
+msgstr "Distance"
 
 #, fuzzy
 msgid "Visibility: {} m"
@@ -1135,6 +1221,16 @@ msgstr "Vent"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Vent"
 
+msgid "Wind: %d %s %s"
+msgstr ""
+
+msgid "Wind: %s km/h %s"
+msgstr ""
+
+#, fuzzy
+msgid "Wind: N/A"
+msgstr "Vent"
+
 #, fuzzy
 msgid "Wind: {}"
 msgstr "Vent"
@@ -1197,34 +1293,8 @@ msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• JAUNE pour enregistrer comme Favori 2\n"
 
 #, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Prévisions"
-
-#~ msgid "Blue"
-#~ msgstr "Bleu"
-
-#~ msgid "Distance"
-#~ msgstr "Distance"
-
-#~ msgid "Green"
-#~ msgstr "Vert"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Dernière mise à jour"
-
-#~ msgid "Red"
-#~ msgstr "Rouge"
-
-#, fuzzy
 #~ msgid "Foreca 1 Weather Forecast"
 #~ msgstr "Prévisions météo Foreca"
-
-#, fuzzy
-#~ msgid "Feels like:"
-#~ msgstr "Ressenti"
 
 #, fuzzy
 #~ msgid "Humidity:"

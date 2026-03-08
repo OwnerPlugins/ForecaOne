@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:54+0100\n"
-"PO-Revision-Date: 2026-03-07 19:48+0100\n"
+"PO-Revision-Date: 2026-03-08 10:03+0100\n"
 "Last-Translator: Orlandox\n"
 "Language-Team: Orlandox\n"
 "Language: fi\n"
@@ -41,6 +41,9 @@ msgstr "6 - Tänään + 6 päivää"
 
 msgid "7 - Today + 7 days"
 msgstr "7 - Tänään + 7 päivää"
+
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
 
 msgid "8 - Today + 8 days"
 msgstr "8 - Tänään + 8 päivää"
@@ -95,6 +98,9 @@ msgstr "Belgia"
 
 msgid "Berlin"
 msgstr "Berliini"
+
+msgid "Blue"
+msgstr "Sininen"
 
 msgid "Blue - Home"
 msgstr "Sininen - Koti"
@@ -231,8 +237,23 @@ msgstr "Kastepiste {}"
 msgid "Dewpoint {}°C"
 msgstr "Kastepiste {}°C"
 
+msgid "Dewpoint: %d%s"
+msgstr ""
+
+msgid "Dewpoint: %s°C"
+msgstr ""
+
+msgid "Dewpoint: N/A"
+msgstr ""
+
+msgid "Distance"
+msgstr "Etäisyys"
+
 msgid "Distance {} km"
 msgstr "Etäisyys {} km"
+
+msgid "Distance: %s m"
+msgstr ""
 
 msgid "Distance: {} m"
 msgstr "Etäisyys: {} m"
@@ -312,6 +333,15 @@ msgstr "Tuntuu kuin {}"
 msgid "Feels like {}{}"
 msgstr "Tuntuu kuin {}{}"
 
+msgid "Feels like: %d%s"
+msgstr ""
+
+msgid "Feels like: %s°C"
+msgstr ""
+
+msgid "Feels like: N/A"
+msgstr ""
+
 msgid "Feels like: {}"
 msgstr "Tuntuu kuin: {}"
 
@@ -348,8 +378,8 @@ msgstr "Foreca One asemat: {} asemaa lähellä ({})"
 msgid "Foreca One Weather Forecast"
 msgstr "Foreca One sääennuste"
 
-msgid "Foreca One Weather and Forecast"
-msgstr "Foreca One sää ja ennuste"
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr ""
 
 msgid "Foreca One | Map {}"
 msgstr "Foreca One | Kartta {}"
@@ -359,6 +389,9 @@ msgstr "Löytyi %d kaupunkia paikallisesti hakusanalla '%s'"
 
 msgid "Found %d cities online for '%s'"
 msgstr "Löytyi %d kaupunkia verkosta hakusanalla '%s'"
+
+msgid "Found {} lunar phases"
+msgstr ""
 
 msgid "France"
 msgstr "Ranska"
@@ -378,6 +411,9 @@ msgstr "Iso-Britannia"
 msgid "Greece"
 msgstr "Kreikka"
 
+msgid "Green"
+msgstr "Vihreä"
+
 msgid "Green - Favorite 1"
 msgstr "Vihreä - Suosikki 1"
 
@@ -386,6 +422,9 @@ msgstr "Tuulen puuska {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Tuulen puuska: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hampuri"
@@ -410,6 +449,9 @@ msgstr "Tuntikohtaiset tiedot"
 
 msgid "Humidity"
 msgstr "Kosteus"
+
+msgid "Humidity: %s%%"
+msgstr ""
 
 msgid "Humidity: {}%"
 msgstr "Kosteus: {}%"
@@ -467,6 +509,9 @@ msgstr "Näppäimistö"
 
 msgid "Last Quarter"
 msgstr "Viimeinen neljännes"
+
+msgid "Last update"
+msgstr "Viimeisin päivitys"
 
 msgid "Latvia"
 msgstr "Latvia"
@@ -738,6 +783,15 @@ msgstr "Paina PUNAISTA hakeaksesi uudelleen"
 msgid "Pressure"
 msgstr "Ilmanpaine"
 
+msgid "Pressure: %s"
+msgstr ""
+
+msgid "Pressure: %s hPa"
+msgstr ""
+
+msgid "Pressure: N/A"
+msgstr ""
+
 msgid "Pressure: {}"
 msgstr "Ilmanpaine: {}"
 
@@ -767,6 +821,9 @@ msgstr "Sateen todennäköisyys: N/A"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Sade: {:.1f} {}"
+
+msgid "Red"
+msgstr "Punainen"
 
 msgid "Red - Color select"
 msgstr "Punainen - Valitse väri"
@@ -903,6 +960,15 @@ msgstr "Lämpötila"
 msgid "Temperature"
 msgstr "Lämpötila"
 
+msgid "Temperature: %d%s"
+msgstr ""
+
+msgid "Temperature: %s°C"
+msgstr ""
+
+msgid "Temperature: N/A"
+msgstr ""
+
 msgid "Temperature: {}"
 msgstr "Lämpötila: {}"
 
@@ -912,8 +978,8 @@ msgstr "Lämpötila: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Lämpötila: {}°C"
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
-msgstr "Kiitos @Orlandox ja muut ystävät ehdotuksista ja testeistä."
+msgid "Thanks @Orlandox and other friends for suggestions and testing"
+msgstr ""
 
 msgid "Thin upper cloud"
 msgstr "Ohutta yläpilveä"
@@ -938,6 +1004,9 @@ msgstr "Kokeile eri zoomausta tai tasoa"
 
 msgid "Try different zoom or region"
 msgstr "Kokeile eri zoomausta tai aluetta"
+
+msgid "UV"
+msgstr "UV"
 
 msgid "UV Index"
 msgstr "UV-indeksi"
@@ -998,6 +1067,9 @@ msgstr "Erittäin korkea"
 
 msgid "Visibility"
 msgstr "Näkyvyys"
+
+msgid "Visibility: %s m"
+msgstr ""
 
 msgid "Visibility: {} m"
 msgstr "Näkyvyys: {} m"
@@ -1065,6 +1137,15 @@ msgstr "Tuulen nopeus {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Tuulen nopeus: {:.1f} {}"
 
+msgid "Wind: %d %s %s"
+msgstr ""
+
+msgid "Wind: %s km/h %s"
+msgstr ""
+
+msgid "Wind: N/A"
+msgstr ""
+
 msgid "Wind: {}"
 msgstr "Tuuli: {}"
 
@@ -1124,75 +1205,3 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
-
-#~ msgid "Blue"
-#~ msgstr "Sininen"
-
-#~ msgid "Dewpoint"
-#~ msgstr "Kastepiste"
-
-#~ msgid "Distance"
-#~ msgstr "Etäisyys"
-
-#~ msgid "Green"
-#~ msgstr "Vihreä"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Viimeisin päivitys"
-
-#~ msgid "Red"
-#~ msgstr "Punainen"
-
-#~ msgid "UV"
-#~ msgstr "UV"
-
-#~ msgid "Precip"
-#~ msgstr "Sateen todennäköisyys"
-
-#~ msgid "Feels like:"
-#~ msgstr "Tuntuu kuin:"
-
-#~ msgid "Humidity:"
-#~ msgstr "Kosteus:"
-
-#~ msgid "Rain"
-#~ msgstr "Sade"
-
-#~ msgid "AQI"
-#~ msgstr "AQI"
-
-#~ msgid "Created by @Bauernbub"
-#~ msgstr "Luonut @Bauernbub"
-
-#~ msgid "Foreca | Region {} | Unit System: {}"
-#~ msgstr "Foreca | Alue {} | Yksikköjärjestelmä: {}"
-
-#~ msgid "Rain:"
-#~ msgstr "Sade:"
-
-#~ msgid "mod. Lululla, 2026"
-#~ msgstr "muok. Lululla, 2026"
-
-#~ msgid "Color selection"
-#~ msgstr "Värin valinta"
-
-#~ msgid "stations nearby"
-#~ msgstr "asemat lähellä"
-
-#~ msgid "No data available"
-#~ msgstr "Dataa ei ole saatavilla"
-
-#~ msgid "Precipitations:"
-#~ msgstr "Sateen todennäköisyys:"
-
-#~ msgid "Min: {}°C, Max: {}°C"
-#~ msgstr "Min: {}°C, Max: {}°C"
-
-#~ msgid "km/h"
-#~ msgstr "km/h"

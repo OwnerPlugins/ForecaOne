@@ -191,7 +191,7 @@ class MoonCalendar(Screen, HelpableScreen):
         )
 
     def show_details(self):
-        idx = self["menu"].getCurrentIndex()
+        idx = self["menu"].getSelectedIndex()
         if idx <= 0 or idx > len(self.phases):
             return
         phase = self.phases[idx - 1]
