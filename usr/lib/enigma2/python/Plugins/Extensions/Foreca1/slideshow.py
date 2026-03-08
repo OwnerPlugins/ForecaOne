@@ -10,6 +10,7 @@ import requests
 from threading import Thread
 
 from enigma import eTimer, ePicLoad
+from datetime import datetime, timedelta
 
 from Screens.Screen import Screen
 from Screens.HelpMenu import HelpableScreen
@@ -190,18 +191,30 @@ class ForecaSlideshow(Screen, HelpableScreen):
         self.show_image(0)
 
     def show_image(self, index):
-        """Show specific image"""
+        """Show a specific image with the corresponding day label."""
         if 0 <= index < self.total_images:
             self.current_image = index
             cache_file = join(
                 WETTERKONTOR_CACHE,
                 f"{self.region_code}_{index}.jpg")
-
             if exists(cache_file):
+                # Calculate the corresponding day (today + index days)
+                target_date = datetime.now() + timedelta(days=index)
+
+                # Determine the day text
+                if index == 0:
+                    day_str = _("Today")
+                elif index == 1:
+                    day_str = _("Tomorrow")
+                else:
+                    day_str = target_date.strftime("%d.%m")
+
+                # Update the info label
                 self["info"].setText(
-                    _("Image %(current)d/%(total)d") % {
+                    _("Image %(current)d/%(total)d – %(day)s") % {
                         "current": index + 1,
-                        "total": self.total_images
+                        "total": self.total_images,
+                        "day": day_str
                     }
                 )
                 self.picload.startDecode(cache_file)
@@ -230,13 +243,22 @@ class ForecaSlideshow(Screen, HelpableScreen):
         self.show_image(prev_idx)
 
     def play_pause(self):
-        """Pause or resume the slideshow"""
         if self.is_playing:
             self.slide_timer.stop()
+            # Recalculate the date for the current image
+            target_date = datetime.now() + timedelta(days=self.current_image)
+            if self.current_image == 0:
+                day_str = _("Today")
+            elif self.current_image == 1:
+                day_str = _("Tomorrow")
+            else:
+                day_str = target_date.strftime("%d.%m")
+
             self["info"].setText(
-                _("Image %(current)d/%(total)d (Paused)") % {
+                _("Image %(current)d/%(total)d – %(day)s (Paused)") % {
                     "current": self.current_image + 1,
-                    "total": self.total_images
+                    "total": self.total_images,
+                    "day": day_str
                 }
             )
             self["playButton"].show()
@@ -244,10 +266,20 @@ class ForecaSlideshow(Screen, HelpableScreen):
             self.is_playing = False
         else:
             self.slide_timer.start(self.slide_interval)
+            # When playback resumes, restore the normal text
+            target_date = datetime.now() + timedelta(days=self.current_image)
+            if self.current_image == 0:
+                day_str = _("Today")
+            elif self.current_image == 1:
+                day_str = _("Tomorrow")
+            else:
+                day_str = target_date.strftime("%d.%m")
+
             self["info"].setText(
-                _("Image %(current)d/%(total)d") % {
+                _("Image %(current)d/%(total)d – %(day)s") % {
                     "current": self.current_image + 1,
-                    "total": self.total_images
+                    "total": self.total_images,
+                    "day": day_str
                 }
             )
             self["playButton"].hide()
