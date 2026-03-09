@@ -50,6 +50,9 @@ msgstr "9 - Today + 9 days"
 msgid "API credentials not configured."
 msgstr ""
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr ""
 
@@ -288,6 +291,9 @@ msgstr ""
 msgid "Error displaying map"
 msgstr ""
 
+msgid "Error loading data"
+msgstr ""
+
 msgid "Error loading maps. Check connection."
 msgstr ""
 
@@ -370,6 +376,9 @@ msgstr "Feels like"
 msgid "Feels like: {}°C"
 msgstr "Feels like"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr ""
 
@@ -414,6 +423,12 @@ msgid "Found %d cities locally for '%s'"
 msgstr ""
 
 msgid "Found %d cities online for '%s'"
+msgstr ""
+
+msgid "Frame →"
+msgstr ""
+
+msgid "Frame: {}"
 msgstr ""
 
 msgid "France"
@@ -552,6 +567,10 @@ msgid "Loading nearby stations..."
 msgstr ""
 
 #, fuzzy
+msgid "Loading tiles..."
+msgstr "Foreca 4"
+
+#, fuzzy
 msgid "Loading weekly forecast..."
 msgstr "Foreca 4"
 
@@ -576,6 +595,9 @@ msgstr ""
 msgid "Map & Tiles Loaded"
 msgstr ""
 
+msgid "Map loaded"
+msgstr ""
+
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Color selection"
@@ -589,6 +611,9 @@ msgstr ""
 #, fuzzy
 msgid "Menu - Settings"
 msgstr "Menu - Select transparency"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteogram"
@@ -648,6 +673,10 @@ msgid "Next Image"
 msgstr "Down - Next page"
 
 #, fuzzy
+msgid "Next frame"
+msgstr "Down - Next page"
+
+#, fuzzy
 msgid "Next page"
 msgstr "Down - Next page"
 
@@ -682,6 +711,9 @@ msgid "No stations found"
 msgstr ""
 
 msgid "No tiles available"
+msgstr ""
+
+msgid "No tiles downloaded"
 msgstr ""
 
 msgid "North Africa"
@@ -855,6 +887,10 @@ msgstr "Up - Previous page"
 
 #, fuzzy
 msgid "Previous Image"
+msgstr "Up - Previous page"
+
+#, fuzzy
+msgid "Previous frame"
 msgstr "Up - Previous page"
 
 #, fuzzy
@@ -1295,6 +1331,9 @@ msgstr ""
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr ""
 
+msgid "← Frame"
+msgstr ""
+
 #, fuzzy
 #~ msgid "7 Day Forecast"
 #~ msgstr "Foreca 4"
@@ -1302,18 +1341,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Distance"
 #~ msgstr "Wind"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Foreca 4"
-
-#, fuzzy
-#~ msgid "Next frame"
-#~ msgstr "Down - Next page"
-
-#, fuzzy
-#~ msgid "Previous frame"
-#~ msgstr "Up - Previous page"
 
 #, fuzzy
 #~ msgid "Wetter.de Maps Test"

@@ -49,6 +49,9 @@ msgstr "9 - Σήμερα + 9 ημέρες"
 msgid "API credentials not configured."
 msgstr "Τα διαπιστευτήρια API δεν έχουν ρυθμιστεί."
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr "AQI {}"
 
@@ -277,6 +280,10 @@ msgstr "Σφάλμα κατά τον έλεγχο για ενημερώσεις.
 msgid "Error displaying map"
 msgstr "Σφάλμα εμφάνισης χάρτη"
 
+#, fuzzy
+msgid "Error loading data"
+msgstr "Σφάλμα εμφάνισης χάρτη"
+
 msgid "Error loading maps. Check connection."
 msgstr "Σφάλμα φόρτωσης χαρτών. Ελέγξτε τη σύνδεση."
 
@@ -346,6 +353,9 @@ msgstr "Αίσθηση ως: {}{}"
 msgid "Feels like: {}°C"
 msgstr "Αίσθηση ως: {}°C"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr "Φινλανδία"
 
@@ -384,6 +394,14 @@ msgstr "Βρέθηκαν %d πόλεις τοπικά για '%s'"
 
 msgid "Found %d cities online for '%s'"
 msgstr "Βρέθηκαν %d πόλεις online για '%s'"
+
+#, fuzzy
+msgid "Frame →"
+msgstr "Ημερομηνία: {}"
+
+#, fuzzy
+msgid "Frame: {}"
+msgstr "Ημερομηνία: {}"
 
 msgid "France"
 msgstr "Γαλλία"
@@ -516,6 +534,10 @@ msgstr "Φόρτωση σεληνιακών φάσεων..."
 msgid "Loading nearby stations..."
 msgstr "Φόρτωση κοντινών σταθμών..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Λήψη πλακιδίων..."
+
 msgid "Loading weekly forecast..."
 msgstr "Φόρτωση εβδομαδιαίας πρόγνωσης..."
 
@@ -540,6 +562,10 @@ msgstr "Λουξεμβούργο"
 msgid "Map & Tiles Loaded"
 msgstr "Ο χάρτης & τα πλακίδια φορτώθηκαν"
 
+#, fuzzy
+msgid "Map loaded"
+msgstr "Ο χάρτης & τα πλακίδια φορτώθηκαν"
+
 msgid "Map {} selected"
 msgstr "Επιλέχθηκε ο χάρτης {}"
 
@@ -551,6 +577,9 @@ msgstr "Menu"
 
 msgid "Menu - Settings"
 msgstr "Μενού - Ρυθμίσεις"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "Μετεωρογράφημα"
@@ -606,6 +635,10 @@ msgstr "Επόμενη"
 msgid "Next Image"
 msgstr "Επόμενη εικόνα"
 
+#, fuzzy
+msgid "Next frame"
+msgstr "Επόμενη σελίδα"
+
 msgid "Next page"
 msgstr "Επόμενη σελίδα"
 
@@ -637,6 +670,10 @@ msgid "No stations found"
 msgstr "Δεν βρέθηκαν σταθμοί"
 
 msgid "No tiles available"
+msgstr "Δεν υπάρχουν διαθέσιμα πλακάκια"
+
+#, fuzzy
+msgid "No tiles downloaded"
 msgstr "Δεν υπάρχουν διαθέσιμα πλακάκια"
 
 msgid "North Africa"
@@ -800,6 +837,10 @@ msgstr "Προηγούμενη"
 
 msgid "Previous Image"
 msgstr "Προηγούμενη εικόνα"
+
+#, fuzzy
+msgid "Previous frame"
+msgstr "Προηγούμενη σελίδα"
 
 msgid "Previous page"
 msgstr "Προηγούμενη σελίδα"
@@ -1218,6 +1259,9 @@ msgstr "• Χρησιμοποιήστε τα βέλη για πλοήγηση\n
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2\n"
 
+msgid "← Frame"
+msgstr ""
+
 #~ msgid "7 Day Forecast"
 #~ msgstr "Πρόγνωση 7 ημερών"
 
@@ -1228,39 +1272,11 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 #~ msgid "Distance"
 #~ msgstr "Απόσταση"
 
-#, fuzzy
-#~ msgid "Error loading data"
-#~ msgstr "Σφάλμα εμφάνισης χάρτη"
-
-#, fuzzy
-#~ msgid "Frame: {}"
-#~ msgstr "Ημερομηνία: {}"
-
 #~ msgid "Green"
 #~ msgstr "Πράσινος"
 
 #~ msgid "Last update"
 #~ msgstr "Τελευταία ενημέρωση"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Λήψη πλακιδίων..."
-
-#, fuzzy
-#~ msgid "Map loaded"
-#~ msgstr "Ο χάρτης & τα πλακίδια φορτώθηκαν"
-
-#, fuzzy
-#~ msgid "Next frame"
-#~ msgstr "Επόμενη σελίδα"
-
-#, fuzzy
-#~ msgid "No tiles downloaded"
-#~ msgstr "Δεν υπάρχουν διαθέσιμα πλακάκια"
-
-#, fuzzy
-#~ msgid "Previous frame"
-#~ msgstr "Προηγούμενη σελίδα"
 
 #~ msgid "Red"
 #~ msgstr "Κόκκινος"

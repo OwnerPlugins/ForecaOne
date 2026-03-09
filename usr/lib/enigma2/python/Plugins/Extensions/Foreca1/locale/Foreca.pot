@@ -25,6 +25,7 @@
 
 
 
+
 msgid "0 - Today"
 msgstr ""
 
@@ -56,6 +57,9 @@ msgid "9 - Today + 9 days"
 msgstr ""
 
 msgid "API credentials not configured."
+msgstr ""
+
+msgid "API error"
 msgstr ""
 
 msgid "AQI {}"
@@ -283,6 +287,9 @@ msgstr ""
 msgid "Error displaying map"
 msgstr ""
 
+msgid "Error loading data"
+msgstr ""
+
 msgid "Error loading maps. Check connection."
 msgstr ""
 
@@ -352,6 +359,9 @@ msgstr ""
 msgid "Feels like: {}°C"
 msgstr ""
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr ""
 
@@ -389,6 +399,12 @@ msgid "Found %d cities locally for '%s'"
 msgstr ""
 
 msgid "Found %d cities online for '%s'"
+msgstr ""
+
+msgid "Frame →"
+msgstr ""
+
+msgid "Frame: {}"
 msgstr ""
 
 msgid "France"
@@ -520,6 +536,9 @@ msgstr ""
 msgid "Loading nearby stations..."
 msgstr ""
 
+msgid "Loading tiles..."
+msgstr ""
+
 msgid "Loading weekly forecast..."
 msgstr ""
 
@@ -544,6 +563,9 @@ msgstr ""
 msgid "Map & Tiles Loaded"
 msgstr ""
 
+msgid "Map loaded"
+msgstr ""
+
 msgid "Map {} selected"
 msgstr ""
 
@@ -554,6 +576,9 @@ msgid "Menu"
 msgstr ""
 
 msgid "Menu - Settings"
+msgstr ""
+
+msgid "Merge failed"
 msgstr ""
 
 msgid "Meteogram"
@@ -610,6 +635,9 @@ msgstr ""
 msgid "Next Image"
 msgstr ""
 
+msgid "Next frame"
+msgstr ""
+
 msgid "Next page"
 msgstr ""
 
@@ -641,6 +669,9 @@ msgid "No stations found"
 msgstr ""
 
 msgid "No tiles available"
+msgstr ""
+
+msgid "No tiles downloaded"
 msgstr ""
 
 msgid "North Africa"
@@ -803,6 +834,9 @@ msgid "Previous"
 msgstr ""
 
 msgid "Previous Image"
+msgstr ""
+
+msgid "Previous frame"
 msgstr ""
 
 msgid "Previous page"
@@ -1214,4 +1248,7 @@ msgid "• Use arrow keys to navigate\n"
 msgstr ""
 
 msgid "• YELLOW to save as Favorite 2\n"
+msgstr ""
+
+msgid "← Frame"
 msgstr ""

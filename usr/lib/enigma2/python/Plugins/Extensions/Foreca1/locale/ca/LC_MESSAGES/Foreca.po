@@ -52,6 +52,9 @@ msgstr "9 - Avui + 9 dies"
 msgid "API credentials not configured."
 msgstr "1. No hi ha credencials API configurades\n"
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr ""
 
@@ -292,6 +295,10 @@ msgstr "Error en desar el favorit!"
 msgid "Error displaying map"
 msgstr "Error en desar el favorit!"
 
+#, fuzzy
+msgid "Error loading data"
+msgstr "Error en desar el favorit!"
+
 msgid "Error loading maps. Check connection."
 msgstr "Error en carregar mapes. Comprova la connexió."
 
@@ -372,6 +379,9 @@ msgstr "Sensació tèrmica"
 msgid "Feels like: {}°C"
 msgstr "Sensació tèrmica"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr "Finlàndia"
 
@@ -419,6 +429,14 @@ msgstr ""
 
 msgid "Found %d cities online for '%s'"
 msgstr ""
+
+#, fuzzy
+msgid "Frame →"
+msgstr "Més ràpid: {}s"
+
+#, fuzzy
+msgid "Frame: {}"
+msgstr "Més ràpid: {}s"
 
 msgid "France"
 msgstr "França"
@@ -553,6 +571,10 @@ msgstr "Carregant estacions properes..."
 msgid "Loading nearby stations..."
 msgstr "Carregant estacions properes..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Descarregant imatges..."
+
 msgid "Loading weekly forecast..."
 msgstr "Carregant pronòstic setmanal..."
 
@@ -577,6 +599,9 @@ msgstr "Luxemburg"
 msgid "Map & Tiles Loaded"
 msgstr ""
 
+msgid "Map loaded"
+msgstr ""
+
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Cap ciutat seleccionada"
@@ -589,6 +614,9 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menú - Configuració"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteograma"
@@ -646,6 +674,10 @@ msgstr "Següent"
 msgid "Next Image"
 msgstr "Pàgina següent"
 
+#, fuzzy
+msgid "Next frame"
+msgstr "Pàgina següent"
+
 msgid "Next page"
 msgstr "Pàgina següent"
 
@@ -681,6 +713,10 @@ msgstr "No s'han trobat estacions"
 
 #, fuzzy
 msgid "No tiles available"
+msgstr "No hi ha data disponible"
+
+#, fuzzy
+msgid "No tiles downloaded"
 msgstr "No hi ha data disponible"
 
 msgid "North Africa"
@@ -855,6 +891,10 @@ msgstr "Anterior"
 
 #, fuzzy
 msgid "Previous Image"
+msgstr "Pàgina anterior"
+
+#, fuzzy
+msgid "Previous frame"
 msgstr "Pàgina anterior"
 
 msgid "Previous page"
@@ -1296,6 +1336,9 @@ msgstr "• Utilitza les tecles de fletxa per navegar\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GROC per desar com a Favorit 2\n"
 
+msgid "← Frame"
+msgstr ""
+
 #, fuzzy
 #~ msgid "7 Day Forecast"
 #~ msgstr "Pronòstic"
@@ -1306,14 +1349,6 @@ msgstr "• GROC per desar com a Favorit 2\n"
 #~ msgid "Distance"
 #~ msgstr "Distància"
 
-#, fuzzy
-#~ msgid "Error loading data"
-#~ msgstr "Error en desar el favorit!"
-
-#, fuzzy
-#~ msgid "Frame: {}"
-#~ msgstr "Més ràpid: {}s"
-
 #~ msgid "Green"
 #~ msgstr "Verd"
 
@@ -1322,22 +1357,6 @@ msgstr "• GROC per desar com a Favorit 2\n"
 
 #~ msgid "Last update"
 #~ msgstr "Última actualització"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Descarregant imatges..."
-
-#, fuzzy
-#~ msgid "Next frame"
-#~ msgstr "Pàgina següent"
-
-#, fuzzy
-#~ msgid "No tiles downloaded"
-#~ msgstr "No hi ha data disponible"
-
-#, fuzzy
-#~ msgid "Previous frame"
-#~ msgstr "Pàgina anterior"
 
 #~ msgid "Red"
 #~ msgstr "Vermell"

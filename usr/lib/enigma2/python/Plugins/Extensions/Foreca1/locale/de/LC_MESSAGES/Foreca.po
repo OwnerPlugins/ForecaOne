@@ -50,6 +50,9 @@ msgstr "9 – Heute + 9 Tage"
 msgid "API credentials not configured."
 msgstr "1. Keine API-Zugangsdaten konfiguriert\n"
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr ""
 
@@ -290,6 +293,10 @@ msgstr "Fehler beim Speichern des Favoriten!"
 msgid "Error displaying map"
 msgstr "Fehler beim Speichern des Favoriten!"
 
+#, fuzzy
+msgid "Error loading data"
+msgstr "Fehler beim Speichern des Favoriten!"
+
 msgid "Error loading maps. Check connection."
 msgstr "Fehler beim Laden der Karten. Verbindung prüfen."
 
@@ -370,6 +377,9 @@ msgstr "Gefühlt wie"
 msgid "Feels like: {}°C"
 msgstr "Gefühlt wie"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr "Finnland"
 
@@ -417,6 +427,14 @@ msgstr ""
 
 msgid "Found %d cities online for '%s'"
 msgstr ""
+
+#, fuzzy
+msgid "Frame →"
+msgstr "Schneller: {}s"
+
+#, fuzzy
+msgid "Frame: {}"
+msgstr "Schneller: {}s"
 
 msgid "France"
 msgstr "Frankreich"
@@ -551,6 +569,10 @@ msgstr "Nahegelegene Stationen werden geladen..."
 msgid "Loading nearby stations..."
 msgstr "Nahegelegene Stationen werden geladen..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Bilder werden heruntergeladen..."
+
 msgid "Loading weekly forecast..."
 msgstr "Wochenvorhersage wird geladen..."
 
@@ -575,6 +597,9 @@ msgstr "Luxemburg"
 msgid "Map & Tiles Loaded"
 msgstr ""
 
+msgid "Map loaded"
+msgstr ""
+
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Keine Stadt ausgewählt"
@@ -587,6 +612,9 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menü - Einstellungen"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteogramm"
@@ -644,6 +672,10 @@ msgstr "Weiter"
 msgid "Next Image"
 msgstr "Nächste Seite"
 
+#, fuzzy
+msgid "Next frame"
+msgstr "Nächste Seite"
+
 msgid "Next page"
 msgstr "Nächste Seite"
 
@@ -679,6 +711,10 @@ msgstr "Keine Stationen gefunden"
 
 #, fuzzy
 msgid "No tiles available"
+msgstr "Kein Datum verfügbar"
+
+#, fuzzy
+msgid "No tiles downloaded"
 msgstr "Kein Datum verfügbar"
 
 msgid "North Africa"
@@ -853,6 +889,10 @@ msgstr "Zurück"
 
 #, fuzzy
 msgid "Previous Image"
+msgstr "Vorherige Seite"
+
+#, fuzzy
+msgid "Previous frame"
 msgstr "Vorherige Seite"
 
 msgid "Previous page"
@@ -1294,6 +1334,9 @@ msgstr "• Pfeiltasten zum Navigieren\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GELB zum Speichern als Favorit 2\n"
 
+msgid "← Frame"
+msgstr ""
+
 #, fuzzy
 #~ msgid "7 Day Forecast"
 #~ msgstr "Vorhersage"
@@ -1304,14 +1347,6 @@ msgstr "• GELB zum Speichern als Favorit 2\n"
 #~ msgid "Distance"
 #~ msgstr "Entfernung"
 
-#, fuzzy
-#~ msgid "Error loading data"
-#~ msgstr "Fehler beim Speichern des Favoriten!"
-
-#, fuzzy
-#~ msgid "Frame: {}"
-#~ msgstr "Schneller: {}s"
-
 #~ msgid "Green"
 #~ msgstr "Grün"
 
@@ -1320,22 +1355,6 @@ msgstr "• GELB zum Speichern als Favorit 2\n"
 
 #~ msgid "Last update"
 #~ msgstr "Letzte Aktualisierung"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Bilder werden heruntergeladen..."
-
-#, fuzzy
-#~ msgid "Next frame"
-#~ msgstr "Nächste Seite"
-
-#, fuzzy
-#~ msgid "No tiles downloaded"
-#~ msgstr "Kein Datum verfügbar"
-
-#, fuzzy
-#~ msgid "Previous frame"
-#~ msgstr "Vorherige Seite"
 
 #~ msgid "Red"
 #~ msgstr "Rot"
