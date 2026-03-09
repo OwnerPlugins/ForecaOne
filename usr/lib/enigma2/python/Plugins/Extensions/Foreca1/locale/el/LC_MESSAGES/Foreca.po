@@ -40,9 +40,6 @@ msgstr "6 - Σήμερα + 6 ημέρες"
 msgid "7 - Today + 7 days"
 msgstr "7 - Σήμερα + 7 ημέρες"
 
-msgid "7 Day Forecast"
-msgstr "Πρόγνωση 7 ημερών"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Σήμερα + 8 ημέρες"
 
@@ -99,9 +96,6 @@ msgstr "Βέλγιο"
 
 msgid "Berlin"
 msgstr "Βερολίνο"
-
-msgid "Blue"
-msgstr "Μπλε"
 
 msgid "Blue - Home"
 msgstr "Μπλε - Αρχική"
@@ -248,9 +242,6 @@ msgid "Dewpoint: %s°C"
 msgstr ""
 
 msgid "Dewpoint: N/A"
-msgstr ""
-
-msgid "Distance"
 msgstr ""
 
 msgid "Distance {} km"
@@ -418,9 +409,6 @@ msgstr "Μεγάλη Βρετανία"
 msgid "Greece"
 msgstr "Ελλάδα"
 
-msgid "Green"
-msgstr "Πράσινος"
-
 msgid "Green - Favorite 1"
 msgstr "Πράσινο - Αγαπημένο 1"
 
@@ -429,9 +417,6 @@ msgstr "Ριπές ανέμου {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Ριπές ανέμου: {:.1f} {}"
-
-msgid "HTML"
-msgstr ""
 
 msgid "Hamburg"
 msgstr "Αμβούργο"
@@ -516,9 +501,6 @@ msgstr "Πληκτρολόγιο"
 
 msgid "Last Quarter"
 msgstr "Τελευταίο τέταρτο"
-
-msgid "Last update"
-msgstr "Τελευταία ενημέρωση"
 
 msgid "Latvia"
 msgstr "Λετονία"
@@ -874,9 +856,6 @@ msgstr "Βροχή: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr ""
 
-msgid "Red"
-msgstr "Κόκκινος"
-
 msgid "Red - Color select"
 msgstr "Κόκκινο - Επιλογή χρώματος"
 
@@ -1070,9 +1049,6 @@ msgstr "Επίπεδο διαφάνειας"
 msgid "Try again later"
 msgstr "Δοκιμάστε ξανά αργότερα"
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr "Δείκτης UV"
 
@@ -1178,9 +1154,6 @@ msgstr "Καιρός αύριο"
 msgid "Weekly Forecast"
 msgstr "Εβδομαδιαία πρόγνωση"
 
-msgid "Wetter.de Maps Test"
-msgstr ""
-
 msgid "Wind"
 msgstr "Άνεμος"
 
@@ -1273,6 +1246,21 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 
 msgid "← Frame"
 msgstr ""
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Πρόγνωση 7 ημερών"
+
+#~ msgid "Blue"
+#~ msgstr "Μπλε"
+
+#~ msgid "Green"
+#~ msgstr "Πράσινος"
+
+#~ msgid "Last update"
+#~ msgstr "Τελευταία ενημέρωση"
+
+#~ msgid "Red"
+#~ msgstr "Κόκκινος"
 
 #~ msgid "Error displaying map"
 #~ msgstr "Σφάλμα εμφάνισης χάρτη"
