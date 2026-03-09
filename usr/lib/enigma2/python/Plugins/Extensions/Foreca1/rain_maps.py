@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Copyright (c) @Lululla 2026
-# wetter_maps.py - RainViewer radar viewer with geographic background (free, no API key)
+# wetter_maps.py - RainViewer radar viewer with geographic background
+# (free, no API key)
 
 import requests
 from datetime import datetime
@@ -78,15 +79,18 @@ def merge_tiles(self, tile_paths):
                 # Assume the image covers the known geographic range.
                 # Compute pixel coordinates of the four corners of the grid.
                 # For simplicity, we simply resize the image to the grid size.
-                bg = bg.resize((self.map_w, self.map_h), Image.Resampling.LANCZOS)
+                bg = bg.resize((self.map_w, self.map_h),
+                               Image.Resampling.LANCZOS)
                 merged = bg.copy()
             else:
                 # If we don't know the extent, just resize
-                bg = bg.resize((self.map_w, self.map_h), Image.Resampling.LANCZOS)
+                bg = bg.resize((self.map_w, self.map_h),
+                               Image.Resampling.LANCZOS)
                 merged = bg.copy()
         else:
             # If no background, use a neutral color
-            merged = Image.new('RGBA', (self.map_w, self.map_h), (176, 196, 222, 255))
+            merged = Image.new(
+                'RGBA', (self.map_w, self.map_h), (176, 196, 222, 255))
 
         # Paste the radar tiles over the background
         for col, row, path in tile_paths:
@@ -117,9 +121,11 @@ class RainViewerMaps(Screen, HelpableScreen):
         self.current_frame = 0
 
         try:
-            self.center_lat = float(foreca_preview.lat) if foreca_preview.lat != 'N/A' else 50.0
-            self.center_lon = float(foreca_preview.lon) if foreca_preview.lon != 'N/A' else 10.0
-        except:
+            self.center_lat = float(
+                foreca_preview.lat) if foreca_preview.lat != 'N/A' else 50.0
+            self.center_lon = float(
+                foreca_preview.lon) if foreca_preview.lon != 'N/A' else 10.0
+        except BaseException:
             self.center_lat = 50.0
             self.center_lon = 10.0
         self.zoom_level = 5
@@ -189,18 +195,23 @@ class RainViewerMaps(Screen, HelpableScreen):
             resp = requests.get(API_URL, headers=HEADERS, timeout=10)
             if resp.status_code != 200:
                 print(f"[RainViewer] API error: {resp.status_code}")
-                reactor.callFromThread(lambda: self["info"].setText(_("API error")))
+                reactor.callFromThread(
+                    lambda: self["info"].setText(
+                        _("API error")))
                 return
             data = resp.json()
             self.host = data['host']
             self.frames = [frame['path'] for frame in data['radar']['past']]
             self.frames.reverse()  # oldest to newest
             self.current_frame = len(self.frames) - 1  # last frame
-            print(f"[RainViewer] {len(self.frames)} frames available, host: {self.host}")
+            print(
+                f"[RainViewer] {len(self.frames)} frames available, host: {self.host}")
             reactor.callFromThread(self.update_frame_display)
         except Exception as e:
             print(f"[RainViewer] Error: {e}")
-            reactor.callFromThread(lambda: self["info"].setText(_("Error loading data")))
+            reactor.callFromThread(
+                lambda: self["info"].setText(
+                    _("Error loading data")))
 
     def update_frame_display(self):
         if not self.frames:
@@ -210,7 +221,7 @@ class RainViewerMaps(Screen, HelpableScreen):
         try:
             dt = datetime.utcfromtimestamp(int(timestamp))
             time_str = dt.strftime("%d/%m %H:%M UTC")
-        except:
+        except BaseException:
             time_str = timestamp
         self["time_label"].setText(_("Frame: {}").format(time_str))
         self["info"].setText(trans("Loading tiles..."))
@@ -222,7 +233,8 @@ class RainViewerMaps(Screen, HelpableScreen):
         Thread(target=self._download_thread, args=(frame_path,)).start()
 
     def _download_thread(self, frame_path):
-        cx, cy = self.latlon_to_tile(self.center_lat, self.center_lon, self.zoom_level)
+        cx, cy = self.latlon_to_tile(
+            self.center_lat, self.center_lon, self.zoom_level)
         offset_cols = self.grid_cols // 2
         offset_rows = self.grid_rows // 2
 
@@ -236,22 +248,28 @@ class RainViewerMaps(Screen, HelpableScreen):
                 osm_url = OSM_URL.format(z=self.zoom_level, x=x, y=y)
                 osm_path = self.download_tile(osm_url, prefix='osm')
                 if osm_path:
-                    osm_tiles.append((dx + offset_cols, dy + offset_rows, osm_path))
+                    osm_tiles.append(
+                        (dx + offset_cols, dy + offset_rows, osm_path))
                 # Radar tile
-                radar_url = self.build_tile_url(frame_path, x, y, self.zoom_level)
+                radar_url = self.build_tile_url(
+                    frame_path, x, y, self.zoom_level)
                 radar_path = self.download_tile(radar_url, prefix='radar')
                 if radar_path:
-                    radar_tiles.append((dx + offset_cols, dy + offset_rows, radar_path))
+                    radar_tiles.append(
+                        (dx + offset_cols, dy + offset_rows, radar_path))
 
         if osm_tiles and radar_tiles:
             merged = self.merge_tiles(osm_tiles, radar_tiles)
             if merged:
                 reactor.callFromThread(self.show_map, merged)
         else:
-            reactor.callFromThread(lambda: self["info"].setText(_("No tiles downloaded")))
+            reactor.callFromThread(
+                lambda: self["info"].setText(
+                    _("No tiles downloaded")))
 
     def build_tile_url(self, frame_path, x, y, z):
-        # Fixed parameters: size=256, color=2 (green-red), options=1_1 (blur + snow)
+        # Fixed parameters: size=256, color=2 (green-red), options=1_1 (blur +
+        # snow)
         return f"{self.host}{frame_path}/256/{z}/{x}/{y}/2/1_1.png"
 
     def download_tile(self, url, prefix=''):
@@ -267,7 +285,8 @@ class RainViewerMaps(Screen, HelpableScreen):
                     f.write(r.content)
                 return cache_file
             else:
-                print(f"[RainViewer] Tile download error {r.status_code}: {url}")
+                print(
+                    f"[RainViewer] Tile download error {r.status_code}: {url}")
         except Exception as e:
             print(f"[RainViewer] download exception: {e}")
         return None
@@ -305,7 +324,8 @@ class RainViewerMaps(Screen, HelpableScreen):
         widget_width = self["map"].instance.size().width()
         widget_height = self["map"].instance.size().height()
         # Resize to fit widget (possibly fill)
-        img_resized = img.resize((widget_width, widget_height), Image.Resampling.LANCZOS)
+        img_resized = img.resize(
+            (widget_width, widget_height), Image.Resampling.LANCZOS)
         # resized_path = path.replace('.png', '_widget.png')
         resized_path = path.replace('.jpg', '_widget.jpg')
         img_resized.save(resized_path)
