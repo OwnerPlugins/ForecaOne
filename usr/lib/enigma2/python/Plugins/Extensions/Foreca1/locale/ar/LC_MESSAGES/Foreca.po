@@ -41,10 +41,6 @@ msgstr "6 - اليوم + 6 أيام"
 msgid "7 - Today + 7 days"
 msgstr "7 - اليوم + 7 أيام"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "موافق - التوقعات"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - اليوم + 8 أيام"
 
@@ -101,9 +97,6 @@ msgstr "بلجيكا"
 
 msgid "Berlin"
 msgstr "برلين"
-
-msgid "Blue"
-msgstr ""
 
 msgid "Blue - Home"
 msgstr "أزرق - الصفحة الرئيسية"
@@ -254,10 +247,6 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
-
-#, fuzzy
-msgid "Distance"
-msgstr "المسافة {} كم"
 
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
@@ -442,10 +431,6 @@ msgstr "بريطانيا العظمى"
 msgid "Greece"
 msgstr "اليونان"
 
-#, fuzzy
-msgid "Green"
-msgstr "اليونان"
-
 msgid "Green - Favorite 1"
 msgstr "أخضر - المفضلة 1"
 
@@ -455,9 +440,6 @@ msgstr ""
 #, fuzzy
 msgid "Gust: {:.1f} {}"
 msgstr "الرياح: {} {} {}"
-
-msgid "HTML"
-msgstr ""
 
 msgid "Hamburg"
 msgstr "هامبورغ"
@@ -544,10 +526,6 @@ msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
 msgid "Last Quarter"
-msgstr "الربع الأخير"
-
-#, fuzzy
-msgid "Last update"
 msgstr "الربع الأخير"
 
 msgid "Latvia"
@@ -920,9 +898,6 @@ msgstr "الرياح: {} {} {}"
 msgid "RainViewer Radar"
 msgstr "رادار الطقس"
 
-msgid "Red"
-msgstr ""
-
 msgid "Red - Color select"
 msgstr "أحمر - اختيار اللون"
 
@@ -1119,9 +1094,6 @@ msgstr "مستوى الشفافية"
 msgid "Try again later"
 msgstr "حاول مرة أخرى لاحقًا"
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr "مؤشر الأشعة فوق البنفسجية"
 
@@ -1230,10 +1202,6 @@ msgstr "طقس الغد"
 msgid "Weekly Forecast"
 msgstr "التوقعات الأسبوعية"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "خرائط الطقس"
-
 msgid "Wind"
 msgstr "الرياح"
 
@@ -1331,6 +1299,26 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "موافق - التوقعات"
+
+#, fuzzy
+#~ msgid "Distance"
+#~ msgstr "المسافة {} كم"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "اليونان"
+
+#, fuzzy
+#~ msgid "Last update"
+#~ msgstr "الربع الأخير"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "خرائط الطقس"
 
 #~ msgid "Error displaying map"
 #~ msgstr "خطأ في عرض الخريطة"

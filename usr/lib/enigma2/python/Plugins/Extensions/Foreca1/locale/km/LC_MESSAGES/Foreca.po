@@ -40,9 +40,6 @@ msgstr ""
 msgid "7 - Today + 7 days"
 msgstr ""
 
-msgid "7 Day Forecast"
-msgstr ""
-
 msgid "8 - Today + 8 days"
 msgstr ""
 
@@ -98,9 +95,6 @@ msgid "Belgium"
 msgstr ""
 
 msgid "Berlin"
-msgstr ""
-
-msgid "Blue"
 msgstr ""
 
 msgid "Blue - Home"
@@ -248,9 +242,6 @@ msgid "Dewpoint: %s°C"
 msgstr ""
 
 msgid "Dewpoint: N/A"
-msgstr ""
-
-msgid "Distance"
 msgstr ""
 
 msgid "Distance {} km"
@@ -418,9 +409,6 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
-msgid "Green"
-msgstr ""
-
 msgid "Green - Favorite 1"
 msgstr ""
 
@@ -428,9 +416,6 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
-
-msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -515,9 +500,6 @@ msgid "Keyboard"
 msgstr ""
 
 msgid "Last Quarter"
-msgstr ""
-
-msgid "Last update"
 msgstr ""
 
 msgid "Latvia"
@@ -874,9 +856,6 @@ msgstr ""
 msgid "RainViewer Radar"
 msgstr ""
 
-msgid "Red"
-msgstr ""
-
 msgid "Red - Color select"
 msgstr ""
 
@@ -1066,9 +1045,6 @@ msgstr ""
 msgid "Try again later"
 msgstr ""
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1172,9 +1148,6 @@ msgid "Weather tomorrow"
 msgstr ""
 
 msgid "Weekly Forecast"
-msgstr ""
-
-msgid "Wetter.de Maps Test"
 msgstr ""
 
 msgid "Wind"

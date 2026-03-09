@@ -42,9 +42,6 @@ msgstr "6 - Tänään + 6 päivää"
 msgid "7 - Today + 7 days"
 msgstr "7 - Tänään + 7 päivää"
 
-msgid "7 Day Forecast"
-msgstr "7 päivän ennuste"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Tänään + 8 päivää"
 
@@ -101,9 +98,6 @@ msgstr "Belgia"
 
 msgid "Berlin"
 msgstr "Berliini"
-
-msgid "Blue"
-msgstr "Sininen"
 
 msgid "Blue - Home"
 msgstr "Sininen - Koti"
@@ -251,9 +245,6 @@ msgstr "Kastepiste: %s °C"
 
 msgid "Dewpoint: N/A"
 msgstr "Kastepiste: N/A"
-
-msgid "Distance"
-msgstr "Etäisyys"
 
 msgid "Distance {} km"
 msgstr "Etäisyys {} km"
@@ -420,9 +411,6 @@ msgstr "Iso-Britannia"
 msgid "Greece"
 msgstr "Kreikka"
 
-msgid "Green"
-msgstr "Vihreä"
-
 msgid "Green - Favorite 1"
 msgstr "Vihreä - Suosikki 1"
 
@@ -431,9 +419,6 @@ msgstr "Tuulen puuska {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Tuulen puuska: {:.1f} {}"
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hampuri"
@@ -518,9 +503,6 @@ msgstr "Näppäimistö"
 
 msgid "Last Quarter"
 msgstr "Viimeinen neljännes"
-
-msgid "Last update"
-msgstr "Viimeisin päivitys"
 
 msgid "Latvia"
 msgstr "Latvia"
@@ -876,9 +858,6 @@ msgstr "Sade: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer-tutka"
 
-msgid "Red"
-msgstr "Punainen"
-
 msgid "Red - Color select"
 msgstr "Punainen - Valitse väri"
 
@@ -1068,9 +1047,6 @@ msgstr "Läpinäkyvyystaso"
 msgid "Try again later"
 msgstr "Yritä myöhemmin uudelleen"
 
-msgid "UV"
-msgstr "UV"
-
 msgid "UV Index"
 msgstr "UV-indeksi"
 
@@ -1176,9 +1152,6 @@ msgstr "Sää huomenna"
 msgid "Weekly Forecast"
 msgstr "Viikon ennuste"
 
-msgid "Wetter.de Maps Test"
-msgstr "Wetter.de-karttatesti"
-
 msgid "Wind"
 msgstr "Tuuli"
 
@@ -1271,6 +1244,33 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
 msgid "← Frame"
 msgstr "← Kehys"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 päivän ennuste"
+
+#~ msgid "Blue"
+#~ msgstr "Sininen"
+
+#~ msgid "Distance"
+#~ msgstr "Etäisyys"
+
+#~ msgid "Green"
+#~ msgstr "Vihreä"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Viimeisin päivitys"
+
+#~ msgid "Red"
+#~ msgstr "Punainen"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Wetter.de-karttatesti"
 
 #~ msgid "Error displaying map"
 #~ msgstr "Virhe kartan näyttämisessä"
