@@ -52,6 +52,9 @@ msgstr "9 - Dnes + 9 dnů"
 msgid "API credentials not configured."
 msgstr "1. Nejsou nakonfigurovány přihlašovací údaje API\n"
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr ""
 
@@ -292,6 +295,10 @@ msgstr "Chyba při ukládání oblíbené položky!"
 msgid "Error displaying map"
 msgstr "Chyba při ukládání oblíbené položky!"
 
+#, fuzzy
+msgid "Error loading data"
+msgstr "Chyba při ukládání oblíbené položky!"
+
 msgid "Error loading maps. Check connection."
 msgstr "Chyba při načítání map. Zkontrolujte připojení."
 
@@ -372,6 +379,9 @@ msgstr "Pocitová teplota"
 msgid "Feels like: {}°C"
 msgstr "Pocitová teplota"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr "Finsko"
 
@@ -419,6 +429,14 @@ msgstr ""
 
 msgid "Found %d cities online for '%s'"
 msgstr ""
+
+#, fuzzy
+msgid "Frame →"
+msgstr "Rychleji: {}s"
+
+#, fuzzy
+msgid "Frame: {}"
+msgstr "Rychleji: {}s"
 
 msgid "France"
 msgstr "Francie"
@@ -553,6 +571,10 @@ msgstr "Načítání blízkých stanic..."
 msgid "Loading nearby stations..."
 msgstr "Načítání blízkých stanic..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Stahování obrázků..."
+
 msgid "Loading weekly forecast..."
 msgstr "Načítání týdenní předpovědi..."
 
@@ -577,6 +599,9 @@ msgstr "Lucembursko"
 msgid "Map & Tiles Loaded"
 msgstr ""
 
+msgid "Map loaded"
+msgstr ""
+
 #, fuzzy
 msgid "Map {} selected"
 msgstr "Není vybráno město"
@@ -589,6 +614,9 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menu - Nastavení"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteogram"
@@ -646,6 +674,10 @@ msgstr "Další"
 msgid "Next Image"
 msgstr "Další strana"
 
+#, fuzzy
+msgid "Next frame"
+msgstr "Další strana"
+
 msgid "Next page"
 msgstr "Další strana"
 
@@ -681,6 +713,10 @@ msgstr "Nebyly nalezeny žádné stanice"
 
 #, fuzzy
 msgid "No tiles available"
+msgstr "Žádné dostupné datum"
+
+#, fuzzy
+msgid "No tiles downloaded"
 msgstr "Žádné dostupné datum"
 
 msgid "North Africa"
@@ -855,6 +891,10 @@ msgstr "Předchozí"
 
 #, fuzzy
 msgid "Previous Image"
+msgstr "Předchozí strana"
+
+#, fuzzy
+msgid "Previous frame"
 msgstr "Předchozí strana"
 
 msgid "Previous page"
@@ -1296,6 +1336,9 @@ msgstr "• Pro navigaci použijte šipky\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ŽLUTÁ pro uložení jako Oblíbené 2\n"
 
+msgid "← Frame"
+msgstr ""
+
 #, fuzzy
 #~ msgid "7 Day Forecast"
 #~ msgstr "Předpověď"
@@ -1306,14 +1349,6 @@ msgstr "• ŽLUTÁ pro uložení jako Oblíbené 2\n"
 #~ msgid "Distance"
 #~ msgstr "Vzdálenost"
 
-#, fuzzy
-#~ msgid "Error loading data"
-#~ msgstr "Chyba při ukládání oblíbené položky!"
-
-#, fuzzy
-#~ msgid "Frame: {}"
-#~ msgstr "Rychleji: {}s"
-
 #~ msgid "Green"
 #~ msgstr "Zelená"
 
@@ -1322,22 +1357,6 @@ msgstr "• ŽLUTÁ pro uložení jako Oblíbené 2\n"
 
 #~ msgid "Last update"
 #~ msgstr "Poslední aktualizace"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Stahování obrázků..."
-
-#, fuzzy
-#~ msgid "Next frame"
-#~ msgstr "Další strana"
-
-#, fuzzy
-#~ msgid "No tiles downloaded"
-#~ msgstr "Žádné dostupné datum"
-
-#, fuzzy
-#~ msgid "Previous frame"
-#~ msgstr "Předchozí strana"
 
 #~ msgid "Red"
 #~ msgstr "Červená"

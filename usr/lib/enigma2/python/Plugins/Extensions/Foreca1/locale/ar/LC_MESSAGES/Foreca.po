@@ -50,6 +50,9 @@ msgstr "9 - اليوم + 9 أيام"
 msgid "API credentials not configured."
 msgstr "لم يتم تكوين بيانات اعتماد API."
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr ""
 
@@ -281,6 +284,10 @@ msgstr "خطأ في حفظ المفضلة!"
 msgid "Error displaying map"
 msgstr "خطأ في عرض الخريطة"
 
+#, fuzzy
+msgid "Error loading data"
+msgstr "خطأ في عرض الخريطة"
+
 msgid "Error loading maps. Check connection."
 msgstr "خطأ في تحميل الخرائط. تحقق من الاتصال."
 
@@ -356,6 +363,9 @@ msgstr "يبدو كـ: {}{}"
 msgid "Feels like: {}°C"
 msgstr "يبدو كـ: {}°م"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr "فنلندا"
 
@@ -400,6 +410,14 @@ msgstr "تم العثور على %d مدينة محليًا لـ '%s'"
 
 msgid "Found %d cities online for '%s'"
 msgstr "تم العثور على %d مدينة عبر الإنترنت لـ '%s'"
+
+#, fuzzy
+msgid "Frame →"
+msgstr "التاريخ: {}"
+
+#, fuzzy
+msgid "Frame: {}"
+msgstr "التاريخ: {}"
 
 msgid "France"
 msgstr "فرنسا"
@@ -535,6 +553,10 @@ msgstr "جاري تحميل المحطات القريبة..."
 msgid "Loading nearby stations..."
 msgstr "جاري تحميل المحطات القريبة..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "جاري تحميل البلاط..."
+
 msgid "Loading weekly forecast..."
 msgstr "جاري تحميل التوقعات الأسبوعية..."
 
@@ -559,6 +581,10 @@ msgstr "لوكسمبورغ"
 msgid "Map & Tiles Loaded"
 msgstr "تم تحميل الخريطة والبلاط"
 
+#, fuzzy
+msgid "Map loaded"
+msgstr "تم تحميل الخريطة والبلاط"
+
 msgid "Map {} selected"
 msgstr "الخريطة {} محددة"
 
@@ -570,6 +596,9 @@ msgstr "القائمة"
 
 msgid "Menu - Settings"
 msgstr "القائمة - الإعدادات"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "الرسم الجوي"
@@ -626,6 +655,10 @@ msgstr "التالي"
 msgid "Next Image"
 msgstr "الصورة التالية"
 
+#, fuzzy
+msgid "Next frame"
+msgstr "الصفحة التالية"
+
 msgid "Next page"
 msgstr "الصفحة التالية"
 
@@ -657,6 +690,10 @@ msgid "No stations found"
 msgstr "لم يتم العثور على محطات"
 
 msgid "No tiles available"
+msgstr "لا يوجد بلاط متاح"
+
+#, fuzzy
+msgid "No tiles downloaded"
 msgstr "لا يوجد بلاط متاح"
 
 msgid "North Africa"
@@ -824,6 +861,10 @@ msgstr "السابق"
 
 msgid "Previous Image"
 msgstr "الصورة السابقة"
+
+#, fuzzy
+msgid "Previous frame"
+msgstr "الصفحة السابقة"
 
 msgid "Previous page"
 msgstr "الصفحة السابقة"
@@ -1255,6 +1296,9 @@ msgstr "• استخدم مفاتيح الأسهم للتنقل\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
+msgid "← Frame"
+msgstr ""
+
 #, fuzzy
 #~ msgid "7 Day Forecast"
 #~ msgstr "موافق - التوقعات"
@@ -1264,40 +1308,12 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 #~ msgstr "المسافة {} كم"
 
 #, fuzzy
-#~ msgid "Error loading data"
-#~ msgstr "خطأ في عرض الخريطة"
-
-#, fuzzy
-#~ msgid "Frame: {}"
-#~ msgstr "التاريخ: {}"
-
-#, fuzzy
 #~ msgid "Green"
 #~ msgstr "اليونان"
 
 #, fuzzy
 #~ msgid "Last update"
 #~ msgstr "الربع الأخير"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "جاري تحميل البلاط..."
-
-#, fuzzy
-#~ msgid "Map loaded"
-#~ msgstr "تم تحميل الخريطة والبلاط"
-
-#, fuzzy
-#~ msgid "Next frame"
-#~ msgstr "الصفحة التالية"
-
-#, fuzzy
-#~ msgid "No tiles downloaded"
-#~ msgstr "لا يوجد بلاط متاح"
-
-#, fuzzy
-#~ msgid "Previous frame"
-#~ msgstr "الصفحة السابقة"
 
 #, fuzzy
 #~ msgid "Wetter.de Maps Test"

@@ -51,6 +51,9 @@ msgstr "9 - Tänään + 9 päivää"
 msgid "API credentials not configured."
 msgstr "API-tunnuksia ei ole määritetty."
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr "AQI {}"
 
@@ -276,6 +279,10 @@ msgstr "Virhe päivitysten tarkistuksessa."
 msgid "Error displaying map"
 msgstr "Virhe kartan näyttämisessä"
 
+#, fuzzy
+msgid "Error loading data"
+msgstr "Virhe kartan näyttämisessä"
+
 msgid "Error loading maps. Check connection."
 msgstr "Virhe ladattaessa karttoja. Tarkista yhteys."
 
@@ -345,6 +352,9 @@ msgstr "Tuntuu kuin: {}{}"
 msgid "Feels like: {}°C"
 msgstr "Tuntuu kuin: {}°C"
 
+msgid "Fetching radar data..."
+msgstr ""
+
 msgid "Finland"
 msgstr "Suomi"
 
@@ -383,6 +393,14 @@ msgstr "Löytyi %d kaupunkia paikallisesti hakusanalla '%s'"
 
 msgid "Found %d cities online for '%s'"
 msgstr "Löytyi %d kaupunkia verkosta hakusanalla '%s'"
+
+#, fuzzy
+msgid "Frame →"
+msgstr "Päivämäärä: {}"
+
+#, fuzzy
+msgid "Frame: {}"
+msgstr "Päivämäärä: {}"
 
 msgid "France"
 msgstr "Ranska"
@@ -513,6 +531,10 @@ msgstr "Kuun vaiheita ladataan..."
 msgid "Loading nearby stations..."
 msgstr "Ladataan läheisiä asemia..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Ladataan ruutuja..."
+
 msgid "Loading weekly forecast..."
 msgstr "Ladataan viikon ennustetta..."
 
@@ -537,6 +559,10 @@ msgstr "Luxemburg"
 msgid "Map & Tiles Loaded"
 msgstr "Kartta ja ruudut ladattu"
 
+#, fuzzy
+msgid "Map loaded"
+msgstr "Kartta ja ruudut ladattu"
+
 msgid "Map {} selected"
 msgstr "Kartta {} valittu"
 
@@ -548,6 +574,9 @@ msgstr "MENU"
 
 msgid "Menu - Settings"
 msgstr "MENU - Asetukset"
+
+msgid "Merge failed"
+msgstr ""
 
 msgid "Meteogram"
 msgstr "Meteogrammi"
@@ -603,6 +632,10 @@ msgstr "Seuraava"
 msgid "Next Image"
 msgstr "Seuraava kuva"
 
+#, fuzzy
+msgid "Next frame"
+msgstr "Seuraava sivu"
+
 msgid "Next page"
 msgstr "Seuraava sivu"
 
@@ -634,6 +667,10 @@ msgid "No stations found"
 msgstr "Asemia ei löytynyt"
 
 msgid "No tiles available"
+msgstr "Ruutuja ei ole saatavilla"
+
+#, fuzzy
+msgid "No tiles downloaded"
 msgstr "Ruutuja ei ole saatavilla"
 
 msgid "North Africa"
@@ -797,6 +834,10 @@ msgstr "Edellinen"
 
 msgid "Previous Image"
 msgstr "Edellinen kuva"
+
+#, fuzzy
+msgid "Previous frame"
+msgstr "Edellinen sivu"
 
 msgid "Previous page"
 msgstr "Edellinen sivu"
@@ -1210,6 +1251,9 @@ msgstr "• Käytä nuolinäppäimiä navigointiin\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
+msgid "← Frame"
+msgstr ""
+
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 päivän ennuste"
 
@@ -1219,14 +1263,6 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 #~ msgid "Distance"
 #~ msgstr "Etäisyys"
 
-#, fuzzy
-#~ msgid "Error loading data"
-#~ msgstr "Virhe kartan näyttämisessä"
-
-#, fuzzy
-#~ msgid "Frame: {}"
-#~ msgstr "Päivämäärä: {}"
-
 #~ msgid "Green"
 #~ msgstr "Vihreä"
 
@@ -1235,26 +1271,6 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
 #~ msgid "Last update"
 #~ msgstr "Viimeisin päivitys"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Ladataan ruutuja..."
-
-#, fuzzy
-#~ msgid "Map loaded"
-#~ msgstr "Kartta ja ruudut ladattu"
-
-#, fuzzy
-#~ msgid "Next frame"
-#~ msgstr "Seuraava sivu"
-
-#, fuzzy
-#~ msgid "No tiles downloaded"
-#~ msgstr "Ruutuja ei ole saatavilla"
-
-#, fuzzy
-#~ msgid "Previous frame"
-#~ msgstr "Edellinen sivu"
 
 #~ msgid "Red"
 #~ msgstr "Punainen"

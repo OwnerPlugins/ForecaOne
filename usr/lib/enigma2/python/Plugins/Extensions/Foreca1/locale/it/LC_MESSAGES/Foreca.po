@@ -51,6 +51,9 @@ msgstr "9 - Oggi + 9 giorni"
 msgid "API credentials not configured."
 msgstr "Nessuna credenziale API configurata."
 
+msgid "API error"
+msgstr ""
+
 msgid "AQI {}"
 msgstr "IQA {}"
 
@@ -276,6 +279,9 @@ msgstr "Errore durante il controllo degli aggiornamenti."
 msgid "Error displaying map"
 msgstr "Errore durante la visualizzazione della Mappa"
 
+msgid "Error loading data"
+msgstr "Errore durante il caricamento dei dati"
+
 msgid "Error loading maps. Check connection."
 msgstr "Errore durante il caricamento delle mappe. Controllare la connessione."
 
@@ -345,6 +351,9 @@ msgstr "Percepita: {}{}"
 msgid "Feels like: {}°C"
 msgstr "Percepita: {}°C"
 
+msgid "Fetching radar data..."
+msgstr "Recupero dati radar in corso..."
+
 msgid "Finland"
 msgstr "Finlandia"
 
@@ -383,6 +392,12 @@ msgstr "Trovate %d città localmente per '%s'"
 
 msgid "Found %d cities online for '%s'"
 msgstr "Trovate %d città online per '%s'"
+
+msgid "Frame →"
+msgstr "Cornice  →"
+
+msgid "Frame: {}"
+msgstr "Cornice: {}"
 
 msgid "France"
 msgstr "Francia"
@@ -513,6 +528,9 @@ msgstr "Caricamento delle fasi lunari..."
 msgid "Loading nearby stations..."
 msgstr "Caricamento delle stazioni vicine..."
 
+msgid "Loading tiles..."
+msgstr "Caricamento schemi..."
+
 msgid "Loading weekly forecast..."
 msgstr "Caricamento previsioni settimanali..."
 
@@ -537,6 +555,9 @@ msgstr "Lussemburgo"
 msgid "Map & Tiles Loaded"
 msgstr "Mappa e  Schemi caricati"
 
+msgid "Map loaded"
+msgstr "Mappa caricata"
+
 msgid "Map {} selected"
 msgstr "Mappa {} selezionata"
 
@@ -548,6 +569,9 @@ msgstr ""
 
 msgid "Menu - Settings"
 msgstr "Menu - Impostazioni"
+
+msgid "Merge failed"
+msgstr "Unione fallita"
 
 msgid "Meteogram"
 msgstr "Meteogramma"
@@ -603,6 +627,9 @@ msgstr "Avanti"
 msgid "Next Image"
 msgstr "Immagine Successiva"
 
+msgid "Next frame"
+msgstr "Cornice successivo"
+
 msgid "Next page"
 msgstr "Pagina successiva"
 
@@ -635,6 +662,9 @@ msgstr "Nessuna stazione trovata"
 
 msgid "No tiles available"
 msgstr "Nessuno schema disponibile"
+
+msgid "No tiles downloaded"
+msgstr "Nessuno schema scaricato"
 
 msgid "North Africa"
 msgstr "Africa del Nord"
@@ -797,6 +827,9 @@ msgstr "Precedente"
 
 msgid "Previous Image"
 msgstr "Immagine Precedente"
+
+msgid "Previous frame"
+msgstr "Cornice precedente"
 
 msgid "Previous page"
 msgstr "Pagina precedente"
@@ -1209,6 +1242,9 @@ msgstr "• Utilizzare i tasti freccia per navigare\n"
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• GIALLO per salvare Preferito 2\n"
 
+msgid "← Frame"
+msgstr "← Cornice"
+
 #~ msgid "7 Day Forecast"
 #~ msgstr "Previsione 7 Giorni"
 
@@ -1217,18 +1253,6 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 #~ msgid "Distance"
 #~ msgstr "Distanza"
-
-#~ msgid "Error loading data"
-#~ msgstr "Errore durante il caricamento dei dati"
-
-#~ msgid "Fetching radar data..."
-#~ msgstr "Recupero dati radar in corso..."
-
-#~ msgid "Frame →"
-#~ msgstr "Cornice  →"
-
-#~ msgid "Frame: {}"
-#~ msgstr "Cornice: {}"
 
 #~ msgid "Green"
 #~ msgstr "Verde"
@@ -1239,32 +1263,11 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 #~ msgid "Last update"
 #~ msgstr "Ultimo aggiornamento"
 
-#~ msgid "Loading tiles..."
-#~ msgstr "Caricamento schemi..."
-
-#~ msgid "Map loaded"
-#~ msgstr "Mappa caricata"
-
-#~ msgid "Merge failed"
-#~ msgstr "Unione fallita"
-
-#~ msgid "Next frame"
-#~ msgstr "Cornice successivo"
-
-#~ msgid "No tiles downloaded"
-#~ msgstr "Nessuno schema scaricato"
-
-#~ msgid "Previous frame"
-#~ msgstr "Cornice precedente"
-
 #~ msgid "Red"
 #~ msgstr "Rosso"
 
 #~ msgid "Wetter.de Maps Test"
 #~ msgstr "Wetter.de Maps Test"
-
-#~ msgid "← Frame"
-#~ msgstr "← Cornice"
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "Immaggine %(current)d/%(total)d"
