@@ -32,7 +32,6 @@ from . import (
     TEMP_DIR,
     HEADERS
 )
-from .foreca_map_viewer import get_background_for_layer
 
 
 RAIN_MAPS_DIR = join(TEMP_DIR, "rainviewer")
@@ -60,52 +59,6 @@ BACKGROUND_EXTENTS = {
     # World (fallback)
     'world.png': {'minLat': -90, 'maxLat': 90, 'minLon': -180, 'maxLon': 180},
 }
-
-
-def merge_tiles(self, tile_paths):
-    try:
-        # Load the geographic background based on the center coordinates
-        bg_file = get_background_for_layer(self.center_lat, self.center_lon)
-        if bg_file:
-            bg_path = join(THUMB_PATH, bg_file)
-            bg = Image.open(bg_path).convert("RGBA")
-            # Get the image extent (if known)
-            extent = BACKGROUND_EXTENTS.get(bg_file)
-            if extent:
-                # Calculate the portion of the image corresponding to the current view
-                # Coordinates of the grid edges in lat/lon
-                # Use the latlon_to_pixel function to convert lat/lon to image pixels
-                # This is complex, but we can use a simplification:
-                # Assume the image covers the known geographic range.
-                # Compute pixel coordinates of the four corners of the grid.
-                # For simplicity, we simply resize the image to the grid size.
-                bg = bg.resize((self.map_w, self.map_h),
-                               Image.Resampling.LANCZOS)
-                merged = bg.copy()
-            else:
-                # If we don't know the extent, just resize
-                bg = bg.resize((self.map_w, self.map_h),
-                               Image.Resampling.LANCZOS)
-                merged = bg.copy()
-        else:
-            # If no background, use a neutral color
-            merged = Image.new(
-                'RGBA', (self.map_w, self.map_h), (176, 196, 222, 255))
-
-        # Paste the radar tiles over the background
-        for col, row, path in tile_paths:
-            tile = Image.open(path).convert('RGBA')
-            x = col * TILE_SIZE
-            y = row * TILE_SIZE
-            merged.paste(tile, (x, y), tile)
-
-        merged_rgb = merged.convert('RGB')
-        out_path = join(RAIN_MAPS_DIR, 'merged.jpg')
-        merged_rgb.save(out_path, 'JPEG', quality=90)
-        return out_path
-    except Exception as e:
-        print(f"[RainViewer] merge error: {e}")
-        return None
 
 
 class RainViewerMaps(Screen, HelpableScreen):
