@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Copyright (c) @Lululla 2026
-# wetter_maps.py - RainViewer radar viewer with geographic background (free, no API key)
+# wetter_maps.py - RainViewer radar viewer with geographic background
+# (free, no API key)
 
 import requests
 from datetime import datetime
@@ -73,10 +74,12 @@ def get_background_for_layer(lat, lon, region=None):
         if reg_low in region_map:
             fname = region_map[reg_low]
             if exists(join(THUMB_PATH, fname)):
-                print(f"[DEBUG] get_background: using region {region} -> {fname}")
+                print(
+                    f"[DEBUG] get_background: using region {region} -> {fname}")
                 return fname
             else:
-                print(f"[DEBUG] get_background: region {region} file {fname} not found")
+                print(
+                    f"[DEBUG] get_background: region {region} file {fname} not found")
 
     # 2) Selection based on the precise coordinates of the continents
     # Europa (lat 36°N - 71°N, lon 9°34'W - 66°10'E)
@@ -221,18 +224,23 @@ class RainViewerMaps(Screen, HelpableScreen):
             resp = requests.get(API_URL, headers=HEADERS, timeout=10)
             if resp.status_code != 200:
                 print(f"[RainViewer] API error: {resp.status_code}")
-                reactor.callFromThread(lambda: self["info"].setText(_("API error")))
+                reactor.callFromThread(
+                    lambda: self["info"].setText(
+                        _("API error")))
                 return
             data = resp.json()
             self.host = data['host']
             self.frames = [frame['path'] for frame in data['radar']['past']]
             self.frames.reverse()  # dal più vecchio al più recente
             self.current_frame = len(self.frames) - 1  # ultimo frame
-            print(f"[RainViewer] {len(self.frames)} frames disponibili, host: {self.host}")
+            print(
+                f"[RainViewer] {len(self.frames)} frames disponibili, host: {self.host}")
             reactor.callFromThread(self.update_frame_display)
         except Exception as e:
             print(f"[RainViewer] Error: {e}")
-            reactor.callFromThread(lambda: self["info"].setText(_("Error loading data")))
+            reactor.callFromThread(
+                lambda: self["info"].setText(
+                    _("Error loading data")))
 
     def update_frame_display(self):
         if not self.frames:
@@ -242,7 +250,7 @@ class RainViewerMaps(Screen, HelpableScreen):
         try:
             dt = datetime.utcfromtimestamp(int(timestamp))
             time_str = dt.strftime("%d/%m %H:%M UTC")
-        except:
+        except BaseException:
             time_str = timestamp
         self["time_label"].setText(_("Frame: {}").format(time_str))
         self["info"].setText(_("Loading tiles..."))
@@ -254,7 +262,8 @@ class RainViewerMaps(Screen, HelpableScreen):
         Thread(target=self._download_thread, args=(frame_path,)).start()
 
     def _download_thread(self, frame_path):
-        cx, cy = self.latlon_to_tile(self.center_lat, self.center_lon, self.zoom)
+        cx, cy = self.latlon_to_tile(
+            self.center_lat, self.center_lon, self.zoom)
         offset_cols = self.grid_cols // 2
         offset_rows = self.grid_rows // 2
 
@@ -266,7 +275,8 @@ class RainViewerMaps(Screen, HelpableScreen):
                 url = self.build_tile_url(frame_path, x, y, self.zoom)
                 path = self.download_tile(url)
                 if path:
-                    tile_paths.append((dx + offset_cols, dy + offset_rows, path))
+                    tile_paths.append(
+                        (dx + offset_cols, dy + offset_rows, path))
                 else:
                     print(f"[RainViewer] Tile non scaricata: {url}")
 
@@ -277,17 +287,24 @@ class RainViewerMaps(Screen, HelpableScreen):
                 print(f"[RainViewer] Immagine composita creata: {merged}")
                 reactor.callFromThread(self.show_map, merged)
             else:
-                reactor.callFromThread(lambda: self["info"].setText(_("Merge failed")))
+                reactor.callFromThread(
+                    lambda: self["info"].setText(
+                        _("Merge failed")))
         else:
-            reactor.callFromThread(lambda: self["info"].setText(_("No tiles downloaded")))
+            reactor.callFromThread(
+                lambda: self["info"].setText(
+                    _("No tiles downloaded")))
 
     def build_tile_url(self, frame_path, x, y, z):
-        # Parametri fissi: size=256, colore=2 (verde-rosso), opzioni=1_1 (blur + neve)
+        # Parametri fissi: size=256, colore=2 (verde-rosso), opzioni=1_1 (blur
+        # + neve)
         return f"{self.host}{frame_path}/256/{z}/{x}/{y}/2/1_1.png"
 
     def download_tile(self, url):
         import hashlib
-        cache_file = join(RAIN_MAPS_DIR, hashlib.md5(url.encode()).hexdigest() + '.png')
+        cache_file = join(
+            RAIN_MAPS_DIR, hashlib.md5(
+                url.encode()).hexdigest() + '.png')
         if exists(cache_file):
             return cache_file
         try:
@@ -297,37 +314,41 @@ class RainViewerMaps(Screen, HelpableScreen):
                     f.write(r.content)
                 return cache_file
             else:
-                print(f"[RainViewer] Tile download error {r.status_code}: {url}")
+                print(
+                    f"[RainViewer] Tile download error {r.status_code}: {url}")
         except Exception as e:
             print(f"[RainViewer] download exception: {e}")
         return None
 
     # def merge_tiles(self, tile_paths):
         # try:
-            # merged = Image.new('RGBA', (self.map_w, self.map_h), (0, 0, 0, 255))
-            # for col, row, path in tile_paths:
-                # tile = Image.open(path).convert('RGBA')
-                # x = col * TILE_SIZE
-                # y = row * TILE_SIZE
-                # merged.paste(tile, (x, y), tile)
-            # merged_rgb = merged.convert('RGB')
-            # out_path = join(RAIN_MAPS_DIR, 'merged.jpg')
-            # merged_rgb.save(out_path, 'JPEG', quality=90)
-            # return out_path
+        # merged = Image.new('RGBA', (self.map_w, self.map_h), (0, 0, 0, 255))
+        # for col, row, path in tile_paths:
+        # tile = Image.open(path).convert('RGBA')
+        # x = col * TILE_SIZE
+        # y = row * TILE_SIZE
+        # merged.paste(tile, (x, y), tile)
+        # merged_rgb = merged.convert('RGB')
+        # out_path = join(RAIN_MAPS_DIR, 'merged.jpg')
+        # merged_rgb.save(out_path, 'JPEG', quality=90)
+        # return out_path
         # except Exception as e:
-            # print(f"[RainViewer] merge error: {e}")
-            # return None
+        # print(f"[RainViewer] merge error: {e}")
+        # return None
 
     def merge_tiles(self, tile_paths):
         try:
-            bg_file = get_background_for_layer(self.center_lat, self.center_lon)
+            bg_file = get_background_for_layer(
+                self.center_lat, self.center_lon)
             if bg_file:
                 bg_path = join(THUMB_PATH, bg_file)
                 bg = Image.open(bg_path).convert("RGBA")
-                bg = bg.resize((self.map_w, self.map_h), Image.Resampling.LANCZOS)
+                bg = bg.resize((self.map_w, self.map_h),
+                               Image.Resampling.LANCZOS)
                 merged = bg.copy()
             else:
-                merged = Image.new('RGBA', (self.map_w, self.map_h), (64, 64, 64, 255))
+                merged = Image.new(
+                    'RGBA', (self.map_w, self.map_h), (64, 64, 64, 255))
 
             for col, row, path in tile_paths:
                 tile = Image.open(path).convert('RGBA')
@@ -349,7 +370,8 @@ class RainViewerMaps(Screen, HelpableScreen):
         widget_width = self["map"].instance.size().width()
         widget_height = self["map"].instance.size().height()
         # Ridimensiona mantenendo le proporzioni? Forse meglio riempire
-        img_resized = img.resize((widget_width, widget_height), Image.Resampling.LANCZOS)
+        img_resized = img.resize(
+            (widget_width, widget_height), Image.Resampling.LANCZOS)
         resized_path = path.replace('.png', '_widget.png')
         img_resized.save(resized_path)
         self["map"].instance.setPixmapFromFile(resized_path)
