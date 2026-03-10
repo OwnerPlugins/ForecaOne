@@ -267,6 +267,10 @@ msgstr "Giù"
 msgid "Down - Next page"
 msgstr "Giù - Pagina successiva"
 
+#, fuzzy
+msgid "Download error"
+msgstr "Immagine Scaricata"
+
 msgid "Downloading images..."
 msgstr "Download immagini in corso..."
 
@@ -513,9 +517,6 @@ msgstr "Ultimo Quarto"
 
 msgid "Latvia"
 msgstr "Lettonia"
-
-msgid "Left"
-msgstr "Sinistra"
 
 msgid "Left - Previous day"
 msgstr "Sinistra - Giorno precedente"
@@ -879,9 +880,6 @@ msgstr "Ricarica"
 
 msgid "Rhineland-Palatine"
 msgstr "Renania-Palatinato"
-
-msgid "Right"
-msgstr "Destra"
 
 msgid "Right - Next day"
 msgstr "Destra - Il giorno dopo"
@@ -1258,6 +1256,12 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 msgid "← Frame"
 msgstr "← Cornice"
 
+#~ msgid "Left"
+#~ msgstr "Sinistra"
+
+#~ msgid "Right"
+#~ msgstr "Destra"
+
 #~ msgid "7 Day Forecast"
 #~ msgstr "Previsione 7 Giorni"
 
@@ -1299,9 +1303,6 @@ msgstr "← Cornice"
 
 #~ msgid "Ice / frost"
 #~ msgstr "Ghiaccio / brina"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Immagine Scaricata"
 
 #~ msgid "Last update"
 #~ msgstr "Ultimo aggiornamento"

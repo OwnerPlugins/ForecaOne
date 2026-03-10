@@ -279,6 +279,9 @@ msgstr ""
 msgid "Down - Next page"
 msgstr "Вниз - Следующая страница"
 
+msgid "Download error"
+msgstr ""
+
 msgid "Downloading images..."
 msgstr "Загрузка изображений..."
 
@@ -554,9 +557,6 @@ msgstr "Последнее обновление"
 
 msgid "Latvia"
 msgstr "Латвия"
-
-msgid "Left"
-msgstr ""
 
 msgid "Left - Previous day"
 msgstr "Налево - Предыдущий день"
@@ -945,9 +945,6 @@ msgstr ""
 
 msgid "Rhineland-Palatine"
 msgstr "Рейнланд-Пфальц"
-
-msgid "Right"
-msgstr ""
 
 msgid "Right - Next day"
 msgstr "Направо - Следующий день"

@@ -272,6 +272,10 @@ msgstr "أسفل"
 msgid "Down - Next page"
 msgstr "أسفل - الصفحة التالية"
 
+#, fuzzy
+msgid "Download error"
+msgstr "تم تحميل الصورة"
+
 msgid "Downloading images..."
 msgstr "جاري تحميل الصور..."
 
@@ -539,9 +543,6 @@ msgstr "الربع الأخير"
 
 msgid "Latvia"
 msgstr "لاتفيا"
-
-msgid "Left"
-msgstr ""
 
 msgid "Left - Previous day"
 msgstr "يسار - اليوم السابق"
@@ -923,9 +924,6 @@ msgstr "تحديث"
 
 msgid "Rhineland-Palatine"
 msgstr "راينلاند-بفالز"
-
-msgid "Right"
-msgstr ""
 
 msgid "Right - Next day"
 msgstr "يمين - اليوم التالي"
@@ -1338,9 +1336,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Green"
 #~ msgstr "اليونان"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "تم تحميل الصورة"
 
 #, fuzzy
 #~ msgid "Last update"

@@ -265,6 +265,10 @@ msgstr "Κάτω"
 msgid "Down - Next page"
 msgstr "Κάτω - Επόμενη σελίδα"
 
+#, fuzzy
+msgid "Download error"
+msgstr "Η εικόνα λήφθηκε"
+
 msgid "Downloading images..."
 msgstr "Λήψη εικόνων..."
 
@@ -511,9 +515,6 @@ msgstr "Τελευταίο τέταρτο"
 
 msgid "Latvia"
 msgstr "Λετονία"
-
-msgid "Left"
-msgstr "Αριστερά"
 
 msgid "Left - Previous day"
 msgstr "Αριστερά - Προηγούμενη ημέρα"
@@ -877,9 +878,6 @@ msgstr "Ανανέωση"
 
 msgid "Rhineland-Palatine"
 msgstr "Ρηνανία-Παλατινάτο"
-
-msgid "Right"
-msgstr "Δικαίωμα"
 
 msgid "Right - Next day"
 msgstr "Δεξιά - Επόμενη ημέρα"
@@ -1260,6 +1258,12 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 msgid "← Frame"
 msgstr "← Πλαίσιο"
 
+#~ msgid "Left"
+#~ msgstr "Αριστερά"
+
+#~ msgid "Right"
+#~ msgstr "Δικαίωμα"
+
 #~ msgid "7 Day Forecast"
 #~ msgstr "Πρόγνωση 7 ημερών"
 
@@ -1298,9 +1302,6 @@ msgstr "← Πλαίσιο"
 
 #~ msgid "Ice / frost"
 #~ msgstr "Πάγος / παγετός"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Η εικόνα λήφθηκε"
 
 #~ msgid "Last update"
 #~ msgstr "Τελευταία ενημέρωση"

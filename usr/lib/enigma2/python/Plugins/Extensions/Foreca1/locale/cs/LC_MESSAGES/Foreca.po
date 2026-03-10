@@ -281,6 +281,9 @@ msgstr ""
 msgid "Down - Next page"
 msgstr "Dolů - Další strana"
 
+msgid "Download error"
+msgstr ""
+
 msgid "Downloading images..."
 msgstr "Stahování obrázků..."
 
@@ -556,9 +559,6 @@ msgstr "Poslední aktualizace"
 
 msgid "Latvia"
 msgstr "Lotyšsko"
-
-msgid "Left"
-msgstr ""
 
 msgid "Left - Previous day"
 msgstr "Doleva - Předchozí den"
@@ -947,9 +947,6 @@ msgstr ""
 
 msgid "Rhineland-Palatine"
 msgstr "Porýní-Falc"
-
-msgid "Right"
-msgstr ""
 
 msgid "Right - Next day"
 msgstr "Doprava - Následující den"

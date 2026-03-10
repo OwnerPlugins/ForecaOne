@@ -34,6 +34,7 @@
 
 
 
+
 msgid "0 - Today"
 msgstr ""
 
@@ -283,6 +284,9 @@ msgstr ""
 msgid "Down - Next page"
 msgstr ""
 
+msgid "Download error"
+msgstr ""
+
 msgid "Downloading images..."
 msgstr ""
 
@@ -527,9 +531,6 @@ msgid "Last Quarter"
 msgstr ""
 
 msgid "Latvia"
-msgstr ""
-
-msgid "Left"
 msgstr ""
 
 msgid "Left - Previous day"
@@ -893,9 +894,6 @@ msgid "Refresh"
 msgstr ""
 
 msgid "Rhineland-Palatine"
-msgstr ""
-
-msgid "Right"
 msgstr ""
 
 msgid "Right - Next day"

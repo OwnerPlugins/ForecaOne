@@ -270,6 +270,10 @@ msgstr "下"
 msgid "Down - Next page"
 msgstr "向下-下一页"
 
+#, fuzzy
+msgid "Download error"
+msgstr "图片已下载"
+
 msgid "Downloading images..."
 msgstr "正在下载图像..."
 
@@ -527,9 +531,6 @@ msgstr "下弦月"
 
 msgid "Latvia"
 msgstr "拉脱维亚"
-
-msgid "Left"
-msgstr ""
 
 msgid "Left - Previous day"
 msgstr "左-前一天"
@@ -905,9 +906,6 @@ msgstr "刷新"
 
 msgid "Rhineland-Palatine"
 msgstr "莱茵兰-帕拉丁"
-
-msgid "Right"
-msgstr ""
 
 msgid "Right - Next day"
 msgstr "右-第二天"
@@ -1316,9 +1314,6 @@ msgstr ""
 
 #~ msgid "HTML"
 #~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "图片已下载"
 
 #~ msgid "Last update"
 #~ msgstr "最近更新时间"

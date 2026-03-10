@@ -267,6 +267,10 @@ msgstr "Alas"
 msgid "Down - Next page"
 msgstr "Alas - Seuraava sivu"
 
+#, fuzzy
+msgid "Download error"
+msgstr "Kuva ladattu"
+
 msgid "Downloading images..."
 msgstr "Ladataan kuvia..."
 
@@ -513,9 +517,6 @@ msgstr "Viimeinen neljännes"
 
 msgid "Latvia"
 msgstr "Latvia"
-
-msgid "Left"
-msgstr "Vasen"
 
 msgid "Left - Previous day"
 msgstr "Vasen - edellinen päivä"
@@ -879,9 +880,6 @@ msgstr "Virkistä"
 
 msgid "Rhineland-Palatine"
 msgstr "Rheinland-Pfalz"
-
-msgid "Right"
-msgstr "Oikea"
 
 msgid "Right - Next day"
 msgstr "Oikea - Seuraava päivä"
@@ -1258,6 +1256,12 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 msgid "← Frame"
 msgstr "← Kehys"
 
+#~ msgid "Left"
+#~ msgstr "Vasen"
+
+#~ msgid "Right"
+#~ msgstr "Oikea"
+
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 päivän ennuste"
 
@@ -1299,9 +1303,6 @@ msgstr "← Kehys"
 
 #~ msgid "Ice / frost"
 #~ msgstr "Jää / huurre"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Kuva ladattu"
 
 #~ msgid "Last update"
 #~ msgstr "Viimeisin päivitys"
