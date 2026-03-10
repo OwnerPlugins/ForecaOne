@@ -94,7 +94,8 @@ class DayForecast:
             uvi=None,
             rainp=None,
             snowp=None,
-            updated=None):
+            updated=None,
+            solar_radiation_sum=None):
         self.date = date
         self.min_temp = min_temp
         self.max_temp = max_temp
@@ -112,6 +113,7 @@ class DayForecast:
         self.rainp = rainp
         self.snowp = snowp
         self.updated = updated
+        self.solar_radiation_sum = solar_radiation_sum
 
 
 class HourForecast:
@@ -125,7 +127,8 @@ class HourForecast:
             wind_speed,
             wind_direction,
             precipitation,
-            precip_prob=None):
+            precip_prob=None,
+            solar_radiation=None):
         self.time = time
         self.temp = temp
         self.feel_temp = feel_temp
@@ -133,8 +136,9 @@ class HourForecast:
         self.humidity = humidity
         self.wind_speed = wind_speed
         self.wind_direction = wind_direction
-        self.precipitation = precipitation  # quantity in mm
+        self.precipitation = precipitation
         self.precip_prob = precip_prob
+        self.solar_radiation = solar_radiation
 
 
 def _symbol_to_description(symbol_code):
