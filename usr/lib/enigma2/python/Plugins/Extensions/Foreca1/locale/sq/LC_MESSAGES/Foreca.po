@@ -40,9 +40,6 @@ msgstr ""
 msgid "7 - Today + 7 days"
 msgstr ""
 
-msgid "7 Day Forecast"
-msgstr ""
-
 msgid "8 - Today + 8 days"
 msgstr ""
 
@@ -100,9 +97,6 @@ msgstr ""
 msgid "Berlin"
 msgstr ""
 
-msgid "Blue"
-msgstr ""
-
 msgid "Blue - Home"
 msgstr ""
 
@@ -148,9 +142,6 @@ msgstr ""
 msgid "Close legend"
 msgstr ""
 
-msgid "Cloud Cover"
-msgstr ""
-
 msgid "Cloudy"
 msgstr ""
 
@@ -175,13 +166,7 @@ msgstr ""
 msgid "Cloudy, thunderstorms with rain"
 msgstr ""
 
-msgid "Cold (< 0°C)"
-msgstr ""
-
 msgid "Color"
-msgstr ""
-
-msgid "Color Legend"
 msgstr ""
 
 msgid "Color Selector"
@@ -203,9 +188,6 @@ msgid "Condition: {}"
 msgstr ""
 
 msgid "Continents Weather Maps"
-msgstr ""
-
-msgid "Cool (0-10°C)"
 msgstr ""
 
 msgid "Could not fetch update information."
@@ -263,9 +245,6 @@ msgid "Dewpoint: %s°C"
 msgstr ""
 
 msgid "Dewpoint: N/A"
-msgstr ""
-
-msgid "Distance"
 msgstr ""
 
 msgid "Distance {} km"
@@ -326,9 +305,6 @@ msgid "Exit / Close legend"
 msgstr ""
 
 msgid "Extreme"
-msgstr ""
-
-msgid "Extreme / thunderstorms"
 msgstr ""
 
 msgid "Fahrenheit, mph, inHg"
@@ -427,9 +403,6 @@ msgstr ""
 msgid "Full Moon"
 msgstr ""
 
-msgid "Gale force (>60 km/h)"
-msgstr ""
-
 msgid "German States Weather Maps"
 msgstr ""
 
@@ -442,9 +415,6 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
-msgid "Green"
-msgstr ""
-
 msgid "Green - Favorite 1"
 msgstr ""
 
@@ -454,16 +424,10 @@ msgstr ""
 msgid "Gust: {:.1f} {}"
 msgstr ""
 
-msgid "HTML"
-msgstr ""
-
 msgid "Hamburg"
 msgstr ""
 
 msgid "Header - not selectable"
-msgstr ""
-
-msgid "Heavy rain"
 msgstr ""
 
 msgid "Help"
@@ -476,9 +440,6 @@ msgid "High"
 msgstr ""
 
 msgid "Home"
-msgstr ""
-
-msgid "Hot (30-40°C)"
 msgstr ""
 
 msgid "Hour Details"
@@ -496,9 +457,6 @@ msgstr ""
 msgid "Hungary"
 msgstr ""
 
-msgid "Ice / frost"
-msgstr ""
-
 msgid "Illumination"
 msgstr ""
 
@@ -506,9 +464,6 @@ msgid "Image %(current)d/%(total)d – %(day)s"
 msgstr ""
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
-
-msgid "Image Downloaded"
 msgstr ""
 
 msgid "Image not available"
@@ -550,9 +505,6 @@ msgstr ""
 msgid "Last Quarter"
 msgstr ""
 
-msgid "Last update"
-msgstr ""
-
 msgid "Latvia"
 msgstr ""
 
@@ -563,15 +515,6 @@ msgid "Left - Previous day"
 msgstr ""
 
 msgid "Left arrow - Previous day"
-msgstr ""
-
-msgid "Light (0-20 km/h)"
-msgstr ""
-
-msgid "Light rain / drizzle"
-msgstr ""
-
-msgid "Light to moderate"
 msgstr ""
 
 msgid "Loading available maps..."
@@ -640,16 +583,7 @@ msgstr ""
 msgid "Middle East"
 msgstr ""
 
-msgid "Mild (10-20°C)"
-msgstr ""
-
 msgid "Moderate"
-msgstr ""
-
-msgid "Moderate (20-40 km/h)"
-msgstr ""
-
-msgid "Moderate rain"
 msgstr ""
 
 msgid "Month"
@@ -719,9 +653,6 @@ msgid "No date available"
 msgstr ""
 
 msgid "No location selected"
-msgstr ""
-
-msgid "No specific legend available."
 msgstr ""
 
 msgid "No station data"
@@ -919,9 +850,6 @@ msgstr ""
 msgid "Previous time"
 msgstr ""
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr ""
 
@@ -935,9 +863,6 @@ msgid "Rain: {:.1f} {}"
 msgstr ""
 
 msgid "RainViewer Radar"
-msgstr ""
-
-msgid "Red"
 msgstr ""
 
 msgid "Red - Color select"
@@ -1036,12 +961,6 @@ msgstr ""
 msgid "Slower: {}s"
 msgstr ""
 
-msgid "Snow"
-msgstr ""
-
-msgid "Snow / ice"
-msgstr ""
-
 msgid "Snow prob. {}%"
 msgstr ""
 
@@ -1064,9 +983,6 @@ msgid "Station Observations"
 msgstr ""
 
 msgid "Station: {}"
-msgstr ""
-
-msgid "Strong (40-60 km/h)"
 msgstr ""
 
 msgid "Sunrise"
@@ -1135,9 +1051,6 @@ msgstr ""
 msgid "Transparency level"
 msgstr ""
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1195,13 +1108,7 @@ msgstr ""
 msgid "Using current time"
 msgstr ""
 
-msgid "Very heavy rain"
-msgstr ""
-
 msgid "Very high"
-msgstr ""
-
-msgid "Very hot (>40°C)"
 msgstr ""
 
 msgid "Visibility: %s m"
@@ -1214,9 +1121,6 @@ msgid "Waning Crescent"
 msgstr ""
 
 msgid "Waning Gibbous"
-msgstr ""
-
-msgid "Warm (20-30°C)"
 msgstr ""
 
 msgid "Waxing Crescent"
@@ -1253,9 +1157,6 @@ msgid "Weather tomorrow"
 msgstr ""
 
 msgid "Weekly Forecast"
-msgstr ""
-
-msgid "Wetter.de Maps Test"
 msgstr ""
 
 msgid "Wind"

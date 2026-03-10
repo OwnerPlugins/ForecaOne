@@ -42,9 +42,6 @@ msgstr "6 - Oggi + 6 giorni"
 msgid "7 - Today + 7 days"
 msgstr "7 - Oggi + 7 giorni"
 
-msgid "7 Day Forecast"
-msgstr "Previsione 7 Giorni"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Oggi + 8 giorni"
 
@@ -102,9 +99,6 @@ msgstr "Belgio"
 msgid "Berlin"
 msgstr "Berlino"
 
-msgid "Blue"
-msgstr "Blu"
-
 msgid "Blue - Home"
 msgstr "Blu - Principale"
 
@@ -150,9 +144,6 @@ msgstr "Chiudi"
 msgid "Close legend"
 msgstr "Chiudi legenda"
 
-msgid "Cloud Cover"
-msgstr "Copertura nuvolosa"
-
 msgid "Cloudy"
 msgstr "Nuvoloso"
 
@@ -177,14 +168,8 @@ msgstr "Nuvoloso e rovesci di neve bagnata"
 msgid "Cloudy, thunderstorms with rain"
 msgstr "Nuvoloso, temporali con pioggia"
 
-msgid "Cold (< 0°C)"
-msgstr "Freddo (< 0°C)"
-
 msgid "Color"
 msgstr "Colore"
-
-msgid "Color Legend"
-msgstr "Legenda Colore"
 
 msgid "Color Selector"
 msgstr "Selettore di Colore"
@@ -206,9 +191,6 @@ msgstr "Conditioni: {}"
 
 msgid "Continents Weather Maps"
 msgstr "Mappe Meteo dei Continenti"
-
-msgid "Cool (0-10°C)"
-msgstr "Fresco (0-10°C)"
 
 msgid "Could not fetch update information."
 msgstr "Impossibile recuperare le informazioni di aggiornamento."
@@ -266,9 +248,6 @@ msgstr "Punto di rugiada %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Punto di rugiada: N/A"
-
-msgid "Distance"
-msgstr "Distanza"
 
 msgid "Distance {} km"
 msgstr "Distanza {} km"
@@ -329,9 +308,6 @@ msgstr "Esci / Chiudi legenda"
 
 msgid "Extreme"
 msgstr "Estremo"
-
-msgid "Extreme / thunderstorms"
-msgstr "Temporali estremi"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
@@ -429,9 +405,6 @@ msgstr "Francia"
 msgid "Full Moon"
 msgstr "Luna Piena"
 
-msgid "Gale force (>60 km/h)"
-msgstr "Forza di burrasca (>60 km/h)"
-
 msgid "German States Weather Maps"
 msgstr "Mappe Meteo degli Stati Tedeschi"
 
@@ -444,9 +417,6 @@ msgstr "Gran Bretagna"
 msgid "Greece"
 msgstr "Grecia"
 
-msgid "Green"
-msgstr "Verde"
-
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -456,17 +426,11 @@ msgstr "Raffica {}"
 msgid "Gust: {:.1f} {}"
 msgstr "Raffica: {:.1f} {}"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Hamburg"
 msgstr "Amburgo"
 
 msgid "Header - not selectable"
 msgstr "Intestazione - non selezionabile"
-
-msgid "Heavy rain"
-msgstr "Pioggia intensa"
 
 msgid "Help"
 msgstr "Aiuto"
@@ -479,9 +443,6 @@ msgstr "Alto"
 
 msgid "Home"
 msgstr ""
-
-msgid "Hot (30-40°C)"
-msgstr "Caldo (30-40°C)"
 
 msgid "Hour Details"
 msgstr "Dettagli dell'ora"
@@ -498,9 +459,6 @@ msgstr "Umidità: {}%"
 msgid "Hungary"
 msgstr "Ungheria"
 
-msgid "Ice / frost"
-msgstr "Ghiaccio / brina"
-
 msgid "Illumination"
 msgstr "Illuminazione"
 
@@ -509,9 +467,6 @@ msgstr "Immagine %(current)d/%(total)d - %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Immagine %(current)d/%(total)d – %(day)s (Paused)"
-
-msgid "Image Downloaded"
-msgstr "Immagine Scaricata"
 
 msgid "Image not available"
 msgstr "Immagine non disponibile"
@@ -552,9 +507,6 @@ msgstr "Tastiera"
 msgid "Last Quarter"
 msgstr "Ultimo Quarto"
 
-msgid "Last update"
-msgstr "Ultimo aggiornamento"
-
 msgid "Latvia"
 msgstr "Lettonia"
 
@@ -566,15 +518,6 @@ msgstr "Sinistra - Giorno precedente"
 
 msgid "Left arrow - Previous day"
 msgstr "Freccia sinistra - Giorno precedente"
-
-msgid "Light (0-20 km/h)"
-msgstr "Leggero (0-20 km/h)"
-
-msgid "Light rain / drizzle"
-msgstr "Pioggia leggera / pioggerellina"
-
-msgid "Light to moderate"
-msgstr "Da leggero a moderato"
 
 msgid "Loading available maps..."
 msgstr "Caricamento mappe disponibili..."
@@ -642,17 +585,8 @@ msgstr "Asia Centrale"
 msgid "Middle East"
 msgstr "Medio Oriente"
 
-msgid "Mild (10-20°C)"
-msgstr "Medio (10-20°C)"
-
 msgid "Moderate"
 msgstr "Moderato"
-
-msgid "Moderate (20-40 km/h)"
-msgstr "Moderato (20-40 km/h)"
-
-msgid "Moderate rain"
-msgstr "Pioggia Moderata"
 
 msgid "Month"
 msgstr "Mese"
@@ -722,9 +656,6 @@ msgstr "Nessun dato disponibile"
 
 msgid "No location selected"
 msgstr "Nessuna posizione selezionata"
-
-msgid "No specific legend available."
-msgstr "Nessuna Legenda disponibile."
 
 msgid "No station data"
 msgstr "Nessun dato sulla stazione"
@@ -921,9 +852,6 @@ msgstr "Pagina precedente"
 msgid "Previous time"
 msgstr "Ora Precedente"
 
-msgid "Radar"
-msgstr "Radar"
-
 msgid "Rain Prob."
 msgstr "Prob. pioggia."
 
@@ -938,9 +866,6 @@ msgstr "Pioggia: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
-
-msgid "Red"
-msgstr "Rosso"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -1038,12 +963,6 @@ msgstr "Slovacchia"
 msgid "Slower: {}s"
 msgstr "Più lento: {}s"
 
-msgid "Snow"
-msgstr "Nevicate"
-
-msgid "Snow / ice"
-msgstr "Neve / ghiaccio"
-
 msgid "Snow prob. {}%"
 msgstr "Prob. neve. {}%"
 
@@ -1067,9 +986,6 @@ msgstr "Stazione di Osservazione"
 
 msgid "Station: {}"
 msgstr "Stazione: {}"
-
-msgid "Strong (40-60 km/h)"
-msgstr "Forte (40-60 km/h)"
 
 msgid "Sunrise"
 msgstr "Alba"
@@ -1137,9 +1053,6 @@ msgstr "Impostazioni Trasparenza"
 msgid "Transparency level"
 msgstr "Livello trasparenza"
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr "UV Indice"
 
@@ -1197,14 +1110,8 @@ msgstr "Usa ▲/▼ per cambiare, OK per selezionare"
 msgid "Using current time"
 msgstr "Utilizzo dell'ora corrente"
 
-msgid "Very heavy rain"
-msgstr "Pioggia molto forte"
-
 msgid "Very high"
 msgstr "Molto alto"
-
-msgid "Very hot (>40°C)"
-msgstr "Molto caldo (>40°C)"
 
 msgid "Visibility: %s m"
 msgstr "Visibilità: %s m"
@@ -1217,9 +1124,6 @@ msgstr "Mezzaluna Calante"
 
 msgid "Waning Gibbous"
 msgstr "Gibbosa Calante"
-
-msgid "Warm (20-30°C)"
-msgstr "Caldo (20-30°C)"
 
 msgid "Waxing Crescent"
 msgstr "Luna Crescente"
@@ -1256,9 +1160,6 @@ msgstr "Meteo domani"
 
 msgid "Weekly Forecast"
 msgstr "Previsioni settimanali"
-
-msgid "Wetter.de Maps Test"
-msgstr "Wetter.de Maps Test"
 
 msgid "Wind"
 msgstr "Vento"
@@ -1352,6 +1253,102 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 msgid "← Frame"
 msgstr "← Cornice"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Previsione 7 Giorni"
+
+#~ msgid "Blue"
+#~ msgstr "Blu"
+
+#~ msgid "Cloud Cover"
+#~ msgstr "Copertura nuvolosa"
+
+#~ msgid "Cold (< 0°C)"
+#~ msgstr "Freddo (< 0°C)"
+
+#~ msgid "Color Legend"
+#~ msgstr "Legenda Colore"
+
+#~ msgid "Cool (0-10°C)"
+#~ msgstr "Fresco (0-10°C)"
+
+#~ msgid "Distance"
+#~ msgstr "Distanza"
+
+#~ msgid "Extreme / thunderstorms"
+#~ msgstr "Temporali estremi"
+
+#~ msgid "Gale force (>60 km/h)"
+#~ msgstr "Forza di burrasca (>60 km/h)"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Heavy rain"
+#~ msgstr "Pioggia intensa"
+
+#~ msgid "Hot (30-40°C)"
+#~ msgstr "Caldo (30-40°C)"
+
+#~ msgid "Ice / frost"
+#~ msgstr "Ghiaccio / brina"
+
+#~ msgid "Image Downloaded"
+#~ msgstr "Immagine Scaricata"
+
+#~ msgid "Last update"
+#~ msgstr "Ultimo aggiornamento"
+
+#~ msgid "Light (0-20 km/h)"
+#~ msgstr "Leggero (0-20 km/h)"
+
+#~ msgid "Light rain / drizzle"
+#~ msgstr "Pioggia leggera / pioggerellina"
+
+#~ msgid "Light to moderate"
+#~ msgstr "Da leggero a moderato"
+
+#~ msgid "Mild (10-20°C)"
+#~ msgstr "Medio (10-20°C)"
+
+#~ msgid "Moderate (20-40 km/h)"
+#~ msgstr "Moderato (20-40 km/h)"
+
+#~ msgid "Moderate rain"
+#~ msgstr "Pioggia Moderata"
+
+#~ msgid "No specific legend available."
+#~ msgstr "Nessuna Legenda disponibile."
+
+#~ msgid "Radar"
+#~ msgstr "Radar"
+
+#~ msgid "Red"
+#~ msgstr "Rosso"
+
+#~ msgid "Snow"
+#~ msgstr "Nevicate"
+
+#~ msgid "Snow / ice"
+#~ msgstr "Neve / ghiaccio"
+
+#~ msgid "Strong (40-60 km/h)"
+#~ msgstr "Forte (40-60 km/h)"
+
+#~ msgid "Very heavy rain"
+#~ msgstr "Pioggia molto forte"
+
+#~ msgid "Very hot (>40°C)"
+#~ msgstr "Molto caldo (>40°C)"
+
+#~ msgid "Warm (20-30°C)"
+#~ msgstr "Caldo (20-30°C)"
+
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Wetter.de Maps Test"
 
 #~ msgid "Cold (below 0°C)"
 #~ msgstr "Freddo (sotto 0°C)"

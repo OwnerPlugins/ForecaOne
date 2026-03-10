@@ -42,10 +42,6 @@ msgstr "6 - Aujourd'hui + 6 jours"
 msgid "7 - Today + 7 days"
 msgstr "7 - Aujourd'hui + 7 jours"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Prévisions"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Aujourd'hui + 8 jours"
 
@@ -105,9 +101,6 @@ msgstr "Belgique"
 msgid "Berlin"
 msgstr "Berlin"
 
-msgid "Blue"
-msgstr "Bleu"
-
 msgid "Blue - Home"
 msgstr "Bleu - Accueil"
 
@@ -155,10 +148,6 @@ msgstr ""
 msgid "Close legend"
 msgstr "Sélection de couleur"
 
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Nuageux et averses"
-
 msgid "Cloudy"
 msgstr "Nuageux"
 
@@ -183,16 +172,9 @@ msgstr "Nuageux et averses de neige humide"
 msgid "Cloudy, thunderstorms with rain"
 msgstr "Nuageux, orages avec pluie"
 
-msgid "Cold (< 0°C)"
-msgstr ""
-
 #, fuzzy
 msgid "Color"
 msgstr "Données de couleur"
-
-#, fuzzy
-msgid "Color Legend"
-msgstr "Sélection de couleur"
 
 #, fuzzy
 msgid "Color Selector"
@@ -217,9 +199,6 @@ msgstr "Plus rapide : {}s"
 
 msgid "Continents Weather Maps"
 msgstr "Cartes météo des continents"
-
-msgid "Cool (0-10°C)"
-msgstr ""
 
 msgid "Could not fetch update information."
 msgstr ""
@@ -280,9 +259,6 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
-
-msgid "Distance"
-msgstr "Distance"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -351,9 +327,6 @@ msgstr "Sélection de couleur"
 #, fuzzy
 msgid "Extreme"
 msgstr "Brême"
-
-msgid "Extreme / thunderstorms"
-msgstr ""
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
@@ -472,9 +445,6 @@ msgstr "France"
 msgid "Full Moon"
 msgstr ""
 
-msgid "Gale force (>60 km/h)"
-msgstr ""
-
 msgid "German States Weather Maps"
 msgstr "Cartes météo des Länder allemands"
 
@@ -487,9 +457,6 @@ msgstr "Grande-Bretagne"
 msgid "Greece"
 msgstr "Grèce"
 
-msgid "Green"
-msgstr "Vert"
-
 msgid "Green - Favorite 1"
 msgstr "Vert - Favori 1"
 
@@ -499,17 +466,11 @@ msgstr ""
 msgid "Gust: {:.1f} {}"
 msgstr ""
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Hamburg"
 msgstr "Hambourg"
 
 msgid "Header - not selectable"
 msgstr "En-tête - non sélectionnable"
-
-msgid "Heavy rain"
-msgstr ""
 
 msgid "Help"
 msgstr ""
@@ -522,9 +483,6 @@ msgstr ""
 
 msgid "Home"
 msgstr "Accueil"
-
-msgid "Hot (30-40°C)"
-msgstr ""
 
 msgid "Hour Details"
 msgstr ""
@@ -543,9 +501,6 @@ msgstr "Humidité"
 msgid "Hungary"
 msgstr "Hongrie"
 
-msgid "Ice / frost"
-msgstr ""
-
 msgid "Illumination"
 msgstr ""
 
@@ -553,9 +508,6 @@ msgid "Image %(current)d/%(total)d – %(day)s"
 msgstr ""
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
-
-msgid "Image Downloaded"
 msgstr ""
 
 msgid "Image not available"
@@ -598,9 +550,6 @@ msgstr "Clavier"
 msgid "Last Quarter"
 msgstr "Dernière mise à jour"
 
-msgid "Last update"
-msgstr "Dernière mise à jour"
-
 msgid "Latvia"
 msgstr "Lettonie"
 
@@ -612,15 +561,6 @@ msgstr "Gauche - Jour précédent"
 
 msgid "Left arrow - Previous day"
 msgstr "Flèche gauche - Jour précédent"
-
-msgid "Light (0-20 km/h)"
-msgstr ""
-
-msgid "Light rain / drizzle"
-msgstr ""
-
-msgid "Light to moderate"
-msgstr ""
 
 msgid "Loading available maps..."
 msgstr "Chargement des cartes disponibles..."
@@ -690,18 +630,8 @@ msgstr "Asie centrale"
 msgid "Middle East"
 msgstr "Moyen-Orient"
 
-msgid "Mild (10-20°C)"
-msgstr ""
-
 msgid "Moderate"
 msgstr ""
-
-msgid "Moderate (20-40 km/h)"
-msgstr ""
-
-#, fuzzy
-msgid "Moderate rain"
-msgstr "Couvert et pluie"
 
 msgid "Month"
 msgstr ""
@@ -777,10 +707,6 @@ msgstr "Aucune date disponible"
 
 msgid "No location selected"
 msgstr "Aucun emplacement sélectionné"
-
-#, fuzzy
-msgid "No specific legend available."
-msgstr "Aucune date disponible"
 
 #, fuzzy
 msgid "No station data"
@@ -993,9 +919,6 @@ msgstr "Page précédente"
 msgid "Previous time"
 msgstr "Page précédente"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr ""
 
@@ -1011,9 +934,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Radar météo"
-
-msgid "Red"
-msgstr "Rouge"
 
 msgid "Red - Color select"
 msgstr "Rouge - Sélection de couleur"
@@ -1115,12 +1035,6 @@ msgstr "Slovaquie"
 msgid "Slower: {}s"
 msgstr "Plus lent : {}s"
 
-msgid "Snow"
-msgstr ""
-
-msgid "Snow / ice"
-msgstr ""
-
 msgid "Snow prob. {}%"
 msgstr ""
 
@@ -1145,9 +1059,6 @@ msgstr "Observations de la station"
 #, fuzzy
 msgid "Station: {}"
 msgstr "Plus rapide : {}s"
-
-msgid "Strong (40-60 km/h)"
-msgstr ""
 
 msgid "Sunrise"
 msgstr "Lever du soleil"
@@ -1223,9 +1134,6 @@ msgstr "Paramètres de transparence"
 msgid "Transparency level"
 msgstr "Niveau de transparence"
 
-msgid "UV"
-msgstr ""
-
 msgid "UV Index"
 msgstr ""
 
@@ -1288,13 +1196,7 @@ msgstr ""
 msgid "Using current time"
 msgstr ""
 
-msgid "Very heavy rain"
-msgstr ""
-
 msgid "Very high"
-msgstr ""
-
-msgid "Very hot (>40°C)"
 msgstr ""
 
 #, fuzzy
@@ -1309,9 +1211,6 @@ msgid "Waning Crescent"
 msgstr ""
 
 msgid "Waning Gibbous"
-msgstr ""
-
-msgid "Warm (20-30°C)"
 msgstr ""
 
 msgid "Waxing Crescent"
@@ -1350,10 +1249,6 @@ msgstr "Météo demain"
 
 msgid "Weekly Forecast"
 msgstr "Prévisions hebdomadaires"
-
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Cartes météo"
 
 msgid "Wind"
 msgstr "Vent"
@@ -1454,6 +1349,48 @@ msgstr "• JAUNE pour enregistrer comme Favori 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Prévisions"
+
+#~ msgid "Blue"
+#~ msgstr "Bleu"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Nuageux et averses"
+
+#, fuzzy
+#~ msgid "Color Legend"
+#~ msgstr "Sélection de couleur"
+
+#~ msgid "Distance"
+#~ msgstr "Distance"
+
+#~ msgid "Green"
+#~ msgstr "Vert"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Dernière mise à jour"
+
+#, fuzzy
+#~ msgid "Moderate rain"
+#~ msgstr "Couvert et pluie"
+
+#, fuzzy
+#~ msgid "No specific legend available."
+#~ msgstr "Aucune date disponible"
+
+#~ msgid "Red"
+#~ msgstr "Rouge"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Cartes météo"
 
 #, fuzzy
 #~ msgid "No tiles available"
