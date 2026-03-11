@@ -22,28 +22,30 @@
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 <table>
   <tr>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/1.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/2.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/3.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/4.jpg?raw=true" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/1.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/2.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/3.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/4.jpeg" width="200"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/5.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/6.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/7.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/8.jpg?raw=true" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/5.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/6.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/7.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/8.jpeg" width="200"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/9.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/10.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/11.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/12.jpg?raw=true" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/9.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/10.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/11.jpeg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/12.jpeg" width="200"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/13.jpg?raw=true" width="200"></td>
-    <td><img src="https://github.com/Belfagor2005/ForecaOne/blob/main/screenshots/14.jpg?raw=true" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/13.jpg" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/14.jpg" width="200"></td>
   </tr>
 </table>
 
