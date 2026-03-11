@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-10 14:09+0100\n"
+"PO-Revision-Date: 2026-03-11 21:25+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 msgid "0 - Today"
 msgstr "0 - Oggi"
@@ -41,6 +41,9 @@ msgstr "6 - Oggi + 6 giorni"
 
 msgid "7 - Today + 7 days"
 msgstr "7 - Oggi + 7 giorni"
+
+msgid "7 Day Forecast"
+msgstr "Previsione 7 Giorni"
 
 msgid "8 - Today + 8 days"
 msgstr "8 - Oggi + 8 giorni"
@@ -99,6 +102,9 @@ msgstr "Belgio"
 msgid "Berlin"
 msgstr "Berlino"
 
+msgid "Blue"
+msgstr "Blu"
+
 msgid "Blue - Home"
 msgstr "Blu - Principale"
 
@@ -143,6 +149,9 @@ msgstr "Chiudi"
 
 msgid "Close legend"
 msgstr "Chiudi legenda"
+
+msgid "Cloud Cover"
+msgstr "Copertura nuvolosa"
 
 msgid "Cloudy"
 msgstr "Nuvoloso"
@@ -258,6 +267,9 @@ msgstr "Punto di rugiada %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Punto di rugiada: N/A"
 
+msgid "Distance"
+msgstr "Distanza"
+
 msgid "Distance {} km"
 msgstr "Distanza {} km"
 
@@ -276,9 +288,8 @@ msgstr "Giù"
 msgid "Down - Next page"
 msgstr "Giù - Pagina successiva"
 
-#, fuzzy
 msgid "Download error"
-msgstr "Immagine Scaricata"
+msgstr "Errore di Download"
 
 msgid "Downloading images..."
 msgstr "Download immagini in corso..."
@@ -295,9 +306,8 @@ msgstr "Errore durante il controllo degli aggiornamenti."
 msgid "Error loading data"
 msgstr "Errore durante il caricamento dei dati"
 
-#, fuzzy
 msgid "Error loading map"
-msgstr "Errore durante il caricamento dei dati"
+msgstr "Errore durante il caricamento della mappa"
 
 msgid "Error loading maps. Check connection."
 msgstr "Errore durante il caricamento delle mappe. Controllare la connessione."
@@ -440,6 +450,9 @@ msgstr "Gran Bretagna"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -448,6 +461,9 @@ msgstr "Raffica {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Raffica: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -500,6 +516,9 @@ msgstr "Immagine %(current)d/%(total)d - %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Immagine %(current)d/%(total)d – %(day)s (Paused)"
 
+msgid "Image Downloaded"
+msgstr "Immagine Scaricata"
+
 msgid "Image not available"
 msgstr "Immagine non disponibile"
 
@@ -538,6 +557,9 @@ msgstr "Tastiera"
 
 msgid "Last Quarter"
 msgstr "Ultimo Quarto"
+
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
 
 msgid "Latvia"
 msgstr "Lettonia"
@@ -902,6 +924,9 @@ msgstr "Pagina precedente"
 msgid "Previous time"
 msgstr "Ora Precedente"
 
+msgid "Radar"
+msgstr "Radar"
+
 msgid "Rain Prob."
 msgstr "Prob. pioggia."
 
@@ -916,6 +941,9 @@ msgstr "Pioggia: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
+
+msgid "Red"
+msgstr "Rosso"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -1009,6 +1037,9 @@ msgstr "Slovacchia"
 
 msgid "Slower: {}s"
 msgstr "Più lento: {}s"
+
+msgid "Snow"
+msgstr "Nevicate"
 
 msgid "Snow / ice"
 msgstr "Neve / ghiaccio"
@@ -1105,6 +1136,9 @@ msgstr "Impostazioni Trasparenza"
 
 msgid "Transparency level"
 msgstr "Livello trasparenza"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV Indice"
@@ -1223,6 +1257,9 @@ msgstr "Meteo domani"
 msgid "Weekly Forecast"
 msgstr "Previsioni settimanali"
 
+msgid "Wetter.de Maps Test"
+msgstr "Wetter.de Maps Test"
+
 msgid "Wind"
 msgstr "Vento"
 
@@ -1316,52 +1353,19 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 msgid "← Frame"
 msgstr "← Cornice"
 
-#~ msgid "7 Day Forecast"
-#~ msgstr "Previsione 7 Giorni"
-
-#~ msgid "Blue"
-#~ msgstr "Blu"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Copertura nuvolosa"
-
 #, fuzzy
 #~ msgid "Could not open temperature map."
 #~ msgstr "Impossibile inizializzare l'API della mappa."
 
-#~ msgid "Distance"
-#~ msgstr "Distanza"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Last update"
-#~ msgstr "Ultimo aggiornamento"
-
 #~ msgid "Left"
 #~ msgstr "Sinistra"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Rosso"
 
 #~ msgid "Right"
 #~ msgstr "Destra"
 
-#~ msgid "Snow"
-#~ msgstr "Nevicate"
-
 #, fuzzy
 #~ msgid "Temperature layer not available."
 #~ msgstr "Immagine non disponibile"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Wetter.de Maps Test"
 
 #~ msgid "Cold (below 0°C)"
 #~ msgstr "Freddo (sotto 0°C)"
