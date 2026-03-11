@@ -9,7 +9,7 @@
     <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
-    <img src="https://img.shields.io/badge/Version-1.1.0-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.1.1-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
@@ -18,6 +18,38 @@
     <img src="https://img.shields.io/badge/Python-3.x-yellow.svg" alt="Python">
   </a>
 </p>
+
+
+## 📸 Screenshots
+
+<p align="center">
+  <i>Click on any thumbnail to view the full image.</i>
+</p>
+
+<table>
+  <tr>
+    <td align="center"><a href="screenshots/1.jpg"><img src="screenshots/1.jpg" alt="Screenshot 1" width="200"/></a></td>
+    <td align="center"><a href="screenshots/2.jpg"><img src="screenshots/2.jpg" alt="Screenshot 2" width="200"/></a></td>
+    <td align="center"><a href="screenshots/3.jpg"><img src="screenshots/3.jpg" alt="Screenshot 3" width="200"/></a></td>
+    <td align="center"><a href="screenshots/4.jpg"><img src="screenshots/4.jpg" alt="Screenshot 4" width="200"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="screenshots/5.jpg"><img src="screenshots/5.jpg" alt="Screenshot 5" width="200"/></a></td>
+    <td align="center"><a href="screenshots/6.jpg"><img src="screenshots/6.jpg" alt="Screenshot 6" width="200"/></a></td>
+    <td align="center"><a href="screenshots/7.jpg"><img src="screenshots/7.jpg" alt="Screenshot 7" width="200"/></a></td>
+    <td align="center"><a href="screenshots/8.jpg"><img src="screenshots/8.jpg" alt="Screenshot 8" width="200"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="screenshots/9.jpg"><img src="screenshots/9.jpg" alt="Screenshot 9" width="200"/></a></td>
+    <td align="center"><a href="screenshots/10.jpg"><img src="screenshots/10.jpg" alt="Screenshot 10" width="200"/></a></td>
+    <td align="center"><a href="screenshots/11.jpg"><img src="screenshots/11.jpg" alt="Screenshot 11" width="200"/></a></td>
+    <td align="center"><a href="screenshots/12.jpg"><img src="screenshots/12.jpg" alt="Screenshot 12" width="200"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="screenshots/9.jpg"><img src="screenshots/14.jpg" alt="Screenshot 9" width="200"/></a></td>
+  </tr>
+</table>
+
 
 ## 📋 Table of Contents
 
