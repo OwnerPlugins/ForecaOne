@@ -225,6 +225,10 @@ msgstr "تعذر تهيئة واجهة برمجة تطبيقات الخريطة.
 msgid "Could not load forecast data"
 msgstr "تعذر تحميل بيانات التوقعات"
 
+#, fuzzy
+msgid "Could not open temperature map."
+msgstr "تعذر تهيئة واجهة برمجة تطبيقات الخريطة."
+
 msgid "Could not parse version information."
 msgstr ""
 
@@ -1103,6 +1107,9 @@ msgstr "احتمالية الثلج: غير متوفرة"
 msgid "Snow prob.: N/A"
 msgstr "احتمالية الثلج: غير متوفرة"
 
+msgid "Solar Radiation Graph"
+msgstr ""
+
 msgid "South Africa"
 msgstr "جنوب أفريقيا"
 
@@ -1141,6 +1148,13 @@ msgstr "درجة الحرارة"
 
 msgid "Temperature"
 msgstr "درجة الحرارة"
+
+msgid "Temperature Map (Official Legend)"
+msgstr ""
+
+#, fuzzy
+msgid "Temperature layer not available."
+msgstr "الصورة غير متوفرة"
 
 #, fuzzy
 msgid "Temperature: %d%s"

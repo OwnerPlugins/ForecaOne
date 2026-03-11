@@ -855,9 +855,11 @@ class Foreca_Preview(Screen, HelpableScreen):
         days_needed = max(self.tag + 1, 1)
         daily_all = None
         if self.weather_api_auth:
-            daily_all = self.weather_api_auth.get_daily_forecast(location_id, days=days_needed)
+            daily_all = self.weather_api_auth.get_daily_forecast(
+                location_id, days=days_needed)
         if not daily_all:
-            daily_all = self.weather_api.get_daily_forecast(location_id, days=days_needed)
+            daily_all = self.weather_api.get_daily_forecast(
+                location_id, days=days_needed)
 
         if daily_all and len(daily_all) > self.tag:
             day_selected = daily_all[self.tag]
@@ -940,7 +942,8 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.f_rel_hum = [str(h.humidity) for h in hourly]
             self.f_uvi = [str(h.uvi) if hasattr(h, 'uvi')
                           and h.uvi is not None else 'N/A' for h in hourly]
-            self.f_solar = [str(h.solar_radiation) if h.solar_radiation is not None else '0' for h in hourly]
+            self.f_solar = [
+                str(h.solar_radiation) if h.solar_radiation is not None else '0' for h in hourly]
             target_date = datetime.date.today() + datetime.timedelta(days=day_index)
             self.f_date = [target_date.strftime("%Y-%m-%d")] * len(hourly)
             self.f_day = target_date.strftime("%A")
@@ -964,8 +967,10 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.f_day = 'N/A'
 
         if DEBUG:
-            print(f"[DEBUG] Current weather raw: temp={self.cur_temp}, feels={self.fl_temp}, pressure={self.pressure}, ...")
-            print(f"[DEBUG] Daily forecast for day {self.tag}: {day_selected.__dict__ if day_selected else 'None'}")
+            print(
+                f"[DEBUG] Current weather raw: temp={self.cur_temp}, feels={self.fl_temp}, pressure={self.pressure}, ...")
+            print(
+                f"[DEBUG] Daily forecast for day {self.tag}: {day_selected.__dict__ if day_selected else 'None'}")
 
         # Update UI
         self._update_moon()
@@ -1231,7 +1236,8 @@ class Foreca_Preview(Screen, HelpableScreen):
             self["solar_value"].instance.setForegroundColor(color)
         else:
             self["solar_value"].setText("N/A")
-            self["solar_value"].instance.setForegroundColor(parseColor("#ffffff"))
+            self["solar_value"].instance.setForegroundColor(
+                parseColor("#ffffff"))
 
         # --- AQI ---
         if hasattr(self, 'aqi') and self.aqi != 'N/A':
@@ -1998,7 +2004,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         """Return a color based on solar radiation intensity (W/m²)."""
         try:
             val = float(radiance)
-        except:
+        except BaseException:
             return parseColor("#ffffff")  # white default
         if val < 200:
             return parseColor("#00ff00")  # green

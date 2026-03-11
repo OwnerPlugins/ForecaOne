@@ -327,50 +327,10 @@ class ForecaFreeAPI:
         )
 
     # ---------- Daily forecast (10 days) ----------
-    # def get_daily_forecast(
-            # self,
-            # location_id: str,
-            # days: int = 10) -> List[DayForecast]:
-        # url = f"{self.BASE_URL}/data/favorites/{location_id}.json"
-        # data = self._fetch_json(url)
-        # if not data or location_id not in data:
-            # return []
-        # forecast_list = data[location_id][:days]
-        # days_forecast = []
-        # for item in forecast_list:
-            # try:
-                # date = datetime.datetime.strptime(
-                    # item["date"], "%Y-%m-%d").date()
-                # sunrise = datetime.datetime.strptime(
-                    # item["sunrise"], "%H:%M:%S").time()
-                # sunset = datetime.datetime.strptime(
-                    # item["sunset"], "%H:%M:%S").time()
-            # except (KeyError, ValueError):
-                # continue
-            # day = DayForecast(
-                # date=date,
-                # min_temp=item["tmin"],
-                # max_temp=item["tmax"],
-                # wind_speed=item["winds"],
-                # wind_direction=item["windd"],
-                # humidity=item["rhum"],
-                # condition=item["symb"],
-                # precipitation=item.get("rain", 0),
-                # sunrise=sunrise,
-                # sunset=sunset,
-                # daylength=item["daylen"],
-                # maxwind=item.get("maxwind"),
-                # pres=item.get("pres"),
-                # uvi=item.get("uvi"),
-                # rainp=item.get("rainp"),
-                # snowp=item.get("snowp"),
-                # updated=item.get("updated")
-            # )
-            # days_forecast.append(day)
-        # return days_forecast
-
-    # ---------- Daily forecast (10 days) ----------
-    def get_daily_forecast(self, location_id: str, days: int = 10) -> List[DayForecast]:
+    def get_daily_forecast(
+            self,
+            location_id: str,
+            days: int = 10) -> List[DayForecast]:
         url = f"{self.BASE_URL}/data/favorites/{location_id}.json"
         data = self._fetch_json(url)
         if not data or location_id not in data:
@@ -379,9 +339,12 @@ class ForecaFreeAPI:
         days_forecast = []
         for item in forecast_list:
             try:
-                date = datetime.datetime.strptime(item["date"], "%Y-%m-%d").date()
-                sunrise = datetime.datetime.strptime(item["sunrise"], "%H:%M:%S").time()
-                sunset = datetime.datetime.strptime(item["sunset"], "%H:%M:%S").time()
+                date = datetime.datetime.strptime(
+                    item["date"], "%Y-%m-%d").date()
+                sunrise = datetime.datetime.strptime(
+                    item["sunrise"], "%H:%M:%S").time()
+                sunset = datetime.datetime.strptime(
+                    item["sunset"], "%H:%M:%S").time()
             except (KeyError, ValueError):
                 continue
             day = DayForecast(
@@ -446,27 +409,17 @@ class ForecaFreeAPI:
             return None
 
     # ---------- Hourly forecast (scraping) ----------
-    # def get_hourly_forecast(
-            # self,
-            # location_id: str,
-            # day: int = 0) -> List[HourForecast]:
-        # place = self.get_location_by_id(location_id)
-        # if not place:
-            # return []
-        # try:
-            # return self.scraper(place, day)
-        # except Exception as e:
-            # logging.getLogger(__name__).error(f"Error in hourly forecast: {e}")
-            # return []
-
-    # ---------- Hourly forecast (scraping) ----------
-    def get_hourly_forecast(self, location_id: str, day: int = 0) -> List[HourForecast]:
+    def get_hourly_forecast(
+            self,
+            location_id: str,
+            day: int = 0) -> List[HourForecast]:
         place = self.get_location_by_id(location_id)
         if not place:
             return []
         try:
             hourly_list = self.scraper(place, day)
-            # Ensure each object has solar_radiation = None (scraper doesn't provide it)
+            # Ensure each object has solar_radiation = None (scraper doesn't
+            # provide it)
             for h in hourly_list:
                 h.solar_radiation = None
             return hourly_list
@@ -741,7 +694,10 @@ class ForecaWeatherAPI:
             except Exception as e:
                 print(f"[Foreca1WeatherAPI] Error loading credentials: {e}")
 
-    def get_daily_forecast(self, location_id: str, days: int = 7) -> List[DayForecast]:
+    def get_daily_forecast(
+            self,
+            location_id: str,
+            days: int = 7) -> List[DayForecast]:
         """
         Fetch daily forecast using the authenticated API.
         Returns a list of DayForecast objects with solar_radiation_sum.
@@ -760,7 +716,11 @@ class ForecaWeatherAPI:
         }
 
         try:
-            resp = requests.get(url, headers=headers, params=params, timeout=15)
+            resp = requests.get(
+                url,
+                headers=headers,
+                params=params,
+                timeout=15)
             if resp.status_code != 200:
                 return []
 
@@ -779,9 +739,11 @@ class ForecaWeatherAPI:
                 sunrise = None
                 sunset = None
                 if item.get('sunrise'):
-                    sunrise = datetime.datetime.strptime(item['sunrise'], "%H:%M:%S").time()
+                    sunrise = datetime.datetime.strptime(
+                        item['sunrise'], "%H:%M:%S").time()
                 if item.get('sunset'):
-                    sunset = datetime.datetime.strptime(item['sunset'], "%H:%M:%S").time()
+                    sunset = datetime.datetime.strptime(
+                        item['sunset'], "%H:%M:%S").time()
 
                 df = DayForecast(
                     date=date,
@@ -811,7 +773,10 @@ class ForecaWeatherAPI:
             print(f"[ForecaWeatherAPI] Error in daily forecast: {e}")
             return []
 
-    def get_hourly_forecast(self, location_id: str, day: int = 0) -> List[HourForecast]:
+    def get_hourly_forecast(
+            self,
+            location_id: str,
+            day: int = 0) -> List[HourForecast]:
         token = self.get_token()
         if not token:
             return []
@@ -827,24 +792,32 @@ class ForecaWeatherAPI:
         }
 
         try:
-            resp = requests.get(url, headers=headers, params=params, timeout=15)
+            resp = requests.get(
+                url,
+                headers=headers,
+                params=params,
+                timeout=15)
             if resp.status_code != 200:
-                print(f"[ForecaWeatherAPI] Hourly forecast error: {resp.status_code}")
+                print(
+                    f"[ForecaWeatherAPI] Hourly forecast error: {resp.status_code}")
                 return []
 
             data = resp.json()
             # --- DEBUG: stampa i campi del primo elemento ---
             forecast_list = data.get('forecast', [])
             if forecast_list:
-                print("[DEBUG] First forecast item keys:", list(forecast_list[0].keys()))
+                print(
+                    "[DEBUG] First forecast item keys:", list(
+                        forecast_list[0].keys()))
                 if 'solarRadiation' in forecast_list[0]:
                     print("[DEBUG] solarRadiation IS present")
                 else:
                     print("[DEBUG] solarRadiation NOT present")
             # -------------------------------------------------
-
-
-            target_date = (datetime.date.today() + datetime.timedelta(days=day)).isoformat()
+            target_date = (
+                datetime.date.today() +
+                datetime.timedelta(
+                    days=day)).isoformat()
             result = []
 
             for item in forecast_list:
@@ -852,7 +825,8 @@ class ForecaWeatherAPI:
                 if not time_str:
                     continue
 
-                dt = datetime.datetime.fromisoformat(time_str.replace('Z', '+00:00'))
+                dt = datetime.datetime.fromisoformat(
+                    time_str.replace('Z', '+00:00'))
                 if dt.date().isoformat() != target_date:
                     continue
 
@@ -869,7 +843,6 @@ class ForecaWeatherAPI:
                     solar_radiation=item.get('solarRadiation')
                 )
                 result.append(hf)
-                
                 print(f"[ForecaWeatherAPI] result forecast: {result}")
 
             return result

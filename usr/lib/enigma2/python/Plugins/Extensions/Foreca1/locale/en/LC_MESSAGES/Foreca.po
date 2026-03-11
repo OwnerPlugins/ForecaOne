@@ -233,6 +233,9 @@ msgstr ""
 msgid "Could not load forecast data"
 msgstr ""
 
+msgid "Could not open temperature map."
+msgstr ""
+
 msgid "Could not parse version information."
 msgstr ""
 
@@ -1129,6 +1132,9 @@ msgstr ""
 msgid "Snow prob.: N/A"
 msgstr ""
 
+msgid "Solar Radiation Graph"
+msgstr ""
+
 msgid "South Africa"
 msgstr ""
 
@@ -1167,6 +1173,12 @@ msgid "Temp"
 msgstr ""
 
 msgid "Temperature"
+msgstr ""
+
+msgid "Temperature Map (Official Legend)"
+msgstr ""
+
+msgid "Temperature layer not available."
 msgstr ""
 
 msgid "Temperature: %d%s"
