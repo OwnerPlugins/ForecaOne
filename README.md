@@ -26,28 +26,32 @@
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/1.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/2.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/3.jpeg" width="300"></td>
-  </tr>    
-  <tr>    
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/4.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/5.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/6.jpeg" width="300"></td>
-  </tr>    
-  <tr>    
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/7.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/8.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/9.jpeg" width="300"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/1.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/2.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/10.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/11.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/12.jpeg" width="300"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/3.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/4.jpeg" width="500"></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/13.jpeg" width="300"></td>
-    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/14.jpeg" width="300"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/5.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/6.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/7.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/8.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/9.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/10.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/11.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/12.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/13.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/14.jpeg" width="500"></td>
   </tr>
 </table>
 
@@ -397,7 +401,7 @@ Thanks to @Orlandox and all friends who provided suggestions and tested the plug
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0**.  
+This project is licensed under the **GNU General Public License v3.0**.
 See the [LICENSE](LICENSE) file for details.
 
 <p align="center">
