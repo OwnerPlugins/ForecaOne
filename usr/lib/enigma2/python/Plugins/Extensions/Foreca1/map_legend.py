@@ -110,7 +110,12 @@ class MapLegend(Screen, HelpableScreen):
 
 
 class MapLegendOverlay(MapLegend):
-    def __init__(self, session, layer_type="precip", mode='text', image_path=None):
+    def __init__(
+            self,
+            session,
+            layer_type="precip",
+            mode='text',
+            image_path=None):
         self.mode = mode
         self.image_path = image_path
         # Choose the skin based on the mode
@@ -131,7 +136,8 @@ class MapLegendOverlay(MapLegend):
                     self[f"desc{i}"].hide()
             # Show Image
             if "legend_image" in self and self["legend_image"].instance:
-                self["legend_image"].instance.setPixmapFromFile(self.image_path)
+                self["legend_image"].instance.setPixmapFromFile(
+                    self.image_path)
                 self["legend_image"].show()
         else:
             # Normal behavior (textual)
