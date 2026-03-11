@@ -210,6 +210,10 @@ msgstr "Kartta-API:n alustaminen epäonnistui."
 msgid "Could not load forecast data"
 msgstr "Ennustetietojen lataaminen epäonnistui"
 
+#, fuzzy
+msgid "Could not open temperature map."
+msgstr "Kartta-API:n alustaminen epäonnistui."
+
 msgid "Could not parse version information."
 msgstr "Versiotietoja ei voitu jäsentää."
 
@@ -1019,6 +1023,9 @@ msgstr "Lumisateen todennäk. {}%"
 msgid "Snow prob.: N/A"
 msgstr "Lumisateen todennäköisyys: N/A"
 
+msgid "Solar Radiation Graph"
+msgstr ""
+
 msgid "South Africa"
 msgstr "Etelä-Afrikka"
 
@@ -1057,6 +1064,13 @@ msgstr "Lämpötila"
 
 msgid "Temperature"
 msgstr "Lämpötila"
+
+msgid "Temperature Map (Official Legend)"
+msgstr ""
+
+#, fuzzy
+msgid "Temperature layer not available."
+msgstr "Kuva ei saatavilla"
 
 msgid "Temperature: %d%s"
 msgstr "Lämpötila: %d%s"

@@ -208,6 +208,10 @@ msgstr "Δεν ήταν δυνατή η αρχικοποίηση του API χά
 msgid "Could not load forecast data"
 msgstr "Δεν ήταν δυνατή η φόρτωση δεδομένων πρόγνωσης"
 
+#, fuzzy
+msgid "Could not open temperature map."
+msgstr "Δεν ήταν δυνατή η αρχικοποίηση του API χάρτη."
+
 msgid "Could not parse version information."
 msgstr "Δεν ήταν δυνατή η ανάλυση των πληροφοριών έκδοσης."
 
@@ -1017,6 +1021,9 @@ msgstr "Πιθανότ. χιονιού {}%"
 msgid "Snow prob.: N/A"
 msgstr "Πιθανότ. χιονιού: Μ/Δ"
 
+msgid "Solar Radiation Graph"
+msgstr ""
+
 msgid "South Africa"
 msgstr "Νότια Αφρική"
 
@@ -1055,6 +1062,13 @@ msgstr "Θερμοκρασία"
 
 msgid "Temperature"
 msgstr "Θερμοκρασία"
+
+msgid "Temperature Map (Official Legend)"
+msgstr ""
+
+#, fuzzy
+msgid "Temperature layer not available."
+msgstr "Η εικόνα δεν είναι διαθέσιμη"
 
 msgid "Temperature: %d%s"
 msgstr "Θερμοκρασία: %d%s"

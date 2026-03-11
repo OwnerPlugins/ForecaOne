@@ -210,6 +210,10 @@ msgstr "Impossibile inizializzare l'API della mappa."
 msgid "Could not load forecast data"
 msgstr "Impossibile caricare i dati delle previsioni"
 
+#, fuzzy
+msgid "Could not open temperature map."
+msgstr "Impossibile inizializzare l'API della mappa."
+
 msgid "Could not parse version information."
 msgstr "Impossibile analizzare le informazioni sulla versione."
 
@@ -1019,6 +1023,9 @@ msgstr "Prob. neve. {}%"
 msgid "Snow prob.: N/A"
 msgstr "Prob. neve: N/D"
 
+msgid "Solar Radiation Graph"
+msgstr ""
+
 msgid "South Africa"
 msgstr "Sudafrica"
 
@@ -1057,6 +1064,13 @@ msgstr "Temperatura"
 
 msgid "Temperature"
 msgstr "Temperatura"
+
+msgid "Temperature Map (Official Legend)"
+msgstr ""
+
+#, fuzzy
+msgid "Temperature layer not available."
+msgstr "Immagine non disponibile"
 
 msgid "Temperature: %d%s"
 msgstr "Temperatura: %d%s"
