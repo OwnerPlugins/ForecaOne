@@ -53,6 +53,33 @@
     <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/13.jpeg" width="500"></td>
     <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/14.jpeg" width="500"></td>
   </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/15.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/16.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/17.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/18.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/19.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/20.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/21.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/22.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/23.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/24.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/25.jpeg" width="500"></td>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/26.jpeg" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Belfagor2005/ForecaOne/refs/heads/main/screenshots/27.jpeg" width="500"></td>
+  </tr>
 </table>
 
 
