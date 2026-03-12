@@ -365,7 +365,7 @@ class ForecaFreeAPI:
                 rainp=item.get("rainp"),
                 snowp=item.get("snowp"),
                 updated=item.get("updated"),
-                solar_radiation_sum=None  # free API does not provide this
+                solar_radiation_sum=None
             )
             days_forecast.append(day)
         return days_forecast

@@ -108,23 +108,24 @@
     <widget name="icon_sunset" position="730,260" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/sunset.png" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="sunset_value" position="490,260" size="230,25" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <!-- uva -->
-    <widget name="uvi_value" position="395,965" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
-    <widget name="uvi_desc" position="395,940" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
-    <widget name="icon_uvi" position="730,945" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <widget name="uvi_value" position="395,960" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="uvi_desc" position="395,935" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="icon_uvi" position="730,940" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     
-    <!-- sola radiation -->    
+    <!-- sola radiation -->  
+    <widget name="solar_value" position="395,1020" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
+    <widget name="solar_desc" position="395,995" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_solar" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/rdsun.png" position="730,1005" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="solar_value" position="395,1010" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
     
     <!-- AQI, probabilità pioggia/neve, aggiornamento -->
     <widget name="icon_aqi" position="730,875" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="aqi_value" position="395,880" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
     <widget name="icon_rainp" position="40,875" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="rainp_value" position="95,880" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
-    <widget name="icon_snowp" position="40,945" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="snowp_value" position="95,950" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
-    <widget name="icon_updated" position="220,1004" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="updated_label" position="277,1010" size="330,40" font="Regular; 24" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
+    <widget name="icon_snowp" position="40,940" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <widget name="snowp_value" position="95,945" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
+    <widget name="icon_updated" position="245,1004" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <widget name="updated_label" position="302,1010" size="330,40" font="Regular; 24" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
     <!-- Station -->
     <widget name="icon_observation" position="41,535" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     

@@ -99,6 +99,7 @@ from .weather_detail import WeatherDetailView
 from .MoonPhase import MoonPhase
 from .hour_detail import HourDetailView
 
+
 # ---------- Utility functions ----------
 TARGET_LANG = _get_system_language()
 
@@ -354,8 +355,9 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["uvi_desc"] = Label("")
 
         # ========== SOLAR INDEX ==========
-        self["icon_solar"] = Pixmap()
         self["solar_value"] = Label("N/A")
+        self["icon_solar"] = Pixmap()
+        self["solar_desc"] = Label("")
 
         # ========== AIR QUALITY INDEX (AQI) ==========
         self["icon_aqi"] = Pixmap()
@@ -766,7 +768,6 @@ class Foreca_Preview(Screen, HelpableScreen):
         self.myloc = fav_index
         day_index = self.tag
         location_id = path_loc.split('/')[0] if '/' in path_loc else path_loc
-        current = self.weather_api.get_current_weather(location_id)
 
         # Get location details
         place = self.weather_api.get_location_by_id(location_id)
@@ -851,15 +852,11 @@ class Foreca_Preview(Screen, HelpableScreen):
                 _write_favorite_debug("# DEBUG: Current weather data is None")
             self.cur_temp = self.fl_temp = self.pic = self.wind = self.wind_speed = self.wind_gust = self.rain_mm = self.hum = self.pressure = self.dewpoint = self.uvi = 'N/A'
 
-        # Daily forecast (try auth, fallback to free)
+        # Daily forecast (free first, then auth as fallback)
         days_needed = max(self.tag + 1, 1)
-        daily_all = None
-        if self.weather_api_auth:
-            daily_all = self.weather_api_auth.get_daily_forecast(
-                location_id, days=days_needed)
-        if not daily_all:
-            daily_all = self.weather_api.get_daily_forecast(
-                location_id, days=days_needed)
+        daily_all = self.weather_api.get_daily_forecast(location_id, days=days_needed)
+        if not daily_all and self.weather_api_auth:
+            daily_all = self.weather_api_auth.get_daily_forecast(location_id, days=days_needed)
 
         if daily_all and len(daily_all) > self.tag:
             day_selected = daily_all[self.tag]
@@ -869,10 +866,24 @@ class Foreca_Preview(Screen, HelpableScreen):
                 "%H:%M") if day_selected.sunrise else 'N/A'
             self.sunset = day_selected.sunset.strftime(
                 "%H:%M") if day_selected.sunset else 'N/A'
-            hours = day_selected.daylength // 60 if day_selected.daylength else 0
-            mins = day_selected.daylength % 60 if day_selected.daylength else 0
-            self.daylen = _("{hours} h {mins} min").format(
-                hours=hours, mins=mins)
+
+            # Calcola daylength se non fornito
+            if day_selected.daylength is not None:
+                hours = day_selected.daylength // 60
+                mins = day_selected.daylength % 60
+                self.daylen = _("{hours} h {mins} min").format(hours=hours, mins=mins)
+            elif day_selected.sunrise and day_selected.sunset:
+                # Calcola la differenza in minuti tra sunset e sunrise
+                sunrise_min = day_selected.sunrise.hour * 60 + day_selected.sunrise.minute
+                sunset_min = day_selected.sunset.hour * 60 + day_selected.sunset.minute
+                daylen_min = sunset_min - sunrise_min
+                if daylen_min < 0:
+                    daylen_min += 24 * 60  # attraversa la mezzanotte
+                hours = daylen_min // 60
+                mins = daylen_min % 60
+                self.daylen = _("{hours} h {mins} min").format(hours=hours, mins=mins)
+            else:
+                self.daylen = 'N/A'
 
             # --- DATA THAT CHANGES WITH THE DAY (present in daily) ---
             # <-- only for tomorrow, the day after tomorrow, etc.
@@ -910,9 +921,22 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f"(current values preserved: uvi={self.uvi}, rainp={self.rainp}, snowp={self.snowp}, updated={self.updated})")
             _write_favorite_debug(debug_msg)
 
-        # Hourly forecast (try auth, fallback to free)
+        # Hourly forecast (try free, fallback to auth)
         hourly = None
-        if self.weather_api_auth:
+        # First try free API
+        try:
+            hourly = self.weather_api.get_hourly_forecast(
+                location_id, day=day_index)
+            if DEBUG:
+                print(
+                    f"[Foreca1] Using free API (scraper) for hourly, got {len(hourly) if hourly else 0} records")
+        except Exception as e:
+            if DEBUG:
+                print(f"[Foreca1] Free hourly failed, trying auth: {e}")
+            hourly = None
+
+        # Fallback to authenticated API
+        if not hourly and self.weather_api_auth:
             try:
                 hourly = self.weather_api_auth.get_hourly_forecast(
                     location_id, day=day_index)
@@ -921,16 +945,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                         f"[Foreca1] Using authenticated API for hourly, got {len(hourly) if hourly else 0} records")
             except Exception as e:
                 if DEBUG:
-                    print(f"[Foreca1] Auth hourly failed, falling back: {e}")
-                hourly = None
-
-        if not hourly:
-            hourly = self.weather_api.get_hourly_forecast(
-                location_id, day=day_index)
-            if DEBUG:
-                print(
-                    f"[Foreca1] Using free API (scraper) for hourly, got {len(hourly) if hourly else 0} records")
-
+                    print(f"[Foreca1] Auth hourly also failed: {e}")
         if hourly:
             self.f_time = [h.time.strftime("%H:%M") for h in hourly]
             self.f_cur_temp = [str(h.temp) for h in hourly]
@@ -1238,10 +1253,15 @@ class Foreca_Preview(Screen, HelpableScreen):
             self["solar_value"].setText(f"{solar_val} W/m²")
             color = self.solar_to_color(solar_val)
             self["solar_value"].instance.setForegroundColor(color)
+            if "solar_desc" in self:
+                desc = self.solarToDescription(solar_val)
+                self["solar_desc"].setText(desc)
+                self["solar_desc"].instance.setForegroundColor(color)
         else:
             self["solar_value"].setText("N/A")
-            self["solar_value"].instance.setForegroundColor(
-                parseColor("#ffffff"))
+            self["solar_value"].instance.setForegroundColor(parseColor("#ffffff"))
+            if "solar_desc" in self:
+                self["solar_desc"].setText("")
 
         # --- AQI ---
         if hasattr(self, 'aqi') and self.aqi != 'N/A':
@@ -2018,6 +2038,23 @@ class Foreca_Preview(Screen, HelpableScreen):
             return parseColor("#ff9900")  # orange
         else:
             return parseColor("#ff0000")  # red
+
+    def solarToDescription(self, radiance):
+        """Convert solar radiation (W/m²) to descriptive category."""
+        try:
+            val = float(radiance)
+        except:
+            return _("N/A")
+        if val < 100:
+            return _("Very low")
+        elif val < 300:
+            return _("Low")
+        elif val < 500:
+            return _("Moderate")
+        elif val < 700:
+            return _("High")
+        else:
+            return _("Very high")
 
     def _get_timezone_offset(self, tz_name):
         """Calculate the current UTC offset for a given timezone (in hours)."""
