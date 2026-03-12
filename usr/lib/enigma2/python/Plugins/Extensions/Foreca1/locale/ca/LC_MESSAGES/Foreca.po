@@ -42,10 +42,6 @@ msgstr "6 - Avui + 6 dies"
 msgid "7 - Today + 7 days"
 msgstr "7 - Avui + 7 dies"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Pronòstic"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Avui + 8 dies"
 
@@ -105,9 +101,6 @@ msgstr "Bèlgica"
 msgid "Berlin"
 msgstr "Berlín"
 
-msgid "Blue"
-msgstr "Blau"
-
 msgid "Blue - Home"
 msgstr "Blau - Inici"
 
@@ -154,10 +147,6 @@ msgstr ""
 #, fuzzy
 msgid "Close legend"
 msgstr "Selecció de color"
-
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Ennuvolat i xàfecs"
 
 msgid "Cloudy"
 msgstr "Ennuvolat"
@@ -280,9 +269,6 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
-
-msgid "Distance"
-msgstr "Distància"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -494,9 +480,6 @@ msgstr "Gran Bretanya"
 msgid "Greece"
 msgstr "Grècia"
 
-msgid "Green"
-msgstr "Verd"
-
 msgid "Green - Favorite 1"
 msgstr "Verd - Favorit 1"
 
@@ -505,9 +488,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -562,10 +542,6 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
-#, fuzzy
-msgid "Image Downloaded"
-msgstr "No hi ha data disponible"
-
 msgid "Image not available"
 msgstr "Imatge no disponible"
 
@@ -604,9 +580,6 @@ msgstr "Teclat"
 
 #, fuzzy
 msgid "Last Quarter"
-msgstr "Última actualització"
-
-msgid "Last update"
 msgstr "Última actualització"
 
 msgid "Latvia"
@@ -1002,9 +975,6 @@ msgstr "Pàgina anterior"
 msgid "Previous time"
 msgstr "Pàgina anterior"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr ""
 
@@ -1020,9 +990,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Radar meteorològic"
-
-msgid "Red"
-msgstr "Vermell"
 
 msgid "Red - Color select"
 msgstr "Vermell - Selecció de color"
@@ -1120,9 +1087,6 @@ msgstr "Eslovàquia"
 
 msgid "Slower: {}s"
 msgstr "Més lent: {}s"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr ""
@@ -1228,9 +1192,6 @@ msgstr "Configuració de transparència"
 
 msgid "Transparency level"
 msgstr "Nivell de transparència"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr ""
@@ -1360,10 +1321,6 @@ msgstr "Temps demà"
 msgid "Weekly Forecast"
 msgstr "Pronòstic setmanal"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Mapes meteorològics"
-
 msgid "Wind"
 msgstr "Vent"
 
@@ -1463,6 +1420,40 @@ msgstr "• GROC per desar com a Favorit 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Pronòstic"
+
+#~ msgid "Blue"
+#~ msgstr "Blau"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Ennuvolat i xàfecs"
+
+#~ msgid "Distance"
+#~ msgstr "Distància"
+
+#~ msgid "Green"
+#~ msgstr "Verd"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#, fuzzy
+#~ msgid "Image Downloaded"
+#~ msgstr "No hi ha data disponible"
+
+#~ msgid "Last update"
+#~ msgstr "Última actualització"
+
+#~ msgid "Red"
+#~ msgstr "Vermell"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Mapes meteorològics"
 
 #, fuzzy
 #~ msgid "Temperature layer not available."
