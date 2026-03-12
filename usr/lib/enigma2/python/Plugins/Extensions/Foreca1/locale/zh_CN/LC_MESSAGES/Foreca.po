@@ -581,6 +581,10 @@ msgstr ""
 msgid "Loading nearby stations..."
 msgstr "正在加载附近的站点..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "正在下载..."
+
 msgid "Loading weekly forecast..."
 msgstr "正在加载每周预测..."
 
@@ -1208,6 +1212,9 @@ msgstr "很高"
 msgid "Very hot (>40°C)"
 msgstr ""
 
+msgid "Very low"
+msgstr ""
+
 #, fuzzy
 msgid "Visibility: %s m"
 msgstr "能见度： {}米"
@@ -1434,10 +1441,6 @@ msgstr ""
 
 #~ msgid "Try different zoom or region"
 #~ msgstr "尝试其他缩放比例或区域"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "正在下载..."
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "图片% (当前) d/% (总计) d"

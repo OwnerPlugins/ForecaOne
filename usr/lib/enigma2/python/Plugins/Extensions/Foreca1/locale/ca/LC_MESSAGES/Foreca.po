@@ -610,6 +610,10 @@ msgstr "Carregant estacions properes..."
 msgid "Loading nearby stations..."
 msgstr "Carregant estacions properes..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Descarregant imatges..."
+
 msgid "Loading weekly forecast..."
 msgstr "Carregant pronòstic setmanal..."
 
@@ -1260,6 +1264,9 @@ msgstr ""
 msgid "Very hot (>40°C)"
 msgstr ""
 
+msgid "Very low"
+msgstr ""
+
 #, fuzzy
 msgid "Visibility: %s m"
 msgstr "Distància"
@@ -1471,10 +1478,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Error displaying map"
 #~ msgstr "Error en desar el favorit!"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Descarregant imatges..."
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"

@@ -558,6 +558,10 @@ msgstr "Φόρτωση σεληνιακών φάσεων..."
 msgid "Loading nearby stations..."
 msgstr "Φόρτωση κοντινών σταθμών..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Λήψη πλαισίων..."
+
 msgid "Loading weekly forecast..."
 msgstr "Φόρτωση εβδομαδιαίας πρόγνωσης..."
 

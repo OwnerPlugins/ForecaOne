@@ -610,6 +610,10 @@ msgstr "Načítání blízkých stanic..."
 msgid "Loading nearby stations..."
 msgstr "Načítání blízkých stanic..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Stahování obrázků..."
+
 msgid "Loading weekly forecast..."
 msgstr "Načítání týdenní předpovědi..."
 
@@ -1260,6 +1264,9 @@ msgstr ""
 msgid "Very hot (>40°C)"
 msgstr ""
 
+msgid "Very low"
+msgstr ""
+
 #, fuzzy
 msgid "Visibility: %s m"
 msgstr "Vzdálenost"
@@ -1471,10 +1478,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Error displaying map"
 #~ msgstr "Chyba při ukládání oblíbené položky!"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Stahování obrázků..."
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"

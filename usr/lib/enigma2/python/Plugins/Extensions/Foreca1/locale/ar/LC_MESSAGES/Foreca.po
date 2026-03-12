@@ -594,6 +594,10 @@ msgstr "جاري تحميل المحطات القريبة..."
 msgid "Loading nearby stations..."
 msgstr "جاري تحميل المحطات القريبة..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "جاري تحميل البلاط..."
+
 msgid "Loading weekly forecast..."
 msgstr "جاري تحميل التوقعات الأسبوعية..."
 
@@ -1230,6 +1234,9 @@ msgstr "مرتفع جدًا"
 msgid "Very hot (>40°C)"
 msgstr ""
 
+msgid "Very low"
+msgstr ""
+
 #, fuzzy
 msgid "Visibility: %s m"
 msgstr "الرؤية: {} م"
@@ -1449,10 +1456,6 @@ msgstr ""
 
 #~ msgid "Try different zoom or region"
 #~ msgstr "جرب تكبيرًا أو منطقة مختلفة"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "جاري تحميل البلاط..."
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "الصورة %(current)d/%(total)d"

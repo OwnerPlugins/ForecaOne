@@ -607,6 +607,10 @@ msgid "Loading nearby stations..."
 msgstr ""
 
 #, fuzzy
+msgid "Loading tiles..."
+msgstr "Foreca 4"
+
+#, fuzzy
 msgid "Loading weekly forecast..."
 msgstr "Foreca 4"
 
@@ -1254,6 +1258,9 @@ msgstr ""
 msgid "Very hot (>40°C)"
 msgstr ""
 
+msgid "Very low"
+msgstr ""
+
 msgid "Visibility: %s m"
 msgstr ""
 
@@ -1429,10 +1436,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Wind speed:"
 #~ msgstr "Wind"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Foreca 4"
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"

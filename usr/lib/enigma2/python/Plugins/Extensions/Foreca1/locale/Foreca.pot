@@ -33,6 +33,7 @@
 
 
 
+
 msgid "0 - Today"
 msgstr ""
 
@@ -577,6 +578,9 @@ msgid "Loading lunar phases..."
 msgstr ""
 
 msgid "Loading nearby stations..."
+msgstr ""
+
+msgid "Loading tiles..."
 msgstr ""
 
 msgid "Loading weekly forecast..."
@@ -1183,6 +1187,9 @@ msgid "Very high"
 msgstr ""
 
 msgid "Very hot (>40°C)"
+msgstr ""
+
+msgid "Very low"
 msgstr ""
 
 msgid "Visibility: %s m"

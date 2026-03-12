@@ -564,6 +564,9 @@ msgstr "Caricamento delle fasi lunari..."
 msgid "Loading nearby stations..."
 msgstr "Caricamento delle stazioni vicine..."
 
+msgid "Loading tiles..."
+msgstr "Caricamento schemi..."
+
 msgid "Loading weekly forecast..."
 msgstr "Caricamento previsioni settimanali..."
 
@@ -1170,6 +1173,9 @@ msgstr "Molto alto"
 msgid "Very hot (>40°C)"
 msgstr "Molto caldo (>40°C)"
 
+msgid "Very low"
+msgstr ""
+
 msgid "Visibility: %s m"
 msgstr "Visibilità: %s m"
 
@@ -1411,9 +1417,6 @@ msgstr "← Cornice"
 
 #~ msgid "Fetching radar data..."
 #~ msgstr "Recupero dati radar in corso..."
-
-#~ msgid "Loading tiles..."
-#~ msgstr "Caricamento schemi..."
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "Immaggine %(current)d/%(total)d"

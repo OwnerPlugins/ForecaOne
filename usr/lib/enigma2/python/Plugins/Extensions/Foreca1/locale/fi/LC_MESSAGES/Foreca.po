@@ -42,9 +42,6 @@ msgstr "6 - Tänään + 6 päivää"
 msgid "7 - Today + 7 days"
 msgstr "7 - Tänään + 7 päivää"
 
-msgid "7 Day Forecast"
-msgstr "7 päivän ennuste"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Tänään + 8 päivää"
 
@@ -566,6 +563,9 @@ msgstr "Kuun vaiheita ladataan..."
 
 msgid "Loading nearby stations..."
 msgstr "Ladataan läheisiä asemia..."
+
+msgid "Loading tiles..."
+msgstr "Ladataan ruutuja..."
 
 msgid "Loading weekly forecast..."
 msgstr "Ladataan viikon ennustetta..."
@@ -1173,6 +1173,9 @@ msgstr "Erittäin korkea"
 msgid "Very hot (>40°C)"
 msgstr "Erittäin kuumaa (>40 °C)"
 
+msgid "Very low"
+msgstr "Hyvin matala"
+
 msgid "Visibility: %s m"
 msgstr "Näkyvyys: %s m"
 
@@ -1317,11 +1320,8 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 msgid "← Frame"
 msgstr "← Kehys"
 
-msgid "Loading tiles..."
-msgstr "Ladataan ruutuja..."
-
-msgid "Very low"
-msgstr "Hyvin matala"
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 päivän ennuste"
 
 #~ msgid "Blue"
 #~ msgstr "Sininen"

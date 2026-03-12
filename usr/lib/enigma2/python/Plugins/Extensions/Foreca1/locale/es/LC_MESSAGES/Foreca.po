@@ -610,6 +610,10 @@ msgstr "Cargando estaciones cercanas..."
 msgid "Loading nearby stations..."
 msgstr "Cargando estaciones cercanas..."
 
+#, fuzzy
+msgid "Loading tiles..."
+msgstr "Descargando imágenes..."
+
 msgid "Loading weekly forecast..."
 msgstr "Cargando pronóstico semanal..."
 
@@ -1260,6 +1264,9 @@ msgstr ""
 msgid "Very hot (>40°C)"
 msgstr ""
 
+msgid "Very low"
+msgstr ""
+
 #, fuzzy
 msgid "Visibility: %s m"
 msgstr "Distancia"
@@ -1471,10 +1478,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Error displaying map"
 #~ msgstr "¡Error al guardar favorito!"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Descargando imágenes..."
 
 #, fuzzy
 #~ msgid "Found {} lunar phases"
