@@ -1,7 +1,9 @@
 <screen name="UnitSettingsSimple" position="center,center" size="1100,700" title="Foreca 1 Unit Settings" flags="wfNoBorder" backgroundColor="#ff000000">
     <!-- Description -->
-    <widget name="title" position="50,30" size="995,60" font="Regular;42" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
-    <widget name="info" position="48,115" size="995,50" font="Regular;32" transparent="1" zPosition="3" halign="center" valign="center" foregroundColor="#00a0ff"/>
+    <widget name="title" position="45,45" size="1020,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1020,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <ePixmap position="887,611" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+
     <widget name="option_metric" position="150,230" size="700,70" font="Regular;38" halign="left" zPosition="3"/>
     <widget name="metric_details" position="190,300" size="660,60" font="Regular;26" halign="left" zPosition="3"/>
     <widget name="option_imperial" position="150,380" size="700,70" font="Regular;38" halign="left" zPosition="3"/>

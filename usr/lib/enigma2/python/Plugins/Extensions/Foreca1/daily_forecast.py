@@ -110,7 +110,7 @@ class DailyForecast(Screen, HelpableScreen):
 
     def _create_day_entry(self, day):
         # Date and day
-        date_str = day.date.strftime("%d/%m") if day.date else "??/??"
+        date_str = day.date.strftime("%d.%m") if day.date else "??.??"
         day_name = _(day.date.strftime("%A")[:3]) if day.date else "???"
         day_display = f"{day_name} {date_str}"
 

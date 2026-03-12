@@ -197,7 +197,7 @@ class MoonCalendar(Screen, HelpableScreen):
         phase = self.phases[idx - 1]
         details = trans("Phase: {}").format(phase['phase_name']) + "\n"
         details += trans("Date: {}").format(
-            phase['date'].strftime("%d/%m/%Y")) + "\n"
+            phase['date'].strftime("%d.%m.%Y")) + "\n"
         details += trans("Time: {}").format(
             phase['date'].strftime("%H:%M")) + "\n"
         details += trans("Illumination: {:.1f}%").format(

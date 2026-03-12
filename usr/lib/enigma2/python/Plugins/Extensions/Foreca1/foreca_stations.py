@@ -444,7 +444,7 @@ class ForecaStations(Screen, HelpableScreen):
                 local_dt = utc_dt + datetime.timedelta(hours=self.tz_offset)
             else:
                 local_dt = utc_dt
-            return local_dt.strftime("%d/%m %H:%M")
+            return local_dt.strftime("%d.%m.%Y %H:%M")
         except Exception as e:
             if DEBUG:
                 print(f"[ForecaStations] Error converting time: {e}")

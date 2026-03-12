@@ -1,6 +1,8 @@
 <screen name="MoonCalendar" position="center,center" size="1920,1080" title="Lunar Calendar" flags="wfNoBorder" backgroundColor="#ff000000">
-    <widget name="title" position="45,44" size="1830,50" font="Regular;42" foregroundColor="#a0ff" transparent="1" halign="center" valign="center" zPosition="3" />
-    <widget name="info" position="45,99" size="1830,40" font="Regular;32" foregroundColor="#a0ff" transparent="1" halign="center" zPosition="3" />
+    <widget name="title" position="45,45" size="1820,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1820,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <ePixmap position="1632,983" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+
     <widget source="menu" render="Listbox" position="55,149" size="1800,800" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="#000000">
         <convert type="TemplatedMultiContent">
             {"template": [

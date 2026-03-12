@@ -278,11 +278,11 @@ class RainViewerMaps(Screen, HelpableScreen):
         timestamp = frame_path.split('/')[-1]
         try:
             dt = datetime.utcfromtimestamp(int(timestamp))
-            time_str = dt.strftime("%d/%m %H:%M UTC")
+            time_str = dt.strftime("%d.%m.%Y %H:%M UTC")
         except BaseException:
             time_str = timestamp
         self["time_label"].setText(_("Frame: {}").format(time_str))
-        self["info"].setText(trans("Loading tiles..."))
+        self["info"].setText(_("Loading tiles..."))
         print(f"[RainViewer] Loading frame: {frame_path}")
         self.download_tiles(frame_path)
 

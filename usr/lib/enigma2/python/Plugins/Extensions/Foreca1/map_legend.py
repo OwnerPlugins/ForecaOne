@@ -71,7 +71,7 @@ class MapLegend(Screen, HelpableScreen):
                 target_w = widget_size.width()
                 target_h = widget_size.height()
                 if target_w <= 0 or target_h <= 0:
-                    target_w = 224
+                    target_w = 290
                     target_h = 1000
             else:
                 print("[MapLegend] legend_image widget not found, cannot resize")

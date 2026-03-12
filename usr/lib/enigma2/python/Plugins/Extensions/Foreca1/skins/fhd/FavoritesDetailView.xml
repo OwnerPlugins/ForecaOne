@@ -1,8 +1,7 @@
 <screen name="FavoritesDetailView" position="center,center" size="1920,1080" flags="wfNoBorder" backgroundColor="#ff000000">
 
     <!-- Title -->
-    <widget name="title" position="46,43" size="1820,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="5" />
-
+    <widget name="title" position="45,45" size="1820,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="5" />
     <ePixmap position="1632,983" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
 
     <!-- Background plates -->
@@ -80,5 +79,5 @@
     <ePixmap position="1330,255" size="400,330" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/day_light.png" zPosition="10" scale="1" />
 
     <!-- Info label (optional) -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="794,982" size="461,57" font="Regular; 38" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" />
+    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="794,982" size="461,57" font="Regular; 38" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" alphatest="blend" />
 </screen>

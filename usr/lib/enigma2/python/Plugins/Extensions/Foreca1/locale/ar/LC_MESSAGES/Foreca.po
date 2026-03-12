@@ -1230,9 +1230,6 @@ msgstr "مرتفع جدًا"
 msgid "Very hot (>40°C)"
 msgstr ""
 
-msgid "Very low"
-msgstr ""
-
 #, fuzzy
 msgid "Visibility: %s m"
 msgstr "الرؤية: {} م"

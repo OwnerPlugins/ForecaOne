@@ -1170,9 +1170,6 @@ msgstr "Molto alto"
 msgid "Very hot (>40°C)"
 msgstr "Molto caldo (>40°C)"
 
-msgid "Very low"
-msgstr ""
-
 msgid "Visibility: %s m"
 msgstr "Visibilità: %s m"
 

@@ -245,7 +245,7 @@ class ForecaMapViewer(Screen, HelpableScreen):
         self._downloading = True
 
         if not self.timestamps:
-            now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+            now = datetime.utcnow().strftime("%d.%m.%YT%H:%M:%SZ")
             self.timestamps = [now]
             self.current_time_index = 0
             self["time"].setText(_("Using current time"))
@@ -256,7 +256,7 @@ class ForecaMapViewer(Screen, HelpableScreen):
         timestamp = self.timestamps[self.current_time_index]
         try:
             dt = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-            display_time = dt.strftime("%d/%m %H:%M UTC")
+            display_time = dt.strftime("%d.%m.%Y %H:%M UTC")
         except BaseException:
             display_time = timestamp
 

@@ -833,7 +833,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                     utc_dt = datetime.datetime.fromisoformat(
                         self.updated.replace('Z', '+00:00'))
                     local_dt = self.utc_to_local(utc_dt)
-                    self.updated = local_dt.strftime("%H:%M %d/%m")
+                    self.updated = local_dt.strftime("%d.%m.%Y %H:%M")
                 except Exception as e:
                     if DEBUG:
                         print(f"[Foreca1] Error converting updated: {e}")
@@ -854,11 +854,9 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # Daily forecast (free first, then auth as fallback)
         days_needed = max(self.tag + 1, 1)
-        daily_all = self.weather_api.get_daily_forecast(
-            location_id, days=days_needed)
+        daily_all = self.weather_api.get_daily_forecast(location_id, days=days_needed)
         if not daily_all and self.weather_api_auth:
-            daily_all = self.weather_api_auth.get_daily_forecast(
-                location_id, days=days_needed)
+            daily_all = self.weather_api_auth.get_daily_forecast(location_id, days=days_needed)
 
         if daily_all and len(daily_all) > self.tag:
             day_selected = daily_all[self.tag]
@@ -873,8 +871,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             if day_selected.daylength is not None:
                 hours = day_selected.daylength // 60
                 mins = day_selected.daylength % 60
-                self.daylen = _("{hours} h {mins} min").format(
-                    hours=hours, mins=mins)
+                self.daylen = _("{hours} h {mins} min").format(hours=hours, mins=mins)
             elif day_selected.sunrise and day_selected.sunset:
                 # Calcola la differenza in minuti tra sunset e sunrise
                 sunrise_min = day_selected.sunrise.hour * 60 + day_selected.sunrise.minute
@@ -884,8 +881,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                     daylen_min += 24 * 60  # attraversa la mezzanotte
                 hours = daylen_min // 60
                 mins = daylen_min % 60
-                self.daylen = _("{hours} h {mins} min").format(
-                    hours=hours, mins=mins)
+                self.daylen = _("{hours} h {mins} min").format(hours=hours, mins=mins)
             else:
                 self.daylen = 'N/A'
 
@@ -968,7 +964,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.f_solar = [
                 str(h.solar_radiation) if h.solar_radiation is not None else '0' for h in hourly]
             target_date = datetime.date.today() + datetime.timedelta(days=day_index)
-            self.f_date = [target_date.strftime("%Y-%m-%d")] * len(hourly)
+            self.f_date = [target_date.strftime("%d.%m.%Y")] * len(hourly)
             self.f_day = target_date.strftime("%A")
 
             # Debug hourly forecast
@@ -1263,8 +1259,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self["solar_desc"].instance.setForegroundColor(color)
         else:
             self["solar_value"].setText("N/A")
-            self["solar_value"].instance.setForegroundColor(
-                parseColor("#ffffff"))
+            self["solar_value"].instance.setForegroundColor(parseColor("#ffffff"))
             if "solar_desc" in self:
                 self["solar_desc"].setText("")
 
@@ -1292,7 +1287,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 from datetime import datetime
                 dt = datetime.fromisoformat(
                     self.updated.replace('Z', '+00:00'))
-                updated_str = dt.strftime("%H:%M %d/%m")
+                updated_str = dt.strftime("%d.%m.%Y %H:%M")
                 self["updated_label"].setText(
                     _("Updated {}").format(updated_str))
             except BaseException:
@@ -2048,7 +2043,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         """Convert solar radiation (W/m²) to descriptive category."""
         try:
             val = float(radiance)
-        except BaseException:
+        except:
             return _("N/A")
         if val < 100:
             return _("Very low")

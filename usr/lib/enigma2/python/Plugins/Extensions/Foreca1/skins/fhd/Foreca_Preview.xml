@@ -5,8 +5,7 @@
     <widget source="title_section_weather" render="Label" position="20,14" size="770,46" font="Regular; 38" foregroundColor="#0053a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <widget source="title_main" render="Label" position="818,26" size="1080,56" font="Regular; 32" foregroundColor="#0053a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <widget source="title_loading" render="Label" position="876,534" size="985,56" font="Regular;34" foregroundColor="#00000000" backgroundColor="#000000" transparent="1" valign="center" zPosition="20" halign="center" />
-    <widget name="current_time" position="568,145" size="200,50" zPosition="10" font="Regular;54" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
-
+    <widget name="current_time" position="568,147" size="220,60" zPosition="10" font="Regular;54" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
     <!-- Button icons -->
     <widget source="key_red" render="Label" position="955,990" size="200,35" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
     <widget source="key_green" render="Label" position="1155,990" size="200,35" font="Regular;32" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
@@ -60,7 +59,7 @@
     </widget>
     <!-- Location and current weather -->
     <widget name="city_name" position="20,48" size="769,45" zPosition="10" font="Regular; 34" backgroundColor="#000000" transparent="1" valign="center" halign="center" foregroundColor="#0053a9ff" />
-    <widget name="temperature_current" position="63,145" size="150,60" zPosition="10" font="Regular;54" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
+    <widget name="temperature_current" position="63,147" size="150,60" zPosition="10" font="Regular;54" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
     <widget name="icon_temp_perc" position="40,601" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="temperature_feelslike" position="95,605" size="330,40" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" />
     <!-- Moon phase -->
@@ -77,7 +76,6 @@
     <widget name="moonset_label" position="490,365" size="230,30" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="moonset_value" position="490,335" size="230,30" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
     <!-- Station -->
-    
     <widget name="station_name" position="95,543" size="491,40" font="Regular; 26" halign="left" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" />
     <!-- Weather description and details -->
     <widget name="weather_description" position="26,120" size="770,36" zPosition="10" font="Regular; 32" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
@@ -101,38 +99,35 @@
     <widget name="pressure_value" position="95,693" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
     <!-- Sun info -->
     <widget name="day_length" position="306,185" size="200,38" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
-    <widget name="sunrise_label" position="100,285" size="230,30" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+    <widget name="sunrise_label" position="100,285" size="230,33" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
     <widget name="icon_sunrise" position="40,260" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/sunrise.png" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="sunrise_value" position="100,260" size="230,25" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
-    <widget name="sunset_label" position="490,285" size="230,30" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="sunrise_value" position="100,258" size="230,28" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="left" />
+    <widget name="sunset_label" position="490,285" size="230,33" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_sunset" position="730,260" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/sunset.png" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="sunset_value" position="490,260" size="230,25" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="sunset_value" position="490,258" size="230,28" zPosition="10" font="Regular; 28" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <!-- uva -->
-    <widget name="uvi_value" position="395,960" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
-    <widget name="uvi_desc" position="395,935" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
-    <widget name="icon_uvi" position="730,940" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    
-    <!-- sola radiation -->  
-    <widget name="solar_value" position="395,1020" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
+    <widget name="uvi_value" position="395,965" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="uvi_desc" position="395,940" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="icon_uvi" position="730,945" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <!-- sola radiation -->
+    <widget name="solar_value" position="395,1020" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" alphatest="blend" />
     <widget name="solar_desc" position="395,995" size="330,35" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_solar" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/rdsun.png" position="730,1005" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    
     <!-- AQI, probabilità pioggia/neve, aggiornamento -->
     <widget name="icon_aqi" position="730,875" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="aqi_value" position="395,880" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
     <widget name="icon_rainp" position="40,875" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="rainp_value" position="95,880" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
-    <widget name="icon_snowp" position="40,940" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="snowp_value" position="95,945" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
-    <widget name="icon_updated" position="245,1004" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="updated_label" position="302,1010" size="330,40" font="Regular; 24" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
+    <widget name="icon_snowp" position="40,945" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <widget name="snowp_value" position="95,950" size="330,40" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
+    <widget name="icon_updated" position="295,1004" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <widget name="updated_label" position="350,1010" size="330,40" font="Regular; 24" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />
     <!-- Station -->
     <widget name="icon_observation" position="41,535" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    
     <!-- Compass directions -->
     <widget name="icon_wind" position="599,583" size="40,41" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <eLabel position="605,545" size="28,28" transparent="1" backgroundColor="#000080" text="N" foregroundColor="#0053a9ff" font="Regular;18" zPosition="10" halign="center" valign="center" />
-    <eLabel position="605,635" size="28,28" transparent="1" backgroundColor="#000080" text="S" foregroundColor="#0053a9ff" font="Regular;18" zPosition="10" halign="center" valign="center" />
-    <eLabel position="655,590" size="28,28" transparent="1" backgroundColor="#000080" text="E" foregroundColor="#0053a9ff" font="Regular;18" zPosition="10" halign="center" valign="center" />
-    <eLabel position="555,590" size="28,28" transparent="1" backgroundColor="#000080" text="W" foregroundColor="#0053a9ff" font="Regular;18" zPosition="10" halign="center" valign="center" />
+    <eLabel position="605,545" size="28,28" transparent="1" backgroundColor="#000080" text="P" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
+    <eLabel position="605,635" size="28,28" transparent="1" backgroundColor="#000080" text="E" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
+    <eLabel position="655,590" size="28,28" transparent="1" backgroundColor="#000080" text="I" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
+    <eLabel position="555,590" size="28,28" transparent="1" backgroundColor="#000080" text="L" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
 </screen>

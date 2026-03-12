@@ -1,7 +1,9 @@
 <screen name="RainViewerMaps" position="center,center" size="1920,1080" title="Rainviewer.com Maps" flags="wfNoBorder" backgroundColor="#ff000000">
     <!-- Description -->
-    <widget name="title" position="46,43" size="1820,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
-    <widget name="info" position="60,895" size="1100,40" font="Regular; 28" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="left" />
+    <widget name="title" position="45,45" size="1820,50" font="Regular; 42" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
+    <widget name="info" position="45,95" size="1820,40" font="Regular; 38" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <ePixmap position="67,76" size="135,35" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+
     <widget name="time_label" position="1172,895" size="692,40" font="Regular; 32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" zPosition="4" />
     <widget name="zoom_label" position="1637,63" size="200,35" font="Regular; 30" transparent="1" zPosition="5" halign="right" valign="center" backgroundColor="#000000" foregroundColor="#49bbff" />
     <!-- map image -->
@@ -17,5 +19,5 @@
     <widget name="background_plate" size="1878,1038" zPosition="1" position="21,21" backgroundColor="#ff9632" cornerRadius="50" />
     <widget name="selection_overlay" size="1830,990" zPosition="2" position="45,44" backgroundColor="#000000" cornerRadius="50" />
     <!-- Button icons -->
-    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="769,901" size="400,42" font="Regular;38" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" />
+    <eLabel text="▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤" position="769,901" size="400,42" font="Regular;38" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" alphatest="blend" />
 </screen>

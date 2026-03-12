@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:54+0100\n"
-"PO-Revision-Date: 2026-03-10 14:33+0100\n"
+"PO-Revision-Date: 2026-03-12 15:56+0200\n"
 "Last-Translator: Orlandox\n"
 "Language-Team: Orlandox\n"
 "Language: fi\n"
@@ -41,6 +41,9 @@ msgstr "6 - Tänään + 6 päivää"
 
 msgid "7 - Today + 7 days"
 msgstr "7 - Tänään + 7 päivää"
+
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
 
 msgid "8 - Today + 8 days"
 msgstr "8 - Tänään + 8 päivää"
@@ -169,13 +172,13 @@ msgid "Cloudy, thunderstorms with rain"
 msgstr "Melko pilvistä, ukkosta"
 
 msgid "Cold (< 0°C)"
-msgstr "Kylmä (< 0 °C)"
+msgstr "Kylmää (< 0 °C)"
 
 msgid "Color"
 msgstr "Väri"
 
 msgid "Color Legend"
-msgstr "VärienSelitteet"
+msgstr "Värien selitteet"
 
 msgid "Color Selector"
 msgstr "Värin valitsin"
@@ -199,7 +202,7 @@ msgid "Continents Weather Maps"
 msgstr "Mantereiden sääkartat"
 
 msgid "Cool (0-10°C)"
-msgstr "Viileä (0–10 °C)"
+msgstr "Viileää (0–10 °C)"
 
 msgid "Could not fetch update information."
 msgstr "Päivitystietoja ei voitu hakea."
@@ -276,9 +279,8 @@ msgstr "Alas"
 msgid "Down - Next page"
 msgstr "Alas - Seuraava sivu"
 
-#, fuzzy
 msgid "Download error"
-msgstr "Kuva ladattu"
+msgstr "Latausvirhe"
 
 msgid "Downloading images..."
 msgstr "Ladataan kuvia..."
@@ -295,9 +297,8 @@ msgstr "Virhe päivitysten tarkistuksessa."
 msgid "Error loading data"
 msgstr "Virhe kartan näyttämisessä"
 
-#, fuzzy
 msgid "Error loading map"
-msgstr "Virhe kartan näyttämisessä"
+msgstr "Virhe kartan latauksessa"
 
 msgid "Error loading maps. Check connection."
 msgstr "Virhe ladattaessa karttoja. Tarkista yhteys."
@@ -327,7 +328,7 @@ msgid "Extreme"
 msgstr "Äärimmäinen"
 
 msgid "Extreme / thunderstorms"
-msgstr "Äärimmäiset / ukkosmyrskyt"
+msgstr "Äärimmäisiä sääilmiöitä / ukkosmyrskyjä"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
@@ -456,7 +457,7 @@ msgid "Header - not selectable"
 msgstr "Otsikko - ei valittavissa"
 
 msgid "Heavy rain"
-msgstr "Rankkasade"
+msgstr "Voimakasta sadetta"
 
 msgid "Help"
 msgstr "HELP"
@@ -471,7 +472,7 @@ msgid "Home"
 msgstr "Koti"
 
 msgid "Hot (30-40°C)"
-msgstr "Kuuma (30–40 °C)"
+msgstr "Kuumaa (30–40 °C)"
 
 msgid "Hour Details"
 msgstr "Tuntikohtaiset tiedot"
@@ -489,7 +490,7 @@ msgid "Hungary"
 msgstr "Unkari"
 
 msgid "Ice / frost"
-msgstr "Jää / huurre"
+msgstr "Jäistä / pakkasta"
 
 msgid "Illumination"
 msgstr "Valaistus"
@@ -555,7 +556,7 @@ msgid "Light rain / drizzle"
 msgstr "Kevyttä sadetta / tihkusadetta"
 
 msgid "Light to moderate"
-msgstr "Lievä tai kohtalainen"
+msgstr "Kevyttä tai kohtalaista sadetta"
 
 msgid "Loading available maps..."
 msgstr "Ladataan saatavilla olevia karttoja..."
@@ -624,7 +625,7 @@ msgid "Middle East"
 msgstr "Lähi-itä"
 
 msgid "Mild (10-20°C)"
-msgstr "Lievä (10–20 °C)"
+msgstr "Leutoa (10–20 °C)"
 
 msgid "Moderate"
 msgstr "Kohtalainen"
@@ -903,7 +904,7 @@ msgid "Previous time"
 msgstr "Edellinen kerta"
 
 msgid "Rain Prob."
-msgstr "Sateen todennäköisyys."
+msgstr "Sateen todennäköisyys"
 
 msgid "Rain prob. {}%"
 msgstr "Sateen todennäk. {}%"
@@ -1011,7 +1012,7 @@ msgid "Slower: {}s"
 msgstr "Hitaammin: {}s"
 
 msgid "Snow / ice"
-msgstr "Lumi / jää"
+msgstr "Lunta/ jäätä"
 
 msgid "Snow prob. {}%"
 msgstr "Lumisateen todennäk. {}%"
@@ -1164,16 +1165,13 @@ msgid "Using current time"
 msgstr "Käytetään nykyistä aikaa"
 
 msgid "Very heavy rain"
-msgstr "Erittäin rankkasade"
+msgstr "Erittäin voimakasta sadetta"
 
 msgid "Very high"
 msgstr "Erittäin korkea"
 
 msgid "Very hot (>40°C)"
-msgstr "Erittäin kuuma (>40 °C)"
-
-msgid "Very low"
-msgstr ""
+msgstr "Erittäin kuumaa (>40 °C)"
 
 msgid "Visibility: %s m"
 msgstr "Näkyvyys: %s m"
@@ -1188,7 +1186,7 @@ msgid "Waning Gibbous"
 msgstr "Vähenevä kupera kuu"
 
 msgid "Warm (20-30°C)"
-msgstr "Lämmin (20–30 °C)"
+msgstr "Lämmintä (20–30 °C)"
 
 msgid "Waxing Crescent"
 msgstr "Kasvava sirppi"
@@ -1319,8 +1317,11 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 msgid "← Frame"
 msgstr "← Kehys"
 
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
+msgid "Loading tiles..."
+msgstr "Ladataan ruutuja..."
+
+msgid "Very low"
+msgstr "Hyvin matala"
 
 #~ msgid "Blue"
 #~ msgstr "Sininen"
@@ -1337,9 +1338,8 @@ msgstr "← Kehys"
 #~ msgid "HTML"
 #~ msgstr "HTML"
 
-#, fuzzy
 #~ msgid "Image Downloaded"
-#~ msgstr "Sivu alas"
+#~ msgstr "Kuva ladattu"
 
 #~ msgid "Last update"
 #~ msgstr "Viimeisin päivitys"
@@ -1406,10 +1406,6 @@ msgstr "← Kehys"
 
 #~ msgid "Try different zoom or region"
 #~ msgstr "Kokeile eri zoomausta tai aluetta"
-
-#, fuzzy
-#~ msgid "Loading tiles..."
-#~ msgstr "Ladataan ruutuja..."
 
 #~ msgid "Image %(current)d/%(total)d"
 #~ msgstr "Kuva %(current)d/%(total)d"
