@@ -5,7 +5,7 @@
     <widget source="title_section_weather" render="Label" position="20,14" size="770,46" font="Regular; 38" foregroundColor="#0053a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <widget source="title_main" render="Label" position="818,26" size="1080,56" font="Regular; 32" foregroundColor="#0053a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <widget source="title_loading" render="Label" position="876,534" size="985,56" font="Regular;34" foregroundColor="#00000000" backgroundColor="#000000" transparent="1" valign="center" zPosition="20" halign="center" />
-    <widget name="current_time" position="568,147" size="220,60" zPosition="10" font="Regular;54" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
+    <widget name="current_time" position="568,150" size="220,52" zPosition="10" font="Regular; 48" foregroundColor="#49bbff" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
     <!-- Button icons -->
     <widget source="key_red" render="Label" position="955,990" size="200,35" font="Regular;32" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
     <widget source="key_green" render="Label" position="1155,990" size="200,35" font="Regular;32" backgroundColor="#00ff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
@@ -44,8 +44,8 @@
                 MultiContentEntryText(pos = (200, 65), size = (140, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3),
                 
                 MultiContentEntryPixmapAlphaBlend(pos = (360, 30), size = (50, 50), png = 2),
-                MultiContentEntryText(pos = (410, 20), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 5),
-                MultiContentEntryText(pos = (410, 65), size = (100, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 6),
+                MultiContentEntryText(pos = (410, 20), size = (120, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 5),
+                MultiContentEntryText(pos = (410, 65), size = (120, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 6),
                 
                 MultiContentEntryText(pos = (540, 1), size = (550, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 7),
                 MultiContentEntryText(pos = (560, 31), size = (480, 24), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 8),
@@ -79,7 +79,7 @@
     <widget name="station_name" position="95,543" size="491,40" font="Regular; 26" halign="left" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" />
     <!-- Weather description and details -->
     <widget name="weather_description" position="26,120" size="770,36" zPosition="10" font="Regular; 32" foregroundColor="#fe00" backgroundColor="#000000" transparent="1" valign="center" halign="center" />
-    <widget name="icon_sun" position="245,177" size="320,250" zPosition="8" backgroundColor="#000000" transparent="1" alphatest="blend" scale="1" />
+    <widget name="icon_sun" position="240,177" size="325,250" zPosition="8" backgroundColor="#000000" transparent="1" alphatest="blend" scale="1" />
     <widget name="icon_dew_point" position="730,810" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="dewpoint_value" position="395,815" size="330,40" zPosition="10" font="Regular; 26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_weather" position="345,215" size="120,120" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />

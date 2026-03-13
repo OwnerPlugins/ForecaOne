@@ -45,8 +45,8 @@
                 MultiContentEntryText(pos = (330, 86), size = (187, 40), font=0, flags = RT_HALIGN_LEFT, text = 3),
                 
                 MultiContentEntryPixmapAlphaTest(pos = (630, 40), size = (65, 65), png = 2),
-                MultiContentEntryText(pos = (705, 20), size = (180, 40), font=0, flags = RT_HALIGN_LEFT, text = 5),
-                MultiContentEntryText(pos = (705, 74), size = (180, 40), font=0, flags = RT_HALIGN_LEFT, text = 6),
+                MultiContentEntryText(pos = (700, 20), size = (190, 40), font=0, flags = RT_HALIGN_LEFT, text = 5),
+                MultiContentEntryText(pos = (700, 74), size = (190, 40), font=0, flags = RT_HALIGN_LEFT, text = 6),
                 
                 MultiContentEntryText(pos = (900, 2), size = (490, 40), font=0, flags = RT_HALIGN_LEFT, text = 7),
                 MultiContentEntryText(pos = (910, 42), size = (480, 32), font=1, flags = RT_HALIGN_LEFT, text = 8),
@@ -80,7 +80,7 @@
     
     <!-- Weather description and details -->
     <widget name="weather_description" position="38,165" size="1027,48" zPosition="10" font="Regular;46" foregroundColor="#fe00" backgroundColor="#00000000" transparent="1" valign="center" halign="center" />
-    <widget name="icon_sun" position="327,236" size="427,334" scale="1" zPosition="8" backgroundColor="#40000000" transparent="1" alphatest="on" />
+    <widget name="icon_sun" position="322,236" size="432,334" scale="1" zPosition="8" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="icon_dew_point" position="969,1069" size="67,67" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
     <widget name="dewpoint_value" position="520,1075" size="440,54" zPosition="10" font="Regular;35" foregroundColor="#ffffff" backgroundColor="#00000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_weather" position="460,287" size="160,160" scale="1" zPosition="10" backgroundColor="#40000000" transparent="1" alphatest="on" />
