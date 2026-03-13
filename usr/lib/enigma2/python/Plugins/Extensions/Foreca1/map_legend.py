@@ -97,7 +97,8 @@ class MapLegend(Screen, HelpableScreen):
                 paste_y = (target_h - new_h) // 2
                 canvas.paste(img_resized, (paste_x, paste_y), img_resized)
 
-                fd, temp_path = tempfile.mkstemp(suffix='.png', dir=MAPLEGEND_DIR)
+                fd, temp_path = tempfile.mkstemp(
+                    suffix='.png', dir=MAPLEGEND_DIR)
                 close(fd)
                 canvas.save(temp_path)
 
