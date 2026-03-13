@@ -8,16 +8,22 @@ from Components.ActionMap import HelpableActionMap
 from Components.Label import Label
 from Components.Pixmap import Pixmap
 from enigma import gRGB
-from os.path import exists
+from os.path import exists, join
+from os import close, makedirs, remove, listdir
 from PIL import Image
-from os import close
 import tempfile
 
 from . import (
     _,
     load_skin_for_class,
-    apply_global_theme
+    apply_global_theme,
+    TEMP_DIR,
+    DEBUG
 )
+
+MAPLEGEND_DIR = join(TEMP_DIR, "maplegend")
+if not exists(MAPLEGEND_DIR):
+    makedirs(MAPLEGEND_DIR)
 
 
 class MapLegend(Screen, HelpableScreen):
@@ -53,6 +59,7 @@ class MapLegend(Screen, HelpableScreen):
         )
         self.onLayoutFinish.append(self._apply_theme)
         self.onLayoutFinish.append(self.populate_legend)
+        self.onClose.append(self.clear_cache)
 
     def _apply_theme(self):
         apply_global_theme(self)
@@ -90,7 +97,7 @@ class MapLegend(Screen, HelpableScreen):
                 paste_y = (target_h - new_h) // 2
                 canvas.paste(img_resized, (paste_x, paste_y), img_resized)
 
-                fd, temp_path = tempfile.mkstemp(suffix='.png', dir='/tmp')
+                fd, temp_path = tempfile.mkstemp(suffix='.png', dir=MAPLEGEND_DIR)
                 close(fd)
                 canvas.save(temp_path)
 
@@ -162,6 +169,17 @@ class MapLegend(Screen, HelpableScreen):
             for i in range(len(legend) + 1, 8):
                 self[f"color{i}"].hide()
                 self[f"desc{i}"].hide()
+
+    def clear_cache(self):
+        try:
+            if exists(MAPLEGEND_DIR):
+                for f in listdir(MAPLEGEND_DIR):
+                    if f.endswith('.png') or f.endswith('.jpg'):
+                        remove(join(MAPLEGEND_DIR, f))
+                if DEBUG:
+                    print("[RainViewerMaps] Cache cleaned")
+        except Exception as e:
+            print(f"[RainViewerMaps] Error cleaning cache: {e}")
 
 
 class MapLegendOverlayText(MapLegend):
