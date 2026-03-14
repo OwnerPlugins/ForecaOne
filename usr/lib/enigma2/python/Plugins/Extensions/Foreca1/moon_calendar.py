@@ -114,7 +114,7 @@ class MoonCalendar(Screen, HelpableScreen):
             end_of_month = datetime(year + 1, 1, 1) - timedelta(days=1)
         else:
             end_of_month = datetime(year, month + 1, 1) - timedelta(days=1)
-        
+
         jd_start = self._date_to_jd(start_of_month)
         jd_end = self._date_to_jd(end_of_month)
 
@@ -127,7 +127,8 @@ class MoonCalendar(Screen, HelpableScreen):
 
         for target in target_phases:
             # Find the first target phase after search_start
-            jd_phase = self._find_next_phase_after(search_start, target, jd_ref)
+            jd_phase = self._find_next_phase_after(
+                search_start, target, jd_ref)
             while jd_phase <= search_end:
                 dt_phase = self._jd_to_date(jd_phase)
                 if dt_phase.year == year and dt_phase.month == month:
@@ -140,7 +141,8 @@ class MoonCalendar(Screen, HelpableScreen):
                         'illumination': info['illumination'],
                         'distance': info['distance']
                     })
-                # Move to the next phase (using the constant from the moon object)
+                # Move to the next phase (using the constant from the moon
+                # object)
                 jd_phase += self.moon.SYNODIC_MONTH
 
         month_phases.sort(key=lambda x: x['date'])
