@@ -1545,7 +1545,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 )
             elif remote_t == current_t:
                 # Same version: ask if user wants to reinstall
-                msg = _("You already have version {version} installed.\nDo you want to reinstall it?").format(version=remote_version)
+                msg = _("You already have version {version} installed.\nDo you want to reinstall it?").format(
+                    version=remote_version)
                 self.session.openWithCallback(
                     lambda answer: self.install_update(answer, INSTALLER_URL),
                     MessageBox,
@@ -1556,10 +1557,11 @@ class Foreca_Preview(Screen, HelpableScreen):
                 # Remote version is older (rare case)
                 self.session.open(
                     MessageBox,
-                    _("The remote version ({remote}) is older than the current one ({current}).").format(remote=remote_version, current=current_version),
+                    _("The remote version ({remote}) is older than the current one ({current}).").format(
+                        remote=remote_version,
+                        current=current_version),
                     MessageBox.TYPE_INFO,
-                    timeout=4
-                )
+                    timeout=4)
         except Exception as e:
             print("[Foreca1] Update check error:", e)
             self.session.open(
