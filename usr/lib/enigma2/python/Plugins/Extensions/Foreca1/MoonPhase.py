@@ -193,8 +193,7 @@ class MoonPhase:
         # Distance in km
         distance = int(385000.56 + ER * 1000)
 
-        # Trend (waxing/waning) by comparing illumination with a slightly later
-        # time
+        # Trend (waxing/waning) by comparing illumination with a slightly later time
         jd2 = jd + 0.5
         T2 = (jd2 - 2451545.0) / 36525.0
 
@@ -253,8 +252,7 @@ class MoonPhase:
 
         # --- DETERMINING PHASE NAME BASED ON AGE ---
         from datetime import datetime
-        # Calculate the age in days since the last reference new moon (6 Jan
-        # 2000 00:00 UTC)
+        # Calculate the age in days since the last reference new moon (6 Jan 2000 00:00 UTC)
         ref_jd = self._date_to_jd(datetime(2000, 1, 6, 0, 0, 0))
         days_since_ref = jd - ref_jd
         age = days_since_ref % self.SYNODIC_MONTH

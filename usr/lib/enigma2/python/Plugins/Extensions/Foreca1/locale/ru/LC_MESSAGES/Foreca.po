@@ -40,6 +40,10 @@ msgstr "6 - Сегодня + 6 дней"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сегодня + 7 дней"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Прогноз"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Сегодня + 8 дней"
 
@@ -99,6 +103,9 @@ msgstr "Бельгия"
 msgid "Berlin"
 msgstr "Берлин"
 
+msgid "Blue"
+msgstr "Синий"
+
 msgid "Blue - Home"
 msgstr "Синяя кнопка - Домой"
 
@@ -146,6 +153,10 @@ msgstr ""
 msgid "Close legend"
 msgstr "Выбор цвета"
 
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "Облачно и дожди"
+
 msgid "Cloudy"
 msgstr "Облачно"
 
@@ -172,10 +183,6 @@ msgstr "Облачно, грозы с дождем"
 
 msgid "Cold (< 0°C)"
 msgstr ""
-
-#, fuzzy
-msgid "Color"
-msgstr "Данные цвета"
 
 #, fuzzy
 msgid "Color Legend"
@@ -267,6 +274,9 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
+
+msgid "Distance"
+msgstr "Расстояние"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -481,6 +491,9 @@ msgstr "Великобритания"
 msgid "Greece"
 msgstr "Греция"
 
+msgid "Green"
+msgstr "Зеленый"
+
 msgid "Green - Favorite 1"
 msgstr "Зелёная кнопка - Избранное 1"
 
@@ -489,6 +502,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -543,6 +559,10 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
+#, fuzzy
+msgid "Image Downloaded"
+msgstr "Нет доступной даты"
+
 msgid "Image not available"
 msgstr "Изображение недоступно"
 
@@ -581,6 +601,9 @@ msgstr "Клавиатура"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Последнее обновление"
+
+msgid "Last update"
 msgstr "Последнее обновление"
 
 msgid "Latvia"
@@ -979,6 +1002,9 @@ msgstr "Предыдущая страница"
 msgid "Previous time"
 msgstr "Предыдущая страница"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr ""
 
@@ -994,6 +1020,9 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Метеорологический радар"
+
+msgid "Red"
+msgstr "Красный"
 
 msgid "Red - Color select"
 msgstr "Красная кнопка - Выбор цвета"
@@ -1094,6 +1123,9 @@ msgstr "Словакия"
 
 msgid "Slower: {}s"
 msgstr "Медленнее: {}с"
+
+msgid "Snow"
+msgstr ""
 
 msgid "Snow / ice"
 msgstr ""
@@ -1199,6 +1231,9 @@ msgstr "Настройки прозрачности"
 
 msgid "Transparency level"
 msgstr "Уровень прозрачности"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr ""
@@ -1331,6 +1366,10 @@ msgstr "Погода завтра"
 msgid "Weekly Forecast"
 msgstr "Недельный прогноз"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Погодные карты"
+
 msgid "Wind"
 msgstr "Ветер"
 
@@ -1433,38 +1472,8 @@ msgid "← Frame"
 msgstr ""
 
 #, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Прогноз"
-
-#~ msgid "Blue"
-#~ msgstr "Синий"
-
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "Облачно и дожди"
-
-#~ msgid "Distance"
-#~ msgstr "Расстояние"
-
-#~ msgid "Green"
-#~ msgstr "Зеленый"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "Нет доступной даты"
-
-#~ msgid "Last update"
-#~ msgstr "Последнее обновление"
-
-#~ msgid "Red"
-#~ msgstr "Красный"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Погодные карты"
+#~ msgid "Color"
+#~ msgstr "Данные цвета"
 
 #, fuzzy
 #~ msgid "Temperature layer not available."

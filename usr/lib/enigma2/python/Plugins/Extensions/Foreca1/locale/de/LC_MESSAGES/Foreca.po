@@ -40,6 +40,10 @@ msgstr "6 – Heute + 6 Tage"
 msgid "7 - Today + 7 days"
 msgstr "7 - Heute + 7 Tage"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Vorhersage"
+
 msgid "8 - Today + 8 days"
 msgstr "8 – Heute + 8 Tage"
 
@@ -99,6 +103,9 @@ msgstr "Belgien"
 msgid "Berlin"
 msgstr "Berlin"
 
+msgid "Blue"
+msgstr "Blau"
+
 msgid "Blue - Home"
 msgstr "Blau – Startseite"
 
@@ -146,6 +153,10 @@ msgstr ""
 msgid "Close legend"
 msgstr "Farbe auswählen"
 
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "Bewölkt und Schauer"
+
 msgid "Cloudy"
 msgstr "Bewölkt"
 
@@ -172,10 +183,6 @@ msgstr "Bewölkt, Gewitter mit Regen"
 
 msgid "Cold (< 0°C)"
 msgstr ""
-
-#, fuzzy
-msgid "Color"
-msgstr "Farbdaten"
 
 #, fuzzy
 msgid "Color Legend"
@@ -267,6 +274,9 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
+
+msgid "Distance"
+msgstr "Entfernung"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -481,6 +491,9 @@ msgstr "Großbritannien"
 msgid "Greece"
 msgstr "Griechenland"
 
+msgid "Green"
+msgstr "Grün"
+
 msgid "Green - Favorite 1"
 msgstr "Grün – Favorit 1"
 
@@ -489,6 +502,9 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -543,6 +559,10 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
+#, fuzzy
+msgid "Image Downloaded"
+msgstr "Kein Datum verfügbar"
+
 msgid "Image not available"
 msgstr "Bild nicht verfügbar"
 
@@ -581,6 +601,9 @@ msgstr "Tastatur"
 
 #, fuzzy
 msgid "Last Quarter"
+msgstr "Letzte Aktualisierung"
+
+msgid "Last update"
 msgstr "Letzte Aktualisierung"
 
 msgid "Latvia"
@@ -979,6 +1002,9 @@ msgstr "Vorherige Seite"
 msgid "Previous time"
 msgstr "Vorherige Seite"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr ""
 
@@ -994,6 +1020,9 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Wetterradar"
+
+msgid "Red"
+msgstr "Rot"
 
 msgid "Red - Color select"
 msgstr "Rot – Farbe auswählen"
@@ -1094,6 +1123,9 @@ msgstr "Slowakei"
 
 msgid "Slower: {}s"
 msgstr "Langsamer: {}s"
+
+msgid "Snow"
+msgstr ""
 
 msgid "Snow / ice"
 msgstr ""
@@ -1199,6 +1231,9 @@ msgstr "Transparenzeinstellungen"
 
 msgid "Transparency level"
 msgstr "Transparenzgrad"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr ""
@@ -1331,6 +1366,10 @@ msgstr "Wetter morgen"
 msgid "Weekly Forecast"
 msgstr "Wochenvorhersage"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Wetterkarten"
+
 msgid "Wind"
 msgstr "Wind"
 
@@ -1432,38 +1471,8 @@ msgid "← Frame"
 msgstr ""
 
 #, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Vorhersage"
-
-#~ msgid "Blue"
-#~ msgstr "Blau"
-
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "Bewölkt und Schauer"
-
-#~ msgid "Distance"
-#~ msgstr "Entfernung"
-
-#~ msgid "Green"
-#~ msgstr "Grün"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "Kein Datum verfügbar"
-
-#~ msgid "Last update"
-#~ msgstr "Letzte Aktualisierung"
-
-#~ msgid "Red"
-#~ msgstr "Rot"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Wetterkarten"
+#~ msgid "Color"
+#~ msgstr "Farbdaten"
 
 #, fuzzy
 #~ msgid "Temperature layer not available."

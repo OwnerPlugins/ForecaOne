@@ -300,7 +300,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["key_green"] = StaticText(_("Favorite 1"))
         self["key_yellow"] = StaticText(_("Favorite 2"))
         self["key_blue"] = StaticText(_("Home"))
-        self["key_red"] = StaticText(_("Color"))
+        self["key_red"] = StaticText(_("Meteogram"))
         self["key_menu"] = StaticText(_("Menu"))
         self["key_info"] = StaticText(_("Info"))
         self["key_help"] = StaticText(_("Help"))
@@ -576,7 +576,10 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.myloc, [self.path_loc0, self.path_loc1, self.path_loc2][self.myloc])
 
     def red(self):
-        self.session.open(ColorSelector, self)
+        self.open_meteogram()
+
+    # def red(self):
+        # self.session.open(ColorSelector, self)
 
     def left(self):
         if self.tag > 0:
