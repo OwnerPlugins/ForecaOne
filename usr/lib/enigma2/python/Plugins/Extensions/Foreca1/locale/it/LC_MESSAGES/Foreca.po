@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-12 19:24+0100\n"
+"PO-Revision-Date: 2026-03-15 15:42+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -41,6 +41,9 @@ msgstr "6 - Oggi + 6 giorni"
 
 msgid "7 - Today + 7 days"
 msgstr "7 - Oggi + 7 giorni"
+
+msgid "7 Day Forecast"
+msgstr "Previsione 7 Giorni"
 
 msgid "8 - Today + 8 days"
 msgstr "8 - Oggi + 8 giorni"
@@ -99,6 +102,9 @@ msgstr "Belgio"
 msgid "Berlin"
 msgstr "Berlino"
 
+msgid "Blue"
+msgstr "Blu"
+
 msgid "Blue - Home"
 msgstr "Blu - Principale"
 
@@ -143,6 +149,9 @@ msgstr "Chiudi"
 
 msgid "Close legend"
 msgstr "Chiudi legenda"
+
+msgid "Cloud Cover"
+msgstr "Copertura nuvolosa"
 
 msgid "Cloudy"
 msgstr "Nuvoloso"
@@ -254,6 +263,9 @@ msgstr "Punto di rugiada %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Punto di rugiada: N/A"
+
+msgid "Distance"
+msgstr "Distanza"
 
 msgid "Distance {} km"
 msgstr "Distanza {} km"
@@ -438,6 +450,9 @@ msgstr "Gran Bretagna"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -446,6 +461,9 @@ msgstr "Raffica {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Raffica: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -498,6 +516,9 @@ msgstr "Immagine %(current)d/%(total)d - %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Immagine %(current)d/%(total)d – %(day)s (Paused)"
 
+msgid "Image Downloaded"
+msgstr "Immagine Scaricata"
+
 msgid "Image not available"
 msgstr "Immagine non disponibile"
 
@@ -536,6 +557,9 @@ msgstr "Tastiera"
 
 msgid "Last Quarter"
 msgstr "Ultimo Quarto"
+
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
 
 msgid "Latvia"
 msgstr "Lettonia"
@@ -661,7 +685,7 @@ msgid "N"
 msgstr ""
 
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 msgid "Netherlands"
 msgstr "Paesi Bassi"
@@ -906,6 +930,9 @@ msgstr "Pagina precedente"
 msgid "Previous time"
 msgstr "Ora Precedente"
 
+msgid "Radar"
+msgstr "Radar"
+
 msgid "Rain Prob."
 msgstr "Prob. pioggia."
 
@@ -920,6 +947,9 @@ msgstr "Pioggia: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
+
+msgid "Red"
+msgstr "Rosso"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -1017,6 +1047,9 @@ msgstr "Slovacchia"
 msgid "Slower: {}s"
 msgstr "Più lento: {}s"
 
+msgid "Snow"
+msgstr "Nevicate"
+
 msgid "Snow / ice"
 msgstr "Neve / ghiaccio"
 
@@ -1086,6 +1119,9 @@ msgstr "Temperatura: {}°C"
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Grazie {thanks} e altri amici per i suggerimenti e i test"
 
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "La versione remota ({remote}) è precedente a quella corrente ({current})."
+
 msgid "Thin upper cloud"
 msgstr "Nubi alte sottili"
 
@@ -1113,11 +1149,14 @@ msgstr "Impostazioni Trasparenza"
 msgid "Transparency level"
 msgstr "Livello trasparenza"
 
+msgid "UV"
+msgstr ""
+
 msgid "UV Index"
 msgstr "UV Indice"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "UV N/D"
 
 msgid "Unit Settings"
 msgstr "Impostazioni Unità"
@@ -1189,7 +1228,7 @@ msgid "Visibility: {} m"
 msgstr "Visibilità: {} m"
 
 msgid "W"
-msgstr ""
+msgstr "O"
 
 msgid "Waning Crescent"
 msgstr "Mezzaluna Calante"
@@ -1236,6 +1275,9 @@ msgstr "Meteo domani"
 msgid "Weekly Forecast"
 msgstr "Previsioni settimanali"
 
+msgid "Wetter.de Maps Test"
+msgstr "Wetter.de Maps Test"
+
 msgid "Wind"
 msgstr "Vento"
 
@@ -1281,9 +1323,6 @@ msgstr "Trasparenza Finestra"
 msgid "Yellow - Favorite 2"
 msgstr "Giallo - Favorito 2"
 
-msgid "You already have the latest version."
-msgstr "Hai già l'ultima versione."
-
 msgid "Zoom In"
 msgstr ""
 
@@ -1328,110 +1367,3 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 msgid "← Frame"
 msgstr "← Cornice"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Previsione 7 Giorni"
-
-#~ msgid "Blue"
-#~ msgstr "Blu"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Copertura nuvolosa"
-
-#~ msgid "Distance"
-#~ msgstr "Distanza"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Immagine Scaricata"
-
-#~ msgid "Last update"
-#~ msgstr "Ultimo aggiornamento"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Rosso"
-
-#~ msgid "Snow"
-#~ msgstr "Nevicate"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Wetter.de Maps Test"
-
-#~ msgid "Color"
-#~ msgstr "Colore"
-
-#, fuzzy
-#~ msgid "Could not open temperature map."
-#~ msgstr "Impossibile inizializzare l'API della mappa."
-
-#~ msgid "Left"
-#~ msgstr "Sinistra"
-
-#~ msgid "Right"
-#~ msgstr "Destra"
-
-#, fuzzy
-#~ msgid "Temperature layer not available."
-#~ msgstr "Immagine non disponibile"
-
-#~ msgid "Cold (below 0°C)"
-#~ msgstr "Freddo (sotto 0°C)"
-
-#~ msgid "Colors represent different intensities."
-#~ msgstr "I colori rappresentano diverse intensità."
-
-#~ msgid "Hot (above 30°C)"
-#~ msgstr "Caldo (oltre 30°C)"
-
-#~ msgid "Light rain/drizzle"
-#~ msgstr "Pioggia leggera/pioviggine"
-
-#~ msgid "Map Color Legend"
-#~ msgstr "Legenda Mappa Colori"
-
-#~ msgid "No tiles available"
-#~ msgstr "Nessuno schema disponibile"
-
-#~ msgid "Precipitation intensity:"
-#~ msgstr "Intensità Precipitazioni:"
-
-#~ msgid "Refer to the map provider for details."
-#~ msgstr "Per maggiori dettagli, fare riferimento al fornitore della mappa."
-
-#~ msgid "Temperature:"
-#~ msgstr "Temperatura:"
-
-#~ msgid "Try again later"
-#~ msgstr "Prova più tardi"
-
-#~ msgid "Visibility"
-#~ msgstr "Visibilità"
-
-#~ msgid "Wind speed:"
-#~ msgstr "Velocità del Vento:"
-
-#~ msgid "Error displaying map"
-#~ msgstr "Errore durante la visualizzazione della Mappa"
-
-#~ msgid "Try different zoom or layer"
-#~ msgstr "Prova uno zoom o un livello diverso"
-
-#~ msgid "Try different zoom or region"
-#~ msgstr "Prova uno zoom o una regione diversi"
-
-#~ msgid "Fetching radar data..."
-#~ msgstr "Recupero dati radar in corso..."
-
-#~ msgid "Image %(current)d/%(total)d"
-#~ msgstr "Immaggine %(current)d/%(total)d"
-
-#~ msgid "Found {} lunar phases"
-#~ msgstr "Trovate {} fasi lunari"

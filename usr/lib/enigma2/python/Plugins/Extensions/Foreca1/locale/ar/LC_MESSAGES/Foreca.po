@@ -41,6 +41,10 @@ msgstr "6 - اليوم + 6 أيام"
 msgid "7 - Today + 7 days"
 msgstr "7 - اليوم + 7 أيام"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "موافق - التوقعات"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - اليوم + 8 أيام"
 
@@ -98,6 +102,9 @@ msgstr "بلجيكا"
 msgid "Berlin"
 msgstr "برلين"
 
+msgid "Blue"
+msgstr ""
+
 msgid "Blue - Home"
 msgstr "أزرق - الصفحة الرئيسية"
 
@@ -144,6 +151,10 @@ msgstr "إغلاق"
 #, fuzzy
 msgid "Close legend"
 msgstr "اختيار اللون"
+
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "غائم وزخات مطر"
 
 msgid "Cloudy"
 msgstr "غائم"
@@ -258,6 +269,10 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
+
+#, fuzzy
+msgid "Distance"
+msgstr "المسافة {} كم"
 
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
@@ -463,6 +478,10 @@ msgstr "بريطانيا العظمى"
 msgid "Greece"
 msgstr "اليونان"
 
+#, fuzzy
+msgid "Green"
+msgstr "اليونان"
+
 msgid "Green - Favorite 1"
 msgstr "أخضر - المفضلة 1"
 
@@ -472,6 +491,9 @@ msgstr ""
 #, fuzzy
 msgid "Gust: {:.1f} {}"
 msgstr "الرياح: {} {} {}"
+
+msgid "HTML"
+msgstr ""
 
 msgid "Hamburg"
 msgstr "هامبورغ"
@@ -527,6 +549,10 @@ msgstr "الصورة %(current)d/%(total)d (متوقفة مؤقتًا)"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "الصورة %(current)d/%(total)d (متوقفة مؤقتًا)"
 
+#, fuzzy
+msgid "Image Downloaded"
+msgstr "الصفحة التالية"
+
 msgid "Image not available"
 msgstr "الصورة غير متوفرة"
 
@@ -564,6 +590,10 @@ msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
 msgid "Last Quarter"
+msgstr "الربع الأخير"
+
+#, fuzzy
+msgid "Last update"
 msgstr "الربع الأخير"
 
 msgid "Latvia"
@@ -952,6 +982,9 @@ msgstr "الصفحة السابقة"
 msgid "Previous time"
 msgstr "الصورة السابقة"
 
+msgid "Radar"
+msgstr ""
+
 #, fuzzy
 msgid "Rain Prob."
 msgstr "احتمالية المطر: غير متوفرة"
@@ -970,6 +1003,9 @@ msgstr "الرياح: {} {} {}"
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "رادار الطقس"
+
+msgid "Red"
+msgstr ""
 
 msgid "Red - Color select"
 msgstr "أحمر - اختيار اللون"
@@ -1067,6 +1103,9 @@ msgstr "سلوفاكيا"
 msgid "Slower: {}s"
 msgstr "أبطأ: {}ث"
 
+msgid "Snow"
+msgstr ""
+
 msgid "Snow / ice"
 msgstr ""
 
@@ -1142,6 +1181,9 @@ msgstr "درجة الحرارة: {}°م"
 msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "شكرًا @Orlandox والأصدقاء الآخرين على الاقتراحات والاختبار"
 
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr ""
+
 msgid "Thin upper cloud"
 msgstr "سحب عليا رقيقة"
 
@@ -1170,6 +1212,9 @@ msgstr "إعدادات الشفافية"
 
 msgid "Transparency level"
 msgstr "مستوى الشفافية"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "مؤشر الأشعة فوق البنفسجية"
@@ -1298,6 +1343,10 @@ msgstr "طقس الغد"
 msgid "Weekly Forecast"
 msgstr "التوقعات الأسبوعية"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "خرائط الطقس"
+
 msgid "Wind"
 msgstr "الرياح"
 
@@ -1348,9 +1397,6 @@ msgstr "شفافية النافذة"
 msgid "Yellow - Favorite 2"
 msgstr "أصفر - المفضلة 2"
 
-msgid "You already have the latest version."
-msgstr ""
-
 msgid "Zoom In"
 msgstr "تكبير"
 
@@ -1395,89 +1441,3 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
 msgstr ""
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "موافق - التوقعات"
-
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "غائم وزخات مطر"
-
-#, fuzzy
-#~ msgid "Distance"
-#~ msgstr "المسافة {} كم"
-
-#, fuzzy
-#~ msgid "Green"
-#~ msgstr "اليونان"
-
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "الصفحة التالية"
-
-#, fuzzy
-#~ msgid "Last update"
-#~ msgstr "الربع الأخير"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "خرائط الطقس"
-
-#~ msgid "Color"
-#~ msgstr "اللون"
-
-#, fuzzy
-#~ msgid "Could not open temperature map."
-#~ msgstr "تعذر تهيئة واجهة برمجة تطبيقات الخريطة."
-
-#, fuzzy
-#~ msgid "Temperature layer not available."
-#~ msgstr "الصورة غير متوفرة"
-
-#, fuzzy
-#~ msgid "Map Color Legend"
-#~ msgstr "تم تحميل الخريطة والبلاط"
-
-#~ msgid "No tiles available"
-#~ msgstr "لا يوجد بلاط متاح"
-
-#, fuzzy
-#~ msgid "Precipitation intensity:"
-#~ msgstr "هطول الأمطار"
-
-#, fuzzy
-#~ msgid "Temperature:"
-#~ msgstr "درجة الحرارة"
-
-#~ msgid "Try again later"
-#~ msgstr "حاول مرة أخرى لاحقًا"
-
-#~ msgid "Visibility"
-#~ msgstr "الرؤية"
-
-#, fuzzy
-#~ msgid "Wind speed:"
-#~ msgstr "سرعة الرياح"
-
-#~ msgid "Error displaying map"
-#~ msgstr "خطأ في عرض الخريطة"
-
-#~ msgid "Try different zoom or layer"
-#~ msgstr "جرب تكبيرًا أو طبقة مختلفة"
-
-#~ msgid "Try different zoom or region"
-#~ msgstr "جرب تكبيرًا أو منطقة مختلفة"
-
-#~ msgid "Image %(current)d/%(total)d"
-#~ msgstr "الصورة %(current)d/%(total)d"
-
-#, fuzzy
-#~ msgid "Found {} lunar phases"
-#~ msgstr "جاري تحميل المحطات القريبة..."
-
-#~ msgid "Foreca 1 Weather Forecast"
-#~ msgstr "توقعات الطقس Foreca 1"
-
-#~ msgid "Min: {}°C, Max: {}°C"
-#~ msgstr "الصغرى: {}°م، العظمى: {}°م"

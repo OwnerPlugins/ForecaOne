@@ -578,9 +578,6 @@ class Foreca_Preview(Screen, HelpableScreen):
     def red(self):
         self.open_meteogram()
 
-    # def red(self):
-        # self.session.open(ColorSelector, self)
-
     def left(self):
         if self.tag > 0:
             self.tag -= 1
@@ -1525,10 +1522,15 @@ class Foreca_Preview(Screen, HelpableScreen):
 
             current_version = VERSION
 
-            # helper function to compare versions like "1.0.0"
+            # Helper function to compare versions like "1.0.0"
             def version_tuple(v):
                 return tuple(map(int, v.split('.')))
-            if version_tuple(remote_version) > version_tuple(current_version):
+
+            remote_t = version_tuple(remote_version)
+            current_t = version_tuple(current_version)
+
+            if remote_t > current_t:
+                # New version available
                 msg = _("New version {version} is available.").format(
                     version=remote_version) + "\n"
                 if remote_changelog:
@@ -1541,12 +1543,23 @@ class Foreca_Preview(Screen, HelpableScreen):
                     msg,
                     MessageBox.TYPE_YESNO
                 )
+            elif remote_t == current_t:
+                # Same version: ask if user wants to reinstall
+                msg = _("You already have version {version} installed.\nDo you want to reinstall it?").format(version=remote_version)
+                self.session.openWithCallback(
+                    lambda answer: self.install_update(answer, INSTALLER_URL),
+                    MessageBox,
+                    msg,
+                    MessageBox.TYPE_YESNO
+                )
             else:
+                # Remote version is older (rare case)
                 self.session.open(
                     MessageBox,
-                    _("You already have the latest version."),
+                    _("The remote version ({remote}) is older than the current one ({current}).").format(remote=remote_version, current=current_version),
                     MessageBox.TYPE_INFO,
-                    timeout=4)
+                    timeout=4
+                )
         except Exception as e:
             print("[Foreca1] Update check error:", e)
             self.session.open(
