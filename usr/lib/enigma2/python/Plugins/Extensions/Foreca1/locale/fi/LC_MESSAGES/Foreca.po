@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:54+0100\n"
-"PO-Revision-Date: 2026-03-15 15:44+0100\n"
+"PO-Revision-Date: 2026-03-15 19:19+0200\n"
 "Last-Translator: Orlandox\n"
 "Language-Team: Orlandox\n"
 "Language: fi\n"
@@ -283,7 +283,7 @@ msgid "Downloading tiles..."
 msgstr "Ladataan ruutuja..."
 
 msgid "E"
-msgstr ""
+msgstr "I"
 
 msgid "East Asia"
 msgstr "Itä-Aasia"
@@ -292,7 +292,7 @@ msgid "Error checking for updates."
 msgstr "Virhe päivitysten tarkistuksessa."
 
 msgid "Error loading data"
-msgstr "Virhe kartan näyttämisessä"
+msgstr "Virhe tietojen latauksessa"
 
 msgid "Error loading map"
 msgstr "Virhe kartan latauksessa"
@@ -412,7 +412,7 @@ msgid "Found %d cities online for '%s'"
 msgstr "Löytyi %d kaupunkia verkosta hakusanalla '%s'"
 
 msgid "Frame →"
-msgstr "Päivämäärä →"
+msgstr "Kehys →"
 
 msgid "Frame: {}"
 msgstr "Kehys: {}"
@@ -424,7 +424,7 @@ msgid "Full Moon"
 msgstr "Täysikuu"
 
 msgid "Gale force (>60 km/h)"
-msgstr "Myrskyn voimakkuus (>60 km/h)"
+msgstr "Myrsky (>60 km/h)"
 
 msgid "German States Weather Maps"
 msgstr "Saksan osavaltioiden sääkartat"
@@ -499,7 +499,7 @@ msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Kuva %(current)d/%(total)d – %(day)s (keskeytetty)"
 
 msgid "Image not available"
-msgstr "Kuva ei saatavilla"
+msgstr "Kuvaa ei saatavilla"
 
 msgid "Imperial System"
 msgstr "Brittiläinen järjestelmä"
@@ -547,7 +547,7 @@ msgid "Left arrow - Previous day"
 msgstr "Vasen nuoli - Edellinen päivä"
 
 msgid "Light (0-20 km/h)"
-msgstr "Light (0-20 km/h)"
+msgstr "Kevyt (0-20 km/h)"
 
 msgid "Light rain / drizzle"
 msgstr "Kevyttä sadetta / tihkusadetta"
@@ -559,7 +559,7 @@ msgid "Loading available maps..."
 msgstr "Ladataan saatavilla olevia karttoja..."
 
 msgid "Loading lunar phases..."
-msgstr "Kuun vaiheita ladataan..."
+msgstr "Ladataan kuun vaiheita..."
 
 msgid "Loading nearby stations..."
 msgstr "Ladataan läheisiä asemia..."
@@ -631,7 +631,7 @@ msgid "Moderate"
 msgstr "Kohtalainen"
 
 msgid "Moderate (20-40 km/h)"
-msgstr "Keskitasoinen (20–40 km/h)"
+msgstr "Kohtalainen (20–40 km/h)"
 
 msgid "Moderate rain"
 msgstr "Kohtalaista sadetta"
@@ -658,7 +658,7 @@ msgid "Move up"
 msgstr "Siirrä ylös"
 
 msgid "N"
-msgstr ""
+msgstr "P"
 
 msgid "N/A"
 msgstr "N/A"
@@ -685,13 +685,13 @@ msgid "Next page"
 msgstr "Seuraava sivu"
 
 msgid "Next time"
-msgstr "Seuraavalla kerralla"
+msgstr "Seuraava aika"
 
 msgid "No Internet connection detected."
 msgstr "Internet-yhteyttä ei havaittu."
 
 msgid "No OSM tiles"
-msgstr "Ei OSM-laattoja"
+msgstr "Ei OSM-ruutuja"
 
 msgid "No cities found locally for '%s'"
 msgstr "Ei löytynyt kaupunkeja paikallisesti hakusanalla '%s'"
@@ -709,7 +709,7 @@ msgid "No location selected"
 msgstr "Sijaintia ei ole valittu"
 
 msgid "No specific legend available."
-msgstr "Ei erityistä legendaa saatavilla."
+msgstr "Ei erityisiä selityksiä saatavilla."
 
 msgid "No station data"
 msgstr "Asemadataa ei ole"
@@ -874,13 +874,13 @@ msgid "Pressure"
 msgstr "Ilmanpaine"
 
 msgid "Pressure: %s"
-msgstr "Ilman paine: %s"
+msgstr "Ilmanpaine: %s"
 
 msgid "Pressure: %s hPa"
-msgstr "Ilman paine: %s hPa"
+msgstr "Ilmanpaine: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr "Ilman paine: N/A"
+msgstr "Ilmanpaine: N/A"
 
 msgid "Pressure: {}"
 msgstr "Ilmanpaine: {}"
@@ -904,10 +904,10 @@ msgid "Previous page"
 msgstr "Edellinen sivu"
 
 msgid "Previous time"
-msgstr "Edellinen kerta"
+msgstr "Edellinen aika"
 
 msgid "Rain Prob."
-msgstr "Sateen Todennäköisyys."
+msgstr "Sateen todennäköisyys"
 
 msgid "Rain prob. {}%"
 msgstr "Sateen todennäk. {}%"
@@ -943,7 +943,7 @@ msgid "Russia"
 msgstr "Venäjä"
 
 msgid "S"
-msgstr ""
+msgstr "E"
 
 msgid "Saarland"
 msgstr "Saarland"
@@ -1126,10 +1126,10 @@ msgid "Unit Settings"
 msgstr "Yksikköasetukset"
 
 msgid "Unit Settings (Advanced)"
-msgstr "Yksikköasetukset (edistynyt)"
+msgstr "Yksikköasetukset (lisäasetukset)"
 
 msgid "Unit Settings (Simple)"
-msgstr "Yksikköasetukset (yksinkertainen)"
+msgstr "Yksikköasetukset (yksinkertaiset)"
 
 msgid "Unknown"
 msgstr "Tuntematon"
@@ -1192,7 +1192,7 @@ msgid "Visibility: {} m"
 msgstr "Näkyvyys: {} m"
 
 msgid "W"
-msgstr ""
+msgstr "L"
 
 msgid "Waning Crescent"
 msgstr "Vähenevä sirppi"
@@ -1329,8 +1329,8 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 msgid "← Frame"
 msgstr "← Kehys"
 
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
 
 #~ msgid "Blue"
 #~ msgstr "Sininen"
