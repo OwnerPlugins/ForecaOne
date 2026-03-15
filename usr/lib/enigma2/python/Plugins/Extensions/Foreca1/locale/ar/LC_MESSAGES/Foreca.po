@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-04 14:02+0100\n"
+"PO-Revision-Date: 2026-03-15 16:04+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Arabic <(nothing)>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 msgid "0 - Today"
 msgstr "0 - اليوم"
@@ -41,6 +41,9 @@ msgstr "6 - اليوم + 6 أيام"
 msgid "7 - Today + 7 days"
 msgstr "7 - اليوم + 7 أيام"
 
+msgid "7 Day Forecast"
+msgstr "توقعات 7 أيام"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - اليوم + 8 أيام"
 
@@ -51,10 +54,10 @@ msgid "API credentials not configured."
 msgstr "لم يتم تكوين بيانات اعتماد API."
 
 msgid "API error"
-msgstr ""
+msgstr "خطأ في API"
 
 msgid "AQI {}"
-msgstr ""
+msgstr "مؤشر جودة الهواء {}"
 
 msgid "AQI: N/A"
 msgstr "مؤشر جودة الهواء: غير متوفر"
@@ -98,6 +101,9 @@ msgstr "بلجيكا"
 msgid "Berlin"
 msgstr "برلين"
 
+msgid "Blue"
+msgstr "أزرق"
+
 msgid "Blue - Home"
 msgstr "أزرق - الصفحة الرئيسية"
 
@@ -107,9 +113,8 @@ msgstr "براندنبورغ"
 msgid "Bremen"
 msgstr "بريمن"
 
-#, fuzzy
 msgid "Calculating..."
-msgstr "جاري التحميل..."
+msgstr "جاري الحساب..."
 
 msgid "Cancel"
 msgstr "إلغاء"
@@ -118,13 +123,13 @@ msgid "Celsius, km/h, hPa"
 msgstr "مئوية، كم/س، هيكتوباسكال"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "سجل التغييرات: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "يتم تطبيق التغييرات فورًا"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "التحقق من التحديثات"
 
 msgid "Choose detail view"
 msgstr "اختر عرض التفاصيل"
@@ -141,9 +146,11 @@ msgstr "صافٍ"
 msgid "Close"
 msgstr "إغلاق"
 
-#, fuzzy
 msgid "Close legend"
-msgstr "اختيار اللون"
+msgstr "إغلاق وسيلة الإيضاح"
+
+msgid "Cloud Cover"
+msgstr "الغطاء السحابي"
 
 msgid "Cloudy"
 msgstr "غائم"
@@ -170,11 +177,10 @@ msgid "Cloudy, thunderstorms with rain"
 msgstr "غائم، عواصف رعدية مع أمطار"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "بارد (< 0°م)"
 
-#, fuzzy
 msgid "Color Legend"
-msgstr "اختيار اللون"
+msgstr "وسيلة إيضاح الألوان"
 
 msgid "Color Selector"
 msgstr "محدد اللون"
@@ -182,9 +188,8 @@ msgstr "محدد اللون"
 msgid "Color data"
 msgstr "بيانات الألوان"
 
-#, fuzzy
 msgid "Color legend"
-msgstr "اختيار اللون"
+msgstr "وسيلة إيضاح الألوان"
 
 msgid "Color name"
 msgstr "اسم اللون"
@@ -195,15 +200,14 @@ msgstr "اختيار اللون"
 msgid "Condition: {}"
 msgstr "الحالة: {}"
 
-#, fuzzy
 msgid "Continents Weather Maps"
-msgstr "خرائط الطقس الأوروبية"
+msgstr "خرائط الطقس للقارات"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "بارد (0-10°م)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "تعذر جلب معلومات التحديث."
 
 msgid "Could not initialize map API."
 msgstr "تعذر تهيئة واجهة برمجة تطبيقات الخريطة."
@@ -212,7 +216,7 @@ msgid "Could not load forecast data"
 msgstr "تعذر تحميل بيانات التوقعات"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "تعذر تحليل معلومات الإصدار."
 
 msgid "Current weather and forecast"
 msgstr "الطقس الحالي والتوقعات"
@@ -245,33 +249,34 @@ msgid "Details"
 msgstr "التفاصيل"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "نقطة الندى {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "نقطة الندى {}°م"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "نقطة الندى: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "نقطة الندى: %s°م"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "نقطة الندى: غير متوفر"
+
+msgid "Distance"
+msgstr "المسافة"
 
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
 
-#, fuzzy
 msgid "Distance: %s"
-msgstr "المسافة: {} م"
+msgstr "المسافة: %s"
 
-#, fuzzy
 msgid "Distance: {}"
-msgstr "المسافة: {} م"
+msgstr "المسافة: {}"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "هل تريد تثبيته الآن؟"
 
 msgid "Down"
 msgstr "أسفل"
@@ -279,9 +284,8 @@ msgstr "أسفل"
 msgid "Down - Next page"
 msgstr "أسفل - الصفحة التالية"
 
-#, fuzzy
 msgid "Download error"
-msgstr "تم تحميل الصورة"
+msgstr "خطأ في التنزيل"
 
 msgid "Downloading images..."
 msgstr "جاري تحميل الصور..."
@@ -290,22 +294,19 @@ msgid "Downloading tiles..."
 msgstr "جاري تحميل البلاط..."
 
 msgid "E"
-msgstr ""
+msgstr "ش"
 
 msgid "East Asia"
 msgstr "شرق آسيا"
 
-#, fuzzy
 msgid "Error checking for updates."
-msgstr "خطأ في حفظ المفضلة!"
+msgstr "خطأ في التحقق من التحديثات."
 
-#, fuzzy
 msgid "Error loading data"
-msgstr "خطأ في عرض الخريطة"
+msgstr "خطأ في تحميل البيانات"
 
-#, fuzzy
 msgid "Error loading map"
-msgstr "خطأ في عرض الخريطة"
+msgstr "خطأ في تحميل الخريطة"
 
 msgid "Error loading maps. Check connection."
 msgstr "خطأ في تحميل الخرائط. تحقق من الاتصال."
@@ -328,15 +329,14 @@ msgstr "خروج"
 msgid "Exit - End"
 msgstr "خروج - إنهاء"
 
-#, fuzzy
 msgid "Exit / Close legend"
-msgstr "اختيار اللون"
+msgstr "خروج / إغلاق وسيلة الإيضاح"
 
 msgid "Extreme"
 msgstr "شديد"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "شديد / عواصف رعدية"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "فهرنهايت، ميل/س، بوصة زئبقية"
@@ -359,29 +359,23 @@ msgstr "تفاصيل المفضلة"
 msgid "Feels like"
 msgstr "يبدو كـ"
 
-#, fuzzy
 msgid "Feels like {}"
-msgstr "يبدو كـ: {}{}"
+msgstr "يبدو كـ {}"
 
-#, fuzzy
 msgid "Feels like {}{}"
-msgstr "يبدو كـ: {}{}"
+msgstr "يبدو كـ {}{}"
 
-#, fuzzy
 msgid "Feels like: %d%s"
-msgstr "يبدو كـ: {}{}"
+msgstr "يبدو كـ: %d%s"
 
-#, fuzzy
 msgid "Feels like: %s°C"
-msgstr "يبدو كـ: {}°م"
+msgstr "يبدو كـ: %s°م"
 
-#, fuzzy
 msgid "Feels like: N/A"
-msgstr "يبدو كـ: {}{}"
+msgstr "يبدو كـ: غير متوفر"
 
-#, fuzzy
 msgid "Feels like: {}"
-msgstr "يبدو كـ: {}{}"
+msgstr "يبدو كـ: {}"
 
 msgid "Feels like: {}{}"
 msgstr "يبدو كـ: {}{}"
@@ -401,32 +395,26 @@ msgstr "ضباب"
 msgid "Foreca One"
 msgstr "Foreca One"
 
-#, fuzzy
 msgid "Foreca One Live Maps (API)"
-msgstr "خرائط Foreca 1 الحية (API)"
+msgstr "خرائط Foreca One الحية (API)"
 
 msgid "Foreca One Menu"
 msgstr "قائمة Foreca One"
 
-#, fuzzy
 msgid "Foreca One No stations found"
-msgstr "Foreca 1 لم يتم العثور على محطات"
+msgstr "Foreca One: لم يتم العثور على محطات"
 
-#, fuzzy
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr "Foreca 1 المحطات: {} محطة قريبة ({})"
+msgstr "محطات Foreca One: {} محطة قريبة ({})"
 
-#, fuzzy
 msgid "Foreca One Weather Forecast"
-msgstr "طقس وتوقعات Foreca One"
+msgstr "توقعات طقس Foreca One"
 
-#, fuzzy
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr "طقس وتوقعات Foreca One"
+msgstr "طقس وتوقعات Foreca One الإصدار %s"
 
-#, fuzzy
 msgid "Foreca One | Map {}"
-msgstr "Foreca 1 | الخريطة {}"
+msgstr "Foreca One | الخريطة {}"
 
 msgid "Found %d cities locally for '%s'"
 msgstr "تم العثور على %d مدينة محليًا لـ '%s'"
@@ -434,13 +422,11 @@ msgstr "تم العثور على %d مدينة محليًا لـ '%s'"
 msgid "Found %d cities online for '%s'"
 msgstr "تم العثور على %d مدينة عبر الإنترنت لـ '%s'"
 
-#, fuzzy
 msgid "Frame →"
-msgstr "التاريخ: {}"
+msgstr "إطار →"
 
-#, fuzzy
 msgid "Frame: {}"
-msgstr "التاريخ: {}"
+msgstr "إطار: {}"
 
 msgid "France"
 msgstr "فرنسا"
@@ -449,7 +435,7 @@ msgid "Full Moon"
 msgstr "البدر"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "عاصف (>60 كم/س)"
 
 msgid "German States Weather Maps"
 msgstr "خرائط طقس الولايات الألمانية"
@@ -463,15 +449,20 @@ msgstr "بريطانيا العظمى"
 msgid "Greece"
 msgstr "اليونان"
 
+msgid "Green"
+msgstr "أخضر"
+
 msgid "Green - Favorite 1"
 msgstr "أخضر - المفضلة 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "عاصفة {}"
 
-#, fuzzy
 msgid "Gust: {:.1f} {}"
-msgstr "الرياح: {} {} {}"
+msgstr "عاصفة: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "هامبورغ"
@@ -480,7 +471,7 @@ msgid "Header - not selectable"
 msgstr "رأس - غير قابل للتحديد"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "أمطار غزيرة"
 
 msgid "Help"
 msgstr "مساعدة"
@@ -495,7 +486,7 @@ msgid "Home"
 msgstr "الصفحة الرئيسية"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "حار (30-40°م)"
 
 msgid "Hour Details"
 msgstr "تفاصيل الساعة"
@@ -503,9 +494,8 @@ msgstr "تفاصيل الساعة"
 msgid "Humidity"
 msgstr "الرطوبة"
 
-#, fuzzy
 msgid "Humidity: %s%%"
-msgstr "الرطوبة: {}%"
+msgstr "الرطوبة: %s%%"
 
 msgid "Humidity: {}%"
 msgstr "الرطوبة: {}%"
@@ -514,18 +504,19 @@ msgid "Hungary"
 msgstr "المجر"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "جليد / صقيع"
 
 msgid "Illumination"
-msgstr ""
+msgstr "الإضاءة"
 
-#, fuzzy
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "الصورة %(current)d/%(total)d (متوقفة مؤقتًا)"
+msgstr "الصورة %(current)d/%(total)d – %(day)s"
 
-#, fuzzy
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "الصورة %(current)d/%(total)d (متوقفة مؤقتًا)"
+msgstr "الصورة %(current)d/%(total)d – %(day)s (متوقفة مؤقتًا)"
+
+msgid "Image Downloaded"
+msgstr "تم تحميل الصورة"
 
 msgid "Image not available"
 msgstr "الصورة غير متوفرة"
@@ -566,6 +557,9 @@ msgstr "لوحة المفاتيح"
 msgid "Last Quarter"
 msgstr "الربع الأخير"
 
+msgid "Last update"
+msgstr "آخر تحديث"
+
 msgid "Latvia"
 msgstr "لاتفيا"
 
@@ -576,25 +570,23 @@ msgid "Left arrow - Previous day"
 msgstr "السهم الأيسر - اليوم السابق"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "خفيف (0-20 كم/س)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "أمطار خفيفة / رذاذ"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "خفيف إلى معتدل"
 
 msgid "Loading available maps..."
 msgstr "جاري تحميل الخرائط المتاحة..."
 
-#, fuzzy
 msgid "Loading lunar phases..."
-msgstr "جاري تحميل المحطات القريبة..."
+msgstr "جاري تحميل أطوار القمر..."
 
 msgid "Loading nearby stations..."
 msgstr "جاري تحميل المحطات القريبة..."
 
-#, fuzzy
 msgid "Loading tiles..."
 msgstr "جاري تحميل البلاط..."
 
@@ -611,10 +603,10 @@ msgid "Lower Saxony"
 msgstr "ساكسونيا السفلى"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "التقويم القمري"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "أطوار القمر من الشهر القادم"
 
 msgid "Luxembourg"
 msgstr "لوكسمبورغ"
@@ -622,9 +614,8 @@ msgstr "لوكسمبورغ"
 msgid "Map & Tiles Loaded"
 msgstr "تم تحميل الخريطة والبلاط"
 
-#, fuzzy
 msgid "Map loaded"
-msgstr "تم تحميل الخريطة والبلاط"
+msgstr "تم تحميل الخريطة"
 
 msgid "Map {} selected"
 msgstr "الخريطة {} محددة"
@@ -639,7 +630,7 @@ msgid "Menu - Settings"
 msgstr "القائمة - الإعدادات"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "فشل الدمج"
 
 msgid "Meteogram"
 msgstr "الرسم الجوي"
@@ -657,20 +648,19 @@ msgid "Middle East"
 msgstr "الشرق الأوسط"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "معتدل (10-20°م)"
 
 msgid "Moderate"
 msgstr "معتدل"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "معتدل (20-40 كم/س)"
 
-#, fuzzy
 msgid "Moderate rain"
-msgstr "معتدل"
+msgstr "أمطار معتدلة"
 
 msgid "Month"
-msgstr ""
+msgstr "الشهر"
 
 msgid "Morning"
 msgstr "الصباح"
@@ -691,11 +681,10 @@ msgid "Move up"
 msgstr "تحريك لأعلى"
 
 msgid "N"
-msgstr ""
+msgstr "ش"
 
-#, fuzzy
 msgid "N/A"
-msgstr "مؤشر الأشعة فوق البنفسجية: غير متوفر"
+msgstr "غير متوفر"
 
 msgid "Netherlands"
 msgstr "هولندا"
@@ -703,9 +692,8 @@ msgstr "هولندا"
 msgid "New Moon"
 msgstr "المحاق"
 
-#, fuzzy
 msgid "New version {version} is available."
-msgstr "لا توجد بيانات محطة متاحة"
+msgstr "الإصدار الجديد {version} متاح."
 
 msgid "Next"
 msgstr "التالي"
@@ -713,22 +701,20 @@ msgstr "التالي"
 msgid "Next Image"
 msgstr "الصورة التالية"
 
-#, fuzzy
 msgid "Next frame"
-msgstr "الصفحة التالية"
+msgstr "الإطار التالي"
 
 msgid "Next page"
 msgstr "الصفحة التالية"
 
-#, fuzzy
 msgid "Next time"
-msgstr "الصورة التالية"
+msgstr "الوقت التالي"
 
 msgid "No Internet connection detected."
 msgstr "لم يتم اكتشاف اتصال بالإنترنت."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "لا توجد بلاط OSM"
 
 msgid "No cities found locally for '%s'"
 msgstr "لم يتم العثور على مدن محليًا لـ '%s'"
@@ -745,9 +731,8 @@ msgstr "لا يوجد تاريخ متاح"
 msgid "No location selected"
 msgstr "لم يتم اختيار موقع"
 
-#, fuzzy
 msgid "No specific legend available."
-msgstr "لا يوجد بلاط متاح"
+msgstr "لا توجد وسيلة إيضاح محددة متاحة."
 
 msgid "No station data"
 msgstr "لا توجد بيانات محطة"
@@ -758,9 +743,8 @@ msgstr "لا توجد بيانات محطة متاحة"
 msgid "No stations found"
 msgstr "لم يتم العثور على محطات"
 
-#, fuzzy
 msgid "No tiles downloaded"
-msgstr "لا يوجد بلاط متاح"
+msgstr "لم يتم تحميل أي بلاط"
 
 msgid "North Africa"
 msgstr "شمال أفريقيا"
@@ -793,7 +777,7 @@ msgid "Open Map"
 msgstr "فتح الخريطة"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "التصميم والفكرة الأصلية بواسطة %s"
 
 msgid "Overcast"
 msgstr "غائم بالكامل"
@@ -843,18 +827,17 @@ msgstr "الصفحة التالية"
 msgid "Page up"
 msgstr "الصفحة السابقة"
 
-#, fuzzy
 msgid "Pan down"
-msgstr "الصفحة التالية"
+msgstr "تحريك لأسفل"
 
 msgid "Pan left"
-msgstr ""
+msgstr "تحريك لليسار"
 
 msgid "Pan right"
-msgstr ""
+msgstr "تحريك لليمين"
 
 msgid "Pan up"
-msgstr ""
+msgstr "تحريك لأعلى"
 
 msgid "Partly cloudy"
 msgstr "غائم جزئيًا"
@@ -881,7 +864,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "غائم جزئيًا، احتمالية عواصف رعدية مع أمطار"
 
 msgid "Phase"
-msgstr ""
+msgstr "الطور"
 
 msgid "Play/Pause"
 msgstr "تشغيل/إيقاف مؤقت"
@@ -904,9 +887,8 @@ msgstr "هطول الأمطار: {}"
 msgid "Precipitations"
 msgstr "هطول الأمطار"
 
-#, fuzzy
 msgid "Precipitations: {}%"
-msgstr "هطول الأمطار: {}"
+msgstr "هطول الأمطار: {}%"
 
 msgid "Press RED to search again"
 msgstr "اضغط على الأحمر للبحث مرة أخرى"
@@ -914,17 +896,14 @@ msgstr "اضغط على الأحمر للبحث مرة أخرى"
 msgid "Pressure"
 msgstr "الضغط الجوي"
 
-#, fuzzy
 msgid "Pressure: %s"
-msgstr "الضغط: {}"
+msgstr "الضغط: %s"
 
-#, fuzzy
 msgid "Pressure: %s hPa"
-msgstr "الضغط: {} هيكتوباسكال"
+msgstr "الضغط: %s هيكتوباسكال"
 
-#, fuzzy
 msgid "Pressure: N/A"
-msgstr "الضغط: {}"
+msgstr "الضغط: غير متوفر"
 
 msgid "Pressure: {}"
 msgstr "الضغط: {}"
@@ -941,35 +920,35 @@ msgstr "السابق"
 msgid "Previous Image"
 msgstr "الصورة السابقة"
 
-#, fuzzy
 msgid "Previous frame"
-msgstr "الصفحة السابقة"
+msgstr "الإطار السابق"
 
 msgid "Previous page"
 msgstr "الصفحة السابقة"
 
-#, fuzzy
 msgid "Previous time"
-msgstr "الصورة السابقة"
+msgstr "الوقت السابق"
 
-#, fuzzy
+msgid "Radar"
+msgstr "الرادار"
+
 msgid "Rain Prob."
-msgstr "احتمالية المطر: غير متوفرة"
+msgstr "احتمالية المطر."
 
-#, fuzzy
 msgid "Rain prob. {}%"
-msgstr "احتمالية المطر: غير متوفرة"
+msgstr "احتمالية المطر {}%"
 
 msgid "Rain prob.: N/A"
 msgstr "احتمالية المطر: غير متوفرة"
 
-#, fuzzy
 msgid "Rain: {:.1f} {}"
-msgstr "الرياح: {} {} {}"
+msgstr "المطر: {:.1f} {}"
 
-#, fuzzy
 msgid "RainViewer Radar"
-msgstr "رادار الطقس"
+msgstr "رادار RainViewer"
+
+msgid "Red"
+msgstr "أحمر"
 
 msgid "Red - Color select"
 msgstr "أحمر - اختيار اللون"
@@ -993,7 +972,7 @@ msgid "Russia"
 msgstr "روسيا"
 
 msgid "S"
-msgstr ""
+msgstr "ج"
 
 msgid "Saarland"
 msgstr "سارلاند"
@@ -1067,12 +1046,14 @@ msgstr "سلوفاكيا"
 msgid "Slower: {}s"
 msgstr "أبطأ: {}ث"
 
-msgid "Snow / ice"
-msgstr ""
+msgid "Snow"
+msgstr "ثلج"
 
-#, fuzzy
+msgid "Snow / ice"
+msgstr "ثلج / جليد"
+
 msgid "Snow prob. {}%"
-msgstr "احتمالية الثلج: غير متوفرة"
+msgstr "احتمالية الثلج {}%"
 
 msgid "Snow prob.: N/A"
 msgstr "احتمالية الثلج: غير متوفرة"
@@ -1096,7 +1077,7 @@ msgid "Station: {}"
 msgstr "المحطة: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "قوي (40-60 كم/س)"
 
 msgid "Sunrise"
 msgstr "شروق الشمس"
@@ -1116,21 +1097,17 @@ msgstr "درجة الحرارة"
 msgid "Temperature"
 msgstr "درجة الحرارة"
 
-#, fuzzy
 msgid "Temperature: %d%s"
-msgstr "درجة الحرارة: {}{}"
+msgstr "درجة الحرارة: %d%s"
 
-#, fuzzy
 msgid "Temperature: %s°C"
-msgstr "درجة الحرارة: {}°م"
+msgstr "درجة الحرارة: %s°م"
 
-#, fuzzy
 msgid "Temperature: N/A"
-msgstr "درجة الحرارة: {}{}"
+msgstr "درجة الحرارة: غير متوفر"
 
-#, fuzzy
 msgid "Temperature: {}"
-msgstr "درجة الحرارة: {}{}"
+msgstr "درجة الحرارة: {}"
 
 msgid "Temperature: {}{}"
 msgstr "درجة الحرارة: {}{}"
@@ -1138,12 +1115,11 @@ msgstr "درجة الحرارة: {}{}"
 msgid "Temperature: {}°C"
 msgstr "درجة الحرارة: {}°م"
 
-#, fuzzy
 msgid "Thanks {thanks} and other friends for suggestions and testing"
-msgstr "شكرًا @Orlandox والأصدقاء الآخرين على الاقتراحات والاختبار"
+msgstr "شكرًا {thanks} والأصدقاء الآخرين على الاقتراحات والاختبار"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "الإصدار البعيد ({remote}) أقدم من الإصدار الحالي ({current})."
 
 msgid "Thin upper cloud"
 msgstr "سحب عليا رقيقة"
@@ -1152,27 +1128,28 @@ msgid "Thuringia"
 msgstr "تورينغن"
 
 msgid "Time"
-msgstr ""
+msgstr "الوقت"
 
-#, fuzzy
 msgid "Today"
-msgstr "0 - اليوم"
+msgstr "اليوم"
 
 msgid "Today/Tomorrow details"
 msgstr "تفاصيل اليوم/الغد"
 
-#, fuzzy
 msgid "Toggle legend"
-msgstr "اختيار اللون"
+msgstr "تبديل وسيلة الإيضاح"
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "الغد"
 
 msgid "Transparency Settings"
 msgstr "إعدادات الشفافية"
 
 msgid "Transparency level"
 msgstr "مستوى الشفافية"
+
+msgid "UV"
+msgstr "الأشعة فوق البنفسجية"
 
 msgid "UV Index"
 msgstr "مؤشر الأشعة فوق البنفسجية"
@@ -1199,14 +1176,13 @@ msgid "Up - Previous page"
 msgstr "أعلى - الصفحة السابقة"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "تم إلغاء التحديث."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "اكتمل التحديث. يرجى إعادة تشغيل Enigma2."
 
-#, fuzzy
 msgid "Updated {}"
-msgstr "آخر تحديث: {}"
+msgstr "تم التحديث {}"
 
 msgid "Updated: N/A"
 msgstr "آخر تحديث: غير متوفر"
@@ -1214,9 +1190,8 @@ msgstr "آخر تحديث: غير متوفر"
 msgid "Updated: {}"
 msgstr "آخر تحديث: {}"
 
-#, fuzzy
 msgid "Updating..."
-msgstr "جاري التحميل..."
+msgstr "جاري التحديث..."
 
 msgid "Use arrow keys to scroll"
 msgstr "استخدم مفاتيح الأسهم للتمرير"
@@ -1224,9 +1199,8 @@ msgstr "استخدم مفاتيح الأسهم للتمرير"
 msgid "Use ← → to change time | OK to exit"
 msgstr "استخدم ← → لتغيير الوقت | موافق للخروج"
 
-#, fuzzy
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr "استخدم ← → لتغيير الوقت | موافق للخروج"
+msgstr "استخدم ←/→/↑/↓ للتحريك | موافق للخروج"
 
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "استخدم ▲/▼ للتغيير، موافق للاختيار"
@@ -1235,26 +1209,25 @@ msgid "Using current time"
 msgstr "استخدام الوقت الحالي"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "أمطار غزيرة جدًا"
 
 msgid "Very high"
 msgstr "مرتفع جدًا"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "حار جدًا (>40°م)"
 
 msgid "Very low"
-msgstr ""
+msgstr "منخفض جدًا"
 
-#, fuzzy
 msgid "Visibility: %s m"
-msgstr "الرؤية: {} م"
+msgstr "الرؤية: %s م"
 
 msgid "Visibility: {} m"
 msgstr "الرؤية: {} م"
 
 msgid "W"
-msgstr ""
+msgstr "غ"
 
 msgid "Waning Crescent"
 msgstr "الهلال المتضائل"
@@ -1263,7 +1236,7 @@ msgid "Waning Gibbous"
 msgstr "الأحدب المتضائل"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "دافئ (20-30°م)"
 
 msgid "Waxing Crescent"
 msgstr "الهلال المتزايد"
@@ -1301,6 +1274,9 @@ msgstr "طقس الغد"
 msgid "Weekly Forecast"
 msgstr "التوقعات الأسبوعية"
 
+msgid "Wetter.de Maps Test"
+msgstr "اختبار خرائط Wetter.de"
+
 msgid "Wind"
 msgstr "الرياح"
 
@@ -1316,28 +1292,23 @@ msgstr "اتجاه الرياح"
 msgid "Wind speed"
 msgstr "سرعة الرياح"
 
-#, fuzzy
 msgid "Wind speed {}"
-msgstr "سرعة الرياح"
+msgstr "سرعة الرياح {}"
 
-#, fuzzy
 msgid "Wind speed: {:.1f} {}"
-msgstr "سرعة الرياح"
+msgstr "سرعة الرياح: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "الرياح: %d %s %s"
 
-#, fuzzy
 msgid "Wind: %s km/h %s"
-msgstr "الرياح: {} كم/س {}"
+msgstr "الرياح: %s كم/س %s"
 
-#, fuzzy
 msgid "Wind: N/A"
-msgstr "الرياح: {} {} {}"
+msgstr "الرياح: غير متوفر"
 
-#, fuzzy
 msgid "Wind: {}"
-msgstr "الرياح: {} {} {}"
+msgstr "الرياح: {}"
 
 msgid "Wind: {} km/h {}"
 msgstr "الرياح: {} كم/س {}"
@@ -1370,7 +1341,7 @@ msgid "v."
 msgstr "الإصدار."
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{hours} س {mins} د"
 
 msgid "• BLUE to save as Home\n"
 msgstr "• أزرق للحفظ كالصفحة الرئيسية\n"
@@ -1394,32 +1365,4 @@ msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
-msgstr ""
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "موافق - التوقعات"
-
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "غائم وزخات مطر"
-
-#, fuzzy
-#~ msgid "Distance"
-#~ msgstr "المسافة {} كم"
-
-#, fuzzy
-#~ msgid "Green"
-#~ msgstr "اليونان"
-
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "الصفحة التالية"
-
-#, fuzzy
-#~ msgid "Last update"
-#~ msgstr "الربع الأخير"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "خرائط الطقس"
+msgstr "إطار ←"

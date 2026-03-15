@@ -218,6 +218,26 @@ def get_icon_path(icon_name, fallback='na.png'):
     return fallback_path if exists(fallback_path) else None
 
 
+def cleanup_temp_files():
+    """Removes the temporary folder and all SVG files inside it."""
+    import shutil
+    if exists(TEMP_DIR):
+        try:
+            shutil.rmtree(TEMP_DIR)
+            if DEBUG:
+                print(f"[Meteogram] Cleaned folder {TEMP_DIR}")
+        except Exception as e:
+            print(f"[Meteogram] Error cleaning {TEMP_DIR}: {e}")
+
+    if exists(DBG_DIR):
+        try:
+            shutil.rmtree(DBG_DIR)
+            if DEBUG:
+                print(f"[Meteogram] Cleaned folder {DBG_DIR}")
+        except Exception as e:
+            print(f"[Meteogram] Error cleaning {DBG_DIR}: {e}")
+
+
 """
 def apply_global_theme(screen):
     '''

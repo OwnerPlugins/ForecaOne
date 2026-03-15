@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
+"PO-Revision-Date: 2026-03-15 16:08+0100\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
 "Language: be\n"
@@ -16,1314 +16,1183 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.9\n"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Сёння"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Сёння + 1 дзень"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Сёння + 2 дні"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Сёння + 3 дні"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Сёння + 4 дні"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Сёння + 5 дзён"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Сёння + 6 дзён"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Сёння + 7 дзён"
+
+msgid "7 Day Forecast"
+msgstr "7-дзённы прагноз"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Сёння + 8 дзён"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Сёння + 9 дзён"
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "Уліковыя дадзеныя API не наладжаны."
 
 msgid "API error"
-msgstr ""
+msgstr "Памылка API"
 
 msgid "AQI {}"
-msgstr ""
+msgstr "ІКВ {}"
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "ІКВ: Н/Д"
 
 msgid "Advanced"
-msgstr ""
+msgstr "Пашыраныя"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Пашыраныя налады адзінак вымярэння"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Поплудні"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Прызначыць у Абранае 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Прызначыць у Абранае 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Усталяваць як Дамоў"
 
 msgid "Australia"
-msgstr ""
+msgstr "Аўстралія"
 
 msgid "Austria"
-msgstr ""
+msgstr "Аўстрыя"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Бадэн-Вюртэмберг"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Барометр"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Баварыя"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Бельгія"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Берлін"
+
+msgid "Blue"
+msgstr "Сіні"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Сіняя кнопка - Дамоў"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Брандэнбург"
 
 msgid "Bremen"
-msgstr ""
+msgstr "Брэмен"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Разлік..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Адмена"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Цэльсія, км/г, гПа"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Гісторыя змен: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Змены ўступаюць у сілу неадкладна"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Праверыць абнаўленні"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Выбраць дэталёвы прагляд"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Выбар горада"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Файл са спісам гарадоў не знойдзены!"
 
 msgid "Clear"
-msgstr ""
+msgstr "Ясна"
 
 msgid "Close"
-msgstr ""
+msgstr "Зачыніць"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Зачыніць легенду"
+
+msgid "Cloud Cover"
+msgstr "Воблачнасць"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Воблачна"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Воблачна і невялікі дождж"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Воблачна і невялікі снег"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Воблачна і невялікі мокры снег"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Воблачна і ліўні"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Воблачна і снегапады"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Воблачна і мокры снег"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Воблачна, навальніцы з дажджом"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Холадна (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Легенда колераў"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Выбар колеру"
 
 msgid "Color data"
-msgstr ""
+msgstr "Дадзеныя колеру"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Легенда колераў"
 
 msgid "Color name"
-msgstr ""
+msgstr "Назва колеру"
 
 msgid "Color select"
-msgstr ""
+msgstr "Выбраць колер"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Стан: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Карты надвор'я кантынентаў"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Прахалодна (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Не атрымалася атрымаць інфармацыю аб абнаўленні."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Не атрымалася ініцыялізаваць API карты."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Не атрымалася загрузіць дадзеныя прагнозу"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Не атрымалася разабраць інфармацыю аб версіі."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Бягучае надвор'е і прагноз"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Бягучае надвор'е і прагноз на наступныя 10 дзён"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Бягучае: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Чэшская Рэспубліка"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Дадзеныя прадастаўлены Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Дата: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Дзень"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Паменшыць хуткасць"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Данія"
 
 msgid "Details"
-msgstr ""
+msgstr "Дэталі"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Кропка расы {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Кропка расы {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Кропка расы: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Кропка расы: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Кропка расы: Н/Д"
+
+msgid "Distance"
+msgstr "Адлегласць"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Адлегласць {} км"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Адлегласць: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Адлегласць: {}"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Ці жадаеце ўсталяваць яго зараз?"
 
 msgid "Down"
-msgstr ""
+msgstr "Уніз"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Уніз - Наступная старонка"
 
 msgid "Download error"
-msgstr ""
+msgstr "Памылка загрузкі"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Загрузка выяў..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Загрузка плітак..."
 
 msgid "E"
-msgstr ""
+msgstr "У"
 
 msgid "East Asia"
-msgstr ""
+msgstr "Усходняя Азія"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Памылка праверкі абнаўленняў."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Памылка загрузкі дадзеных"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Памылка загрузкі карты"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Памылка загрузкі карт. Праверце злучэнне."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Памылка захавання абранага!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Еўропа"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Еўрапейскія карты надвор'я"
 
 msgid "Evening"
-msgstr ""
+msgstr "Вечар"
 
 msgid "Exit"
-msgstr ""
+msgstr "Выхад"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Выхад - Канец"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Выхад / Зачыніць легенду"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Экстрэмальна"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Экстрэмальна / навальніцы"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "Фарэнгейт, міль/г, цаля рт.сл"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Хутчэй: {}с"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Абранае 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Абранае 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Дэталі абранага"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Дэталі абранага"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Адчуваецца як"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Адчуваецца як {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Адчуваецца як {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Адчуваецца як: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Адчуваецца як: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Адчуваецца як: Н/Д"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Адчуваецца як: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Адчуваецца як: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Адчуваецца як: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Фінляндыя"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Першая чвэрць"
 
 msgid "Fog"
-msgstr ""
+msgstr "Туман"
 
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca One"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Жывыя карты Foreca One (API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Меню Foreca One"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One: Станцыі не знойдзены"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Станцыі Foreca One: {} станцый побач ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Прагноз надвор'я Foreca One"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Надвор'е і прагноз Foreca One версія %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | Карта {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Знойдзена %d гарадоў лакальна для '%s'"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Знойдзена %d гарадоў анлайн для '%s'"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Кадр →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Кадр: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Францыя"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Поўня"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Штармавы (>60 км/г)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Карты надвор'я нямецкіх зямель"
 
 msgid "Germany"
-msgstr ""
+msgstr "Германія"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Вялікабрытанія"
 
 msgid "Greece"
-msgstr ""
+msgstr "Грэцыя"
+
+msgid "Green"
+msgstr "Зялёны"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Зялёная кнопка - Абранае 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "Парыў {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Парыў: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Гамбург"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Загаловак - не выбіраецца"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Моцны дождж"
 
 msgid "Help"
-msgstr ""
+msgstr "Даведка"
 
 msgid "Hesse"
-msgstr ""
+msgstr "Гесэн"
 
 msgid "High"
-msgstr ""
+msgstr "Высокі"
 
 msgid "Home"
-msgstr ""
+msgstr "Дамоў"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Горача (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Дэталі гадзіны"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Вільготнасць"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Вільготнасць: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Вільготнасць: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Венгрыя"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Лёд / мароз"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Асвятленне"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Выява %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Выява %(current)d/%(total)d – %(day)s (Прыпынена)"
+
+msgid "Image Downloaded"
+msgstr "Выява загружана"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Выява недаступная"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Імперская сістэма"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Павялічыць хуткасць"
 
 msgid "Info"
-msgstr ""
+msgstr "Інфармацыя"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Інфармацыя - Пра праграму"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Ірландыя"
 
 msgid "Italy"
-msgstr ""
+msgstr "Італія"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Перайсці на 100 уніз"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Перайсці на 100 уверх"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Перайсці на 500 уніз"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Перайсці на 500 уверх"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавіятура"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Апошняя чвэрць"
+
+msgid "Last update"
+msgstr "Апошняе абнаўленне"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Латвія"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Налева - Папярэдні дзень"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Стрэлка налева - Папярэдні дзень"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Лёгкі (0-20 км/г)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Невялікі дождж / імжа"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Ад лёгкага да ўмеранага"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Загрузка даступных карт..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Загрузка фаз Месяца..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Загрузка бліжэйшых станцый..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Загрузка плітак..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Загрузка тыднёвага прагнозу..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Загрузка..."
 
 msgid "Low"
-msgstr ""
+msgstr "Нізкі"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Ніжняя Саксонія"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Месяцавы каляндар"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Фазы Месяца з наступнага месяца"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Люксембург"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Карта і пліткі загружаны"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Карта загружана"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Карта {} абрана"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Мекленбург-Пярэдняя Памеранія"
 
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Меню - Налады"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Аб'яднанне не ўдалося"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Метеаграма"
 
 msgid "Metric System"
-msgstr ""
+msgstr "Метрычная сістэма"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Цэнтральная Амерыка"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Цэнтральная Азія"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Блізкі Усход"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Умерана цёпла (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Умераны"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Умераны (20-40 км/г)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Умераны дождж"
 
 msgid "Month"
-msgstr ""
+msgstr "Месяц"
 
 msgid "Morning"
-msgstr ""
+msgstr "Раніца"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Пераважна ясна"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Перамясціць уніз"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Перамясціць уверх"
 
 msgid "Move down"
-msgstr ""
+msgstr "Перамясціць уніз"
 
 msgid "Move up"
-msgstr ""
+msgstr "Перамясціць уверх"
 
 msgid "N"
-msgstr ""
+msgstr "П"
 
 msgid "N/A"
-msgstr ""
+msgstr "Н/Д"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Нідэрланды"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Маладзік"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Даступная новая версія {version}."
 
 msgid "Next"
-msgstr ""
+msgstr "Наступны"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Наступная выява"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Наступны кадр"
 
 msgid "Next page"
-msgstr ""
+msgstr "Наступная старонка"
 
 msgid "Next time"
-msgstr ""
+msgstr "Наступны час"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Не выяўлена падключэнне да Інтэрнэту."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Няма плітак OSM"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Не знойдзена гарадоў лакальна для '%s'"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Горад не абраны"
 
 msgid "No data"
-msgstr ""
+msgstr "Няма дадзеных"
 
 msgid "No date available"
-msgstr ""
+msgstr "Няма даступнай даты"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Месца не абрана"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Няма спецыфічнай легенды."
 
 msgid "No station data"
-msgstr ""
+msgstr "Няма дадзеных станцыі"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Няма даступных дадзеных станцыі"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Станцыі не знойдзены"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Не загружана ніводнай пліткі"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Паўночная Афрыка"
 
 msgid "North America"
-msgstr ""
+msgstr "Паўночная Амерыка"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Паўночны Рэйн-Вестфалія"
 
 msgid "Norway"
-msgstr ""
+msgstr "Нарвегія"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "ОК - Дадатковая інфармацыя"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "ОК - Прагноз"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "ОК - Адкрыць карту"
 
 msgid "Ok - Zone"
-msgstr ""
+msgstr "ОК - Зона"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Адкрыць клавіятуру"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Адкрыць карту"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Арыгінальны дызайн і ідэя ад %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Пахмурна"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Пахмурна і невялікі дождж"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Пахмурна і невялікі снег"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Пахмурна і невялікі мокры снег"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Пахмурна і дождж"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Пахмурна і ліўні"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Пахмурна і снег"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Пахмурна і снегапады"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Пахмурна і мокры снег"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Пахмурна і мокры снег"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Пахмурна, навальніцы з дажджом"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Уначы"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Старонка ўніз"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Старонка ўверх"
 
 msgid "Page down"
-msgstr ""
+msgstr "Старонка ўніз"
 
 msgid "Page up"
-msgstr ""
+msgstr "Старонка ўверх"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Перамясціць уніз"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Перамясціць налева"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Перамясціць направа"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Перамясціць уверх"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Пераменная воблачнасць"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Пераменная воблачнасць і невялікі дождж"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Пераменная воблачнасць і невялікі снег"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Пераменная воблачнасць і невялікі мокры снег"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Пераменная воблачнасць і ліўні"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Пераменная воблачнасць і снегапады"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Пераменная воблачнасць і мокры снег"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Пераменная воблачнасць, магчымы навальніцы з дажджом"
 
 msgid "Phase"
-msgstr ""
+msgstr "Фаза"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Прайграць/Прыпыніць"
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Калі ласка, пачакайце ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Польшча"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Партугалія"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Ападкі"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Ападкі: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Ападкі"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Ападкі: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Націсніце ЧЫРВОНУЮ для пошуку зноў"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Ціск"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Ціск: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Ціск: %s гПа"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Ціск: Н/Д"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Ціск: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Ціск: {} гПа"
 
 msgid "Prev"
-msgstr ""
+msgstr "Папяр"
 
 msgid "Previous"
-msgstr ""
+msgstr "Папярэдні"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Папярэдняя выява"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Папярэдні кадр"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Папярэдняя старонка"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Папярэдні час"
+
+msgid "Radar"
+msgstr "Радар"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Верагоднасць дажджу."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Верагоднасць дажджу {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Верагоднасць дажджу: Н/Д"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Дождж: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "Радар RainViewer"
+
+msgid "Red"
+msgstr "Чырвоны"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Чырвоная кнопка - Выбар колеру"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Абнавіць"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Рэйнланд-Пфальц"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Направа - Наступны дзень"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Стрэлка направа - Наступны дзень"
 
 msgid "Rise"
-msgstr ""
+msgstr "Узыход"
 
 msgid "Russia"
-msgstr ""
+msgstr "Расія"
 
 msgid "S"
-msgstr ""
+msgstr "Пд"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Саар"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Спадарожнікавыя здымкі"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Спадарожнікавыя здымкі хутка!"
 
 msgid "Save"
-msgstr ""
+msgstr "Захаваць"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Саксонія"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Саксонія-Анхальт"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Шлезвіг-Гольштэйн"
 
 msgid "Scraped"
-msgstr ""
+msgstr "Сабрана"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Пошук спачатку спрабуе анлайн, калі не атрымліваецца, выкарыстоўвае лакальны спіс."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Шукайце свой горад"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Пошук '%s'..."
 
 msgid "Select"
-msgstr ""
+msgstr "Выбраць"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Выбраць рэгіён"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Выберыце горад"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Выберыце карту з OK"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Выберыце сістэму адзінак"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Выберыце адзінку ветру"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Выберыце адзінку {}"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Дэталі абранай гадзіны"
 
 msgid "Sets"
-msgstr ""
+msgstr "Заход"
 
 msgid "Show info"
-msgstr ""
+msgstr "Паказаць інфармацыю"
 
 msgid "Showers"
-msgstr ""
+msgstr "Ліўні"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Славакія"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Павольней: {}с"
+
+msgid "Snow"
+msgstr "Снег"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Снег / лёд"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Верагоднасць снегу {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Верагоднасць снегу: Н/Д"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Паўднёвая Афрыка"
 
 msgid "South America"
-msgstr ""
+msgstr "Паўднёвая Амерыка"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Паўднёва-Усходняя Азія"
 
 msgid "Spain"
-msgstr ""
+msgstr "Іспанія"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Станцыйныя назіранні"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Станцыя: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Моцны (40-60 км/г)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Узыход сонца"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Заход сонца"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Швецыя"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Швейцарыя"
 
 msgid "Temp"
-msgstr ""
+msgstr "Тэмп"
 
 msgid "Temperature"
-msgstr ""
+msgstr "Тэмпература"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Тэмпература: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Тэмпература: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Тэмпература: Н/Д"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Тэмпература: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Тэмпература: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Тэмпература: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions and testing"
-msgstr ""
+msgstr "Дзякуй {thanks} і іншым сябрам за прапановы і тэставанне"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Аддаленая версія ({remote}) старэйшая за бягучую ({current})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Тонкія верхнія воблакі"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Цюрынгія"
 
 msgid "Time"
-msgstr ""
+msgstr "Час"
 
 msgid "Today"
-msgstr ""
+msgstr "Сёння"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Дэталі сёння/заўтра"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Пераключыць легенду"
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Заўтра"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Налады празрыстасці"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Узровень празрыстасці"
+
+msgid "UV"
+msgstr "УФ"
 
 msgid "UV Index"
-msgstr ""
+msgstr "УФ індэкс"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "УФ: Н/Д"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Налады адзінак"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Налады адзінак (Пашыраныя)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Налады адзінак (Простыя)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Невядома"
 
 msgid "Up"
-msgstr ""
+msgstr "Уверх"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Уверх - Папярэдняя старонка"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Абнаўленне адменена."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Абнаўленне завершана. Калі ласка, перазапусціце Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Абноўлена {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Абноўлена: Н/Д"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Абноўлена: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Абнаўленне..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
-
-msgid "Use ← → to change time | OK to exit"
-msgstr ""
-
-msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
-
-msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
-
-msgid "Using current time"
-msgstr ""
-
-msgid "Very heavy rain"
-msgstr ""
-
-msgid "Very high"
-msgstr ""
-
-msgid "Very hot (>40°C)"
-msgstr ""
-
-msgid "Very low"
-msgstr ""
-
-msgid "Visibility: %s m"
-msgstr ""
-
-msgid "Visibility: {} m"
-msgstr ""
-
-msgid "W"
-msgstr ""
-
-msgid "Waning Crescent"
-msgstr ""
-
-msgid "Waning Gibbous"
-msgstr ""
-
-msgid "Warm (20-30°C)"
-msgstr ""
-
-msgid "Waxing Crescent"
-msgstr ""
-
-msgid "Waxing Gibbous"
-msgstr ""
-
-msgid "Weather"
-msgstr ""
-
-msgid "Weather Map"
-msgstr ""
-
-msgid "Weather Maps"
-msgstr ""
-
-msgid "Weather Maps & Satellite"
-msgstr ""
-
-msgid "Weather Maps (Wetterkontor)"
-msgstr ""
-
-msgid "Weather Maps Slideshow"
-msgstr ""
-
-msgid "Weather Radar"
-msgstr ""
-
-msgid "Weather today"
-msgstr ""
-
-msgid "Weather tomorrow"
-msgstr ""
-
-msgid "Weekly Forecast"
-msgstr ""
-
-msgid "Wind"
-msgstr ""
-
-msgid "Wind Direction today"
-msgstr ""
-
-msgid "Wind Direction tomorrow"
-msgstr ""
-
-msgid "Wind direction"
-msgstr ""
-
-msgid "Wind speed"
-msgstr ""
-
-msgid "Wind speed {}"
-msgstr ""
-
-msgid "Wind speed: {:.1f} {}"
-msgstr ""
-
-msgid "Wind: %d %s %s"
-msgstr ""
-
-msgid "Wind: %s km/h %s"
-msgstr ""
-
-msgid "Wind: N/A"
-msgstr ""
-
-msgid "Wind: {}"
-msgstr ""
-
-msgid "Wind: {} km/h {}"
-msgstr ""
-
-msgid "Wind: {} {} {}"
-msgstr ""
-
-msgid "Window transparency"
-msgstr ""
-
-msgid "Yellow - Favorite 2"
-msgstr ""
-
-msgid "Zoom In"
-msgstr ""
-
-msgid "Zoom Out"
-msgstr ""
-
-msgid "Zoom+"
-msgstr ""
-
-msgid "Zoom-"
-msgstr ""
-
-msgid "Zoom:"
-msgstr ""
-
-msgid "v."
-msgstr ""
-
-msgid "{hours} h {mins} min"
-msgstr ""
-
-msgid "• BLUE to save as Home\n"
-msgstr ""
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
-
-msgid "• OK to select city\n"
-msgstr ""
-
-msgid "• RED to open search keyboard\n"
-msgstr ""
-
-msgid "• Use arrow keys to navigate\n"
-msgstr ""
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
-
-msgid "← Frame"
-msgstr ""
+msgstr "Выкарыстоўвайце клавішы са стрэлкамі для пракруткі"

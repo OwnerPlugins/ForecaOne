@@ -69,7 +69,8 @@ from . import (
     DBG_DIR,
     CONFIG_FILE,
     SYSTEM_DIR,
-    get_icon_path
+    get_icon_path,
+    cleanup_temp_files
 )
 
 from .city_panel import CityPanel4
@@ -125,26 +126,6 @@ def my_speed_wind(indata, metka):
             return '%.01f' % val
     except BaseException:
         return '0.00'
-
-
-def cleanup_temp_files():
-    """Removes the temporary folder and all SVG files inside it."""
-    import shutil
-    if exists(TEMP_DIR):
-        try:
-            shutil.rmtree(TEMP_DIR)
-            if DEBUG:
-                print(f"[Meteogram] Cleaned folder {TEMP_DIR}")
-        except Exception as e:
-            print(f"[Meteogram] Error cleaning {TEMP_DIR}: {e}")
-
-    if exists(DBG_DIR):
-        try:
-            shutil.rmtree(DBG_DIR)
-            if DEBUG:
-                print(f"[Meteogram] Cleaned folder {DBG_DIR}")
-        except Exception as e:
-            print(f"[Meteogram] Error cleaning {DBG_DIR}: {e}")
 
 
 def _write_favorite_debug(text):
@@ -2120,6 +2101,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         """Exit and save configurations."""
         self._save_color()
         self._save_alpha()
+        cleanup_temp_files()
         self.close()
 
     def close(self):
