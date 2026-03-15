@@ -42,10 +42,6 @@ msgstr "6 - Aujourd'hui + 6 jours"
 msgid "7 - Today + 7 days"
 msgstr "7 - Aujourd'hui + 7 jours"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "Prévisions"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Aujourd'hui + 8 jours"
 
@@ -105,9 +101,6 @@ msgstr "Belgique"
 msgid "Berlin"
 msgstr "Berlin"
 
-msgid "Blue"
-msgstr "Bleu"
-
 msgid "Blue - Home"
 msgstr "Bleu - Accueil"
 
@@ -154,10 +147,6 @@ msgstr ""
 #, fuzzy
 msgid "Close legend"
 msgstr "Sélection de couleur"
-
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Nuageux et averses"
 
 msgid "Cloudy"
 msgstr "Nuageux"
@@ -276,9 +265,6 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
-
-msgid "Distance"
-msgstr "Distance"
 
 #, fuzzy
 msgid "Distance {} km"
@@ -493,9 +479,6 @@ msgstr "Grande-Bretagne"
 msgid "Greece"
 msgstr "Grèce"
 
-msgid "Green"
-msgstr "Vert"
-
 msgid "Green - Favorite 1"
 msgstr "Vert - Favori 1"
 
@@ -504,9 +487,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hambourg"
@@ -561,10 +541,6 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
-#, fuzzy
-msgid "Image Downloaded"
-msgstr "Aucune date disponible"
-
 msgid "Image not available"
 msgstr "Image non disponible"
 
@@ -603,9 +579,6 @@ msgstr "Clavier"
 
 #, fuzzy
 msgid "Last Quarter"
-msgstr "Dernière mise à jour"
-
-msgid "Last update"
 msgstr "Dernière mise à jour"
 
 msgid "Latvia"
@@ -1004,9 +977,6 @@ msgstr "Page précédente"
 msgid "Previous time"
 msgstr "Page précédente"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr ""
 
@@ -1022,9 +992,6 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Radar météo"
-
-msgid "Red"
-msgstr "Rouge"
 
 msgid "Red - Color select"
 msgstr "Rouge - Sélection de couleur"
@@ -1125,9 +1092,6 @@ msgstr "Slovaquie"
 
 msgid "Slower: {}s"
 msgstr "Plus lent : {}s"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr ""
@@ -1236,9 +1200,6 @@ msgstr "Paramètres de transparence"
 
 msgid "Transparency level"
 msgstr "Niveau de transparence"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr ""
@@ -1371,10 +1332,6 @@ msgstr "Météo demain"
 msgid "Weekly Forecast"
 msgstr "Prévisions hebdomadaires"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Cartes météo"
-
 msgid "Wind"
 msgstr "Vent"
 
@@ -1471,6 +1428,40 @@ msgstr "• JAUNE pour enregistrer comme Favori 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "Prévisions"
+
+#~ msgid "Blue"
+#~ msgstr "Bleu"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Nuageux et averses"
+
+#~ msgid "Distance"
+#~ msgstr "Distance"
+
+#~ msgid "Green"
+#~ msgstr "Vert"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#, fuzzy
+#~ msgid "Image Downloaded"
+#~ msgstr "Aucune date disponible"
+
+#~ msgid "Last update"
+#~ msgstr "Dernière mise à jour"
+
+#~ msgid "Red"
+#~ msgstr "Rouge"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Cartes météo"
 
 #, fuzzy
 #~ msgid "Color"

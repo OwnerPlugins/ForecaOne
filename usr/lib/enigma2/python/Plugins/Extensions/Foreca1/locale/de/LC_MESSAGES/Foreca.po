@@ -40,9 +40,6 @@ msgstr "6 – Heute + 6 Tage"
 msgid "7 - Today + 7 days"
 msgstr "7 - Heute + 7 Tage"
 
-msgid "7 Day Forecast"
-msgstr ""
-
 msgid "8 - Today + 8 days"
 msgstr "8 – Heute + 8 Tage"
 
@@ -100,9 +97,6 @@ msgstr "Belgien"
 msgid "Berlin"
 msgstr "Berlin"
 
-msgid "Blue"
-msgstr "Blau"
-
 msgid "Blue - Home"
 msgstr "Blau – Startseite"
 
@@ -146,9 +140,6 @@ msgid "Close"
 msgstr ""
 
 msgid "Close legend"
-msgstr ""
-
-msgid "Cloud Cover"
 msgstr ""
 
 msgid "Cloudy"
@@ -261,9 +252,6 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
-
-msgid "Distance"
-msgstr "Entfernung"
 
 msgid "Distance {} km"
 msgstr ""
@@ -448,9 +436,6 @@ msgstr "Großbritannien"
 msgid "Greece"
 msgstr "Griechenland"
 
-msgid "Green"
-msgstr "Grün"
-
 msgid "Green - Favorite 1"
 msgstr "Grün – Favorit 1"
 
@@ -459,9 +444,6 @@ msgstr ""
 
 msgid "Gust: {:.1f} {}"
 msgstr ""
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -514,9 +496,6 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
-msgid "Image Downloaded"
-msgstr ""
-
 msgid "Image not available"
 msgstr "Bild nicht verfügbar"
 
@@ -555,9 +534,6 @@ msgstr "Tastatur"
 
 msgid "Last Quarter"
 msgstr ""
-
-msgid "Last update"
-msgstr "Letzte Aktualisierung"
 
 msgid "Latvia"
 msgstr "Lettland"
@@ -928,9 +904,6 @@ msgstr "Vorherige Seite"
 msgid "Previous time"
 msgstr ""
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr ""
 
@@ -945,9 +918,6 @@ msgstr ""
 
 msgid "RainViewer Radar"
 msgstr ""
-
-msgid "Red"
-msgstr "Rot"
 
 msgid "Red - Color select"
 msgstr "Rot – Farbe auswählen"
@@ -1044,9 +1014,6 @@ msgstr "Slowakei"
 
 msgid "Slower: {}s"
 msgstr "Langsamer: {}s"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr ""
@@ -1146,9 +1113,6 @@ msgstr "Transparenzeinstellungen"
 
 msgid "Transparency level"
 msgstr "Transparenzgrad"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr ""
@@ -1273,9 +1237,6 @@ msgstr "Wetter morgen"
 msgid "Weekly Forecast"
 msgstr "Wochenvorhersage"
 
-msgid "Wetter.de Maps Test"
-msgstr ""
-
 msgid "Wind"
 msgstr "Wind"
 
@@ -1365,6 +1326,24 @@ msgstr "• GELB zum Speichern als Favorit 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#~ msgid "Blue"
+#~ msgstr "Blau"
+
+#~ msgid "Distance"
+#~ msgstr "Entfernung"
+
+#~ msgid "Green"
+#~ msgstr "Grün"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Letzte Aktualisierung"
+
+#~ msgid "Red"
+#~ msgstr "Rot"
 
 #, fuzzy
 #~ msgid "Color"
