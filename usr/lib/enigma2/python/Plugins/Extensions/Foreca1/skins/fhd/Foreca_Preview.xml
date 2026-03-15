@@ -126,8 +126,14 @@
     <widget name="icon_observation" position="41,535" size="50,50" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <!-- Compass directions -->
     <widget name="icon_wind" position="599,583" size="40,41" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <!-- 
     <eLabel position="605,545" size="28,28" transparent="1" backgroundColor="#000080" text="P" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
     <eLabel position="605,635" size="28,28" transparent="1" backgroundColor="#000080" text="E" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
     <eLabel position="655,590" size="28,28" transparent="1" backgroundColor="#000080" text="I" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
     <eLabel position="555,590" size="28,28" transparent="1" backgroundColor="#000080" text="L" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" />
+    -->
+    <widget name="North" position="605,545" size="28,28" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" alphatest="blend" />
+    <widget name="South" position="605,635" size="28,28" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" alphatest="blend" />
+    <widget name="East" position="655,590" size="28,28" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" alphatest="blend" />
+    <widget name="West" position="555,590" size="28,28" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Regular;22" zPosition="10" halign="center" valign="center" alphatest="blend" />
 </screen>

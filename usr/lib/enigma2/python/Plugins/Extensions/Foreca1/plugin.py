@@ -327,6 +327,10 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["dewpoint_value"] = Label("N/A")
 
         # ========== WIND SPEED AND DIRECTION ==========
+        self["North"] = Label(_("N"))
+        self["South"] = Label(_("S"))
+        self["West"] = Label(_("W"))
+        self["East"] = Label(_("E"))
         self["icon_wind_speed"] = Pixmap()
         self["icon_wind"] = Pixmap()
         self["icon_wind_direction"] = Pixmap()
