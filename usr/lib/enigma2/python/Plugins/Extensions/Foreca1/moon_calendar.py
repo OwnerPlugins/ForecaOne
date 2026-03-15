@@ -86,11 +86,11 @@ class MoonCalendar(Screen, HelpableScreen):
         # Build the list for the Listbox
         self.list = []
         # self.list.append((
-            # _("Month"),        # 0
-            # None,              # 1: no icon
-            # _("Phase"),        # 2
-            # _("Day"),          # 3
-            # _("Time")          # 4
+        # _("Month"),        # 0
+        # None,              # 1: no icon
+        # _("Phase"),        # 2
+        # _("Day"),          # 3
+        # _("Time")          # 4
         # ))
         for p in self.phases:
             self.list.append(self._create_entry(p))
@@ -131,7 +131,8 @@ class MoonCalendar(Screen, HelpableScreen):
 
         for target in target_phases:
             # Find the first target phase after search_start
-            jd_phase = self._find_next_phase_after(search_start, target, jd_ref)
+            jd_phase = self._find_next_phase_after(
+                search_start, target, jd_ref)
             while jd_phase <= search_end:
                 dt_phase = self._jd_to_date(jd_phase)
                 if dt_phase.year == year and dt_phase.month == month:
@@ -144,7 +145,8 @@ class MoonCalendar(Screen, HelpableScreen):
                         'illumination': info['illumination'],
                         'distance': info['distance']
                     })
-                # Move to the next phase (using the constant from the moon object)
+                # Move to the next phase (using the constant from the moon
+                # object)
                 jd_phase += self.moon.SYNODIC_MONTH
 
         month_phases.sort(key=lambda x: x['date'])

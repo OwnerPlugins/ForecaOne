@@ -223,7 +223,6 @@ class MeteogramView(Screen, HelpableScreen):
             except Exception as e:
                 print(f"[Meteogram] Error cleaning temp files: {e}")
 
-
     def fetch_data(self):
         """Download the detailed forecast page and extract JSON data."""
         lang = _get_system_language()
