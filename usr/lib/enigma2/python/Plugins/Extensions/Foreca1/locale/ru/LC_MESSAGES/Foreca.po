@@ -40,9 +40,6 @@ msgstr "6 - Сегодня + 6 дней"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сегодня + 7 дней"
 
-msgid "7 Day Forecast"
-msgstr "Прогноз на 7 дней"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Сегодня + 8 дней"
 
@@ -100,9 +97,6 @@ msgstr "Бельгия"
 msgid "Berlin"
 msgstr "Берлин"
 
-msgid "Blue"
-msgstr "Синий"
-
 msgid "Blue - Home"
 msgstr "Синяя кнопка - Домой"
 
@@ -147,9 +141,6 @@ msgstr "Закрыть"
 
 msgid "Close legend"
 msgstr "Закрыть легенду"
-
-msgid "Cloud Cover"
-msgstr "Облачность"
 
 msgid "Cloudy"
 msgstr "Облачно"
@@ -261,9 +252,6 @@ msgstr "Точка росы: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Точка росы: Н/Д"
-
-msgid "Distance"
-msgstr "Расстояние"
 
 msgid "Distance {} km"
 msgstr "Расстояние {} км"
@@ -448,9 +436,6 @@ msgstr "Великобритания"
 msgid "Greece"
 msgstr "Греция"
 
-msgid "Green"
-msgstr "Зеленый"
-
 msgid "Green - Favorite 1"
 msgstr "Зелёная кнопка - Избранное 1"
 
@@ -459,9 +444,6 @@ msgstr "Порыв {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Порыв: {:.1f} {}"
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -514,9 +496,6 @@ msgstr "Изображение %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Изображение %(current)d/%(total)d – %(day)s (Пауза)"
 
-msgid "Image Downloaded"
-msgstr "Изображение загружено"
-
 msgid "Image not available"
 msgstr "Изображение недоступно"
 
@@ -555,9 +534,6 @@ msgstr "Клавиатура"
 
 msgid "Last Quarter"
 msgstr "Последняя четверть"
-
-msgid "Last update"
-msgstr "Последнее обновление"
 
 msgid "Latvia"
 msgstr "Латвия"
@@ -928,9 +904,6 @@ msgstr "Предыдущая страница"
 msgid "Previous time"
 msgstr "Предыдущее время"
 
-msgid "Radar"
-msgstr "Радар"
-
 msgid "Rain Prob."
 msgstr "Вер. дождя."
 
@@ -945,9 +918,6 @@ msgstr "Дождь: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Радар RainViewer"
-
-msgid "Red"
-msgstr "Красный"
 
 msgid "Red - Color select"
 msgstr "Красная кнопка - Выбор цвета"
@@ -1044,9 +1014,6 @@ msgstr "Словакия"
 
 msgid "Slower: {}s"
 msgstr "Медленнее: {}с"
-
-msgid "Snow"
-msgstr "Снег"
 
 msgid "Snow / ice"
 msgstr "Снег / лед"
@@ -1146,9 +1113,6 @@ msgstr "Настройки прозрачности"
 
 msgid "Transparency level"
 msgstr "Уровень прозрачности"
-
-msgid "UV"
-msgstr "УФ"
 
 msgid "UV Index"
 msgstr "УФ индекс"
@@ -1273,9 +1237,6 @@ msgstr "Погода завтра"
 msgid "Weekly Forecast"
 msgstr "Недельный прогноз"
 
-msgid "Wetter.de Maps Test"
-msgstr "Тест карт Wetter.de"
-
 msgid "Wind"
 msgstr "Ветер"
 
@@ -1365,3 +1326,42 @@ msgstr "• ЖЕЛТЫЙ для сохранения как Избранное 2
 
 msgid "← Frame"
 msgstr "← Кадр"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Прогноз на 7 дней"
+
+#~ msgid "Blue"
+#~ msgstr "Синий"
+
+#~ msgid "Cloud Cover"
+#~ msgstr "Облачность"
+
+#~ msgid "Distance"
+#~ msgstr "Расстояние"
+
+#~ msgid "Green"
+#~ msgstr "Зеленый"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Image Downloaded"
+#~ msgstr "Изображение загружено"
+
+#~ msgid "Last update"
+#~ msgstr "Последнее обновление"
+
+#~ msgid "Radar"
+#~ msgstr "Радар"
+
+#~ msgid "Red"
+#~ msgstr "Красный"
+
+#~ msgid "Snow"
+#~ msgstr "Снег"
+
+#~ msgid "UV"
+#~ msgstr "УФ"
+
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Тест карт Wetter.de"
