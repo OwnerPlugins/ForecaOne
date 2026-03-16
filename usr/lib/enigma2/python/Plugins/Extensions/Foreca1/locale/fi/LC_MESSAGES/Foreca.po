@@ -1329,15 +1329,8 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 msgid "← Frame"
 msgstr "← Kehys"
 
-msgid "7 Day Forecast"
-msgstr "7 päivän ennuste"
-
-msgid ""
-"You already have version {version} installed.\n"
-"Do you want to reinstall it?"
-msgstr ""
-"Sinulla on jo versio {version} asennettuna.\n"
-"Haluatko asentaa sen uudelleen?"
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 päivän ennuste"
 
 #~ msgid "Blue"
 #~ msgstr "Sininen"

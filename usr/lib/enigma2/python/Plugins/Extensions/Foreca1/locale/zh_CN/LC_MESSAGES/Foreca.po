@@ -36,35 +36,20 @@ msgstr "6-今天+ 6天"
 msgid "7 - Today + 7 days"
 msgstr "7-今天+ 7天"
 
-msgid "7 Day Forecast"
-msgstr "未来七天天气预报"
-
 msgid "8 - Today + 8 days"
 msgstr "8-今天+ 8天"
 
 msgid "9 - Today + 9 days"
 msgstr "9 -今天+ 9天"
 
-msgid ""
-"API configuration file not found!\n"
-"\n"
-"Please create file:\n"
-"{0}\n"
-"\n"
-"with your Foreca API credentials."
-msgstr ""
-"未找到API配置文件！\n"
-"\n"
-"请创建文件：\n"
-"{0}\n"
-"\n"
-"使用您的Foreca API凭据."
-
 msgid "API credentials not configured."
 msgstr "未配置 API 凭据."
 
-msgid "AQI"
-msgstr "AQI值"
+msgid "API error"
+msgstr "API 错误"
+
+msgid "AQI {}"
+msgstr "AQI{}"
 
 msgid "AQI: N/A"
 msgstr "AQI ：不适用"
@@ -108,9 +93,6 @@ msgstr "比利时"
 msgid "Berlin"
 msgstr "柏林"
 
-msgid "Blue"
-msgstr "蓝色"
-
 msgid "Blue - Home"
 msgstr "蓝色-主页"
 
@@ -120,27 +102,29 @@ msgstr "勃兰登堡"
 msgid "Bremen"
 msgstr "不来梅"
 
+msgid "Calculating..."
+msgstr "计算中..."
+
 msgid "Cancel"
 msgstr "取消"
 
 msgid "Celsius, km/h, hPa"
 msgstr "摄氏度，千米/时， 百帕"
 
+msgid "Changelog: {changelog}"
+msgstr "更新日志： {changelog}"
+
 msgid "Changes apply immediately"
 msgstr "更改立即应用"
+
+msgid "Check for updates"
+msgstr "检查更新"
 
 msgid "Choose detail view"
 msgstr "选择详细信息视图"
 
 msgid "City Selection"
 msgstr "城市筛选"
-
-msgid ""
-"City Selection Help:\n"
-"\n"
-msgstr ""
-"城市选择帮助：\n"
-"\n"
 
 msgid "City list file not found!"
 msgstr "未找到城市列表文件！"
@@ -150,6 +134,9 @@ msgstr "晴朗"
 
 msgid "Close"
 msgstr "关闭"
+
+msgid "Close legend"
+msgstr "关闭图例"
 
 msgid "Cloudy"
 msgstr "多云"
@@ -175,14 +162,20 @@ msgstr "多云和潮湿的降雪"
 msgid "Cloudy, thunderstorms with rain"
 msgstr "多云、有雨的雷暴"
 
-msgid "Color"
-msgstr "颜色"
+msgid "Cold (< 0°C)"
+msgstr "低温（ < 0°C ）"
+
+msgid "Color Legend"
+msgstr "颜色图例"
 
 msgid "Color Selector"
 msgstr "预定分组更新"
 
 msgid "Color data"
 msgstr "颜色数据"
+
+msgid "Color legend"
+msgstr "色彩联想"
 
 msgid "Color name"
 msgstr "颜色名称"
@@ -196,6 +189,12 @@ msgstr "天气状况: {}"
 msgid "Continents Weather Maps"
 msgstr "大陆天气地图"
 
+msgid "Cool (0-10°C)"
+msgstr "冷（ 0-10°C ）"
+
+msgid "Could not fetch update information."
+msgstr "无法获取更新信息。"
+
 msgid "Could not initialize map API."
 msgstr ""
 "无法初始化地图API.\n"
@@ -203,6 +202,9 @@ msgstr ""
 
 msgid "Could not load forecast data"
 msgstr "没有可用的预测数据"
+
+msgid "Could not parse version information."
+msgstr "无法解析版本信息。"
 
 msgid "Current weather and forecast"
 msgstr "当前天气和预报"
@@ -234,23 +236,41 @@ msgstr "丹麦"
 msgid "Details"
 msgstr "详情"
 
-msgid "Dewpoint"
-msgstr "露点"
+msgid "Dewpoint {}"
+msgstr "露点{}"
 
-msgid "Distance"
-msgstr "距离"
+msgid "Dewpoint {}°C"
+msgstr "露点{} °C"
+
+msgid "Dewpoint: %d%s"
+msgstr "露点： %d %s"
+
+msgid "Dewpoint: %s°C"
+msgstr "露点： %s °C"
+
+msgid "Dewpoint: N/A"
+msgstr "露点:N/A"
 
 msgid "Distance {} km"
 msgstr "距离: {}千米"
 
-msgid "Distance: {} m"
-msgstr "距离: {}米"
+msgid "Distance: %s"
+msgstr "距离 %s"
+
+msgid "Distance: {}"
+msgstr "距离: {}"
+
+msgid "Do you want to install it now?"
+msgstr "您想现在安装吗？"
 
 msgid "Down"
 msgstr "下"
 
 msgid "Down - Next page"
 msgstr "向下-下一页"
+
+msgid "Download error"
+msgstr "下载出现错误"
 
 msgid "Downloading images..."
 msgstr "正在下载图像..."
@@ -264,8 +284,14 @@ msgstr "东"
 msgid "East Asia"
 msgstr "东亚"
 
-msgid "Error displaying map"
-msgstr "显示预测时出错"
+msgid "Error checking for updates."
+msgstr "检查更新时出错。"
+
+msgid "Error loading data"
+msgstr "错误加载数据"
+
+msgid "Error loading map"
+msgstr "加载时出错"
 
 msgid "Error loading maps. Check connection."
 msgstr "加载地图时出错.请检查连接."
@@ -288,8 +314,14 @@ msgstr "退出"
 msgid "Exit - End"
 msgstr "退出-结束"
 
+msgid "Exit / Close legend"
+msgstr "退出/关闭图例"
+
 msgid "Extreme"
 msgstr "极度"
+
+msgid "Extreme / thunderstorms"
+msgstr "极端/雷暴"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "华氏度，英里/小时，英寸汞柱"
@@ -312,8 +344,23 @@ msgstr "收藏夹详细天气"
 msgid "Feels like"
 msgstr "体感温度"
 
-msgid "Feels like:"
-msgstr "体感:"
+msgid "Feels like {}"
+msgstr "体感:{}"
+
+msgid "Feels like {}{}"
+msgstr "体感温度: {}{}"
+
+msgid "Feels like: %d%s"
+msgstr "体感:%d %s"
+
+msgid "Feels like: %s°C"
+msgstr "体感: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "体感温度: N/A"
+
+msgid "Feels like: {}"
+msgstr "体感:{}"
 
 msgid "Feels like: {}{}"
 msgstr "体感温度: {}{}"
@@ -329,24 +376,6 @@ msgstr "上弦月"
 
 msgid "Fog"
 msgstr "雾"
-
-msgid "Foreca 1 Live Maps (API)"
-msgstr "Foreca 1实时地图(API)"
-
-msgid "Foreca 1 No stations found"
-msgstr "未找到站点"
-
-msgid "Foreca 1 Stations: {} stations nearby ({})"
-msgstr "正在加载附近的站点..."
-
-msgid "Foreca 1 Weather Forecast"
-msgstr "Foreca天气预报"
-
-msgid "Foreca 1 Weather and Forecast"
-msgstr "Foreca天气预报"
-
-msgid "Foreca 1 | Map {}"
-msgstr "Foreca 4 天气预报"
 
 msgid "Foreca One"
 msgstr "Foreca One 天气预报"
@@ -366,8 +395,8 @@ msgstr "Foreca One站： {}站附近({})"
 msgid "Foreca One Weather Forecast"
 msgstr "Foreca One天气预报"
 
-msgid "Foreca One Weather and Forecast"
-msgstr "Foreca One天气和预报"
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One天气和预报版本%s"
 
 msgid "Foreca One | Map {}"
 msgstr "Foreca One |地图{}"
@@ -378,11 +407,20 @@ msgstr "为'%s'在本地找到%d个城市"
 msgid "Found %d cities online for '%s'"
 msgstr "在线为'%s'找到%d个城市"
 
+msgid "Frame →"
+msgstr "框架→"
+
+msgid "Frame: {}"
+msgstr "边框:{}"
+
 msgid "France"
 msgstr "法国"
 
 msgid "Full Moon"
 msgstr "满月"
+
+msgid "Gale force (>60 km/h)"
+msgstr "大风力（ > 60 km/h ）"
 
 msgid "German States Weather Maps"
 msgstr "德国各州天气地图"
@@ -396,23 +434,23 @@ msgstr "大不列颠及北爱尔兰"
 msgid "Greece"
 msgstr "希腊"
 
-msgid "Green"
-msgstr "绿"
-
 msgid "Green - Favorite 1"
 msgstr "绿色-收藏 1"
 
-msgid "Gust"
-msgstr "强风"
+msgid "Gust {}"
+msgstr "强风{}"
 
-msgid "HTML"
-msgstr "HTML"
+msgid "Gust: {:.1f} {}"
+msgstr "阵风：{: .1f} {}"
 
 msgid "Hamburg"
 msgstr "德国汉堡"
 
 msgid "Header - not selectable"
 msgstr "页眉-不可选择"
+
+msgid "Heavy rain"
+msgstr "大雨"
 
 msgid "Help"
 msgstr "帮助"
@@ -426,14 +464,17 @@ msgstr "高"
 msgid "Home"
 msgstr "首页"
 
+msgid "Hot (30-40°C)"
+msgstr "火辣"
+
 msgid "Hour Details"
 msgstr "小时详情"
 
 msgid "Humidity"
 msgstr "湿度"
 
-msgid "Humidity:"
-msgstr "空气湿度:"
+msgid "Humidity: %s%%"
+msgstr "湿度: %s%%"
 
 msgid "Humidity: {}%"
 msgstr "空气湿度: {}%"
@@ -441,14 +482,17 @@ msgstr "空气湿度: {}%"
 msgid "Hungary"
 msgstr "匈牙利"
 
-msgid "Image %(current)d/%(total)d"
-msgstr "图片% (当前) d/% (总计) d"
+msgid "Ice / frost"
+msgstr "冰霜"
 
-msgid "Image %(current)d/%(total)d (Paused)"
-msgstr "图片% (当前) d/% (总计) d （已暂停）"
+msgid "Illumination"
+msgstr "光照"
 
-msgid "Image Downloaded"
-msgstr "图片已下载"
+msgid "Image %(current)d/%(total)d – %(day)s"
+msgstr "Image %(current)d/%(total)d – %(day)s"
+
+msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
+msgstr "Image %(current)d/%(total)d – %(day)s (Paused)"
 
 msgid "Image not available"
 msgstr "图片不可用"
@@ -489,9 +533,6 @@ msgstr "键盘设置"
 msgid "Last Quarter"
 msgstr "下弦月"
 
-msgid "Last update"
-msgstr "最近更新时间"
-
 msgid "Latvia"
 msgstr "拉脱维亚"
 
@@ -501,11 +542,26 @@ msgstr "左-前一天"
 msgid "Left arrow - Previous day"
 msgstr "左箭头-前一天"
 
+msgid "Light (0-20 km/h)"
+msgstr "风速： {}千米/时{}"
+
+msgid "Light rain / drizzle"
+msgstr "小雨"
+
+msgid "Light to moderate"
+msgstr "适中"
+
 msgid "Loading available maps..."
 msgstr "正在加载可用地图..."
 
+msgid "Loading lunar phases..."
+msgstr "正在加载月相……"
+
 msgid "Loading nearby stations..."
 msgstr "正在加载附近的站点..."
+
+msgid "Loading tiles..."
+msgstr "正在加载图块..."
 
 msgid "Loading weekly forecast..."
 msgstr "正在加载每周预测..."
@@ -519,11 +575,20 @@ msgstr "低"
 msgid "Lower Saxony"
 msgstr "下萨克森"
 
+msgid "Lunar Calendar"
+msgstr "日历"
+
+msgid "Lunar phases from next month"
+msgstr "下个月的月相"
+
 msgid "Luxembourg"
 msgstr "卢森堡"
 
 msgid "Map & Tiles Loaded"
 msgstr "已加载地图图块"
+
+msgid "Map loaded"
+msgstr "地图已加载"
 
 msgid "Map {} selected"
 msgstr "已选择地图{}"
@@ -536,6 +601,9 @@ msgstr "菜单"
 
 msgid "Menu - Settings"
 msgstr "菜单-设置"
+
+msgid "Merge failed"
+msgstr "合并失败"
 
 msgid "Meteogram"
 msgstr "气象图"
@@ -552,11 +620,20 @@ msgstr "中亚"
 msgid "Middle East"
 msgstr "中东"
 
-msgid "Min: {}°C, Max: {}°C"
-msgstr "最小：{} °C ，最大：{} °C"
+msgid "Mild (10-20°C)"
+msgstr "轻度（ 10-20°C ）"
 
 msgid "Moderate"
 msgstr "适中"
+
+msgid "Moderate (20-40 km/h)"
+msgstr "中等（ 20-40公里/小时）"
+
+msgid "Moderate rain"
+msgstr "中雨"
+
+msgid "Month"
+msgstr "月"
 
 msgid "Morning"
 msgstr "上午"
@@ -579,11 +656,17 @@ msgstr "上移一行"
 msgid "N"
 msgstr "北"
 
+msgid "N/A"
+msgstr "N/A"
+
 msgid "Netherlands"
 msgstr "荷兰"
 
 msgid "New Moon"
 msgstr "新月"
+
+msgid "New version {version} is available."
+msgstr "新版本{version}可用。"
 
 msgid "Next"
 msgstr "稍后"
@@ -591,11 +674,20 @@ msgstr "稍后"
 msgid "Next Image"
 msgstr "下一张图片"
 
+msgid "Next frame"
+msgstr "下一画帧"
+
 msgid "Next page"
 msgstr "下一页"
 
+msgid "Next time"
+msgstr "下次"
+
 msgid "No Internet connection detected."
 msgstr "未检测到互联网连接."
+
+msgid "No OSM tiles"
+msgstr "无OSM磁贴"
 
 msgid "No cities found locally for '%s'"
 msgstr "未找到“%s”的本地城市"
@@ -612,6 +704,9 @@ msgstr "无数据"
 msgid "No location selected"
 msgstr "未选择位置"
 
+msgid "No specific legend available."
+msgstr "没有可用的特定图例。"
+
 msgid "No station data"
 msgstr "没有可用的预测数据"
 
@@ -621,8 +716,8 @@ msgstr "没有可用的预测数据"
 msgid "No stations found"
 msgstr "未找到站点"
 
-msgid "No tiles available"
-msgstr "没有可用的图块"
+msgid "No tiles downloaded"
+msgstr "未下载图块"
 
 msgid "North Africa"
 msgstr "北非"
@@ -654,12 +749,8 @@ msgstr "打开的键盘"
 msgid "Open Map"
 msgstr "气象图视频"
 
-msgid ""
-"Original design and idea by @Bauernbub\n"
-"Rewrite by Lululla, 2026"
-msgstr ""
-"Bauernbub的原创设计和创意\n"
-"Lululla改写， 2026年"
+msgid "Original design and idea by %s"
+msgstr "%s的原创设计和创意"
 
 msgid "Overcast"
 msgstr "灰蒙蒙"
@@ -709,6 +800,18 @@ msgstr "下一页"
 msgid "Page up"
 msgstr "上一页"
 
+msgid "Pan down"
+msgstr "向下"
+
+msgid "Pan left"
+msgstr "左边"
+
+msgid "Pan right"
+msgstr "右边"
+
+msgid "Pan up"
+msgstr "向上"
+
 msgid "Partly cloudy"
 msgstr "多云"
 
@@ -733,6 +836,9 @@ msgstr "多云和潮湿的降雪"
 msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "多云，有小雨"
 
+msgid "Phase"
+msgstr "月相"
+
 msgid "Play/Pause"
 msgstr "播放 / 暂停"
 
@@ -745,29 +851,32 @@ msgstr "波兰"
 msgid "Portugal"
 msgstr "葡萄牙"
 
-msgid "Precip"
-msgstr "降雨量"
-
 msgid "Precipitation"
 msgstr "降水"
 
 msgid "Precipitation: {}"
 msgstr "降水: {}"
 
-msgid "Precipitation: {}%"
-msgstr "降水: {}%"
-
 msgid "Precipitations"
 msgstr "沉积物"
 
-msgid "Precipitations:"
-msgstr "沉积物："
+msgid "Precipitations: {}%"
+msgstr "沉积物：{}%"
 
 msgid "Press RED to search again"
 msgstr "按红色键进行旧的分组搜索"
 
 msgid "Pressure"
 msgstr "压力"
+
+msgid "Pressure: %s"
+msgstr "压力： %s"
+
+msgid "Pressure: %s hPa"
+msgstr "压力：%s hPa"
+
+msgid "Pressure: N/A"
+msgstr "气压: N/A"
 
 msgid "Pressure: {}"
 msgstr "气压: {}"
@@ -784,20 +893,29 @@ msgstr "以前"
 msgid "Previous Image"
 msgstr "上张图像"
 
+msgid "Previous frame"
+msgstr "上一画帧"
+
 msgid "Previous page"
 msgstr "转到上一页的事件"
 
-msgid "Rain"
-msgstr "雨"
+msgid "Previous time"
+msgstr "上一次"
 
-msgid "Rain prob."
+msgid "Rain Prob."
 msgstr "降雨概率."
+
+msgid "Rain prob. {}%"
+msgstr "降雨概率. {}%"
 
 msgid "Rain prob.: N/A"
 msgstr "降雨概率:N/A"
 
-msgid "Red"
-msgstr "红色"
+msgid "Rain: {:.1f} {}"
+msgstr "雨： {: .1f} {}"
+
+msgid "RainViewer Radar"
+msgstr "气象雷达"
 
 msgid "Red - Color select"
 msgstr "红色-颜色选择"
@@ -895,8 +1013,11 @@ msgstr "斯洛伐克"
 msgid "Slower: {}s"
 msgstr "较慢： {}秒"
 
-msgid "Snow prob."
-msgstr "可能下雪."
+msgid "Snow / ice"
+msgstr "雪/冰"
+
+msgid "Snow prob. {}%"
+msgstr "降雪概率. {}%"
 
 msgid "Snow prob.: N/A"
 msgstr "降雪概率:N/A"
@@ -919,6 +1040,9 @@ msgstr "工作站观测"
 msgid "Station: {}"
 msgstr "观测点: {}"
 
+msgid "Strong (40-60 km/h)"
+msgstr "强风（ 40-60公里/小时）"
+
 msgid "Sunrise"
 msgstr "日出"
 
@@ -937,6 +1061,15 @@ msgstr "温度"
 msgid "Temperature"
 msgstr "CPU温度"
 
+msgid "Temperature: %d%s"
+msgstr "温度： %d %s"
+
+msgid "Temperature: %s°C"
+msgstr "温度： %s °C"
+
+msgid "Temperature: N/A"
+msgstr "温度: N/A"
+
 msgid "Temperature: {}"
 msgstr "温度: {}"
 
@@ -946,8 +1079,11 @@ msgstr "温度: {}{}"
 msgid "Temperature: {}°C"
 msgstr "温度: {}°C"
 
-msgid "Thank's @Orlandox and other firends for suggestions and test"
-msgstr "感谢@Orlandox和其他朋友的建议和测试"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
+msgstr "感谢{thanks}和其他朋友的建议和测试"
+
+msgid "The remote version ({remote}) is older than the current one ({current})."
+msgstr "远程版本（ {remote} ）比当前版本（ {current} ）旧。"
 
 msgid "Thin upper cloud"
 msgstr "薄上云"
@@ -955,26 +1091,26 @@ msgstr "薄上云"
 msgid "Thuringia"
 msgstr "图林根州"
 
+msgid "Time"
+msgstr "时间"
+
+msgid "Today"
+msgstr "今天"
+
 msgid "Today/Tomorrow details"
 msgstr "今天/明天详情"
+
+msgid "Toggle legend"
+msgstr "切换图例"
+
+msgid "Tomorrow"
+msgstr "明天"
 
 msgid "Transparency Settings"
 msgstr "透明度设置"
 
 msgid "Transparency level"
 msgstr "透明度水平"
-
-msgid "Try again later"
-msgstr "请稍后重试"
-
-msgid "Try different zoom or layer"
-msgstr "尝试其他缩放或图层"
-
-msgid "Try different zoom or region"
-msgstr "尝试其他缩放比例或区域"
-
-msgid "UV"
-msgstr "紫外线"
 
 msgid "UV Index"
 msgstr "紫外线指数"
@@ -1000,8 +1136,14 @@ msgstr "上"
 msgid "Up - Previous page"
 msgstr "向上-上一页"
 
-msgid "Updated"
-msgstr "更新时间"
+msgid "Update canceled."
+msgstr "更新已取消。"
+
+msgid "Update completed. Please restart Enigma2."
+msgstr "更新完成。请重新启动Enigma2。"
+
+msgid "Updated {}"
+msgstr "更新时间: {}"
 
 msgid "Updated: N/A"
 msgstr "更新时间:N/A"
@@ -1009,11 +1151,17 @@ msgstr "更新时间:N/A"
 msgid "Updated: {}"
 msgstr "更新时间: {}"
 
+msgid "Updating..."
+msgstr "更新..."
+
 msgid "Use arrow keys to scroll"
 msgstr "然后使用箭头键移动"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "用于← → 更改时间|确定退出"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "使用←/→/↑/↓移动|确定退出"
 
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "使用▲/▼更改，确定选择"
@@ -1021,11 +1169,20 @@ msgstr "使用▲/▼更改，确定选择"
 msgid "Using current time"
 msgstr "使用当前时间"
 
+msgid "Very heavy rain"
+msgstr "大雨weather forecast"
+
 msgid "Very high"
 msgstr "很高"
 
-msgid "Visibility"
-msgstr "能见度"
+msgid "Very hot (>40°C)"
+msgstr "非常热（ > 40°C ）"
+
+msgid "Very low"
+msgstr "非常低"
+
+msgid "Visibility: %s m"
+msgstr "能见度： %s 米"
 
 msgid "Visibility: {} m"
 msgstr "能见度： {}米"
@@ -1038,6 +1195,9 @@ msgstr "残月"
 
 msgid "Waning Gibbous"
 msgstr "亏凸月"
+
+msgid "Warm (20-30°C)"
+msgstr "温暖（ 20-30°C ）"
 
 msgid "Waxing Crescent"
 msgstr "盈凸月"
@@ -1090,6 +1250,21 @@ msgstr "风向"
 msgid "Wind speed"
 msgstr "風速"
 
+msgid "Wind speed {}"
+msgstr "风速{}"
+
+msgid "Wind speed: {:.1f} {}"
+msgstr "风速： {: .1f} {}"
+
+msgid "Wind: %d %s %s"
+msgstr "风速：%d %s %s"
+
+msgid "Wind: %s km/h %s"
+msgstr "风速： %s公里/小时%s"
+
+msgid "Wind: N/A"
+msgstr "风速:N/A"
+
 msgid "Wind: {}"
 msgstr "风速:{}"
 
@@ -1117,15 +1292,9 @@ msgstr "放大+"
 msgid "Zoom-"
 msgstr "缩小 -"
 
-msgid "Zoom: "
+#, fuzzy
+msgid "Zoom:"
 msgstr "缩放: "
-
-msgid ""
-"http://linuxsat-support.com\n"
-"http://www.corvoboys.org"
-msgstr ""
-"http://linuxsat-support.com\n"
-"http://www.corvoboys.org"
 
 msgid "v."
 msgstr "v."
@@ -1151,509 +1320,152 @@ msgstr "•红色以打开搜索键盘\n"
 msgid "• Use arrow keys to navigate\n"
 msgstr "然后使用箭头键移动.\n"
 
-msgid ""
-"• VOL+/VOL- to jump 100 cities\n"
-"\n"
-msgstr ""
-"• VOL +/VOL-可跳过100个城市\n"
-"\n"
-
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "黄色-分配给收藏夹2\n"
 
-msgid "▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤"
-msgstr "▲/▼ ◄/► 频道+ 频道- ≡ ℹ ❓ ✖ ⬤"
-
-msgid "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
-msgstr "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
-
-msgid "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
-msgstr "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
-
-#: plugin.py:1441
-#, python-brace-format
-msgid "Changelog: {changelog}"
-msgstr "更新日志： {changelog}"
-
-#: plugin.py:613
-msgid "Check for updates"
-msgstr "检查更新"
-
-#: plugin.py:1410
-msgid "Could not fetch update information."
-msgstr "无法获取更新信息。"
-
-#: plugin.py:1430
-msgid "Could not parse version information."
-msgstr "无法解析版本信息。"
-
-#: plugin.py:1442
-msgid "Do you want to install it now?"
-msgstr "您想现在安装吗？"
-
-#: plugin.py:1453
-msgid "Error checking for updates."
-msgstr "检查更新时出错。"
-
-#: plugin.py:1655
-msgid "Illumination"
-msgstr "光照"
-
-#: plugin.py:1439
-#, python-brace-format
-msgid "New version {version} is available."
-msgstr "新版本{version}可用。"
-
-#: plugin.py:1468
-msgid "Update canceled."
-msgstr "更新已取消。"
-
-#: plugin.py:1472
-msgid "Update completed. Please restart Enigma2."
-msgstr "更新完成。请重新启动Enigma2。"
-
-#: plugin.py:1462
-msgid "Updating..."
-msgstr "更新..."
-
-#: plugin.py:1450
-msgid "You already have the latest version."
-msgstr "恭喜，已经是最新版本了."
-
-#: rain_maps.py:229
-msgid "API error"
-msgstr "API 错误"
-
-#: plugin.py:1202
-msgid "AQI {}"
-msgstr "AQI{}"
-
-#: moon_calendar.py:59
-msgid "Calculating..."
-msgstr "计算中..."
-
-#: foreca_map_viewer.py:566
-msgid "Cloud Cover"
-msgstr "云量"
-
-#: plugin.py:1085
-msgid "Dewpoint {}"
-msgstr "露点{}"
-
-#: plugin.py:1083
-msgid "Dewpoint {}°C"
-msgstr "露点{} °C"
-
-#: foreca_stations.py:232
-#, python-format
-msgid "Dewpoint: %d%s"
-msgstr "露点： %d %s"
-
-#: foreca_stations.py:236
-#, python-format
-msgid "Dewpoint: %s°C"
-msgstr "露点： %s °C"
-
-#: foreca_stations.py:238
-msgid "Dewpoint: N/A"
-msgstr "露点:N/A"
-
-#: foreca_stations.py:212
-#, python-format
-msgid "Distance: %s"
-msgstr "距离 %s"
-
-#: foreca_stations.py:310
-msgid "Distance: {}"
-msgstr "距离: {}"
-
-#: rain_maps.py:243
-msgid "Error loading data"
-msgstr "错误加载数据"
-
-#: plugin.py:1078
-msgid "Feels like {}"
-msgstr "体感:{}"
-
-#: plugin.py:1076
-msgid "Feels like {}{}"
-msgstr "体感温度: {}{}"
-
-#: foreca_stations.py:249
-#, python-format
-msgid "Feels like: %d%s"
-msgstr "体感:%d %s"
-
-#: foreca_stations.py:253
-#, python-format
-msgid "Feels like: %s°C"
-msgstr "体感: %s°C"
-
-#: foreca_stations.py:255
-msgid "Feels like: N/A"
-msgstr "体感温度: N/A"
-
-#: plugin.py:1371
-msgid "Feels like: {}"
-msgstr "体感:{}"
-
-#: rain_maps.py:219
-msgid "Fetching radar data..."
-msgstr "正在获取雷达数据..."
-
-#: info_dialog.py:34
-#, python-format
-msgid "Foreca One Weather and Forecast ver. %s"
-msgstr "Foreca One天气和预报版本%s"
-
-#: rain_maps.py:192
-msgid "Frame →"
-msgstr "框架→"
-
-#: rain_maps.py:255
-msgid "Frame: {}"
-msgstr "边框:{}"
-
-#: plugin.py:1103
-msgid "Gust {}"
-msgstr "强风{}"
-
-#: plugin.py:1101
-msgid "Gust: {:.1f} {}"
-msgstr "阵风：{: .1f} {}"
-
-#: foreca_stations.py:259
-#, python-format
-msgid "Humidity: %s%%"
-msgstr "湿度: %s%%"
-
-#: slideshow.py:214 slideshow.py:279
-#, python-format
-msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Image %(current)d/%(total)d – %(day)s"
-
-#: slideshow.py:258
-#, python-format
-msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Image %(current)d/%(total)d – %(day)s (Paused)"
-
-#: moon_calendar.py:36
-msgid "Loading lunar phases..."
-msgstr "正在加载月相……"
-
-#: rain_maps.py:256
-msgid "Loading tiles..."
-msgstr "正在加载图块..."
-
-#: moon_calendar.py:26 plugin.py:615
-msgid "Lunar Calendar"
-msgstr "日历"
-
-#: moon_calendar.py:37
-msgid "Lunar phases from next month"
-msgstr "下个月的月相"
-
-#: rain_maps.py:379
-msgid "Map loaded"
-msgstr "地图已加载"
-
-#: rain_maps.py:292
-msgid "Merge failed"
-msgstr "合并失败"
-
-#: moon_calendar.py:85
-msgid "Month"
-msgstr "月"
-
-#: rain_maps.py:206
-msgid "Next frame"
-msgstr "下一画帧"
-
-#: rain_maps.py:296
-msgid "No tiles downloaded"
-msgstr "未下载图块"
-
-#: info_dialog.py:40
-#, python-format
-msgid "Original design and idea by %s"
-msgstr "%s的原创设计和创意"
-
-#: moon_calendar.py:87
-msgid "Phase"
-msgstr "月相"
-
-#: plugin.py:1376
-msgid "Precipitations: {}%"
-msgstr "沉积物：{}%"
-
-#: foreca_stations.py:269
-#, python-format
-msgid "Pressure: %s"
-msgstr "压力： %s"
-
-#: foreca_stations.py:272
-#, python-format
-msgid "Pressure: %s hPa"
-msgstr "压力：%s hPa"
-
-#: foreca_stations.py:274
-msgid "Pressure: N/A"
-msgstr "气压: N/A"
-
-#: rain_maps.py:205
-msgid "Previous frame"
-msgstr "上一画帧"
-
-#: foreca_map_viewer.py:574
-msgid "Radar"
-msgstr "雷达图"
-
-#: hour_detail.py:73 hour_detail.py:198
-msgid "Rain Prob."
-msgstr "降雨概率."
-
-#: plugin.py:1208
-msgid "Rain prob. {}%"
-msgstr "降雨概率. {}%"
-
-#: plugin.py:1122
-msgid "Rain: {:.1f} {}"
-msgstr "雨： {: .1f} {}"
-
-#: plugin.py:609 rain_maps.py:149 rain_maps.py:184
-msgid "RainViewer Radar"
-msgstr "气象雷达"
-
-#: foreca_map_viewer.py:572
-msgid "Snow"
-msgstr "雪"
-
-#: plugin.py:1214
-msgid "Snow prob. {}%"
-msgstr "降雪概率. {}%"
-
-#: foreca_stations.py:219
-#, python-format
-msgid "Temperature: %d%s"
-msgstr "温度： %d %s"
-
-#: foreca_stations.py:223
-#, python-format
-msgid "Temperature: %s°C"
-msgstr "温度： %s °C"
-
-#: foreca_stations.py:225
-msgid "Temperature: N/A"
-msgstr "温度: N/A"
-
-#: info_dialog.py:36
-#, python-brace-format
-msgid "Thanks {thanks} and other friends for suggestions and testing"
-msgstr "感谢{thanks}和其他朋友的建议和测试"
-
-#: moon_calendar.py:89
-msgid "Time"
-msgstr "时间"
-
-#: slideshow.py:206 slideshow.py:251 slideshow.py:272
-msgid "Today"
-msgstr "今天"
-
-#: slideshow.py:208 slideshow.py:253 slideshow.py:274
-msgid "Tomorrow"
-msgstr "明天"
-
-#: plugin.py:1226 plugin.py:1229
-msgid "Updated {}"
-msgstr "更新时间: {}"
-
-#: foreca_stations.py:242
-#, python-format
-msgid "Visibility: %s m"
-msgstr "能见度： %s 米"
-
-#: plugin.py:1094
-msgid "Wind speed {}"
-msgstr "风速{}"
-
-#: plugin.py:1092
-msgid "Wind speed: {:.1f} {}"
-msgstr "风速： {: .1f} {}"
-
-#: foreca_stations.py:283
-#, python-format
-msgid "Wind: %d %s %s"
-msgstr "风速：%d %s %s"
-
-#: foreca_stations.py:288
-#, python-format
-msgid "Wind: %s km/h %s"
-msgstr "风速： %s公里/小时%s"
-
-#: foreca_stations.py:291
-msgid "Wind: N/A"
-msgstr "风速:N/A"
-
-#: rain_maps.py:191
 msgid "← Frame"
 msgstr "←框架"
 
-#: foreca_map_viewer.py:135 foreca_svg_map_viewer.py:111 rain_maps.py:136
-msgid "Close legend"
-msgstr "关闭图例"
+#~ msgid "7 Day Forecast"
+#~ msgstr "未来七天天气预报"
 
-#: map_legend.py:132
-msgid "Cold (< 0°C)"
-msgstr "低温（ < 0°C ）"
+#~ msgid "AQI"
+#~ msgstr "AQI值"
 
-#: map_legend.py:41
-msgid "Color Legend"
-msgstr "颜色图例"
+#~ msgid "Blue"
+#~ msgstr "蓝色"
 
-#: foreca_svg_map_viewer.py:122
-msgid "Color legend"
-msgstr "色彩联想"
+#~ msgid "Color"
+#~ msgstr "颜色"
 
-#: map_legend.py:133
-msgid "Cool (0-10°C)"
-msgstr "冷（ 0-10°C ）"
+#~ msgid "Dewpoint"
+#~ msgstr "露点"
 
-#: rain_maps.py:349
-msgid "Download error"
-msgstr "下载出现错误"
+#~ msgid "Distance"
+#~ msgstr "距离"
 
-#: foreca_map_viewer.py:470 rain_maps.py:403
-msgid "Error loading map"
-msgstr "加载时出错"
+#~ msgid "Distance: {} m"
+#~ msgstr "距离: {}米"
 
-#: foreca_map_viewer.py:133 foreca_map_viewer.py:134
-#: foreca_svg_map_viewer.py:109 foreca_svg_map_viewer.py:110 rain_maps.py:134
-#: rain_maps.py:135
-msgid "Exit / Close legend"
-msgstr "退出/关闭图例"
+#~ msgid "Error displaying map"
+#~ msgstr "显示预测时出错"
 
-#: map_legend.py:127
-msgid "Extreme / thunderstorms"
-msgstr "极端/雷暴"
+#~ msgid "Feels like:"
+#~ msgstr "体感:"
 
-#: map_legend.py:145
-msgid "Gale force (>60 km/h)"
-msgstr "大风力（ > 60 km/h ）"
+#~ msgid "Foreca 1 Live Maps (API)"
+#~ msgstr "Foreca 1实时地图(API)"
 
-#: map_legend.py:125
-msgid "Heavy rain"
-msgstr "大雨"
+#~ msgid "Foreca 1 No stations found"
+#~ msgstr "未找到站点"
 
-#: map_legend.py:136
-msgid "Hot (30-40°C)"
-msgstr "火辣"
+#~ msgid "Foreca 1 Stations: {} stations nearby ({})"
+#~ msgstr "正在加载附近的站点..."
 
-#: map_legend.py:138
-msgid "Ice / frost"
-msgstr "冰霜"
+#~ msgid "Foreca 1 Weather Forecast"
+#~ msgstr "Foreca天气预报"
 
-#: map_legend.py:142
-msgid "Light (0-20 km/h)"
-msgstr "风速： {}千米/时{}"
+#~ msgid "Foreca 1 Weather and Forecast"
+#~ msgstr "Foreca天气预报"
 
-#: map_legend.py:122
-msgid "Light rain / drizzle"
-msgstr "小雨"
+#~ msgid "Foreca 1 | Map {}"
+#~ msgstr "Foreca 4 天气预报"
 
-#: map_legend.py:123
-msgid "Light to moderate"
-msgstr "适中"
+#~ msgid "Foreca One Weather and Forecast"
+#~ msgstr "Foreca One天气和预报"
 
-#: map_legend.py:134
-msgid "Mild (10-20°C)"
-msgstr "轻度（ 10-20°C ）"
+#~ msgid "Green"
+#~ msgstr "绿"
 
-#: map_legend.py:143
-msgid "Moderate (20-40 km/h)"
-msgstr "中等（ 20-40公里/小时）"
+#~ msgid "Gust"
+#~ msgstr "强风"
 
-#: map_legend.py:124
-msgid "Moderate rain"
-msgstr "中雨"
+#~ msgid "HTML"
+#~ msgstr "HTML"
 
-#: foreca_weather_api.py:210 plugin.py:2055
-msgid "N/A"
-msgstr "N/A"
+#~ msgid "Humidity:"
+#~ msgstr "空气湿度:"
 
-#: foreca_map_viewer.py:141 foreca_svg_map_viewer.py:117
-msgid "Next time"
-msgstr "下次"
+#~ msgid "Image %(current)d/%(total)d"
+#~ msgstr "图片% (当前) d/% (总计) d"
 
-#: foreca_map_viewer.py:411
-msgid "No OSM tiles"
-msgstr "无OSM磁贴"
+#~ msgid "Image %(current)d/%(total)d (Paused)"
+#~ msgstr "图片% (当前) d/% (总计) d （已暂停）"
 
-#: map_legend.py:149
-msgid "No specific legend available."
-msgstr "没有可用的特定图例。"
+#~ msgid "Image Downloaded"
+#~ msgstr "图片已下载"
 
-#: foreca_map_viewer.py:139 foreca_svg_map_viewer.py:115 rain_maps.py:140
-msgid "Pan down"
-msgstr "向下"
+#~ msgid "Last update"
+#~ msgstr "最近更新时间"
 
-#: foreca_map_viewer.py:136 foreca_svg_map_viewer.py:112 rain_maps.py:137
-msgid "Pan left"
-msgstr "左边"
+#~ msgid "Min: {}°C, Max: {}°C"
+#~ msgstr "最小：{} °C ，最大：{} °C"
 
-#: foreca_map_viewer.py:137 foreca_svg_map_viewer.py:113 rain_maps.py:138
-msgid "Pan right"
-msgstr "右边"
+#~ msgid "No tiles available"
+#~ msgstr "没有可用的图块"
 
-#: foreca_map_viewer.py:138 foreca_svg_map_viewer.py:114 rain_maps.py:139
-msgid "Pan up"
-msgstr "向上"
+#~ msgid "Precip"
+#~ msgstr "降雨量"
 
-#: foreca_map_viewer.py:140 foreca_svg_map_viewer.py:116
-msgid "Previous time"
-msgstr "上一次"
+#~ msgid "Precipitation: {}%"
+#~ msgstr "降水: {}%"
 
-#: map_legend.py:128
-msgid "Snow / ice"
-msgstr "雪/冰"
+#~ msgid "Precipitations:"
+#~ msgstr "沉积物："
 
-#: map_legend.py:144
-msgid "Strong (40-60 km/h)"
-msgstr "强风（ 40-60公里/小时）"
+#~ msgid "Rain"
+#~ msgstr "雨"
 
-#: plugin.py:1541
-#, python-brace-format
-msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "远程版本（ {remote} ）比当前版本（ {current} ）旧。"
+#~ msgid "Rain prob."
+#~ msgstr "降雨概率."
 
-#: foreca_map_viewer.py:146 rain_maps.py:147
-msgid "Toggle legend"
-msgstr "切换图例"
+#~ msgid "Red"
+#~ msgstr "红色"
 
-#: foreca_map_viewer.py:114
-msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr "使用←/→/↑/↓移动|确定退出"
+#~ msgid "Snow prob."
+#~ msgstr "可能下雪."
 
-#: map_legend.py:126
-msgid "Very heavy rain"
-msgstr "大雨weather forecast"
+#~ msgid "Thank's @Orlandox and other firends for suggestions and test"
+#~ msgstr "感谢@Orlandox和其他朋友的建议和测试"
 
-#: map_legend.py:137
-msgid "Very hot (>40°C)"
-msgstr "非常热（ > 40°C ）"
+#~ msgid "Try again later"
+#~ msgstr "请稍后重试"
 
-#: plugin.py:2057
-msgid "Very low"
-msgstr "非常低"
+#~ msgid "Try different zoom or layer"
+#~ msgstr "尝试其他缩放或图层"
 
-#: map_legend.py:135
-msgid "Warm (20-30°C)"
-msgstr "温暖（ 20-30°C ）"
+#~ msgid "Try different zoom or region"
+#~ msgstr "尝试其他缩放比例或区域"
 
-#: plugin.py:1529
-#, python-brace-format
-msgid ""
-"You already have version {version} installed.\n"
-"Do you want to reinstall it?"
-msgstr ""
-"您已经安装了版本{version}。\n"
-"是否要重新安装？"
+#~ msgid "UV"
+#~ msgstr "紫外线"
+
+#~ msgid "Updated"
+#~ msgstr "更新时间"
+
+#~ msgid "Visibility"
+#~ msgstr "能见度"
+
+#~ msgid "▲/▼ ◄/► CH+ CH- ≡ ℹ ❓ ✖ ⬤"
+#~ msgstr "▲/▼ ◄/► 频道+ 频道- ≡ ℹ ❓ ✖ ⬤"
+
+#~ msgid "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
+#~ msgstr "▲/▼ ◄/► ≡ OK ℹ ❓ ✖ ⬤"
+
+#~ msgid "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
+#~ msgstr "▲/▼ ◄/► ≡ ℹ ❓ ✖ ⬤"
+
+#~ msgid "You already have the latest version."
+#~ msgstr "恭喜，已经是最新版本了."
+
+#~ msgid "Cloud Cover"
+#~ msgstr "云量"
+
+#~ msgid "Fetching radar data..."
+#~ msgstr "正在获取雷达数据..."
+
+#~ msgid "Radar"
+#~ msgstr "雷达图"
+
+#~ msgid "Snow"
+#~ msgstr "雪"
