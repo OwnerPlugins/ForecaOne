@@ -174,6 +174,16 @@ def load_skin_by_class(class_name):
     return None
 
 
+def add_skin_font():
+    print('**********addFont')
+    from enigma import addFont
+    FNT_Path = join(PLUGIN_PATH, "fonts")
+    addFont(join(FNT_Path, 'LiberationSans-Regular.ttf'), 'Liberation', 100, 0)
+
+
+add_skin_font()
+
+
 def load_skin_for_class(cls):
     return load_skin_by_class(cls.__name__)
 
