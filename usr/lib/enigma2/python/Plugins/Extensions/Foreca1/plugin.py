@@ -2140,5 +2140,10 @@ def Plugins(path, **kwargs):
             icon="plugin.png",
             where=PluginDescriptor.WHERE_PLUGINMENU,
             fnc=main
+        ),
+        PluginDescriptor(
+            name=_("Foreca One") + " ver." + str(VERSION),
+            where=PluginDescriptor.WHERE_EXTENSIONSMENU,
+            fnc=main
         )
     ]
