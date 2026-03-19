@@ -42,9 +42,6 @@ msgstr "6 - Ma + 6 nap"
 msgid "7 - Today + 7 days"
 msgstr "7 - Ma + 7 nap"
 
-msgid "7 Day Forecast"
-msgstr "7 napos előrejelzés"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Ma + 8 nap"
 
@@ -102,9 +99,6 @@ msgstr "Belgium"
 msgid "Berlin"
 msgstr "Berlin"
 
-msgid "Blue"
-msgstr "Kék"
-
 msgid "Blue - Home"
 msgstr "Kék - Kezdőlap"
 
@@ -149,9 +143,6 @@ msgstr "Bezár"
 
 msgid "Close legend"
 msgstr "Jelmagyarázat bezárása"
-
-msgid "Cloud Cover"
-msgstr "Felhőzet"
 
 msgid "Cloudy"
 msgstr "Felhős"
@@ -263,9 +254,6 @@ msgstr "Harmatpont: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Harmatpont: N/A"
-
-msgid "Distance"
-msgstr "Távolság"
 
 msgid "Distance {} km"
 msgstr "Távolság {} km"
@@ -450,9 +438,6 @@ msgstr "Nagy-Britannia"
 msgid "Greece"
 msgstr "Görögország"
 
-msgid "Green"
-msgstr "Zöld"
-
 msgid "Green - Favorite 1"
 msgstr "Zöld - Kedvenc 1"
 
@@ -461,9 +446,6 @@ msgstr "Széllökés {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Széllökés: {:.1f} {}"
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -516,9 +498,6 @@ msgstr "Kép %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Kép %(current)d/%(total)d – %(day)s (Szüneteltetve)"
 
-msgid "Image Downloaded"
-msgstr "Kép letöltve"
-
 msgid "Image not available"
 msgstr "A kép nem elérhető"
 
@@ -557,9 +536,6 @@ msgstr "Billentyűzet"
 
 msgid "Last Quarter"
 msgstr "Utolsó negyed"
-
-msgid "Last update"
-msgstr "Utolsó frissítés"
 
 msgid "Latvia"
 msgstr "Lettország"
@@ -930,9 +906,6 @@ msgstr "Előző oldal"
 msgid "Previous time"
 msgstr "Előző időpont"
 
-msgid "Radar"
-msgstr "Radar"
-
 msgid "Rain Prob."
 msgstr "Eső valószínűsége."
 
@@ -947,9 +920,6 @@ msgstr "Eső: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer radar"
-
-msgid "Red"
-msgstr "Piros"
 
 msgid "Red - Color select"
 msgstr "Piros - Színválasztás"
@@ -1046,9 +1016,6 @@ msgstr "Szlovákia"
 
 msgid "Slower: {}s"
 msgstr "Lassabb: {}s"
-
-msgid "Snow"
-msgstr "Hó"
 
 msgid "Snow / ice"
 msgstr "Hó / jég"
@@ -1148,9 +1115,6 @@ msgstr "Átlátszósági beállítások"
 
 msgid "Transparency level"
 msgstr "Átlátszóság szintje"
-
-msgid "UV"
-msgstr "UV"
 
 msgid "UV Index"
 msgstr "UV index"
@@ -1275,9 +1239,6 @@ msgstr "Időjárás holnap"
 msgid "Weekly Forecast"
 msgstr "Heti előrejelzés"
 
-msgid "Wetter.de Maps Test"
-msgstr "Wetter.de térképek teszt"
-
 msgid "Wind"
 msgstr "Szél"
 
@@ -1367,3 +1328,42 @@ msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
 
 msgid "← Frame"
 msgstr "← Kocka"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 napos előrejelzés"
+
+#~ msgid "Blue"
+#~ msgstr "Kék"
+
+#~ msgid "Cloud Cover"
+#~ msgstr "Felhőzet"
+
+#~ msgid "Distance"
+#~ msgstr "Távolság"
+
+#~ msgid "Green"
+#~ msgstr "Zöld"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Image Downloaded"
+#~ msgstr "Kép letöltve"
+
+#~ msgid "Last update"
+#~ msgstr "Utolsó frissítés"
+
+#~ msgid "Radar"
+#~ msgstr "Radar"
+
+#~ msgid "Red"
+#~ msgstr "Piros"
+
+#~ msgid "Snow"
+#~ msgstr "Hó"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Wetter.de térképek teszt"
