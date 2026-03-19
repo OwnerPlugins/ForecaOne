@@ -42,6 +42,10 @@ msgstr "6 - Сёння + 6 дзён"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сёння + 7 дзён"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "ОК - Прагноз"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Сёння + 8 дзён"
 
@@ -99,6 +103,9 @@ msgstr "Бельгія"
 msgid "Berlin"
 msgstr "Берлін"
 
+msgid "Blue"
+msgstr "Сіні"
+
 msgid "Blue - Home"
 msgstr "Сіняя кнопка - Дамоў"
 
@@ -143,6 +150,9 @@ msgstr "Зачыніць"
 
 msgid "Close legend"
 msgstr "Зачыніць легенду"
+
+msgid "Cloud Cover"
+msgstr "Воблачнасць"
 
 msgid "Cloudy"
 msgstr "Воблачна"
@@ -254,6 +264,9 @@ msgstr "Кропка расы: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Кропка расы: Н/Д"
+
+msgid "Distance"
+msgstr "Адлегласць"
 
 msgid "Distance {} km"
 msgstr "Адлегласць {} км"
@@ -438,6 +451,9 @@ msgstr "Вялікабрытанія"
 msgid "Greece"
 msgstr "Грэцыя"
 
+msgid "Green"
+msgstr "Зялёны"
+
 msgid "Green - Favorite 1"
 msgstr "Зялёная кнопка - Абранае 1"
 
@@ -446,6 +462,9 @@ msgstr "Парыў {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Парыў: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -498,6 +517,9 @@ msgstr "Выява %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Выява %(current)d/%(total)d – %(day)s (Прыпынена)"
 
+msgid "Image Downloaded"
+msgstr "Выява загружана"
+
 msgid "Image not available"
 msgstr "Выява недаступная"
 
@@ -536,6 +558,9 @@ msgstr "Клавіятура"
 
 msgid "Last Quarter"
 msgstr "Апошняя чвэрць"
+
+msgid "Last update"
+msgstr "Апошняе абнаўленне"
 
 msgid "Latvia"
 msgstr "Латвія"
@@ -906,6 +931,9 @@ msgstr "Папярэдняя старонка"
 msgid "Previous time"
 msgstr "Папярэдні час"
 
+msgid "Radar"
+msgstr "Радар"
+
 msgid "Rain Prob."
 msgstr "Верагоднасць дажджу."
 
@@ -920,6 +948,9 @@ msgstr "Дождж: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Радар RainViewer"
+
+msgid "Red"
+msgstr "Чырвоны"
 
 msgid "Red - Color select"
 msgstr "Чырвоная кнопка - Выбар колеру"
@@ -1016,6 +1047,9 @@ msgstr "Славакія"
 
 msgid "Slower: {}s"
 msgstr "Павольней: {}с"
+
+msgid "Snow"
+msgstr "Снег"
 
 msgid "Snow / ice"
 msgstr "Снег / лёд"
@@ -1115,6 +1149,9 @@ msgstr "Налады празрыстасці"
 
 msgid "Transparency level"
 msgstr "Узровень празрыстасці"
+
+msgid "UV"
+msgstr "УФ"
 
 msgid "UV Index"
 msgstr "УФ індэкс"
@@ -1246,6 +1283,10 @@ msgstr ""
 msgid "Weekly Forecast"
 msgstr "7-дзённы прагноз"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Еўрапейскія карты надвор'я"
+
 msgid "Wind"
 msgstr ""
 
@@ -1341,44 +1382,3 @@ msgstr ""
 
 msgid "← Frame"
 msgstr ""
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "ОК - Прагноз"
-
-#~ msgid "Blue"
-#~ msgstr "Сіні"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Воблачнасць"
-
-#~ msgid "Distance"
-#~ msgstr "Адлегласць"
-
-#~ msgid "Green"
-#~ msgstr "Зялёны"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Выява загружана"
-
-#~ msgid "Last update"
-#~ msgstr "Апошняе абнаўленне"
-
-#~ msgid "Radar"
-#~ msgstr "Радар"
-
-#~ msgid "Red"
-#~ msgstr "Чырвоны"
-
-#~ msgid "Snow"
-#~ msgstr "Снег"
-
-#~ msgid "UV"
-#~ msgstr "УФ"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Еўрапейскія карты надвор'я"

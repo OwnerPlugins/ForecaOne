@@ -1043,19 +1043,10 @@ class Foreca_Preview(Screen, HelpableScreen):
         self.my_forecast_weather()
         self._update_titles()
 
-        print(f"[DEBUG] Chiamo _update_fav_button_names()")
         self._update_fav_button_names()
 
         if self.lat != 'N/A' and self.lon != 'N/A':
             Thread(target=self.mypicload).start()
-
-        # # Update UI
-        # self._update_moon()
-        # self.my_cur_weather()
-        # self.my_forecast_weather()
-        # self._update_titles()
-        # if self.lat != 'N/A' and self.lon != 'N/A':
-            # Thread(target=self.mypicload).start()
 
     def _read_favorite(self, name):
         path = join(SYSTEM_DIR, f"{name}.cfg")

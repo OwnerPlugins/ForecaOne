@@ -277,7 +277,7 @@ msgid "Downloading tiles..."
 msgstr "Λήψη πλαισίων..."
 
 msgid "E"
-msgstr ""
+msgstr "Α"
 
 msgid "East Asia"
 msgstr "Ανατολική Ασία"
@@ -559,7 +559,7 @@ msgid "Loading nearby stations..."
 msgstr "Φόρτωση κοντινών σταθμών..."
 
 msgid "Loading tiles..."
-msgstr "Φόρτωση πλακιδίων..."
+msgstr "Φόρτωση πλαισίων..."
 
 msgid "Loading weekly forecast..."
 msgstr "Φόρτωση εβδομαδιαίας πρόγνωσης..."
@@ -652,7 +652,7 @@ msgid "Move up"
 msgstr "Μετακίνηση πάνω"
 
 msgid "N"
-msgstr ""
+msgstr "Β"
 
 msgid "N/A"
 msgstr "Μ/Δ"
@@ -901,7 +901,7 @@ msgid "Previous time"
 msgstr "Προηγούμενη φορά"
 
 msgid "Rain Prob."
-msgstr "Πιθανότητα βροχής."
+msgstr "Πιθανότ. βροχής"
 
 msgid "Rain prob. {}%"
 msgstr "Πιθανότ. βροχής {}%"
@@ -937,7 +937,7 @@ msgid "Russia"
 msgstr "Ρωσία"
 
 msgid "S"
-msgstr ""
+msgstr "Ν"
 
 msgid "Saarland"
 msgstr "Σάαρλαντ"
@@ -1081,7 +1081,7 @@ msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Ευχαριστίες στον {thanks} και άλλους φίλους για τις προτάσεις και τις δοκιμές"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "Η έκδοση απομακρυσμένου ({remote}) είναι παλαιότερη από την τρέχουσα ({current})."
+msgstr "Η απομακρυσμένη έκδοση ({remote}) είναι παλαιότερη από την τρέχουσα ({current})."
 
 msgid "Thin upper cloud"
 msgstr "Λεπτή ανώτερη νέφωση"
@@ -1186,7 +1186,7 @@ msgid "Visibility: {} m"
 msgstr "Ορατότητα: {} μ"
 
 msgid "W"
-msgstr ""
+msgstr "Δ"
 
 msgid "Waning Crescent"
 msgstr "Φθίνουσα ημισέληνος"
@@ -1322,36 +1322,3 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 
 msgid "← Frame"
 msgstr "← Καρέ"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Πρόγνωση 7 ημερών"
-
-#~ msgid "Blue"
-#~ msgstr "Μπλε"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Νεφοκάλυψη"
-
-#~ msgid "Distance"
-#~ msgstr "Απόσταση"
-
-#~ msgid "Green"
-#~ msgstr "Πράσινος"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Η εικόνα λήφθηκε"
-
-#~ msgid "Last update"
-#~ msgstr "Τελευταία ενημέρωση"
-
-#~ msgid "Radar"
-#~ msgstr "Ραντάρ"
-
-#~ msgid "Red"
-#~ msgstr "Κόκκινος"
-
-#~ msgid "Snow"
-#~ msgstr "Χιόνι"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Δοκιμή χαρτών Wetter.de"
