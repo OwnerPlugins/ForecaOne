@@ -19,9 +19,6 @@
   </a>
 </p>
 
-
-## 📸 Screenshots
-
 ## 📸 Screenshots
 
 <table>
