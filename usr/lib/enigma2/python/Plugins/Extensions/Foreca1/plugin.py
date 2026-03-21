@@ -45,7 +45,6 @@ from Components.Sources.List import List
 from Components.Sources.StaticText import StaticText
 from Components.Timezones import Timezones
 
-
 from Screens.Screen import Screen
 from Screens.HelpMenu import HelpableScreen
 from Screens.ChoiceBox import ChoiceBox
@@ -238,9 +237,9 @@ class Foreca_Preview(Screen, HelpableScreen):
         # Read Favorites
         self.path_loc0 = self._read_favorite('home') or '103169070/Rome-Italy'
         self.path_loc1 = self._read_favorite(
-            'fav1') or '100524901/Moscow-Russia'
+            'fav1') or '102782480/Ansfelden-Austria'
         self.path_loc2 = self._read_favorite(
-            'fav2') or '102961214/Thurles-County-Tipperary-Ireland'
+            'fav2') or '100658846/Harjuranta-Varkaus-Finland'
         self.skin = load_skin_for_class(Foreca_Preview)
 
         Screen.__init__(self, session)
@@ -725,8 +724,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             city_id, action = result[0], result[1]
             display_name = result[2] if len(result) > 2 else None
             if action == 'select':
-                self._load_favorite(
-                    self.myloc, city_id, forced_name=display_name)
+                self._load_favorite(self.myloc, city_id, forced_name=display_name)
                 self._save_favorite(self.myloc, city_id)
                 self.my_cur_weather()
                 self.my_forecast_weather()
@@ -780,10 +778,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
                     # Use the API to get the name
                     place = self.weather_api.get_location_by_id(location_id)
-                    print(
-                        "[DEBUG] Raw city name from get_location_by_id:",
-                        repr(
-                            self.town))
+                    print("[DEBUG] Raw city name from get_location_by_id:", repr(self.town))
                     if place and place.name:
                         name = place.name
                         if len(name) > 11:
@@ -866,14 +861,11 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.town = 'N/A'
 
         # Debug prints
-        print(
-            f"[DEBUG] _load_favorite: fav_index={fav_index}, path_loc={path_loc}")
-        print(
-            f"[DEBUG] path_loc0={self.path_loc0}, path_loc1={self.path_loc1}, path_loc2={self.path_loc2}")
+        print(f"[DEBUG] _load_favorite: fav_index={fav_index}, path_loc={path_loc}")
+        print(f"[DEBUG] path_loc0={self.path_loc0}, path_loc1={self.path_loc1}, path_loc2={self.path_loc2}")
         if DEBUG:
             _write_favorite_debug(
                 f"# DEBUG: Location loaded: town={self.town}, country={self.country}, lon={self.lon}, lat={self.lat}")
-
         # Get current weather
         current = self.weather_api.get_current_weather(location_id)
         if current:
@@ -1074,7 +1066,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         self.my_forecast_weather()
         self._update_titles()
 
-        print("[DEBUG] Chiamo _update_fav_button_names()")
+        print("[DEBUG] Call _update_fav_button_names()")
         self._update_fav_button_names()
 
         if self.lat != 'N/A' and self.lon != 'N/A':

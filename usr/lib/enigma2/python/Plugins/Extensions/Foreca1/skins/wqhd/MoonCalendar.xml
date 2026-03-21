@@ -1,7 +1,14 @@
 <screen name="MoonCalendar" position="center,center" size="2560,1440" title="Lunar Calendar" flags="wfNoBorder" backgroundColor="#ff000000">
     <widget name="title" position="60,60" size="2427,67" font="Liberation; 56" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="4" />
-    <widget name="info" position="60,127" size="2427,53" font="Liberation; 51" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
+    <widget name="info" position="60,132" size="2427,53" font="Liberation; 51" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" valign="center" zPosition="10" halign="center" />
     <ePixmap position="2176,1311" size="180,47" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+    
+	<widget name="current_phase_icon" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon0050.png" position="2266,58" size="200,200" zPosition="9" alphatest="blend" />
+	<widget name="current_phase_name" position="1705,67" size="550,50" font="Liberation;32" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+	<widget name="current_distance" position="1705,117" size="550,50" font="Liberation;32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+	<widget name="current_illum" position="1705,178" size="550,50" font="Liberation;32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+	<widget name="illum_bar" position="2005,235" size="250,20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/progress_big.png" borderWidth="2" borderColor="#cccccc" zPosition="9" />
+    
     <widget name="Phase" position="307,208" size="267,53" font="Liberation;44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="3" />
     <widget name="Day" position="1120,208" size="267,53" font="Liberation;44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="3" />
     <widget name="Month" position="1307,208" size="267,53" font="Liberation;44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="3" />

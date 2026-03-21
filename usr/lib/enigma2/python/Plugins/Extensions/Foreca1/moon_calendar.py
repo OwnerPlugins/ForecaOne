@@ -10,6 +10,7 @@ from Screens.HelpMenu import HelpableScreen
 from Screens.MessageBox import MessageBox
 from Components.ActionMap import HelpableActionMap
 from Components.Label import Label
+from Components.Pixmap import Pixmap
 from Components.Sources.List import List
 from Tools.LoadPixmap import LoadPixmap
 
@@ -38,6 +39,16 @@ class MoonCalendar(Screen, HelpableScreen):
         self["Day"] = Label(_("Day"))
         self["Month"] = Label(_("Month"))
         self["Time"] = Label(_("Time"))
+
+        self["current_phase_icon"] = Pixmap()
+        self["current_phase_name"] = Label()
+        self["current_illum"] = Label()
+        self["current_distance"] = Label()
+
+        from Components.ProgressBar import ProgressBar
+        self["illum_bar"] = ProgressBar()
+        # self["illum_bar"].setRange(0, 100)
+
         self["title"] = Label(_("Lunar phases from next month"))
         self["actions"] = HelpableActionMap(
             self, "ForecaActions",
@@ -94,6 +105,15 @@ class MoonCalendar(Screen, HelpableScreen):
         # ))
         for p in self.phases:
             self.list.append(self._create_entry(p))
+
+        info = self.moon.get_phase_info()
+        if info["icon_path"]:
+            self["current_phase_icon"].instance.setPixmapFromFile(info["icon_path"])
+        self["current_phase_name"].setText(_(info["name"]))
+        self["current_illum"].setText(_("Illumination: {:.1f}%").format(info["illumination"]))
+        self["current_distance"].setText(_("Distance: {} km").format(info["distance"]))
+        self["illum_bar"].setValue(int(info["illumination"]))
+
         self["menu"].setList(self.list)
         self["info"].setText(
             trans("Found {} lunar phases").format(len(self.phases)))
