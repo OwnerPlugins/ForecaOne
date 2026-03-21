@@ -132,6 +132,7 @@ def _write_favorite_debug(text):
     """Write debug info to favorite_debug.txt in the plugin's debug folder."""
     try:
         dbg_path = join(DBG_DIR, "favorite_debug.txt")
+        chmod(dbg_path, 0o655)
         with open(dbg_path, "a", encoding="utf-8") as dbg:
             dbg.write(text + "\n")
     except Exception as e:
@@ -141,6 +142,7 @@ def _write_favorite_debug(text):
 def write_forecast_weather_debug(text):
     try:
         dbg_path = join(DBG_DIR, "forecast_weather_debug.txt")
+        chmod(dbg_path, 0o655)
         with open(dbg_path, "a") as dbg:
             dbg.write(text + "\n")
     except Exception as e:
@@ -150,6 +152,7 @@ def write_forecast_weather_debug(text):
 def write_current_weather_debug(text):
     try:
         dbg_path = join(DBG_DIR, "current_weather_debug.txt")
+        chmod(dbg_path, 0o655)
         with open(dbg_path, "a") as dbg:
             dbg.write(text + "\n")
     except Exception as e:
@@ -159,6 +162,7 @@ def write_current_weather_debug(text):
 def write_meteogram_debug(text):
     try:
         dbg_path = join(DBG_DIR, "meteogram_debug.txt")
+        chmod(dbg_path, 0o655)
         with open(dbg_path, "a") as dbg:
             dbg.write(text + "\n")
     except Exception as e:
@@ -423,7 +427,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             -1
         )
         if DEBUG:
-            print("[DEBUG] Action map creata")
+            print("[DEBUG] Action map created")
         self.onLayoutFinish.append(self.StartPageFirst)
         self.onLayoutFinish.append(self._update_moon)
         self.onShow.append(self._update_button)
@@ -622,7 +626,12 @@ class Foreca_Preview(Screen, HelpableScreen):
         key = choice[1]
         if key == "city":
             self.session.openWithCallback(
-                self.city_selected, CityPanel4, self.menu_dialog)
+                self.city_selected,
+                CityPanel4,
+                self.menu_dialog,
+                weather_api=self.weather_api
+            )
+
         elif key == "daily_forecast":
             location_id = [self.path_loc0, self.path_loc1,
                            self.path_loc2][self.myloc].split('/')[0]
@@ -714,13 +723,15 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         if isinstance(result, tuple) and len(result) >= 2:
             city_id, action = result[0], result[1]
+            display_name = result[2] if len(result) > 2 else None
             if action == 'select':
-                self._load_favorite(self.myloc, city_id)
+                self._load_favorite(self.myloc, city_id, forced_name=display_name)
                 self._save_favorite(self.myloc, city_id)
                 self.my_cur_weather()
                 self.my_forecast_weather()
                 self._update_moon()
                 self._update_titles()
+                self._update_fav_button_names()
                 self.instance.invalidate()
             elif action == 'assign':
                 fav_index = result[2]  # 0,1,2
@@ -728,6 +739,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self.path_loc0 = self._read_favorite('home') or self.path_loc0
                 self.path_loc1 = self._read_favorite('fav1') or self.path_loc1
                 self.path_loc2 = self._read_favorite('fav2') or self.path_loc2
+                self._update_fav_button_names()
         else:
             # Fallback
             city_id = result
@@ -737,6 +749,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.my_forecast_weather()
             self._update_moon()
             self._update_titles()
+            self._update_fav_button_names()
             self.instance.invalidate()
 
     def Fav0(self):
@@ -766,6 +779,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
                     # Use the API to get the name
                     place = self.weather_api.get_location_by_id(location_id)
+                    print("[DEBUG] Raw city name from get_location_by_id:", repr(self.town))
                     if place and place.name:
                         name = place.name
                         if len(name) > 11:
@@ -800,48 +814,58 @@ class Foreca_Preview(Screen, HelpableScreen):
         print(
             f"[DEBUG] Final buttons: Blue={button_names[0]}, Green={button_names[1]}, Yellow={button_names[2]}")
 
-    def _load_favorite(self, fav_index, path_loc):
-        """Load data for the specified favorite."""
+    def _load_favorite(self, fav_index, path_loc, forced_name=None):
+        """Load data for the specified favorite.
+        path_loc can be just the ID or "ID/Name_with_underscores".
+        forced_name can be used to override the name.
+        """
+        # Extract ID and stored name (if present)
+        if '/' in path_loc:
+            location_id, stored_name = path_loc.split('/', 1)
+            stored_name = stored_name.replace('_', ' ')
+        else:
+            location_id = path_loc
+            stored_name = None
+
         self.myloc = fav_index
         day_index = self.tag
-        location_id = path_loc.split('/')[0] if '/' in path_loc else path_loc
 
-        print(
-            f"[DEBUG] _load_favorite: fav_index={fav_index}, path_loc={path_loc}")
-        print(
-            f"[DEBUG] path_loc0={self.path_loc0}, path_loc1={self.path_loc1}, path_loc2={self.path_loc2}")
-
-        # Get location details
+        # Fetch location data from API (for country, lat, lon, timezone)
         place = self.weather_api.get_location_by_id(location_id)
         if place:
-            self.town = place.name
             self.country = place.country_name
             self.lon = str(place.long)
             self.lat = str(place.lat)
-            # Get the IANA timezone name from the location (e.g. "Europe/Rome")
+            # Timezone handling
             tz_name = place.timezone
-            # Check if the timezone exists in the system
             if self.timezones.timezones.get(tz_name.split('/')[0]):  # area
-                # Create a timezone object using the time module (approximate conversion)
-                # Note: Base Python does not have a real timezone object, but
-                # we can calculate the offset
                 self.tz_name = tz_name
-                # Advanced option: if Python is >= 3.9, zoneinfo can be used
                 try:
                     from zoneinfo import ZoneInfo
                     self.tz = ZoneInfo(tz_name)
                 except ImportError:
-                    # Fallback: calculate the current offset
-                    # This is less accurate but works for display purposes
                     self.tz_offset = self._get_timezone_offset(tz_name)
             else:
                 self.tz = None
         else:
-            self.town = self.country = self.lon = self.lat = 'N/A'
+            self.country = self.lon = self.lat = 'N/A'
+            self.tz = None
 
+        # Determine city name: priority forced_name > stored_name > API name
+        if forced_name:
+            self.town = forced_name
+        elif stored_name:
+            self.town = stored_name
+        elif place and place.name:
+            self.town = place.name
+        else:
+            self.town = 'N/A'
+
+        # Debug prints
+        print(f"[DEBUG] _load_favorite: fav_index={fav_index}, path_loc={path_loc}")
+        print(f"[DEBUG] path_loc0={self.path_loc0}, path_loc1={self.path_loc1}, path_loc2={self.path_loc2}")
         if DEBUG:
-            _write_favorite_debug(
-                f"# DEBUG: Location loaded: town={self.town}, country={self.country}, lon={self.lon}, lat={self.lat}")
+            _write_favorite_debug(f"# DEBUG: Location loaded: town={self.town}, country={self.country}, lon={self.lon}, lat={self.lat}")
 
         # Get current weather
         current = self.weather_api.get_current_weather(location_id)

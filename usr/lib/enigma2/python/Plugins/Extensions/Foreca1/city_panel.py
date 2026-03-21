@@ -96,13 +96,14 @@ class CityPanel4List(GUIComponent):
 
 
 class CityPanel4(Screen, HelpableScreen):
-    def __init__(self, session, menu_dialog=None):
+    def __init__(self, session, menu_dialog=None, weather_api=None):
         self.skin = load_skin_for_class(CityPanel4)
         self.session = session
 
         Screen.__init__(self, session)
         HelpableScreen.__init__(self)
         self.menu_dialog = menu_dialog
+        self.weather_api = weather_api
         self.setTitle(_("Select a city"))
         self.Mlist = []
         self.city_list = []
@@ -155,7 +156,7 @@ class CityPanel4(Screen, HelpableScreen):
                 self.update_description()
         self.init_timer = eTimer()
         self.init_timer.callback.append(init_selection)
-        self.init_timer.start(200, True)
+        self.init_timer.start(500, True)
 
     def prepare_city_list(self):
         """Load list from new_city.cfg file (offline)"""
@@ -212,6 +213,7 @@ class CityPanel4(Screen, HelpableScreen):
             self.timer.callback.append(select_first)
             self.timer.start(100, True)
 
+            self._update_fav_buttons()
         except Exception as e:
             print("[CityPanel4] Error loading cities:", e)
             import traceback
@@ -367,6 +369,27 @@ class CityPanel4(Screen, HelpableScreen):
             _("Found %d cities locally for '%s'") %
             (count, search_term))
 
+    def _update_fav_buttons(self):
+        home_name = self._get_favorite_name('home')
+        fav1_name = self._get_favorite_name('fav1')
+        fav2_name = self._get_favorite_name('fav2')
+        print(f"[CityPanel] home={home_name}, fav1={fav1_name}, fav2={fav2_name}")
+
+        if home_name:
+            self["key_blue"].setText(_(home_name))
+        else:
+            self["key_blue"].setText(_("Home"))
+
+        if fav1_name:
+            self["key_green"].setText(_(fav1_name))
+        else:
+            self["key_green"].setText(_("Favorite 1"))
+
+        if fav2_name:
+            self["key_yellow"].setText(_(fav2_name))
+        else:
+            self["key_yellow"].setText(_("Favorite 2"))
+
     def update_description(self):
         idx = self["Mlist"].getCurrentIndex()
         if idx is not None and 0 <= idx < len(self.filtered_list):
@@ -389,30 +412,67 @@ class CityPanel4(Screen, HelpableScreen):
                 return f"{data[1]}/{data[0].replace(' ', '_')}"
         return None
 
+    def _get_favorite_name(self, fav_type):
+        """Returns the saved city name, retrieving it from the API if the file contains only the ID."""
+        path = join(SYSTEM_DIR, f"{fav_type}.cfg")
+        if not exists(path):
+            return None
+        try:
+            with open(path, "r", encoding='utf-8') as f:
+                content = f.read().strip()
+            if '/' in content:
+                city_name = content.split('/', 1)[1].replace('_', ' ')
+            else:
+                # Only ID: try to retrieve the name from the API
+                if self.weather_api:
+                    place = self.weather_api.get_location_by_id(content)
+                    if place and place.name:
+                        city_name = place.name
+                    else:
+                        return None
+                else:
+                    return None
+            # Truncate if too long
+            if len(city_name) > 15:
+                city_name = city_name[:12] + "..."
+            return city_name
+        except Exception as e:
+            print("[CityPanel4] Error reading favorite:", e)
+            return None
+
     def save_favorite1(self):
         selected = self.get_selected_city()
         if selected:
             self.save_favorite("fav1", selected)
+            self._update_fav_buttons()
             self.close((selected, 'assign', 1))
 
     def save_favorite2(self):
         selected = self.get_selected_city()
         if selected:
             self.save_favorite("fav2", selected)
+            self._update_fav_buttons()
             self.close((selected, 'assign', 1))
 
     def save_home(self):
         selected = self.get_selected_city()
         if selected:
             self.save_favorite("home", selected)
+            self._update_fav_buttons()
             self.close((selected, 'assign', 1))
 
     def ok(self):
         selected = self.get_selected_city()
         if selected:
+            if '/' in selected:
+                city_id, display_name = selected.split('/', 1)
+                display_name = display_name.replace('_', ' ')
+            else:
+                city_id = selected
+                display_name = None
             if self.menu_dialog:
                 self.menu_dialog.close()
-            self.close((selected, 'select', None))
+            self.close((city_id, 'select', display_name))
 
     def save_favorite(self, fav_type, city):
         path = join(SYSTEM_DIR, f"{fav_type}.cfg")
@@ -420,7 +480,7 @@ class CityPanel4(Screen, HelpableScreen):
             with open(path, "w", encoding='utf-8') as f:
                 f.write(city)
             city_id = city.split('/')[0]
-            # Determina l'indice del favorito
+            # Determine the favorite's index
             if fav_type == 'home':
                 fav_index = 0
             elif fav_type == 'fav1':
