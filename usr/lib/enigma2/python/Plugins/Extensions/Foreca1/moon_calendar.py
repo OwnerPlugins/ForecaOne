@@ -108,10 +108,15 @@ class MoonCalendar(Screen, HelpableScreen):
 
         info = self.moon.get_phase_info()
         if info["icon_path"]:
-            self["current_phase_icon"].instance.setPixmapFromFile(info["icon_path"])
+            self["current_phase_icon"].instance.setPixmapFromFile(
+                info["icon_path"])
         self["current_phase_name"].setText(_(info["name"]))
-        self["current_illum"].setText(_("Illumination: {:.1f}%").format(info["illumination"]))
-        self["current_distance"].setText(_("Distance: {} km").format(info["distance"]))
+        self["current_illum"].setText(
+            _("Illumination: {:.1f}%").format(
+                info["illumination"]))
+        self["current_distance"].setText(
+            _("Distance: {} km").format(
+                info["distance"]))
         self["illum_bar"].setValue(int(info["illumination"]))
 
         self["menu"].setList(self.list)

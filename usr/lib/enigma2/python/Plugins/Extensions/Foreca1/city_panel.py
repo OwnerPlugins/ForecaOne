@@ -373,7 +373,8 @@ class CityPanel4(Screen, HelpableScreen):
         home_name = self._get_favorite_name('home')
         fav1_name = self._get_favorite_name('fav1')
         fav2_name = self._get_favorite_name('fav2')
-        print(f"[CityPanel] home={home_name}, fav1={fav1_name}, fav2={fav2_name}")
+        print(
+            f"[CityPanel] home={home_name}, fav1={fav1_name}, fav2={fav2_name}")
 
         if home_name:
             self["key_blue"].setText(_(home_name))
