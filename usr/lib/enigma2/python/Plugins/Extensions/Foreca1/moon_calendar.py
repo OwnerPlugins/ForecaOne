@@ -139,17 +139,15 @@ class MoonCalendar(Screen, HelpableScreen):
 
         if best_jd:
             dt = self.moon._jd_to_date(best_jd)
-
-            # Also retrieve icon and phase name for this date
-            info = self.moon.get_phase_info_for_jd(best_jd)
-
+            info = self.moon.get_phase_info_for_jd(best_jd)   # ottiene tutti i dati
             return {
-                "date": dt,
-                "distance": best_dist,
-                "icon_path": info["icon_path"],
-                "phase_name": info["name"],
+                'date': dt,
+                'distance': best_dist,
+                'icon_path': info['icon_path'],
+                'phase_name': info['name'],          # real phase of the day
+                'illumination': info['illumination'],
+                'event_type': 'Perigee'
             }
-
         return None
 
     # -------------------------------------------------------------------------
@@ -196,12 +194,9 @@ class MoonCalendar(Screen, HelpableScreen):
 
         # 4) Perigees for each month
         perigees = []
-        for year, month in {(p["date"].year, p["date"].month)
-                            for p in self.phases}:
+        for year, month in {(p["date"].year, p["date"].month) for p in self.phases}:
             perigee_data = self._get_perigee_for_month(year, month)
             if perigee_data:
-                # Aggiungiamo anche l'event_type per riconoscerlo
-                perigee_data["event_type"] = "Perigee"
                 perigees.append(perigee_data)
 
         # Add special events as new entries (copy to avoid altering original
@@ -295,7 +290,7 @@ class MoonCalendar(Screen, HelpableScreen):
             phase_text = _("Blue Moon") + " ☆"
         elif event_type == "Black Moon":
             phase_text = _("Black Moon") + " ◇"
-        elif event_type == "Perigee":
+        elif event_type == 'Perigee':
             phase_text = _("Perigee") + f" ({phase['distance']:.0f} km)"
         else:
             phase_text = _(phase["phase_name"])
