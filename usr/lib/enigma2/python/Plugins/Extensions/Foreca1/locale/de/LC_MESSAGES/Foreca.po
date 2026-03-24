@@ -40,6 +40,9 @@ msgstr "6 – Heute + 6 Tage"
 msgid "7 - Today + 7 days"
 msgstr "7 - Heute + 7 Tage"
 
+msgid "7 Day Forecast"
+msgstr "7-Tage-Vorhersage"
+
 msgid "8 - Today + 8 days"
 msgstr "8 – Heute + 8 Tage"
 
@@ -101,6 +104,9 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Vollmond"
 
+msgid "Blue"
+msgstr "Blau"
+
 msgid "Blue - Home"
 msgstr "Blau – Startseite"
 
@@ -149,6 +155,9 @@ msgstr "Schließen"
 
 msgid "Close legend"
 msgstr "Legende schließen"
+
+msgid "Cloud Cover"
+msgstr "Bewölkung"
 
 msgid "Cloudy"
 msgstr "Bewölkt"
@@ -260,6 +269,9 @@ msgstr "Taupunkt: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Taupunkt: N/A"
+
+msgid "Distance"
+msgstr "Entfernung"
 
 msgid "Distance {} km"
 msgstr "Entfernung {} km"
@@ -448,6 +460,9 @@ msgstr "Großbritannien"
 msgid "Greece"
 msgstr "Griechenland"
 
+msgid "Green"
+msgstr "Grün"
+
 msgid "Green - Favorite 1"
 msgstr "Grün – Favorit 1"
 
@@ -456,6 +471,9 @@ msgstr "Bö {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Bö: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -512,6 +530,9 @@ msgstr "Bild %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Bild %(current)d/%(total)d – %(day)s (Pause)"
 
+msgid "Image Downloaded"
+msgstr "Bild heruntergeladen"
+
 msgid "Image not available"
 msgstr "Bild nicht verfügbar"
 
@@ -550,6 +571,9 @@ msgstr "Tastatur"
 
 msgid "Last Quarter"
 msgstr "Letztes Viertel"
+
+msgid "Last update"
+msgstr "Letzte Aktualisierung"
 
 msgid "Latvia"
 msgstr "Lettland"
@@ -923,6 +947,9 @@ msgstr "Vorherige Seite"
 msgid "Previous time"
 msgstr "Vorherige Zeit"
 
+msgid "Radar"
+msgstr "Radar"
+
 msgid "Rain Prob."
 msgstr "Regen Wahrscheinlichkeit."
 
@@ -937,6 +964,9 @@ msgstr "Regen: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer Radar"
+
+msgid "Red"
+msgstr "Rot"
 
 msgid "Red - Color select"
 msgstr "Rot – Farbe auswählen"
@@ -1033,6 +1063,9 @@ msgstr "Slowakei"
 
 msgid "Slower: {}s"
 msgstr "Langsamer: {}s"
+
+msgid "Snow"
+msgstr "Schnee"
 
 msgid "Snow / ice"
 msgstr "Schnee / Eis"
@@ -1136,6 +1169,9 @@ msgstr "Transparenzeinstellungen"
 
 msgid "Transparency level"
 msgstr "Transparenzgrad"
+
+msgid "UV"
+msgstr "UV"
 
 msgid "UV Index"
 msgstr "UV-Index"
@@ -1260,6 +1296,9 @@ msgstr "Wetter morgen"
 msgid "Weekly Forecast"
 msgstr "Wochenvorhersage"
 
+msgid "Wetter.de Maps Test"
+msgstr "Wetter.de Karten Test"
+
 msgid "Wind"
 msgstr "Wind"
 
@@ -1349,42 +1388,3 @@ msgstr "• GELB zum Speichern als Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Bild"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "7-Tage-Vorhersage"
-
-#~ msgid "Blue"
-#~ msgstr "Blau"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Bewölkung"
-
-#~ msgid "Distance"
-#~ msgstr "Entfernung"
-
-#~ msgid "Green"
-#~ msgstr "Grün"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Bild heruntergeladen"
-
-#~ msgid "Last update"
-#~ msgstr "Letzte Aktualisierung"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Rot"
-
-#~ msgid "Snow"
-#~ msgstr "Schnee"
-
-#~ msgid "UV"
-#~ msgstr "UV"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Wetter.de Karten Test"

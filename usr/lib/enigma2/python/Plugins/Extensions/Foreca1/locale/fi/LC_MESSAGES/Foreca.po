@@ -48,6 +48,21 @@ msgstr "8 - Tänään + 8 päivää"
 msgid "9 - Today + 9 days"
 msgstr "9 - Tänään + 9 päivää"
 
+msgid ""
+"API configuration file not found!\n"
+"\n"
+"Please create file:\n"
+"{0}\n"
+"\n"
+"with your Foreca API credentials."
+msgstr ""
+"API-määritystiedostoa ei löytynyt!\n"
+"\n"
+"Luo tiedosto:\n"
+"{0}\n"
+"\n"
+"Foreca API-tunnuksillasi."
+
 msgid "API credentials not configured."
 msgstr "API-tunnuksia ei ole määritetty."
 
@@ -99,14 +114,8 @@ msgstr "Belgia"
 msgid "Berlin"
 msgstr "Berliini"
 
-msgid "Black Moon"
-msgstr "Musta kuu"
-
 msgid "Blue - Home"
 msgstr "Sininen - Koti"
-
-msgid "Blue Moon"
-msgstr "Sininen kuu"
 
 msgid "Brandenburg"
 msgstr "Brandenburg"
@@ -264,14 +273,14 @@ msgstr "Kastepiste: N/A"
 msgid "Distance {} km"
 msgstr "Etäisyys {} km"
 
+msgid "Distance: {} km"
+msgstr "Etäisyys: {} km"
+
 msgid "Distance: %s"
 msgstr "Etäisyys: %s"
 
 msgid "Distance: {}"
 msgstr "Etäisyys: {}"
-
-msgid "Distance: {} km"
-msgstr "Etäisyys: {} km"
 
 msgid "Do you want to install it now?"
 msgstr "Haluatko asentaa sen nyt?"
@@ -852,9 +861,6 @@ msgstr "Puolipilvistä, ajoittain räntäsadetta"
 msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Puolipilvistä, mahdollisesti ukkosta"
 
-msgid "Perigee"
-msgstr "Kuun perigee"
-
 msgid "Phase"
 msgstr "Vaihe"
 
@@ -1067,9 +1073,6 @@ msgstr "Auringonnousu"
 
 msgid "Sunset"
 msgstr "Auringonlasku"
-
-msgid "Super Full Moon"
-msgstr "Super täysikuu"
 
 msgid "Sweden"
 msgstr "Ruotsi"
@@ -1347,8 +1350,27 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 msgid "← Frame"
 msgstr "← Kehys"
 
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
+
+msgid ""
+"You already have version {version} installed.\n"
+"Do you want to reinstall it?"
+msgstr ""
+"Sinulla on jo versio {version} asennettuna.\n"
+"Haluatko asentaa sen uudelleen?"
+
+msgid "Super Full Moon"
+msgstr "Super täysikuu"
+
+msgid "Blue Moon"
+msgstr "Sininen kuu"
+
+msgid "Black Moon"
+msgstr "Musta kuu"
+
+msgid "Perigee"
+msgstr "Kuun perigee"
 
 #~ msgid "Blue"
 #~ msgstr "Sininen"

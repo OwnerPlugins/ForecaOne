@@ -42,6 +42,9 @@ msgstr "6 - Astăzi + 6 zile"
 msgid "7 - Today + 7 days"
 msgstr "7 - Astăzi + 7 zile"
 
+msgid "7 Day Forecast"
+msgstr "Prognoză pe 7 zile"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Astăzi + 8 zile"
 
@@ -103,6 +106,9 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Lună plină"
 
+msgid "Blue"
+msgstr "Albastru"
+
 msgid "Blue - Home"
 msgstr "Albastru - Acasă"
 
@@ -151,6 +157,9 @@ msgstr "Închide"
 
 msgid "Close legend"
 msgstr "Închide legenda"
+
+msgid "Cloud Cover"
+msgstr "Acoperire nori"
 
 msgid "Cloudy"
 msgstr "Înnorat"
@@ -262,6 +271,9 @@ msgstr "Punct de rouă: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Punct de rouă: N/D"
+
+msgid "Distance"
+msgstr "Distanță"
 
 msgid "Distance {} km"
 msgstr "Distanță {} km"
@@ -450,6 +462,9 @@ msgstr "Marea Britanie"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorite 1"
 
@@ -458,6 +473,9 @@ msgstr "Rafală {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Rafală: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -514,6 +532,9 @@ msgstr "Imagine %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Imagine %(current)d/%(total)d – %(day)s (Pauză)"
 
+msgid "Image Downloaded"
+msgstr "Imagine descărcată"
+
 msgid "Image not available"
 msgstr "Imagine indisponibilă"
 
@@ -552,6 +573,9 @@ msgstr "Tastatură"
 
 msgid "Last Quarter"
 msgstr "Ultimul pătrar"
+
+msgid "Last update"
+msgstr "Ultima actualizare"
 
 msgid "Latvia"
 msgstr "Letonia"
@@ -925,6 +949,9 @@ msgstr "Pagina anterioară"
 msgid "Previous time"
 msgstr "Ora anterioară"
 
+msgid "Radar"
+msgstr "Radar"
+
 msgid "Rain Prob."
 msgstr "Prob. ploaie."
 
@@ -939,6 +966,9 @@ msgstr "Ploaie: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
+
+msgid "Red"
+msgstr "Roșu"
 
 msgid "Red - Color select"
 msgstr "Roșu - Selectare culoare"
@@ -1035,6 +1065,9 @@ msgstr "Slovacia"
 
 msgid "Slower: {}s"
 msgstr "Mai lent: {}s"
+
+msgid "Snow"
+msgstr "Zăpadă"
 
 msgid "Snow / ice"
 msgstr "Zăpadă / gheață"
@@ -1138,6 +1171,9 @@ msgstr "Setări transparență"
 
 msgid "Transparency level"
 msgstr "Nivel transparență"
+
+msgid "UV"
+msgstr "UV"
 
 msgid "UV Index"
 msgstr "Indice UV"
@@ -1262,6 +1298,9 @@ msgstr "Vremea mâine"
 msgid "Weekly Forecast"
 msgstr "Prognoză săptămânală"
 
+msgid "Wetter.de Maps Test"
+msgstr "Test hărți Wetter.de"
+
 msgid "Wind"
 msgstr "Vânt"
 
@@ -1351,42 +1390,3 @@ msgstr "• GALBEN pentru a salva ca Favorite 2\n"
 
 msgid "← Frame"
 msgstr "← Cadru"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Prognoză pe 7 zile"
-
-#~ msgid "Blue"
-#~ msgstr "Albastru"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Acoperire nori"
-
-#~ msgid "Distance"
-#~ msgstr "Distanță"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Imagine descărcată"
-
-#~ msgid "Last update"
-#~ msgstr "Ultima actualizare"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Roșu"
-
-#~ msgid "Snow"
-#~ msgstr "Zăpadă"
-
-#~ msgid "UV"
-#~ msgstr "UV"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Test hărți Wetter.de"
