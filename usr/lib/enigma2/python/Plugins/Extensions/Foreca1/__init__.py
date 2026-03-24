@@ -142,7 +142,10 @@ def load_skin_by_class(class_name):
     # 1) Try custom skins first
     custom_skin_file = None
     if exists(CUSTOM_SKINS_PATH):
-        custom_skin_file = join(CUSTOM_SKINS_PATH, resolution, f"{class_name}.xml")
+        custom_skin_file = join(
+            CUSTOM_SKINS_PATH,
+            resolution,
+            f"{class_name}.xml")
         if DEBUG:
             print(f"[SKIN DEBUG] Trying custom: {custom_skin_file}")
             print(f"[SKIN DEBUG] Exists? {exists(custom_skin_file)}")
@@ -180,7 +183,8 @@ def load_skin_by_class(class_name):
                 content = f.read()
                 if DEBUG:
                     print(f"[SKIN DEBUG] ✓ Loaded {len(content)} bytes")
-                    print(f"[SKIN DEBUG] First 100 chars: {content[:100].replace(chr(10), ' ')}")
+                    print(
+                        f"[SKIN DEBUG] First 100 chars: {content[:100].replace(chr(10), ' ')}")
                     print("=" * 60 + "\n")
                 return content
         except Exception as e:
