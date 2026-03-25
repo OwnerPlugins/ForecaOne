@@ -760,8 +760,9 @@ msgstr "ОК - Прагноз"
 msgid "OK - Open Map"
 msgstr "ОК - Адкрыць карту"
 
-msgid "Ok - Zone"
-msgstr "ОК - Зона"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Дэталі"
 
 msgid "Open Keyboard"
 msgstr "Адкрыць клавіятуру"
@@ -1364,6 +1365,9 @@ msgstr ""
 
 msgid "← Frame"
 msgstr ""
+
+#~ msgid "Ok - Zone"
+#~ msgstr "ОК - Зона"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

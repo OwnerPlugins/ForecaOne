@@ -815,7 +815,7 @@ msgstr "Foreca 4"
 msgid "OK - Open Map"
 msgstr ""
 
-msgid "Ok - Zone"
+msgid "Ok - Details"
 msgstr ""
 
 msgid "Open Keyboard"

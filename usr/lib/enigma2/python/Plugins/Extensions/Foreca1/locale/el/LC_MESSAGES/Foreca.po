@@ -754,8 +754,9 @@ msgstr "OK - Πρόγνωση"
 msgid "OK - Open Map"
 msgstr "OK - Άνοιγμα χάρτη"
 
-msgid "Ok - Zone"
-msgstr "OK - Ζώνη"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Λεπτομέρειες"
 
 msgid "Open Keyboard"
 msgstr "Άνοιγμα πληκτρολογίου"
@@ -1345,6 +1346,9 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 
 msgid "← Frame"
 msgstr "← Καρέ"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "OK - Ζώνη"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

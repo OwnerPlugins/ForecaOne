@@ -754,8 +754,9 @@ msgstr "OK – Előrejelzés"
 msgid "OK - Open Map"
 msgstr "OK – Térkép megnyitása"
 
-msgid "Ok - Zone"
-msgstr "OK – Zóna"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Részletek"
 
 msgid "Open Keyboard"
 msgstr "Nyissa meg a Billentyűzetet"
@@ -1346,3 +1347,6 @@ msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
 
 msgid "← Frame"
 msgstr "← Keret"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "OK – Zóna"

@@ -760,8 +760,9 @@ msgstr "ОК - Прогноза"
 msgid "OK - Open Map"
 msgstr "ОК - Отвори мапу"
 
-msgid "Ok - Zone"
-msgstr "ОК - Зона"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Детаљи"
 
 msgid "Open Keyboard"
 msgstr "Отвори тастатуру"
@@ -1351,6 +1352,9 @@ msgstr "• ЖУТА за чување као Омиљени 2\n"
 
 msgid "← Frame"
 msgstr "← Оквир"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "ОК - Зона"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7-дневна прогноза"

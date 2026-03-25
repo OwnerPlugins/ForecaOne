@@ -759,8 +759,9 @@ msgstr "موافق - التوقعات"
 msgid "OK - Open Map"
 msgstr "موافق - فتح الخريطة"
 
-msgid "Ok - Zone"
-msgstr "موافق - المنطقة"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "التفاصيل"
 
 msgid "Open Keyboard"
 msgstr "فتح لوحة المفاتيح"
@@ -1350,6 +1351,9 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
 msgstr "إطار ←"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "موافق - المنطقة"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "توقعات 7 أيام"

@@ -758,8 +758,9 @@ msgstr "OK - Vorhersage"
 msgid "OK - Open Map"
 msgstr "OK - Karte öffnen"
 
-msgid "Ok - Zone"
-msgstr "OK - Zone"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Details"
 
 msgid "Open Keyboard"
 msgstr "Tastatur öffnen"
@@ -1349,6 +1350,9 @@ msgstr "• GELB zum Speichern als Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Bild"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "OK - Zone"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7-Tage-Vorhersage"

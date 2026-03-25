@@ -756,8 +756,9 @@ msgstr "OK-天气预报"
 msgid "OK - Open Map"
 msgstr "OK - 打开地图"
 
-msgid "Ok - Zone"
-msgstr "Ok - 区域"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "详情"
 
 msgid "Open Keyboard"
 msgstr "打开的键盘"
@@ -1348,6 +1349,9 @@ msgstr "黄色-分配给收藏夹2\n"
 
 msgid "← Frame"
 msgstr "←框架"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "Ok - 区域"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "未来七天天气预报"

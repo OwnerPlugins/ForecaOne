@@ -756,8 +756,9 @@ msgstr "OK - Ennuste"
 msgid "OK - Open Map"
 msgstr "OK - Avaa kartta"
 
-msgid "Ok - Zone"
-msgstr "OK - Lisätiedot"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Yksityiskohdat"
 
 msgid "Open Keyboard"
 msgstr "Avaa näppäimistö"
@@ -1346,6 +1347,9 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
 msgid "← Frame"
 msgstr "← Kehys"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "OK - Lisätiedot"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 päivän ennuste"

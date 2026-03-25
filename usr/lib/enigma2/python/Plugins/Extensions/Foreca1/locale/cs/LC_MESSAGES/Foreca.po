@@ -755,8 +755,9 @@ msgstr "OK - Předpověď"
 msgid "OK - Open Map"
 msgstr "OK - Otevřít mapu"
 
-msgid "Ok - Zone"
-msgstr "OK - Zóna"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Detaily"
 
 msgid "Open Keyboard"
 msgstr "Otevřete klávesnici"
@@ -1345,3 +1346,6 @@ msgstr "• ŽLUTÉ pro uložení jako Oblíbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámeček"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "OK - Zóna"

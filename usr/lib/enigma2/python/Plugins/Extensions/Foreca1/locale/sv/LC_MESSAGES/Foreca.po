@@ -760,8 +760,9 @@ msgstr "OK - Prognos"
 msgid "OK - Open Map"
 msgstr "OK - Öppna karta"
 
-msgid "Ok - Zone"
-msgstr "OK - Zon"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Detaljer"
 
 msgid "Open Keyboard"
 msgstr "Öppna tangentbord"
@@ -1351,6 +1352,9 @@ msgstr "• GUL för att spara som Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Bildruta"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "OK - Zon"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7-dagarsprognos"

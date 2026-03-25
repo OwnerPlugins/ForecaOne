@@ -759,8 +759,9 @@ msgstr "ОК — Прогноз"
 msgid "OK - Open Map"
 msgstr "ОК — Открыть карту"
 
-msgid "Ok - Zone"
-msgstr "ОК — Зона"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Детали"
 
 msgid "Open Keyboard"
 msgstr "Открыть клавиатуру"
@@ -1350,3 +1351,6 @@ msgstr "• ЖЁЛТАЯ — сохранить как Избранное 2\n"
 
 msgid "← Frame"
 msgstr "← Кадр"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "ОК — Зона"

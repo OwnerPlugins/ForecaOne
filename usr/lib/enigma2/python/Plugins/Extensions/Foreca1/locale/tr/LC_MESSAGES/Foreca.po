@@ -760,8 +760,9 @@ msgstr "Tamam - Tahmin"
 msgid "OK - Open Map"
 msgstr "Tamam - Haritayı Aç"
 
-msgid "Ok - Zone"
-msgstr "Tamam - Bölge"
+#, fuzzy
+msgid "Ok - Details"
+msgstr "Detaylar"
 
 msgid "Open Keyboard"
 msgstr "Klavyeyi Aç"
@@ -1351,6 +1352,9 @@ msgstr "• Sık Kullanılan 2 olarak kaydetmek için SARI\n"
 
 msgid "← Frame"
 msgstr "← Kare"
+
+#~ msgid "Ok - Zone"
+#~ msgstr "Tamam - Bölge"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 Günlük Tahmin"
