@@ -17,8 +17,7 @@
   <a href="https://python.org">
     <img src="https://img.shields.io/badge/Python-3.x-yellow.svg" alt="Python">
   </a>
-</p>
-[![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-orange.svg)](https://github.com/OpenPLi/enigma2)
+</p>[![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-orange.svg)](https://github.com/OpenPLi/enigma2)
 
 ## 📸 Screenshots
 
