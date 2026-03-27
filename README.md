@@ -8,6 +8,7 @@
   <a href="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml">
     <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
+  [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-orange.svg)](https://github.com/OpenPLi/enigma2)
   <a href="https://github.com/Belfagor2005/ForecaOne">
     <img src="https://img.shields.io/badge/Version-1.1.9-blue.svg" alt="Version">
   </a>
