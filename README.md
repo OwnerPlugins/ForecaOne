@@ -1,12 +1,15 @@
 # 🌤️ Foreca One Weather Forecast – Enigma2 Plugin
 
+
 <p align="center">
   <img src="https://github.com/Belfagor2005/ForecaOne/blob/main/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/ForecaOne.png" alt="Foreca1 Screenshot" width="300">
 </p>
-
 <p align="center">
   <a href="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml">
     <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
+  </a>
+  <a href="https://github.com/OpenPLi/enigma2">
+    <img src="https://img.shields.io/badge/Enigma2-Plugin-orange.svg" alt="Enigma2 Plugin">
   </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
     <img src="https://img.shields.io/badge/Version-1.2.0-blue.svg" alt="Version">
@@ -18,6 +21,7 @@
     <img src="https://img.shields.io/badge/Python-3.x-yellow.svg" alt="Python">
   </a>
 </p>
+
 
 ## 📸 Screenshots
 
