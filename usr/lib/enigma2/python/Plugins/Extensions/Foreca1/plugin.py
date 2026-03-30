@@ -962,16 +962,13 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # Daily forecast (free first, then auth as fallback)
         days_needed = max(self.tag + 1, 1)
-        daily_all = self.weather_api.get_daily_forecast(
-            location_id, days=days_needed)
+        daily_all = self.weather_api.get_daily_forecast(location_id, days=days_needed)
         if not daily_all and self.weather_api_auth:
-            daily_all = self.weather_api_auth.get_daily_forecast(
-                location_id, days=days_needed)
+            daily_all = self.weather_api_auth.get_daily_forecast(location_id, days=days_needed)
 
         print(f"[DEBUG] daily_all from free? {daily_all is not None}")
         if daily_all:
-            print(
-                f"[DEBUG] sunrise={daily_all[self.tag].sunrise}, sunset={daily_all[self.tag].sunset}")
+            print(f"[DEBUG] sunrise={daily_all[self.tag].sunrise}, sunset={daily_all[self.tag].sunset}")
 
         if daily_all and len(daily_all) > self.tag:
             day_selected = daily_all[self.tag]
@@ -1202,8 +1199,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             return
         frame = self.weather_anim_frames[self.weather_anim_current]
         self["icon_weather"].instance.setPixmapFromFile(frame)
-        self.weather_anim_current = (
-            self.weather_anim_current + 1) % len(self.weather_anim_frames)
+        self.weather_anim_current = (self.weather_anim_current + 1) % len(self.weather_anim_frames)
         self.weather_anim_timer.start(200, True)
 
     def my_cur_weather(self):
@@ -1251,16 +1247,14 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["city_name"].setText(self.town if self.town != 'N/A' else "N/A")
         # TEMPERATURE
         if self.cur_temp != 'N/A':
-            temp_val, temp_unit = self.unit_manager.convert_temperature(
-                float(self.cur_temp))
+            temp_val, temp_unit = self.unit_manager.convert_temperature(float(self.cur_temp))
             cur_temp_text = "{}{}".format(int(temp_val), temp_unit)
         else:
             cur_temp_text = "N/A"
         self["temperature_current"].setText(cur_temp_text)
         # FEELS LIKE
         if self.fl_temp != 'N/A':
-            fl_val, fl_unit = self.unit_manager.convert_temperature(
-                float(self.fl_temp))
+            fl_val, fl_unit = self.unit_manager.convert_temperature(float(self.fl_temp))
             feels_text = _("Feels like {}{}").format(int(fl_val), fl_unit)
         else:
             feels_text = _("Feels like {}").format("N/A")
@@ -1273,24 +1267,21 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["dewpoint_value"].setText(dew_text)
         # WIND
         if self.wind_speed != 'N/A':
-            wind_val, wind_unit = self.unit_manager.convert_wind(
-                float(self.wind_speed))
+            wind_val, wind_unit = self.unit_manager.convert_wind(float(self.wind_speed))
             wind_text = _("Wind speed: {:.1f} {}").format(wind_val, wind_unit)
         else:
             wind_text = _("Wind speed {}").format("N/A")
         self["wind_speed_value"].setText(wind_text)
         # WIND GUST
         if self.wind_gust != 'N/A':
-            gust_val, gust_unit = self.unit_manager.convert_wind(
-                float(self.wind_gust))
+            gust_val, gust_unit = self.unit_manager.convert_wind(float(self.wind_gust))
             gust_text = _("Gust: {:.1f} {}").format(gust_val, gust_unit)
         else:
             gust_text = _("Gust {}").format("N/A")
         self["wind_gust_value"].setText(gust_text)
         # PRESSURE
         if self.pressure != 'N/A':
-            press_val, press_unit = self.unit_manager.convert_pressure(
-                float(self.pressure))
+            press_val, press_unit = self.unit_manager.convert_pressure(float(self.pressure))
             if press_unit == 'inHg':
                 press_text = "{:.2f} {}".format(press_val, press_unit)
             else:
@@ -1300,8 +1291,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["pressure_value"].setText(press_text)
         # RAIN
         if self.rain_mm != 'N/A':
-            rain_val, rain_unit = self.unit_manager.convert_precipitation(
-                float(self.rain_mm))
+            rain_val, rain_unit = self.unit_manager.convert_precipitation(float(self.rain_mm))
             rain_text = _("Rain: {:.1f} {}").format(rain_val, rain_unit)
         else:
             rain_text = "N/A"
@@ -1346,8 +1336,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self["solar_desc"].instance.setForegroundColor(color)
         else:
             self["solar_value"].setText("N/A")
-            self["solar_value"].instance.setForegroundColor(
-                parseColor("#ffffff"))
+            self["solar_value"].instance.setForegroundColor(parseColor("#ffffff"))
             if "solar_desc" in self:
                 self["solar_desc"].setText("")
         # AQI
@@ -1369,23 +1358,17 @@ class Foreca_Preview(Screen, HelpableScreen):
         if hasattr(self, 'updated') and self.updated != 'N/A':
             try:
                 from datetime import datetime
-                dt = datetime.fromisoformat(
-                    self.updated.replace('Z', '+00:00'))
+                dt = datetime.fromisoformat(self.updated.replace('Z', '+00:00'))
                 updated_str = dt.strftime("%d.%m.%Y %H:%M")
-                self["updated_label"].setText(
-                    _("Updated {}").format(updated_str))
+                self["updated_label"].setText(_("Updated {}").format(updated_str))
             except BaseException:
-                self["updated_label"].setText(
-                    _("Updated {}").format(self.updated))
+                self["updated_label"].setText(_("Updated {}").format(self.updated))
         else:
             self["updated_label"].setText(_('Updated: N/A'))
         # SUNRISE, SUNSET, DAY LENGTH
-        self["sunrise_value"].setText(
-            self.sunrise if self.sunrise != 'N/A' else 'N/A')
-        self["sunset_value"].setText(
-            self.sunset if self.sunset != 'N/A' else 'N/A')
-        self["day_length"].setText(
-            self.daylen if self.daylen != 'N/A' else 'N/A')
+        self["sunrise_value"].setText(self.sunrise if self.sunrise != 'N/A' else 'N/A')
+        self["sunset_value"].setText(self.sunset if self.sunset != 'N/A' else 'N/A')
+        self["day_length"].setText(self.daylen if self.daylen != 'N/A' else 'N/A')
 
         # --- INVALIDA TUTTI I WIDGET (tranne icon_weather) ---
         self["city_name"].instance.invalidate()
@@ -1442,8 +1425,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self._start_weather_animation(frames)
             else:
                 # No frame, use static icon
-                icon_path = get_icon_path(f"{self.pic}.png") if is_valid(
-                    self.pic) else get_icon_path("d000.png")
+                icon_path = get_icon_path(f"{self.pic}.png") if is_valid(self.pic) else get_icon_path("d000.png")
                 if icon_path:
                     self["icon_weather"].instance.setPixmapFromFile(icon_path)
                     self["icon_weather"].show()
@@ -1451,8 +1433,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                     self["icon_weather"].hide()
         else:
             # No animated folder, use static icon
-            icon_path = get_icon_path(f"{self.pic}.png") if is_valid(
-                self.pic) else get_icon_path("d000.png")
+            icon_path = get_icon_path(f"{self.pic}.png") if is_valid(self.pic) else get_icon_path("d000.png")
             if icon_path:
                 self["icon_weather"].instance.setPixmapFromFile(icon_path)
                 self["icon_weather"].show()
@@ -1472,31 +1453,19 @@ class Foreca_Preview(Screen, HelpableScreen):
             write_current_weather_debug(f"  Pressure    : {press_text}")
             write_current_weather_debug(f"  Rain        : {rain_text}")
             write_current_weather_debug(f"  Humidity    : {hum_text}")
-            write_current_weather_debug(
-                f"  Description : {self['weather_description'].getText()}")
+            write_current_weather_debug(f"  Description : {self['weather_description'].getText()}")
             if hasattr(self, 'uvi'):
-                write_current_weather_debug(
-                    f"  UV index    : {self.uvi} ({uvi_desc})")
-            write_current_weather_debug(
-                f"  AQI         : {self['aqi_value'].getText()}")
-            write_current_weather_debug(
-                f"  Rain prob.  : {self['rainp_value'].getText()}")
-            write_current_weather_debug(
-                f"  Snow prob.  : {self['snowp_value'].getText()}")
-            write_current_weather_debug(
-                f"  Updated     : {self['updated_label'].getText()}")
-            write_current_weather_debug(
-                f"  Sunrise     : {self['sunrise_value'].getText()}")
-            write_current_weather_debug(
-                f"  Sunset      : {self['sunset_value'].getText()}")
-            write_current_weather_debug(
-                f"  Day length  : {self['day_length'].getText()}")
-            write_current_weather_debug(
-                f"  Solar rad   : {self['solar_value'].getText()}")
-            write_current_weather_debug(
-                f"  Solar desc  : {self['solar_desc'].getText()}")
-            write_current_weather_debug(
-                f"  Station     : {self['station_name'].getText()}")
+                write_current_weather_debug(f"  UV index    : {self.uvi} ({uvi_desc})")
+            write_current_weather_debug(f"  AQI         : {self['aqi_value'].getText()}")
+            write_current_weather_debug(f"  Rain prob.  : {self['rainp_value'].getText()}")
+            write_current_weather_debug(f"  Snow prob.  : {self['snowp_value'].getText()}")
+            write_current_weather_debug(f"  Updated     : {self['updated_label'].getText()}")
+            write_current_weather_debug(f"  Sunrise     : {self['sunrise_value'].getText()}")
+            write_current_weather_debug(f"  Sunset      : {self['sunset_value'].getText()}")
+            write_current_weather_debug(f"  Day length  : {self['day_length'].getText()}")
+            write_current_weather_debug(f"  Solar rad   : {self['solar_value'].getText()}")
+            write_current_weather_debug(f"  Solar desc  : {self['solar_desc'].getText()}")
+            write_current_weather_debug(f"  Station     : {self['station_name'].getText()}")
             write_current_weather_debug("=" * 60)
 
     def my_forecast_weather(self):
@@ -1504,8 +1473,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         if DEBUG:
             from datetime import datetime
             write_forecast_weather_debug("\n" + "=" * 70)
-            write_forecast_weather_debug(
-                f"FORECAST UPDATE START: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            write_forecast_weather_debug(f"FORECAST UPDATE START: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             write_forecast_weather_debug("=" * 70)
 
         self.list = []
@@ -1536,34 +1504,31 @@ class Foreca_Preview(Screen, HelpableScreen):
                     f"Raw wind speed: {self.f_wind_speed[i] if i < len(self.f_wind_speed) else 'N/A'}\n"
                     f"Raw feels like: {self.f_flike_temp[i] if i < len(self.f_flike_temp) else 'N/A'}\n"
                     f"Raw precipitation: {self.f_precipitation[i] if i < len(self.f_precipitation) else 'N/A'}\n"
-                    f"Raw humidity: {self.f_rel_hum[i] if i < len(self.f_rel_hum) else 'N/A'}\n")
+                    f"Raw humidity: {self.f_rel_hum[i] if i < len(self.f_rel_hum) else 'N/A'}\n"
+                )
                 write_forecast_weather_debug(debug_entry)
 
             # --- Temperature conversion ---
             try:
                 temp_val = float(self.f_cur_temp[i])
                 if self.unit_manager:
-                    converted, unit = self.unit_manager.convert_temperature(
-                        temp_val)
+                    converted, unit = self.unit_manager.convert_temperature(temp_val)
                     temp_str = f"{int(converted)}{unit}"
                 else:
-                    temp_str = f"+{int(temp_val)}" if temp_val >= 0 else str(
-                        int(temp_val)) + "°C"
+                    temp_str = f"+{int(temp_val)}" if temp_val >= 0 else str(int(temp_val)) + "°C"
             except BaseException:
                 temp_str = "N/A"
 
             # Weather icon
             symb = self.f_symb[i] if i < len(self.f_symb) else 'n600'
             icon_path = get_icon_path(f"{symb}.png")
-            icon_meteo = LoadPixmap(
-                cached=True, path=icon_path) if icon_path else None
+            icon_meteo = LoadPixmap(cached=True, path=icon_path) if icon_path else None
 
             # Wind direction icon
             try:
                 wind_dir_str = self.f_wind[i] if i < len(self.f_wind) else "wN"
                 wind_icon_path = get_icon_path(f"{wind_dir_str}.png")
-                icon_wind = LoadPixmap(
-                    cached=True, path=wind_icon_path) if wind_icon_path else None
+                icon_wind = LoadPixmap(cached=True, path=wind_icon_path) if wind_icon_path else None
             except BaseException:
                 icon_wind = None
 
@@ -1582,8 +1547,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             try:
                 fl_val = float(self.f_flike_temp[i])
                 if self.unit_manager:
-                    converted, unit = self.unit_manager.convert_temperature(
-                        fl_val)
+                    converted, unit = self.unit_manager.convert_temperature(fl_val)
                     fl_str = f"{int(converted)}{unit}"
                 else:
                     fl_str = f"+{int(fl_val)}" if fl_val >= 0 else str(int(fl_val)) + "°C"
@@ -1592,8 +1556,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             feels_like_str = _("Feels like: {}").format(fl_str)
 
             # Precipitation
-            precip = self.f_precipitation[i] if i < len(
-                self.f_precipitation) else '0'
+            precip = self.f_precipitation[i] if i < len(self.f_precipitation) else '0'
             precip_str = _("Precipitations: {}%").format(precip)
 
             # Humidity
@@ -1618,8 +1581,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         Thread(target=self._update_station_label).start()
 
         if DEBUG:
-            write_forecast_weather_debug(
-                f"FORECAST UPDATE END: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            write_forecast_weather_debug(f"FORECAST UPDATE END: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             write_forecast_weather_debug("=" * 70 + "\n")
 
     def update_me(self):

@@ -281,10 +281,7 @@ def cleanup_temp_files(keep_token=True):
                             continue
                         rmdir(dir_path)
                 # Recreate essential subdirectories
-                subdirs = [
-                    "meteogram",
-                    "weather_detail",
-                    "foreca_map_cache/wetterkontor"]
+                subdirs = ["meteogram", "weather_detail", "foreca_map_cache/wetterkontor"]
                 for sub in subdirs:
                     subdir = join(TEMP_DIR, sub)
                     if not exists(subdir):
@@ -298,10 +295,7 @@ def cleanup_temp_files(keep_token=True):
                 if d == TEMP_DIR:
                     makedirs(d)
                     # Also recreate subdirs if TEMP_DIR was completely removed
-                    for sub in [
-                        "meteogram",
-                        "weather_detail",
-                            "foreca_map_cache/wetterkontor"]:
+                    for sub in ["meteogram", "weather_detail", "foreca_map_cache/wetterkontor"]:
                         subdir = join(d, sub)
                         if not exists(subdir):
                             makedirs(subdir)

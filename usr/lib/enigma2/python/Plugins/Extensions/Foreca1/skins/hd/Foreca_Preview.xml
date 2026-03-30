@@ -126,9 +126,9 @@
     <!-- Station -->
     <widget name="icon_observation" position="27,350" size="33,33" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <!-- Compass directions -->
-    <widget name="icon_wind" position="386,379" size="27,27" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
+    <widget name="icon_wind" position="497,378" size="27,27" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="North" position="410,341" size="19,19" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Liberation;15" zPosition="10" halign="center" valign="center" alphatest="blend" />
     <widget name="South" position="410,422" size="19,19" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Liberation;15" zPosition="10" halign="center" valign="center" alphatest="blend" />
-    <widget name="East" position="475,383" size="19,19" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Liberation;15" zPosition="10" halign="center" valign="center" alphatest="blend" />
+    <widget name="East" position="470,383" size="19,19" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Liberation;15" zPosition="11" halign="center" valign="center" alphatest="blend" />
     <widget name="West" position="365,383" size="19,19" transparent="1" backgroundColor="#000080" foregroundColor="#0053a9ff" font="Liberation;15" zPosition="10" halign="center" valign="center" alphatest="blend" />
 </screen>
