@@ -15,6 +15,7 @@ import codecs
 import shutil
 
 VERSION = "1.2.1"
+__version__ = VERSION
 _AUTHOR_ = "by Lululla - 2026"
 IDEAS = "@Bauernbub"
 THANKS = "@Orlandox"
