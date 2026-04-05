@@ -1,7 +1,7 @@
 #!/bin/bash
 
-version='1.2.1'
-changelog='\nAdd Background on screens\nAdd Animated Icons\nCustom Skins (New)** – you can now create your own skins without modifying the built‑in ones.\n,Final Release\nOffer coffee if you like this plugin'
+version='1.2.2'
+changelog='\nAdd ANimated Icons on hours details\nAdd Background on screens\nAdd Animated Icons\nCustom Skins (New)** – you can now create your own skins without modifying the built‑in ones.\n,Final Release\nOffer coffee if you like this plugin'
 
 TMPPATH=/tmp/ForecaOne-install
 FILEPATH=/tmp/ForecaOne-main.tar.gz
