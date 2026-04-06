@@ -123,9 +123,11 @@ class HourDetailView(Screen, HelpableScreen):
     # ---------- Animation methods ----------
     def _start_animation(self, widget_name, frames):
         if DEBUG:
-            print(f"[HourDetail] Starting animation for {widget_name}, {len(frames)} frames")
+            print(
+                f"[HourDetail] Starting animation for {widget_name}, {len(frames)} frames")
         if widget_name not in self._animations:
-            self._animations[widget_name] = {"frames": [], "current": 0, "running": False}
+            self._animations[widget_name] = {
+                "frames": [], "current": 0, "running": False}
         anim = self._animations[widget_name]
         if anim["running"]:
             anim["running"] = False
@@ -270,9 +272,11 @@ class HourDetailView(Screen, HelpableScreen):
         if frames_wind:
             self._start_animation("wind_speed_icon", frames_wind)
         else:
-            wind_speed_icon = join(PLUGIN_PATH, "images", "wind_speed_detail.png")
+            wind_speed_icon = join(
+                PLUGIN_PATH, "images", "wind_speed_detail.png")
             if exists(wind_speed_icon):
-                self["wind_speed_icon"].instance.setPixmapFromFile(wind_speed_icon)
+                self["wind_speed_icon"].instance.setPixmapFromFile(
+                    wind_speed_icon)
                 self["wind_speed_icon"].show()
             else:
                 self["wind_speed_icon"].hide()

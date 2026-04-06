@@ -54,14 +54,18 @@ def parse_foreca_list(content):
         if line.startswith('#') and 'FIX IT' in line:
             if current_continent:
                 # Try to determine which country it belongs to
-                # Example: "# FIX IT: SEND THE RIGHT ONE ON FORUM: Belgium/Heist-op-den-Berg"
+                # Example: "# FIX IT: SEND THE RIGHT ONE ON FORUM:
+                # Belgium/Heist-op-den-Berg"
                 match = re.search(r':\s*([A-Za-z\s\-]+)/', line)
                 if match and current_continent:
                     country = match.group(1).strip()
-                    # Ensure the country exists in the continent (it may be added later)
+                    # Ensure the country exists in the continent (it may be
+                    # added later)
                     if country not in continents[current_continent]:
-                        continents[current_continent][country] = {'cities': [], 'fixits': []}
-                    continents[current_continent][country]['fixits'].append(line)
+                        continents[current_continent][country] = {
+                            'cities': [], 'fixits': []}
+                    continents[current_continent][country]['fixits'].append(
+                        line)
                 else:
                     # Fixit without country -> attach to continent
                     continents[current_continent]['_fixits'].append(line)
@@ -79,8 +83,10 @@ def parse_foreca_list(content):
             city_id, city_name, country = match.groups()
             if current_continent:
                 if country not in continents[current_continent]:
-                    continents[current_continent][country] = {'cities': [], 'fixits': []}
-                continents[current_continent][country]['cities'].append((city_id, city_name, line))
+                    continents[current_continent][country] = {
+                        'cities': [], 'fixits': []}
+                continents[current_continent][country]['cities'].append(
+                    (city_id, city_name, line))
             i += 1
             continue
 
@@ -93,8 +99,14 @@ def parse_foreca_list(content):
 
 def sort_and_output(continents):
     out_lines = []
-    # Fixed continent order (alphabetical but with Australia/Oceania at the end)
-    continent_order = ['Africa', 'Americas', 'Asia', 'Australia/Oceania', 'Europe']
+    # Fixed continent order (alphabetical but with Australia/Oceania at the
+    # end)
+    continent_order = [
+        'Africa',
+        'Americas',
+        'Asia',
+        'Australia/Oceania',
+        'Europe']
     for continent in continent_order:
         if continent not in continents:
             continue
@@ -105,8 +117,7 @@ def sort_and_output(continents):
             'Americas': '#      A m e r i c a s      #',
             'Asia': '#      A s i a      #',
             'Australia/Oceania': '#      A u s t r a l i a / O c e a n i a      #',
-            'Europe': '#      E u r o p e      #'
-        }[continent]
+            'Europe': '#      E u r o p e      #'}[continent]
         out_lines.append('')
         out_lines.append('#########################')
         out_lines.append(header)
