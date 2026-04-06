@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 import re
 import sys
-from collections import defaultdict
+# from collections import defaultdict
 
 
 def parse_foreca_list(content):
     lines = content.splitlines()
     continents = {}
     current_continent = None
-    current_country = None
+    # current_country = None
 
     # Pattern for city line: ID/City-Country
     city_pattern = re.compile(r'^(\d+)/(.+)-([A-Za-z\s\-\'\(\)]+)$')
@@ -46,7 +46,7 @@ def parse_foreca_list(content):
 
         # Country separator (########)
         if line.startswith('########'):
-            current_country = None
+            # current_country = None
             i += 1
             continue
 
