@@ -164,14 +164,18 @@ class CityPanel4(Screen, HelpableScreen):
         self.Mlist = []
         self.city_list = []
 
+        def _close_panel(*args):
+            self.close()
+
         city_cfg_path = join(SYSTEM_DIR, "new_city.cfg")
         if not exists(city_cfg_path):
-            self.session.open(
+            self.session.openWithCallback(
+                _close_panel,
                 MessageBox,
                 _("City list file not found!"),
                 MessageBox.TYPE_WARNING,
-                timeout=5)
-            return
+                timeout=5
+            )
 
         try:
             with open(city_cfg_path, "r", encoding="utf-8") as f:
