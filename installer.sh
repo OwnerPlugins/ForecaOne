@@ -213,7 +213,7 @@ cat <<EOF
 #                developed by LULULLA                   #
 #               https://corvoboys.org                   #
 #########################################################
-#           your Device will RESTART Now                #
+#           Please RESTART YOUR DEVICE FOR APPLY        #
 #########################################################
 ^^^^^^^^^^Debug information:
 BOX MODEL: $box_type
