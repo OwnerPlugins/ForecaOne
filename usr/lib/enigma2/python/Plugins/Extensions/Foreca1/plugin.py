@@ -1367,10 +1367,12 @@ class Foreca_Preview(Screen, HelpableScreen):
                     self["aqi_desc"].instance.setForegroundColor(aqi_color)
             else:
                 self["aqi_value"].setText(_('AQI: N/A'))
-                self["aqi_value"].instance.setForegroundColor(parseColor("#ffffff"))
+                self["aqi_value"].instance.setForegroundColor(
+                    parseColor("#ffffff"))
         else:
             self["aqi_value"].setText(_('AQI: N/A'))
-            self["aqi_value"].instance.setForegroundColor(parseColor("#ffffff"))
+            self["aqi_value"].instance.setForegroundColor(
+                parseColor("#ffffff"))
         # RAIN PROB
         if hasattr(self, 'rainp') and self.rainp != 'N/A':
             self["rainp_value"].setText(_("Rain prob. {}%").format(self.rainp))
