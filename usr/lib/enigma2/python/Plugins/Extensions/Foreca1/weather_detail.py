@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Copyright (c) @Lululla 2026
-# weather_detail.py - Detailed weather view (today/tomorrow) with animated symbols
+# weather_detail.py - Detailed weather view (today/tomorrow) with animated
+# symbols
 
 import glob
 from os.path import exists, join
@@ -180,9 +181,11 @@ class WeatherDetailView(Screen, HelpableScreen):
     # ---------- Animation methods ----------
     def _start_animation(self, widget_name, frames):
         if DEBUG:
-            print(f"[WeatherDetail] Starting animation for {widget_name}, {len(frames)} frames")
+            print(
+                f"[WeatherDetail] Starting animation for {widget_name}, {len(frames)} frames")
         if widget_name not in self._animations:
-            self._animations[widget_name] = {"frames": [], "current": 0, "running": False}
+            self._animations[widget_name] = {
+                "frames": [], "current": 0, "running": False}
         anim = self._animations[widget_name]
         if anim["running"]:
             anim["running"] = False
@@ -228,7 +231,8 @@ class WeatherDetailView(Screen, HelpableScreen):
         if exists(anim_dir):
             frames = sorted(glob.glob(join(anim_dir, "*.png")))
             if DEBUG:
-                print(f"[WeatherDetail] Found {len(frames)} frames in {anim_dir}")
+                print(
+                    f"[WeatherDetail] Found {len(frames)} frames in {anim_dir}")
             return frames
         return []
 
@@ -275,8 +279,7 @@ class WeatherDetailView(Screen, HelpableScreen):
         """Performs the download in a separate thread."""
         try:
             url = "https://map-cf.foreca.net/teaser/map/light/rain/{}/{}/{}/380/598.png?names&units=mm".format(
-                self.zoom_level, self.lon, self.lat
-            )
+                self.zoom_level, self.lon, self.lat)
             response = requests.get(url, headers=HEADERS, timeout=10)
             if response.status_code == 200 and len(response.content) > 0:
                 output_file = join(
@@ -290,8 +293,8 @@ class WeatherDetailView(Screen, HelpableScreen):
                 reactor.callFromThread(self._update_map_pixmap, output_file)
             else:
                 print(
-                    "[WeatherDetail] Download failed for zoom {}".format(self.zoom_level)
-                )
+                    "[WeatherDetail] Download failed for zoom {}".format(
+                        self.zoom_level))
         except Exception as e:
             print("[WeatherDetail] Download error: {}".format(e))
         finally:
@@ -393,10 +396,10 @@ class WeatherDetailView(Screen, HelpableScreen):
                 # # Fallback static icon
                 # path = get_icon_path(f"{symbol}.png")
                 # if path:
-                    # self[widget_name].instance.setPixmapFromFile(path)
-                    # self[widget_name].show()
+                # self[widget_name].instance.setPixmapFromFile(path)
+                # self[widget_name].show()
                 # else:
-                    # self[widget_name].hide()
+                # self[widget_name].hide()
                 # self._stop_animation(widget_name)
 
     def _setup_temperature_labels(self):

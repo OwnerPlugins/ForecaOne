@@ -462,10 +462,12 @@ class ForecaFreeAPI:
                 if not hours_list:
                     day_data[period] = {'temp': 'N/A', 'symbol': 'na'}
                 else:
-                    avg_temp = sum(h.temp for h in hours_list) / len(hours_list)
+                    avg_temp = sum(
+                        h.temp for h in hours_list) / len(hours_list)
                     symbols = [h.condition for h in hours_list]
                     symbol = symbols[len(symbols) // 2] if symbols else 'na'
-                    day_data[period] = {'temp': round(avg_temp), 'symbol': symbol}
+                    day_data[period] = {
+                        'temp': round(avg_temp), 'symbol': symbol}
             return day_data
 
         # Process tomorrow first (needed for today's overnight fallback)
@@ -478,7 +480,8 @@ class ForecaFreeAPI:
             tomorrow_periods = {}
 
         # If today's overnight slot is empty, use tomorrow's.
-        if today_periods.get('overnight', {}).get('temp') == 'N/A' and tomorrow_periods.get('overnight'):
+        if today_periods.get('overnight', {}).get(
+                'temp') == 'N/A' and tomorrow_periods.get('overnight'):
             today_periods['overnight'] = tomorrow_periods['overnight']
 
         result['today'].update(today_periods)
