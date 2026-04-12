@@ -35,10 +35,6 @@ msgstr "6 - Dnes + 6 dní"
 msgid "7 - Today + 7 days"
 msgstr "7 - Dnes + 7 dní"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "OK - Předpověď"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Dnes + 8 dní"
 
@@ -99,10 +95,6 @@ msgstr "Berlín"
 msgid "Black Moon"
 msgstr "Černý měsíc"
 
-#, fuzzy
-msgid "Blue"
-msgstr "Modrý měsíc"
-
 msgid "Blue - Home"
 msgstr "Modrá - Domov"
 
@@ -156,10 +148,6 @@ msgstr "Zavřít"
 
 msgid "Close legend"
 msgstr "Zavřít legendu"
-
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Oblačno a přeháňky"
 
 msgid "Cloudy"
 msgstr "Oblačno"
@@ -271,10 +259,6 @@ msgstr "Rosný bod: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Rosný bod: N/A"
-
-#, fuzzy
-msgid "Distance"
-msgstr "Vzdálenost: %s"
 
 msgid "Distance {} km"
 msgstr "Vzdálenost {} km"
@@ -470,10 +454,6 @@ msgstr "Velká Británie"
 msgid "Greece"
 msgstr "Řecko"
 
-#, fuzzy
-msgid "Green"
-msgstr "Řecko"
-
 msgid "Green - Favorite 1"
 msgstr "Zelená – Oblíbená 1"
 
@@ -482,9 +462,6 @@ msgstr "Nárazy {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Nárazy: {:.1f} {}"
-
-msgid "HTML"
-msgstr ""
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -543,10 +520,6 @@ msgstr "Obrázek %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Obrázek %(current)d/%(total)d – %(day)s (Pozastaveno)"
 
-#, fuzzy
-msgid "Image Downloaded"
-msgstr "Page down"
-
 msgid "Image not available"
 msgstr "Obrázek není k dispozici"
 
@@ -584,10 +557,6 @@ msgid "Keyboard"
 msgstr "Klávesnice"
 
 msgid "Last Quarter"
-msgstr "Poslední čtvrtletí"
-
-#, fuzzy
-msgid "Last update"
 msgstr "Poslední čtvrtletí"
 
 msgid "Latvia"
@@ -964,9 +933,6 @@ msgstr "Předchozí stránka"
 msgid "Previous time"
 msgstr "Předchozí čas"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr "Pravd. deště."
 
@@ -981,9 +947,6 @@ msgstr "Déšť: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
-
-msgid "Red"
-msgstr ""
 
 msgid "Red - Color select"
 msgstr "Červená – výběr barvy"
@@ -1080,9 +1043,6 @@ msgstr "Slovensko"
 
 msgid "Slower: {}s"
 msgstr "Pomaleji: {}s"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr "Sníh / led"
@@ -1185,9 +1145,6 @@ msgstr "Nastavení průhlednosti"
 
 msgid "Transparency level"
 msgstr "Úroveň průhlednosti"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr "UV index"
@@ -1322,10 +1279,6 @@ msgstr "Zítřejší počasí"
 msgid "Weekly Forecast"
 msgstr "Týdenní předpověď"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Mapy počasí"
-
 msgid "Wind"
 msgstr "Vítr"
 
@@ -1415,6 +1368,38 @@ msgstr "• ŽLUTÉ pro uložení jako Oblíbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámeček"
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "OK - Předpověď"
+
+#, fuzzy
+#~ msgid "Blue"
+#~ msgstr "Modrý měsíc"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Oblačno a přeháňky"
+
+#, fuzzy
+#~ msgid "Distance"
+#~ msgstr "Vzdálenost: %s"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "Řecko"
+
+#, fuzzy
+#~ msgid "Image Downloaded"
+#~ msgstr "Page down"
+
+#, fuzzy
+#~ msgid "Last update"
+#~ msgstr "Poslední čtvrtletí"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Mapy počasí"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "OK - Zóna"

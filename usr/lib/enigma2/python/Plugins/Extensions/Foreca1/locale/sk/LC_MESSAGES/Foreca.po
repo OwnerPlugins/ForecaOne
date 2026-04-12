@@ -35,10 +35,6 @@ msgstr "6 - Dnes + 6 dní"
 msgid "7 - Today + 7 days"
 msgstr "7 - Dnes + 7 dní"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "OK - Predpoveď"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Dnes + 8 dní"
 
@@ -99,10 +95,6 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Čierny mesiac"
 
-#, fuzzy
-msgid "Blue"
-msgstr "Modrý mesiac"
-
 msgid "Blue - Home"
 msgstr "Modrá - Domov"
 
@@ -156,10 +148,6 @@ msgstr "Zatvoriť"
 
 msgid "Close legend"
 msgstr "Zavrieť legendu"
-
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Oblačno a prehánky"
 
 msgid "Cloudy"
 msgstr "Zamračené"
@@ -271,10 +259,6 @@ msgstr "Rosný bod: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Rosný bod: N/A"
-
-#, fuzzy
-msgid "Distance"
-msgstr "Vzdialenosť: %s"
 
 msgid "Distance {} km"
 msgstr "Vzdialenosť {} km"
@@ -471,10 +455,6 @@ msgstr "Veľká Británia"
 msgid "Greece"
 msgstr "Grécko"
 
-#, fuzzy
-msgid "Green"
-msgstr "Grécko"
-
 msgid "Green - Favorite 1"
 msgstr "Zelená - obľúbená 1"
 
@@ -483,9 +463,6 @@ msgstr "Náraz vetra {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Náraz vetra: {:.1f} {}"
-
-msgid "HTML"
-msgstr ""
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -544,10 +521,6 @@ msgstr "Obrázok %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Obrázok %(current)d/%(total)d – %(day)s (Pozastavené)"
 
-#, fuzzy
-msgid "Image Downloaded"
-msgstr "O stránku nadol"
-
 msgid "Image not available"
 msgstr "Obrázok nie je k dispozícii"
 
@@ -586,10 +559,6 @@ msgid "Keyboard"
 msgstr "Klávesnica"
 
 msgid "Last Quarter"
-msgstr "Posledný štvrťrok"
-
-#, fuzzy
-msgid "Last update"
 msgstr "Posledný štvrťrok"
 
 msgid "Latvia"
@@ -970,9 +939,6 @@ msgstr "Predchádzajúca stránka"
 msgid "Previous time"
 msgstr "Predchádzajúci čas"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr "Pravd. dažďa."
 
@@ -987,9 +953,6 @@ msgstr "Dážď: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
-
-msgid "Red"
-msgstr ""
 
 msgid "Red - Color select"
 msgstr "Červená – výber farby"
@@ -1088,9 +1051,6 @@ msgstr "Slovensko"
 
 msgid "Slower: {}s"
 msgstr "Pomalšie: {}s"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr "Sneh / ľad"
@@ -1193,9 +1153,6 @@ msgstr "Nastavenia priehľadnosti"
 
 msgid "Transparency level"
 msgstr "Úroveň priehľadnosti"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr "UV index"
@@ -1330,10 +1287,6 @@ msgstr "Počasie zajtra"
 msgid "Weekly Forecast"
 msgstr "Týždenná predpoveď"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Mapy počasia"
-
 msgid "Wind"
 msgstr "Vietor"
 
@@ -1423,6 +1376,38 @@ msgstr "• ŽLTÉ na uloženie ako Obľúbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámik"
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "OK - Predpoveď"
+
+#, fuzzy
+#~ msgid "Blue"
+#~ msgstr "Modrý mesiac"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Oblačno a prehánky"
+
+#, fuzzy
+#~ msgid "Distance"
+#~ msgstr "Vzdialenosť: %s"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "Grécko"
+
+#, fuzzy
+#~ msgid "Image Downloaded"
+#~ msgstr "O stránku nadol"
+
+#, fuzzy
+#~ msgid "Last update"
+#~ msgstr "Posledný štvrťrok"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Mapy počasia"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "OK - Zóna"

@@ -41,9 +41,6 @@ msgstr "6 - 今天 + 6天"
 msgid "7 - Today + 7 days"
 msgstr "7 - 今天 + 7天"
 
-msgid "7 Day Forecast"
-msgstr "7天预报"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - 今天 + 8天"
 
@@ -105,9 +102,6 @@ msgstr "柏林"
 msgid "Black Moon"
 msgstr "满月"
 
-msgid "Blue"
-msgstr "蓝色"
-
 msgid "Blue - Home"
 msgstr "蓝色 - 主页"
 
@@ -162,9 +156,6 @@ msgstr "关闭"
 
 msgid "Close legend"
 msgstr "关闭图例"
-
-msgid "Cloud Cover"
-msgstr "云量"
 
 msgid "Cloudy"
 msgstr "多云"
@@ -276,9 +267,6 @@ msgstr "露点： %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "露点： 无"
-
-msgid "Distance"
-msgstr "距离"
 
 msgid "Distance {} km"
 msgstr "距离 {} 公里"
@@ -470,9 +458,6 @@ msgstr "英国"
 msgid "Greece"
 msgstr "希腊"
 
-msgid "Green"
-msgstr "绿色"
-
 msgid "Green - Favorite 1"
 msgstr "绿色 - 收藏 1"
 
@@ -481,9 +466,6 @@ msgstr "阵风 {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "阵风： {:.1f} {}"
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "汉堡"
@@ -543,9 +525,6 @@ msgstr "图片 %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "图片 %(current)d/%(total)d – %(day)s (已暂停)"
 
-msgid "Image Downloaded"
-msgstr "图片已下载"
-
 msgid "Image not available"
 msgstr "图片不可用"
 
@@ -584,9 +563,6 @@ msgstr "键盘"
 
 msgid "Last Quarter"
 msgstr "下弦月"
-
-msgid "Last update"
-msgstr "最近更新时间"
 
 msgid "Latvia"
 msgstr "拉脱维亚"
@@ -961,9 +937,6 @@ msgstr "上一页"
 msgid "Previous time"
 msgstr "上一次"
 
-msgid "Radar"
-msgstr "雷达"
-
 msgid "Rain Prob."
 msgstr "降雨概率."
 
@@ -978,9 +951,6 @@ msgstr "雨量： {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer雷达"
-
-msgid "Red"
-msgstr "红色"
 
 msgid "Red - Color select"
 msgstr "红色 - 颜色选择"
@@ -1077,9 +1047,6 @@ msgstr "斯洛伐克"
 
 msgid "Slower: {}s"
 msgstr "较慢： {}秒"
-
-msgid "Snow"
-msgstr "雪"
 
 msgid "Snow / ice"
 msgstr "雪 / 冰"
@@ -1183,9 +1150,6 @@ msgstr "透明度设置"
 
 msgid "Transparency level"
 msgstr "透明度级别"
-
-msgid "UV"
-msgstr "紫外线"
 
 msgid "UV Index"
 msgstr "紫外线指数"
@@ -1320,9 +1284,6 @@ msgstr "明日天气"
 msgid "Weekly Forecast"
 msgstr "周预报"
 
-msgid "Wetter.de Maps Test"
-msgstr "Wetter.de地图测试"
-
 msgid "Wind"
 msgstr "风"
 
@@ -1412,6 +1373,45 @@ msgstr "• 黄色 保存为收藏2\n"
 
 msgid "← Frame"
 msgstr "← 帧"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7天预报"
+
+#~ msgid "Blue"
+#~ msgstr "蓝色"
+
+#~ msgid "Cloud Cover"
+#~ msgstr "云量"
+
+#~ msgid "Distance"
+#~ msgstr "距离"
+
+#~ msgid "Green"
+#~ msgstr "绿色"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Image Downloaded"
+#~ msgstr "图片已下载"
+
+#~ msgid "Last update"
+#~ msgstr "最近更新时间"
+
+#~ msgid "Radar"
+#~ msgstr "雷达"
+
+#~ msgid "Red"
+#~ msgstr "红色"
+
+#~ msgid "Snow"
+#~ msgstr "雪"
+
+#~ msgid "UV"
+#~ msgstr "紫外线"
+
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Wetter.de地图测试"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "确定 - 区域"

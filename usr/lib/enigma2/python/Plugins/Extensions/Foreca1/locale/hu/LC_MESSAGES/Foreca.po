@@ -35,10 +35,6 @@ msgstr "6 - Ma + 6 nap"
 msgid "7 - Today + 7 days"
 msgstr "7 - Ma + 7 nap"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "OK – Előrejelzés"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Ma + 8 nap"
 
@@ -99,10 +95,6 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Fekete Hold"
 
-#, fuzzy
-msgid "Blue"
-msgstr "Kék Hold"
-
 msgid "Blue - Home"
 msgstr "Kék – Otthon"
 
@@ -156,10 +148,6 @@ msgstr "Bezár"
 
 msgid "Close legend"
 msgstr "Jelmagyarázat bezárása"
-
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Felhős, záporok"
 
 msgid "Cloudy"
 msgstr "Felhős"
@@ -271,10 +259,6 @@ msgstr "Harmatpont: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Harmatpont: N/A"
-
-#, fuzzy
-msgid "Distance"
-msgstr "Távolság: %s"
 
 msgid "Distance {} km"
 msgstr "Távolság: {} km"
@@ -470,10 +454,6 @@ msgstr "Nagy-Britannia"
 msgid "Greece"
 msgstr "Görögország"
 
-#, fuzzy
-msgid "Green"
-msgstr "Görögország"
-
 msgid "Green - Favorite 1"
 msgstr "Zöld – Kedvenc 1"
 
@@ -482,9 +462,6 @@ msgstr "Széllökés: {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Széllökés: {:.1f} {}"
-
-msgid "HTML"
-msgstr ""
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -543,11 +520,6 @@ msgstr "Kép %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Kép %(current)d/%(total)d – %(day)s (Szüneteltetve)"
 
-# GPT: “Page Down” can be translated as an action (e.g., “Lapozás lefelé”), but it’s also commonly shown as the literal keyboard key label; I chose to keep the key name as-is.
-#, fuzzy
-msgid "Image Downloaded"
-msgstr "Oldal le"
-
 msgid "Image not available"
 msgstr "A kép nem érhető el"
 
@@ -585,10 +557,6 @@ msgid "Keyboard"
 msgstr "Billentyűzet"
 
 msgid "Last Quarter"
-msgstr "Utolsó negyedév"
-
-#, fuzzy
-msgid "Last update"
 msgstr "Utolsó negyedév"
 
 msgid "Latvia"
@@ -966,9 +934,6 @@ msgstr "Előző oldal"
 msgid "Previous time"
 msgstr "Előző időpont"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr "Eső valószínű."
 
@@ -983,9 +948,6 @@ msgstr "Csapadék: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer radar"
-
-msgid "Red"
-msgstr ""
 
 msgid "Red - Color select"
 msgstr "Piros - Színválasztás"
@@ -1082,9 +1044,6 @@ msgstr "Szlovákia"
 
 msgid "Slower: {}s"
 msgstr "Lassabb: {}s"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr "Hó / jég"
@@ -1187,9 +1146,6 @@ msgstr "Átlátszósági beállítások"
 
 msgid "Transparency level"
 msgstr "Átlátszósági szint"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr "UV-index"
@@ -1324,10 +1280,6 @@ msgstr "Holnapi időjárás"
 msgid "Weekly Forecast"
 msgstr "Heti előrejelzés"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Időjárási térképek"
-
 msgid "Wind"
 msgstr "Szél"
 
@@ -1417,6 +1369,39 @@ msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
 
 msgid "← Frame"
 msgstr "← Keret"
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "OK – Előrejelzés"
+
+#, fuzzy
+#~ msgid "Blue"
+#~ msgstr "Kék Hold"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Felhős, záporok"
+
+#, fuzzy
+#~ msgid "Distance"
+#~ msgstr "Távolság: %s"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "Görögország"
+
+# GPT: “Page Down” can be translated as an action (e.g., “Lapozás lefelé”), but it’s also commonly shown as the literal keyboard key label; I chose to keep the key name as-is.
+#, fuzzy
+#~ msgid "Image Downloaded"
+#~ msgstr "Oldal le"
+
+#, fuzzy
+#~ msgid "Last update"
+#~ msgstr "Utolsó negyedév"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Időjárási térképek"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "OK – Zóna"
