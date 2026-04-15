@@ -2119,8 +2119,9 @@ class Foreca_Preview(Screen, HelpableScreen):
         if self.f_date and len(self.f_date) > 0:
             try:
                 target_date = datetime.datetime.strptime(
-                    self.f_date[0], "%d.%m.%Y").date()
-            except BaseException:
+                    self.f_date[0], "%d.%m.%Y"
+                ).date()
+            except ValueError:
                 target_date = datetime.date.today()
         else:
             target_date = datetime.date.today()
