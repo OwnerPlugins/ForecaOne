@@ -1908,11 +1908,11 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # extra = None
         # try:
-            # extra = self.moon.get_moon_extra_details(
-                # float(self.lat), float(self.lon), target_date)
+        # extra = self.moon.get_moon_extra_details(
+        # float(self.lat), float(self.lon), target_date)
         # except Exception as e:
-            # print("[Moon] extra error:", e)
-            # extra = {}
+        # print("[Moon] extra error:", e)
+        # extra = {}
 
         # --- main UI ---
         if "icon_moon" in self and icon_path and exists(icon_path):
@@ -1934,41 +1934,41 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # if extra:
             # if "moonrise_azimuth" in self:
-                # self["moonrise_azimuth"].setText(
-                    # "Azimut Rise: {:.0f}°".format(extra.get('rise_azimuth', 0))
-                # )
+            # self["moonrise_azimuth"].setText(
+            # "Azimut Rise: {:.0f}°".format(extra.get('rise_azimuth', 0))
+            # )
 
             # if "moonset_azimuth" in self:
-                # self["moonset_azimuth"].setText(
-                    # "Azimut Set: {:.0f}°".format(extra.get('set_azimuth', 0))
-                # )
+            # self["moonset_azimuth"].setText(
+            # "Azimut Set: {:.0f}°".format(extra.get('set_azimuth', 0))
+            # )
 
             # if "moon_transit_time" in self:
-                # self["moon_transit_time"].setText(
-                    # "Transit Time: {}".format(extra.get("transit_time", "N/A"))
-                # )
+            # self["moon_transit_time"].setText(
+            # "Transit Time: {}".format(extra.get("transit_time", "N/A"))
+            # )
 
             # if "moon_transit_alt" in self:
-                # self["moon_transit_alt"].setText(
-                    # "Transit Alt.: {:.0f}°".format(
-                        # extra.get(
-                            # 'transit_altitude', 0)))
+            # self["moon_transit_alt"].setText(
+            # "Transit Alt.: {:.0f}°".format(
+            # extra.get(
+            # 'transit_altitude', 0)))
 
             # if "moon_magnitude" in self:
-                # self["moon_magnitude"].setText(
-                    # "Magnitude: {:.2f}".format(extra.get('magnitude', 0))
-                # )
+            # self["moon_magnitude"].setText(
+            # "Magnitude: {:.2f}".format(extra.get('magnitude', 0))
+            # )
 
             # if "moon_angular_diameter" in self:
-                # self["moon_angular_diameter"].setText(
-                    # "Angular D.: {:.0f}\"".format(
-                        # extra.get(
-                            # 'angular_diameter', 0)))
+            # self["moon_angular_diameter"].setText(
+            # "Angular D.: {:.0f}\"".format(
+            # extra.get(
+            # 'angular_diameter', 0)))
 
             # if "moon_age" in self:
-                # self["moon_age"].setText(
-                    # "Age: {:.1f} d".format(extra.get('age', 0))
-                # )
+            # self["moon_age"].setText(
+            # "Age: {:.1f} d".format(extra.get('age', 0))
+            # )
 
         # API request for moonrise/moonset (passing the date)
         if self.lat != 'N/A' and self.lon != 'N/A':
