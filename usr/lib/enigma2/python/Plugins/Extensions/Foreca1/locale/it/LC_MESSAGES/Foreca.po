@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Foreca4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-04-12 20:09+0200\n"
+"PO-Revision-Date: 2026-04-15 17:37+0200\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -17,6 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
+
+msgid "(Additional data not available)"
+msgstr "(Dati aggiuntivi non disponibili)"
 
 msgid "0 - Today"
 msgstr "0 - Oggi"
@@ -42,11 +45,17 @@ msgstr "6 - Oggi + 6 giorni"
 msgid "7 - Today + 7 days"
 msgstr "7 - Oggi + 7 giorni"
 
+msgid "7 Day Forecast"
+msgstr "Previsione 7 Giorni"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Oggi + 8 giorni"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Oggi + 9 giorni"
+
+msgid "=== MOON DETAILS ==="
+msgstr "=== DETTAGLI DELLA LUNA ==="
 
 msgid "API credentials not configured."
 msgstr "Nessuna credenziale API configurata."
@@ -68,6 +77,24 @@ msgstr "Impostazioni Unità Avanzate"
 
 msgid "Afternoon"
 msgstr "Pomeriggio"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Età dalla Luna Nuova: {:.1f} giorni"
+
+msgid "Age: N/A"
+msgstr "Età: N/D"
+
+msgid "Angular diameter: N/A"
+msgstr "Diametro angolare: N/D"
+
+msgid "Angular diameter: {:.0f}"
+msgstr "Diametro angolare: {:.0f}"
+
+msgid "Apparent magnitude: N/A"
+msgstr "Magnitudine apparente: N/D"
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Magnitudine apparente: {:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "Assegna a Preferito 1"
@@ -101,6 +128,9 @@ msgstr "Berlino"
 
 msgid "Black Moon"
 msgstr "Luna Nera"
+
+msgid "Blue"
+msgstr "Blu"
 
 msgid "Blue - Home"
 msgstr "Blu - Principale"
@@ -155,6 +185,9 @@ msgstr "Chiudi"
 
 msgid "Close legend"
 msgstr "Chiudi legenda"
+
+msgid "Cloud Cover"
+msgstr "Copertura nuvolosa"
 
 msgid "Cloudy"
 msgstr "Nuvoloso"
@@ -266,6 +299,9 @@ msgstr "Punto di rugiada %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Punto di rugiada: N/A"
+
+msgid "Distance"
+msgstr "Distanza"
 
 msgid "Distance {} km"
 msgstr "Distanza {} km"
@@ -456,6 +492,9 @@ msgstr "Gran Bretagna"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
 
@@ -464,6 +503,9 @@ msgstr "Raffica {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Raffica: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Amburgo"
@@ -522,6 +564,9 @@ msgstr "Immagine %(current)d/%(total)d - %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Immagine %(current)d/%(total)d – %(day)s (Paused)"
 
+msgid "Image Downloaded"
+msgstr "Immagine Scaricata"
+
 msgid "Image not available"
 msgstr "Immagine non disponibile"
 
@@ -560,6 +605,9 @@ msgstr "Tastiera"
 
 msgid "Last Quarter"
 msgstr "Ultimo Quarto"
+
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
 
 msgid "Latvia"
 msgstr "Lettonia"
@@ -662,6 +710,15 @@ msgstr "Pioggia Moderata"
 
 msgid "Month"
 msgstr "Mese"
+
+msgid "Moon details"
+msgstr "Dettagli della Luna"
+
+msgid "Moonrise: {}"
+msgstr "Sorgere della luna: {}"
+
+msgid "Moonset: {}"
+msgstr "Tramonto della luna: {}"
 
 msgid "Morning"
 msgstr "Mattina"
@@ -870,6 +927,9 @@ msgstr "Perigeo"
 msgid "Phase"
 msgstr "Fase"
 
+msgid "Phase: {}"
+msgstr "Fase: {}"
+
 msgid "Play/Pause"
 msgstr "Riproduci/Pausa"
 
@@ -933,6 +993,9 @@ msgstr "Pagina precedente"
 msgid "Previous time"
 msgstr "Ora Precedente"
 
+msgid "Radar"
+msgstr "Radar"
+
 msgid "Rain Prob."
 msgstr "Prob. pioggia."
 
@@ -947,6 +1010,9 @@ msgstr "Pioggia: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
+
+msgid "Red"
+msgstr "Rosso"
 
 msgid "Red - Color select"
 msgstr "Rosso - Seleziona colore"
@@ -965,6 +1031,12 @@ msgstr "Freccia destra - Giorno successivo"
 
 msgid "Rise"
 msgstr "Leva"
+
+msgid "Rise azimuth: N/A"
+msgstr "Azimut di sorgere: N/D"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Azimut di sorgere: {:.0f}°"
 
 msgid "Russia"
 msgstr "Russia"
@@ -1029,6 +1101,12 @@ msgstr "Seleziona {} unità"
 msgid "Selected hour details"
 msgstr "Dettagli dell'ora selezionata"
 
+msgid "Set azimuth: N/A"
+msgstr "Azimut del tramonto: N/D"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Azimut del tramonto: {:.0f}°"
+
 msgid "Sets"
 msgstr "Cala"
 
@@ -1043,6 +1121,9 @@ msgstr "Slovacchia"
 
 msgid "Slower: {}s"
 msgstr "Più lento: {}s"
+
+msgid "Snow"
+msgstr "Nevicate"
 
 msgid "Snow / ice"
 msgstr "Neve / ghiaccio"
@@ -1140,11 +1221,23 @@ msgstr "Attiva/disattiva legenda"
 msgid "Tomorrow"
 msgstr "Domani"
 
+msgid "Transit (culmination): {}"
+msgstr "Transito (culmine): {}"
+
+msgid "Transit altitude: N/A"
+msgstr "Altitudine di transito: N/D"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Altitudine di transito: {:.0f}°"
+
 msgid "Transparency Settings"
 msgstr "Impostazioni Trasparenza"
 
 msgid "Transparency level"
 msgstr "Livello trasparenza"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV Indice"
@@ -1278,6 +1371,9 @@ msgstr "Meteo domani"
 msgid "Weekly Forecast"
 msgstr "Previsioni settimanali"
 
+msgid "Wetter.de Maps Test"
+msgstr "Wetter.de Maps Test"
+
 msgid "Wind"
 msgstr "Vento"
 
@@ -1367,39 +1463,3 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 msgid "← Frame"
 msgstr "← Cornice"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Previsione 7 Giorni"
-
-#~ msgid "Blue"
-#~ msgstr "Blu"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Copertura nuvolosa"
-
-#~ msgid "Distance"
-#~ msgstr "Distanza"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Immagine Scaricata"
-
-#~ msgid "Last update"
-#~ msgstr "Ultimo aggiornamento"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Rosso"
-
-#~ msgid "Snow"
-#~ msgstr "Nevicate"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Wetter.de Maps Test"

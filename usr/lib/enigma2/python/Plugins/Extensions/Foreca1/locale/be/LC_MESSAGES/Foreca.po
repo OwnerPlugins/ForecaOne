@@ -18,6 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.9\n"
 
+#, fuzzy
+msgid "(Additional data not available)"
+msgstr "Няма даступных дадзеных станцыі"
+
 msgid "0 - Today"
 msgstr "0 - Сёння"
 
@@ -42,11 +46,18 @@ msgstr "6 - Сёння + 6 дзён"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сёння + 7 дзён"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "ОК - Прагноз"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Сёння + 8 дзён"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Сёння + 9 дзён"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr "Уліковыя дадзеныя API не наладжаны."
@@ -68,6 +79,25 @@ msgstr "Пашыраныя налады адзінак вымярэння"
 
 msgid "Afternoon"
 msgstr "Поплудні"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+#, fuzzy
+msgid "Age: N/A"
+msgstr "ІКВ: Н/Д"
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 msgid "Assign to Favorite 1"
 msgstr "Прызначыць у Абранае 1"
@@ -102,6 +132,9 @@ msgstr "Берлін"
 #, fuzzy
 msgid "Black Moon"
 msgstr "Поўня"
+
+msgid "Blue"
+msgstr "Сіні"
 
 msgid "Blue - Home"
 msgstr "Сіняя кнопка - Дамоў"
@@ -157,6 +190,9 @@ msgstr "Зачыніць"
 
 msgid "Close legend"
 msgstr "Зачыніць легенду"
+
+msgid "Cloud Cover"
+msgstr "Воблачнасць"
 
 msgid "Cloudy"
 msgstr "Воблачна"
@@ -268,6 +304,9 @@ msgstr "Кропка расы: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Кропка расы: Н/Д"
+
+msgid "Distance"
+msgstr "Адлегласць"
 
 msgid "Distance {} km"
 msgstr "Адлегласць {} км"
@@ -459,6 +498,9 @@ msgstr "Вялікабрытанія"
 msgid "Greece"
 msgstr "Грэцыя"
 
+msgid "Green"
+msgstr "Зялёны"
+
 msgid "Green - Favorite 1"
 msgstr "Зялёная кнопка - Абранае 1"
 
@@ -467,6 +509,9 @@ msgstr "Парыў {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Парыў: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -526,6 +571,9 @@ msgstr "Выява %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Выява %(current)d/%(total)d – %(day)s (Прыпынена)"
 
+msgid "Image Downloaded"
+msgstr "Выява загружана"
+
 msgid "Image not available"
 msgstr "Выява недаступная"
 
@@ -564,6 +612,9 @@ msgstr "Клавіятура"
 
 msgid "Last Quarter"
 msgstr "Апошняя чвэрць"
+
+msgid "Last update"
+msgstr "Апошняе абнаўленне"
 
 msgid "Latvia"
 msgstr "Латвія"
@@ -666,6 +717,16 @@ msgstr "Умераны дождж"
 
 msgid "Month"
 msgstr "Месяц"
+
+#, fuzzy
+msgid "Moon details"
+msgstr "Дэталі гадзіны"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
+msgstr ""
 
 msgid "Morning"
 msgstr "Раніца"
@@ -875,6 +936,10 @@ msgstr ""
 msgid "Phase"
 msgstr "Фаза"
 
+#, fuzzy
+msgid "Phase: {}"
+msgstr "Фаза"
+
 msgid "Play/Pause"
 msgstr "Прайграць/Прыпыніць"
 
@@ -938,6 +1003,9 @@ msgstr "Папярэдняя старонка"
 msgid "Previous time"
 msgstr "Папярэдні час"
 
+msgid "Radar"
+msgstr "Радар"
+
 msgid "Rain Prob."
 msgstr "Верагоднасць дажджу."
 
@@ -952,6 +1020,9 @@ msgstr "Дождж: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Радар RainViewer"
+
+msgid "Red"
+msgstr "Чырвоны"
 
 msgid "Red - Color select"
 msgstr "Чырвоная кнопка - Выбар колеру"
@@ -970,6 +1041,12 @@ msgstr "Стрэлка направа - Наступны дзень"
 
 msgid "Rise"
 msgstr "Узыход"
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr ""
 
 msgid "Russia"
 msgstr "Расія"
@@ -1034,6 +1111,12 @@ msgstr "Выберыце адзінку {}"
 msgid "Selected hour details"
 msgstr "Дэталі абранай гадзіны"
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
 msgstr "Заход"
 
@@ -1048,6 +1131,9 @@ msgstr "Славакія"
 
 msgid "Slower: {}s"
 msgstr "Павольней: {}с"
+
+msgid "Snow"
+msgstr "Снег"
 
 msgid "Snow / ice"
 msgstr "Снег / лёд"
@@ -1146,11 +1232,23 @@ msgstr "Пераключыць легенду"
 msgid "Tomorrow"
 msgstr "Заўтра"
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr "Налады празрыстасці"
 
 msgid "Transparency level"
 msgstr "Узровень празрыстасці"
+
+msgid "UV"
+msgstr "УФ"
 
 msgid "UV Index"
 msgstr "УФ індэкс"
@@ -1292,6 +1390,10 @@ msgstr ""
 msgid "Weekly Forecast"
 msgstr "7-дзённы прагноз"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Еўрапейскія карты надвор'я"
+
 msgid "Wind"
 msgstr ""
 
@@ -1387,47 +1489,6 @@ msgstr ""
 
 msgid "← Frame"
 msgstr ""
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "ОК - Прагноз"
-
-#~ msgid "Blue"
-#~ msgstr "Сіні"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Воблачнасць"
-
-#~ msgid "Distance"
-#~ msgstr "Адлегласць"
-
-#~ msgid "Green"
-#~ msgstr "Зялёны"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Выява загружана"
-
-#~ msgid "Last update"
-#~ msgstr "Апошняе абнаўленне"
-
-#~ msgid "Radar"
-#~ msgstr "Радар"
-
-#~ msgid "Red"
-#~ msgstr "Чырвоны"
-
-#~ msgid "Snow"
-#~ msgstr "Снег"
-
-#~ msgid "UV"
-#~ msgstr "УФ"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Еўрапейскія карты надвор'я"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "ОК - Зона"

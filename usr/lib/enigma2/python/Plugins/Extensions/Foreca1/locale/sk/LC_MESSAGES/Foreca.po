@@ -11,6 +11,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
+#, fuzzy
+msgid "(Additional data not available)"
+msgstr "Žiadne údaje o stanici nie sú k dispozícii"
+
 msgid "0 - Today"
 msgstr "0 - Dnes"
 
@@ -35,11 +39,18 @@ msgstr "6 - Dnes + 6 dní"
 msgid "7 - Today + 7 days"
 msgstr "7 - Dnes + 7 dní"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "OK - Predpoveď"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Dnes + 8 dní"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Dnes + 9 dní"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr "Poverenia API nie sú nakonfigurované."
@@ -61,6 +72,25 @@ msgstr "Pokročilé nastavenia jednotky"
 
 msgid "Afternoon"
 msgstr "Popoludnie"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+#, fuzzy
+msgid "Age: N/A"
+msgstr "AQI: N/A"
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 msgid "Assign to Favorite 1"
 msgstr "Priradiť k Obľúbenému 1"
@@ -94,6 +124,10 @@ msgstr "Berlin"
 
 msgid "Black Moon"
 msgstr "Čierny mesiac"
+
+#, fuzzy
+msgid "Blue"
+msgstr "Modrý mesiac"
 
 msgid "Blue - Home"
 msgstr "Modrá - Domov"
@@ -135,19 +169,23 @@ msgid "City list file not found!"
 msgstr "Súbor so zoznamom miest sa nenašiel!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Vyčistiť dočasné súbory Foreca One?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Vyčistiť dočasné súbory"
 
 msgid "Clear"
-msgstr "Vyčistiť"
+msgstr "Jasno"
 
 msgid "Close"
 msgstr "Zatvoriť"
 
 msgid "Close legend"
 msgstr "Zavrieť legendu"
+
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "Oblačno a prehánky"
 
 msgid "Cloudy"
 msgstr "Zamračené"
@@ -259,6 +297,10 @@ msgstr "Rosný bod: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Rosný bod: N/A"
+
+#, fuzzy
+msgid "Distance"
+msgstr "Vzdialenosť: %s"
 
 msgid "Distance {} km"
 msgstr "Vzdialenosť {} km"
@@ -434,7 +476,7 @@ msgid "France"
 msgstr "Francúzsko"
 
 msgid "Full Moon"
-msgstr "Spln"
+msgstr "Spln mesiaca"
 
 msgid "Gale force (>60 km/h)"
 msgstr "Víchor (>60 km/h)"
@@ -446,7 +488,7 @@ msgid "Germany"
 msgstr "Nemecko"
 
 msgid "Good"
-msgstr ""
+msgstr "Dobré"
 
 msgid "Great Britain"
 msgstr "Veľká Británia"
@@ -454,8 +496,12 @@ msgstr "Veľká Británia"
 msgid "Greece"
 msgstr "Grécko"
 
+#, fuzzy
+msgid "Green"
+msgstr "Grécko"
+
 msgid "Green - Favorite 1"
-msgstr "Zelená - obľúbená 1"
+msgstr "Zelená - Obľúbené 1"
 
 msgid "Gust {}"
 msgstr "Náraz vetra {}"
@@ -463,11 +509,14 @@ msgstr "Náraz vetra {}"
 msgid "Gust: {:.1f} {}"
 msgstr "Náraz vetra: {:.1f} {}"
 
+msgid "HTML"
+msgstr ""
+
 msgid "Hamburg"
 msgstr "Hamburg"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Nebezpečné"
 
 msgid "Header - not selectable"
 msgstr "Hlavička – nie je možné vybrať"
@@ -520,6 +569,10 @@ msgstr "Obrázok %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Obrázok %(current)d/%(total)d – %(day)s (Pozastavené)"
 
+#, fuzzy
+msgid "Image Downloaded"
+msgstr "O stránku nadol"
+
 msgid "Image not available"
 msgstr "Obrázok nie je k dispozícii"
 
@@ -557,6 +610,10 @@ msgid "Keyboard"
 msgstr "Klávesnica"
 
 msgid "Last Quarter"
+msgstr "Posledný štvrťrok"
+
+#, fuzzy
+msgid "Last update"
 msgstr "Posledný štvrťrok"
 
 msgid "Latvia"
@@ -661,6 +718,16 @@ msgstr "Mierny dážď"
 msgid "Month"
 msgstr "Mesiac"
 
+#, fuzzy
+msgid "Moon details"
+msgstr "Podrobnosti o hodine"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
+msgstr ""
+
 msgid "Morning"
 msgstr "Ráno"
 
@@ -688,7 +755,6 @@ msgstr "N/A"
 msgid "Netherlands"
 msgstr "Holandsko"
 
-# GPT: “New Moon” can mean the lunar phase (Slovak: “nov”) or a title/name (could also be left in English); I chose the common Slovak term for the lunar phase.
 msgid "New Moon"
 msgstr "Nový mesiac"
 
@@ -767,9 +833,8 @@ msgstr "OK - Predpoveď"
 msgid "OK - Open Map"
 msgstr "OK - Otvorená mapa"
 
-#, fuzzy
 msgid "Ok - Details"
-msgstr "Podrobnosti"
+msgstr "OK – Podrobnosti"
 
 msgid "Open Keyboard"
 msgstr "Otvorte klávesnicu"
@@ -870,6 +935,10 @@ msgstr "Perigeum"
 msgid "Phase"
 msgstr "Fáza"
 
+#, fuzzy
+msgid "Phase: {}"
+msgstr "Fáza"
+
 msgid "Play/Pause"
 msgstr "Prehrať/Pozastaviť"
 
@@ -933,6 +1002,9 @@ msgstr "Predchádzajúca stránka"
 msgid "Previous time"
 msgstr "Predchádzajúci čas"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr "Pravd. dažďa."
 
@@ -947,6 +1019,9 @@ msgstr "Dážď: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
+
+msgid "Red"
+msgstr ""
 
 msgid "Red - Color select"
 msgstr "Červená – výber farby"
@@ -964,7 +1039,13 @@ msgid "Right arrow - Next day"
 msgstr "Šípka doprava - Ďalší deň"
 
 msgid "Rise"
-msgstr "Vstať"
+msgstr "Východ mesiaca"
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr ""
 
 msgid "Russia"
 msgstr "Rusko"
@@ -993,7 +1074,6 @@ msgstr "Sasko-Anhaltsko"
 msgid "Schleswig-Holstein"
 msgstr "Schleswig-Holstein"
 
-# GPT: “Scraped” can mean physically scraped off or data scraped (web extraction). With no context, I chose the direct literal sense “Zoškrabané”.
 msgid "Scraped"
 msgstr "Zoškrabané"
 
@@ -1030,8 +1110,14 @@ msgstr "Vyberte jednotku {}"
 msgid "Selected hour details"
 msgstr "Podrobnosti vybranej hodiny"
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
-msgstr "Súpravy"
+msgstr "Západ mesiaca"
 
 msgid "Show info"
 msgstr "Zobraziť informácie"
@@ -1044,6 +1130,9 @@ msgstr "Slovensko"
 
 msgid "Slower: {}s"
 msgstr "Pomalšie: {}s"
+
+msgid "Snow"
+msgstr ""
 
 msgid "Snow / ice"
 msgstr "Sneh / ľad"
@@ -1076,13 +1165,13 @@ msgid "Strong (40-60 km/h)"
 msgstr "Silný (40–60 km/h)"
 
 msgid "Sunrise"
-msgstr "Sunrise"
+msgstr "Východ slnka"
 
 msgid "Sunset"
 msgstr "Západ slnka"
 
 msgid "Super Full Moon"
-msgstr "Super spln"
+msgstr "Super spln mesiaca"
 
 msgid "Sweden"
 msgstr "Švédsko"
@@ -1141,11 +1230,23 @@ msgstr "Prepnúť legendu"
 msgid "Tomorrow"
 msgstr "Zajtra"
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr "Nastavenia priehľadnosti"
 
 msgid "Transparency level"
 msgstr "Úroveň priehľadnosti"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV index"
@@ -1154,10 +1255,10 @@ msgid "UV N/A"
 msgstr "UV N/A"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Nezdravé"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Nezdravé pre citlivých"
 
 msgid "Unit Settings"
 msgstr "Nastavenia jednotiek"
@@ -1222,9 +1323,8 @@ msgstr "Veľmi horúco (>40 °C)"
 msgid "Very low"
 msgstr "Veľmi nízka"
 
-#, fuzzy
 msgid "Very unhealthy"
-msgstr "Veľmi silný dážď"
+msgstr "Veľmi nezdravé"
 
 msgid "Visibility: %s m"
 msgstr "Dohľadnosť: %s m"
@@ -1279,6 +1379,10 @@ msgstr "Počasie zajtra"
 
 msgid "Weekly Forecast"
 msgstr "Týždenná predpoveď"
+
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Mapy počasia"
 
 msgid "Wind"
 msgstr "Vietor"
@@ -1369,38 +1473,3 @@ msgstr "• ŽLTÉ na uloženie ako Obľúbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámik"
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "OK - Predpoveď"
-
-#, fuzzy
-#~ msgid "Blue"
-#~ msgstr "Modrý mesiac"
-
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "Oblačno a prehánky"
-
-#, fuzzy
-#~ msgid "Distance"
-#~ msgstr "Vzdialenosť: %s"
-
-#, fuzzy
-#~ msgid "Green"
-#~ msgstr "Grécko"
-
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "O stránku nadol"
-
-#, fuzzy
-#~ msgid "Last update"
-#~ msgstr "Posledný štvrťrok"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Mapy počasia"
-
-#~ msgid "Ok - Zone"
-#~ msgstr "OK - Zóna"

@@ -17,6 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "(Additional data not available)"
+msgstr ""
+
 msgid "0 - Today"
 msgstr "0 - Today"
 
@@ -41,11 +44,18 @@ msgstr "6 - Today + 6 days"
 msgid "7 - Today + 7 days"
 msgstr "7 - Today + 7 days"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "Foreca 4"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Today + 8 days"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Today + 9 days"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr ""
@@ -68,6 +78,24 @@ msgstr "Menu - Select transparency"
 
 msgid "Afternoon"
 msgstr "Afternoon"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+msgid "Age: N/A"
+msgstr ""
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 #, fuzzy
 msgid "Assign to Favorite 1"
@@ -104,6 +132,10 @@ msgstr ""
 
 msgid "Black Moon"
 msgstr ""
+
+#, fuzzy
+msgid "Blue"
+msgstr "Blue - Home"
 
 msgid "Blue - Home"
 msgstr "Blue - Home"
@@ -162,6 +194,9 @@ msgstr ""
 #, fuzzy
 msgid "Close legend"
 msgstr "Color selection"
+
+msgid "Cloud Cover"
+msgstr ""
 
 msgid "Cloudy"
 msgstr ""
@@ -281,6 +316,10 @@ msgstr ""
 
 msgid "Dewpoint: N/A"
 msgstr ""
+
+#, fuzzy
+msgid "Distance"
+msgstr "Wind"
 
 msgid "Distance {} km"
 msgstr ""
@@ -495,6 +534,9 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
+msgid "Green"
+msgstr ""
+
 msgid "Green - Favorite 1"
 msgstr "Green - Favorite 1"
 
@@ -502,6 +544,9 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
+msgstr ""
+
+msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -565,6 +610,9 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
+msgid "Image Downloaded"
+msgstr ""
+
 msgid "Image not available"
 msgstr ""
 
@@ -602,6 +650,9 @@ msgid "Keyboard"
 msgstr ""
 
 msgid "Last Quarter"
+msgstr ""
+
+msgid "Last update"
 msgstr ""
 
 msgid "Latvia"
@@ -710,6 +761,16 @@ msgid "Moderate rain"
 msgstr "Foreca 4"
 
 msgid "Month"
+msgstr ""
+
+#, fuzzy
+msgid "Moon details"
+msgstr "Green - Favorite 1"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
 msgstr ""
 
 msgid "Morning"
@@ -932,6 +993,9 @@ msgstr ""
 msgid "Phase"
 msgstr ""
 
+msgid "Phase: {}"
+msgstr ""
+
 msgid "Play/Pause"
 msgstr ""
 
@@ -1005,6 +1069,9 @@ msgstr "Up - Previous page"
 msgid "Previous time"
 msgstr "Up - Previous page"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr ""
 
@@ -1020,6 +1087,9 @@ msgstr ""
 #, fuzzy
 msgid "RainViewer Radar"
 msgstr "Weather Radar"
+
+msgid "Red"
+msgstr ""
 
 msgid "Red - Color select"
 msgstr "Red - Color select"
@@ -1037,6 +1107,12 @@ msgid "Right arrow - Next day"
 msgstr "Right arrow - Next day"
 
 msgid "Rise"
+msgstr ""
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
 msgstr ""
 
 msgid "Russia"
@@ -1109,6 +1185,12 @@ msgstr "Color selection"
 msgid "Selected hour details"
 msgstr ""
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
 msgstr ""
 
@@ -1122,6 +1204,9 @@ msgid "Slovakia"
 msgstr ""
 
 msgid "Slower: {}s"
+msgstr ""
+
+msgid "Snow"
 msgstr ""
 
 msgid "Snow / ice"
@@ -1223,12 +1308,24 @@ msgstr "Color selection"
 msgid "Tomorrow"
 msgstr ""
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 #, fuzzy
 msgid "Transparency Settings"
 msgstr "Transparency level"
 
 msgid "Transparency level"
 msgstr "Transparency level"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr ""
@@ -1370,6 +1467,10 @@ msgstr "Weather tomorrow"
 msgid "Weekly Forecast"
 msgstr "Foreca 4"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Weather Radar"
+
 msgid "Wind"
 msgstr "Wind"
 
@@ -1466,22 +1567,6 @@ msgstr ""
 
 msgid "← Frame"
 msgstr ""
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "Foreca 4"
-
-#, fuzzy
-#~ msgid "Blue"
-#~ msgstr "Blue - Home"
-
-#, fuzzy
-#~ msgid "Distance"
-#~ msgstr "Wind"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Weather Radar"
 
 #, fuzzy
 #~ msgid "Precipitation intensity:"

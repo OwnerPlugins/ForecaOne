@@ -404,15 +404,15 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["moonset_label"] = Label(_("Sets"))
         self["icon_moonset"] = Pixmap()
         self["moonset_value"] = Label()
-
-        # self["moonrise_azimuth"] = Label()
-        # self["moonset_azimuth"] = Label()
-        # self["moon_transit_time"] = Label()
-        # self["moon_transit_alt"] = Label()
-        # self["moon_magnitude"] = Label()
-        # self["moon_angular_diameter"] = Label()
-        # self["moon_age"] = Label()
-
+        """
+        self["moonrise_azimuth"] = Label()
+        self["moonset_azimuth"] = Label()
+        self["moon_transit_time"] = Label()
+        self["moon_transit_alt"] = Label()
+        self["moon_magnitude"] = Label()
+        self["moon_angular_diameter"] = Label()
+        self["moon_age"] = Label()
+        """
         self.list = []
         self["menu"] = List(self.list)
 
@@ -523,7 +523,8 @@ class Foreca_Preview(Screen, HelpableScreen):
         menu = [
             (_("Selected hour details"), "hour"),
             (_("Today/Tomorrow details"), "day"),
-            (_("Favorites details"), "favorites")
+            (_("Favorites details"), "favorites"),
+            (_("Moon details"), "moon_details")
         ]
         self.session.openWithCallback(
             self.okChoiceCallback,
@@ -575,6 +576,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self.weather_api,
                 self,
                 self.unit_manager)
+        elif action == "moon_details":
+            self.show_moon_details()
         else:
             return
 
@@ -859,7 +862,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f"[DEBUG] Final buttons | "
                 f"Blue: {button_names[0] if len(button_names) > 0 else 'N/A'} | "
                 f"Green: {button_names[1] if len(button_names) > 1 else 'N/A'} | "
-                f"Yellow: {button_names[2] if len(button_names) > 2 else 'N/A'}")
+                f"Yellow: {button_names[2] if len(button_names) > 2 else 'N/A'}"
+            )
 
     def _load_favorite(self, fav_index, path_loc, forced_name=None):
         """Load data for the specified favorite.
@@ -1905,15 +1909,15 @@ class Foreca_Preview(Screen, HelpableScreen):
         phase_name = info.get("name", "N/A")
         illumination = info.get("illumination", 0)
         icon_path = info.get("icon_path")
-
-        # extra = None
-        # try:
-            # extra = self.moon.get_moon_extra_details(
-                # float(self.lat), float(self.lon), target_date)
-        # except Exception as e:
-            # print("[Moon] extra error:", e)
-            # extra = {}
-
+        """
+        extra = None
+        try:
+            extra = self.moon.get_moon_extra_details(
+                float(self.lat), float(self.lon), target_date)
+        except Exception as e:
+            print("[Moon] extra error:", e)
+            extra = {}
+        """
         # --- main UI ---
         if "icon_moon" in self and icon_path and exists(icon_path):
             self["icon_moon"].instance.setPixmapFromFile(icon_path)
@@ -1922,8 +1926,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             self["moon_label"].setText(_(phase_name))
 
         if "moon_illum" in self:
-            self["moon_illum"].setText(
-                _("Illumination") + f" {illumination:.1f}%")
+            self["moon_illum"].setText(_("Illumination") + f" {illumination:.1f}%")
 
         if "illum_bar" in self:
             self["illum_bar"].setValue(int(illumination))
@@ -1931,45 +1934,43 @@ class Foreca_Preview(Screen, HelpableScreen):
         if "moon_distance" in self:
             distance = self.moon.get_moon_distance(target_date)
             self["moon_distance"].setText(_("Distance {} km").format(distance))
+        """
+        if extra:
+            if "moonrise_azimuth" in self:
+                self["moonrise_azimuth"].setText(
+                    "Azimut Rise: {:.0f}°".format(extra.get('rise_azimuth', 0))
+                )
 
-        # if extra:
-            # if "moonrise_azimuth" in self:
-                # self["moonrise_azimuth"].setText(
-                    # "Azimut Rise: {:.0f}°".format(extra.get('rise_azimuth', 0))
-                # )
+            if "moonset_azimuth" in self:
+                self["moonset_azimuth"].setText(
+                    "Azimut Set: {:.0f}°".format(extra.get('set_azimuth', 0))
+                )
 
-            # if "moonset_azimuth" in self:
-                # self["moonset_azimuth"].setText(
-                    # "Azimut Set: {:.0f}°".format(extra.get('set_azimuth', 0))
-                # )
+            if "moon_transit_time" in self:
+                self["moon_transit_time"].setText(
+                    "Transit Time: {}".format(extra.get("transit_time", "N/A"))
+                )
 
-            # if "moon_transit_time" in self:
-                # self["moon_transit_time"].setText(
-                    # "Transit Time: {}".format(extra.get("transit_time", "N/A"))
-                # )
+            if "moon_transit_alt" in self:
+                self["moon_transit_alt"].setText(
+                    "Transit Alt.: {:.0f}°".format(extra.get('transit_altitude', 0))
+                )
 
-            # if "moon_transit_alt" in self:
-                # self["moon_transit_alt"].setText(
-                    # "Transit Alt.: {:.0f}°".format(
-                        # extra.get(
-                            # 'transit_altitude', 0)))
+            if "moon_magnitude" in self:
+                self["moon_magnitude"].setText(
+                    "Magnitude: {:.2f}".format(extra.get('magnitude', 0))
+                )
 
-            # if "moon_magnitude" in self:
-                # self["moon_magnitude"].setText(
-                    # "Magnitude: {:.2f}".format(extra.get('magnitude', 0))
-                # )
+            if "moon_angular_diameter" in self:
+                self["moon_angular_diameter"].setText(
+                    "Angular D.: {:.0f}\"".format(extra.get('angular_diameter', 0))
+                )
 
-            # if "moon_angular_diameter" in self:
-                # self["moon_angular_diameter"].setText(
-                    # "Angular D.: {:.0f}\"".format(
-                        # extra.get(
-                            # 'angular_diameter', 0)))
-
-            # if "moon_age" in self:
-                # self["moon_age"].setText(
-                    # "Age: {:.1f} d".format(extra.get('age', 0))
-                # )
-
+            if "moon_age" in self:
+                self["moon_age"].setText(
+                    "Age: {:.1f} d".format(extra.get('age', 0))
+                )
+        """
         # API request for moonrise/moonset (passing the date)
         if self.lat != 'N/A' and self.lon != 'N/A':
             try:
@@ -1982,15 +1983,13 @@ class Foreca_Preview(Screen, HelpableScreen):
                     offset_hours = self.tz.utcoffset(
                         datetime.datetime.now()).total_seconds() / 3600
 
-                # Pass target date to API
                 self.moon.get_moon_data_async(
-                    float(self.lat), float(self.lon),
+                    lat_f, lon_f,
                     callback=self._moon_api_callback,
                     max_days=5,
                     offset_hours=offset_hours,
                     date=target_date
                 )
-
             except Exception as e:
                 print(f"[Moon] Error: {e}")
 
@@ -2004,18 +2003,14 @@ class Foreca_Preview(Screen, HelpableScreen):
                     print("[Moon] DEBUG - rise:", api_data.get("rise"))
                     print("[Moon] DEBUG - set:", api_data.get("set"))
                     print("[Moon] DEBUG - phase:", api_data.get("phase"))
-                    print(
-                        "[Moon] DEBUG - illumination (fraction):",
-                        api_data.get("illumination"))
+                    print("[Moon] DEBUG - illumination (fraction):", api_data.get("illumination"))
 
                 # Update moonrise/moonset (already in local time)
-                if "moonrise_value" in self and api_data.get(
-                        "rise", "N/A") != "N/A":
+                if "moonrise_value" in self and api_data.get("rise", "N/A") != "N/A":
                     self["moonrise_value"].setText(api_data["rise"])
                     self["moonrise_value"].instance.invalidate()
 
-                if "moonset_value" in self and api_data.get(
-                        "set", "N/A") != "N/A":
+                if "moonset_value" in self and api_data.get("set", "N/A") != "N/A":
                     self["moonset_value"].setText(api_data["set"])
                     self["moonset_value"].instance.invalidate()
 
@@ -2025,12 +2020,10 @@ class Foreca_Preview(Screen, HelpableScreen):
 
                 if api_phase and api_phase != "N/A" and api_illum is not None:
                     illum_percent = api_illum * 100
-                    icon_number = self._get_icon_number_from_api(
-                        api_phase, illum_percent)
+                    icon_number = self._get_icon_number_from_api(api_phase, illum_percent)
 
                     # Look for icon file (use moon icon folder)
-                    icon_path = join(
-                        MOON_ICON_PATH, f"moon{icon_number:04d}.png")
+                    icon_path = join(MOON_ICON_PATH, f"moon{icon_number:04d}.png")
                     if not exists(icon_path):
                         icon_path = self.moon._find_nearest_icon(icon_number)
 
@@ -2038,22 +2031,19 @@ class Foreca_Preview(Screen, HelpableScreen):
                         self["icon_moon"].instance.setPixmapFromFile(icon_path)
 
                     self["moon_label"].setText(_(api_phase))
-                    self["moon_illum"].setText(
-                        _("Illumination") + f" {illum_percent:.1f}%")
+                    self["moon_illum"].setText(_("Illumination") + f" {illum_percent:.1f}%")
                     self["illum_bar"].setValue(int(illum_percent))
 
                     distance = self.moon.get_moon_distance()
                     distance_km = int(round(distance))  # or f"{distance:.0f}"
-                    self["moon_distance"].setText(
-                        _("Distance {} km").format(distance_km))
+                    self["moon_distance"].setText(_("Distance {} km").format(distance_km))
 
                 else:
                     # Fallback to internal calculations (if API fails)
                     info = self.moon.get_phase_info()
 
                     if "icon_moon" in self and info["icon_path"]:
-                        self["icon_moon"].instance.setPixmapFromFile(
-                            info["icon_path"])
+                        self["icon_moon"].instance.setPixmapFromFile(info["icon_path"])
 
                     if "moon_label" in self:
                         self["moon_label"].setText(_(info["name"]))
@@ -2074,16 +2064,9 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self.instance.invalidate()
 
                 if DEBUG:
-                    print(
-                        "[Moon] DEBUG - Setting moon_label to:",
-                        _(api_phase))
-                    print(
-                        "[Moon] DEBUG - Setting illumination to:",
-                        illum_percent)
-                    print(
-                        "[Moon] DEBUG - Selected icon:",
-                        icon_number,
-                        icon_path)
+                    print("[Moon] DEBUG - Setting moon_label to:", _(api_phase))
+                    print("[Moon] DEBUG - Setting illumination to:", illum_percent)
+                    print("[Moon] DEBUG - Selected icon:", icon_number, icon_path)
 
             reactor.callFromThread(update_ui)
 
@@ -2102,8 +2085,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         if name in ("last quarter", "third quarter"):
             return 75
 
-        # For intermediate phases (Waxing Crescent, Waxing Gibbous, etc.) use
-        # illumination
+        # For intermediate phases (Waxing Crescent, Waxing Gibbous, etc.) use illumination
         if "waxing crescent" in name:
             return int(round(illum_percent * 25 / 50))
         if "waxing gibbous" in name:
@@ -2114,6 +2096,71 @@ class Foreca_Preview(Screen, HelpableScreen):
             return int(round(75 + (50 - illum_percent) * 25 / 50))
         # Fallback
         return 50
+
+    def show_moon_details(self):
+        # Use the date of the first entry in the list (if available)
+        if self.f_date and len(self.f_date) > 0:
+            try:
+                target_date = datetime.datetime.strptime(self.f_date[0], "%d.%m.%Y").date()
+            except:
+                target_date = datetime.date.today()
+        else:
+            target_date = datetime.date.today()
+
+        # Convert to datetime for functions
+        target_datetime = datetime.datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0)
+        
+        # Get base data
+        info = self.moon.get_phase_info(target_datetime)
+        phase_name = info.get("name", "N/A")
+        illumination = info.get("illumination", 0)
+        distance_km = info.get("distance", 0)
+        
+        # Get extra data (requires lat/lon)
+        extra = {}
+        if self.lat != 'N/A' and self.lon != 'N/A':
+            try:
+                extra = self.moon.get_moon_extra_details(float(self.lat), float(self.lon), target_datetime)
+            except Exception as e:
+                print("[Moon] extra error:", e)
+        
+        # Format message
+        lines = []
+        lines.append(_("=== MOON DETAILS ==="))
+        lines.append("")
+        lines.append(_("Date: {}").format(target_date.strftime('%d.%m.%Y')))
+        lines.append(_("Phase: {}").format(_(phase_name)))
+        lines.append(_("Illumination: {:.1f}%").format(illumination))
+        lines.append(_("Distance: {} km").format(distance_km))
+        lines.append("")
+        
+        if extra:
+            # Times (already in local time thanks to the API)
+            lines.append(_("Moonrise: {}").format(extra.get('rise_time', 'N/A')))
+            lines.append(_("Moonset: {}").format(extra.get('set_time', 'N/A')))
+            
+            lines.append(_("Rise azimuth: {:.0f}°").format(extra.get('rise_azimuth'))
+                if extra.get('rise_azimuth') else _("Rise azimuth: N/A"))
+            lines.append(_("Set azimuth: {:.0f}°").format(extra.get('set_azimuth'))
+                if extra.get('set_azimuth') else _("Set azimuth: N/A"))
+            
+            lines.append(_("Transit (culmination): {}").format(extra.get('transit_time', 'N/A')))
+            lines.append(_("Transit altitude: {:.0f}°").format(extra.get('transit_altitude'))
+                if extra.get('transit_altitude') else _("Transit altitude: N/A"))
+            
+            lines.append(_("Apparent magnitude: {:.2f}").format(extra.get('magnitude'))
+                if extra.get('magnitude') else _("Apparent magnitude: N/A"))
+            lines.append(
+            (_("Angular diameter: {:.0f}") + "\"").format(extra.get('angular_diameter'))
+                if extra.get('angular_diameter') else _("Angular diameter: N/A")
+            )
+            
+            lines.append(_("Age since New Moon: {:.1f} days").format(extra.get('age')) if extra.get('age') else _("Age: N/A"))
+        else:
+            lines.append(_("(Additional data not available)"))
+        
+        message = "\n".join(lines)
+        self.session.open(MessageBox, message, MessageBox.TYPE_INFO)
 
     def open_foreca_api_maps(self, callback=None):
         if not exists(CONFIG_FILE):

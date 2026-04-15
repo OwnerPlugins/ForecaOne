@@ -18,6 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
+#, fuzzy
+msgid "(Additional data not available)"
+msgstr "Asemadataa ei ole saatavilla"
+
 msgid "0 - Today"
 msgstr "0 - Tänään"
 
@@ -42,11 +46,17 @@ msgstr "6 - Tänään + 6 päivää"
 msgid "7 - Today + 7 days"
 msgstr "7 - Tänään + 7 päivää"
 
+msgid "7 Day Forecast"
+msgstr "7 päivän ennuste"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Tänään + 8 päivää"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Tänään + 9 päivää"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr "API-tunnuksia ei ole määritetty."
@@ -68,6 +78,25 @@ msgstr "Edistyneet yksikköasetukset"
 
 msgid "Afternoon"
 msgstr "Iltapäivä"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+#, fuzzy
+msgid "Age: N/A"
+msgstr "AQI: N/A"
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 msgid "Assign to Favorite 1"
 msgstr "Määritä suosikiksi 1"
@@ -101,6 +130,9 @@ msgstr "Berliini"
 
 msgid "Black Moon"
 msgstr "Musta kuu"
+
+msgid "Blue"
+msgstr "Sininen"
 
 msgid "Blue - Home"
 msgstr "Sininen - Koti"
@@ -155,6 +187,9 @@ msgstr "Sulje"
 
 msgid "Close legend"
 msgstr "Värin valinta"
+
+msgid "Cloud Cover"
+msgstr "Pilvisyys"
 
 msgid "Cloudy"
 msgstr "Melko pilvistä"
@@ -266,6 +301,9 @@ msgstr "Kastepiste: %s °C"
 
 msgid "Dewpoint: N/A"
 msgstr "Kastepiste: N/A"
+
+msgid "Distance"
+msgstr "Etäisyys"
 
 msgid "Distance {} km"
 msgstr "Etäisyys {} km"
@@ -456,6 +494,9 @@ msgstr "Iso-Britannia"
 msgid "Greece"
 msgstr "Kreikka"
 
+msgid "Green"
+msgstr "Vihreä"
+
 msgid "Green - Favorite 1"
 msgstr "Vihreä - Suosikki 1"
 
@@ -464,6 +505,9 @@ msgstr "Tuulen puuska {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Tuulen puuska: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hampuri"
@@ -522,6 +566,9 @@ msgstr "Kuva %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Kuva %(current)d/%(total)d – %(day)s (keskeytetty)"
 
+msgid "Image Downloaded"
+msgstr "Kuva ladattu"
+
 msgid "Image not available"
 msgstr "Kuvaa ei saatavilla"
 
@@ -560,6 +607,9 @@ msgstr "Näppäimistö"
 
 msgid "Last Quarter"
 msgstr "Viimeinen neljännes"
+
+msgid "Last update"
+msgstr "Viimeisin päivitys"
 
 msgid "Latvia"
 msgstr "Latvia"
@@ -662,6 +712,16 @@ msgstr "Kohtalaista sadetta"
 
 msgid "Month"
 msgstr "Kuukausi"
+
+#, fuzzy
+msgid "Moon details"
+msgstr "Tuntikohtaiset tiedot"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
+msgstr ""
 
 msgid "Morning"
 msgstr "Aamu"
@@ -871,6 +931,10 @@ msgstr "Kuun perigee"
 msgid "Phase"
 msgstr "Vaihe"
 
+#, fuzzy
+msgid "Phase: {}"
+msgstr "Vaihe"
+
 msgid "Play/Pause"
 msgstr "Toista/Keskeytä"
 
@@ -934,6 +998,9 @@ msgstr "Edellinen sivu"
 msgid "Previous time"
 msgstr "Edellinen aika"
 
+msgid "Radar"
+msgstr "Tutka"
+
 msgid "Rain Prob."
 msgstr "Sateen todennäköisyys"
 
@@ -948,6 +1015,9 @@ msgstr "Sade: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer-tutka"
+
+msgid "Red"
+msgstr "Punainen"
 
 msgid "Red - Color select"
 msgstr "Punainen - Valitse väri"
@@ -966,6 +1036,12 @@ msgstr "Oikea nuoli - Seuraava päivä"
 
 msgid "Rise"
 msgstr "Nousu"
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr ""
 
 msgid "Russia"
 msgstr "Venäjä"
@@ -1030,6 +1106,12 @@ msgstr "Valitse yksikkö: {}"
 msgid "Selected hour details"
 msgstr "Valitun tunnin tiedot"
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
 msgstr "Lasku"
 
@@ -1044,6 +1126,9 @@ msgstr "Slovakia"
 
 msgid "Slower: {}s"
 msgstr "Hitaammin: {}s"
+
+msgid "Snow"
+msgstr "Lumisade"
 
 msgid "Snow / ice"
 msgstr "Lunta/ jäätä"
@@ -1141,11 +1226,23 @@ msgstr "Näytä/piilota selite"
 msgid "Tomorrow"
 msgstr "Huomenna"
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr "Läpinäkyvyysasetukset"
 
 msgid "Transparency level"
 msgstr "Läpinäkyvyystaso"
+
+msgid "UV"
+msgstr "UV"
 
 msgid "UV Index"
 msgstr "UV-indeksi"
@@ -1280,6 +1377,9 @@ msgstr "Sää huomenna"
 msgid "Weekly Forecast"
 msgstr "Viikon ennuste"
 
+msgid "Wetter.de Maps Test"
+msgstr "Wetter.de-karttatesti"
+
 msgid "Wind"
 msgstr "Tuuli"
 
@@ -1369,45 +1469,6 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
 msgid "← Frame"
 msgstr "← Kehys"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "7 päivän ennuste"
-
-#~ msgid "Blue"
-#~ msgstr "Sininen"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Pilvisyys"
-
-#~ msgid "Distance"
-#~ msgstr "Etäisyys"
-
-#~ msgid "Green"
-#~ msgstr "Vihreä"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Kuva ladattu"
-
-#~ msgid "Last update"
-#~ msgstr "Viimeisin päivitys"
-
-#~ msgid "Radar"
-#~ msgstr "Tutka"
-
-#~ msgid "Red"
-#~ msgstr "Punainen"
-
-#~ msgid "Snow"
-#~ msgstr "Lumisade"
-
-#~ msgid "UV"
-#~ msgstr "UV"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Wetter.de-karttatesti"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "OK - Lisätiedot"

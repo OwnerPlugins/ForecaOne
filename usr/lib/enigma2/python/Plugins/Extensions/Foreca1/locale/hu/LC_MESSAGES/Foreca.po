@@ -11,6 +11,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
+#, fuzzy
+msgid "(Additional data not available)"
+msgstr "Nem érhetők el állomásadatok"
+
 msgid "0 - Today"
 msgstr "0 - Ma"
 
@@ -35,11 +39,18 @@ msgstr "6 - Ma + 6 nap"
 msgid "7 - Today + 7 days"
 msgstr "7 - Ma + 7 nap"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "OK – Előrejelzés"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Ma + 8 nap"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Ma + 9 nap"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr "Az API-hitelesítő adatok nincsenek beállítva."
@@ -61,6 +72,25 @@ msgstr "Speciális egységbeállítások"
 
 msgid "Afternoon"
 msgstr "Délután"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+#, fuzzy
+msgid "Age: N/A"
+msgstr "AQI: N/A"
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 msgid "Assign to Favorite 1"
 msgstr "Hozzárendelés a Kedvenc 1-hez"
@@ -94,6 +124,10 @@ msgstr "Berlin"
 
 msgid "Black Moon"
 msgstr "Fekete Hold"
+
+#, fuzzy
+msgid "Blue"
+msgstr "Kék Hold"
 
 msgid "Blue - Home"
 msgstr "Kék – Otthon"
@@ -135,19 +169,23 @@ msgid "City list file not found!"
 msgstr "A városlista fájl nem található!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Törli a Foreca One ideiglenes fájljait?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Ideiglenes fájlok törlése"
 
 msgid "Clear"
-msgstr "Törlés"
+msgstr "Derült"
 
 msgid "Close"
 msgstr "Bezár"
 
 msgid "Close legend"
 msgstr "Jelmagyarázat bezárása"
+
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "Felhős, záporok"
 
 msgid "Cloudy"
 msgstr "Felhős"
@@ -259,6 +297,10 @@ msgstr "Harmatpont: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Harmatpont: N/A"
+
+#, fuzzy
+msgid "Distance"
+msgstr "Távolság: %s"
 
 msgid "Distance {} km"
 msgstr "Távolság: {} km"
@@ -446,12 +488,16 @@ msgid "Germany"
 msgstr "Németország"
 
 msgid "Good"
-msgstr ""
+msgstr "Jó"
 
 msgid "Great Britain"
 msgstr "Nagy-Britannia"
 
 msgid "Greece"
+msgstr "Görögország"
+
+#, fuzzy
+msgid "Green"
 msgstr "Görögország"
 
 msgid "Green - Favorite 1"
@@ -463,11 +509,14 @@ msgstr "Széllökés: {}"
 msgid "Gust: {:.1f} {}"
 msgstr "Széllökés: {:.1f} {}"
 
+msgid "HTML"
+msgstr ""
+
 msgid "Hamburg"
 msgstr "Hamburg"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Veszélyes"
 
 msgid "Header - not selectable"
 msgstr "Fejléc – nem választható"
@@ -520,6 +569,10 @@ msgstr "Kép %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Kép %(current)d/%(total)d – %(day)s (Szüneteltetve)"
 
+#, fuzzy
+msgid "Image Downloaded"
+msgstr "Oldal le"
+
 msgid "Image not available"
 msgstr "A kép nem érhető el"
 
@@ -557,6 +610,10 @@ msgid "Keyboard"
 msgstr "Billentyűzet"
 
 msgid "Last Quarter"
+msgstr "Utolsó negyedév"
+
+#, fuzzy
+msgid "Last update"
 msgstr "Utolsó negyedév"
 
 msgid "Latvia"
@@ -660,6 +717,16 @@ msgstr "Mérsékelt eső"
 
 msgid "Month"
 msgstr "Hónap"
+
+#, fuzzy
+msgid "Moon details"
+msgstr "Óra részletei"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
+msgstr ""
 
 msgid "Morning"
 msgstr "Reggel"
@@ -766,9 +833,8 @@ msgstr "OK – Előrejelzés"
 msgid "OK - Open Map"
 msgstr "OK – Térkép megnyitása"
 
-#, fuzzy
 msgid "Ok - Details"
-msgstr "Részletek"
+msgstr "Ok – Részletek"
 
 msgid "Open Keyboard"
 msgstr "Nyissa meg a Billentyűzetet"
@@ -815,19 +881,17 @@ msgstr "Borult, zivatarok esővel"
 msgid "Overnight"
 msgstr "Éjszaka"
 
-# GPT: “Page Down” can be translated as an action (e.g., “Lapozás lefelé”), but it’s also commonly shown as the literal keyboard key label; I chose to keep the key name as-is.
 msgid "Page Down"
 msgstr "Oldal le"
 
-# GPT: “Page Up” can refer to the keyboard key label or the action of moving a page up; I kept the widely recognized key label used in Hungarian UIs.
 msgid "Page Up"
 msgstr "Oldal fel"
 
 msgid "Page down"
-msgstr "Lapozás lefelé"
+msgstr "Oldal le"
 
 msgid "Page up"
-msgstr "Lapozás fel"
+msgstr "Oldal fel"
 
 msgid "Pan down"
 msgstr "Pásztázás lefelé"
@@ -869,6 +933,10 @@ msgid "Perigee"
 msgstr "Perigeum"
 
 msgid "Phase"
+msgstr "Fázis"
+
+#, fuzzy
+msgid "Phase: {}"
 msgstr "Fázis"
 
 msgid "Play/Pause"
@@ -934,6 +1002,9 @@ msgstr "Előző oldal"
 msgid "Previous time"
 msgstr "Előző időpont"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr "Eső valószínű."
 
@@ -948,6 +1019,9 @@ msgstr "Csapadék: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer radar"
+
+msgid "Red"
+msgstr ""
 
 msgid "Red - Color select"
 msgstr "Piros - Színválasztás"
@@ -965,7 +1039,13 @@ msgid "Right arrow - Next day"
 msgstr "Jobbra nyíl – Másnap"
 
 msgid "Rise"
-msgstr "Tündöklés"
+msgstr "Holdkelte"
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr ""
 
 msgid "Russia"
 msgstr "Oroszország"
@@ -1030,8 +1110,14 @@ msgstr "Válaszd ki a(z) {} mértékegységet"
 msgid "Selected hour details"
 msgstr "A kiválasztott óra részletei"
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
-msgstr "Csoportok"
+msgstr "Holdnyugta"
 
 msgid "Show info"
 msgstr "Információ megjelenítése"
@@ -1044,6 +1130,9 @@ msgstr "Szlovákia"
 
 msgid "Slower: {}s"
 msgstr "Lassabb: {}s"
+
+msgid "Snow"
+msgstr ""
 
 msgid "Snow / ice"
 msgstr "Hó / jég"
@@ -1141,11 +1230,23 @@ msgstr "Jelmagyarázat be-/kikapcsolása"
 msgid "Tomorrow"
 msgstr "Holnap"
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr "Átlátszósági beállítások"
 
 msgid "Transparency level"
 msgstr "Átlátszósági szint"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV-index"
@@ -1154,10 +1255,10 @@ msgid "UV N/A"
 msgstr "UV: N/A"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Egészségtelen"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Nem egészséges az érzékenyek számára"
 
 msgid "Unit Settings"
 msgstr "Tantárgy beállításai"
@@ -1222,9 +1323,8 @@ msgstr "Nagyon meleg (>40°C)"
 msgid "Very low"
 msgstr "Nagyon alacsony"
 
-#, fuzzy
 msgid "Very unhealthy"
-msgstr "Nagyon heves eső"
+msgstr "Nagyon egészségtelen"
 
 msgid "Visibility: %s m"
 msgstr "Látótávolság: %s m"
@@ -1279,6 +1379,10 @@ msgstr "Holnapi időjárás"
 
 msgid "Weekly Forecast"
 msgstr "Heti előrejelzés"
+
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Időjárási térképek"
 
 msgid "Wind"
 msgstr "Szél"
@@ -1369,39 +1473,3 @@ msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
 
 msgid "← Frame"
 msgstr "← Keret"
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "OK – Előrejelzés"
-
-#, fuzzy
-#~ msgid "Blue"
-#~ msgstr "Kék Hold"
-
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "Felhős, záporok"
-
-#, fuzzy
-#~ msgid "Distance"
-#~ msgstr "Távolság: %s"
-
-#, fuzzy
-#~ msgid "Green"
-#~ msgstr "Görögország"
-
-# GPT: “Page Down” can be translated as an action (e.g., “Lapozás lefelé”), but it’s also commonly shown as the literal keyboard key label; I chose to keep the key name as-is.
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "Oldal le"
-
-#, fuzzy
-#~ msgid "Last update"
-#~ msgstr "Utolsó negyedév"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Időjárási térképek"
-
-#~ msgid "Ok - Zone"
-#~ msgstr "OK – Zóna"

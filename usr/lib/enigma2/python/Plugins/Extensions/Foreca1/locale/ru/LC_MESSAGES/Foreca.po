@@ -11,6 +11,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
+#, fuzzy
+msgid "(Additional data not available)"
+msgstr "Данные станции недоступны"
+
 msgid "0 - Today"
 msgstr "0 - Сегодня"
 
@@ -35,11 +39,18 @@ msgstr "6 - Сегодня + 6 дней"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сегодня + 7 дней"
 
+#, fuzzy
+msgid "7 Day Forecast"
+msgstr "ОК — Прогноз"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Сегодня + 8 дней"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Сегодня + 9 дней"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr "Учетные данные API не настроены."
@@ -61,6 +72,25 @@ msgstr "Расширенные настройки устройства"
 
 msgid "Afternoon"
 msgstr "После полудня"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+#, fuzzy
+msgid "Age: N/A"
+msgstr "AQI: Н/Д"
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 msgid "Assign to Favorite 1"
 msgstr "Назначить в «Избранное 1»"
@@ -95,10 +125,13 @@ msgstr "Берлин"
 msgid "Black Moon"
 msgstr "Чёрная Луна"
 
+#, fuzzy
+msgid "Blue"
+msgstr "Голубая Луна"
+
 msgid "Blue - Home"
 msgstr "Синяя - Дом"
 
-# GPT: “Blue Moon” can be a proper name (song/brand/beer) or the literal phrase; without context I chose the neutral literal translation common in Russian.
 msgid "Blue Moon"
 msgstr "Голубая Луна"
 
@@ -126,7 +159,6 @@ msgstr "Изменения применяются немедленно"
 msgid "Check for updates"
 msgstr "Проверить наличие обновлений"
 
-# GPT: «Detail view» может означать «подробный вид/представление/просмотр»; выбрано нейтральное «подробный вид» для пункта меню.
 msgid "Choose detail view"
 msgstr "Выберите подробный просмотр"
 
@@ -137,19 +169,23 @@ msgid "City list file not found!"
 msgstr "Файл списка городов не найден!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Очистить временные файлы Foreca One?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Очистить временные файлы"
 
 msgid "Clear"
-msgstr "Очистить"
+msgstr "Ясно"
 
 msgid "Close"
 msgstr "Закрыть"
 
 msgid "Close legend"
 msgstr "Закрыть легенду"
+
+#, fuzzy
+msgid "Cloud Cover"
+msgstr "Облачно, возможны дожди"
 
 msgid "Cloudy"
 msgstr "Облачно"
@@ -163,15 +199,12 @@ msgstr "Облачно и небольшой снег"
 msgid "Cloudy and light wet snow"
 msgstr "Облачно и небольшой мокрый снег"
 
-# GPT: Возможны варианты «облачно и дожди/ливни». Выбрал нейтральное метео-формулирование «временами дождь», подходящее для прогноза погоды.
 msgid "Cloudy and showers"
 msgstr "Облачно, возможны дожди"
 
-# GPT: «Snow showers» можно перевести как «снежные ливни/кратковременный снег/снегопады». В погодных сводках по‑русски чаще говорят «временами снег», поэтому выбрал этот вариант.
 msgid "Cloudy and snow showers"
 msgstr "Облачно, возможен снегопад"
 
-# GPT: «Wet snow showers» можно перевести как «ливневый мокрый снег/заряды мокрого снега»; выбрано более нейтральное метео-формулирование для прогноза.
 msgid "Cloudy and wet snow showers"
 msgstr "Облачно, ожидаются дожди и снегопады"
 
@@ -264,6 +297,10 @@ msgstr "Точка росы: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Точка росы: Н/Д"
+
+#, fuzzy
+msgid "Distance"
+msgstr "Расстояние: %s"
 
 msgid "Distance {} km"
 msgstr "Расстояние {} км"
@@ -451,12 +488,16 @@ msgid "Germany"
 msgstr "Германия"
 
 msgid "Good"
-msgstr ""
+msgstr "Хорошо"
 
 msgid "Great Britain"
 msgstr "Великобритания"
 
 msgid "Greece"
+msgstr "Греция"
+
+#, fuzzy
+msgid "Green"
 msgstr "Греция"
 
 msgid "Green - Favorite 1"
@@ -468,11 +509,14 @@ msgstr "Порыв {}"
 msgid "Gust: {:.1f} {}"
 msgstr "Порыв: {:.1f} {}"
 
+msgid "HTML"
+msgstr ""
+
 msgid "Hamburg"
 msgstr "Гамбург"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Hazardous"
 
 msgid "Header - not selectable"
 msgstr "Заголовок — не выбирается"
@@ -525,6 +569,10 @@ msgstr "Изображение %(current)d/%(total)d — %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Изображение %(current)d/%(total)d – %(day)s (Пауза)"
 
+#, fuzzy
+msgid "Image Downloaded"
+msgstr "Страница вниз"
+
 msgid "Image not available"
 msgstr "Изображение недоступно"
 
@@ -562,6 +610,10 @@ msgid "Keyboard"
 msgstr "Клавиатура"
 
 msgid "Last Quarter"
+msgstr "Последний квартал"
+
+#, fuzzy
+msgid "Last update"
 msgstr "Последний квартал"
 
 msgid "Latvia"
@@ -665,6 +717,16 @@ msgstr "Умеренный дождь"
 
 msgid "Month"
 msgstr "Месяц"
+
+#, fuzzy
+msgid "Moon details"
+msgstr "Почасовые подробности"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
+msgstr ""
 
 msgid "Morning"
 msgstr "Утро"
@@ -771,9 +833,8 @@ msgstr "ОК — Прогноз"
 msgid "OK - Open Map"
 msgstr "ОК — Открыть карту"
 
-#, fuzzy
 msgid "Ok - Details"
-msgstr "Детали"
+msgstr "ОК — подробности"
 
 msgid "Open Keyboard"
 msgstr "Открыть клавиатуру"
@@ -833,16 +894,16 @@ msgid "Page up"
 msgstr "Страница вверх"
 
 msgid "Pan down"
-msgstr "Панорамировать вниз"
+msgstr "Мистер Даун"
 
 msgid "Pan left"
-msgstr "Панорамировать влево"
+msgstr "Г-н ушёл"
 
 msgid "Pan right"
-msgstr "Панорамировать вправо"
+msgstr "Мистер правильный"
 
 msgid "Pan up"
-msgstr "Панорамировать вверх"
+msgstr "Панорама вверх"
 
 msgid "Partly cloudy"
 msgstr "Частично облачно"
@@ -872,6 +933,10 @@ msgid "Perigee"
 msgstr "Перигей"
 
 msgid "Phase"
+msgstr "Фаза"
+
+#, fuzzy
+msgid "Phase: {}"
 msgstr "Фаза"
 
 msgid "Play/Pause"
@@ -937,6 +1002,9 @@ msgstr "Предыдущая страница"
 msgid "Previous time"
 msgstr "Предыдущее время"
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr "Вероятность дождя."
 
@@ -951,6 +1019,9 @@ msgstr "Дождь: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Радар RainViewer"
+
+msgid "Red"
+msgstr ""
 
 msgid "Red - Color select"
 msgstr "Красный — выбор цвета"
@@ -968,7 +1039,13 @@ msgid "Right arrow - Next day"
 msgstr "Стрелка вправо - Следующий день"
 
 msgid "Rise"
-msgstr "Восход"
+msgstr "Заход Луны"
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr ""
 
 msgid "Russia"
 msgstr "Россия"
@@ -997,7 +1074,6 @@ msgstr "Саксония-Анхальт"
 msgid "Schleswig-Holstein"
 msgstr "Шлезвиг-Гольштейн"
 
-# GPT: “Scraped” can mean physically scraped/scratched or (in a data context) collected via web scraping; I chose the latter as the most common UI/status meaning.
 msgid "Scraped"
 msgstr "Соскоблено"
 
@@ -1034,8 +1110,14 @@ msgstr "Выберите единицу измерения {}"
 msgid "Selected hour details"
 msgstr "Детали выбранного часа"
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
-msgstr "Комплекты"
+msgstr "Заход Луны"
 
 msgid "Show info"
 msgstr "Показать информацию"
@@ -1048,6 +1130,9 @@ msgstr "Словакия"
 
 msgid "Slower: {}s"
 msgstr "Медленнее: {}с"
+
+msgid "Snow"
+msgstr ""
 
 msgid "Snow / ice"
 msgstr "Снег / лёд"
@@ -1145,11 +1230,23 @@ msgstr "Переключить легенду"
 msgid "Tomorrow"
 msgstr "Завтра"
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr "Настройки прозрачности"
 
 msgid "Transparency level"
 msgstr "Уровень прозрачности"
+
+msgid "UV"
+msgstr ""
 
 msgid "UV Index"
 msgstr "UV индекс"
@@ -1158,10 +1255,10 @@ msgid "UV N/A"
 msgstr "УФ: Н/Д"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Неработоспособные"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Вредно для чувствительных людей"
 
 msgid "Unit Settings"
 msgstr "Настройки лекции"
@@ -1226,9 +1323,8 @@ msgstr "Очень жарко (>40°C)"
 msgid "Very low"
 msgstr "Очень низкий"
 
-#, fuzzy
 msgid "Very unhealthy"
-msgstr "Очень сильный дождь"
+msgstr "Очень вредно для здоровья"
 
 msgid "Visibility: %s m"
 msgstr "Видимость: %s м"
@@ -1283,6 +1379,10 @@ msgstr "Погода завтра"
 
 msgid "Weekly Forecast"
 msgstr "Прогноз на неделю"
+
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "Карты погоды"
 
 msgid "Wind"
 msgstr "Ветер"
@@ -1373,40 +1473,3 @@ msgstr "• ЖЁЛТАЯ — сохранить как Избранное 2\n"
 
 msgid "← Frame"
 msgstr "← Кадр"
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "ОК — Прогноз"
-
-# GPT: “Blue Moon” can be a proper name (song/brand/beer) or the literal phrase; without context I chose the neutral literal translation common in Russian.
-#, fuzzy
-#~ msgid "Blue"
-#~ msgstr "Голубая Луна"
-
-# GPT: Возможны варианты «облачно и дожди/ливни». Выбрал нейтральное метео-формулирование «временами дождь», подходящее для прогноза погоды.
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "Облачно, возможны дожди"
-
-#, fuzzy
-#~ msgid "Distance"
-#~ msgstr "Расстояние: %s"
-
-#, fuzzy
-#~ msgid "Green"
-#~ msgstr "Греция"
-
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "Страница вниз"
-
-#, fuzzy
-#~ msgid "Last update"
-#~ msgstr "Последний квартал"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Карты погоды"
-
-#~ msgid "Ok - Zone"
-#~ msgstr "ОК — Зона"

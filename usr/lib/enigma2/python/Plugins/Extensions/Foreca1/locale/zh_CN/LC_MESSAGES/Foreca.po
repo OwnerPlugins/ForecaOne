@@ -12,6 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
+#, fuzzy
+msgid "(Additional data not available)"
+msgstr "没有可用的预测数据"
+
 msgid "0 - Today"
 msgstr "0-今日"
 
@@ -36,11 +40,17 @@ msgstr "6-今天+ 6天"
 msgid "7 - Today + 7 days"
 msgstr "7-今天+ 7天"
 
+msgid "7 Day Forecast"
+msgstr "未来七天天气预报"
+
 msgid "8 - Today + 8 days"
 msgstr "8-今天+ 8天"
 
 msgid "9 - Today + 9 days"
 msgstr "9 -今天+ 9天"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr "未配置 API 凭据."
@@ -62,6 +72,25 @@ msgstr "高级设置"
 
 msgid "Afternoon"
 msgstr "下午"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+#, fuzzy
+msgid "Age: N/A"
+msgstr "AQI ：不适用"
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 msgid "Assign to Favorite 1"
 msgstr "分配到收藏夹1"
@@ -96,6 +125,9 @@ msgstr "柏林"
 #, fuzzy
 msgid "Black Moon"
 msgstr "满月"
+
+msgid "Blue"
+msgstr "蓝色"
 
 msgid "Blue - Home"
 msgstr "蓝色-主页"
@@ -151,6 +183,9 @@ msgstr "关闭"
 
 msgid "Close legend"
 msgstr "关闭图例"
+
+msgid "Cloud Cover"
+msgstr "云量"
 
 msgid "Cloudy"
 msgstr "多云"
@@ -264,6 +299,9 @@ msgstr "露点： %s °C"
 
 msgid "Dewpoint: N/A"
 msgstr "露点:N/A"
+
+msgid "Distance"
+msgstr "距离"
 
 msgid "Distance {} km"
 msgstr "距离: {}千米"
@@ -455,6 +493,9 @@ msgstr "大不列颠及北爱尔兰"
 msgid "Greece"
 msgstr "希腊"
 
+msgid "Green"
+msgstr "绿"
+
 msgid "Green - Favorite 1"
 msgstr "绿色-收藏 1"
 
@@ -463,6 +504,9 @@ msgstr "强风{}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "阵风：{: .1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "德国汉堡"
@@ -522,6 +566,9 @@ msgstr "Image %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Image %(current)d/%(total)d – %(day)s (Paused)"
 
+msgid "Image Downloaded"
+msgstr "图片已下载"
+
 msgid "Image not available"
 msgstr "图片不可用"
 
@@ -560,6 +607,9 @@ msgstr "键盘设置"
 
 msgid "Last Quarter"
 msgstr "下弦月"
+
+msgid "Last update"
+msgstr "最近更新时间"
 
 msgid "Latvia"
 msgstr "拉脱维亚"
@@ -662,6 +712,16 @@ msgstr "中雨"
 
 msgid "Month"
 msgstr "月"
+
+#, fuzzy
+msgid "Moon details"
+msgstr "小时详情"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
+msgstr ""
 
 msgid "Morning"
 msgstr "上午"
@@ -871,6 +931,10 @@ msgstr ""
 msgid "Phase"
 msgstr "月相"
 
+#, fuzzy
+msgid "Phase: {}"
+msgstr "月相"
+
 msgid "Play/Pause"
 msgstr "播放 / 暂停"
 
@@ -934,6 +998,9 @@ msgstr "转到上一页的事件"
 msgid "Previous time"
 msgstr "上一次"
 
+msgid "Radar"
+msgstr "雷达图"
+
 msgid "Rain Prob."
 msgstr "降雨概率."
 
@@ -948,6 +1015,9 @@ msgstr "雨： {: .1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "气象雷达"
+
+msgid "Red"
+msgstr "红色"
 
 msgid "Red - Color select"
 msgstr "红色-颜色选择"
@@ -966,6 +1036,12 @@ msgstr "向右箭头-第二天"
 
 msgid "Rise"
 msgstr "月出"
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr ""
 
 msgid "Russia"
 msgstr "俄罗斯"
@@ -1030,6 +1106,12 @@ msgstr "选择 {} 单位"
 msgid "Selected hour details"
 msgstr "选择小时详情"
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
 msgstr "月落"
 
@@ -1044,6 +1126,9 @@ msgstr "斯洛伐克"
 
 msgid "Slower: {}s"
 msgstr "较慢： {}秒"
+
+msgid "Snow"
+msgstr "雪"
 
 msgid "Snow / ice"
 msgstr "雪/冰"
@@ -1142,11 +1227,23 @@ msgstr "切换图例"
 msgid "Tomorrow"
 msgstr "明天"
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr "透明度设置"
 
 msgid "Transparency level"
 msgstr "透明度水平"
+
+msgid "UV"
+msgstr "紫外线"
 
 msgid "UV Index"
 msgstr "紫外线指数"
@@ -1281,6 +1378,10 @@ msgstr "明天的天气"
 msgid "Weekly Forecast"
 msgstr "每周预测"
 
+#, fuzzy
+msgid "Wetter.de Maps Test"
+msgstr "菜单-天气图"
+
 msgid "Wind"
 msgstr "风速"
 
@@ -1371,46 +1472,6 @@ msgstr "黄色-分配给收藏夹2\n"
 
 msgid "← Frame"
 msgstr "←框架"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "未来七天天气预报"
-
-#~ msgid "Blue"
-#~ msgstr "蓝色"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "云量"
-
-#~ msgid "Distance"
-#~ msgstr "距离"
-
-#~ msgid "Green"
-#~ msgstr "绿"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "图片已下载"
-
-#~ msgid "Last update"
-#~ msgstr "最近更新时间"
-
-#~ msgid "Radar"
-#~ msgstr "雷达图"
-
-#~ msgid "Red"
-#~ msgstr "红色"
-
-#~ msgid "Snow"
-#~ msgstr "雪"
-
-#~ msgid "UV"
-#~ msgstr "紫外线"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "菜单-天气图"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "Ok - 区域"

@@ -181,28 +181,14 @@ class MoonPhase:
     # ------------------------------------------------------------------
     # API for moonrise/moonset (USNO) – asynchronous
     # ------------------------------------------------------------------
-    def get_moon_data_async(
-            self,
-            lat,
-            lon,
-            callback,
-            max_days=2,
-            offset_hours=None,
-            date=None):
+    def get_moon_data_async(self, lat, lon, callback, max_days=2, offset_hours=None, date=None):
         def worker():
-            result = self.get_moon_data_from_api(
-                lat, lon, max_days, offset_hours, date)
+            result = self.get_moon_data_from_api(lat, lon, max_days, offset_hours, date)
             if callback:
                 callback(result)
         Thread(target=worker).start()
 
-    def get_moon_data_from_api(
-            self,
-            lat,
-            lon,
-            max_days=2,
-            offset_hours=None,
-            date=None):
+    def get_moon_data_from_api(self, lat, lon, max_days=2, offset_hours=None, date=None):
         if offset_hours is None:
             offset_hours = self._get_offset_hours()
         try:
@@ -231,11 +217,8 @@ class MoonPhase:
                         continue
                     if days_offset == 0:
                         phase_name = props.get("curphase", "N/A")
-                        illum_str = props.get(
-                            "fracillum", "0%").replace(
-                            "%", "").strip()
-                        illumination = float(
-                            illum_str) / 100.0 if illum_str != "N/A" else None
+                        illum_str = props.get("fracillum", "0%").replace("%", "").strip()
+                        illumination = float(illum_str) / 100.0 if illum_str != "N/A" else None
                     for item in props.get("moondata", []):
                         phen = item.get("phen", "")
                         time_val = item.get("time", "N/A")
@@ -321,12 +304,10 @@ class MoonPhase:
         illumination = LunarIllum(jd) * 100
 
         # 2. Calculate rise/set time and azimuth (interpolation)
-        rise_time, set_time, rise_az, set_az = self._calculate_rise_set(
-            lat, lon, dt, ra, dec)
+        rise_time, set_time, rise_az, set_az = self._calculate_rise_set(lat, lon, dt, ra, dec)
 
         # 3. Calculate transit time and altitude
-        transit_time, transit_alt = self._calculate_transit(
-            lat, lon, dt, ra, dec)
+        transit_time, transit_alt = self._calculate_transit(lat, lon, dt, ra, dec)
 
         # 4. Calculate apparent magnitude
         magnitude = self._calculate_magnitude(distance, illumination)
@@ -351,14 +332,7 @@ class MoonPhase:
 
     def _calculate_rise_set(self, lat, lon, dt, ra, dec):
         # Search around midnight of the specified day
-        start_dt = datetime.datetime(
-            dt.year,
-            dt.month,
-            dt.day,
-            0,
-            0,
-            0,
-            tzinfo=datetime.timezone.utc)
+        start_dt = datetime.datetime(dt.year, dt.month, dt.day, 0, 0, 0, tzinfo=datetime.timezone.utc)
         rise_time = None
         set_time = None
         rise_az = None
@@ -368,16 +342,9 @@ class MoonPhase:
         # Search interval: 24 hours
         for minute_offset in range(0, 24 * 60):
             check_dt = start_dt + datetime.timedelta(minutes=minute_offset)
-            jd_check = DtoJD(
-                check_dt.day,
-                check_dt.month,
-                check_dt.year,
-                check_dt.hour,
-                check_dt.minute,
-                check_dt.second)
+            jd_check = DtoJD(check_dt.day, check_dt.month, check_dt.year, check_dt.hour, check_dt.minute, check_dt.second)
             _, ra_check, dec_check, _, _ = LunarPos(jd_check)
-            alt, az = self._equatorial_to_horizontal(
-                lat, lon, check_dt, ra_check, dec_check)
+            alt, az = self._equatorial_to_horizontal(lat, lon, check_dt, ra_check, dec_check)
 
             if minute_offset > 0 and prev_alt_val is not None:
                 if prev_alt_val < 0 and alt >= 0:
@@ -408,30 +375,16 @@ class MoonPhase:
         return rise_time_str, set_time_str, rise_az, set_az
 
     def _calculate_transit(self, lat, lon, dt, ra, dec):
-        start_dt = datetime.datetime(
-            dt.year,
-            dt.month,
-            dt.day,
-            0,
-            0,
-            0,
-            tzinfo=datetime.timezone.utc)
+        start_dt = datetime.datetime(dt.year, dt.month, dt.day, 0, 0, 0, tzinfo=datetime.timezone.utc)
         max_alt = -90
         transit_dt = None
 
         # Search full 24 hours
         for minute_offset in range(0, 24 * 60):
             check_dt = start_dt + datetime.timedelta(minutes=minute_offset)
-            jd_check = DtoJD(
-                check_dt.day,
-                check_dt.month,
-                check_dt.year,
-                check_dt.hour,
-                check_dt.minute,
-                check_dt.second)
+            jd_check = DtoJD(check_dt.day, check_dt.month, check_dt.year, check_dt.hour, check_dt.minute, check_dt.second)
             _, ra_check, dec_check, _, _ = LunarPos(jd_check)
-            alt, az = self._equatorial_to_horizontal(
-                lat, lon, check_dt, ra_check, dec_check)
+            alt, az = self._equatorial_to_horizontal(lat, lon, check_dt, ra_check, dec_check)
 
             # Track maximum altitude (transit point)
             if alt > max_alt:
@@ -469,8 +422,7 @@ class MoonPhase:
         utc_hours = dt.hour + dt.minute / 60.0 + dt.second / 3600.0
         # Mean sidereal time at Greenwich (GMST) in hours
         # T = (jd_midnight - 2451545.0) / 36525.0
-        gmst_hours = 18.697374558 + 24.06570982441908 * \
-            (jd_midnight - 2451545.0) / 36525.0
+        gmst_hours = 18.697374558 + 24.06570982441908 * (jd_midnight - 2451545.0) / 36525.0
         gmst_hours = (gmst_hours + 24.0) % 24.0
         # Add UTC hour
         lst_hours = (gmst_hours + utc_hours + lon / 15.0) % 24.0
@@ -488,8 +440,7 @@ class MoonPhase:
         h_rad = math.radians(h)
 
         # Compute altitude (alt)
-        sin_alt = math.sin(lat_rad) * math.sin(dec_rad) + \
-            math.cos(lat_rad) * math.cos(dec_rad) * math.cos(h_rad)
+        sin_alt = math.sin(lat_rad) * math.sin(dec_rad) + math.cos(lat_rad) * math.cos(dec_rad) * math.cos(h_rad)
         alt = math.degrees(math.asin(sin_alt))
 
         # Compute azimuth (az)
@@ -526,8 +477,7 @@ class MoonPhase:
 
     def _calculate_age(self, dt):
         jd = DtoJD(dt.day, dt.month, dt.year, dt.hour, dt.minute, dt.second)
-        # Calculate k value for the current date (number of lunations since
-        # 2000)
+        # Calculate k value for the current date (number of lunations since 2000)
         year = dt.year
         month = dt.month
         day = dt.day + (dt.hour + dt.minute / 60.0 + dt.second / 3600.0) / 24.0

@@ -18,6 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
+#, fuzzy
+msgid "(Additional data not available)"
+msgstr "Inga stationsdata tillgängliga"
+
 msgid "0 - Today"
 msgstr "0 - Idag"
 
@@ -42,11 +46,17 @@ msgstr "6 - Idag + 6 dagar"
 msgid "7 - Today + 7 days"
 msgstr "7 - Idag + 7 dagar"
 
+msgid "7 Day Forecast"
+msgstr "7-dagarsprognos"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Idag + 8 dagar"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Idag + 9 dagar"
+
+msgid "=== MOON DETAILS ==="
+msgstr ""
 
 msgid "API credentials not configured."
 msgstr "API-autentiseringsuppgifter har inte konfigurerats."
@@ -68,6 +78,25 @@ msgstr "Avancerade enhetsinställningar"
 
 msgid "Afternoon"
 msgstr "Eftermiddag"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+#, fuzzy
+msgid "Age: N/A"
+msgstr "AQI: Ej tillgängligt"
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
+msgstr ""
 
 msgid "Assign to Favorite 1"
 msgstr "Tilldela till Favorit 1"
@@ -102,6 +131,9 @@ msgstr "Berlin"
 #, fuzzy
 msgid "Black Moon"
 msgstr "Fullmåne"
+
+msgid "Blue"
+msgstr "Blå"
 
 msgid "Blue - Home"
 msgstr "Blå - Hem"
@@ -157,6 +189,9 @@ msgstr "Stäng"
 
 msgid "Close legend"
 msgstr "Stäng förklaring"
+
+msgid "Cloud Cover"
+msgstr "Molntäcke"
 
 msgid "Cloudy"
 msgstr "Molnigt"
@@ -268,6 +303,9 @@ msgstr "Daggpunkt: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Daggpunkt: Ej tillgängligt"
+
+msgid "Distance"
+msgstr "Avstånd"
 
 msgid "Distance {} km"
 msgstr "Avstånd {} km"
@@ -459,6 +497,9 @@ msgstr "Storbritannien"
 msgid "Greece"
 msgstr "Grekland"
 
+msgid "Green"
+msgstr "Grön"
+
 msgid "Green - Favorite 1"
 msgstr "Grön - Favorit 1"
 
@@ -467,6 +508,9 @@ msgstr "Vindby {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Vindby: {:.1f} {}"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -526,6 +570,9 @@ msgstr "Bild %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Bild %(current)d/%(total)d – %(day)s (Pausad)"
 
+msgid "Image Downloaded"
+msgstr "Bild nedladdad"
+
 msgid "Image not available"
 msgstr "Bild ej tillgänglig"
 
@@ -564,6 +611,9 @@ msgstr "Tangentbord"
 
 msgid "Last Quarter"
 msgstr "Sista kvarteret"
+
+msgid "Last update"
+msgstr "Senaste uppdatering"
 
 msgid "Latvia"
 msgstr "Lettland"
@@ -666,6 +716,16 @@ msgstr "Måttligt regn"
 
 msgid "Month"
 msgstr "Månad"
+
+#, fuzzy
+msgid "Moon details"
+msgstr "Timdetaljer"
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
+msgstr ""
 
 msgid "Morning"
 msgstr "Morgon"
@@ -875,6 +935,10 @@ msgstr ""
 msgid "Phase"
 msgstr "Fas"
 
+#, fuzzy
+msgid "Phase: {}"
+msgstr "Fas"
+
 msgid "Play/Pause"
 msgstr "Spela/Paus"
 
@@ -938,6 +1002,9 @@ msgstr "Föregående sida"
 msgid "Previous time"
 msgstr "Föregående tid"
 
+msgid "Radar"
+msgstr "Radar"
+
 msgid "Rain Prob."
 msgstr "Regnrisk."
 
@@ -952,6 +1019,9 @@ msgstr "Regn: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer-radar"
+
+msgid "Red"
+msgstr "Röd"
 
 msgid "Red - Color select"
 msgstr "Röd - Välj färg"
@@ -970,6 +1040,12 @@ msgstr "Högerpil - Nästa dag"
 
 msgid "Rise"
 msgstr "Uppgång"
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr ""
 
 msgid "Russia"
 msgstr "Ryssland"
@@ -1034,6 +1110,12 @@ msgstr "Välj {} enhet"
 msgid "Selected hour details"
 msgstr "Detaljer för vald timme"
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
 msgstr "Nedgång"
 
@@ -1048,6 +1130,9 @@ msgstr "Slovakien"
 
 msgid "Slower: {}s"
 msgstr "Långsammare: {}s"
+
+msgid "Snow"
+msgstr "Snö"
 
 msgid "Snow / ice"
 msgstr "Snö / is"
@@ -1146,11 +1231,23 @@ msgstr "Växla förklaring"
 msgid "Tomorrow"
 msgstr "Imorgon"
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr "Transparensinställningar"
 
 msgid "Transparency level"
 msgstr "Transparensnivå"
+
+msgid "UV"
+msgstr "UV"
 
 msgid "UV Index"
 msgstr "UV-index"
@@ -1285,6 +1382,9 @@ msgstr "Väder imorgon"
 msgid "Weekly Forecast"
 msgstr "Veckoprognos"
 
+msgid "Wetter.de Maps Test"
+msgstr "Wetter.de-kartor test"
+
 msgid "Wind"
 msgstr "Vind"
 
@@ -1374,45 +1474,6 @@ msgstr "• GUL för att spara som Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Bildruta"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "7-dagarsprognos"
-
-#~ msgid "Blue"
-#~ msgstr "Blå"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Molntäcke"
-
-#~ msgid "Distance"
-#~ msgstr "Avstånd"
-
-#~ msgid "Green"
-#~ msgstr "Grön"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Bild nedladdad"
-
-#~ msgid "Last update"
-#~ msgstr "Senaste uppdatering"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Röd"
-
-#~ msgid "Snow"
-#~ msgstr "Snö"
-
-#~ msgid "UV"
-#~ msgstr "UV"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Wetter.de-kartor test"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "OK - Zon"

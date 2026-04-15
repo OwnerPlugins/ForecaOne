@@ -25,13 +25,10 @@ def EKLtoEKU(_lambda, _beta, _epsilon=23.439607):
     cos_eps = math.cos(math.radians(_epsilon))
     sin_eps = math.sin(math.radians(_epsilon))
 
-    _delta = math.degrees(
-        math.asin(
-            sin_beta * cos_eps + sin_lambda * cos_beta * sin_eps))
+    _delta = math.degrees(math.asin(sin_beta * cos_eps + sin_lambda * cos_beta * sin_eps))
     _delta = _deg_norm(_delta)
 
-    _alpha = math.degrees(math.atan2(
-        sin_lambda * cos_eps - math.tan(math.radians(_beta)) * sin_eps, cos_lambda))
+    _alpha = math.degrees(math.atan2(sin_lambda * cos_eps - math.tan(math.radians(_beta)) * sin_eps, cos_lambda))
     _alpha = _deg_norm(_alpha)
     return _alpha, _delta
 
@@ -137,22 +134,11 @@ def SolarPos(JDE):
     _epsilon = _epsilon0 + _depsilon + 0.00256 * math.cos(math.radians(_Omega))
 
     # Right Ascension
-    _alpha = math.degrees(
-        math.atan2(
-            math.cos(
-                math.radians(_epsilon)) *
-            math.sin(
-                math.radians(_lambda)),
-            math.cos(
-                math.radians(_lambda))))
+    _alpha = math.degrees(math.atan2(math.cos(math.radians(_epsilon)) * math.sin(math.radians(_lambda)),
+                                     math.cos(math.radians(_lambda))))
     _alpha = _deg_norm(_alpha)
     # Declination
-    _delta = math.degrees(
-        math.asin(
-            math.sin(
-                math.radians(_epsilon)) *
-            math.sin(
-                math.radians(_lambda))))
+    _delta = math.degrees(math.asin(math.sin(math.radians(_epsilon)) * math.sin(math.radians(_lambda))))
     _delta = _deg_norm(_delta)
     return R, _alpha, _delta, _lambda, _beta
 
@@ -162,59 +148,11 @@ def SolarPos(JDE):
 def LunarPos(JDE):
     T = (JDE - 2451545.0) / 36525.0
     # Mean elements
-    _L = _deg_norm(
-        218.3164477 +
-        481267.88123421 *
-        T -
-        0.0015786 *
-        T *
-        T +
-        T ** 3 /
-        538841 -
-        T ** 4 /
-        65194000)
-    D = _deg_norm(
-        297.8501921 +
-        445267.1114034 *
-        T -
-        0.0018819 *
-        T *
-        T +
-        T ** 3 /
-        545868 -
-        T ** 4 /
-        113065000)
-    M = _deg_norm(
-        357.5291092 +
-        35999.0502909 *
-        T -
-        0.0001536 *
-        T *
-        T +
-        T ** 3 /
-        24490000)
-    _M = _deg_norm(
-        134.9633964 +
-        477198.8675055 *
-        T +
-        0.0087414 *
-        T *
-        T +
-        T ** 3 /
-        69699 -
-        T ** 4 /
-        14712000)
-    F = _deg_norm(
-        93.2720950 +
-        483202.0175233 *
-        T -
-        0.0036539 *
-        T *
-        T -
-        T ** 3 /
-        3526000 +
-        T ** 4 /
-        863310000)
+    _L = _deg_norm(218.3164477 + 481267.88123421 * T - 0.0015786 * T * T + T ** 3 / 538841 - T ** 4 / 65194000)
+    D = _deg_norm(297.8501921 + 445267.1114034 * T - 0.0018819 * T * T + T ** 3 / 545868 - T ** 4 / 113065000)
+    M = _deg_norm(357.5291092 + 35999.0502909 * T - 0.0001536 * T * T + T ** 3 / 24490000)
+    _M = _deg_norm(134.9633964 + 477198.8675055 * T + 0.0087414 * T * T + T ** 3 / 69699 - T ** 4 / 14712000)
+    F = _deg_norm(93.2720950 + 483202.0175233 * T - 0.0036539 * T * T - T ** 3 / 3526000 + T ** 4 / 863310000)
 
     A1 = _deg_norm(119.75 + 131.849 * T)
     A2 = _deg_norm(53.09 + 479264.29 * T)
@@ -372,8 +310,7 @@ def LunarPos(JDE):
             c = E * E
         sumb += c * k[4] * math.sin(math.radians(a))
 
-    suml += 3958 * math.sin(math.radians(A1)) + 1962 * \
-        math.sin(math.radians(_L - F)) + 318 * math.sin(math.radians(A2))
+    suml += 3958 * math.sin(math.radians(A1)) + 1962 * math.sin(math.radians(_L - F)) + 318 * math.sin(math.radians(A2))
     sumb += (-2235 * math.sin(math.radians(_L)) + 382 * math.sin(math.radians(A3)) +
              175 * math.sin(math.radians(A1 - F)) + 175 * math.sin(math.radians(A1 + F)) +
              127 * math.sin(math.radians(_L - _M)) - 115 * math.sin(math.radians(_L + _M)))
@@ -383,15 +320,7 @@ def LunarPos(JDE):
     _Delta = 385000.56 + sumr / 1000.0  # km
 
     # Nutation
-    _Omega = _deg_norm(
-        125.04452 -
-        1934.136261 *
-        T +
-        0.0020708 *
-        T *
-        T +
-        T ** 3 /
-        450000)
+    _Omega = _deg_norm(125.04452 - 1934.136261 * T + 0.0020708 * T * T + T ** 3 / 450000)
     _L_sun = _deg_norm(280.4665 + 36000.7698 * T)
     __L_moon = _deg_norm(218.3165 + 481267.8813 * T)
     _dPsi = (-17.20 / 3600.0 * math.sin(math.radians(_Omega)) +
@@ -424,51 +353,14 @@ def LunarIllum(JDE):
 
 
 # ----------------------------------------------------------------------
-# Find Julian Day of a given lunar phase (k = 0 new moon, 0.25 first
-# quarter, etc.)
+# Find Julian Day of a given lunar phase (k = 0 new moon, 0.25 first quarter, etc.)
 def JDLunarPhase(k):
     T = k / 1236.85
     # Mean elements
-    M = _deg_norm(
-        2.5534 +
-        29.1053567 *
-        k -
-        0.0000014 *
-        T *
-        T -
-        0.00000011 *
-        T ** 3)
-    _M = _deg_norm(
-        201.5643 +
-        385.81693528 *
-        k +
-        0.0107528 *
-        T *
-        T +
-        0.00001238 *
-        T ** 3 -
-        0.000000058 *
-        T ** 4)
-    F = _deg_norm(
-        160.7108 +
-        390.67050284 *
-        k -
-        0.0016118 *
-        T *
-        T -
-        0.00000227 *
-        T ** 3 +
-        0.000000011 *
-        T ** 4)
-    _Omega = _deg_norm(
-        124.7746 -
-        1.56375588 *
-        k +
-        0.0020672 *
-        T *
-        T +
-        0.00000215 *
-        T ** 3)
+    M = _deg_norm(2.5534 + 29.1053567 * k - 0.0000014 * T * T - 0.00000011 * T ** 3)
+    _M = _deg_norm(201.5643 + 385.81693528 * k + 0.0107528 * T * T + 0.00001238 * T ** 3 - 0.000000058 * T ** 4)
+    F = _deg_norm(160.7108 + 390.67050284 * k - 0.0016118 * T * T - 0.00000227 * T ** 3 + 0.000000011 * T ** 4)
+    _Omega = _deg_norm(124.7746 - 1.56375588 * k + 0.0020672 * T * T + 0.00000215 * T ** 3)
 
     A1 = _deg_norm(299.77 + 0.107408 * k - 0.009173 * T * T)
     A2 = _deg_norm(251.88 + 0.016321 * k)
@@ -547,8 +439,7 @@ def JDLunarPhase(k):
                0.000035 * math.sin(math.radians(A13)) +
                0.000023 * math.sin(math.radians(A14)))
 
-    JDE = 2451550.09766 + 29.530588861 * k + 0.00015437 * \
-        T * T - 0.00000015 * T ** 3 + 0.00000000073 * T ** 4
+    JDE = 2451550.09766 + 29.530588861 * k + 0.00015437 * T * T - 0.00000015 * T ** 3 + 0.00000000073 * T ** 4
     frac = abs(k - int(k))
     if abs(frac) < 0.01:  # New Moon
         JDE += corrNew + addcorr

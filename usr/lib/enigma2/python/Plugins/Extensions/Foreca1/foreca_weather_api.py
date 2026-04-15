@@ -427,10 +427,7 @@ class ForecaFreeAPI:
             logging.getLogger(__name__).error(f"Error in hourly forecast: {e}")
             return []
 
-    def get_today_tomorrow_details(
-            self,
-            location_id: str,
-            tz_offset: float = None) -> dict:
+    def get_today_tomorrow_details(self, location_id: str, tz_offset: float = None) -> dict:
         """
         Returns hourly details for today and tomorrow, divided into local time slots.
         If tz_offset is provided (e.g. +2, -5), converts UTC hours to local hours.
@@ -478,13 +475,11 @@ class ForecaFreeAPI:
                 if not hours_list:
                     day_data[period] = {'temp': 'N/A', 'symbol': 'na'}
                 else:
-                    avg_temp = sum(
-                        h.temp for h in hours_list) / len(hours_list)
+                    avg_temp = sum(h.temp for h in hours_list) / len(hours_list)
                     symbols = [h.condition for h in hours_list]
                     # Median symbol for the time slot
                     symbol = symbols[len(symbols) // 2] if symbols else 'na'
-                    day_data[period] = {
-                        'temp': round(avg_temp), 'symbol': symbol}
+                    day_data[period] = {'temp': round(avg_temp), 'symbol': symbol}
             return day_data
 
         # Process tomorrow (index 1) and today (index 0)
@@ -496,10 +491,8 @@ class ForecaFreeAPI:
         if not tomorrow_periods:
             tomorrow_periods = {}
 
-        # If today's 'overnight' slot is empty, use tomorrow's (useful for
-        # positive timezones)
-        if today_periods.get('overnight', {}).get(
-                'temp') == 'N/A' and tomorrow_periods.get('overnight'):
+        # If today's 'overnight' slot is empty, use tomorrow's (useful for positive timezones)
+        if today_periods.get('overnight', {}).get('temp') == 'N/A' and tomorrow_periods.get('overnight'):
             today_periods['overnight'] = tomorrow_periods['overnight']
 
         result['today'].update(today_periods)

@@ -22,6 +22,10 @@
 
 
 
+
+msgid "(Additional data not available)"
+msgstr ""
+
 msgid "0 - Today"
 msgstr ""
 
@@ -46,10 +50,16 @@ msgstr ""
 msgid "7 - Today + 7 days"
 msgstr ""
 
+msgid "7 Day Forecast"
+msgstr ""
+
 msgid "8 - Today + 8 days"
 msgstr ""
 
 msgid "9 - Today + 9 days"
+msgstr ""
+
+msgid "=== MOON DETAILS ==="
 msgstr ""
 
 msgid "API credentials not configured."
@@ -71,6 +81,24 @@ msgid "Advanced Unit Settings"
 msgstr ""
 
 msgid "Afternoon"
+msgstr ""
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr ""
+
+msgid "Age: N/A"
+msgstr ""
+
+msgid "Angular diameter: N/A"
+msgstr ""
+
+msgid "Angular diameter: {:.0f}"
+msgstr ""
+
+msgid "Apparent magnitude: N/A"
+msgstr ""
+
+msgid "Apparent magnitude: {:.2f}"
 msgstr ""
 
 msgid "Assign to Favorite 1"
@@ -104,6 +132,9 @@ msgid "Berlin"
 msgstr ""
 
 msgid "Black Moon"
+msgstr ""
+
+msgid "Blue"
 msgstr ""
 
 msgid "Blue - Home"
@@ -158,6 +189,9 @@ msgid "Close"
 msgstr ""
 
 msgid "Close legend"
+msgstr ""
+
+msgid "Cloud Cover"
 msgstr ""
 
 msgid "Cloudy"
@@ -269,6 +303,9 @@ msgid "Dewpoint: %s°C"
 msgstr ""
 
 msgid "Dewpoint: N/A"
+msgstr ""
+
+msgid "Distance"
 msgstr ""
 
 msgid "Distance {} km"
@@ -460,6 +497,9 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
+msgid "Green"
+msgstr ""
+
 msgid "Green - Favorite 1"
 msgstr ""
 
@@ -467,6 +507,9 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
+msgstr ""
+
+msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -526,6 +569,9 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
+msgid "Image Downloaded"
+msgstr ""
+
 msgid "Image not available"
 msgstr ""
 
@@ -563,6 +609,9 @@ msgid "Keyboard"
 msgstr ""
 
 msgid "Last Quarter"
+msgstr ""
+
+msgid "Last update"
 msgstr ""
 
 msgid "Latvia"
@@ -665,6 +714,15 @@ msgid "Moderate rain"
 msgstr ""
 
 msgid "Month"
+msgstr ""
+
+msgid "Moon details"
+msgstr ""
+
+msgid "Moonrise: {}"
+msgstr ""
+
+msgid "Moonset: {}"
 msgstr ""
 
 msgid "Morning"
@@ -874,6 +932,9 @@ msgstr ""
 msgid "Phase"
 msgstr ""
 
+msgid "Phase: {}"
+msgstr ""
+
 msgid "Play/Pause"
 msgstr ""
 
@@ -937,6 +998,9 @@ msgstr ""
 msgid "Previous time"
 msgstr ""
 
+msgid "Radar"
+msgstr ""
+
 msgid "Rain Prob."
 msgstr ""
 
@@ -950,6 +1014,9 @@ msgid "Rain: {:.1f} {}"
 msgstr ""
 
 msgid "RainViewer Radar"
+msgstr ""
+
+msgid "Red"
 msgstr ""
 
 msgid "Red - Color select"
@@ -968,6 +1035,12 @@ msgid "Right arrow - Next day"
 msgstr ""
 
 msgid "Rise"
+msgstr ""
+
+msgid "Rise azimuth: N/A"
+msgstr ""
+
+msgid "Rise azimuth: {:.0f}°"
 msgstr ""
 
 msgid "Russia"
@@ -1033,6 +1106,12 @@ msgstr ""
 msgid "Selected hour details"
 msgstr ""
 
+msgid "Set azimuth: N/A"
+msgstr ""
+
+msgid "Set azimuth: {:.0f}°"
+msgstr ""
+
 msgid "Sets"
 msgstr ""
 
@@ -1046,6 +1125,9 @@ msgid "Slovakia"
 msgstr ""
 
 msgid "Slower: {}s"
+msgstr ""
+
+msgid "Snow"
 msgstr ""
 
 msgid "Snow / ice"
@@ -1144,10 +1226,22 @@ msgstr ""
 msgid "Tomorrow"
 msgstr ""
 
+msgid "Transit (culmination): {}"
+msgstr ""
+
+msgid "Transit altitude: N/A"
+msgstr ""
+
+msgid "Transit altitude: {:.0f}°"
+msgstr ""
+
 msgid "Transparency Settings"
 msgstr ""
 
 msgid "Transparency level"
+msgstr ""
+
+msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1280,6 +1374,9 @@ msgid "Weather tomorrow"
 msgstr ""
 
 msgid "Weekly Forecast"
+msgstr ""
+
+msgid "Wetter.de Maps Test"
 msgstr ""
 
 msgid "Wind"
