@@ -39,7 +39,7 @@ class MoonPhase:
     def _phase_to_icon(self, phase_name, illum_percent):
         name = phase_name.lower()
         if name == "new moon":
-            return 0
+            return 0   # moon0000.png)
         if name == "first quarter":
             return 25
         if name == "full moon":
@@ -61,55 +61,67 @@ class MoonPhase:
     # Determines the lunar phase from a date (datetime)
     # ------------------------------------------------------------------
     def _get_phase_name_from_date(self, dt):
+        """
+        Calculate accurate moon phase name for given datetime.
+        Uses the nearest main phase (New/First/Full/Last) and then
+        determines the intermediate phase based on illumination and trend.
+        """
         # Calculate Julian Day
-        # Calcola Julian Day
         jd = DtoJD(dt.day, dt.month, dt.year, dt.hour, dt.minute, dt.second)
+        
+        # Calculate illumination and trend (waxing/waning)
+        illum = LunarIllum(jd) * 100
+        jd_next = jd + 0.25
+        illum_next = LunarIllum(jd_next) * 100
+        waxing = illum_next > illum   # True = waxing, False = waning
+        
         # Calculate k value (number of lunations since 2000)
         year = dt.year
         month = dt.month
-        day = dt.day + (dt.hour + dt.minute / 60.0 + dt.second / 3600.0) / 24.0
-        YearFrac = year + (month - 1 + (day - 1) / 30.5) / 12
+        day = dt.day + (dt.hour + dt.minute/60.0 + dt.second/3600.0)/24.0
+        YearFrac = year + (month - 1 + (day - 1)/30.5)/12
         k = (YearFrac - 2000) * 12.3685
-        # Find the nearest main phase
-        p = int(abs(k - int(k)) / 0.25) * 0.25
-        # Search the four surrounding phases
-        candidates = []
-        for offset in [-0.5, -0.25, 0, 0.25, 0.5]:
-            k_cand = int(k) + p + offset
-            jd_cand = JDLunarPhase(k_cand)
-            phase_cand = CheckState(k_cand)
-            candidates.append((abs(jd_cand - jd), phase_cand, jd_cand))
-        # Choose the closest one
-        candidates.sort(key=lambda x: x[0])
-        nearest_phase = candidates[0][1]
-        # Now determine the exact phase between the main ones
-        # (waxing/waning) based on illumination and trend
-        illum = LunarIllum(jd) * 100
-        # Predict trend by checking illumination +6 hours
-        jd_plus = jd + 0.25
-        illum_plus = LunarIllum(jd_plus) * 100
-        waxing = illum_plus > illum
-
-        if nearest_phase == "New Moon":
-            return "New Moon"
-        elif nearest_phase == "First Quarter":
-            return "First Quarter"
-        elif nearest_phase == "Full Moon":
-            return "Full Moon"
-        elif nearest_phase == "Third Quarter":
-            return "Third Quarter"
+        
+        # Round to the nearest quarter (0, 0.25, 0.5, 0.75)
+        k0 = round(k * 4) / 4.0
+        jd_phase = JDLunarPhase(k0)
+        
+        # Determine the main phase name based on fractional part of k0
+        frac = abs(k0 - int(k0))
+        if frac < 0.01:
+            main_phase = "New Moon"
+        elif abs(frac - 0.25) < 0.01:
+            main_phase = "First Quarter"
+        elif abs(frac - 0.5) < 0.01:
+            main_phase = "Full Moon"
         else:
-            # Between main phases, determine intermediate phase
+            main_phase = "Last Quarter"
+        
+        # If we are extremely close to the main phase (within ~0.02 days ≈ 30 minutes)
+        if abs(jd - jd_phase) < 0.02:
+            return main_phase
+        
+        # Determine intermediate phase
+        if main_phase == "New Moon":
+            return "Waxing Crescent" if waxing else "Waning Crescent"
+        elif main_phase == "First Quarter":
+            # After First Quarter -> Waxing Gibbous; before -> Waxing Crescent
             if waxing:
-                if illum < 50:
-                    return "Waxing Crescent"
-                else:
-                    return "Waxing Gibbous"
+                return "Waxing Gibbous"
             else:
-                if illum > 50:
-                    return "Waning Gibbous"
-                else:
-                    return "Waning Crescent"
+                return "Waxing Crescent"
+        elif main_phase == "Full Moon":
+            # After Full Moon -> Waning Gibbous; before -> Waxing Gibbous
+            if waxing:
+                return "Waxing Gibbous"
+            else:
+                return "Waning Gibbous"
+        else:  # Last Quarter
+            # After Last Quarter -> Waning Crescent; before -> Waning Gibbous
+            if waxing:
+                return "Waning Gibbous"
+            else:
+                return "Waning Crescent"
 
     # ------------------------------------------------------------------
     # Get complete information for a date (default now)

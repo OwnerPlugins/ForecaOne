@@ -706,9 +706,16 @@ class Foreca_Preview(Screen, HelpableScreen):
                     MessageBox,
                     _("No location selected"),
                     MessageBox.TYPE_INFO)
+        # elif key == "moon_calendar":
+            # self.session.openWithCallback(
+                # self.after_main_menu, MoonCalendar, self.moon)
         elif key == "moon_calendar":
             self.session.openWithCallback(
-                self.after_main_menu, MoonCalendar, self.moon)
+                self.after_main_menu,
+                MoonCalendar,
+                self.moon,
+                getattr(self, 'tz_offset', None)   # passa l'offset (es. 2.0 per Italia)
+            )
         elif key == "stations":
             location_id = [self.path_loc0, self.path_loc1,
                            self.path_loc2][self.myloc].split('/')[0]
@@ -1901,13 +1908,21 @@ class Foreca_Preview(Screen, HelpableScreen):
             print(f"[Foreca1] Station source: {source}")
 
     def _update_moon(self, target_date=None):
+        """
+        Update moon information for the given date.
+        If target_date is None, use current UTC time.
+        """
         if target_date is None:
             target_date = datetime.datetime.utcnow()
+        elif isinstance(target_date, datetime.date) and not isinstance(target_date, datetime.datetime):
+            target_date = datetime.datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0)
 
+        # Get accurate moon data from internal calculations (MoonPhase)
         info = self.moon.get_phase_info(target_date)
         phase_name = info.get("name", "N/A")
         illumination = info.get("illumination", 0)
         icon_path = info.get("icon_path")
+        distance_km = info.get("distance", 0)          # already rounded in MoonPhase
         """
         extra = None
         try:
@@ -1917,23 +1932,17 @@ class Foreca_Preview(Screen, HelpableScreen):
             print("[Moon] extra error:", e)
             extra = {}
         """
-        # --- main UI ---
+        # Update main moon widgets
         if "icon_moon" in self and icon_path and exists(icon_path):
             self["icon_moon"].instance.setPixmapFromFile(icon_path)
-
         if "moon_label" in self:
             self["moon_label"].setText(_(phase_name))
-
         if "moon_illum" in self:
-            self["moon_illum"].setText(
-                _("Illumination") + f" {illumination:.1f}%")
-
+            self["moon_illum"].setText(_("Illumination") + f" {illumination:.1f}%")
         if "illum_bar" in self:
             self["illum_bar"].setValue(int(illumination))
-
         if "moon_distance" in self:
-            distance = self.moon.get_moon_distance(target_date)
-            self["moon_distance"].setText(_("Distance {} km").format(distance))
+            self["moon_distance"].setText(_("Distance {} km").format(int(round(distance_km))))
         """
         if extra:
             if "moonrise_azimuth" in self:
@@ -1971,7 +1980,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                     "Age: {:.1f} d".format(extra.get('age', 0))
                 )
         """
-        # API request for moonrise/moonset (passing the date)
+        # Request moonrise/moonset from USNO API (does NOT overwrite phase/icon)
         if self.lat != 'N/A' and self.lon != 'N/A':
             try:
                 lat_f = float(self.lat)
@@ -1980,8 +1989,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 if hasattr(self, 'tz_offset'):
                     offset_hours = self.tz_offset
                 elif hasattr(self, 'tz'):
-                    offset_hours = self.tz.utcoffset(
-                        datetime.datetime.now()).total_seconds() / 3600
+                    offset_hours = self.tz.utcoffset(datetime.datetime.now()).total_seconds() / 3600
 
                 self.moon.get_moon_data_async(
                     lat_f, lon_f,
@@ -1991,100 +1999,35 @@ class Foreca_Preview(Screen, HelpableScreen):
                     date=target_date
                 )
             except Exception as e:
-                print(f"[Moon] Error: {e}")
+                print(f"[Moon] Error in API call: {e}")
+
+        self.instance.invalidate()
 
     def _moon_api_callback(self, api_data):
-        if api_data:
-            from twisted.internet import reactor
+        """
+        Callback for USNO API. Only updates rise and set times.
+        Does NOT overwrite phase, icon, illumination or distance.
+        """
+        if not api_data:
+            return
 
-            def update_ui():
-                if DEBUG:
-                    print("[Moon] DEBUG - api_data received:", api_data)
-                    print("[Moon] DEBUG - rise:", api_data.get("rise"))
-                    print("[Moon] DEBUG - set:", api_data.get("set"))
-                    print("[Moon] DEBUG - phase:", api_data.get("phase"))
-                    print(
-                        "[Moon] DEBUG - illumination (fraction):",
-                        api_data.get("illumination"))
+        from twisted.internet import reactor
 
-                # Update moonrise/moonset (already in local time)
-                if "moonrise_value" in self and api_data.get(
-                        "rise", "N/A") != "N/A":
-                    self["moonrise_value"].setText(api_data["rise"])
-                    self["moonrise_value"].instance.invalidate()
+        def update_ui():
+            # Update moonrise and moonset only
+            if "moonrise_value" in self and api_data.get("rise", "N/A") != "N/A":
+                self["moonrise_value"].setText(api_data["rise"])
+                self["moonrise_value"].instance.invalidate()
+            if "moonset_value" in self and api_data.get("set", "N/A") != "N/A":
+                self["moonset_value"].setText(api_data["set"])
+                self["moonset_value"].instance.invalidate()
 
-                if "moonset_value" in self and api_data.get(
-                        "set", "N/A") != "N/A":
-                    self["moonset_value"].setText(api_data["set"])
-                    self["moonset_value"].instance.invalidate()
+            # Do NOT touch icon_moon, moon_label, moon_illum, illum_bar, moon_distance
+            # They are already correctly set by _update_moon using internal calculations.
 
-                # Use API data for phase and illumination
-                api_phase = api_data.get("phase")
-                api_illum = api_data.get("illumination")
+            self.instance.invalidate()
 
-                if api_phase and api_phase != "N/A" and api_illum is not None:
-                    illum_percent = api_illum * 100
-                    icon_number = self._get_icon_number_from_api(
-                        api_phase, illum_percent)
-
-                    # Look for icon file (use moon icon folder)
-                    icon_path = join(
-                        MOON_ICON_PATH, f"moon{icon_number:04d}.png")
-                    if not exists(icon_path):
-                        icon_path = self.moon._find_nearest_icon(icon_number)
-
-                    if icon_path and exists(icon_path):
-                        self["icon_moon"].instance.setPixmapFromFile(icon_path)
-
-                    self["moon_label"].setText(_(api_phase))
-                    self["moon_illum"].setText(
-                        _("Illumination") + f" {illum_percent:.1f}%")
-                    self["illum_bar"].setValue(int(illum_percent))
-
-                    distance = self.moon.get_moon_distance()
-                    distance_km = int(round(distance))  # or f"{distance:.0f}"
-                    self["moon_distance"].setText(
-                        _("Distance {} km").format(distance_km))
-
-                else:
-                    # Fallback to internal calculations (if API fails)
-                    info = self.moon.get_phase_info()
-
-                    if "icon_moon" in self and info["icon_path"]:
-                        self["icon_moon"].instance.setPixmapFromFile(
-                            info["icon_path"])
-
-                    if "moon_label" in self:
-                        self["moon_label"].setText(_(info["name"]))
-
-                    if "moon_illum" in self:
-                        self["moon_illum"].setText(
-                            _("Illumination") + f" {info['illumination']:.1f}%"
-                        )
-
-                    if "illum_bar" in self:
-                        self["illum_bar"].setValue(int(info["illumination"]))
-
-                    if "moon_distance" in self:
-                        self["moon_distance"].setText(
-                            _("Distance {} km").format(info["distance"])
-                        )
-
-                self.instance.invalidate()
-
-                if DEBUG:
-                    print(
-                        "[Moon] DEBUG - Setting moon_label to:",
-                        _(api_phase))
-                    print(
-                        "[Moon] DEBUG - Setting illumination to:",
-                        illum_percent)
-                    print(
-                        "[Moon] DEBUG - Selected icon:",
-                        icon_number,
-                        icon_path)
-
-            reactor.callFromThread(update_ui)
+        reactor.callFromThread(update_ui)
 
     def _get_icon_number_from_api(self, phase_name, illum_percent):
         """

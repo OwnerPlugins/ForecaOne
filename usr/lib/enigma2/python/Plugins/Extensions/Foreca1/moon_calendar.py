@@ -18,12 +18,12 @@ from Tools.LoadPixmap import LoadPixmap
 
 from . import _, PLUGIN_PATH, DEBUG, load_skin_for_class, apply_global_theme
 from .MoonPhase import MoonPhase
-from .moon_calc import JDtoD  # CheckState, JDLunarPhase
+from .moon_calc import JDtoD, DtoJD  # CheckState, JDLunarPhase
 from .google_translate import trans
 
 
 class MoonCalendar(Screen, HelpableScreen):
-    def __init__(self, session, moon_obj=None):
+    def __init__(self, session, moon_obj=None, tz_offset=None):
         self.skin = load_skin_for_class(MoonCalendar)
         Screen.__init__(self, session)
         HelpableScreen.__init__(self)
@@ -32,6 +32,7 @@ class MoonCalendar(Screen, HelpableScreen):
             icon_path=join(PLUGIN_PATH, "moon"),
             total_icons=101
         )
+        self.tz_offset = tz_offset   # save offset (float, time)
         self.phases = []
         self.list = []
         self["menu"] = List(self.list)
@@ -143,7 +144,6 @@ class MoonCalendar(Screen, HelpableScreen):
         return None
 
     def _date_to_jd(self, dt):
-        from .moon_calc import DtoJD
         return DtoJD(dt.day, dt.month, dt.year, dt.hour, dt.minute, dt.second)
 
     def _jd_to_datetime(self, jd):
@@ -318,12 +318,13 @@ class MoonCalendar(Screen, HelpableScreen):
             )
         return (month, icon, phase_text, day, hour)
 
+    def _utc_to_local(self, dt_utc):
+        """Converts a UTC datetime to a local datetime using the stored offset."""
+        if self.tz_offset is None:
+            return dt_utc
+        return dt_utc + timedelta(hours=self.tz_offset)
+
     def _get_month_phases(self, year, month):
-        """Return list of the 4 main phases (new, first, full, last) for the given month."""
-        # This method should already exist in your file; it's the same as before.
-        # I'll just include a placeholder; you can keep your existing implementation.
-        # Make sure it returns dictionaries with keys: 'date', 'phase_name', 'icon_path', 'distance', etc.
-        # Example:
         target_phases = [0.0, 0.25, 0.5, 0.75]
         names = {
             0.0: "New Moon",
@@ -331,8 +332,6 @@ class MoonCalendar(Screen, HelpableScreen):
             0.5: "Full Moon",
             0.75: "Last Quarter"
         }
-
-        # Start and end of the month in Julian Day
         start_of_month = datetime(year, month, 1)
         if month == 12:
             end_of_month = datetime(year + 1, 1, 1) - timedelta(days=1)
@@ -346,21 +345,19 @@ class MoonCalendar(Screen, HelpableScreen):
         for target in target_phases:
             jd_phase = self._find_next_phase_after(jd_start, target, jd_ref)
             while jd_phase <= jd_end:
-                dt_phase = self._jd_to_datetime(jd_phase)
-                if dt_phase.year == year and dt_phase.month == month:
+                dt_phase_utc = self.moon._jd_to_datetime(jd_phase)   # UTC
+                dt_phase_local = self._utc_to_local(dt_phase_utc)    # converti in ora locale
+                if dt_phase_local.year == year and dt_phase_local.month == month:
                     info = self.moon.get_phase_info_for_jd(jd_phase)
                     month_phases.append({
-                        'date': dt_phase,
+                        'date': dt_phase_local,
                         'phase_name': names[target],
                         'icon_path': info['icon_path'],
                         'jd': jd_phase,
                         'illumination': info['illumination'],
                         'distance': info['distance']
                     })
-                # Move to the next phase (using the constant from the moon
-                # object)
                 jd_phase += 29.530588853
-
         month_phases.sort(key=lambda x: x['date'])
         return month_phases
 
