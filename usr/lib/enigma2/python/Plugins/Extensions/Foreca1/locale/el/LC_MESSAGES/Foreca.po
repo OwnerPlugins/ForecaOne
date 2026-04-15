@@ -40,10 +40,6 @@ msgstr "6 - Σήμερα + 6 ημέρες"
 msgid "7 - Today + 7 days"
 msgstr "7 - Σήμερα + 7 ημέρες"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "OK - Πρόγνωση"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Σήμερα + 8 ημέρες"
 
@@ -126,10 +122,6 @@ msgstr "Βερολίνο"
 msgid "Black Moon"
 msgstr "Μαύρη σελήνη"
 
-#, fuzzy
-msgid "Blue"
-msgstr "Μπλε σελήνη"
-
 msgid "Blue - Home"
 msgstr "Μπλε - Αρχική"
 
@@ -183,10 +175,6 @@ msgstr "Κλείσιμο"
 
 msgid "Close legend"
 msgstr "Κλείσιμο υπομνήματος"
-
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Συννεφιασμένος και μπόρες"
 
 msgid "Cloudy"
 msgstr "Συννεφιασμένος"
@@ -298,10 +286,6 @@ msgstr "Σημείο δρόσου: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Σημείο δρόσου: Μ/Δ"
-
-#, fuzzy
-msgid "Distance"
-msgstr "Απόσταση: %s"
 
 msgid "Distance {} km"
 msgstr "Απόσταση {} χλμ"
@@ -492,10 +476,6 @@ msgstr "Μεγάλη Βρετανία"
 msgid "Greece"
 msgstr "Ελλάδα"
 
-#, fuzzy
-msgid "Green"
-msgstr "Ελλάδα"
-
 msgid "Green - Favorite 1"
 msgstr "Πράσινο - Αγαπημένο 1"
 
@@ -504,9 +484,6 @@ msgstr "Ριπές ανέμου {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Ριπές ανέμου: {:.1f} {}"
-
-msgid "HTML"
-msgstr ""
 
 msgid "Hamburg"
 msgstr "Αμβούργο"
@@ -565,10 +542,6 @@ msgstr "Εικόνα %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Εικόνα %(current)d/%(total)d – %(day)s (Σε παύση)"
 
-#, fuzzy
-msgid "Image Downloaded"
-msgstr "Σελίδα κάτω"
-
 msgid "Image not available"
 msgstr "Η εικόνα δεν είναι διαθέσιμη"
 
@@ -606,10 +579,6 @@ msgid "Keyboard"
 msgstr "Πληκτρολόγιο"
 
 msgid "Last Quarter"
-msgstr "Τελευταίο τέταρτο"
-
-#, fuzzy
-msgid "Last update"
 msgstr "Τελευταίο τέταρτο"
 
 msgid "Latvia"
@@ -998,9 +967,6 @@ msgstr "Προηγούμενη σελίδα"
 msgid "Previous time"
 msgstr "Προηγούμενη φορά"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr "Πιθανότ. βροχής"
 
@@ -1015,9 +981,6 @@ msgstr "Βροχή: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Ραντάρ προβολής βροχής"
-
-msgid "Red"
-msgstr ""
 
 msgid "Red - Color select"
 msgstr "Κόκκινο - Επιλογή χρώματος"
@@ -1126,9 +1089,6 @@ msgstr "Σλοβακία"
 
 msgid "Slower: {}s"
 msgstr "Πιο αργά: {}δ"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr "Χιόνι / πάγος"
@@ -1240,9 +1200,6 @@ msgstr "Ρυθμίσεις διαφάνειας"
 
 msgid "Transparency level"
 msgstr "Επίπεδο διαφάνειας"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr "Δείκτης UV"
@@ -1377,10 +1334,6 @@ msgstr "Καιρός αύριο"
 msgid "Weekly Forecast"
 msgstr "Εβδομαδιαία πρόγνωση"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Χάρτες καιρού"
-
 msgid "Wind"
 msgstr "Άνεμος"
 
@@ -1470,3 +1423,35 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 
 msgid "← Frame"
 msgstr "← Καρέ"
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "OK - Πρόγνωση"
+
+#, fuzzy
+#~ msgid "Blue"
+#~ msgstr "Μπλε σελήνη"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Συννεφιασμένος και μπόρες"
+
+#, fuzzy
+#~ msgid "Distance"
+#~ msgstr "Απόσταση: %s"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "Ελλάδα"
+
+#, fuzzy
+#~ msgid "Image Downloaded"
+#~ msgstr "Σελίδα κάτω"
+
+#, fuzzy
+#~ msgid "Last update"
+#~ msgstr "Τελευταίο τέταρτο"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Χάρτες καιρού"

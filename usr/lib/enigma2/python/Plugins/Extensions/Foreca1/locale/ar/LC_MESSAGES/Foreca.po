@@ -45,9 +45,6 @@ msgstr "6 - اليوم + 6 أيام"
 msgid "7 - Today + 7 days"
 msgstr "7 - اليوم + 7 أيام"
 
-msgid "7 Day Forecast"
-msgstr "توقعات 7 أيام"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - اليوم + 8 أيام"
 
@@ -131,9 +128,6 @@ msgstr "برلين"
 msgid "Black Moon"
 msgstr "البدر"
 
-msgid "Blue"
-msgstr "أزرق"
-
 msgid "Blue - Home"
 msgstr "أزرق - الصفحة الرئيسية"
 
@@ -188,9 +182,6 @@ msgstr "إغلاق"
 
 msgid "Close legend"
 msgstr "إغلاق وسيلة الإيضاح"
-
-msgid "Cloud Cover"
-msgstr "الغطاء السحابي"
 
 msgid "Cloudy"
 msgstr "غائم"
@@ -302,9 +293,6 @@ msgstr "نقطة الندى: %s°م"
 
 msgid "Dewpoint: N/A"
 msgstr "نقطة الندى: غير متوفر"
-
-msgid "Distance"
-msgstr "المسافة"
 
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
@@ -496,9 +484,6 @@ msgstr "بريطانيا العظمى"
 msgid "Greece"
 msgstr "اليونان"
 
-msgid "Green"
-msgstr "أخضر"
-
 msgid "Green - Favorite 1"
 msgstr "أخضر - المفضلة 1"
 
@@ -507,9 +492,6 @@ msgstr "عاصفة {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "عاصفة: {:.1f} {}"
-
-msgid "HTML"
-msgstr "HTML"
 
 msgid "Hamburg"
 msgstr "هامبورغ"
@@ -569,9 +551,6 @@ msgstr "الصورة %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "الصورة %(current)d/%(total)d – %(day)s (متوقفة مؤقتًا)"
 
-msgid "Image Downloaded"
-msgstr "تم تحميل الصورة"
-
 msgid "Image not available"
 msgstr "الصورة غير متوفرة"
 
@@ -610,9 +589,6 @@ msgstr "لوحة المفاتيح"
 
 msgid "Last Quarter"
 msgstr "الربع الأخير"
-
-msgid "Last update"
-msgstr "آخر تحديث"
 
 msgid "Latvia"
 msgstr "لاتفيا"
@@ -1001,9 +977,6 @@ msgstr "الصفحة السابقة"
 msgid "Previous time"
 msgstr "الوقت السابق"
 
-msgid "Radar"
-msgstr "الرادار"
-
 msgid "Rain Prob."
 msgstr "احتمالية المطر."
 
@@ -1018,9 +991,6 @@ msgstr "المطر: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "رادار RainViewer"
-
-msgid "Red"
-msgstr "أحمر"
 
 msgid "Red - Color select"
 msgstr "أحمر - اختيار اللون"
@@ -1129,9 +1099,6 @@ msgstr "سلوفاكيا"
 
 msgid "Slower: {}s"
 msgstr "أبطأ: {}ث"
-
-msgid "Snow"
-msgstr "ثلج"
 
 msgid "Snow / ice"
 msgstr "ثلج / جليد"
@@ -1244,9 +1211,6 @@ msgstr "إعدادات الشفافية"
 
 msgid "Transparency level"
 msgstr "مستوى الشفافية"
-
-msgid "UV"
-msgstr "الأشعة فوق البنفسجية"
 
 msgid "UV Index"
 msgstr "مؤشر الأشعة فوق البنفسجية"
@@ -1381,9 +1345,6 @@ msgstr "طقس الغد"
 msgid "Weekly Forecast"
 msgstr "التوقعات الأسبوعية"
 
-msgid "Wetter.de Maps Test"
-msgstr "اختبار خرائط Wetter.de"
-
 msgid "Wind"
 msgstr "الرياح"
 
@@ -1473,6 +1434,45 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
 msgstr "إطار ←"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "توقعات 7 أيام"
+
+#~ msgid "Blue"
+#~ msgstr "أزرق"
+
+#~ msgid "Cloud Cover"
+#~ msgstr "الغطاء السحابي"
+
+#~ msgid "Distance"
+#~ msgstr "المسافة"
+
+#~ msgid "Green"
+#~ msgstr "أخضر"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Image Downloaded"
+#~ msgstr "تم تحميل الصورة"
+
+#~ msgid "Last update"
+#~ msgstr "آخر تحديث"
+
+#~ msgid "Radar"
+#~ msgstr "الرادار"
+
+#~ msgid "Red"
+#~ msgstr "أحمر"
+
+#~ msgid "Snow"
+#~ msgstr "ثلج"
+
+#~ msgid "UV"
+#~ msgstr "الأشعة فوق البنفسجية"
+
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "اختبار خرائط Wetter.de"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "موافق - المنطقة"

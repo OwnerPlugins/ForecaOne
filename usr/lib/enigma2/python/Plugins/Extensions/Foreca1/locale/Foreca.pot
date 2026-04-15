@@ -1,5 +1,6 @@
 #, fuzzy
 
+
 msgid "(Additional data not available)"
 msgstr ""
 
@@ -25,9 +26,6 @@ msgid "6 - Today + 6 days"
 msgstr ""
 
 msgid "7 - Today + 7 days"
-msgstr ""
-
-msgid "7 Day Forecast"
 msgstr ""
 
 msgid "8 - Today + 8 days"
@@ -111,9 +109,6 @@ msgstr ""
 msgid "Black Moon"
 msgstr ""
 
-msgid "Blue"
-msgstr ""
-
 msgid "Blue - Home"
 msgstr ""
 
@@ -166,9 +161,6 @@ msgid "Close"
 msgstr ""
 
 msgid "Close legend"
-msgstr ""
-
-msgid "Cloud Cover"
 msgstr ""
 
 msgid "Cloudy"
@@ -280,9 +272,6 @@ msgid "Dewpoint: %s°C"
 msgstr ""
 
 msgid "Dewpoint: N/A"
-msgstr ""
-
-msgid "Distance"
 msgstr ""
 
 msgid "Distance {} km"
@@ -474,9 +463,6 @@ msgstr ""
 msgid "Greece"
 msgstr ""
 
-msgid "Green"
-msgstr ""
-
 msgid "Green - Favorite 1"
 msgstr ""
 
@@ -484,9 +470,6 @@ msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
-
-msgid "HTML"
 msgstr ""
 
 msgid "Hamburg"
@@ -546,9 +529,6 @@ msgstr ""
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr ""
 
-msgid "Image Downloaded"
-msgstr ""
-
 msgid "Image not available"
 msgstr ""
 
@@ -586,9 +566,6 @@ msgid "Keyboard"
 msgstr ""
 
 msgid "Last Quarter"
-msgstr ""
-
-msgid "Last update"
 msgstr ""
 
 msgid "Latvia"
@@ -975,9 +952,6 @@ msgstr ""
 msgid "Previous time"
 msgstr ""
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr ""
 
@@ -991,9 +965,6 @@ msgid "Rain: {:.1f} {}"
 msgstr ""
 
 msgid "RainViewer Radar"
-msgstr ""
-
-msgid "Red"
 msgstr ""
 
 msgid "Red - Color select"
@@ -1102,9 +1073,6 @@ msgid "Slovakia"
 msgstr ""
 
 msgid "Slower: {}s"
-msgstr ""
-
-msgid "Snow"
 msgstr ""
 
 msgid "Snow / ice"
@@ -1216,9 +1184,6 @@ msgid "Transparency Settings"
 msgstr ""
 
 msgid "Transparency level"
-msgstr ""
-
-msgid "UV"
 msgstr ""
 
 msgid "UV Index"
@@ -1351,9 +1316,6 @@ msgid "Weather tomorrow"
 msgstr ""
 
 msgid "Weekly Forecast"
-msgstr ""
-
-msgid "Wetter.de Maps Test"
 msgstr ""
 
 msgid "Wind"

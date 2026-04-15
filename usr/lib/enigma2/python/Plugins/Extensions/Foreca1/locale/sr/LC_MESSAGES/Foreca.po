@@ -46,9 +46,6 @@ msgstr "6 - Данас + 6 дана"
 msgid "7 - Today + 7 days"
 msgstr "7 - Данас + 7 дана"
 
-msgid "7 Day Forecast"
-msgstr "7-дневна прогноза"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Данас + 8 дана"
 
@@ -132,9 +129,6 @@ msgstr "Берлин"
 msgid "Black Moon"
 msgstr "Пун Месец"
 
-msgid "Blue"
-msgstr "Плава"
-
 msgid "Blue - Home"
 msgstr "Плава - Почетна"
 
@@ -189,9 +183,6 @@ msgstr "Затвори"
 
 msgid "Close legend"
 msgstr "Затвори легенду"
-
-msgid "Cloud Cover"
-msgstr "Облачност"
 
 msgid "Cloudy"
 msgstr "Облачно"
@@ -303,9 +294,6 @@ msgstr "Тачка росе: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Тачка росе: Н/Д"
-
-msgid "Distance"
-msgstr "Удаљеност"
 
 msgid "Distance {} km"
 msgstr "Удаљеност {} км"
@@ -497,9 +485,6 @@ msgstr "Велика Британија"
 msgid "Greece"
 msgstr "Грчка"
 
-msgid "Green"
-msgstr "Зелена"
-
 msgid "Green - Favorite 1"
 msgstr "Зелена - Омиљени 1"
 
@@ -508,9 +493,6 @@ msgstr "Удари ветра {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Удари ветра: {:.1f} {}"
-
-msgid "HTML"
-msgstr "ХТМЛ"
 
 msgid "Hamburg"
 msgstr "Хамбург"
@@ -570,9 +552,6 @@ msgstr "Слика %(current)d/%(total)d – %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Слика %(current)d/%(total)d – %(day)s (Паузирано)"
 
-msgid "Image Downloaded"
-msgstr "Слика преузета"
-
 msgid "Image not available"
 msgstr "Слика није доступна"
 
@@ -611,9 +590,6 @@ msgstr "Тастатура"
 
 msgid "Last Quarter"
 msgstr "Последња четврт"
-
-msgid "Last update"
-msgstr "Последње ажурирање"
 
 msgid "Latvia"
 msgstr "Летонија"
@@ -1002,9 +978,6 @@ msgstr "Претходна страница"
 msgid "Previous time"
 msgstr "Претходно време"
 
-msgid "Radar"
-msgstr "Радар"
-
 msgid "Rain Prob."
 msgstr "Вероватноћа кише."
 
@@ -1019,9 +992,6 @@ msgstr "Киша: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer радар"
-
-msgid "Red"
-msgstr "Црвена"
 
 msgid "Red - Color select"
 msgstr "Црвена - Избор боје"
@@ -1130,9 +1100,6 @@ msgstr "Словачка"
 
 msgid "Slower: {}s"
 msgstr "Спорије: {}с"
-
-msgid "Snow"
-msgstr "Снег"
 
 msgid "Snow / ice"
 msgstr "Снег / лед"
@@ -1245,9 +1212,6 @@ msgstr "Подешавања провидности"
 
 msgid "Transparency level"
 msgstr "Ниво провидности"
-
-msgid "UV"
-msgstr "УВ"
 
 msgid "UV Index"
 msgstr "УВ индекс"
@@ -1382,9 +1346,6 @@ msgstr "Време сутра"
 msgid "Weekly Forecast"
 msgstr "Недељна прогноза"
 
-msgid "Wetter.de Maps Test"
-msgstr "Wetter.de тест карата"
-
 msgid "Wind"
 msgstr "Ветар"
 
@@ -1474,6 +1435,45 @@ msgstr "• ЖУТА за чување као Омиљени 2\n"
 
 msgid "← Frame"
 msgstr "← Оквир"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7-дневна прогноза"
+
+#~ msgid "Blue"
+#~ msgstr "Плава"
+
+#~ msgid "Cloud Cover"
+#~ msgstr "Облачност"
+
+#~ msgid "Distance"
+#~ msgstr "Удаљеност"
+
+#~ msgid "Green"
+#~ msgstr "Зелена"
+
+#~ msgid "HTML"
+#~ msgstr "ХТМЛ"
+
+#~ msgid "Image Downloaded"
+#~ msgstr "Слика преузета"
+
+#~ msgid "Last update"
+#~ msgstr "Последње ажурирање"
+
+#~ msgid "Radar"
+#~ msgstr "Радар"
+
+#~ msgid "Red"
+#~ msgstr "Црвена"
+
+#~ msgid "Snow"
+#~ msgstr "Снег"
+
+#~ msgid "UV"
+#~ msgstr "УВ"
+
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Wetter.de тест карата"
 
 #~ msgid "Ok - Zone"
 #~ msgstr "ОК - Зона"

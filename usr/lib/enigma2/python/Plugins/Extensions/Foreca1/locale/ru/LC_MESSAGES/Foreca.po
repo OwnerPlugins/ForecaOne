@@ -39,10 +39,6 @@ msgstr "6 - Сегодня + 6 дней"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сегодня + 7 дней"
 
-#, fuzzy
-msgid "7 Day Forecast"
-msgstr "ОК — Прогноз"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Сегодня + 8 дней"
 
@@ -125,10 +121,6 @@ msgstr "Берлин"
 msgid "Black Moon"
 msgstr "Чёрная Луна"
 
-#, fuzzy
-msgid "Blue"
-msgstr "Голубая Луна"
-
 msgid "Blue - Home"
 msgstr "Синяя - Дом"
 
@@ -182,10 +174,6 @@ msgstr "Закрыть"
 
 msgid "Close legend"
 msgstr "Закрыть легенду"
-
-#, fuzzy
-msgid "Cloud Cover"
-msgstr "Облачно, возможны дожди"
 
 msgid "Cloudy"
 msgstr "Облачно"
@@ -297,10 +285,6 @@ msgstr "Точка росы: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "Точка росы: Н/Д"
-
-#, fuzzy
-msgid "Distance"
-msgstr "Расстояние: %s"
 
 msgid "Distance {} km"
 msgstr "Расстояние {} км"
@@ -496,10 +480,6 @@ msgstr "Великобритания"
 msgid "Greece"
 msgstr "Греция"
 
-#, fuzzy
-msgid "Green"
-msgstr "Греция"
-
 msgid "Green - Favorite 1"
 msgstr "Зелёный - Избранное 1"
 
@@ -508,9 +488,6 @@ msgstr "Порыв {}"
 
 msgid "Gust: {:.1f} {}"
 msgstr "Порыв: {:.1f} {}"
-
-msgid "HTML"
-msgstr ""
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -569,10 +546,6 @@ msgstr "Изображение %(current)d/%(total)d — %(day)s"
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
 msgstr "Изображение %(current)d/%(total)d – %(day)s (Пауза)"
 
-#, fuzzy
-msgid "Image Downloaded"
-msgstr "Страница вниз"
-
 msgid "Image not available"
 msgstr "Изображение недоступно"
 
@@ -610,10 +583,6 @@ msgid "Keyboard"
 msgstr "Клавиатура"
 
 msgid "Last Quarter"
-msgstr "Последний квартал"
-
-#, fuzzy
-msgid "Last update"
 msgstr "Последний квартал"
 
 msgid "Latvia"
@@ -1002,9 +971,6 @@ msgstr "Предыдущая страница"
 msgid "Previous time"
 msgstr "Предыдущее время"
 
-msgid "Radar"
-msgstr ""
-
 msgid "Rain Prob."
 msgstr "Вероятность дождя."
 
@@ -1019,9 +985,6 @@ msgstr "Дождь: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Радар RainViewer"
-
-msgid "Red"
-msgstr ""
 
 msgid "Red - Color select"
 msgstr "Красный — выбор цвета"
@@ -1130,9 +1093,6 @@ msgstr "Словакия"
 
 msgid "Slower: {}s"
 msgstr "Медленнее: {}с"
-
-msgid "Snow"
-msgstr ""
 
 msgid "Snow / ice"
 msgstr "Снег / лёд"
@@ -1244,9 +1204,6 @@ msgstr "Настройки прозрачности"
 
 msgid "Transparency level"
 msgstr "Уровень прозрачности"
-
-msgid "UV"
-msgstr ""
 
 msgid "UV Index"
 msgstr "UV индекс"
@@ -1380,10 +1337,6 @@ msgstr "Погода завтра"
 msgid "Weekly Forecast"
 msgstr "Прогноз на неделю"
 
-#, fuzzy
-msgid "Wetter.de Maps Test"
-msgstr "Карты погоды"
-
 msgid "Wind"
 msgstr "Ветер"
 
@@ -1473,3 +1426,35 @@ msgstr "• ЖЁЛТАЯ — сохранить как Избранное 2\n"
 
 msgid "← Frame"
 msgstr "← Кадр"
+
+#, fuzzy
+#~ msgid "7 Day Forecast"
+#~ msgstr "ОК — Прогноз"
+
+#, fuzzy
+#~ msgid "Blue"
+#~ msgstr "Голубая Луна"
+
+#, fuzzy
+#~ msgid "Cloud Cover"
+#~ msgstr "Облачно, возможны дожди"
+
+#, fuzzy
+#~ msgid "Distance"
+#~ msgstr "Расстояние: %s"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "Греция"
+
+#, fuzzy
+#~ msgid "Image Downloaded"
+#~ msgstr "Страница вниз"
+
+#, fuzzy
+#~ msgid "Last update"
+#~ msgstr "Последний квартал"
+
+#, fuzzy
+#~ msgid "Wetter.de Maps Test"
+#~ msgstr "Карты погоды"
