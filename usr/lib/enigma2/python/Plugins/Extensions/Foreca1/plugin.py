@@ -2013,12 +2013,16 @@ class Foreca_Preview(Screen, HelpableScreen):
             write_current_weather_debug("MOON VALUES:")
             write_current_weather_debug(f"  Phase       : {phase_name}")
             write_current_weather_debug(f"  Illumination: {illumination:.1f}%")
-            write_current_weather_debug(f"  Distance    : {int(round(distance_km))} km")
-            # Note: rise/set times are updated asynchronously by _moon_api_callback
+            write_current_weather_debug(
+                f"  Distance    : {int(round(distance_km))} km")
+            # Note: rise/set times are updated asynchronously by
+            # _moon_api_callback
             if "moonrise_value" in self:
-                write_current_weather_debug(f"  Moonrise    : {self['moonrise_value'].getText()}")
+                write_current_weather_debug(
+                    f"  Moonrise    : {self['moonrise_value'].getText()}")
             if "moonset_value" in self:
-                write_current_weather_debug(f"  Moonset     : {self['moonset_value'].getText()}")
+                write_current_weather_debug(
+                    f"  Moonset     : {self['moonset_value'].getText()}")
             write_current_weather_debug("-" * 60)
 
         self.instance.invalidate()
