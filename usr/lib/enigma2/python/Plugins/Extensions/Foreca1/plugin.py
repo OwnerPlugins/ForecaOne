@@ -2100,35 +2100,45 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         if extra:
             # Times (already in local time thanks to the API)
+            # NOTE: rise_time and set_time are swapped in the extra dict,
+            # so we display set_time as Moonrise and rise_time as Moonset.
             lines.append(
-                _("Moonrise: {}").format(
-                    extra.get(
-                        'rise_time',
-                        'N/A')))
-            lines.append(_("Moonset: {}").format(extra.get('set_time', 'N/A')))
-
-            lines.append(_("Rise azimuth: {:.0f}°").format(extra.get('rise_azimuth'))
-                         if extra.get('rise_azimuth') else _("Rise azimuth: N/A"))
-            lines.append(_("Set azimuth: {:.0f}°").format(extra.get('set_azimuth'))
-                         if extra.get('set_azimuth') else _("Set azimuth: N/A"))
-
+                _("Moonrise: {}").format(extra.get('set_time', 'N/A'))
+            )
             lines.append(
-                _("Transit (culmination): {}").format(
-                    extra.get(
-                        'transit_time',
-                        'N/A')))
-            lines.append(_("Transit altitude: {:.0f}°").format(extra.get('transit_altitude'))
-                         if extra.get('transit_altitude') else _("Transit altitude: N/A"))
-
-            lines.append(_("Apparent magnitude: {:.2f}").format(extra.get('magnitude'))
-                         if extra.get('magnitude') else _("Apparent magnitude: N/A"))
-            lines.append(
-                (_("Angular diameter: {:.0f}") + "\"").format(extra.get('angular_diameter'))
-                if extra.get('angular_diameter') else _("Angular diameter: N/A")
+                _("Moonset: {}").format(extra.get('rise_time', 'N/A'))
             )
 
-            lines.append(_("Age since New Moon: {:.1f} days").format(
-                extra.get('age')) if extra.get('age') else _("Age: N/A"))
+            lines.append(
+                _("Rise azimuth: {:.0f}°").format(extra.get('rise_azimuth'))
+                if extra.get('rise_azimuth') is not None else _("Rise azimuth: N/A")
+            )
+            lines.append(
+                _("Set azimuth: {:.0f}°").format(extra.get('set_azimuth'))
+                if extra.get('set_azimuth') is not None else _("Set azimuth: N/A")
+            )
+
+            lines.append(
+                _("Transit (culmination): {}").format(extra.get('transit_time', 'N/A'))
+            )
+            lines.append(
+                _("Transit altitude: {:.0f}°").format(extra.get('transit_altitude'))
+                if extra.get('transit_altitude') is not None else _("Transit altitude: N/A")
+            )
+
+            lines.append(
+                _("Apparent magnitude: {:.2f}").format(extra.get('magnitude'))
+                if extra.get('magnitude') is not None else _("Apparent magnitude: N/A")
+            )
+            lines.append(
+                (_("Angular diameter: {:.0f}") + "\"").format(extra.get('angular_diameter'))
+                if extra.get('angular_diameter') is not None else _("Angular diameter: N/A")
+            )
+
+            lines.append(
+                _("Age since New Moon: {:.1f} days").format(extra.get('age'))
+                if extra.get('age') is not None else _("Age: N/A")
+            )
         else:
             lines.append(_("(Additional data not available)"))
 
