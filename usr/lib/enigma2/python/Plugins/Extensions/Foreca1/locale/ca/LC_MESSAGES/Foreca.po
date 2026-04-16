@@ -1294,7 +1294,7 @@ msgstr "Temperatura"
 msgid "Temperature: {}°C"
 msgstr "Temperatura"
 
-msgid "Thanks {thanks} and other friends for suggestions and testing"
+msgid "Thanks {thanks} and other friends for suggestions"
 msgstr ""
 
 msgid "The remote version ({remote}) is older than the current one ({current})."

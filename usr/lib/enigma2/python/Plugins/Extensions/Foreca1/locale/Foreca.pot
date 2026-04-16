@@ -12,6 +12,7 @@
 
 
 
+
 msgid "(Additional data not available)"
 msgstr ""
 
@@ -1197,7 +1198,7 @@ msgstr ""
 msgid "Temperature: {}°C"
 msgstr ""
 
-msgid "Thanks {thanks} and other friends for suggestions and testing"
+msgid "Thanks {thanks} and other friends for suggestions"
 msgstr ""
 
 msgid "The remote version ({remote}) is older than the current one ({current})."

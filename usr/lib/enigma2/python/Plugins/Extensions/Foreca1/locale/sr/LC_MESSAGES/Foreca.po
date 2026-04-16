@@ -1219,7 +1219,7 @@ msgid "Temperature: {}°C"
 msgstr "Температура: {}°C"
 
 #, fuzzy
-msgid "Thanks {thanks} and other friends for suggestions and testing"
+msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Хвала {thanks} и другим пријатељима на предлозима и тестирању"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
