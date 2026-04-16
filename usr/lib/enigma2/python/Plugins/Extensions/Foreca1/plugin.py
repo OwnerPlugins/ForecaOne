@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 #
 
+from __future__ import absolute_import
 import glob
 import datetime
 from os import chmod, makedirs
@@ -10,7 +11,6 @@ from threading import Thread
 
 from Components.ActionMap import HelpableActionMap
 from Components.Label import Label
-from Components.ConfigList import ConfigListScreen
 from Components.Pixmap import Pixmap
 from Components.ProgressBar import ProgressBar
 from Components.Sources.List import List
@@ -21,7 +21,6 @@ from Screens.Screen import Screen
 from Screens.HelpMenu import HelpableScreen
 from Screens.ChoiceBox import ChoiceBox
 from Screens.MessageBox import MessageBox
-from Components.config import ConfigPassword, ConfigText, NoSave, getConfigListEntry
 
 from enigma import gRGB, eTimer
 from skin import parseColor
@@ -106,40 +105,6 @@ from .hour_detail import HourDetailView
 TARGET_LANG = _get_system_language()
 
 
-def read_api_config():
-    """Read Foreca API configuration file into a dictionary."""
-    config_data = {
-        "API_USER": "",
-        "API_PASSWORD": "",
-        "TOKEN_EXPIRE_HOURS": "168",
-        "MAP_SERVER": "map-eu.foreca.com",
-        "AUTH_SERVER": "pfa.foreca.com",
-    }
-
-    if not exists(CONFIG_FILE):
-        return config_data
-
-    try:
-        with open(CONFIG_FILE, encoding="utf-8") as config_file:
-            for raw_line in config_file:
-                line = raw_line.strip()
-                if not line or line.startswith('#') or '=' not in line:
-                    continue
-                key, value = line.split('=', 1)
-                config_data[key.strip()] = value.strip()
-    except Exception as error:
-        print(f"[Foreca1] Failed to read API config: {error}")
-
-    return config_data
-
-
-def has_api_credentials():
-    """Return True if Foreca API credentials are configured."""
-    config_data = read_api_config()
-    return bool(config_data.get("API_USER")
-                and config_data.get("API_PASSWORD"))
-
-
 def is_valid(v):
     """Return True if value is not None and not a string representing 'N/A'."""
     if v is None:
@@ -212,149 +177,6 @@ def write_meteogram_debug(text):
 
 
 # ---------- End Debug ----------
-
-
-class ForecaSetup(Screen, ConfigListScreen):
-    skin = """
-        <screen name="ForecaSetup" position="center,center" size="900,520" title="Foreca API Setup">
-            <widget name="config" position="20,20" size="860,390" scrollbarMode="showOnDemand" />
-            <widget source="key_red" render="Label" position="20,440" size="200,40" font="Regular;28" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
-            <widget source="key_green" render="Label" position="240,440" size="200,40" font="Regular;28" halign="center" valign="center" backgroundColor="#1f771f" transparent="1" />
-            <widget source="key_yellow" render="Label" position="460,440" size="200,40" font="Regular;28" halign="center" valign="center" backgroundColor="#a08500" transparent="1" />
-            <widget source="status" render="Label" position="20,490" size="860,24" font="Regular;22" halign="left" valign="center" />
-        </screen>
-    """
-
-    def __init__(self, session):
-        Screen.__init__(self, session)
-
-        self["key_red"] = StaticText(_("Cancel"))
-        self["key_green"] = StaticText(_("Save"))
-        self["key_yellow"] = StaticText(_("Defaults"))
-        self["status"] = StaticText(CONFIG_FILE)
-
-        config_data = read_api_config()
-        self.api_user = NoSave(
-            ConfigText(
-                default=config_data.get(
-                    "API_USER",
-                    ""),
-                fixed_size=False))
-        self.api_password = NoSave(
-            ConfigPassword(
-                default=config_data.get(
-                    "API_PASSWORD",
-                    ""),
-                fixed_size=False))
-        self.token_expire_hours = NoSave(
-            ConfigText(
-                default=config_data.get(
-                    "TOKEN_EXPIRE_HOURS",
-                    "168"),
-                fixed_size=False))
-        self.map_server = NoSave(
-            ConfigText(
-                default=config_data.get(
-                    "MAP_SERVER",
-                    "map-eu.foreca.com"),
-                fixed_size=False))
-        self.auth_server = NoSave(
-            ConfigText(
-                default=config_data.get(
-                    "AUTH_SERVER",
-                    "pfa.foreca.com"),
-                fixed_size=False))
-
-        entries = [
-            getConfigListEntry(_("API user"), self.api_user),
-            getConfigListEntry(_("API password"), self.api_password),
-            getConfigListEntry(_("Token expire hours"), self.token_expire_hours),
-            getConfigListEntry(_("Map server"), self.map_server),
-            getConfigListEntry(_("Auth server"), self.auth_server),
-        ]
-        ConfigListScreen.__init__(self, entries, session=session)
-
-        self["actions"] = HelpableActionMap(
-            self,
-            ["SetupActions", "ColorActions"],
-            {
-                "cancel": (self.close, _("Close setup without saving")),
-                "save": (self.save, _("Save API settings")),
-                "green": (self.save, _("Save API settings")),
-                "red": (self.close, _("Close setup without saving")),
-                "yellow": (self.set_defaults, _("Restore default server values")),
-            },
-            -2,
-        )
-
-        self.setTitle(_("Foreca API Setup"))
-
-    def set_defaults(self):
-        self.token_expire_hours.value = "168"
-        self.map_server.value = "map-eu.foreca.com"
-        self.auth_server.value = "pfa.foreca.com"
-        self["config"].invalidate(self.token_expire_hours)
-        self["config"].invalidate(self.map_server)
-        self["config"].invalidate(self.auth_server)
-
-    def save(self):
-        api_user = self.api_user.value.strip()
-        api_password = self.api_password.value.strip()
-        token_expire_hours = self.token_expire_hours.value.strip() or "168"
-        map_server = self.map_server.value.strip() or "map-eu.foreca.com"
-        auth_server = self.auth_server.value.strip() or "pfa.foreca.com"
-
-        if not api_user or not api_password:
-            self.session.open(
-                MessageBox,
-                _("Please enter both API user and API password."),
-                MessageBox.TYPE_ERROR,
-            )
-            return
-
-        try:
-            token_expire_hours_int = int(token_expire_hours)
-        except ValueError:
-            self.session.open(
-                MessageBox,
-                _("Token expire hours must be a number."),
-                MessageBox.TYPE_ERROR,
-            )
-            return
-
-        if token_expire_hours_int < -1:
-            self.session.open(
-                MessageBox,
-                _("Token expire hours must be -1 or a positive number."),
-                MessageBox.TYPE_ERROR,
-            )
-            return
-
-        try:
-            if not exists(SYSTEM_DIR):
-                makedirs(SYSTEM_DIR, exist_ok=True)
-            with open(CONFIG_FILE, "w", encoding="utf-8") as config_file:
-                config_file.write("# Foreca API configuration\n")
-                config_file.write(f"API_USER={api_user}\n")
-                config_file.write(f"API_PASSWORD={api_password}\n")
-                config_file.write(
-                    f"TOKEN_EXPIRE_HOURS={token_expire_hours_int}\n")
-                config_file.write(f"MAP_SERVER={map_server}\n")
-                config_file.write(f"AUTH_SERVER={auth_server}\n")
-        except Exception as error:
-            self.session.open(
-                MessageBox,
-                _("Failed to write configuration file:\n%s") % error,
-                MessageBox.TYPE_ERROR,
-            )
-            return
-
-        self.session.open(
-            MessageBox,
-            _("Foreca API settings saved successfully."),
-            MessageBox.TYPE_INFO,
-        )
-        self.close(True)
 
 
 class Foreca_Preview(Screen, HelpableScreen):
@@ -2872,10 +2694,6 @@ def checkInternet():
         return False
 
 
-def open_setup(session, **kwargs):
-    session.open(ForecaSetup)
-
-
 def main(session, **kwargs):
     if not checkInternet():
         session.open(
@@ -2887,8 +2705,8 @@ def main(session, **kwargs):
     try:
         from enigma import addFont
 
-        plugin_path = "/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
-        font_path = join(plugin_path, "fonts", "LiberationSans-Regular.ttf")
+        PLUGIN_PATH = "/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
+        font_path = join(PLUGIN_PATH, "fonts", "LiberationSans-Regular.ttf")
         print("[FONT] Checking path:", font_path)
         print("[FONT] Exists?", exists(font_path))
         if exists(font_path):
@@ -2898,15 +2716,6 @@ def main(session, **kwargs):
             print("[FONT] ✗ File not found!")
     except Exception as e:
         print("[FONT] ✗ Error:", e)
-
-    if not has_api_credentials():
-        session.open(
-            MessageBox,
-            _("Foreca API credentials are not configured yet. Please enter them in the setup screen."),
-            MessageBox.TYPE_INFO,
-        )
-        session.open(ForecaSetup)
-        return
 
     session.open(Foreca_Preview)
 
@@ -2925,11 +2734,5 @@ def Plugins(path, **kwargs):
             name=_("Foreca One") + " ver." + str(VERSION),
             where=PluginDescriptor.WHERE_EXTENSIONSMENU,
             fnc=main
-        ),
-        PluginDescriptor(
-            name=_("Foreca One Setup"),
-            description=_("Configure Foreca API credentials"),
-            where=PluginDescriptor.WHERE_PLUGINMENU,
-            fnc=open_setup
-        ),
+        )
     ]
