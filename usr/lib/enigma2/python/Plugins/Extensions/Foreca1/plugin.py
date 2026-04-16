@@ -1265,7 +1265,8 @@ class Foreca_Preview(Screen, HelpableScreen):
             return
         frame = self.wind_anim_frames[self.wind_anim_current]
         self["icon_wind_direction"].instance.setPixmapFromFile(frame)
-        self.wind_anim_current = (self.wind_anim_current + 1) % len(self.wind_anim_frames)
+        self.wind_anim_current = (
+            self.wind_anim_current + 1) % len(self.wind_anim_frames)
         self.wind_anim_timer.start(200, True)
 
     def _stop_wind_animation(self):
@@ -1287,7 +1288,8 @@ class Foreca_Preview(Screen, HelpableScreen):
             return
         frame = self.windspeed_anim_frames[self.windspeed_anim_current]
         self["icon_wind_speed"].instance.setPixmapFromFile(frame)
-        self.windspeed_anim_current = (self.windspeed_anim_current + 1) % len(self.windspeed_anim_frames)
+        self.windspeed_anim_current = (
+            self.windspeed_anim_current + 1) % len(self.windspeed_anim_frames)
         self.windspeed_anim_timer.start(200, True)
 
     def _stop_windspeed_animation(self):
@@ -1381,13 +1383,15 @@ class Foreca_Preview(Screen, HelpableScreen):
                 # fallback to static icon if no frames found
                 static_path = get_icon_path("wind_direction.png")
                 if static_path and exists(static_path):
-                    self["icon_wind_direction"].instance.setPixmapFromFile(static_path)
+                    self["icon_wind_direction"].instance.setPixmapFromFile(
+                        static_path)
                 self._stop_wind_animation()
         else:
             # no animated folder, use static icon
             static_path = get_icon_path("wind_direction.png")
             if static_path and exists(static_path):
-                self["icon_wind_direction"].instance.setPixmapFromFile(static_path)
+                self["icon_wind_direction"].instance.setPixmapFromFile(
+                    static_path)
             self._stop_wind_animation()
 
         # Wind speed icon (animated)
@@ -1400,7 +1404,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 # fallback to static icon
                 static_path = join(PLUGIN_PATH, "images", "wind_speed.png")
                 if exists(static_path):
-                    self["icon_wind_speed"].instance.setPixmapFromFile(static_path)
+                    self["icon_wind_speed"].instance.setPixmapFromFile(
+                        static_path)
                 self._stop_windspeed_animation()
         else:
             # no animated folder, use static icon
@@ -2128,12 +2133,16 @@ class Foreca_Preview(Screen, HelpableScreen):
             write_current_weather_debug("MOON VALUES:")
             write_current_weather_debug(f"  Phase       : {phase_name}")
             write_current_weather_debug(f"  Illumination: {illumination:.1f}%")
-            write_current_weather_debug(f"  Distance    : {int(round(distance_km))} km")
-            # Note: rise/set times are updated asynchronously by _moon_api_callback
+            write_current_weather_debug(
+                f"  Distance    : {int(round(distance_km))} km")
+            # Note: rise/set times are updated asynchronously by
+            # _moon_api_callback
             if "moonrise_value" in self:
-                write_current_weather_debug(f"  Moonrise    : {self['moonrise_value'].getText()}")
+                write_current_weather_debug(
+                    f"  Moonrise    : {self['moonrise_value'].getText()}")
             if "moonset_value" in self:
-                write_current_weather_debug(f"  Moonset     : {self['moonset_value'].getText()}")
+                write_current_weather_debug(
+                    f"  Moonset     : {self['moonset_value'].getText()}")
             write_current_weather_debug("-" * 60)
 
         self.instance.invalidate()
