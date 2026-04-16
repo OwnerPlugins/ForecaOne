@@ -244,6 +244,18 @@ class Foreca_Preview(Screen, HelpableScreen):
         self.weather_anim_current = 0
         self.weather_anim_running = False
 
+        self.wind_anim_timer = eTimer()
+        self.wind_anim_timer.callback.append(self._next_wind_frame)
+        self.wind_anim_frames = []
+        self.wind_anim_current = 0
+        self.wind_anim_running = False
+
+        self.windspeed_anim_timer = eTimer()
+        self.windspeed_anim_timer.callback.append(self._next_windspeed_frame)
+        self.windspeed_anim_frames = []
+        self.windspeed_anim_current = 0
+        self.windspeed_anim_running = False
+
         # Load colors and transparency from file (if they exist)
         self.rgbmyr, self.rgbmyg, self.rgbmyb = self._read_color()
         self.alpha = self._read_alpha()
@@ -881,6 +893,14 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.weather_anim_timer.stop()
             self.weather_anim_running = False
 
+        if self.wind_anim_running:
+            self.wind_anim_timer.stop()
+            self.wind_anim_running = False
+
+        if self.windspeed_anim_running:
+            self.windspeed_anim_timer.stop()
+            self.windspeed_anim_running = False
+
         # Extract ID and stored name (if present)
         if '/' in path_loc:
             location_id, stored_name = path_loc.split('/', 1)
@@ -1232,6 +1252,50 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.weather_anim_current + 1) % len(self.weather_anim_frames)
         self.weather_anim_timer.start(200, True)
 
+    def _start_wind_animation(self, frames):
+        if self.wind_anim_running:
+            self.wind_anim_timer.stop()
+        self.wind_anim_frames = frames
+        self.wind_anim_current = 0
+        self.wind_anim_running = True
+        self._next_wind_frame()
+
+    def _next_wind_frame(self):
+        if not self.wind_anim_running or not self.wind_anim_frames:
+            return
+        frame = self.wind_anim_frames[self.wind_anim_current]
+        self["icon_wind_direction"].instance.setPixmapFromFile(frame)
+        self.wind_anim_current = (self.wind_anim_current + 1) % len(self.wind_anim_frames)
+        self.wind_anim_timer.start(200, True)
+
+    def _stop_wind_animation(self):
+        if self.wind_anim_running:
+            self.wind_anim_timer.stop()
+            self.wind_anim_running = False
+        self.wind_anim_frames = []
+
+    def _start_windspeed_animation(self, frames):
+        if self.windspeed_anim_running:
+            self.windspeed_anim_timer.stop()
+        self.windspeed_anim_frames = frames
+        self.windspeed_anim_current = 0
+        self.windspeed_anim_running = True
+        self._next_windspeed_frame()
+
+    def _next_windspeed_frame(self):
+        if not self.windspeed_anim_running or not self.windspeed_anim_frames:
+            return
+        frame = self.windspeed_anim_frames[self.windspeed_anim_current]
+        self["icon_wind_speed"].instance.setPixmapFromFile(frame)
+        self.windspeed_anim_current = (self.windspeed_anim_current + 1) % len(self.windspeed_anim_frames)
+        self.windspeed_anim_timer.start(200, True)
+
+    def _stop_windspeed_animation(self):
+        if self.windspeed_anim_running:
+            self.windspeed_anim_timer.stop()
+            self.windspeed_anim_running = False
+        self.windspeed_anim_frames = []
+
     def my_cur_weather(self):
         """Update all current weather widgets with actual data using UnitManager."""
         if not self.unit_manager:
@@ -1297,6 +1361,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         else:
             dew_text = _("Dewpoint {}").format("N/A")
         self["dewpoint_value"].setText(dew_text)
+
         # WIND
         if self.wind_speed != 'N/A':
             wind_val, wind_unit = self.unit_manager.convert_wind(
@@ -1305,6 +1370,45 @@ class Foreca_Preview(Screen, HelpableScreen):
         else:
             wind_text = _("Wind speed {}").format("N/A")
         self["wind_speed_value"].setText(wind_text)
+
+        # Wind direction icon (animated)
+        wind_dir_anim_dir = join(PLUGIN_PATH, "animated_icons", "windspeed")
+        if exists(wind_dir_anim_dir):
+            frames = sorted(glob.glob(join(wind_dir_anim_dir, "*.png")))
+            if frames:
+                self._start_wind_animation(frames)
+            else:
+                # fallback to static icon if no frames found
+                static_path = get_icon_path("wind_direction.png")
+                if static_path and exists(static_path):
+                    self["icon_wind_direction"].instance.setPixmapFromFile(static_path)
+                self._stop_wind_animation()
+        else:
+            # no animated folder, use static icon
+            static_path = get_icon_path("wind_direction.png")
+            if static_path and exists(static_path):
+                self["icon_wind_direction"].instance.setPixmapFromFile(static_path)
+            self._stop_wind_animation()
+
+        # Wind speed icon (animated)
+        windspeed_anim_dir = join(PLUGIN_PATH, "animated_icons", "wind_speed2")
+        if exists(windspeed_anim_dir):
+            frames = sorted(glob.glob(join(windspeed_anim_dir, "*.png")))
+            if frames:
+                self._start_windspeed_animation(frames)
+            else:
+                # fallback to static icon
+                static_path = join(PLUGIN_PATH, "images", "wind_speed.png")
+                if exists(static_path):
+                    self["icon_wind_speed"].instance.setPixmapFromFile(static_path)
+                self._stop_windspeed_animation()
+        else:
+            # no animated folder, use static icon
+            static_path = join(PLUGIN_PATH, "images", "wind_speed.png")
+            if exists(static_path):
+                self["icon_wind_speed"].instance.setPixmapFromFile(static_path)
+            self._stop_windspeed_animation()
+
         # WIND GUST
         if self.wind_gust != 'N/A':
             gust_val, gust_unit = self.unit_manager.convert_wind(
@@ -1313,6 +1417,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         else:
             gust_text = _("Gust {}").format("N/A")
         self["wind_gust_value"].setText(gust_text)
+
         # PRESSURE
         if self.pressure != 'N/A':
             press_val, press_unit = self.unit_manager.convert_pressure(
@@ -1324,6 +1429,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         else:
             press_text = "N/A"
         self["pressure_value"].setText(press_text)
+
         # RAIN
         if self.rain_mm != 'N/A':
             rain_val, rain_unit = self.unit_manager.convert_precipitation(
@@ -1332,18 +1438,21 @@ class Foreca_Preview(Screen, HelpableScreen):
         else:
             rain_text = "N/A"
         self["rain_value"].setText(rain_text)
+
         # HUMIDITY
         if self.hum != 'N/A':
             hum_text = _("Humidity: {}%").format(self.hum)
         else:
             hum_text = "N/A"
         self["humidity_value"].setText(hum_text)
+
         # WEATHER DESCRIPTION
         if self.pic != 'N/A':
             desc = _symbol_to_description(self.pic)
             self["weather_description"].setText(trans(desc))
         else:
             self["weather_description"].setText("N/A")
+
         # UV INDEX
         if hasattr(self, 'uvi') and self.uvi != 'N/A':
             uvi_val = int(self.uvi)
@@ -1360,6 +1469,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         if "uvi_desc" in self:
             self["uvi_desc"].setText(uvi_desc)
             self["uvi_desc"].instance.setForegroundColor(uv_color)
+
         # SOLAR RADIATIONS
         if hasattr(self, 'f_solar') and self.f_solar and len(self.f_solar) > 0:
             solar_val = self.f_solar[0]
@@ -1398,16 +1508,19 @@ class Foreca_Preview(Screen, HelpableScreen):
             self["aqi_value"].setText(_('AQI: N/A'))
             self["aqi_value"].instance.setForegroundColor(
                 parseColor("#ffffff"))
+
         # RAIN PROB
         if hasattr(self, 'rainp') and self.rainp != 'N/A':
             self["rainp_value"].setText(_("Rain prob. {}%").format(self.rainp))
         else:
             self["rainp_value"].setText(_('Rain prob.: N/A'))
+
         # SNOW PROB
         if hasattr(self, 'snowp') and self.snowp != 'N/A':
             self["snowp_value"].setText(_("Snow prob. {}%").format(self.snowp))
         else:
             self["snowp_value"].setText(_('Snow prob.: N/A'))
+
         # UPDATED
         if hasattr(self, 'updated') and self.updated != 'N/A':
             try:
@@ -1422,6 +1535,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                     _("Updated {}").format(self.updated))
         else:
             self["updated_label"].setText(_('Updated: N/A'))
+
         # SUNRISE, SUNSET, DAY LENGTH
         self["sunrise_value"].setText(
             self.sunrise if self.sunrise != 'N/A' else 'N/A')
@@ -1457,6 +1571,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         self["sunrise_value"].instance.invalidate()
         self["sunset_value"].instance.invalidate()
         self["day_length"].instance.invalidate()
+
         # Wind icon (not part of the animation)
         if is_valid(self.wind):
             wind_icon_path = join(PLUGIN_PATH, "thumb", f"{self.wind}.png")
@@ -2013,16 +2128,12 @@ class Foreca_Preview(Screen, HelpableScreen):
             write_current_weather_debug("MOON VALUES:")
             write_current_weather_debug(f"  Phase       : {phase_name}")
             write_current_weather_debug(f"  Illumination: {illumination:.1f}%")
-            write_current_weather_debug(
-                f"  Distance    : {int(round(distance_km))} km")
-            # Note: rise/set times are updated asynchronously by
-            # _moon_api_callback
+            write_current_weather_debug(f"  Distance    : {int(round(distance_km))} km")
+            # Note: rise/set times are updated asynchronously by _moon_api_callback
             if "moonrise_value" in self:
-                write_current_weather_debug(
-                    f"  Moonrise    : {self['moonrise_value'].getText()}")
+                write_current_weather_debug(f"  Moonrise    : {self['moonrise_value'].getText()}")
             if "moonset_value" in self:
-                write_current_weather_debug(
-                    f"  Moonset     : {self['moonset_value'].getText()}")
+                write_current_weather_debug(f"  Moonset     : {self['moonset_value'].getText()}")
             write_current_weather_debug("-" * 60)
 
         self.instance.invalidate()
@@ -2557,6 +2668,8 @@ class Foreca_Preview(Screen, HelpableScreen):
     def close(self):
         self.time_timer.stop()
         self.weather_anim_timer.stop()
+        self.wind_anim_timer.stop()
+        self.windspeed_anim_timer.stop()
         super(Foreca_Preview, self).close()
 
 
