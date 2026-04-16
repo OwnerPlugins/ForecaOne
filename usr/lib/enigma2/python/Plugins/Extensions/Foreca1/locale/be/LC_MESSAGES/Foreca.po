@@ -61,6 +61,14 @@ msgstr "Уліковыя дадзеныя API не наладжаны."
 msgid "API error"
 msgstr "Памылка API"
 
+#, fuzzy
+msgid "API password"
+msgstr "Памылка API"
+
+#, fuzzy
+msgid "API user"
+msgstr "Памылка API"
+
 msgid "AQI {}"
 msgstr "ІКВ {}"
 
@@ -109,6 +117,9 @@ msgstr "Аўстралія"
 
 msgid "Austria"
 msgstr "Аўстрыя"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Бадэн-Вюртэмберг"
@@ -184,6 +195,9 @@ msgstr "Зачыніць"
 msgid "Close legend"
 msgstr "Зачыніць легенду"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Воблачна"
 
@@ -232,6 +246,9 @@ msgstr "Выбраць колер"
 msgid "Condition: {}"
 msgstr "Стан: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Карты надвор'я кантынентаў"
 
@@ -273,6 +290,9 @@ msgstr "Дзень"
 
 msgid "Decrease Speed"
 msgstr "Паменшыць хуткасць"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Данія"
@@ -425,6 +445,16 @@ msgstr "Першая чвэрць"
 msgid "Fog"
 msgstr "Туман"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Меню Foreca One"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -436,6 +466,10 @@ msgstr "Меню Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Станцыі не знойдзены"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Меню Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Станцыі Foreca One: {} станцый побач ({})"
@@ -647,6 +681,9 @@ msgstr "Карта і пліткі загружаны"
 
 msgid "Map loaded"
 msgstr "Карта загружана"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Карта {} абрана"
@@ -918,6 +955,9 @@ msgstr "Фаза"
 msgid "Play/Pause"
 msgstr "Прайграць/Прыпыніць"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Калі ласка, пачакайце ..."
 
@@ -999,6 +1039,9 @@ msgstr "Чырвоная кнопка - Выбар колеру"
 msgid "Refresh"
 msgstr "Абнавіць"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Рэйнланд-Пфальц"
 
@@ -1034,6 +1077,10 @@ msgstr "Спадарожнікавыя здымкі хутка!"
 
 msgid "Save"
 msgstr "Захаваць"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Меню - Налады"
 
 msgid "Saxony"
 msgstr "Саксонія"
@@ -1172,7 +1219,7 @@ msgid "Temperature: {}°C"
 msgstr "Тэмпература: {}°C"
 
 #, fuzzy
-msgid "Thanks {thanks} and other friends for suggestions"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Дзякуй {thanks} і іншым сябрам за прапановы і тэставанне"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
@@ -1195,6 +1242,15 @@ msgstr "Дэталі сёння/заўтра"
 
 msgid "Toggle legend"
 msgstr "Пераключыць легенду"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Заўтра"
@@ -1449,22 +1505,6 @@ msgstr ""
 
 msgid "← Frame"
 msgstr ""
-
-#, fuzzy
-#~ msgid "API user"
-#~ msgstr "Памылка API"
-
-#, fuzzy
-#~ msgid "Foreca API Setup"
-#~ msgstr "Меню Foreca One"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Меню Foreca One"
-
-#, fuzzy
-#~ msgid "Save API settings"
-#~ msgstr "Меню - Налады"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

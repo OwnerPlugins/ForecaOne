@@ -59,6 +59,12 @@ msgstr ""
 msgid "API error"
 msgstr ""
 
+msgid "API password"
+msgstr ""
+
+msgid "API user"
+msgstr ""
+
 msgid "AQI {}"
 msgstr ""
 
@@ -105,6 +111,9 @@ msgid "Australia"
 msgstr ""
 
 msgid "Austria"
+msgstr ""
+
+msgid "Auth server"
 msgstr ""
 
 msgid "Baden-Wuerttemberg"
@@ -179,6 +188,9 @@ msgstr ""
 msgid "Close legend"
 msgstr ""
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr ""
 
@@ -227,6 +239,9 @@ msgstr ""
 msgid "Condition: {}"
 msgstr ""
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr ""
 
@@ -267,6 +282,9 @@ msgid "Day"
 msgstr ""
 
 msgid "Decrease Speed"
+msgstr ""
+
+msgid "Defaults"
 msgstr ""
 
 msgid "Denmark"
@@ -419,6 +437,15 @@ msgstr ""
 msgid "Fog"
 msgstr ""
 
+msgid "Foreca API Setup"
+msgstr ""
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr ""
 
@@ -429,6 +456,9 @@ msgid "Foreca One Menu"
 msgstr ""
 
 msgid "Foreca One No stations found"
+msgstr ""
+
+msgid "Foreca One Setup"
 msgstr ""
 
 msgid "Foreca One Stations: {} stations nearby ({})"
@@ -639,6 +669,9 @@ msgid "Map & Tiles Loaded"
 msgstr ""
 
 msgid "Map loaded"
+msgstr ""
+
+msgid "Map server"
 msgstr ""
 
 msgid "Map {} selected"
@@ -908,6 +941,9 @@ msgstr ""
 msgid "Play/Pause"
 msgstr ""
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr ""
 
@@ -989,6 +1025,9 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr ""
 
@@ -1023,6 +1062,9 @@ msgid "Satellite photos coming soon!"
 msgstr ""
 
 msgid "Save"
+msgstr ""
+
+msgid "Save API settings"
 msgstr ""
 
 msgid "Saxony"
@@ -1160,7 +1202,7 @@ msgstr ""
 msgid "Temperature: {}°C"
 msgstr ""
 
-msgid "Thanks {thanks} and other friends for suggestions"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr ""
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
@@ -1182,6 +1224,15 @@ msgid "Today/Tomorrow details"
 msgstr ""
 
 msgid "Toggle legend"
+msgstr ""
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
 msgstr ""
 
 msgid "Tomorrow"

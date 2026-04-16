@@ -60,6 +60,14 @@ msgstr "Nessuna credenziale API configurata."
 msgid "API error"
 msgstr "Errore Api"
 
+#, fuzzy
+msgid "API password"
+msgstr "Errore Api"
+
+#, fuzzy
+msgid "API user"
+msgstr "Errore Api"
+
 msgid "AQI {}"
 msgstr "IQA {}"
 
@@ -107,6 +115,9 @@ msgstr "Australia"
 
 msgid "Austria"
 msgstr "Austria"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -180,6 +191,9 @@ msgstr "Chiudi"
 msgid "Close legend"
 msgstr "Chiudi legenda"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Nuvoloso"
 
@@ -228,6 +242,9 @@ msgstr "Seleziona Colore"
 msgid "Condition: {}"
 msgstr "Conditioni: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Mappe Meteo dei Continenti"
 
@@ -269,6 +286,9 @@ msgstr "Giorno"
 
 msgid "Decrease Speed"
 msgstr "Diminuire la velocità"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Danimarca"
@@ -420,6 +440,16 @@ msgstr "Primo Quarto"
 msgid "Fog"
 msgstr "Nebbia"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Menu Foreca One"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -431,6 +461,10 @@ msgstr "Menu Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One Nessuna stazione trovata"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Menu Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stazioni Foreca One {} stazioni nelle vicinanze ({})"
@@ -641,6 +675,9 @@ msgstr "Mappa e  Schemi caricati"
 
 msgid "Map loaded"
 msgstr "Mappa caricata"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Mappa {} selezionata"
@@ -909,6 +946,9 @@ msgstr "Fase: {}"
 msgid "Play/Pause"
 msgstr "Riproduci/Pausa"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Attendere prego ..."
 
@@ -990,6 +1030,9 @@ msgstr "Rosso - Seleziona colore"
 msgid "Refresh"
 msgstr "Ricarica"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Renania-Palatinato"
 
@@ -1025,6 +1068,10 @@ msgstr "Foto satellitari in arrivo!"
 
 msgid "Save"
 msgstr "Salva"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Menu - Impostazioni"
 
 msgid "Saxony"
 msgstr "Sassonia"
@@ -1162,7 +1209,7 @@ msgid "Temperature: {}°C"
 msgstr "Temperatura: {}°C"
 
 #, fuzzy
-msgid "Thanks {thanks} and other friends for suggestions"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Grazie {thanks} e altri amici per i suggerimenti e i test"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
@@ -1185,6 +1232,15 @@ msgstr "Dettagli di oggi/domani"
 
 msgid "Toggle legend"
 msgstr "Attiva/disattiva legenda"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Domani"
@@ -1425,22 +1481,6 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 msgid "← Frame"
 msgstr "← Cornice"
-
-#, fuzzy
-#~ msgid "API user"
-#~ msgstr "Errore Api"
-
-#, fuzzy
-#~ msgid "Foreca API Setup"
-#~ msgstr "Menu Foreca One"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Menu Foreca One"
-
-#, fuzzy
-#~ msgid "Save API settings"
-#~ msgstr "Menu - Impostazioni"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "Previsione 7 Giorni"

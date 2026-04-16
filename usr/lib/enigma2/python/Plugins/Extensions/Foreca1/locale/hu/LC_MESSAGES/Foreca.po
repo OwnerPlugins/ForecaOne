@@ -54,6 +54,14 @@ msgstr "Az API-hitelesítő adatok nincsenek beállítva."
 msgid "API error"
 msgstr "API-hiba"
 
+#, fuzzy
+msgid "API password"
+msgstr "API-hiba"
+
+#, fuzzy
+msgid "API user"
+msgstr "API-hiba"
+
 msgid "AQI {}"
 msgstr "AQI {}"
 
@@ -102,6 +110,9 @@ msgstr "Ausztrália"
 
 msgid "Austria"
 msgstr "Ausztria"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -175,6 +186,9 @@ msgstr "Bezár"
 msgid "Close legend"
 msgstr "Jelmagyarázat bezárása"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Felhős"
 
@@ -223,6 +237,9 @@ msgstr "Szín kiválasztása"
 msgid "Condition: {}"
 msgstr "Állapot: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Kontinensek időjárási térképei"
 
@@ -264,6 +281,9 @@ msgstr "Nap"
 
 msgid "Decrease Speed"
 msgstr "Sebesség csökkentése"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Dánia"
@@ -420,6 +440,16 @@ msgstr "Első negyed"
 msgid "Fog"
 msgstr "Köd"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Foreca One menü"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -431,6 +461,10 @@ msgstr "Foreca One menü"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One – Nem találhatók állomások"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Foreca One menü"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One állomások: {} közeli állomás ({})"
@@ -641,6 +675,9 @@ msgstr "Térkép és csempék betöltve"
 
 msgid "Map loaded"
 msgstr "Térkép betöltve"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "A(z) {} térkép kiválasztva"
@@ -911,6 +948,9 @@ msgstr "Fázis"
 msgid "Play/Pause"
 msgstr "Lejátszás/Szünet"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Kérlek várj…"
 
@@ -992,6 +1032,9 @@ msgstr "Piros - Színválasztás"
 msgid "Refresh"
 msgstr "Frissítés"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Rajna-vidék-Pfalz"
 
@@ -1027,6 +1070,10 @@ msgstr "A műholdképek hamarosan érkeznek!"
 
 msgid "Save"
 msgstr "Mentés"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Menü – Beállítások"
 
 msgid "Saxony"
 msgstr "Szászország"
@@ -1164,7 +1211,7 @@ msgid "Temperature: {}°C"
 msgstr "Hőmérséklet: {}°C"
 
 #, fuzzy
-msgid "Thanks {thanks} and other friends for suggestions"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Köszönet {thanks}-nak/nek és más barátoknak a javaslatokért és a tesztelésért"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
@@ -1187,6 +1234,15 @@ msgstr "Mai/holnapi részletek"
 
 msgid "Toggle legend"
 msgstr "Jelmagyarázat be-/kikapcsolása"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Holnap"
@@ -1427,22 +1483,6 @@ msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
 
 msgid "← Frame"
 msgstr "← Keret"
-
-#, fuzzy
-#~ msgid "API user"
-#~ msgstr "API-hiba"
-
-#, fuzzy
-#~ msgid "Foreca API Setup"
-#~ msgstr "Foreca One menü"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Foreca One menü"
-
-#, fuzzy
-#~ msgid "Save API settings"
-#~ msgstr "Menü – Beállítások"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

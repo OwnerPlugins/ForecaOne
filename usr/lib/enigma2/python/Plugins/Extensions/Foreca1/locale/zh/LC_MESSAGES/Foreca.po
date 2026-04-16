@@ -60,6 +60,14 @@ msgstr "API凭证未配置。"
 msgid "API error"
 msgstr "API错误"
 
+#, fuzzy
+msgid "API password"
+msgstr "API错误"
+
+#, fuzzy
+msgid "API user"
+msgstr "API错误"
+
 msgid "AQI {}"
 msgstr "空气质量指数 {}"
 
@@ -108,6 +116,9 @@ msgstr "澳大利亚"
 
 msgid "Austria"
 msgstr "奥地利"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "巴登-符腾堡州"
@@ -183,6 +194,9 @@ msgstr "关闭"
 msgid "Close legend"
 msgstr "关闭图例"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "多云"
 
@@ -231,6 +245,9 @@ msgstr "颜色选择"
 msgid "Condition: {}"
 msgstr "天气状况: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "大陆天气地图"
 
@@ -272,6 +289,9 @@ msgstr "日"
 
 msgid "Decrease Speed"
 msgstr "减速"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "丹麦"
@@ -424,6 +444,16 @@ msgstr "上弦月"
 msgid "Fog"
 msgstr "雾"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Foreca One菜单"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -435,6 +465,10 @@ msgstr "Foreca One菜单"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One： 未找到站点"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Foreca One菜单"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One站点： {}个附近站点 ({})"
@@ -646,6 +680,9 @@ msgstr "地图和图块已加载"
 
 msgid "Map loaded"
 msgstr "地图已加载"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "已选择地图 {}"
@@ -917,6 +954,9 @@ msgstr "相位"
 msgid "Play/Pause"
 msgstr "播放/暂停"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "请稍候 ..."
 
@@ -998,6 +1038,9 @@ msgstr "红色 - 颜色选择"
 msgid "Refresh"
 msgstr "刷新"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "莱茵兰-普法尔茨州"
 
@@ -1033,6 +1076,10 @@ msgstr "卫星照片即将推出！"
 
 msgid "Save"
 msgstr "保存"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "菜单 - 设置"
 
 msgid "Saxony"
 msgstr "萨克森州"
@@ -1171,7 +1218,7 @@ msgid "Temperature: {}°C"
 msgstr "温度： {}°C"
 
 #, fuzzy
-msgid "Thanks {thanks} and other friends for suggestions"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "感谢 {thanks} 和其他朋友的建议和测试"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
@@ -1194,6 +1241,15 @@ msgstr "今日/明日详情"
 
 msgid "Toggle legend"
 msgstr "切换图例"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "明日"
@@ -1435,22 +1491,6 @@ msgstr "• 黄色 保存为收藏2\n"
 
 msgid "← Frame"
 msgstr "← 帧"
-
-#, fuzzy
-#~ msgid "API user"
-#~ msgstr "API错误"
-
-#, fuzzy
-#~ msgid "Foreca API Setup"
-#~ msgstr "Foreca One菜单"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Foreca One菜单"
-
-#, fuzzy
-#~ msgid "Save API settings"
-#~ msgstr "菜单 - 设置"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7天预报"

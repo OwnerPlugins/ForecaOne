@@ -54,6 +54,14 @@ msgstr "Poverenia API nie sú nakonfigurované."
 msgid "API error"
 msgstr "Chyba API"
 
+#, fuzzy
+msgid "API password"
+msgstr "Chyba API"
+
+#, fuzzy
+msgid "API user"
+msgstr "Chyba API"
+
 msgid "AQI {}"
 msgstr "AQI {}"
 
@@ -102,6 +110,9 @@ msgstr "Austrália"
 
 msgid "Austria"
 msgstr "Rakúsko"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Bádensko-Württembersko"
@@ -175,6 +186,9 @@ msgstr "Zatvoriť"
 msgid "Close legend"
 msgstr "Zavrieť legendu"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Zamračené"
 
@@ -223,6 +237,9 @@ msgstr "Vybrať farbu"
 msgid "Condition: {}"
 msgstr "Podmienka: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Mapy počasia kontinentov"
 
@@ -264,6 +281,9 @@ msgstr "Deň"
 
 msgid "Decrease Speed"
 msgstr "Znížiť rýchlosť"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Dánsko"
@@ -420,6 +440,16 @@ msgstr "Prvá štvrť"
 msgid "Fog"
 msgstr "Hmla"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Menu Foreca One"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -431,6 +461,10 @@ msgstr "Menu Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One Nenašli sa žiadne stanice"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Menu Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stanice: {} staníc v okolí ({})"
@@ -641,6 +675,9 @@ msgstr "Mapa a dlaždice načítané"
 
 msgid "Map loaded"
 msgstr "Mapa načítaná"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Vybraná mapa {}"
@@ -911,6 +948,9 @@ msgstr "Fáza"
 msgid "Play/Pause"
 msgstr "Prehrať/Pozastaviť"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Prosím čakajte ..."
 
@@ -992,6 +1032,9 @@ msgstr "Červená – výber farby"
 msgid "Refresh"
 msgstr "Aktualizovať"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Porýnie-Falcko"
 
@@ -1027,6 +1070,10 @@ msgstr "Satelitné snímky už čoskoro!"
 
 msgid "Save"
 msgstr "Uložiť"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Menu – Nastavenia"
 
 msgid "Saxony"
 msgstr "Sasko"
@@ -1164,7 +1211,7 @@ msgid "Temperature: {}°C"
 msgstr "Teplota: {}°C"
 
 #, fuzzy
-msgid "Thanks {thanks} and other friends for suggestions"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "Ďakujeme {thanks} a ďalším priateľom za návrhy a testovanie"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
@@ -1187,6 +1234,15 @@ msgstr "Podrobnosti dnes/zajtra"
 
 msgid "Toggle legend"
 msgstr "Prepnúť legendu"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Zajtra"
@@ -1427,22 +1483,6 @@ msgstr "• ŽLTÉ na uloženie ako Obľúbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámik"
-
-#, fuzzy
-#~ msgid "API user"
-#~ msgstr "Chyba API"
-
-#, fuzzy
-#~ msgid "Foreca API Setup"
-#~ msgstr "Menu Foreca One"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Menu Foreca One"
-
-#, fuzzy
-#~ msgid "Save API settings"
-#~ msgstr "Menu – Nastavenia"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

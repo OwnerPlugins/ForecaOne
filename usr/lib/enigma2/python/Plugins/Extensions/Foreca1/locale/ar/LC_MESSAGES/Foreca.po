@@ -60,6 +60,14 @@ msgstr "لم يتم تكوين بيانات اعتماد API."
 msgid "API error"
 msgstr "خطأ في API"
 
+#, fuzzy
+msgid "API password"
+msgstr "خطأ في API"
+
+#, fuzzy
+msgid "API user"
+msgstr "خطأ في API"
+
 msgid "AQI {}"
 msgstr "مؤشر جودة الهواء {}"
 
@@ -108,6 +116,9 @@ msgstr "أستراليا"
 
 msgid "Austria"
 msgstr "النمسا"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "بادن-فورتمبيرغ"
@@ -183,6 +194,9 @@ msgstr "إغلاق"
 msgid "Close legend"
 msgstr "إغلاق وسيلة الإيضاح"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "غائم"
 
@@ -231,6 +245,9 @@ msgstr "اختيار اللون"
 msgid "Condition: {}"
 msgstr "الحالة: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "خرائط الطقس للقارات"
 
@@ -272,6 +289,9 @@ msgstr "اليوم"
 
 msgid "Decrease Speed"
 msgstr "تقليل السرعة"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "الدنمارك"
@@ -424,6 +444,16 @@ msgstr "الربع الأول"
 msgid "Fog"
 msgstr "ضباب"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "قائمة Foreca One"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -435,6 +465,10 @@ msgstr "قائمة Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: لم يتم العثور على محطات"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "قائمة Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "محطات Foreca One: {} محطة قريبة ({})"
@@ -646,6 +680,9 @@ msgstr "تم تحميل الخريطة والبلاط"
 
 msgid "Map loaded"
 msgstr "تم تحميل الخريطة"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "الخريطة {} محددة"
@@ -917,6 +954,9 @@ msgstr "الطور"
 msgid "Play/Pause"
 msgstr "تشغيل/إيقاف مؤقت"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "يرجى الانتظار ..."
 
@@ -998,6 +1038,9 @@ msgstr "أحمر - اختيار اللون"
 msgid "Refresh"
 msgstr "تحديث"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "راينلاند-بفالز"
 
@@ -1033,6 +1076,10 @@ msgstr "صور الأقمار الصناعية قريبًا!"
 
 msgid "Save"
 msgstr "حفظ"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "القائمة - الإعدادات"
 
 msgid "Saxony"
 msgstr "ساكسونيا"
@@ -1171,7 +1218,7 @@ msgid "Temperature: {}°C"
 msgstr "درجة الحرارة: {}°م"
 
 #, fuzzy
-msgid "Thanks {thanks} and other friends for suggestions"
+msgid "Thanks {thanks} and other friends for suggestions and testing"
 msgstr "شكرًا {thanks} والأصدقاء الآخرين على الاقتراحات والاختبار"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
@@ -1194,6 +1241,15 @@ msgstr "تفاصيل اليوم/الغد"
 
 msgid "Toggle legend"
 msgstr "تبديل وسيلة الإيضاح"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "الغد"
@@ -1435,22 +1491,6 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
 msgstr "إطار ←"
-
-#, fuzzy
-#~ msgid "API user"
-#~ msgstr "خطأ في API"
-
-#, fuzzy
-#~ msgid "Foreca API Setup"
-#~ msgstr "قائمة Foreca One"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "قائمة Foreca One"
-
-#, fuzzy
-#~ msgid "Save API settings"
-#~ msgstr "القائمة - الإعدادات"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "توقعات 7 أيام"
