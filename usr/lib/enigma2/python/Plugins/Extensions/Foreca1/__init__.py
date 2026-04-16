@@ -2,8 +2,6 @@
 # -*- coding: UTF-8 -*-
 # Copyright (c) @Lululla 2026
 
-from __future__ import absolute_import
-
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from Components.Language import language
 from os.path import exists, join, dirname
@@ -14,7 +12,7 @@ import gettext
 import codecs
 import shutil
 
-__version__ = "1.2.5"
+__version__ = "1.2.4"
 VERSION = __version__
 _AUTHOR_ = "by Lululla - 2026"
 IDEAS = "@Bauernbub"
@@ -65,8 +63,6 @@ if not exists(WEATHER_DETAIL_CACHE):
 
 PluginLanguageDomain = "Foreca"
 PluginLanguagePath = "Extensions/Foreca1/locale"
-isDreambox = exists("/usr/bin/apt-get")
-
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -88,30 +84,30 @@ OSM_HEADERS = {
 
 
 def localeInit():
-    if isDreambox:
-        lang = language.getLanguage()[:2]
-        environ["LANGUAGE"] = lang
+    lang = language.getLanguage()[:2]
+    environ["LANGUAGE"] = lang
     if PluginLanguageDomain and PluginLanguagePath:
         gettext.bindtextdomain(
             PluginLanguageDomain,
             resolveFilename(
                 SCOPE_PLUGINS,
-                PluginLanguagePath))
+                PluginLanguagePath),
+        )
 
 
-if isDreambox:
-    def _(txt):
-        return gettext.dgettext(PluginLanguageDomain, txt) if txt else ""
-else:
-    def _(txt):
-        translated = gettext.dgettext(PluginLanguageDomain, txt)
-        if translated:
-            return translated
-        else:
-            print(
-                "[%s] fallback to default translation for %s" %
-                (PluginLanguageDomain, txt))
-            return gettext.gettext(txt)
+def _(txt):
+    if not txt:
+        return ""
+
+    translated = gettext.dgettext(PluginLanguageDomain, txt)
+    if translated and translated != txt:
+        return translated
+
+    print(
+        "[%s] fallback to default translation for %s" %
+        (PluginLanguageDomain, txt)
+    )
+    return gettext.gettext(txt)
 
 
 localeInit()
