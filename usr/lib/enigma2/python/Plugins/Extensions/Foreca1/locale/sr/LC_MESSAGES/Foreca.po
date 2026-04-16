@@ -61,6 +61,13 @@ msgstr "API акредитиви нису конфигурисани."
 msgid "API error"
 msgstr "API грешка"
 
+msgid "API password"
+msgstr ""
+
+#, fuzzy
+msgid "API user"
+msgstr "API грешка"
+
 msgid "AQI {}"
 msgstr "ИКВ {}"
 
@@ -109,6 +116,9 @@ msgstr "Аустралија"
 
 msgid "Austria"
 msgstr "Аустрија"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Баден-Виртемберг"
@@ -184,6 +194,9 @@ msgstr "Затвори"
 msgid "Close legend"
 msgstr "Затвори легенду"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Облачно"
 
@@ -232,6 +245,9 @@ msgstr "Избор боје"
 msgid "Condition: {}"
 msgstr "Стање: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Временске карте континената"
 
@@ -273,6 +289,9 @@ msgstr "Дан"
 
 msgid "Decrease Speed"
 msgstr "Смањи брзину"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Данска"
@@ -425,6 +444,16 @@ msgstr "Прва четврт"
 msgid "Fog"
 msgstr "Магла"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Foreca One мени"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -436,6 +465,10 @@ msgstr "Foreca One мени"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Нису пронађене станице"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Foreca One мени"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One станице: {} станица у близини ({})"
@@ -647,6 +680,9 @@ msgstr "Мапа и плочице учитане"
 
 msgid "Map loaded"
 msgstr "Мапа учитана"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Мапа {} изабрана"
@@ -918,6 +954,9 @@ msgstr "Фаза"
 msgid "Play/Pause"
 msgstr "Пусти/Паузирај"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Молимо сачекајте..."
 
@@ -999,6 +1038,9 @@ msgstr "Црвена - Избор боје"
 msgid "Refresh"
 msgstr "Освежи"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Рајна-Палатинат"
 
@@ -1034,6 +1076,10 @@ msgstr "Сателитске фотографије ускоро!"
 
 msgid "Save"
 msgstr "Сачувај"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Мени - Подешавања"
 
 msgid "Saxony"
 msgstr "Саксонија"
@@ -1194,6 +1240,15 @@ msgstr "Детаљи данас/сутра"
 
 msgid "Toggle legend"
 msgstr "Укључи/искључи легенду"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Сутра"

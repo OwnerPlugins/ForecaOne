@@ -61,6 +61,13 @@ msgstr "API kimlik bilgileri yapılandırılmamış."
 msgid "API error"
 msgstr "API hatası"
 
+msgid "API password"
+msgstr ""
+
+#, fuzzy
+msgid "API user"
+msgstr "API hatası"
+
 msgid "AQI {}"
 msgstr "HKO {}"
 
@@ -109,6 +116,9 @@ msgstr "Avustralya"
 
 msgid "Austria"
 msgstr "Avusturya"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -184,6 +194,9 @@ msgstr "Kapat"
 msgid "Close legend"
 msgstr "Göstergeyi kapat"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Bulutlu"
 
@@ -232,6 +245,9 @@ msgstr "Renk seç"
 msgid "Condition: {}"
 msgstr "Durum: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Kıtalar Hava Durumu Haritaları"
 
@@ -273,6 +289,9 @@ msgstr "Gün"
 
 msgid "Decrease Speed"
 msgstr "Hızı Azalt"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Danimarka"
@@ -425,6 +444,16 @@ msgstr "İlk Dördün"
 msgid "Fog"
 msgstr "Sis"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Foreca One Menüsü"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -436,6 +465,10 @@ msgstr "Foreca One Menüsü"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: İstasyon bulunamadı"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Foreca One Menüsü"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One İstasyonları: {} yakındaki istasyon ({})"
@@ -647,6 +680,9 @@ msgstr "Harita ve Parçalar Yüklendi"
 
 msgid "Map loaded"
 msgstr "Harita yüklendi"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Harita {} seçildi"
@@ -918,6 +954,9 @@ msgstr "Evre"
 msgid "Play/Pause"
 msgstr "Oynat/Duraklat"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Lütfen bekleyin..."
 
@@ -999,6 +1038,9 @@ msgstr "Kırmızı - Renk seç"
 msgid "Refresh"
 msgstr "Yenile"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Renanya-Palatina"
 
@@ -1034,6 +1076,10 @@ msgstr "Uydu fotoğrafları yakında!"
 
 msgid "Save"
 msgstr "Kaydet"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Menü - Ayarlar"
 
 msgid "Saxony"
 msgstr "Saksonya"
@@ -1194,6 +1240,15 @@ msgstr "Bugün/Yarın detayları"
 
 msgid "Toggle legend"
 msgstr "Göstergeyi aç/kapat"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Yarın"

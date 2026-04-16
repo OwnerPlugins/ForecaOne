@@ -59,6 +59,13 @@ msgstr "API-Zugangsdaten nicht konfiguriert."
 msgid "API error"
 msgstr "API-Fehler"
 
+msgid "API password"
+msgstr ""
+
+#, fuzzy
+msgid "API user"
+msgstr "API-Fehler"
+
 msgid "AQI {}"
 msgstr "AQI {}"
 
@@ -107,6 +114,9 @@ msgstr "Australien"
 
 msgid "Austria"
 msgstr "Österreich"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -182,6 +192,9 @@ msgstr "Schließen"
 msgid "Close legend"
 msgstr "Legende schließen"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Bewölkt"
 
@@ -230,6 +243,9 @@ msgstr "Farbe auswählen"
 msgid "Condition: {}"
 msgstr "Zustand: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Kontinente Wetterkarten"
 
@@ -271,6 +287,9 @@ msgstr "Tag"
 
 msgid "Decrease Speed"
 msgstr "Geschwindigkeit verringern"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Dänemark"
@@ -423,6 +442,16 @@ msgstr "Erstes Viertel"
 msgid "Fog"
 msgstr "Nebel"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Foreca One-Menü"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -434,6 +463,10 @@ msgstr "Foreca One-Menü"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Keine Stationen gefunden"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Foreca One-Menü"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stationen: {} Stationen in der Nähe ({})"
@@ -645,6 +678,9 @@ msgstr "Karte & Kacheln geladen"
 
 msgid "Map loaded"
 msgstr "Karte geladen"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Karte {} ausgewählt"
@@ -916,6 +952,9 @@ msgstr "Phase"
 msgid "Play/Pause"
 msgstr "Abspielen/Pause"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Bitte warten ..."
 
@@ -997,6 +1036,9 @@ msgstr "Rot – Farbe auswählen"
 msgid "Refresh"
 msgstr "Aktualisieren"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Rheinland-Pfalz"
 
@@ -1032,6 +1074,10 @@ msgstr "Satellitenfotos kommen bald!"
 
 msgid "Save"
 msgstr "Speichern"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Menü - Einstellungen"
 
 msgid "Saxony"
 msgstr "Sachsen"
@@ -1192,6 +1238,15 @@ msgstr "Heute/Morgen Details"
 
 msgid "Toggle legend"
 msgstr "Legende umschalten"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Morgen"

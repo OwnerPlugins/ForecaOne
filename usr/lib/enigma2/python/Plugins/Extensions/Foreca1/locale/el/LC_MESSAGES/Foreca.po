@@ -55,6 +55,13 @@ msgstr "Τα διαπιστευτήρια API δεν έχουν ρυθμιστε
 msgid "API error"
 msgstr "Σφάλμα API"
 
+msgid "API password"
+msgstr ""
+
+#, fuzzy
+msgid "API user"
+msgstr "Σφάλμα API"
+
 msgid "AQI {}"
 msgstr "AQI {}"
 
@@ -103,6 +110,9 @@ msgstr "Αυστραλία"
 
 msgid "Austria"
 msgstr "Αυστρία"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Βάδη-Βυρτεμβέργη"
@@ -176,6 +186,9 @@ msgstr "Κλείσιμο"
 msgid "Close legend"
 msgstr "Κλείσιμο υπομνήματος"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Συννεφιασμένος"
 
@@ -224,6 +237,9 @@ msgstr "Επιλογή χρώματος"
 msgid "Condition: {}"
 msgstr "Κατάσταση: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Χάρτες καιρού ηπείρων"
 
@@ -265,6 +281,9 @@ msgstr "Ημέρα"
 
 msgid "Decrease Speed"
 msgstr "Μείωση ταχύτητας"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Δανία"
@@ -416,6 +435,16 @@ msgstr "Πρώτο τέταρτο"
 msgid "Fog"
 msgstr "Ομίχλη"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Μενού Foreca One"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -427,6 +456,10 @@ msgstr "Μενού Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Δεν βρέθηκαν σταθμοί Foreca One"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Μενού Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Σταθμοί: {} σταθμοί κοντά ({}) Foreca One"
@@ -637,6 +670,9 @@ msgstr "Ο χάρτης & τα πλαίσια φορτώθηκαν"
 
 msgid "Map loaded"
 msgstr "Ο χάρτης φορτώθηκε"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Επιλέχθηκε ο χάρτης {}"
@@ -907,6 +943,9 @@ msgstr "Φάση"
 msgid "Play/Pause"
 msgstr "Εκτέλεση/Παύση"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Παρακαλώ περιμένετε ..."
 
@@ -988,6 +1027,9 @@ msgstr "Κόκκινο - Επιλογή χρώματος"
 msgid "Refresh"
 msgstr "Ανανέωση"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Ρηνανία-Παλατινάτο"
 
@@ -1023,6 +1065,10 @@ msgstr "Δορυφορικές φωτογραφίες σύντομα!"
 
 msgid "Save"
 msgstr "Αποθήκευση"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Μενού - Ρυθμίσεις"
 
 msgid "Saxony"
 msgstr "Σαξονία"
@@ -1182,6 +1228,15 @@ msgstr "Λεπτομέρειες για Σήμερα/Αύριο"
 
 msgid "Toggle legend"
 msgstr "Εναλλαγή υπομνήματος"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Αύριο"

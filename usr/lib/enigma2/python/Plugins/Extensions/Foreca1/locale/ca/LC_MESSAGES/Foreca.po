@@ -62,6 +62,12 @@ msgstr "1. No hi ha credencials API configurades\n"
 msgid "API error"
 msgstr ""
 
+msgid "API password"
+msgstr ""
+
+msgid "API user"
+msgstr ""
+
 msgid "AQI {}"
 msgstr ""
 
@@ -110,6 +116,9 @@ msgstr "Austràlia"
 
 msgid "Austria"
 msgstr "Àustria"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -186,6 +195,9 @@ msgstr ""
 msgid "Close legend"
 msgstr "Selecció de color"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Ennuvolat"
 
@@ -238,6 +250,9 @@ msgstr "Selecció de color"
 msgid "Condition: {}"
 msgstr "Més ràpid: {}s"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Mapes meteorològics dels continents"
 
@@ -281,6 +296,9 @@ msgid "Day"
 msgstr ""
 
 msgid "Decrease Speed"
+msgstr ""
+
+msgid "Defaults"
 msgstr ""
 
 msgid "Denmark"
@@ -455,6 +473,16 @@ msgid "Fog"
 msgstr "Boira"
 
 #, fuzzy
+msgid "Foreca API Setup"
+msgstr "Menú Foreca"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
+#, fuzzy
 msgid "Foreca One"
 msgstr "Foreca 4"
 
@@ -469,6 +497,10 @@ msgstr "Menú Foreca"
 #, fuzzy
 msgid "Foreca One No stations found"
 msgstr "No s'han trobat estacions"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Menú Foreca"
 
 #, fuzzy
 msgid "Foreca One Stations: {} stations nearby ({})"
@@ -689,6 +721,9 @@ msgid "Map & Tiles Loaded"
 msgstr ""
 
 msgid "Map loaded"
+msgstr ""
+
+msgid "Map server"
 msgstr ""
 
 #, fuzzy
@@ -972,6 +1007,9 @@ msgstr "Més ràpid: {}s"
 msgid "Play/Pause"
 msgstr "Reproduir/Pausa"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Espera, si us plau ..."
 
@@ -1067,6 +1105,9 @@ msgstr "Vermell - Selecció de color"
 msgid "Refresh"
 msgstr ""
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Renània-Palatinat"
 
@@ -1102,6 +1143,10 @@ msgstr "Fotos per satèl·lit properament!"
 
 msgid "Save"
 msgstr "Desar"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Menú - Configuració"
 
 msgid "Saxony"
 msgstr "Saxònia"
@@ -1274,6 +1319,15 @@ msgstr ""
 #, fuzzy
 msgid "Toggle legend"
 msgstr "Selecció de color"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr ""

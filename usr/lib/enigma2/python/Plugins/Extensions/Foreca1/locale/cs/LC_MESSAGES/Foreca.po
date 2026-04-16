@@ -54,6 +54,13 @@ msgstr "Přihlašovací údaje API nejsou nakonfigurovány."
 msgid "API error"
 msgstr "Chyba API"
 
+msgid "API password"
+msgstr ""
+
+#, fuzzy
+msgid "API user"
+msgstr "Chyba API"
+
 msgid "AQI {}"
 msgstr "AQI {}"
 
@@ -102,6 +109,9 @@ msgstr "Austrálie"
 
 msgid "Austria"
 msgstr "Rakousko"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Bádensko-Württembersko"
@@ -175,6 +185,9 @@ msgstr "Zavřít"
 msgid "Close legend"
 msgstr "Zavřít legendu"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Oblačno"
 
@@ -223,6 +236,9 @@ msgstr "Výběr barvy"
 msgid "Condition: {}"
 msgstr "Podmínky: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Mapy počasí kontinentů"
 
@@ -264,6 +280,9 @@ msgstr "Den"
 
 msgid "Decrease Speed"
 msgstr "Zpomalit"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Dánsko"
@@ -420,6 +439,16 @@ msgstr "První čtvrť"
 msgid "Fog"
 msgstr "Mlha"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Nabídka Foreca One"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -431,6 +460,10 @@ msgstr "Nabídka Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Nebyly nalezeny žádné stanice"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Nabídka Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stanice Foreca One: {} stanic v okolí ({})"
@@ -641,6 +674,9 @@ msgstr "Mapa a dlaždice načteny"
 
 msgid "Map loaded"
 msgstr "Mapa načtena"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Vybrána mapa {}"
@@ -911,6 +947,9 @@ msgstr "Fáze"
 msgid "Play/Pause"
 msgstr "Přehrát/Pozastavit"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Čekejte prosím…"
 
@@ -992,6 +1031,9 @@ msgstr "Červená – výběr barvy"
 msgid "Refresh"
 msgstr "Obnovit"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Porýní-Falc"
 
@@ -1027,6 +1069,10 @@ msgstr "Satelitní snímky již brzy!"
 
 msgid "Save"
 msgstr "Uložit"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Menu – Nastavení"
 
 msgid "Saxony"
 msgstr "Sasko"
@@ -1186,6 +1232,15 @@ msgstr "Podrobnosti pro dnešek/zítřek"
 
 msgid "Toggle legend"
 msgstr "Přepnout legendu"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Zítra"

@@ -61,6 +61,13 @@ msgstr "Datele de autentificare API nu sunt configurate."
 msgid "API error"
 msgstr "Eroare API"
 
+msgid "API password"
+msgstr ""
+
+#, fuzzy
+msgid "API user"
+msgstr "Eroare API"
+
 msgid "AQI {}"
 msgstr "ICA {}"
 
@@ -109,6 +116,9 @@ msgstr "Australia"
 
 msgid "Austria"
 msgstr "Austria"
+
+msgid "Auth server"
+msgstr ""
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -184,6 +194,9 @@ msgstr "Închide"
 msgid "Close legend"
 msgstr "Închide legenda"
 
+msgid "Close setup without saving"
+msgstr ""
+
 msgid "Cloudy"
 msgstr "Înnorat"
 
@@ -232,6 +245,9 @@ msgstr "Selectare culoare"
 msgid "Condition: {}"
 msgstr "Stare: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr ""
+
 msgid "Continents Weather Maps"
 msgstr "Hărți meteo continente"
 
@@ -273,6 +289,9 @@ msgstr "Zi"
 
 msgid "Decrease Speed"
 msgstr "Reduceți viteza"
+
+msgid "Defaults"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Danemarca"
@@ -425,6 +444,16 @@ msgstr "Primul pătrar"
 msgid "Fog"
 msgstr "Ceață"
 
+#, fuzzy
+msgid "Foreca API Setup"
+msgstr "Meniu Foreca One"
+
+msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
+msgstr ""
+
+msgid "Foreca API settings saved successfully."
+msgstr ""
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
@@ -436,6 +465,10 @@ msgstr "Meniu Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Nu s-au găsit stații"
+
+#, fuzzy
+msgid "Foreca One Setup"
+msgstr "Meniu Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stații Foreca One: {} stații în apropiere ({})"
@@ -647,6 +680,9 @@ msgstr "Harta și tile-urile au fost încărcate"
 
 msgid "Map loaded"
 msgstr "Harta a fost încărcată"
+
+msgid "Map server"
+msgstr ""
 
 msgid "Map {} selected"
 msgstr "Harta {} selectată"
@@ -918,6 +954,9 @@ msgstr "Fază"
 msgid "Play/Pause"
 msgstr "Redare/Pauză"
 
+msgid "Please enter both API user and API password."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr "Vă rugăm așteptați ..."
 
@@ -999,6 +1038,9 @@ msgstr "Roșu - Selectare culoare"
 msgid "Refresh"
 msgstr "Reîmprospătare"
 
+msgid "Restore default server values"
+msgstr ""
+
 msgid "Rhineland-Palatine"
 msgstr "Renania-Palatinat"
 
@@ -1034,6 +1076,10 @@ msgstr "Fotografii satelitare în curând!"
 
 msgid "Save"
 msgstr "Salvare"
+
+#, fuzzy
+msgid "Save API settings"
+msgstr "Meniu - Setări"
 
 msgid "Saxony"
 msgstr "Saxonia"
@@ -1194,6 +1240,15 @@ msgstr "Detalii astăzi/mâine"
 
 msgid "Toggle legend"
 msgstr "Comutare legendă"
+
+msgid "Token expire hours"
+msgstr ""
+
+msgid "Token expire hours must be -1 or a positive number."
+msgstr ""
+
+msgid "Token expire hours must be a number."
+msgstr ""
 
 msgid "Tomorrow"
 msgstr "Mâine"
