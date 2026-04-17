@@ -2926,10 +2926,10 @@ def Plugins(path, **kwargs):
             where=PluginDescriptor.WHERE_EXTENSIONSMENU,
             fnc=main
         ),
-        #PluginDescriptor(
+        # PluginDescriptor(
         #    name=_("Foreca One Setup"),
         #    description=_("Configure Foreca API credentials"),
         #    where=PluginDescriptor.WHERE_PLUGINMENU,
         #    fnc=open_setup
-        #),
+        # ),
     ]
