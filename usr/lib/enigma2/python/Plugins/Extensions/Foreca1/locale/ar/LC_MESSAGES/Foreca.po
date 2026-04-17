@@ -245,9 +245,6 @@ msgstr "اختيار اللون"
 msgid "Condition: {}"
 msgstr "الحالة: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "خرائط الطقس للقارات"
 
@@ -465,10 +462,6 @@ msgstr "قائمة Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: لم يتم العثور على محطات"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "قائمة Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "محطات Foreca One: {} محطة قريبة ({})"
@@ -1491,6 +1484,10 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
 msgstr "إطار ←"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "قائمة Foreca One"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "توقعات 7 أيام"

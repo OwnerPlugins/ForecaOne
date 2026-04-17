@@ -238,9 +238,6 @@ msgstr "Επιλογή χρώματος"
 msgid "Condition: {}"
 msgstr "Κατάσταση: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Χάρτες καιρού ηπείρων"
 
@@ -457,10 +454,6 @@ msgstr "Μενού Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Δεν βρέθηκαν σταθμοί Foreca One"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Μενού Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Σταθμοί: {} σταθμοί κοντά ({}) Foreca One"
@@ -1480,6 +1473,10 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 
 msgid "← Frame"
 msgstr "← Καρέ"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Μενού Foreca One"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

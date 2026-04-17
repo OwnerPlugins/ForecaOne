@@ -250,9 +250,6 @@ msgstr "Selecció de color"
 msgid "Condition: {}"
 msgstr "Més ràpid: {}s"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Mapes meteorològics dels continents"
 
@@ -497,10 +494,6 @@ msgstr "Menú Foreca"
 #, fuzzy
 msgid "Foreca One No stations found"
 msgstr "No s'han trobat estacions"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Menú Foreca"
 
 #, fuzzy
 msgid "Foreca One Stations: {} stations nearby ({})"
@@ -1583,6 +1576,10 @@ msgstr "• GROC per desar com a Favorit 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Menú Foreca"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

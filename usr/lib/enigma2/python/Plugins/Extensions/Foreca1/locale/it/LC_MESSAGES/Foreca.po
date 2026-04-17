@@ -242,9 +242,6 @@ msgstr "Seleziona Colore"
 msgid "Condition: {}"
 msgstr "Conditioni: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Mappe Meteo dei Continenti"
 
@@ -461,10 +458,6 @@ msgstr "Menu Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One Nessuna stazione trovata"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Menu Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stazioni Foreca One {} stazioni nelle vicinanze ({})"
@@ -1481,6 +1474,10 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 msgid "← Frame"
 msgstr "← Cornice"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Menu Foreca One"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "Previsione 7 Giorni"

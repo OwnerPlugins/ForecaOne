@@ -246,9 +246,6 @@ msgstr "Renk seç"
 msgid "Condition: {}"
 msgstr "Durum: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Kıtalar Hava Durumu Haritaları"
 
@@ -466,10 +463,6 @@ msgstr "Foreca One Menüsü"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: İstasyon bulunamadı"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Foreca One Menüsü"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One İstasyonları: {} yakındaki istasyon ({})"
@@ -1492,6 +1485,10 @@ msgstr "• Sık Kullanılan 2 olarak kaydetmek için SARI\n"
 
 msgid "← Frame"
 msgstr "← Kare"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One Menüsü"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 Günlük Tahmin"

@@ -237,9 +237,6 @@ msgstr "Vybrať farbu"
 msgid "Condition: {}"
 msgstr "Podmienka: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Mapy počasia kontinentov"
 
@@ -461,10 +458,6 @@ msgstr "Menu Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One Nenašli sa žiadne stanice"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Menu Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stanice: {} staníc v okolí ({})"
@@ -1483,6 +1476,10 @@ msgstr "• ŽLTÉ na uloženie ako Obľúbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámik"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Menu Foreca One"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

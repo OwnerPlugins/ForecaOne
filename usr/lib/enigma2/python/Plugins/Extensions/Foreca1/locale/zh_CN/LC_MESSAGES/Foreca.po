@@ -240,9 +240,6 @@ msgstr "颜色选择"
 msgid "Condition: {}"
 msgstr "天气状况: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "大陆天气地图"
 
@@ -462,10 +459,6 @@ msgstr "Foreca One菜单"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One未找到站点"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Foreca One菜单"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One站： {}站附近({})"
@@ -1489,6 +1482,10 @@ msgstr "黄色-分配给收藏夹2\n"
 
 msgid "← Frame"
 msgstr "←框架"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One菜单"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "未来七天天气预报"

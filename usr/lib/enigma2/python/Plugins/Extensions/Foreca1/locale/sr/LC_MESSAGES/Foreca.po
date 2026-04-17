@@ -246,9 +246,6 @@ msgstr "Избор боје"
 msgid "Condition: {}"
 msgstr "Стање: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Временске карте континената"
 
@@ -466,10 +463,6 @@ msgstr "Foreca One мени"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Нису пронађене станице"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Foreca One мени"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One станице: {} станица у близини ({})"
@@ -1492,6 +1485,10 @@ msgstr "• ЖУТА за чување као Омиљени 2\n"
 
 msgid "← Frame"
 msgstr "← Оквир"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One мени"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7-дневна прогноза"

@@ -239,9 +239,6 @@ msgstr ""
 msgid "Condition: {}"
 msgstr ""
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr ""
 
@@ -456,9 +453,6 @@ msgid "Foreca One Menu"
 msgstr ""
 
 msgid "Foreca One No stations found"
-msgstr ""
-
-msgid "Foreca One Setup"
 msgstr ""
 
 msgid "Foreca One Stations: {} stations nearby ({})"

@@ -246,9 +246,6 @@ msgstr "Выбраць колер"
 msgid "Condition: {}"
 msgstr "Стан: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Карты надвор'я кантынентаў"
 
@@ -466,10 +463,6 @@ msgstr "Меню Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Станцыі не знойдзены"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Меню Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Станцыі Foreca One: {} станцый побач ({})"
@@ -1505,6 +1498,10 @@ msgstr ""
 
 msgid "← Frame"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Меню Foreca One"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

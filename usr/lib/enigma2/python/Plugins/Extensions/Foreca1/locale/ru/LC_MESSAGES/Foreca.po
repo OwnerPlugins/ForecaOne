@@ -237,9 +237,6 @@ msgstr "Выбор цвета"
 msgid "Condition: {}"
 msgstr "Состояние: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Карты погоды по континентам"
 
@@ -461,10 +458,6 @@ msgstr "Меню Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: станции не найдены"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Меню Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One: станции — {} поблизости ({})"
@@ -1483,6 +1476,10 @@ msgstr "• ЖЁЛТАЯ — сохранить как Избранное 2\n"
 
 msgid "← Frame"
 msgstr "← Кадр"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Меню Foreca One"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

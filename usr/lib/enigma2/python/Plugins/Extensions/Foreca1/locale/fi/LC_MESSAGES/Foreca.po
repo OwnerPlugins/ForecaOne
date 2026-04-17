@@ -244,9 +244,6 @@ msgstr "Värin valinta"
 msgid "Condition: {}"
 msgstr "Tila: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Mantereiden sääkartat"
 
@@ -463,10 +460,6 @@ msgstr "Foreca One valikko"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One asemia ei löytynyt"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Foreca One valikko"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One asemat: {} asemaa lähellä ({})"
@@ -1487,6 +1480,10 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
 msgid "← Frame"
 msgstr "← Kehys"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One valikko"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 päivän ennuste"

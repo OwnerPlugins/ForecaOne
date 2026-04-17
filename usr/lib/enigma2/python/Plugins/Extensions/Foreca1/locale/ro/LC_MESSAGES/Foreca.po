@@ -246,9 +246,6 @@ msgstr "Selectare culoare"
 msgid "Condition: {}"
 msgstr "Stare: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Hărți meteo continente"
 
@@ -466,10 +463,6 @@ msgstr "Meniu Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One: Nu s-au găsit stații"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Meniu Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stații Foreca One: {} stații în apropiere ({})"
@@ -1492,6 +1485,10 @@ msgstr "• GALBEN pentru a salva ca Favorite 2\n"
 
 msgid "← Frame"
 msgstr "← Cadru"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Meniu Foreca One"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "Prognoză pe 7 zile"

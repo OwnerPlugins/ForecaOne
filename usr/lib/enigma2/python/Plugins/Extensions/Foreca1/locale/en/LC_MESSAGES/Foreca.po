@@ -253,9 +253,6 @@ msgstr "Color selection"
 msgid "Condition: {}"
 msgstr ""
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 #, fuzzy
 msgid "Continents Weather Maps"
 msgstr "Foreca Weather Forecast"
@@ -493,10 +490,6 @@ msgstr "Foreca 4"
 
 #, fuzzy
 msgid "Foreca One No stations found"
-msgstr "Foreca 4"
-
-#, fuzzy
-msgid "Foreca One Setup"
 msgstr "Foreca 4"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
@@ -1578,6 +1571,10 @@ msgstr ""
 
 msgid "← Frame"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca 4"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"

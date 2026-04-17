@@ -237,9 +237,6 @@ msgstr "Szín kiválasztása"
 msgid "Condition: {}"
 msgstr "Állapot: {}"
 
-msgid "Configure Foreca API credentials"
-msgstr ""
-
 msgid "Continents Weather Maps"
 msgstr "Kontinensek időjárási térképei"
 
@@ -461,10 +458,6 @@ msgstr "Foreca One menü"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One – Nem találhatók állomások"
-
-#, fuzzy
-msgid "Foreca One Setup"
-msgstr "Foreca One menü"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One állomások: {} közeli állomás ({})"
@@ -1483,6 +1476,10 @@ msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
 
 msgid "← Frame"
 msgstr "← Keret"
+
+#, fuzzy
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One menü"
 
 #, fuzzy
 #~ msgid "7 Day Forecast"
