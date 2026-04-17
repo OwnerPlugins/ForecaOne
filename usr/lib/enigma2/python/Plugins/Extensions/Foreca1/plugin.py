@@ -2425,8 +2425,10 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         if extra:
             # Use the already correct values from the main screen widgets
-            moonrise_widget = self["moonrise_value"].getText() if "moonrise_value" in self else "N/A"
-            moonset_widget = self["moonset_value"].getText() if "moonset_value" in self else "N/A"
+            moonrise_widget = self["moonrise_value"].getText(
+            ) if "moonrise_value" in self else "N/A"
+            moonset_widget = self["moonset_value"].getText(
+            ) if "moonset_value" in self else "N/A"
 
             lines.append(_("Moonrise: {}").format(moonrise_widget))
             lines.append(_("Moonset: {}").format(moonset_widget))
