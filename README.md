@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/Enigma2-Plugin-orange.svg" alt="Enigma2 Plugin">
   </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
-    <img src="https://img.shields.io/badge/Version-1.2.5-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.2.6-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
