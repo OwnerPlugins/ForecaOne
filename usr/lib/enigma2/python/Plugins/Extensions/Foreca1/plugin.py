@@ -1302,8 +1302,13 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.f_precipitation = [
                 str(h.precip_prob) if h.precip_prob is not None else '0' for h in hourly]
             self.f_rel_hum = [str(h.humidity) for h in hourly]
-            self.f_uvi = [str(h.uvi) if hasattr(h, 'uvi')
-                          and h.uvi is not None else 'N/A' for h in hourly]
+            try:
+                daily_uvi = int(self.uvi) if self.uvi != 'N/A' else None
+            except (ValueError, TypeError):
+                daily_uvi = None
+
+            self.f_uvi = [str(daily_uvi) if daily_uvi is not None else 'N/A' for _ in hourly]
+
             self.f_solar = [
                 str(h.solar_radiation) if h.solar_radiation is not None else '0' for h in hourly]
             target_date = datetime.date.today() + datetime.timedelta(days=day_index)
