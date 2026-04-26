@@ -95,6 +95,9 @@ def scrape_hourly_forecast(place: Place, day: int = 0) -> List[HourForecast]:
             hour = int(hour_min[0])
             minute = int(hour_min[1]) if len(hour_min) > 1 else 0
             time_obj = datetime.time(hour, minute)
+            
+            # uvi index
+            uvi = int(item.get("uvi", 0))
 
             # Temperature (celsius)
             temp = int(item.get("temp", 0))
@@ -132,11 +135,11 @@ def scrape_hourly_forecast(place: Place, day: int = 0) -> List[HourForecast]:
                 humidity=humidity,
                 wind_speed=wind_speed,
                 wind_direction=wind_direction,
+                uvi=uvi,
                 precipitation=precip,
                 precip_prob=precip_prob,
                 solar_radiation=None
             )
-
             result.append(hf)
         except Exception as e:
             print(f"[ForecaScraper] Error parsing item {i}: {e}")
