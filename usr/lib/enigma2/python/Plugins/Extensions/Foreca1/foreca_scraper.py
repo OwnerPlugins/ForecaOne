@@ -95,7 +95,7 @@ def scrape_hourly_forecast(place: Place, day: int = 0) -> List[HourForecast]:
             hour = int(hour_min[0])
             minute = int(hour_min[1]) if len(hour_min) > 1 else 0
             time_obj = datetime.time(hour, minute)
-            
+
             # uvi index
             uvi = int(item.get("uvi", 0))
 
