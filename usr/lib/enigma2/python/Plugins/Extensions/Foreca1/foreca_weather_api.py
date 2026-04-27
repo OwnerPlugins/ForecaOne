@@ -126,6 +126,7 @@ class HourForecast:
             humidity,
             wind_speed,
             wind_direction,
+            uvi,
             precipitation,
             precip_prob=None,
             solar_radiation=None):
@@ -849,6 +850,7 @@ class ForecaWeatherAPI:
                     humidity=item.get('relHumidity'),
                     wind_speed=item.get('windSpeed'),
                     wind_direction=item.get('windDir'),
+                    uvi=item.get('uvIndex'),
                     precipitation=item.get('precipAccum'),
                     precip_prob=item.get('precipProb'),
                     solar_radiation=item.get('solarRadiation')
