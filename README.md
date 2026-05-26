@@ -25,7 +25,7 @@
     <img src="https://img.shields.io/badge/Python-3.x-yellow.svg" alt="Python">
   </a>
 </p>
-
+[![Release](https://img.shields.io/github/v/release/Belfagor2005/ForecaOne)](https://github.com/Belfagor2005/ForecaOne/releases)
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
 
 
