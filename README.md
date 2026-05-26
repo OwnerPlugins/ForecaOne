@@ -25,9 +25,9 @@
     <img src="https://img.shields.io/badge/Python-3.x-yellow.svg" alt="Python">
   </a>
 </p>
-<p align="center">
+
 [![Donate](https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://ko-fi.com/lululla)
-</p>
+
 
 ## 📸 Screenshots
 
