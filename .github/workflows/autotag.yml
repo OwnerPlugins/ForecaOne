@@ -65,13 +65,14 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
-        if: steps.check_tag.outputs.skip != 'true'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ steps.get_version.outputs.version }}
-          name: Release v${{ steps.get_version.outputs.version }}
-          body: |
-            ## Changes in this release
-            ${{ steps.changelog.outputs.changelog }}
+        if: steps.check_tag.outputs.exists == 'false'
+        run: |
+          gh release create "v${{ steps.get_version.outputs.version }}" \
+            --title "Release v${{ steps.get_version.outputs.version }}" \
+            --notes "$(cat <<EOF
+          ${{ steps.changelog.outputs.changelog }}
+          EOF
+          )" \
+            --latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
