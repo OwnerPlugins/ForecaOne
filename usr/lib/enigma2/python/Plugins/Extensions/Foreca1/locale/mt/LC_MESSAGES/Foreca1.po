@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Data addizzjonali mhux disponibbli)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Illum"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Illum + ġurnata"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Illum + 2 ijiem"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Illum + 3 ijiem"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Illum + 4 ijiem"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Illum + 5 ijiem"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Illum + 6 ijiem"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Illum + 7 ijiem"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Illum + 8 ijiem"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Illum + 9 ijiem"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== DETTALJI TAL-QAMAR ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "Kredenzjali tal-API mhux konfigurati."
 
 msgid "API error"
-msgstr ""
+msgstr "żball API"
 
 msgid "API password"
-msgstr ""
+msgstr "Password API"
 
 msgid "API user"
-msgstr ""
+msgstr "Utent tal-API"
 
 msgid "AQI {}"
 msgstr ""
@@ -71,70 +71,70 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "Avvanzat"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Settings Avvanzati tal-Unità"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Wara nofsinhar"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Età mill-Qamar Ġdid: {:.1f} jiem"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Età: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Dijametru angolari: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Dijametru angolari: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Kobor apparenti: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Kobor apparenti: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Assenja lill-Favorit 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Assenja lill-Favorit 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Assenja lid-Dar"
 
 msgid "Australia"
-msgstr ""
+msgstr "Awstralja"
 
 msgid "Austria"
-msgstr ""
+msgstr "L-Awstrija"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Server ta' awtorizzazzjoni"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Württemberg"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Barometru"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Bavarja"
 
 msgid "Belgium"
-msgstr ""
+msgstr "il-Belġju"
 
 msgid "Berlin"
 msgstr ""
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Qamar Iswed"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Blu - Dar"
 
 msgid "Blue Moon"
 msgstr ""
@@ -146,304 +146,304 @@ msgid "Bremen"
 msgstr ""
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Jikkalkula..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ikkanċella"
 
 msgid "Celsius, km/h, hPa"
 msgstr ""
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "reġistru tal-bidliet: {log tal-bidliet}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Il-bidliet japplikaw immedjatament"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Iċċekkja għal aġġornamenti"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Agħżel id-dettall"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Għażla tal-Belt"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Il-fajl tal-lista tal-belt ma nstabx!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Cleanup Foreca One Temp Fajls?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Fajls temp tat-tindif"
 
 msgid "Clear"
-msgstr ""
+msgstr "Ċara"
 
 msgid "Close"
-msgstr ""
+msgstr "Agħlaq"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Agħlaq il-leġġenda"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Agħlaq is-setup mingħajr ma ssejvja"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Imsaħħab"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Xita imsaħħab u ħafifa"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Silġ imsaħħab u ħafif"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Silġ imdardar u ħafif"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Imsaħħab u ħalbiet tax-xita"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Ħalbiet imsaħħab u borra"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Ħalbiet tas-silġ imsaħħab u mxarrbin"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Imsaħħab, maltempati bir-ragħad bix-xita"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Kesħa (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Leġġenda tal-Kulur"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Selettur tal-Kulur"
 
 msgid "Color data"
-msgstr ""
+msgstr "Data tal-kulur"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Leġġenda tal-kulur"
 
 msgid "Color name"
-msgstr ""
+msgstr "Isem tal-kulur"
 
 msgid "Color select"
-msgstr ""
+msgstr "Agħżel il-kulur"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Kundizzjoni: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Mapep tat-Temp tal-Kontinenti"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Kessaħ (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Ma setax iġib l-informazzjoni tal-aġġornament."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Ma setax jinizjalizza l-API tal-mappa."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Ma setgħetx tagħbija data tat-tbassir"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Ma setax janalizza l-informazzjoni tal-verżjoni."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Temp kurrenti u tbassir"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Temp kurrenti u tbassir għall-10 ijiem li ġejjin"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Kurrenti: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Repubblika Ċeka"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Dejta pprovduta minn Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Data: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Jum"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Naqqas il-Veloċità"
 
 msgid "Defaults"
 msgstr ""
 
 msgid "Denmark"
-msgstr ""
+msgstr "id-Danimarka"
 
 msgid "Details"
-msgstr ""
+msgstr "Dettalji"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Punt tan-nida {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Punt tan-nida {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Punt tan-nida: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Punt tan-nida: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Punt tan-nida: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Distanza {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Distanza: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Distanza: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Distanza: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Trid tinstallah issa?"
 
 msgid "Down"
 msgstr ""
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Down - Il-paġna li jmiss"
 
 msgid "Download error"
-msgstr ""
+msgstr "Żball tat-tniżżil"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Niżżel immaġini..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Niżżel il-madum..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "Asja tal-Lvant"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Żball fil-verifika għall-aġġornamenti."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Żball fit-tagħbija tad-dejta"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Żball fit-tagħbija tal-mappa"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Żball fit-tagħbija tal-mapep. Iċċekkja l-konnessjoni."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Żball fl-iffrankar tal-favorit!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Ewropa"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Mapep Ewropej tat-Temp"
 
 msgid "Evening"
-msgstr ""
+msgstr "Filgħaxija"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ħruġ"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Ħruġ - Tmiem"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Ħruġ / Agħlaq il-leġġenda"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Estremi"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Maltempati estremi / bir-ragħad"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr ""
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Aktar malajr: {}s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Favorit 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Favorit 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Dettalji Favoriti"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Dettalji favoriti"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Tħoss bħal"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Tħoss bħal {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Tħoss bħal {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Tħoss bħal: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Tħoss bħal: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Tħoss bħal: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Tħoss bħal: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Tħoss bħal: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Tħoss bħal: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Finlandja"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "L-Ewwel Kwart"
 
 msgid "Fog"
-msgstr ""
+msgstr "Ċpar"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Setup tal-API Foreca"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Il-kredenzjali tal-API Foreca għadhom mhumiex konfigurati. Jekk jogħġbok daħħalhom fl-iskrin tas-setup."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Is-settings tal-API Foreca ssejvjati b'suċċess."
 
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca Wieħed"
 
 msgid "Foreca One Live Maps (API)"
 msgstr ""
@@ -452,58 +452,58 @@ msgid "Foreca One Menu"
 msgstr ""
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Ebda stazzjonijiet misjuba"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One Stations: {} stazzjonijiet fil-qrib ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca One Tbassir tat-Temp"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One Temp u Tbassir ver. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca Wieħed | Mappa {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Sabu %d bliet lokalment għal '%s'"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Sabu %d bliet online għal '%s'"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Qafas →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Qafas: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Franza"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Qamar Sħiħ"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Forza tal-gale (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Mapep tat-Temp tal-Istati Ġermaniżi"
 
 msgid "Germany"
-msgstr ""
+msgstr "il-Ġermanja"
 
 msgid "Good"
-msgstr ""
+msgstr "Tajjeb"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Gran Brittanja"
 
 msgid "Greece"
-msgstr ""
+msgstr "il-Greċja"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Aħdar - Favorit 1"
 
 msgid "Gust {}"
 msgstr ""
@@ -515,160 +515,160 @@ msgid "Hamburg"
 msgstr ""
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Perikoluż"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Header - mhux magħżula"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Xita qawwija"
 
 msgid "Help"
-msgstr ""
+msgstr "Għajnuna"
 
 msgid "Hesse"
 msgstr ""
 
 msgid "High"
-msgstr ""
+msgstr "Għoli"
 
 msgid "Home"
-msgstr ""
+msgstr "Dar"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "sħun (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Dettalji tas-Siegħa"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Umdità"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Umdità: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Umdità: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Ungerija"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Silġ / ġlata"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Illuminazzjoni"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Illuminazzjoni: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Immaġini %(kurrent)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Immaġini %(kurrent)d/%(total)d – %(day)s (Pawża)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "L-immaġni mhix disponibbli"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Sistema Imperjali"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Żid il-Veloċità"
 
 msgid "Info"
 msgstr ""
 
 msgid "Info - About"
-msgstr ""
+msgstr "Info - Dwar"
 
 msgid "Ireland"
-msgstr ""
+msgstr "l-Irlanda"
 
 msgid "Italy"
-msgstr ""
+msgstr "l-Italja"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Aqbeż 100 'l isfel"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Aqbeż 100 'il fuq"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Aqbeż 500 'l isfel"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Aqbeż 500 'l fuq"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastiera"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "L-aħħar Kwart"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Il-Latvja"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Xellug - Jum ta' qabel"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Vleġġa tax-xellug - Jum ta' qabel"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Dawl (0-20 km/h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Xita ħafifa / drizzle"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Ħafif għal moderat"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Qiegħed il-mapep disponibbli..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Tagħbija tal-fażijiet Lunar..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Qed jitgħabbew stazzjonijiet fil-qrib..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Tagħbija madum..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Tagħbija tbassir ta' kull ġimgħa..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Tagħbija..."
 
 msgid "Low"
-msgstr ""
+msgstr "Baxx"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Is-Sassonja t'Isfel"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Kalendarju Lunar"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Fażijiet Lunar mix-xahar id-dieħel"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Lussemburgu"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Mappa & Madum Mgħobbija"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Mappa mgħobbija"
 
 msgid "Map server"
-msgstr ""
+msgstr "Server tal-mapep"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Mappa {} magħżula"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr ""
@@ -680,64 +680,64 @@ msgid "Menu - Settings"
 msgstr ""
 
 msgid "Merge failed"
-msgstr ""
+msgstr "L-għaqda falliet"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Meteogramma"
 
 msgid "Metric System"
-msgstr ""
+msgstr "Sistema Metrika"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Nofsani Amerika"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Asja Nofsani"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Lvant Nofsani"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Ħafif (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Moderat"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Moderat (20-40 km/h)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Xita moderata"
 
 msgid "Month"
-msgstr ""
+msgstr "Xahar"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Dettalji tal-qamar"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Tlugħ il-qamar: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Inżul il-qamar: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Filgħodu"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "L-aktar ċar"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Nimxu 'l isfel"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Nimxu 'l fuq"
 
 msgid "Move down"
-msgstr ""
+msgstr "Nimxu 'l isfel"
 
 msgid "Move up"
-msgstr ""
+msgstr "Imxi 'l fuq"
 
 msgid "N"
 msgstr ""
@@ -746,133 +746,133 @@ msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "l-Olanda"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Qamar Ġdid"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Verżjoni ġdida {version} hija disponibbli."
 
 msgid "Next"
-msgstr ""
+msgstr "Li jmiss"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Immaġni li jmiss"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Il-qafas li jmiss"
 
 msgid "Next page"
-msgstr ""
+msgstr "Il-paġna li jmiss"
 
 msgid "Next time"
-msgstr ""
+msgstr "Il-ħin li jmiss"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Ebda konnessjoni tal-Internet misjuba."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Ebda madum OSM"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "L-ebda belt ma nstabet lokalment għal '%s'"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Ebda belt magħżula"
 
 msgid "No data"
-msgstr ""
+msgstr "Ebda data"
 
 msgid "No date available"
-msgstr ""
+msgstr "Ebda data disponibbli"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Ebda post magħżul"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Ebda leġġenda speċifika disponibbli."
 
 msgid "No station data"
-msgstr ""
+msgstr "Ebda data tal-istazzjon"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Ebda data dwar l-istazzjon disponibbli"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Ma nstab l-ebda stazzjonijiet"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Ebda madum imniżżel"
 
 msgid "North Africa"
-msgstr ""
+msgstr "l-Afrika ta' Fuq"
 
 msgid "North America"
-msgstr ""
+msgstr "Amerika ta’ Fuq"
 
 msgid "North Rhine-Westphalia"
 msgstr ""
 
 msgid "Norway"
-msgstr ""
+msgstr "Norveġja"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "OK - Info Ext"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "OK - Tbassir"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "OK - Iftaħ il-Mappa"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Ok - Dettalji"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Iftaħ it-Tastiera"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Iftaħ Mappa"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Disinn u idea oriġinali minn %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Imsaħħab"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Imsaħħab u xita ħafifa"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Silġ imsaħħab u ħafif"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Silġ imsaħħab u ħafif imxarrab"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Imsaħħab u xita"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Imsaħħab u ħalbiet tax-xita"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Imsaħħab u borra"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Ħalbiet imsaħħab u silġ"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Silġ imsaħħab u imxarrab"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Ħalbiet tas-silġ imsaħħab u mxarrba"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Imsaħħab, maltempati bir-ragħad bix-xita"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Matul il-lejl"
 
 msgid "Page Down"
 msgstr ""
@@ -881,166 +881,166 @@ msgid "Page Up"
 msgstr ""
 
 msgid "Page down"
-msgstr ""
+msgstr "Paġna 'l isfel"
 
 msgid "Page up"
-msgstr ""
+msgstr "Paġna 'l fuq"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Pan isfel"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Pan xellug"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Pan dritt"
 
 msgid "Pan up"
 msgstr ""
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Ftit imsaħħab"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Ftit imsaħħab u xita ħafifa"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Parzjalment imsaħħab u borra ħafifa"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Parzjalment imsaħħab u borra ħafifa mxarrba"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Ftit imsaħħab u ħalbiet tax-xita"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Ftit imsaħħab u ħalbiet tas-silġ"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Ħalbiet ta' borra parzjalment imsaħħab u mxarrba"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Ftit imsaħħab, possibbli maltempati bir-ragħad bix-xita"
 
 msgid "Perigee"
 msgstr ""
 
 msgid "Phase"
-msgstr ""
+msgstr "Fażi"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Fażi: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Play/Pawsa"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Jekk jogħġbok daħħal kemm l-utent tal-API kif ukoll il-password tal-API."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Jekk jogħġbok stenna..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Polonja"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portugall"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Preċipitazzjoni"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Preċipitazzjoni: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Preċipitazzjoni"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Preċipitazzjoni: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Agħfas AĦMAR biex terġa' tfittex"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Pressjoni"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Pressjoni: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Pressjoni: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Pressjoni: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Pressjoni: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Pressjoni: {} hPa"
 
 msgid "Prev"
 msgstr ""
 
 msgid "Previous"
-msgstr ""
+msgstr "Preċedenti"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Immaġni Preċedenti"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Qafas preċedenti"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Il-paġna ta' qabel"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Ħin preċedenti"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Xita Prob."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Xita prob. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Prob. xita: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Xita: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "Radar RainViewer"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Aħmar - Agħżel il-kulur"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Aġġorna"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Irrestawra l-valuri default tas-server"
 
 msgid "Rhineland-Palatine"
 msgstr ""
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Dritt - L-għada"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Vleġġa tal-lemin - Il-jum li jmiss"
 
 msgid "Rise"
-msgstr ""
+msgstr "Qum"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Żieda ażimut: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Żieda ażimut: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Russja"
 
 msgid "S"
 msgstr ""
@@ -1049,298 +1049,298 @@ msgid "Saarland"
 msgstr ""
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Ritratti bis-Satellita"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Ritratti bis-satellita dalwaqt!"
 
 msgid "Save"
-msgstr ""
+msgstr "Ħlief"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Issejvja s-settings tal-API"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Sassonja"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Sassonja-Anhalt"
 
 msgid "Schleswig-Holstein"
 msgstr ""
 
 msgid "Scraped"
-msgstr ""
+msgstr "Mibruxa"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Fittex l-ewwel jipprova onlajn, jekk jonqos juża lista lokali."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Fittex il-Belt tiegħek"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Qed tfittex '%s'..."
 
 msgid "Select"
-msgstr ""
+msgstr "Agħżel"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Agħżel Reġjun"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Agħżel belt"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Agħżel mappa b'OK"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Agħżel sistema ta 'unità"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Agħżel l-unità tar-riħ"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Agħżel {} unità"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Dettalji tas-siegħa magħżula"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Issettja l-ażimut: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Issettja l-ażimut: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Settijiet"
 
 msgid "Show info"
-msgstr ""
+msgstr "Uri l-informazzjoni"
 
 msgid "Showers"
-msgstr ""
+msgstr "Doċoċ"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Is-Slovakkja"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Aktar bil-mod: {}s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Borra / silġ"
 
 msgid "Snow prob. {}%"
 msgstr ""
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Prob. tas-silġ: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Afrika t'Isfel"
 
 msgid "South America"
-msgstr ""
+msgstr "Amerika t'Isfel"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Asja tax-Xlokk"
 
 msgid "Spain"
-msgstr ""
+msgstr "Spanja"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Osservazzjonijiet tal-Istazzjon"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Stazzjon: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Qawwija (40-60 km/h)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Tlugħ ix-xemx"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Inżul ix-xemx"
 
 msgid "Super Full Moon"
 msgstr ""
 
 msgid "Sweden"
-msgstr ""
+msgstr "l-Isvezja"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "L-Isvizzera"
 
 msgid "Temp"
 msgstr ""
 
 msgid "Temperature"
-msgstr ""
+msgstr "Temperatura"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Temperatura: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Temperatura: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Temperatura: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Temperatura: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Temperatura: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Temperatura: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Grazzi {grazzi} u ħbieb oħra għas-suġġerimenti"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Il-verżjoni remota ({remote}) hija eqdem minn dik attwali ({current})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Sħaba rqiqa ta' fuq"
 
 msgid "Thuringia"
 msgstr ""
 
 msgid "Time"
-msgstr ""
+msgstr "Ħin"
 
 msgid "Today"
-msgstr ""
+msgstr "Illum"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Illum/Għada dettalji"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Toggle leġġenda"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Token jiskadi sigħat"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Is-sigħat ta' skadenza tat-token għandhom ikunu -1 jew numru pożittiv."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Is-sigħat ta' skadenza tat-token iridu jkunu numru."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Għada"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Tranżitu (il-qofol): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Altitudni tat-transitu: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Altitudni tat-transitu: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Settings ta' Trasparenza"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Livell ta' trasparenza"
 
 msgid "UV Index"
-msgstr ""
+msgstr "Indiċi UV"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Ħżiena għas-saħħa"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Ħżiena għas-saħħa għas-sensittivi"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Settings tal-Unità"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Issettjar tal-Unità (Avvanzat)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Settings tal-Unità (Sempliċi)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Mhux magħruf"
 
 msgid "Up"
 msgstr ""
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Up - Il-paġna ta' qabel"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Aġġornament ikkanċellat."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Aġġornament lest. Jekk jogħġbok ibda mill-ġdid Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Aġġornata {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Aġġornat: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Aġġornata: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Aġġornament..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Uża l-vleġeġ biex tiskrollja"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Uża ← → biex tbiddel il-ħin | OK biex toħroġ"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Uża ←/→/↑/↓ biex timxi | OK biex toħroġ"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Uża ▲/▼ biex tbiddel, OK biex tagħżel"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Uża l-ħin kurrenti"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Xita qawwija ħafna"
 
 msgid "Very high"
-msgstr ""
+msgstr "Għoli ħafna"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Sħan ħafna (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Baxxa ħafna"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Ħżiena għas-saħħa ħafna"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Viżibilità: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Viżibilità: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Qamar Qamar Tnaqqis"
 
 msgid "Waning Gibbous"
 msgstr ""
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Saħħan (20-30°C)"
 
 msgid "Waxing Crescent"
 msgstr ""
@@ -1349,79 +1349,79 @@ msgid "Waxing Gibbous"
 msgstr ""
 
 msgid "Weather"
-msgstr ""
+msgstr "Temp"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Mappa tat-Temp"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Mapep tat-Temp"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Mapep tat-Temp u Satelliti"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Mapep tat-Temp (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Wirja tal-Mapep tat-Temp"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Radar tat-Temp"
 
 msgid "Weather today"
-msgstr ""
+msgstr "It-temp illum"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "It-temp għada"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Tbassir ta' kull ġimgħa"
 
 msgid "Wind"
-msgstr ""
+msgstr "Riħ"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Direzzjoni tar-riħ illum"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Direzzjoni tar-riħ għada"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Direzzjoni tar-riħ"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Veloċità tar-riħ"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Veloċità tar-riħ {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Veloċità tar-riħ: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Riħ: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Riħ: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Riħ: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Riħ: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Riħ: {} km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Riħ: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Trasparenza tat-tieqa"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Isfar - Favorit 2"
 
 msgid "Zoom In"
 msgstr ""
@@ -1442,28 +1442,28 @@ msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{sigħat} h {mins} min"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• BLU biex tissejvja bħala Dar\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- biex taqbeż 500 belt\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• AĦDAR biex issalva bħala Favoriti 1\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• OK biex tagħżel il-belt\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• AĦMAR biex tiftaħ it-tastiera tat-tiftix\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Uża l-vleġeġ biex tinnaviga\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• ISFAR biex issalva bħala Favoriti 2\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Qafas"

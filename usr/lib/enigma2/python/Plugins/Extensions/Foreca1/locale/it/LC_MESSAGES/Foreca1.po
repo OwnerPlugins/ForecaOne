@@ -1426,10 +1426,10 @@ msgid "Yellow - Favorite 2"
 msgstr "Giallo - Favorito 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Ingrandisci"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Rimpicciolisci"
 
 msgid "Zoom+"
 msgstr ""

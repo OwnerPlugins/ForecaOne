@@ -17,103 +17,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(قوشۇمچە سانلىق مەلۇمات يوق)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - بۈگۈن"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - بۈگۈن + 1 كۈن"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - بۈگۈن + 2 كۈن"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - بۈگۈن + 3 كۈن"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - بۈگۈن + 4 كۈن"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - بۈگۈن + 5 كۈن"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - بۈگۈن + 6 كۈن"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - بۈگۈن + 7 كۈن"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - بۈگۈن + 8 كۈن"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - بۈگۈن + 9 كۈن"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== ئاي ئايلىرى ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API كىنىشكىسى سەپلەنمىگەن."
 
 msgid "API error"
-msgstr ""
+msgstr "API خاتالىقى"
 
 msgid "API password"
-msgstr ""
+msgstr "API پارولى"
 
 msgid "API user"
-msgstr ""
+msgstr "API ئىشلەتكۈچى"
 
 msgid "AQI {}"
 msgstr ""
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "AQI: N / A."
 
 msgid "Advanced"
-msgstr ""
+msgstr "ئىلغار"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "ئىلغار ئورۇن تەڭشىكى"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "چۈشتىن كېيىن"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "يېڭى ئايدىن كېيىنكى ياش: {: .1f} كۈن"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "يېشى: N / A."
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "بۇلۇڭ دىئامېتىرى: N / A."
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "بۇلۇڭ دىئامېتىرى: {: .0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "كۆرۈنۈش چوڭلۇقى: N / A."
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "كۆرۈنۈش چوڭلۇقى: {: .2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "ياقتۇرىدىغان 1 گە تەقسىم قىلىڭ"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "ياقتۇرىدىغان 2 گە تەقسىم قىلىڭ"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "ئۆيگە تاپشۇرۇڭ"
 
 msgid "Australia"
-msgstr ""
+msgstr "ئاۋسترالىيە"
 
 msgid "Austria"
-msgstr ""
+msgstr "ئاۋسترىيە"
 
 msgid "Auth server"
-msgstr ""
+msgstr "ئاپتور مۇلازىمېتىرى"
 
 msgid "Baden-Wuerttemberg"
 msgstr ""
@@ -122,22 +122,22 @@ msgid "Barometer"
 msgstr ""
 
 msgid "Bavaria"
-msgstr ""
+msgstr "باۋارىيە"
 
 msgid "Belgium"
-msgstr ""
+msgstr "بېلگىيە"
 
 msgid "Berlin"
 msgstr ""
 
 msgid "Black Moon"
-msgstr ""
+msgstr "قارا ئاي"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "كۆك - ئۆي"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "كۆك ئاي"
 
 msgid "Brandenburg"
 msgstr ""
@@ -146,541 +146,541 @@ msgid "Bremen"
 msgstr ""
 
 msgid "Calculating..."
-msgstr ""
+msgstr "ھېسابلاش ..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "بىكار قىلىش"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Celsius, km / h, hPa"
 
 msgid "Changelog: {changelog}"
 msgstr ""
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "ئۆزگەرتىش دەرھال قوللىنىلىدۇ"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "يېڭىلانمىلارنى تەكشۈرۈڭ"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "تەپسىلىي كۆرۈنۈشنى تاللاڭ"
 
 msgid "City Selection"
-msgstr ""
+msgstr "شەھەر تاللاش"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "شەھەر تىزىملىكى ھۆججىتى تېپىلمىدى!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Foreca One Temp ھۆججىتىنى تازىلاش؟"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Temp ھۆججىتىنى تازىلاش"
 
 msgid "Clear"
-msgstr ""
+msgstr "ئېنىق"
 
 msgid "Close"
-msgstr ""
+msgstr "تاقاش"
 
 msgid "Close legend"
-msgstr ""
+msgstr "يېقىن رىۋايەت"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "ساقلىماي تەڭشەشنى تاقاڭ"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "بۇلۇتلۇق"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "بۇلۇتلۇق ۋە ئازراق يامغۇر"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "بۇلۇتلۇق ۋە سۇس قار"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "بۇلۇتلۇق ۋە يېنىك ھۆل قار"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "بۇلۇتلۇق ۋە يامغۇرلۇق"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "بۇلۇتلۇق ۋە قار ياغىدۇ"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "بۇلۇتلۇق ۋە ھۆل قار ياغىدۇ"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "بۇلۇتلۇق ، گۈلدۈرمامىلىق يامغۇر"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "سوغۇق (<0 ° C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "رەڭلىك رىۋايەت"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "رەڭ تاللىغۇچ"
 
 msgid "Color data"
-msgstr ""
+msgstr "رەڭلىك سانلىق مەلۇمات"
 
 msgid "Color legend"
-msgstr ""
+msgstr "رەڭلىك رىۋايەت"
 
 msgid "Color name"
-msgstr ""
+msgstr "رەڭ ئىسمى"
 
 msgid "Color select"
-msgstr ""
+msgstr "رەڭ تاللاش"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "شەرتى: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "قىتئەلەر ھاۋارايى خەرىتىسى"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "سالقىن (0-10 ° C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "يېڭىلاش ئۇچۇرىغا ئېرىشەلمىدى."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "خەرىتە API نى قوزغىتالمىدى."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "مۆلچەر سانلىق مەلۇماتلىرىنى يۈكلىيەلمىدى"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "نەشرىدىكى ئۇچۇرلارنى تەھلىل قىلالمىدى."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "نۆۋەتتىكى ھاۋارايى ۋە ئالدىن مەلۇمات"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "نۆۋەتتىكى ھاۋارايى ۋە كەلگۈسى 10 كۈندىكى ئالدىن مەلۇمات"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "نۆۋەتتىكى: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "چېخ"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Foreca تەمىنلىگەن سانلىق مەلۇمات"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "چېسلا: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "كۈن"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "سۈرئەتنى تۆۋەنلىتىش"
 
 msgid "Defaults"
-msgstr ""
+msgstr "سۈكۈت"
 
 msgid "Denmark"
-msgstr ""
+msgstr "دانىيە"
 
 msgid "Details"
-msgstr ""
+msgstr "تەپسىلاتى"
 
 msgid "Dewpoint {}"
 msgstr ""
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Dewpoint {} ° C."
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "چۈشۈش نۇقتىسى:% d% s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "چۈشۈش نۇقتىسى:% s ° C."
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Dewpoint: N / A."
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "ئارىلىقى {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "ئارىلىقى:% s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "ئارىلىقى: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "ئارىلىقى: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "ھازىر قاچىلىماقچىمۇ؟"
 
 msgid "Down"
-msgstr ""
+msgstr "تۆۋەنگە"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "ئاستى - كېيىنكى بەت"
 
 msgid "Download error"
-msgstr ""
+msgstr "چۈشۈرۈش خاتالىقى"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "رەسىملەرنى چۈشۈرۈش ..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "كاھىشلارنى چۈشۈرۈش ..."
 
 msgid "E"
-msgstr ""
+msgstr "E."
 
 msgid "East Asia"
-msgstr ""
+msgstr "شەرقىي ئاسىيا"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "يېڭىلانمىلارنى تەكشۈرۈشتە خاتالىق."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "سانلىق مەلۇمات يۈكلەشتە خاتالىق"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "خەرىتە يۈكلەشتە خاتالىق"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "خەرىتە يۈكلەشتە خاتالىق. ئۇلىنىشنى تەكشۈرۈڭ."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "ياخشى كۆرىدىغان خاتالىق!"
 
 msgid "Europe"
-msgstr ""
+msgstr "ياۋروپا"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "ياۋروپا ھاۋارايى خەرىتىسى"
 
 msgid "Evening"
-msgstr ""
+msgstr "كەچ"
 
 msgid "Exit"
-msgstr ""
+msgstr "چىقىش"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "چىقىش - ئاخىرلىشىش"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "چېكىنىش / تاقاش رىۋايىتى"
 
 msgid "Extreme"
-msgstr ""
+msgstr "ھەددىدىن ئاشقان"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "قاتتىق / گۈلدۈرمامىلىق يامغۇر"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr ""
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "تېز: {} s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "ياقتۇرىدىغان 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "ياقتۇرىدىغان 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "ياقتۇرىدىغان تەپسىلاتلار"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "ياقتۇرىدىغان تەپسىلاتلار"
 
 msgid "Feels like"
-msgstr ""
+msgstr "ھېس قىلىدۇ"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "ھېس قىلىدۇ {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "ھېس قىلىدۇ {} {}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "ھېس قىلىدۇ:% d% s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "ھېس قىلىدۇ:% s ° C."
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "ھېس قىلىدۇ: N / A."
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "ھېس قىلىدۇ: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "ھېس قىلىدۇ: {} {}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "ھېس قىلىدۇ: {} ° C."
 
 msgid "Finland"
-msgstr ""
+msgstr "فىنلاندىيە"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "بىرىنچى چارەك"
 
 msgid "Fog"
-msgstr ""
+msgstr "تۇمان"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API تەڭشەش"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API كىنىشكىسى تېخى سەپلەنمىگەن. ئۇلارنى تەڭشەش ئېكرانىغا كىرگۈزۈڭ."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API تەڭشىكى مۇۋەپپەقىيەتلىك ساقلاندى."
 
 msgid "Foreca One"
 msgstr ""
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One Live خەرىتىسى (API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca One menu"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One پونكىتى تېپىلمىدى"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One بېكىتى: near} ئەتراپىدىكى بېكەتلەر ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca بىر ھاۋارايىدىن ئالدىن مەلۇمات"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One ھاۋارايى ۋە ئالدىن مەلۇمات. % s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | خەرىتە {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "% D شەھەرلەردىن% d شەھەرلەرنى تاپتى"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "توردا% d شەھەرلەرنى '% s' دىن تاپتى"
 
 msgid "Frame →"
 msgstr ""
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "كاندۇك: {}"
 
 msgid "France"
 msgstr ""
 
 msgid "Full Moon"
-msgstr ""
+msgstr "تولۇن ئاي"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "گال كۈچى (> 60 km / h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "گېرمانىيە دۆلەتلىرىنىڭ ھاۋارايى خەرىتىسى"
 
 msgid "Germany"
 msgstr ""
 
 msgid "Good"
-msgstr ""
+msgstr "ياخشى"
 
 msgid "Great Britain"
 msgstr ""
 
 msgid "Greece"
-msgstr ""
+msgstr "گرېتسىيە"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "يېشىل - ئەڭ ياخشى كۆرىدىغان 1"
 
 msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Gust: {: .1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "ھامبۇرگ"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "خەتەرلىك"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "ماۋزۇ - تاللاشقا بولمايدۇ"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "قاتتىق يامغۇر"
 
 msgid "Help"
-msgstr ""
+msgstr "ياردەم"
 
 msgid "Hesse"
 msgstr ""
 
 msgid "High"
-msgstr ""
+msgstr "ئېگىز"
 
 msgid "Home"
-msgstr ""
+msgstr "ئۆي"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "قىزىق (30-40 ° C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "سائەت تەپسىلاتلىرى"
 
 msgid "Humidity"
-msgstr ""
+msgstr "نەملىك"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "نەملىك:% s %%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "نەملىك: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "ۋېنگىرىيە"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "مۇز / ئۈششۈك"
 
 msgid "Illumination"
-msgstr ""
+msgstr "يورۇتۇش"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "يورۇتۇش: {: .1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "رەسىم% (نۆۋەتتىكى) d /% (ئومۇمىي) d -% (كۈن) s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "رەسىم% (نۆۋەتتىكى) d /% (ئومۇمىي) d -% (كۈن) s (توختاپ)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "رەسىم يوق"
 
 msgid "Imperial System"
 msgstr ""
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "سۈرئەتنى ئاشۇرۇش"
 
 msgid "Info"
-msgstr ""
+msgstr "ئۇچۇر"
 
 msgid "Info - About"
-msgstr ""
+msgstr "ئۇچۇر - ھەققىدە"
 
 msgid "Ireland"
-msgstr ""
+msgstr "ئىرېلاندىيە"
 
 msgid "Italy"
-msgstr ""
+msgstr "ئىتالىيە"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "100 تۆۋەنگە سەكرەش"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "100 سەكرەش"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "500 سەكرەش"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "500 سەكرەش"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "كۇنۇپكا تاختىسى"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "ئاخىرقى چارەك"
 
 msgid "Latvia"
 msgstr ""
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "سول - ئالدىنقى كۈن"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "سول يا ئوق - ئالدىنقى كۈن"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "نۇر (0-20 km / h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "ئازراق يامغۇر / سىم-سىم يامغۇر"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "ئوتتۇراھالدىن ئوتتۇراھال"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "ئىشلەتكىلى بولىدىغان خەرىتە ..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "ئاي باسقۇچلىرىنى يۈكلەۋاتىدۇ ..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "يېقىن ئەتراپتىكى بېكەتلەرنى يۈكلەۋاتىدۇ ..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "كاھىشلارنى يۈكلەۋاتىدۇ ..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "ھەپتىلىك مۆلچەرنى يۈكلەۋاتىدۇ ..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Loading ..."
 
 msgid "Low"
-msgstr ""
+msgstr "تۆۋەن"
 
 msgid "Lower Saxony"
 msgstr ""
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "ئاي كالېندارى"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "كېلەر ئايدىن باشلاپ ئاي باسقۇچلىرى"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "لىيۇكسېمبۇرگ"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "خەرىتە ۋە كاھىشلار يۈكلەندى"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "خەرىتە يۈكلەندى"
 
 msgid "Map server"
-msgstr ""
+msgstr "خەرىتە مۇلازىمېتىرى"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "خەرىتە {} تاللانغان"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "مېكلېنبۇرگ-ۋورپوممېرن"
 
 msgid "Menu"
-msgstr ""
+msgstr "تىزىملىك"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "تىزىملىك ​​- تەڭشەك"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "بىرلەشتۈرۈش مەغلۇب بولدى"
 
 msgid "Meteogram"
 msgstr ""
@@ -689,199 +689,199 @@ msgid "Metric System"
 msgstr ""
 
 msgid "Middle America"
-msgstr ""
+msgstr "ئوتتۇرا ئامېرىكا"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "ئوتتۇرا ئاسىيا"
 
 msgid "Middle East"
-msgstr ""
+msgstr "ئوتتۇرا شەرق"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "يېنىك (10-20 ° C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "ئوتتۇراھال"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "ئوتتۇراھال (سائەتلىك سۈرئىتى 20-40 كىلومىتىر)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "ئوتتۇراھال يامغۇر"
 
 msgid "Month"
-msgstr ""
+msgstr "ئاي"
 
 msgid "Moon details"
-msgstr ""
+msgstr "ئاي تەپسىلاتلىرى"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "ئاي شارى: {}"
 
 msgid "Moonset: {}"
 msgstr ""
 
 msgid "Morning"
-msgstr ""
+msgstr "ئەتىگەن"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "كۆپىنچە ئېنىق"
 
 msgid "Move Down"
-msgstr ""
+msgstr "تۆۋەنگە يۆتكەڭ"
 
 msgid "Move Up"
-msgstr ""
+msgstr "يۆتكەڭ"
 
 msgid "Move down"
-msgstr ""
+msgstr "تۆۋەنگە يۆتكەڭ"
 
 msgid "Move up"
-msgstr ""
+msgstr "يۆتكەڭ"
 
 msgid "N"
-msgstr ""
+msgstr "N."
 
 msgid "N/A"
-msgstr ""
+msgstr "N / A."
 
 msgid "Netherlands"
-msgstr ""
+msgstr "گوللاندىيە"
 
 msgid "New Moon"
-msgstr ""
+msgstr "يېڭى ئاي"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "يېڭى نەشرى {نەشرى} بار."
 
 msgid "Next"
-msgstr ""
+msgstr "كېيىنكى"
 
 msgid "Next Image"
-msgstr ""
+msgstr "كېيىنكى رەسىم"
 
 msgid "Next frame"
-msgstr ""
+msgstr "كېيىنكى رامكا"
 
 msgid "Next page"
-msgstr ""
+msgstr "كېيىنكى بەت"
 
 msgid "Next time"
-msgstr ""
+msgstr "كېلەر قېتىم"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "تور ئۇلىنىشى بايقالمىدى."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "OSM كاھىش يوق"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "«% S» ئۈچۈن يەرلىك شەھەر تېپىلمىدى"
 
 msgid "No city selected"
-msgstr ""
+msgstr "ھېچقانداق شەھەر تاللانمىدى"
 
 msgid "No data"
-msgstr ""
+msgstr "سانلىق مەلۇمات يوق"
 
 msgid "No date available"
-msgstr ""
+msgstr "ۋاقتى يوق"
 
 msgid "No location selected"
-msgstr ""
+msgstr "ئورۇن تاللانمىدى"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "كونكرېت رىۋايەت يوق."
 
 msgid "No station data"
-msgstr ""
+msgstr "بېكەت سانلىق مەلۇماتلىرى يوق"
 
 msgid "No station data available"
-msgstr ""
+msgstr "بېكەت سانلىق مەلۇماتلىرى يوق"
 
 msgid "No stations found"
-msgstr ""
+msgstr "ھېچقانداق بېكەت تېپىلمىدى"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "كاھىش چۈشۈرۈلمىدى"
 
 msgid "North Africa"
-msgstr ""
+msgstr "شىمالىي ئافرىقا"
 
 msgid "North America"
-msgstr ""
+msgstr "شىمالىي ئامېرىكا"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "شىمالىي رېيىن-ۋېستفالىيە"
 
 msgid "Norway"
-msgstr ""
+msgstr "نورۋېگىيە"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "ماقۇل - قوشۇمچە ئۇچۇر"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "ماقۇل - ئالدىن پەرەز"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "ماقۇل - خەرىتىنى ئېچىڭ"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "ماقۇل - تەپسىلاتلار"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "كۇنۇپكا تاختىسىنى ئېچىڭ"
 
 msgid "Open Map"
-msgstr ""
+msgstr "خەرىتىنى ئېچىڭ"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "ئەسلى لايىھە ۋە ئىدىيە% s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "قاپقارا"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "بۇلۇتلۇق ۋە ئازراق يامغۇر"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "قار ۋە قار ياغدى"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "ئوچۇق ۋە يېنىك ھۆل قار"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "يامغۇر ۋە يامغۇر"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "بۇلۇت ۋە يامغۇر"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "قار ۋە قار"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "قار ۋە قار ياغىدۇ"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "قار ۋە ھۆل قار"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "قار ۋە يامغۇر ياغدى"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "بۇلۇتلۇق ، گۈلدۈرمامىلىق يامغۇر"
 
 msgid "Overnight"
-msgstr ""
+msgstr "بىر كېچىدىلا"
 
 msgid "Page Down"
-msgstr ""
+msgstr "بەت ئاستى"
 
 msgid "Page Up"
 msgstr ""
 
 msgid "Page down"
-msgstr ""
+msgstr "بەت ئاستى"
 
 msgid "Page up"
 msgstr ""
@@ -899,166 +899,166 @@ msgid "Pan up"
 msgstr ""
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ۋە ئازراق يامغۇر"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ۋە سۇس قار"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ۋە سۇس ھۆل قار"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ۋە يامغۇرلۇق"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ۋە قار ياغىدۇ"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ۋە ھۆل قار ياغىدۇ"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "قىسمەن بۇلۇتلۇق ، يامغۇر بىلەن گۈلدۈرمامىلىق يامغۇر ياغىشى مۇمكىن"
 
 msgid "Perigee"
 msgstr ""
 
 msgid "Phase"
-msgstr ""
+msgstr "باسقۇچ"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "باسقۇچ: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "ئويناش / توختىتىش"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "API ئىشلەتكۈچى ۋە API پارولىنى كىرگۈزۈڭ."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "ساقلاپ تۇرۇڭ ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "پولشا"
 
 msgid "Portugal"
 msgstr ""
 
 msgid "Precipitation"
-msgstr ""
+msgstr "يامغۇر"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "يامغۇر: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "يامغۇر"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "يامغۇر مىقدارى: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "قايتا ئىزدەش ئۈچۈن RED نى بېسىڭ"
 
 msgid "Pressure"
-msgstr ""
+msgstr "بېسىم"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "بېسىم:% s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "بېسىم:% s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "بېسىم: N / A."
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "بېسىم: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "بېسىم: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "ئالدىنقى"
 
 msgid "Previous"
-msgstr ""
+msgstr "ئالدىنقى"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "ئالدىنقى رەسىم"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "ئالدىنقى رامكا"
 
 msgid "Previous page"
-msgstr ""
+msgstr "ئالدىنقى بەت"
 
 msgid "Previous time"
-msgstr ""
+msgstr "ئالدىنقى ۋاقىت"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "يامغۇر مەسىلىسى."
 
 msgid "Rain prob. {}%"
 msgstr ""
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "يامغۇر ئېھتىماللىقى: N / A."
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "يامغۇر: {: .1f} {}"
 
 msgid "RainViewer Radar"
 msgstr ""
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "قىزىل - رەڭ تاللاش"
 
 msgid "Refresh"
-msgstr ""
+msgstr "يېڭىلاش"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "كۆڭۈلدىكى مۇلازىمېتىر قىممىتىنى ئەسلىگە كەلتۈرۈڭ"
 
 msgid "Rhineland-Palatine"
 msgstr ""
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "ئوڭ - ئەتىسى"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "ئوڭ يا ئوق - ئەتىسى"
 
 msgid "Rise"
-msgstr ""
+msgstr "قەد كۆتۈرۈڭ"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Rise azimuth: N / A."
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "ئۆرلەش azimuth: {: .0f} °"
 
 msgid "Russia"
-msgstr ""
+msgstr "روسىيە"
 
 msgid "S"
-msgstr ""
+msgstr "S."
 
 msgid "Saarland"
 msgstr ""
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "سۈنئىي ھەمراھ سۈرەتلىرى"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "سۈنئىي ھەمراھ سۈرەتلىرى پات يېقىندا كېلىدۇ!"
 
 msgid "Save"
-msgstr ""
+msgstr "ساقلاش"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "API تەڭشەكلىرىنى ساقلاڭ"
 
 msgid "Saxony"
 msgstr ""
@@ -1070,268 +1070,268 @@ msgid "Schleswig-Holstein"
 msgstr ""
 
 msgid "Scraped"
-msgstr ""
+msgstr "ئەمەلدىن قالدۇرۇلدى"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "ئىزدەش ئاۋۋال توردا سىنايدۇ ، ئەگەر مەغلۇپ بولسا يەرلىك تىزىملىكنى ئىشلىتىدۇ."
 
 msgid "Search your City"
-msgstr ""
+msgstr "شەھىرىڭىزنى ئىزدەڭ"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "'% S' نى ئىزدەۋاتىدۇ ..."
 
 msgid "Select"
-msgstr ""
+msgstr "تاللاڭ"
 
 msgid "Select Region"
-msgstr ""
+msgstr "رايوننى تاللاڭ"
 
 msgid "Select a city"
-msgstr ""
+msgstr "شەھەر تاللاڭ"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "OK بىلەن خەرىتىنى تاللاڭ"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "بىرلىك سىستېمىسىنى تاللاڭ"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "شامال بىرلىكىنى تاللاڭ"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "{} بىرلىكىنى تاللاڭ"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "تاللانغان سائەت تەپسىلاتلىرى"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Azimuth نى تەڭشەڭ: N / A."
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Azimuth نى تەڭشەڭ: {: .0f} °"
 
 msgid "Sets"
-msgstr ""
+msgstr "تەڭشەك"
 
 msgid "Show info"
-msgstr ""
+msgstr "ئۇچۇر كۆرسەت"
 
 msgid "Showers"
 msgstr ""
 
 msgid "Slovakia"
-msgstr ""
+msgstr "سلوۋاكىيە"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "ئاستا: {} s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "قار / مۇز"
 
 msgid "Snow prob. {}%"
 msgstr ""
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "قار تەكشۈرۈش: N / A."
 
 msgid "South Africa"
-msgstr ""
+msgstr "جەنۇبى ئافرىقا"
 
 msgid "South America"
-msgstr ""
+msgstr "جەنۇبىي ئامېرىكا"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "شەرقىي جەنۇبىي ئاسىيا"
 
 msgid "Spain"
-msgstr ""
+msgstr "ئىسپانىيە"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "بېكەت كۆزىتىش"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "بېكەت: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "كۈچلۈك (سائىتىگە 40-60 كىلومېتىر)"
 
 msgid "Sunrise"
 msgstr ""
 
 msgid "Sunset"
-msgstr ""
+msgstr "كۈن پېتىش"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "دەرىجىدىن تاشقىرى تولۇن ئاي"
 
 msgid "Sweden"
-msgstr ""
+msgstr "شىۋىتسىيە"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "شىۋىتسارىيە"
 
 msgid "Temp"
 msgstr ""
 
 msgid "Temperature"
-msgstr ""
+msgstr "تېمپېراتۇرا"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "تېمپېراتۇرا:% d% s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "تېمپېراتۇرا:% s ° C."
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "تېمپېراتۇرا: N / A."
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "تېمپېراتۇرا: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "تېمپېراتۇرا: {} {}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "تېمپېراتۇرا: {} ° C."
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "تەكلىپلەر ئۈچۈن رەھمەت {رەھمەت} ۋە باشقا دوستلار"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "يىراقتىكى نەشرى ({remote}) ھازىرقى نەشرىدىن كونا ({نۆۋەتتىكى}) دىن كونا."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "نېپىز ئۈستۈنكى بۇلۇت"
 
 msgid "Thuringia"
 msgstr ""
 
 msgid "Time"
-msgstr ""
+msgstr "ۋاقىت"
 
 msgid "Today"
-msgstr ""
+msgstr "بۈگۈن"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "بۈگۈن / ئەتە تەپسىلاتلىرى"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Toggle رىۋايىتى"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "توكەننىڭ ۋاقتى توشىدۇ"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "توكەننىڭ ۋاقتى توشۇش ۋاقتى چوقۇم -1 ياكى مۇسبەت سان بولۇشى كېرەك."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "توكەننىڭ ۋاقتى توشقان ۋاقىت چوقۇم بىر سان بولۇشى كېرەك."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "ئەتە"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "قاتناش (خۇلاسە): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "قاتناش ئېگىزلىكى: N / A."
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "قاتناش ئېگىزلىكى: {: .0f} °"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "سۈزۈك تەڭشەكلەر"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "ئېنىقلىق دەرىجىسى"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV كۆرسەتكۈچى"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "UV N / A."
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "ساغلام ئەمەس"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "سەزگۈرلەرگە پايدىسىز"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "بىرلىك تەڭشەكلىرى"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "بىرلىك تەڭشىكى (Advanced)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "بىرلىك تەڭشىكى (ئاددىي)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "نامەلۇم"
 
 msgid "Up"
 msgstr ""
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "ئۈستى - ئالدىنقى بەت"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "يېڭىلاش ئەمەلدىن قالدۇرۇلدى."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "يېڭىلاش تاماملاندى. Enigma2 نى قايتا قوزغىتىڭ."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "يېڭىلاندى {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "يېڭىلانغان: N / A."
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "يېڭىلاندى: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "يېڭىلاش ..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "يا ئوق كۇنۇپكىلىرىنى ئىشلىتىڭ"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "ۋاقىتنى ئۆزگەرتىش ئۈچۈن ← → نى ئىشلىتىڭ چېكىنىشكە بولىدۇ"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "يۆتكەش ئۈچۈن ← / → / ↑ / نى ئىشلىتىڭ | چېكىنىشكە بولىدۇ"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "ئۆزگەرتىش ئۈچۈن ▲ / نى ئىشلىتىڭ ، تاللاڭ"
 
 msgid "Using current time"
-msgstr ""
+msgstr "ھازىرقى ۋاقىتنى ئىشلىتىش"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "قاتتىق يامغۇر"
 
 msgid "Very high"
-msgstr ""
+msgstr "بەك ئېگىز"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "بەك ئىسسىق (> 40 ° C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "بەك تۆۋەن"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "بەك ساغلام ئەمەس"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "كۆرۈنۈشچانلىقى:% s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "كۆرۈنۈشچانلىقى: {} m"
 
 msgid "W"
-msgstr ""
+msgstr "W."
 
 msgid "Waning Crescent"
 msgstr ""
@@ -1340,7 +1340,7 @@ msgid "Waning Gibbous"
 msgstr ""
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "ئىللىق (20-30 ° C)"
 
 msgid "Waxing Crescent"
 msgstr ""
@@ -1349,121 +1349,121 @@ msgid "Waxing Gibbous"
 msgstr ""
 
 msgid "Weather"
-msgstr ""
+msgstr "ھاۋارايى"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "ھاۋارايى خەرىتىسى"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "ھاۋارايى خەرىتىسى"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "ھاۋارايى خەرىتىسى ۋە سۈنئىي ھەمراھ"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "ھاۋارايى خەرىتىسى (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "ھاۋارايى خەرىتىسى تام تەسۋىر"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "ھاۋارايى رادارى"
 
 msgid "Weather today"
-msgstr ""
+msgstr "بۈگۈن ھاۋارايى"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "ئەتە ھاۋارايى"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "ھەپتىلىك ئالدىن مەلۇمات"
 
 msgid "Wind"
-msgstr ""
+msgstr "شامال"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "بۈگۈن شامال يۆنىلىشى"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "شامال يۆنىلىشى ئەتە"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "شامال يۆنىلىشى"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "شامال سۈرئىتى"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "شامال سۈرئىتى {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "شامال سۈرئىتى: {: .1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "شامال:% d% s% s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "شامال:% s km / h% s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "شامال: N / A."
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "شامال: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "شامال: {} km / h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "شامال: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "كۆزنەكنىڭ سۈزۈكلۈكى"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "سېرىق - ئەڭ ياقتۇرىدىغان 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "چوڭايتىش"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "چوڭايتىش"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "چوڭايتىش +"
 
 msgid "Zoom-"
 msgstr ""
 
 msgid "Zoom:"
-msgstr ""
+msgstr "چوڭايتىش:"
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{سائەت} h {mins} min"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• BLUE نى Home \ n قىلىپ ساقلاش"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH + / CH- 500 شەھەرگە سەكرەش \ n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• GREEN نى ئەڭ ياخشى كۆرىدىغان 1 \ n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• شەھەرنى تاللاش ياخشى"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• ئىزدەش كۇنۇپكا تاختىسىنى ئېچىش ئۈچۈن RED"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• يول باشلاش ئۈچۈن يا ئوق كۇنۇپكىسىنى ئىشلىتىڭ"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• ياخشى كۆرىدىغان 2 \ n قىلىپ ساقلاش ئۈچۈن سېرىق"
 
 msgid "← Frame"
 msgstr ""

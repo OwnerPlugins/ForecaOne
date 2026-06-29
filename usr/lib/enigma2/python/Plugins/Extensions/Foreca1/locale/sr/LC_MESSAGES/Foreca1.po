@@ -53,7 +53,7 @@ msgid "9 - Today + 9 days"
 msgstr "9 - Данас + 9 дана"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== ДЕТАЉИ МЕСЕЦА ==="
 
 msgid "API credentials not configured."
 msgstr "API акредитиви нису конфигурисани."
@@ -85,23 +85,23 @@ msgid "Afternoon"
 msgstr "Поподне"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Старост од младог Месеца: {:.1ф} дана"
 
 #, fuzzy
 msgid "Age: N/A"
 msgstr "ИКВ: Н/Д"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Угаони пречник: Н/А"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Угаони пречник: {:.0ф}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Привидна величина: Н/А"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Привидна магнитуда: {:.2ф}"
 
 msgid "Assign to Favorite 1"
 msgstr "Додели у Омиљене 1"
@@ -119,7 +119,7 @@ msgid "Austria"
 msgstr "Аустрија"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Аутх сервер"
 
 msgid "Baden-Wuerttemberg"
 msgstr "Баден-Виртемберг"
@@ -181,10 +181,10 @@ msgid "City list file not found!"
 msgstr "Датотека са списком градова није пронађена!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Чишћење Фореца Оне Темп датотека?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Очистите привремене датотеке"
 
 msgid "Clear"
 msgstr "Ведро"
@@ -196,7 +196,7 @@ msgid "Close legend"
 msgstr "Затвори легенду"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Затворите подешавање без чувања"
 
 msgid "Cloudy"
 msgstr "Облачно"
@@ -289,7 +289,7 @@ msgid "Decrease Speed"
 msgstr "Смањи брзину"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Дефаултс"
 
 msgid "Denmark"
 msgstr "Данска"
@@ -447,10 +447,10 @@ msgid "Foreca API Setup"
 msgstr "Foreca One мени"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Фореца АПИ акредитиви још нису конфигурисани. Унесите их на екрану за подешавање."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Фореца АПИ подешавања су успешно сачувана."
 
 msgid "Foreca One"
 msgstr "Foreca One"
@@ -504,7 +504,7 @@ msgid "Germany"
 msgstr "Немачка"
 
 msgid "Good"
-msgstr ""
+msgstr "Добро"
 
 msgid "Great Britain"
 msgstr "Велика Британија"
@@ -525,7 +525,7 @@ msgid "Hamburg"
 msgstr "Хамбург"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Хазардоус"
 
 msgid "Header - not selectable"
 msgstr "Заглавље - није избирљиво"
@@ -676,7 +676,7 @@ msgid "Map loaded"
 msgstr "Мапа учитана"
 
 msgid "Map server"
-msgstr ""
+msgstr "Мап сервер"
 
 msgid "Map {} selected"
 msgstr "Мапа {} изабрана"
@@ -728,10 +728,10 @@ msgid "Moon details"
 msgstr "Детаљи по сату"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Излазак месеца: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Залазак месеца: {}"
 
 msgid "Morning"
 msgstr "Јутро"
@@ -936,7 +936,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Делимично облачно, могући пљускови са грмљавином"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Перигеј"
 
 msgid "Phase"
 msgstr "Фаза"
@@ -949,7 +949,7 @@ msgid "Play/Pause"
 msgstr "Пусти/Паузирај"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Унесите и АПИ корисника и АПИ лозинку."
 
 msgid "Please wait ..."
 msgstr "Молимо сачекајте..."
@@ -1033,7 +1033,7 @@ msgid "Refresh"
 msgstr "Освежи"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Врати подразумеване вредности сервера"
 
 msgid "Rhineland-Palatine"
 msgstr "Рајна-Палатинат"
@@ -1048,10 +1048,10 @@ msgid "Rise"
 msgstr "Излазак"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Азимут пораста: Н/А"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Азимут успона: {:.0ф}°"
 
 msgid "Russia"
 msgstr "Русија"
@@ -1121,10 +1121,10 @@ msgid "Selected hour details"
 msgstr "Детаљи изабраног сата"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Подесите азимут: Н/А"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Подесите азимут: {:.0ф}°"
 
 msgid "Sets"
 msgstr "Залазак"
@@ -1237,25 +1237,25 @@ msgid "Toggle legend"
 msgstr "Укључи/искључи легенду"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Токен истиче сати"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Сати истека токена морају бити -1 или позитиван број."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Сати истека токена морају бити број."
 
 msgid "Tomorrow"
 msgstr "Сутра"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Транзит (кулминација): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Транзитна висина: Н/А"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Транзитна висина: {:.0ф}°"
 
 msgid "Transparency Settings"
 msgstr "Подешавања провидности"
@@ -1270,10 +1270,10 @@ msgid "UV N/A"
 msgstr "УВ: Н/Д"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Нездраво"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Нездраво за осетљиве"
 
 msgid "Unit Settings"
 msgstr "Подешавања јединица"

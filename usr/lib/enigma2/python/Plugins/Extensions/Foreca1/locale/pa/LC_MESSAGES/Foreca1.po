@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(ਵਾਧੂ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - ਅੱਜ"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - ਅੱਜ + 1 ਦਿਨ"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - ਅੱਜ + 2 ਦਿਨ"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - ਅੱਜ + 3 ਦਿਨ"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - ਅੱਜ + 4 ਦਿਨ"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - ਅੱਜ + 5 ਦਿਨ"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - ਅੱਜ + 6 ਦਿਨ"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - ਅੱਜ + 7 ਦਿਨ"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - ਅੱਜ + 8 ਦਿਨ"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - ਅੱਜ + 9 ਦਿਨ"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== ਚੰਦਰਮਾ ਦੇ ਵੇਰਵੇ ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API ਕ੍ਰੀਡੈਂਸ਼ੀਅਲ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੇ ਗਏ ਹਨ।"
 
 msgid "API error"
-msgstr ""
+msgstr "API ਗੜਬੜ"
 
 msgid "API password"
-msgstr ""
+msgstr "API ਪਾਸਵਰਡ"
 
 msgid "API user"
-msgstr ""
+msgstr "API ਉਪਭੋਗਤਾ"
 
 msgid "AQI {}"
 msgstr ""
@@ -71,1372 +71,1372 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "ਉੱਨਤ"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "ਐਡਵਾਂਸਡ ਯੂਨਿਟ ਸੈਟਿੰਗਜ਼"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "ਦੁਪਹਿਰ"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "ਨਵੇਂ ਚੰਦਰਮਾ ਤੋਂ ਉਮਰ: {:.1f} ਦਿਨ"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "ਉਮਰ: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "ਕੋਣੀ ਵਿਆਸ: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "ਕੋਣੀ ਵਿਆਸ: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "ਸਪੱਸ਼ਟ ਤੀਬਰਤਾ: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "ਸਪੱਸ਼ਟ ਤੀਬਰਤਾ: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "ਮਨਪਸੰਦ 1 ਨੂੰ ਸੌਂਪੋ"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "ਮਨਪਸੰਦ 2 ਨੂੰ ਸੌਂਪੋ"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "ਘਰ ਨੂੰ ਸੌਂਪੋ"
 
 msgid "Australia"
-msgstr ""
+msgstr "ਆਸਟ੍ਰੇਲੀਆ"
 
 msgid "Austria"
-msgstr ""
+msgstr "ਆਸਟਰੀਆ"
 
 msgid "Auth server"
-msgstr ""
+msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਸਰਵਰ"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "ਬਾਡੇਨ-ਵੁਅਰਟਮਬਰਗ"
 
 msgid "Barometer"
-msgstr ""
+msgstr "ਬੈਰੋਮੀਟਰ"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "ਬਾਵੇਰੀਆ"
 
 msgid "Belgium"
-msgstr ""
+msgstr "ਬੈਲਜੀਅਮ"
 
 msgid "Berlin"
-msgstr ""
+msgstr "ਬਰਲਿਨ"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "ਕਾਲਾ ਚੰਦ"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "ਨੀਲਾ - ਘਰ"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "ਬਲੂ ਮੂਨ"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "ਬਰੈਂਡਨਬਰਗ"
 
 msgid "Bremen"
-msgstr ""
+msgstr "ਬ੍ਰੇਮੇਨ"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "ਗਣਨਾ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "ਰੱਦ ਕਰੋ"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "ਸੈਲਸੀਅਸ, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "ਬਦਲਾਵ: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "ਤਬਦੀਲੀਆਂ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਲਈ ਚੈੱਕ ਕਰੋ"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "ਵੇਰਵੇ ਦ੍ਰਿਸ਼ ਚੁਣੋ"
 
 msgid "City Selection"
-msgstr ""
+msgstr "ਸ਼ਹਿਰ ਦੀ ਚੋਣ"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "ਸਿਟੀ ਲਿਸਟ ਫਾਈਲ ਨਹੀਂ ਮਿਲੀ!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "ਫੋਰਕਾ ਵਨ ਟੈਂਪ ਫਾਈਲਾਂ ਦੀ ਸਫਾਈ?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "ਅਸਥਾਈ ਫਾਈਲਾਂ ਨੂੰ ਸਾਫ਼ ਕਰੋ"
 
 msgid "Clear"
-msgstr ""
+msgstr "ਸਾਫ਼"
 
 msgid "Close"
-msgstr ""
+msgstr "ਬੰਦ ਕਰੋ"
 
 msgid "Close legend"
-msgstr ""
+msgstr "ਦੰਤਕਥਾ ਬੰਦ ਕਰੋ"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "ਸੇਵ ਕੀਤੇ ਬਿਨਾਂ ਸੈੱਟਅੱਪ ਬੰਦ ਕਰੋ"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਬਾਰਿਸ਼"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਬਰਫ਼"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਗਿੱਲੀ ਬਰਫ਼"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਮੀਂਹ"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਬਰਫ਼ਬਾਰੀ"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਗਿੱਲੀ ਬਰਫ਼ਬਾਰੀ"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ, ਬਰਸਾਤ ਦੇ ਨਾਲ ਗਰਜ"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "ਠੰਡਾ (<0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "ਰੰਗ ਦੰਤਕਥਾ"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "ਰੰਗ ਚੋਣਕਾਰ"
 
 msgid "Color data"
-msgstr ""
+msgstr "ਰੰਗ ਡਾਟਾ"
 
 msgid "Color legend"
-msgstr ""
+msgstr "ਰੰਗ ਦੀ ਕਥਾ"
 
 msgid "Color name"
-msgstr ""
+msgstr "ਰੰਗ ਦਾ ਨਾਮ"
 
 msgid "Color select"
-msgstr ""
+msgstr "ਰੰਗ ਚੁਣੋ"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "ਹਾਲਤ: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "ਮਹਾਂਦੀਪਾਂ ਦੇ ਮੌਸਮ ਦੇ ਨਕਸ਼ੇ"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "ਠੰਡਾ (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।"
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "ਨਕਸ਼ਾ API ਨੂੰ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "ਪੂਰਵ ਅਨੁਮਾਨ ਡਾਟਾ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "ਸੰਸਕਰਣ ਜਾਣਕਾਰੀ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਮੌਸਮ ਅਤੇ ਪੂਰਵ ਅਨੁਮਾਨ"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਮੌਸਮ ਅਤੇ ਅਗਲੇ 10 ਦਿਨਾਂ ਲਈ ਭਵਿੱਖਬਾਣੀ"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "ਵਰਤਮਾਨ: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "ਚੇਕ ਗਣਤੰਤਰ"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Foreca ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤਾ ਗਿਆ ਡੇਟਾ"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "ਮਿਤੀ: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "ਦਿਨ"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "ਸਪੀਡ ਘਟਾਓ"
 
 msgid "Defaults"
-msgstr ""
+msgstr "ਡਿਫਾਲਟ"
 
 msgid "Denmark"
-msgstr ""
+msgstr "ਡੈਨਮਾਰਕ"
 
 msgid "Details"
-msgstr ""
+msgstr "ਵੇਰਵੇ"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "ਤ੍ਰੇਲ ਬਿੰਦੂ {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "ਤ੍ਰੇਲ ਬਿੰਦੂ {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "ਤ੍ਰੇਲ ਬਿੰਦੂ: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "ਤ੍ਰੇਲ ਬਿੰਦੂ: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "ਡਿਊਪੁਆਇੰਟ: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "ਦੂਰੀ {} ਕਿਲੋਮੀਟਰ"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "ਦੂਰੀ: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "ਦੂਰੀ: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "ਦੂਰੀ: {} ਕਿਲੋਮੀਟਰ"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਹੁਣੇ ਸਥਾਪਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 msgid "Down"
-msgstr ""
+msgstr "ਹੇਠਾਂ"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "ਹੇਠਾਂ - ਅਗਲਾ ਪੰਨਾ"
 
 msgid "Download error"
-msgstr ""
+msgstr "ਡਾਊਨਲੋਡ ਗੜਬੜ"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "ਚਿੱਤਰਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "ਟਾਈਲਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 msgid "E"
-msgstr ""
+msgstr "ਈ"
 
 msgid "East Asia"
-msgstr ""
+msgstr "ਪੂਰਬੀ ਏਸ਼ੀਆ"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰਨ ਵਿੱਚ ਗੜਬੜ ਹੋਈ।"
 
 msgid "Error loading data"
-msgstr ""
+msgstr "ਡਾਟਾ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "ਨਕਸ਼ਾ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "ਨਕਸ਼ੇ ਲੋਡ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ। ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ।"
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "ਮਨਪਸੰਦ ਨੂੰ ਸੰਭਾਲਣ ਵਿੱਚ ਤਰੁੱਟੀ!"
 
 msgid "Europe"
-msgstr ""
+msgstr "ਯੂਰਪ"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "ਯੂਰਪੀਅਨ ਮੌਸਮ ਦੇ ਨਕਸ਼ੇ"
 
 msgid "Evening"
-msgstr ""
+msgstr "ਸ਼ਾਮ"
 
 msgid "Exit"
-msgstr ""
+msgstr "ਨਿਕਾਸ"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "ਨਿਕਾਸ — ਸਮਾਪਤ"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "ਲੀਜੈਂਡ ਤੋਂ ਬਾਹਰ / ਬੰਦ ਕਰੋ"
 
 msgid "Extreme"
-msgstr ""
+msgstr "ਅਤਿ"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "ਅਤਿਅੰਤ/ਗਰਜ਼-ਤੂਫ਼ਾਨ"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "ਫਾਰਨਹੀਟ, mph, inHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "ਤੇਜ਼: {}s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "ਮਨਪਸੰਦ 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "ਮਨਪਸੰਦ 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "ਮਨਪਸੰਦ ਵੇਰਵੇ"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "ਮਨਪਸੰਦ ਵੇਰਵੇ"
 
 msgid "Feels like"
-msgstr ""
+msgstr "ਵਰਗਾ ਲੱਗਦਾ ਹੈ"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "ਲੱਗਦਾ ਹੈ {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "ਇਸ ਤਰ੍ਹਾਂ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "ਇਸ ਤਰ੍ਹਾਂ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "ਇਸ ਤਰ੍ਹਾਂ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "ਇਸ ਤਰ੍ਹਾਂ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "ਇਸ ਤਰ੍ਹਾਂ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "ਇਸ ਤਰ੍ਹਾਂ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "ਫਿਨਲੈਂਡ"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "ਪਹਿਲੀ ਤਿਮਾਹੀ"
 
 msgid "Fog"
-msgstr ""
+msgstr "ਧੁੰਦ"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API ਸੈੱਟਅੱਪ"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API ਕ੍ਰੇਡੈਂਸ਼ੀਅਲ ਅਜੇ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੇ ਗਏ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਉਹਨਾਂ ਨੂੰ ਸੈੱਟਅੱਪ ਸਕ੍ਰੀਨ ਵਿੱਚ ਦਾਖਲ ਕਰੋ।"
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API ਸੈਟਿੰਗਾਂ ਸਫਲਤਾਪੂਰਵਕ ਸੁਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ।"
 
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca ਇੱਕ"
 
 msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca ਇੱਕ ਮੇਨੂ"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One ਕੋਈ ਸਟੇਸ਼ਨ ਨਹੀਂ ਮਿਲਿਆ"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One ਸਟੇਸ਼ਨ: {} ਨੇੜੇ ਦੇ ਸਟੇਸ਼ਨ ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca ਇੱਕ ਮੌਸਮ ਦੀ ਭਵਿੱਖਬਾਣੀ"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "ਫੋਰਕਾ ਇੱਕ ਮੌਸਮ ਅਤੇ ਪੂਰਵ ਅਨੁਮਾਨ ਵੇਰ. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca ਇੱਕ | ਨਕਸ਼ਾ {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "'%s' ਲਈ ਸਥਾਨਕ ਤੌਰ 'ਤੇ %d ਸ਼ਹਿਰ ਲੱਭੇ"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "'%s' ਲਈ %d ਸ਼ਹਿਰ ਆਨਲਾਈਨ ਮਿਲੇ"
 
 msgid "Frame →"
-msgstr ""
+msgstr "ਫਰੇਮ →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "ਫਰੇਮ: {}"
 
 msgid "France"
-msgstr ""
+msgstr "ਫਰਾਂਸ"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "ਪੂਰਾ ਚੰਦ"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "ਗੇਲ ਫੋਰਸ (>60 ਕਿਮੀ/ਘੰਟਾ)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "ਜਰਮਨ ਰਾਜ ਮੌਸਮ ਦੇ ਨਕਸ਼ੇ"
 
 msgid "Germany"
-msgstr ""
+msgstr "ਜਰਮਨੀ"
 
 msgid "Good"
-msgstr ""
+msgstr "ਚੰਗਾ"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "ਮਹਾਨ ਬ੍ਰਿਟੇਨ"
 
 msgid "Greece"
-msgstr ""
+msgstr "ਗ੍ਰੀਸ"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "ਹਰਾ - ਪਸੰਦੀਦਾ 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "ਝੱਖੜ {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "ਝੱਖੜ: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "ਹੈਮਬਰਗ"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "ਖ਼ਤਰਨਾਕ"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "ਸਿਰਲੇਖ - ਚੋਣਯੋਗ ਨਹੀਂ"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "ਭਾਰੀ ਮੀਂਹ"
 
 msgid "Help"
-msgstr ""
+msgstr "ਮਦਦ ਕਰੋ"
 
 msgid "Hesse"
-msgstr ""
+msgstr "ਹੈਸ"
 
 msgid "High"
-msgstr ""
+msgstr "ਉੱਚ"
 
 msgid "Home"
-msgstr ""
+msgstr "ਘਰ"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "ਗਰਮ (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "ਘੰਟੇ ਦੇ ਵੇਰਵੇ"
 
 msgid "Humidity"
-msgstr ""
+msgstr "ਨਮੀ"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "ਨਮੀ: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "ਨਮੀ: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "ਹੰਗਰੀ"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "ਬਰਫ਼ / ਠੰਡ"
 
 msgid "Illumination"
-msgstr ""
+msgstr "ਰੋਸ਼ਨੀ"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "ਰੋਸ਼ਨੀ: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "ਚਿੱਤਰ %(ਮੌਜੂਦਾ)d/%(ਕੁੱਲ)d – %(ਦਿਨ)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "ਚਿੱਤਰ %(ਮੌਜੂਦਾ)d/%(ਕੁੱਲ)d – %(ਦਿਨ)s (ਰੋਕੀ ਗਈ)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "ਚਿੱਤਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "ਸਾਮਰਾਜੀ ਸਿਸਟਮ"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "ਸਪੀਡ ਵਧਾਓ"
 
 msgid "Info"
-msgstr ""
+msgstr "ਜਾਣਕਾਰੀ"
 
 msgid "Info - About"
-msgstr ""
+msgstr "ਜਾਣਕਾਰੀ - ਬਾਰੇ"
 
 msgid "Ireland"
-msgstr ""
+msgstr "ਆਇਰਲੈਂਡ"
 
 msgid "Italy"
-msgstr ""
+msgstr "ਇਟਲੀ"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "100 ਹੇਠਾਂ ਛਾਲ ਮਾਰੋ"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "100 ਉੱਪਰ ਛਾਲ ਮਾਰੋ"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "500 ਹੇਠਾਂ ਛਾਲ ਮਾਰੋ"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "500 ਉੱਪਰ ਜਾਓ"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "ਕੀਬੋਰਡ"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "ਆਖਰੀ ਤਿਮਾਹੀ"
 
 msgid "Latvia"
-msgstr ""
+msgstr "ਲਾਤਵੀਆ"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "ਖੱਬਾ - ਪਿਛਲਾ ਦਿਨ"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "ਖੱਬਾ ਤੀਰ - ਪਿਛਲਾ ਦਿਨ"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "ਹਲਕਾ (0-20 ਕਿਮੀ/ਘੰਟਾ)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "ਹਲਕੀ ਬਾਰਿਸ਼/ ਬੂੰਦਾਬਾਂਦੀ"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "ਹਲਕਾ ਤੋਂ ਦਰਮਿਆਨਾ"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "ਉਪਲਬਧ ਨਕਸ਼ੇ ਲੋਡ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "ਚੰਦਰ ਪੜਾਵਾਂ ਨੂੰ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "ਨੇੜਲੇ ਸਟੇਸ਼ਨਾਂ ਨੂੰ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "ਟਾਈਲਾਂ ਲੋਡ ਕੀਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "ਹਫਤਾਵਾਰੀ ਪੂਰਵ ਅਨੁਮਾਨ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 msgid "Low"
-msgstr ""
+msgstr "ਘੱਟ"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "ਲੋਅਰ ਸੈਕਸਨੀ"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "ਚੰਦਰ ਕੈਲੰਡਰ"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "ਅਗਲੇ ਮਹੀਨੇ ਤੋਂ ਚੰਦਰ ਪੜਾਅ"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "ਲਕਸਮਬਰਗ"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "ਨਕਸ਼ਾ ਅਤੇ ਟਾਈਲਾਂ ਲੋਡ ਕੀਤੀਆਂ ਗਈਆਂ"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "ਨਕਸ਼ਾ ਲੋਡ ਕੀਤਾ ਗਿਆ"
 
 msgid "Map server"
-msgstr ""
+msgstr "ਨਕਸ਼ਾ ਸਰਵਰ"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "ਨਕਸ਼ਾ {} ਚੁਣਿਆ ਗਿਆ"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "ਮੈਕਲੇਨਬਰਗ-ਵੋਰਪੋਮਰਨ"
 
 msgid "Menu"
-msgstr ""
+msgstr "ਮੀਨੂ"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "ਮੀਨੂ - ਸੈਟਿੰਗਾਂ"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "ਵਿਲੀਨ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "ਮੀਟੀਓਗਰਾਮ"
 
 msgid "Metric System"
-msgstr ""
+msgstr "ਮੈਟ੍ਰਿਕ ਸਿਸਟਮ"
 
 msgid "Middle America"
-msgstr ""
+msgstr "ਮੱਧ ਅਮਰੀਕਾ"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "ਮੱਧ ਏਸ਼ੀਆ"
 
 msgid "Middle East"
-msgstr ""
+msgstr "ਮਧਿਅਪੂਰਵ"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "ਹਲਕਾ (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "ਮੱਧਮ"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "ਮੱਧਮ (20-40 ਕਿਮੀ/ਘੰਟਾ)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "ਦਰਮਿਆਨੀ ਬਾਰਿਸ਼"
 
 msgid "Month"
-msgstr ""
+msgstr "ਮਹੀਨਾ"
 
 msgid "Moon details"
-msgstr ""
+msgstr "ਚੰਦਰਮਾ ਦੇ ਵੇਰਵੇ"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "ਚੰਦਰਮਾ: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "ਚੰਦਰਮਾ: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "ਸਵੇਰ"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "ਜਿਆਦਾਤਰ ਸਾਫ"
 
 msgid "Move Down"
-msgstr ""
+msgstr "ਹੇਠਾਂ ਜਾਓ"
 
 msgid "Move Up"
-msgstr ""
+msgstr "ਉੱਪਰ ਜਾਓ"
 
 msgid "Move down"
-msgstr ""
+msgstr "ਹੇਠਾਂ ਚਲੇ ਜਾਓ"
 
 msgid "Move up"
-msgstr ""
+msgstr "ਉੱਪਰ ਜਾਓ"
 
 msgid "N"
-msgstr ""
+msgstr "ਐਨ"
 
 msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "ਨੀਦਰਲੈਂਡਜ਼"
 
 msgid "New Moon"
-msgstr ""
+msgstr "ਨਵਾਂ ਚੰਦ"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "ਨਵਾਂ ਸੰਸਕਰਣ {version} ਉਪਲਬਧ ਹੈ।"
 
 msgid "Next"
-msgstr ""
+msgstr "ਅਗਲਾ"
 
 msgid "Next Image"
-msgstr ""
+msgstr "ਅਗਲਾ ਚਿੱਤਰ"
 
 msgid "Next frame"
-msgstr ""
+msgstr "ਅਗਲਾ ਫਰੇਮ"
 
 msgid "Next page"
-msgstr ""
+msgstr "ਅਗਲਾ ਪੰਨਾ"
 
 msgid "Next time"
-msgstr ""
+msgstr "ਅਗਲੀ ਵਾਰੀ"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "ਕੋਈ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਮਿਲਿਆ।"
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "ਕੋਈ OSM ਟਾਈਲਾਂ ਨਹੀਂ ਹਨ"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "'%s' ਲਈ ਸਥਾਨਕ ਤੌਰ 'ਤੇ ਕੋਈ ਸ਼ਹਿਰ ਨਹੀਂ ਮਿਲਿਆ"
 
 msgid "No city selected"
-msgstr ""
+msgstr "ਕੋਈ ਸ਼ਹਿਰ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ"
 
 msgid "No data"
-msgstr ""
+msgstr "ਕੋਈ ਡਾਟਾ ਨਹੀਂ"
 
 msgid "No date available"
-msgstr ""
+msgstr "ਕੋਈ ਤਾਰੀਖ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"
 
 msgid "No location selected"
-msgstr ""
+msgstr "ਕੋਈ ਟਿਕਾਣਾ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "ਕੋਈ ਖਾਸ ਦੰਤਕਥਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"
 
 msgid "No station data"
-msgstr ""
+msgstr "ਕੋਈ ਸਟੇਸ਼ਨ ਡਾਟਾ ਨਹੀਂ ਹੈ"
 
 msgid "No station data available"
-msgstr ""
+msgstr "ਕੋਈ ਸਟੇਸ਼ਨ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"
 
 msgid "No stations found"
-msgstr ""
+msgstr "ਕੋਈ ਸਟੇਸ਼ਨ ਨਹੀਂ ਮਿਲੇ"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "ਕੋਈ ਟਾਈਲਾਂ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤੀਆਂ ਗਈਆਂ"
 
 msgid "North Africa"
-msgstr ""
+msgstr "ਉੱਤਰੀ ਅਫਰੀਕਾ"
 
 msgid "North America"
-msgstr ""
+msgstr "ਉੱਤਰ ਅਮਰੀਕਾ"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "ਉੱਤਰੀ ਰਾਈਨ-ਵੈਸਟਫਾਲੀਆ"
 
 msgid "Norway"
-msgstr ""
+msgstr "ਨਾਰਵੇ"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "ਠੀਕ ਹੈ - ਵਾਧੂ ਜਾਣਕਾਰੀ"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "ਠੀਕ ਹੈ - ਪੂਰਵ ਅਨੁਮਾਨ"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "ਠੀਕ ਹੈ - ਨਕਸ਼ਾ ਖੋਲ੍ਹੋ"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "ਠੀਕ ਹੈ - ਵੇਰਵੇ"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "ਕੀਬੋਰਡ ਖੋਲ੍ਹੋ"
 
 msgid "Open Map"
-msgstr ""
+msgstr "ਨਕਸ਼ਾ ਖੋਲ੍ਹੋ"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "%s ਦੁਆਰਾ ਮੂਲ ਡਿਜ਼ਾਈਨ ਅਤੇ ਵਿਚਾਰ"
 
 msgid "Overcast"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਬਾਰਿਸ਼"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਬਰਫ਼"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਗਿੱਲੀ ਬਰਫ਼"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਮੀਂਹ"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਮੀਂਹ"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਬਰਫ਼"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਬਰਫ਼ਬਾਰੀ"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਗਿੱਲੀ ਬਰਫ਼"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ ਅਤੇ ਗਿੱਲੀ ਬਰਫ਼ਬਾਰੀ"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "ਬੱਦਲਵਾਈ, ਮੀਂਹ ਦੇ ਨਾਲ ਗਰਜ"
 
 msgid "Overnight"
-msgstr ""
+msgstr "ਰਾਤੋ ਰਾਤ"
 
 msgid "Page Down"
-msgstr ""
+msgstr "ਪੰਨਾ ਹੇਠਾਂ"
 
 msgid "Page Up"
-msgstr ""
+msgstr "ਪੰਨਾ ਉੱਪਰ"
 
 msgid "Page down"
-msgstr ""
+msgstr "ਪੰਨਾ ਹੇਠਾਂ"
 
 msgid "Page up"
-msgstr ""
+msgstr "ਪੰਨਾ ਅੱਪ"
 
 msgid "Pan down"
-msgstr ""
+msgstr "ਪੈਨ ਡਾਊਨ"
 
 msgid "Pan left"
-msgstr ""
+msgstr "ਪੈਨ ਖੱਬੇ"
 
 msgid "Pan right"
-msgstr ""
+msgstr "ਸੱਜੇ ਪੈਨ ਕਰੋ"
 
 msgid "Pan up"
-msgstr ""
+msgstr "ਪੈਨ ਅੱਪ ਕਰੋ"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "ਥੋੜੇ ਜਿਹੇ ਬੱਦਲ"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਬਾਰਿਸ਼"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਬਰਫਬਾਰੀ"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ ਬੱਦਲਵਾਈ ਅਤੇ ਹਲਕੀ ਗਿੱਲੀ ਬਰਫ਼"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ ਬੱਦਲਵਾਈ ਅਤੇ ਮੀਂਹ"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ ਬੱਦਲਵਾਈ ਅਤੇ ਬਰਫ਼ਬਾਰੀ"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ ਬੱਦਲਵਾਈ ਅਤੇ ਗਿੱਲੀ ਬਰਫ਼ਬਾਰੀ"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "ਅੰਸ਼ਕ ਤੌਰ 'ਤੇ ਬੱਦਲਵਾਈ, ਮੀਂਹ ਦੇ ਨਾਲ ਗਰਜ਼-ਤੂਫ਼ਾਨ ਦੀ ਸੰਭਾਵਨਾ"
 
 msgid "Perigee"
-msgstr ""
+msgstr "ਪੈਰੀਜੀ"
 
 msgid "Phase"
-msgstr ""
+msgstr "ਪੜਾਅ"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "ਪੜਾਅ: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "ਚਲਾਓ/ਰੋਕੋ"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "ਕਿਰਪਾ ਕਰਕੇ API ਉਪਭੋਗਤਾ ਅਤੇ API ਪਾਸਵਰਡ ਦੋਵੇਂ ਦਾਖਲ ਕਰੋ।"
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "ਪੋਲੈਂਡ"
 
 msgid "Portugal"
-msgstr ""
+msgstr "ਪੁਰਤਗਾਲ"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "ਵਰਖਾ"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "ਵਰਖਾ: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "ਵਰਖਾ"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "ਵਰਖਾ: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "ਦੁਬਾਰਾ ਖੋਜ ਕਰਨ ਲਈ RED ਦਬਾਓ"
 
 msgid "Pressure"
-msgstr ""
+msgstr "ਦਬਾਅ"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "ਦਬਾਅ: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "ਦਬਾਅ: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "ਦਬਾਅ: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "ਦਬਾਅ: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "ਦਬਾਅ: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "ਪਿਛਲਾ"
 
 msgid "Previous"
-msgstr ""
+msgstr "ਪਿਛਲਾ"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "ਪਿਛਲਾ ਚਿੱਤਰ"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "ਪਿਛਲਾ ਫਰੇਮ"
 
 msgid "Previous page"
-msgstr ""
+msgstr "ਪਿਛਲਾ ਪੰਨਾ"
 
 msgid "Previous time"
-msgstr ""
+msgstr "ਪਿਛਲਾ ਸਮਾਂ"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "ਮੀਂਹ ਦੀ ਸਮੱਸਿਆ"
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "ਮੀਂਹ ਦੀ ਸਮੱਸਿਆ {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "ਮੀਂਹ ਦੀ ਸਮੱਸਿਆ: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "ਮੀਂਹ: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "ਰੇਨਵਿਊਅਰ ਰਾਡਾਰ"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "ਲਾਲ - ਰੰਗ ਚੁਣੋ"
 
 msgid "Refresh"
-msgstr ""
+msgstr "ਤਾਜ਼ਾ ਕਰੋ"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "ਡਿਫੌਲਟ ਸਰਵਰ ਮੁੱਲਾਂ ਨੂੰ ਰੀਸਟੋਰ ਕਰੋ"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "ਰਾਈਨਲੈਂਡ-ਪੈਲਾਟਾਈਨ"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "ਸੱਜੇ - ਅਗਲੇ ਦਿਨ"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "ਸੱਜਾ ਤੀਰ - ਅਗਲੇ ਦਿਨ"
 
 msgid "Rise"
-msgstr ""
+msgstr "ਉਠੋ"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "ਰਾਈਜ਼ ਅਜ਼ੀਮਥ: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "ਰਾਈਜ਼ ਅਜ਼ੀਮਥ: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "ਰੂਸ"
 
 msgid "S"
-msgstr ""
+msgstr "ਐੱਸ"
 
 msgid "Saarland"
-msgstr ""
+msgstr "ਸਾਰਲੈਂਡ"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "ਸੈਟੇਲਾਈਟ ਫੋਟੋਆਂ"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "ਸੈਟੇਲਾਈਟ ਫੋਟੋਆਂ ਜਲਦੀ ਆ ਰਹੀਆਂ ਹਨ!"
 
 msgid "Save"
-msgstr ""
+msgstr "ਸੇਵ ਕਰੋ"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "API ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ"
 
 msgid "Saxony"
-msgstr ""
+msgstr "ਸੈਕਸਨੀ"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "ਸੈਕਸੋਨੀ-ਐਨਹਾਲਟ"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "ਸ਼ਲੇਸਵਿਗ-ਹੋਲਸਟਾਈਨ"
 
 msgid "Scraped"
-msgstr ""
+msgstr "ਖੁਰਚਿਆ"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "ਖੋਜ ਪਹਿਲਾਂ ਔਨਲਾਈਨ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਹੈ, ਜੇਕਰ ਅਸਫਲ ਹੁੰਦਾ ਹੈ ਤਾਂ ਸਥਾਨਕ ਸੂਚੀ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ।"
 
 msgid "Search your City"
-msgstr ""
+msgstr "ਆਪਣੇ ਸ਼ਹਿਰ ਦੀ ਖੋਜ ਕਰੋ"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "'%s' ਲਈ ਖੋਜ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ..."
 
 msgid "Select"
-msgstr ""
+msgstr "ਚੁਣੋ"
 
 msgid "Select Region"
-msgstr ""
+msgstr "ਖੇਤਰ ਚੁਣੋ"
 
 msgid "Select a city"
-msgstr ""
+msgstr "ਇੱਕ ਸ਼ਹਿਰ ਚੁਣੋ"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "ਠੀਕ ਨਾਲ ਇੱਕ ਨਕਸ਼ਾ ਚੁਣੋ"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "ਯੂਨਿਟ ਸਿਸਟਮ ਦੀ ਚੋਣ ਕਰੋ"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "ਵਿੰਡ ਯੂਨਿਟ ਚੁਣੋ"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "{} ਯੂਨਿਟ ਚੁਣੋ"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "ਚੁਣੇ ਗਏ ਘੰਟੇ ਦੇ ਵੇਰਵੇ"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "ਅਜ਼ੀਮਥ ਸੈੱਟ ਕਰੋ: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "ਅਜ਼ੀਮਥ ਸੈੱਟ ਕਰੋ: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "ਸੈੱਟ"
 
 msgid "Show info"
-msgstr ""
+msgstr "ਜਾਣਕਾਰੀ ਦਿਖਾਓ"
 
 msgid "Showers"
-msgstr ""
+msgstr "ਬਾਰਸ਼"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "ਸਲੋਵਾਕੀਆ"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "ਹੌਲੀ: {}s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "ਬਰਫ਼ / ਬਰਫ਼"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "ਬਰਫ਼ ਦੀ ਸਮੱਸਿਆ। {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "ਬਰਫ਼ ਦੀ ਸਮੱਸਿਆ: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "ਦੱਖਣੀ ਅਫਰੀਕਾ"
 
 msgid "South America"
-msgstr ""
+msgstr "ਸਾਉਥ ਅਮਰੀਕਾ"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "ਦੱਖਣ-ਪੂਰਬੀ ਏਸ਼ੀਆ"
 
 msgid "Spain"
-msgstr ""
+msgstr "ਸਪੇਨ"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "ਸਟੇਸ਼ਨ ਨਿਰੀਖਣ"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "ਸਟੇਸ਼ਨ: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "ਮਜ਼ਬੂਤ ​​(40-60 ਕਿਮੀ/ਘੰਟਾ)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "ਸੂਰਜ ਚੜ੍ਹਨਾ"
 
 msgid "Sunset"
-msgstr ""
+msgstr "ਸੂਰਜ ਡੁੱਬਣ"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "ਸੁਪਰ ਪੂਰਾ ਚੰਦਰਮਾ"
 
 msgid "Sweden"
-msgstr ""
+msgstr "ਸਵੀਡਨ"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "ਸਵਿਟਜ਼ਰਲੈਂਡ"
 
 msgid "Temp"
-msgstr ""
+msgstr "ਟੈਂਪ"
 
 msgid "Temperature"
-msgstr ""
+msgstr "ਤਾਪਮਾਨ"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "ਤਾਪਮਾਨ: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "ਤਾਪਮਾਨ: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "ਤਾਪਮਾਨ: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "ਤਾਪਮਾਨ: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "ਤਾਪਮਾਨ: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "ਤਾਪਮਾਨ: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "ਸੁਝਾਵਾਂ ਲਈ {ਧੰਨਵਾਦ} ਅਤੇ ਹੋਰ ਦੋਸਤਾਂ ਦਾ ਧੰਨਵਾਦ"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "ਰਿਮੋਟ ਸੰਸਕਰਣ ({remote}) ਮੌਜੂਦਾ ({current}) ਤੋਂ ਪੁਰਾਣਾ ਹੈ।"
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "ਪਤਲਾ ਉਪਰਲਾ ਬੱਦਲ"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "ਥੁਰਿੰਗੀਆ"
 
 msgid "Time"
-msgstr ""
+msgstr "ਸਮਾਂ"
 
 msgid "Today"
-msgstr ""
+msgstr "ਅੱਜ"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "ਅੱਜ/ਕੱਲ੍ਹ ਦੇ ਵੇਰਵੇ"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "ਦੰਤਕਥਾ ਨੂੰ ਟੌਗਲ ਕਰੋ"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "ਟੋਕਨ ਦੀ ਮਿਆਦ ਪੁੱਗਣ ਦਾ ਸਮਾਂ"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "ਟੋਕਨ ਦੀ ਮਿਆਦ ਪੁੱਗਣ ਦਾ ਸਮਾਂ -1 ਜਾਂ ਇੱਕ ਸਕਾਰਾਤਮਕ ਨੰਬਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "ਟੋਕਨ ਦੀ ਮਿਆਦ ਪੁੱਗਣ ਦਾ ਸਮਾਂ ਇੱਕ ਨੰਬਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "ਕੱਲ੍ਹ"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "ਆਵਾਜਾਈ (ਸਿੱਖਿਆ): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "ਆਵਾਜਾਈ ਦੀ ਉਚਾਈ: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "ਆਵਾਜਾਈ ਦੀ ਉਚਾਈ: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "ਪਾਰਦਰਸ਼ਤਾ ਸੈਟਿੰਗਾਂ"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "ਪਾਰਦਰਸ਼ਤਾ ਪੱਧਰ"
 
 msgid "UV Index"
-msgstr ""
+msgstr "ਯੂਵੀ ਇੰਡੈਕਸ"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "ਅਸੁਰੱਖਿਅਤ"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "ਸੰਵੇਦਨਸ਼ੀਲ ਲਈ ਗੈਰ-ਸਿਹਤਮੰਦ"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "ਯੂਨਿਟ ਸੈਟਿੰਗਜ਼"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "ਯੂਨਿਟ ਸੈਟਿੰਗਾਂ (ਐਡਵਾਂਸਡ)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "ਯੂਨਿਟ ਸੈਟਿੰਗਾਂ (ਸਧਾਰਨ)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "ਅਗਿਆਤ"
 
 msgid "Up"
-msgstr ""
+msgstr "ਉੱਪਰ"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "ਉੱਪਰ - ਪਿਛਲਾ ਪੰਨਾ"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਰੱਦ ਕੀਤਾ ਗਿਆ।"
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਪੂਰਾ ਹੋਇਆ। ਕਿਰਪਾ ਕਰਕੇ Enigma2 ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।"
 
 msgid "Updated {}"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਕੀਤਾ: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "ਸਕ੍ਰੋਲ ਕਰਨ ਲਈ ਤੀਰ ਕੁੰਜੀਆਂ ਦੀ ਵਰਤੋਂ ਕਰੋ"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "ਸਮਾਂ ਬਦਲਣ ਲਈ ← → ਦੀ ਵਰਤੋਂ ਕਰੋ | ਬਾਹਰ ਜਾਣ ਲਈ ਠੀਕ ਹੈ"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "ਜਾਣ ਲਈ ←/→/↑/↓ ਦੀ ਵਰਤੋਂ ਕਰੋ | ਬਾਹਰ ਜਾਣ ਲਈ ਠੀਕ ਹੈ"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "ਬਦਲਣ ਲਈ ▲/▼ ਦੀ ਵਰਤੋਂ ਕਰੋ, ਚੁਣਨ ਲਈ ਠੀਕ ਹੈ"
 
 msgid "Using current time"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਸਮੇਂ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "ਬਹੁਤ ਭਾਰੀ ਮੀਂਹ"
 
 msgid "Very high"
-msgstr ""
+msgstr "ਬਹੁਤ ਉੱਚਾ"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "ਬਹੁਤ ਗਰਮ (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "ਬਹੁਤ ਘੱਟ"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "ਬਹੁਤ ਹੀ ਗੈਰ-ਸਿਹਤਮੰਦ"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "ਦਿੱਖ: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "ਦਿੱਖ: {} ਮੀ"
 
 msgid "W"
-msgstr ""
+msgstr "ਡਬਲਯੂ"
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "ਵਿੰਗ ਕ੍ਰੇਸੈਂਟ"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "ਵੈਨਿੰਗ ਗਿੱਬਸ"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "ਗਰਮ (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "ਵੈਕਸਿੰਗ ਕ੍ਰੇਸੈਂਟ"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "ਵੈਕਸਿੰਗ ਗਿੱਬਸ"
 
 msgid "Weather"
-msgstr ""
+msgstr "ਮੌਸਮ"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "ਮੌਸਮ ਦਾ ਨਕਸ਼ਾ"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "ਮੌਸਮ ਦੇ ਨਕਸ਼ੇ"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "ਮੌਸਮ ਦੇ ਨਕਸ਼ੇ ਅਤੇ ਸੈਟੇਲਾਈਟ"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "ਮੌਸਮ ਦੇ ਨਕਸ਼ੇ (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "ਮੌਸਮ ਦੇ ਨਕਸ਼ੇ ਦਾ ਸਲਾਈਡਸ਼ੋ"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "ਮੌਸਮ ਰਾਡਾਰ"
 
 msgid "Weather today"
-msgstr ""
+msgstr "ਅੱਜ ਦਾ ਮੌਸਮ"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "ਕੱਲ੍ਹ ਦਾ ਮੌਸਮ"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "ਹਫਤਾਵਾਰੀ ਪੂਰਵ ਅਨੁਮਾਨ"
 
 msgid "Wind"
-msgstr ""
+msgstr "ਹਵਾ"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "ਅੱਜ ਹਵਾ ਦੀ ਦਿਸ਼ਾ"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "ਹਵਾ ਦੀ ਦਿਸ਼ਾ ਕੱਲ੍ਹ"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "ਹਵਾ ਦੀ ਦਿਸ਼ਾ"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "ਹਵਾ ਦੀ ਗਤੀ"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "ਹਵਾ ਦੀ ਗਤੀ {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "ਹਵਾ ਦੀ ਗਤੀ: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "ਹਵਾ: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "ਹਵਾ: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "ਹਵਾ: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "ਹਵਾ: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "ਹਵਾ: {} km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "ਹਵਾ: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "ਵਿੰਡੋ ਪਾਰਦਰਸ਼ਤਾ"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "ਪੀਲਾ - ਮਨਪਸੰਦ 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "ਜ਼ੂਮ ਇਨ ਕਰੋ"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "ਜ਼ੂਮ ਆਉਟ ਕਰੋ"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "ਜ਼ੂਮ+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "ਜ਼ੂਮ-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "ਜ਼ੂਮ:"
 
 msgid "v."
 msgstr ""
@@ -1445,25 +1445,25 @@ msgid "{hours} h {mins} min"
 msgstr ""
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• ਘਰ ਵਜੋਂ ਰੱਖਿਅਤ ਕਰਨ ਲਈ ਨੀਲਾ\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- 500 ਸ਼ਹਿਰਾਂ ਵਿੱਚ ਛਾਲ ਮਾਰਨ ਲਈ\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• ਮਨਪਸੰਦ 1\n ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਹਰਾ"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• ਸ਼ਹਿਰ ਚੁਣਨ ਲਈ ਠੀਕ ਹੈ\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• ਖੋਜ ਕੀਬੋਰਡ ਖੋਲ੍ਹਣ ਲਈ RED\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਤੀਰ ਕੁੰਜੀਆਂ ਦੀ ਵਰਤੋਂ ਕਰੋ\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• ਮਨਪਸੰਦ 2\n ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਪੀਲਾ"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← ਫਰੇਮ"

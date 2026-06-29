@@ -52,7 +52,7 @@ msgid "9 - Today + 9 days"
 msgstr "9 - 今天 + 9天"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== 月球细节 ==="
 
 msgid "API credentials not configured."
 msgstr "API凭证未配置。"
@@ -84,23 +84,23 @@ msgid "Afternoon"
 msgstr "下午"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "自新月以来的年龄：{:.1f} 天"
 
 #, fuzzy
 msgid "Age: N/A"
 msgstr "空气质量指数: 无"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "角直径：不适用"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "角直径：{:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "视星等：不适用"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "视星等：{:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "分配到收藏夹1"
@@ -118,7 +118,7 @@ msgid "Austria"
 msgstr "奥地利"
 
 msgid "Auth server"
-msgstr ""
+msgstr "认证服务器"
 
 msgid "Baden-Wuerttemberg"
 msgstr "巴登-符腾堡州"
@@ -180,10 +180,10 @@ msgid "City list file not found!"
 msgstr "未找到城市列表文件！"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "清理 Foreca One 临时文件？"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "清理临时文件"
 
 msgid "Clear"
 msgstr "晴朗"
@@ -195,7 +195,7 @@ msgid "Close legend"
 msgstr "关闭图例"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "关闭设置而不保存"
 
 msgid "Cloudy"
 msgstr "多云"
@@ -288,7 +288,7 @@ msgid "Decrease Speed"
 msgstr "减速"
 
 msgid "Defaults"
-msgstr ""
+msgstr "默认值"
 
 msgid "Denmark"
 msgstr "丹麦"
@@ -446,10 +446,10 @@ msgid "Foreca API Setup"
 msgstr "Foreca One菜单"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API 凭证尚未配置。请在设置屏幕中输入它们。"
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API 设置已成功保存。"
 
 msgid "Foreca One"
 msgstr "Foreca One"
@@ -503,7 +503,7 @@ msgid "Germany"
 msgstr "德国"
 
 msgid "Good"
-msgstr ""
+msgstr "好的"
 
 msgid "Great Britain"
 msgstr "英国"
@@ -524,7 +524,7 @@ msgid "Hamburg"
 msgstr "汉堡"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "危险的"
 
 msgid "Header - not selectable"
 msgstr "页眉 - 不可选择"
@@ -675,7 +675,7 @@ msgid "Map loaded"
 msgstr "地图已加载"
 
 msgid "Map server"
-msgstr ""
+msgstr "地图服务器"
 
 msgid "Map {} selected"
 msgstr "已选择地图 {}"
@@ -727,10 +727,10 @@ msgid "Moon details"
 msgstr "小时详情"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "月出：{}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "月落：{}"
 
 msgid "Morning"
 msgstr "上午"
@@ -935,7 +935,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "局部多云，可能有雷雨"
 
 msgid "Perigee"
-msgstr ""
+msgstr "近地点"
 
 msgid "Phase"
 msgstr "相位"
@@ -948,7 +948,7 @@ msgid "Play/Pause"
 msgstr "播放/暂停"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "请输入API用户和API密码。"
 
 msgid "Please wait ..."
 msgstr "请稍候 ..."
@@ -1032,7 +1032,7 @@ msgid "Refresh"
 msgstr "刷新"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "恢复默认服务器值"
 
 msgid "Rhineland-Palatine"
 msgstr "莱茵兰-普法尔茨州"
@@ -1047,10 +1047,10 @@ msgid "Rise"
 msgstr "月出"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "上升方位角：不适用"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "上升方位角：{:.0f}°"
 
 msgid "Russia"
 msgstr "俄罗斯"
@@ -1120,10 +1120,10 @@ msgid "Selected hour details"
 msgstr "所选小时详情"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "设置方位角：N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "设置方位角：{:.0f}°"
 
 msgid "Sets"
 msgstr "月落"
@@ -1236,25 +1236,25 @@ msgid "Toggle legend"
 msgstr "切换图例"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "令牌过期时间"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "令牌过期时间必须为 -1 或正数。"
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "令牌过期时间必须是数字。"
 
 msgid "Tomorrow"
 msgstr "明日"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "过境（高潮）：{}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "过境高度：不适用"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "过境高度：{:.0f}°"
 
 msgid "Transparency Settings"
 msgstr "透明度设置"
@@ -1269,10 +1269,10 @@ msgid "UV N/A"
 msgstr "紫外线 无"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "不良"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "对敏感者不健康"
 
 msgid "Unit Settings"
 msgstr "单位设置"

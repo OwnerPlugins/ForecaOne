@@ -53,7 +53,7 @@ msgid "9 - Today + 9 days"
 msgstr "9 - Astăzi + 9 zile"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== DETALII LUNA ==="
 
 msgid "API credentials not configured."
 msgstr "Datele de autentificare API nu sunt configurate."
@@ -85,23 +85,23 @@ msgid "Afternoon"
 msgstr "După-amiază"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Vârsta de la Luna Nouă: {:.1f} zile"
 
 #, fuzzy
 msgid "Age: N/A"
 msgstr "ICA: N/D"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Diametru unghiular: N/A"
 
 msgid "Angular diameter: {:.0f}"
 msgstr ""
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Mărimea aparentă: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Mărimea aparentă: {:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "Atribuiți la Favorite 1"
@@ -181,10 +181,10 @@ msgid "City list file not found!"
 msgstr "Fișierul cu lista orașelor nu a fost găsit!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Curățați fișierele Foreca One Temp?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Curățați fișierele temporare"
 
 msgid "Clear"
 msgstr "Senin"
@@ -289,7 +289,7 @@ msgid "Decrease Speed"
 msgstr "Reduceți viteza"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Valori implicite"
 
 msgid "Denmark"
 msgstr "Danemarca"
@@ -447,10 +447,10 @@ msgid "Foreca API Setup"
 msgstr "Meniu Foreca One"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Acreditările API Foreca nu sunt încă configurate. Vă rugăm să le introduceți în ecranul de configurare."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Setările API-ului Foreca au fost salvate cu succes."
 
 msgid "Foreca One"
 msgstr "Foreca One"
@@ -504,7 +504,7 @@ msgid "Germany"
 msgstr "Germania"
 
 msgid "Good"
-msgstr ""
+msgstr "Bun"
 
 msgid "Great Britain"
 msgstr "Marea Britanie"
@@ -525,7 +525,7 @@ msgid "Hamburg"
 msgstr "Hamburg"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Periculoase"
 
 msgid "Header - not selectable"
 msgstr "Antet - nu poate fi selectat"
@@ -676,7 +676,7 @@ msgid "Map loaded"
 msgstr "Harta a fost încărcată"
 
 msgid "Map server"
-msgstr ""
+msgstr "Server de hartă"
 
 msgid "Map {} selected"
 msgstr "Harta {} selectată"
@@ -728,10 +728,10 @@ msgid "Moon details"
 msgstr "Detalii orare"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Răsărit de lună: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Apus de lună: {}"
 
 msgid "Morning"
 msgstr "Dimineață"
@@ -936,7 +936,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Parțial înnorat, posibile furtuni cu ploaie"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigeu"
 
 msgid "Phase"
 msgstr "Fază"
@@ -949,7 +949,7 @@ msgid "Play/Pause"
 msgstr "Redare/Pauză"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Vă rugăm să introduceți atât utilizatorul API, cât și parola API."
 
 msgid "Please wait ..."
 msgstr "Vă rugăm așteptați ..."
@@ -1033,7 +1033,7 @@ msgid "Refresh"
 msgstr "Reîmprospătare"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Restabiliți valorile implicite ale serverului"
 
 msgid "Rhineland-Palatine"
 msgstr "Renania-Palatinat"
@@ -1048,10 +1048,10 @@ msgid "Rise"
 msgstr "Răsărit"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Azimut de creștere: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Azimut de creștere: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusia"
@@ -1121,10 +1121,10 @@ msgid "Selected hour details"
 msgstr "Detalii pentru ora selectată"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Set azimut: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Setați azimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Apus"
@@ -1237,25 +1237,25 @@ msgid "Toggle legend"
 msgstr "Comutare legendă"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Orele de expirare a simbolului"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Orele de expirare a simbolului trebuie să fie -1 sau un număr pozitiv."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Orele de expirare a simbolului trebuie să fie un număr."
 
 msgid "Tomorrow"
 msgstr "Mâine"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Tranzit (apogeu): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Altitudine de tranzit: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Altitudine de tranzit: {:.0f}°"
 
 msgid "Transparency Settings"
 msgstr "Setări transparență"
@@ -1270,10 +1270,10 @@ msgid "UV N/A"
 msgstr "UV: N/D"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Nesănătos"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Nesănătos pentru sensibili"
 
 msgid "Unit Settings"
 msgstr "Setări unități"

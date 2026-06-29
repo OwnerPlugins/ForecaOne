@@ -46,7 +46,7 @@ msgid "9 - Today + 9 days"
 msgstr "9 - Dnes + 9 dní"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== PODROBNOSTI O MESIACI ==="
 
 msgid "API credentials not configured."
 msgstr "Poverenia API nie sú nakonfigurované."
@@ -78,23 +78,23 @@ msgid "Afternoon"
 msgstr "Popoludnie"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Vek od Novu: {:.1f} dní"
 
 #, fuzzy
 msgid "Age: N/A"
 msgstr "AQI: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Uhlový priemer: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Uhlový priemer: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Zdanlivá magnitúda: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Zdanlivá magnitúda: {:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "Priradiť k Obľúbenému 1"
@@ -187,7 +187,7 @@ msgid "Close legend"
 msgstr "Zavrieť legendu"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Zatvorte nastavenie bez uloženia"
 
 msgid "Cloudy"
 msgstr "Zamračené"
@@ -280,7 +280,7 @@ msgid "Decrease Speed"
 msgstr "Znížiť rýchlosť"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Predvolené"
 
 msgid "Denmark"
 msgstr "Dánsko"
@@ -316,7 +316,7 @@ msgid "Distance: {} km"
 msgstr "Vzdialenosť: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Chcete ho nainštalovať teraz?"
 "Nová verzia %s je k dispozícii\n"
 "\n"
 "Zoznam zmien: %s\n"
@@ -442,10 +442,10 @@ msgid "Foreca API Setup"
 msgstr "Menu Foreca One"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Prihlasovacie údaje rozhrania Foreca API ešte nie sú nakonfigurované. Zadajte ich na obrazovke nastavenia."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Nastavenia rozhrania Foreca API boli úspešne uložené."
 
 msgid "Foreca One"
 msgstr "Foreca One"
@@ -670,7 +670,7 @@ msgid "Map loaded"
 msgstr "Mapa načítaná"
 
 msgid "Map server"
-msgstr ""
+msgstr "Mapový server"
 
 msgid "Map {} selected"
 msgstr "Vybraná mapa {}"
@@ -722,10 +722,10 @@ msgid "Moon details"
 msgstr "Podrobnosti o hodine"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Východ mesiaca: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Západ mesiaca: {}"
 
 msgid "Morning"
 msgstr "Ráno"
@@ -942,7 +942,7 @@ msgid "Play/Pause"
 msgstr "Prehrať/Pozastaviť"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Zadajte používateľa rozhrania API aj heslo rozhrania API."
 
 msgid "Please wait ..."
 msgstr "Prosím čakajte ..."
@@ -1026,7 +1026,7 @@ msgid "Refresh"
 msgstr "Aktualizovať"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Obnovte predvolené hodnoty servera"
 
 msgid "Rhineland-Palatine"
 msgstr "Porýnie-Falcko"
@@ -1041,10 +1041,10 @@ msgid "Rise"
 msgstr "Východ mesiaca"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Azimut stúpania: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Azimut stúpania: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusko"
@@ -1114,10 +1114,10 @@ msgid "Selected hour details"
 msgstr "Podrobnosti vybranej hodiny"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Nastaviť azimut: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Nastavte azimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Západ mesiaca"
@@ -1229,25 +1229,25 @@ msgid "Toggle legend"
 msgstr "Prepnúť legendu"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Hodiny vypršania platnosti tokenu"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Hodiny uplynutia platnosti tokenu musia byť -1 alebo kladné číslo."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Hodiny vypršania platnosti tokenu musia byť číslo."
 
 msgid "Tomorrow"
 msgstr "Zajtra"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Tranzit (kulminácia): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Tranzitná výška: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Prepravná výška: {:.0f}°"
 
 msgid "Transparency Settings"
 msgstr "Nastavenia priehľadnosti"

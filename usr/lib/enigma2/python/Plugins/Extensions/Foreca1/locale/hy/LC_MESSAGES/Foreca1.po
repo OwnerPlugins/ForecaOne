@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Լրացուցիչ տվյալներ չկան)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Այսօր"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Այսօր + 1 օր"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Այսօր + 2 օր"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Այսօր + 3 օր"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Այսօր + 4 օր"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Այսօր + 5 օր"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Այսօր + 6 օր"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Այսօր + 7 օր"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Այսօր + 8 օր"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Այսօր + 9 օր"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== ԼՈՒՍՆԻ ՄԱՆՐԱՄԱՍՆԵՐ ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API-ի հավատարմագրերը կազմաձևված չեն:"
 
 msgid "API error"
-msgstr ""
+msgstr "API-ի սխալ"
 
 msgid "API password"
-msgstr ""
+msgstr "API գաղտնաբառը"
 
 msgid "API user"
-msgstr ""
+msgstr "API օգտվող"
 
 msgid "AQI {}"
 msgstr ""
@@ -71,376 +71,376 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "Ընդլայնված"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Ընդլայնված միավորի կարգավորումներ"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Կեսօր"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Տարիքը Նոր լուսնից սկսած՝ {:.1f} օր"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Տարիքը` N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Անկյունային տրամագիծը՝ N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Անկյունային տրամագիծը՝ {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Տեսանելի մեծություն՝ N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Տեսանելի մեծություն՝ {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Նշանակել սիրելիին 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Նշանակել սիրելիին 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Հանձնարարել տուն"
 
 msgid "Australia"
-msgstr ""
+msgstr "Ավստրալիա"
 
 msgid "Austria"
-msgstr ""
+msgstr "Ավստրիա"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Auth սերվեր"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Բադեն-Վյուրտեմբերգ"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Բարոմետր"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Բավարիա"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Բելգիա"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Բեռլին"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Սև լուսին"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Կապույտ - Տուն"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Կապույտ լուսին"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Բրանդենբուրգ"
 
 msgid "Bremen"
-msgstr ""
+msgstr "Բրեմեն"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Հաշվարկվում է..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Ցելսիուս, կմ/ժ, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Փոփոխությունների մատյան՝ {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Փոփոխությունները կիրառվում են անմիջապես"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Ստուգեք թարմացումների համար"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Ընտրեք մանրամասն տեսք"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Քաղաքի ընտրություն"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Քաղաքների ցուցակի ֆայլը չի ​​գտնվել:"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Մաքրե՞լ Foreca One Temp ֆայլերը:"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Մաքրել ժամանակային ֆայլերը"
 
 msgid "Clear"
-msgstr ""
+msgstr "Պարզ"
 
 msgid "Close"
-msgstr ""
+msgstr "Փակել"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Փակեք լեգենդը"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Փակեք կարգավորումն առանց պահելու"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Ամպամած"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Ամպամած և թույլ անձրև"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Ամպամած և թույլ ձյուն"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Ամպամած և թույլ թաց ձյուն"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Ամպամած և անձրև"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Ամպամած և ձյան տեղումներ"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Ամպամած և թաց ձյան տեղումներ"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Ամպամած, ամպրոպ՝ անձրևով"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Սառը (<0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Գունավոր լեգենդ"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Գույնի ընտրիչ"
 
 msgid "Color data"
-msgstr ""
+msgstr "Գունավոր տվյալներ"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Գունավոր լեգենդ"
 
 msgid "Color name"
-msgstr ""
+msgstr "Գույնի անունը"
 
 msgid "Color select"
-msgstr ""
+msgstr "Գույնի ընտրություն"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Վիճակը՝ {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Մայրցամաքների եղանակային քարտեզներ"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Սառը (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Չհաջողվեց բեռնել թարմացման տեղեկատվությունը:"
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Չհաջողվեց սկզբնավորել քարտեզի API-ն:"
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Չհաջողվեց բեռնել կանխատեսման տվյալները"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Չհաջողվեց վերլուծել տարբերակի տեղեկատվությունը:"
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Ընթացիկ եղանակ և կանխատեսում"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Եղանակի ընթացիկ եղանակը և առաջիկա 10 օրվա կանխատեսումը"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Ընթացիկ՝ {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Չեխիայի Հանրապետություն"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Տվյալները տրամադրել է Foreca-ն"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Ամսաթիվ՝ {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Օր"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Նվազեցնել արագությունը"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Կանխադրվածներ"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Դանիա"
 
 msgid "Details"
-msgstr ""
+msgstr "Մանրամասներ"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Ցողման կետ {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Ցողման կետ {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Ցողման կետ՝ %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Ցողման կետ՝ %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Ցողման կետ՝ N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Հեռավորությունը {} կմ"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Հեռավորությունը՝ %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Հեռավորությունը՝ {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Հեռավորությունը՝ {} կմ"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք տեղադրել այն հիմա:"
 
 msgid "Down"
-msgstr ""
+msgstr "Ներքև"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Ներքև - Հաջորդ էջը"
 
 msgid "Download error"
-msgstr ""
+msgstr "Ներբեռնման սխալ"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Նկարների ներբեռնում..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Սալիկների ներբեռնում..."
 
 msgid "E"
-msgstr ""
+msgstr "Ե"
 
 msgid "East Asia"
-msgstr ""
+msgstr "Արևելյան Ասիա"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Թարմացումների ստուգման սխալ:"
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Չհաջողվեց բեռնել տվյալները"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Չհաջողվեց բեռնել քարտեզը"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Չհաջողվեց բեռնել քարտեզները: Ստուգեք կապը:"
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Չհաջողվեց պահպանել ֆավորիտը:"
 
 msgid "Europe"
-msgstr ""
+msgstr "Եվրոպա"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Եվրոպայի եղանակային քարտեզներ"
 
 msgid "Evening"
-msgstr ""
+msgstr "Երեկոյան"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ելք"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Ելք – Վերջ"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Ելք / Փակեք լեգենդը"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Ծայրահեղ"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Ծայրահեղ / ամպրոպ"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr ""
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Ավելի արագ՝ {}s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Սիրված 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Սիրված 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Սիրված մանրամասները"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Սիրված մանրամասները"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Զգում է"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Զգում է {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Զգում է {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Կարծես՝ %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Զգացվում է՝ %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Զգում է` N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Զգում է՝ {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Զգում է՝ {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Զգացվում է՝ {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Ֆինլանդիա"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Առաջին եռամսյակ"
 
 msgid "Fog"
-msgstr ""
+msgstr "Մառախուղ"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API-ի կարգավորում"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API-ի հավատարմագրերը դեռ կազմաձևված չեն: Խնդրում ենք մուտքագրել դրանք կարգավորումների էկրանին:"
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API-ի կարգավորումները հաջողությամբ պահպանվեցին:"
 
 msgid "Foreca One"
 msgstr ""
@@ -449,994 +449,994 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca One մենյու"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One կայաններ չեն գտնվել"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One կայաններ. {} մոտակայքում գտնվող կայաններ ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca One Եղանակի կանխատեսում"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr ""
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | Քարտեզ {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "«%s»-ի համար տեղական %d քաղաք է գտնվել"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Գտնվել է %d քաղաք առցանց «%s»-ի համար"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Շրջանակ →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Շրջանակ՝ {}"
 
 msgid "France"
-msgstr ""
+msgstr "Ֆրանսիա"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Լիալուսին"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Քամու ուժ (>60 կմ/ժ)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Գերմանիայի նահանգների եղանակային քարտեզներ"
 
 msgid "Germany"
-msgstr ""
+msgstr "Գերմանիա"
 
 msgid "Good"
-msgstr ""
+msgstr "Լավ"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Մեծ Բրիտանիա"
 
 msgid "Greece"
-msgstr ""
+msgstr "Հունաստան"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Կանաչ - սիրելի 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "Փչոց {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Պայթյուն՝ {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Համբուրգ"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Վտանգավոր"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Վերնագիր - ընտրելի չէ"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Հորդառատ անձրև"
 
 msgid "Help"
-msgstr ""
+msgstr "Օգնություն"
 
 msgid "Hesse"
-msgstr ""
+msgstr "Հեսսեն"
 
 msgid "High"
-msgstr ""
+msgstr "Բարձր"
 
 msgid "Home"
-msgstr ""
+msgstr "Տուն"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Տաք (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Ժամային մանրամասներ"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Խոնավություն"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Խոնավություն՝ %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Խոնավությունը՝ {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Հունգարիա"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Սառույց / սառույց"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Լուսավորություն"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Լուսավորություն՝ {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Պատկեր %(ընթացիկ)d/%(ընդհանուր)d – %(օր)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Պատկեր %(ընթացիկ)d/%(ընդհանուր)d – %(օր)s (Դադար)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Պատկերը հասանելի չէ"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Կայսերական համակարգ"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Բարձրացնել արագությունը"
 
 msgid "Info"
-msgstr ""
+msgstr "Ինֆո"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Տեղեկություն - մասին"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Իռլանդիա"
 
 msgid "Italy"
-msgstr ""
+msgstr "Իտալիա"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Անցնել 100 ներքև"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Անցնել 100 վերև"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Անցնել 500 ներքև"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Անցնել 500 վերև"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Ստեղնաշար"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Վերջին եռամսյակ"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Լատվիա"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Ձախ - Նախորդ օրը"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Ձախ սլաք - Նախորդ օր"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Թեթև (0-20 կմ/ժ)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Թեթև անձրև / անձրև"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Թեթևից չափավոր"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Հասանելի քարտեզների բեռնում..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Լուսնի փուլերի բեռնում..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Մոտակա կայանների բեռնում..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Սալիկների բեռնում..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Շաբաթական կանխատեսումը բեռնվում է..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Բեռնվում է..."
 
 msgid "Low"
-msgstr ""
+msgstr "Ցածր"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Ստորին Սաքսոնիա"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Լուսնային օրացույց"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Լուսնային փուլերը հաջորդ ամսվանից"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Լյուքսեմբուրգ"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Քարտեզ և սալիկներ բեռնված են"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Քարտեզը բեռնված է"
 
 msgid "Map server"
-msgstr ""
+msgstr "Քարտեզի սերվեր"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Ընտրված է քարտեզ {}"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Մեկլենբուրգ-Պոմմերնիա"
 
 msgid "Menu"
-msgstr ""
+msgstr "Մենյու"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Մենյու - Կարգավորումներ"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Միաձուլումը ձախողվեց"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Մետեոգրամ"
 
 msgid "Metric System"
-msgstr ""
+msgstr "Մետրային համակարգ"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Միջին Ամերիկա"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Միջին Ասիա"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Մերձավոր Արևելք"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Մեղմ (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Չափավոր"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Չափավոր (20-40 կմ/ժ)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Չափավոր անձրև"
 
 msgid "Month"
-msgstr ""
+msgstr "Ամիս"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Լուսնի մանրամասները"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Լուսնի ծագում՝ {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Լուսնի մայրամուտ՝ {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Առավոտյան"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Հիմնականում պարզ"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Տեղափոխվել ներքև"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Շարժվել վերև"
 
 msgid "Move down"
-msgstr ""
+msgstr "Տեղափոխեք ներքև"
 
 msgid "Move up"
-msgstr ""
+msgstr "Շարժվեք վերև"
 
 msgid "N"
-msgstr ""
+msgstr "Ն"
 
 msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Նիդեռլանդներ"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Նոր Լուսին"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Հասանելի է նոր տարբերակը՝ {version}:"
 
 msgid "Next"
-msgstr ""
+msgstr "Հաջորդը"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Հաջորդ պատկերը"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Հաջորդ շրջանակը"
 
 msgid "Next page"
-msgstr ""
+msgstr "Հաջորդ էջը"
 
 msgid "Next time"
-msgstr ""
+msgstr "Հաջորդ անգամ"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Ինտերնետ կապ չի հայտնաբերվել:"
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "OSM սալիկներ չկան"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "«%s»-ի համար տեղական քաղաքներ չեն գտնվել"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Ոչ մի քաղաք ընտրված չէ"
 
 msgid "No data"
-msgstr ""
+msgstr "Տվյալներ չկան"
 
 msgid "No date available"
-msgstr ""
+msgstr "Ամսաթիվ չկա"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Ոչ մի տեղ ընտրված չէ"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Առկա հատուկ լեգենդ չկա:"
 
 msgid "No station data"
-msgstr ""
+msgstr "Կայանի տվյալներ չկան"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Կայանի տվյալներ չկան"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Ոչ մի կայան չի գտնվել"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Ոչ մի սալիկ չի ներբեռնվել"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Հյուսիսային Աֆրիկա"
 
 msgid "North America"
-msgstr ""
+msgstr "Հյուսիսային Ամերիկա"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Հյուսիսային Ռեյն-Վեստֆալիա"
 
 msgid "Norway"
-msgstr ""
+msgstr "Նորվեգիա"
 
 msgid "OK - Ext Info"
 msgstr ""
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "Լավ - կանխատեսում"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "Լավ - Բացեք քարտեզը"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Ok - Մանրամասներ"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Բացեք ստեղնաշարը"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Բացեք քարտեզը"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Օրիգինալ դիզայն և գաղափար՝ %s-ի կողմից"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Ամպամած"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Ամպամած և թույլ անձրև"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Ամպամած և թույլ ձյուն"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Ամպամած և թույլ թաց ձյուն"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Ամպամած և անձրև"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Ամպամածություն և անձրևներ"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Ամպամած և ձյուն"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Ամպամած և ձյան տեղումներ"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Ամպամած և թաց ձյուն"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Ամպամած և թաց ձյուն"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Ամպամած, ամպրոպ՝ անձրեւ"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Գիշերակաց"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Էջ ներքև"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Էջ վերև"
 
 msgid "Page down"
-msgstr ""
+msgstr "Էջը ներքև"
 
 msgid "Page up"
-msgstr ""
+msgstr "Էջ վերև"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Տապակել ներքև"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Տապակել ձախ"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Պտտեցնել աջ"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Տապակել վերև"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Մասամբ ամպամած"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Մասամբ ամպամած և թույլ անձրև"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Մասամբ ամպամած և թույլ ձյուն"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Մասամբ ամպամած և թույլ թաց ձյուն"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Մասամբ ամպամած և անձրև"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Մասնակի ամպամածություն և ձյուն"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Մասամբ ամպամած և թաց ձյուն"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Մասնակի ամպամածություն, հնարավոր է ամպրոպ և անձրև"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Պերիգե"
 
 msgid "Phase"
-msgstr ""
+msgstr "Փուլ"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Փուլ՝ {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Նվագարկել/Դադար"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել և՛ API օգտվողին, և՛ API-ի գաղտնաբառը:"
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Խնդրում ենք սպասել..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Լեհաստան"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Պորտուգալիա"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Տեղումներ"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Տեղումները՝ {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Տեղումները"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Տեղումները՝ {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Կրկին որոնելու համար սեղմեք ԿԱՐՄԻՐԸ"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Ճնշում"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Ճնշումը՝ %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Ճնշումը՝ %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Ճնշումը՝ N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Ճնշում. {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Ճնշումը՝ {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Նախ"
 
 msgid "Previous"
-msgstr ""
+msgstr "Նախորդ"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Նախորդ Պատկեր"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Նախորդ շրջանակը"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Նախորդ էջ"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Նախորդ անգամ"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Անձրևի պրոբ."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Անձրևի խնդիր. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Անձրևի հավանականություն՝ N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Անձրև՝ {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer ռադար"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Կարմիր - Գույնի ընտրություն"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Թարմացնել"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Վերականգնել լռելյայն սերվերի արժեքները"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Ռեյնլանդ-Պալատին"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Աջ - Հաջորդ օրը"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Աջ սլաք - Հաջորդ օրը"
 
 msgid "Rise"
-msgstr ""
+msgstr "Բարձրանալ"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Բարձրացման ազիմուտ՝ N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Բարձրացում ազիմուտ՝ {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Ռուսաստան"
 
 msgid "S"
-msgstr ""
+msgstr "Ս"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Սաարլանդ"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Արբանյակային լուսանկարներ"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Շուտով արբանյակային լուսանկարներ:"
 
 msgid "Save"
-msgstr ""
+msgstr "Պահպանել"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Պահպանեք API-ի կարգավորումները"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Սաքսոնիա"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Սաքսոնիա-Անհալթ"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Շլեզվիգ-Հոլշտեյն"
 
 msgid "Scraped"
-msgstr ""
+msgstr "Քերված"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Որոնումը նախ փորձում է առցանց, եթե չհաջողվի, օգտագործում է տեղական ցուցակը:"
 
 msgid "Search your City"
-msgstr ""
+msgstr "Որոնեք ձեր քաղաքը"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "«%s»-ի որոնում..."
 
 msgid "Select"
-msgstr ""
+msgstr "Ընտրել"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Ընտրեք Տարածաշրջան"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Ընտրեք քաղաք"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Ընտրեք քարտեզ OK-ով"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Ընտրեք միավորի համակարգը"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Ընտրեք քամու միավորը"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Ընտրեք {} միավոր"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Ընտրված ժամի մանրամասները"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Սահմանել ազիմուտը՝ N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Սահմանել ազիմուտը՝ {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Կոմպլեկտներ"
 
 msgid "Show info"
-msgstr ""
+msgstr "Ցույց տալ տեղեկատվությունը"
 
 msgid "Showers"
-msgstr ""
+msgstr "Ցնցուղներ"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Սլովակիա"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Ավելի դանդաղ՝ {}s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Ձյուն / սառույց"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Ձյան փորձ. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Ձյան հետախուզություն՝ N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Հարավային Աֆրիկա"
 
 msgid "South America"
-msgstr ""
+msgstr "Հարավային Ամերիկա"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Հարավարևելյան Ասիա"
 
 msgid "Spain"
-msgstr ""
+msgstr "Իսպանիա"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Կայանի դիտարկումներ"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Կայան՝ {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Ուժեղ (40-60 կմ/ժ)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Արեւածագ"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Մայրամուտ"
 
 msgid "Super Full Moon"
 msgstr ""
 
 msgid "Sweden"
-msgstr ""
+msgstr "Շվեդիա"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Շվեյցարիա"
 
 msgid "Temp"
-msgstr ""
+msgstr "Ջերմաստիճանը"
 
 msgid "Temperature"
-msgstr ""
+msgstr "Ջերմաստիճանը"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Ջերմաստիճանը՝ %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Ջերմաստիճանը՝ %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Ջերմաստիճանը՝ N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Ջերմաստիճանը՝ {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Ջերմաստիճանը՝ {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Ջերմաստիճանը՝ {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Շնորհակալություն {thanks} և մյուս ընկերներին առաջարկների համար"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Հեռավոր տարբերակը ({remote}) ավելի հին է, քան ներկայիսը ({current}):"
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Բարակ վերին ամպ"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Թյուրինգիա"
 
 msgid "Time"
-msgstr ""
+msgstr "Ժամանակը"
 
 msgid "Today"
-msgstr ""
+msgstr "Այսօր"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Այսօր/Վաղը մանրամասներ"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Փոխարկել լեգենդը"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Նշանի ժամկետի ավարտի ժամերը"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Նշանների ժամկետի ավարտի ժամերը պետք է լինեն -1 կամ դրական թիվ:"
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Նշանների ժամկետի ավարտի ժամերը պետք է լինեն թիվ:"
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Վաղը"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Տարանցիկ (գագաթնակետ)՝ {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Տարանցիկ բարձրություն՝ N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Տարանցիկ բարձրություն՝ {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Թափանցիկության կարգավորումներ"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Թափանցիկության մակարդակ"
 
 msgid "UV Index"
-msgstr ""
+msgstr "Ուլտրամանուշակագույն ճառագայթման ինդեքս"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Անառողջ"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Անառողջ զգայուն մարդկանց համար"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Միավորի կարգավորումներ"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Միավորի կարգավորումներ (Ընդլայնված)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Միավորի կարգավորումներ (պարզ)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Անհայտ"
 
 msgid "Up"
-msgstr ""
+msgstr "Վերև"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Վերև - Նախորդ էջ"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Թարմացումը չեղարկվել է:"
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Թարմացումն ավարտված է: Խնդրում ենք վերագործարկել Enigma2-ը:"
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Թարմացվել է {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Թարմացվել է՝ N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Թարմացվել է՝ {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Թարմացվում է..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Օգտագործեք սլաքների ստեղները ոլորելու համար"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Օգտագործեք ← → ժամանակը փոխելու համար | Լավ է դուրս գալու համար"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Օգտագործեք ←/→/↑/↓՝ | Լավ է դուրս գալու համար"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Օգտագործեք ▲/▼՝ փոխելու համար, OK՝ ընտրելու համար"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Օգտագործելով ընթացիկ ժամանակը"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Շատ հորդառատ անձրև"
 
 msgid "Very high"
-msgstr ""
+msgstr "Շատ բարձր"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Շատ շոգ (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Շատ ցածր"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Շատ անառողջ"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Տեսանելիություն՝ %s մ"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Տեսանելիություն՝ {} մ"
 
 msgid "W"
-msgstr ""
+msgstr "Վ"
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Թուլացող կիսալուսին"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Ունինգ Գիբուս"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Տաք (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Էպիլյացիոն կիսալուսին"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Էպիլյացիա Gibbous"
 
 msgid "Weather"
-msgstr ""
+msgstr "Եղանակ"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Եղանակի քարտեզ"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Եղանակի քարտեզներ"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Եղանակի քարտեզներ և արբանյակներ"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Եղանակի քարտեզներ (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Եղանակի քարտեզների սլայդերի ցուցադրում"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Եղանակի ռադար"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Եղանակն այսօր"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Եղանակը վաղը"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Շաբաթական կանխատեսում"
 
 msgid "Wind"
-msgstr ""
+msgstr "Քամի"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Քամու ուղղությունն այսօր"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Վաղը քամու ուղղություն"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Քամու ուղղությունը"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Քամու արագությունը"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Քամու արագությունը {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Քամու արագությունը՝ {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Քամի՝ %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Քամի՝ %s կմ/ժ %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Քամի՝ N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Քամի: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Քամի՝ {} կմ/ժ {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Քամի՝ {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Պատուհանների թափանցիկություն"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Դեղին - Սիրված 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Մեծացնել"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Մեծացնել"
 
 msgid "Zoom+"
 msgstr ""
 
 msgid "Zoom-"
-msgstr ""
+msgstr "Մեծացնել-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Մեծացնել:"
 
 msgid "v."
 msgstr ""
@@ -1445,25 +1445,25 @@ msgid "{hours} h {mins} min"
 msgstr ""
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• Կապույտ՝ որպես Գլխավոր էջ պահելու համար\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- 500 քաղաք անցնելու համար\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• ԿԱՆԱՉ՝ որպես նախընտրելի 1 պահելու համար\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• Լավ է՝ քաղաք ընտրելու համար\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• ԿԱՐՄԻՐ՝ որոնման ստեղնաշարը բացելու համար\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Նավարկելու համար օգտագործեք սլաքների ստեղները\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• ԴԵՂԻՆ՝ որպես Սիրված 2 պահելու համար\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Շրջանակ"

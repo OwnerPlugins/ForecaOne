@@ -17,430 +17,430 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Маълумоти иловагӣ дастрас нест)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Имрӯз"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Имрӯз + 1 рӯз"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Имрӯз + 2 рӯз"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Имрӯз + 3 рӯз"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Имрӯз + 4 рӯз"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Имрӯз + 5 рӯз"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Имрӯз + 6 рӯз"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Имрӯз + 7 рӯз"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Имрӯз + 8 рӯз"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Имрӯз + 9 рӯз"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== ТАФСИЛИ МОХ ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "Маълумоти эътимоднокии API танзим карда нашудааст."
 
 msgid "API error"
-msgstr ""
+msgstr "Хатогии API"
 
 msgid "API password"
-msgstr ""
+msgstr "пароли API"
 
 msgid "API user"
-msgstr ""
+msgstr "корбари API"
 
 msgid "AQI {}"
 msgstr ""
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "AQI: Не"
 
 msgid "Advanced"
-msgstr ""
+msgstr "Мукаммал"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Танзимоти мукаммали воҳид"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Нимаи нисфирӯзӣ"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Синну сол аз моҳи нав: {:.1f} рӯз"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Синну сол: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Диаметри кунҷӣ: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Диаметри кунҷӣ: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Андозаи намоён: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Бузургии намоён: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Ба дӯстдошта 1 таъин кунед"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Ба дӯстдошта 2 таъин кунед"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Ба хона таъин кунед"
 
 msgid "Australia"
-msgstr ""
+msgstr "Австралия"
 
 msgid "Austria"
-msgstr ""
+msgstr "Австрия"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Сервери аутентификатсия"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Баден-Вюртемберг"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Барометр"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Бавария"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Бельгия"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Берлин"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Моҳи сиёҳ"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Кабуд - Хона"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Моҳи кабуд"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Бранденбург"
 
 msgid "Bremen"
-msgstr ""
+msgstr "Бремен"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Ҳисоб карда мешавад..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Бекор кардан"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Цельсия, км/соат, гПа"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Тағйирот: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Тағйирот фавран татбиқ мешаванд"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Барои навсозиҳо санҷед"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Намоиши тафсилотро интихоб кунед"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Интихоби шаҳр"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Файли рӯйхати шаҳр ёфт нашуд!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Тоза кардани файлҳои Foreca One Temp?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Тоза кардани файлҳои temp"
 
 msgid "Clear"
-msgstr ""
+msgstr "Тоза"
 
 msgid "Close"
-msgstr ""
+msgstr "Пӯшед"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Афсонаҳои наздик"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Танзимотро бидуни захира пӯшед"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Абрӣ"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Абрнок ва борони сабук меборад"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Абрнок ва барфи сабук меборад"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Абрнок ва барфи тар меборад"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Абрӣ ва борон меборад"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Абрӣ ва борони барф меборад"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Бориши абрнок ва барфи тар меборад"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Абрӣ, раъду барқ ​​ва борон меборад"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Хунук (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Афсонаи ранг"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Интихоби ранг"
 
 msgid "Color data"
-msgstr ""
+msgstr "Маълумоти рангӣ"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Афсонаи ранг"
 
 msgid "Color name"
-msgstr ""
+msgstr "Номи ранг"
 
 msgid "Color select"
-msgstr ""
+msgstr "Интихоби ранг"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Ҳолат: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Харитаҳои обу ҳавои континентҳо"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Хунук (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Гирифтани маълумоти навсозӣ муяссар нашуд."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "API-и харитаро оғоз карда натавонист."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Маълумоти пешгӯиро бор карда натавонист"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Маълумоти версияро таҳлил карда натавонист."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Обу ҳаво ва пешгӯии ҷорӣ"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Обу ҳавои ҷорӣ ва пешгӯӣ барои 10 рӯзи оянда"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "ҷорӣ: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Ҷумҳуриӣ Чех"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Маълумот аз ҷониби Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Сана: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "рӯз"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Суръатро кам кунед"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Пешфарзҳо"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Дания"
 
 msgid "Details"
-msgstr ""
+msgstr "Тафсилот"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Нуқтаи шабнам {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Нуқтаи шабнам {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Нуқтаи шабнам: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Нуқтаи шабнам: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Нуқтаи шабнам: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Масофа {} км"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Масофа: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Масофа: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Масофа: {} км"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Мехоҳед онро ҳозир насб кунед?"
 
 msgid "Down"
-msgstr ""
+msgstr "Поён"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Поён - Саҳифаи оянда"
 
 msgid "Download error"
-msgstr ""
+msgstr "Хатогии зеркашӣ"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Зеркашӣ кардани тасвирҳо..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Зеркашӣ кардани сафолҳо..."
 
 msgid "E"
-msgstr ""
+msgstr "Э"
 
 msgid "East Asia"
-msgstr ""
+msgstr "Осиёи Шарқӣ"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Хатогӣ ҳангоми тафтиши навсозиҳо."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Хатогӣ ҳангоми боркунии маълумот"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Хатогӣ ҳангоми боркунии харита"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Хатогӣ ҳангоми боркунии харитаҳо. Пайвастшавиро тафтиш кунед."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Хатогӣ ҳангоми захира кардани дӯстдошта!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Аврупо"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Харитаҳои обу ҳавои Аврупо"
 
 msgid "Evening"
-msgstr ""
+msgstr "шом"
 
 msgid "Exit"
-msgstr ""
+msgstr "Баромадгоҳ"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Хуруҷ - Ба охир"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Хуруҷ / Шарҳи пӯшед"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Аз ҳад зиёд"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Тӯфони шадид / раъду барқ"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "Фаренгейт, миль, дар Hg"
 
 msgid "Faster: {}s"
 msgstr ""
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Дӯстдошта 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Дӯстдошта 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Тафсилоти дӯстдошта"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Тафсилоти дӯстдошта"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Ҳис мекунад"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Чунин ҳис мекунад {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Чунин ҳис мекунад {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Чунин ҳис мекунад: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Чунин ҳис мекунад: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Чунин ҳис мекунад: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Чунин ҳис мекунад: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Чунин ҳис мекунад: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Чунин ҳис мекунад: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Финляндия"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Семохаи якум"
 
 msgid "Fog"
-msgstr ""
+msgstr "Туман"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Танзимоти API Foreca"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Маълумоти эътимоднокии Foreca API ҳанӯз танзим карда нашудааст. Лутфан онҳоро дар экрани танзимот ворид кунед."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Танзимоти API Foreca бомуваффақият захира карда шуданд."
 
 msgid "Foreca One"
 msgstr ""
@@ -449,877 +449,877 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Менюи Foreca One"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Ягон истгоҳ ёфт нашуд"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Истгоҳҳои Foreca One: {} истгоҳи наздик ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Обу ҳавои Foreca One"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr ""
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | Харитаи {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Барои '%s' дар маҳал %d шаҳр ёфт"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Барои '%s' онлайн %d шаҳр ёфт"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Чорчӯба →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Чорчӯба: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Франция"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Моҳи пурра"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Қувваи тӯфон (>60 км/соат)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Харитаҳои обу ҳавои Олмон"
 
 msgid "Germany"
-msgstr ""
+msgstr "Олмон"
 
 msgid "Good"
-msgstr ""
+msgstr "Хуб"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Британияи Кабир"
 
 msgid "Greece"
-msgstr ""
+msgstr "Юнон"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Сабз - Дӯстдошта 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "Ғарб {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Шамол: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Гамбург"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Хатарнок"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Сарлавҳа - интихобшаванда нест"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Борони сахт"
 
 msgid "Help"
-msgstr ""
+msgstr "Кӯмак"
 
 msgid "Hesse"
-msgstr ""
+msgstr "Гессе"
 
 msgid "High"
-msgstr ""
+msgstr "Баланд"
 
 msgid "Home"
-msgstr ""
+msgstr "Хона"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Гарм (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Тафсилоти соат"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Намӣ"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Намӣ: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Намӣ: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Венгрия"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Ях / шабнам"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Равшанӣ"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Равшанӣ: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Тасвир %(ҷорӣ)d/%(ҳамагӣ)d – %(рӯз)с"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Тасвир %(ҷорӣ)d/%(ҳамагӣ)d – %(рӯз)с (Таваққуф карда шудааст)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Тасвир дастрас нест"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Системаи империалистӣ"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Суръатро зиёд кунед"
 
 msgid "Info"
-msgstr ""
+msgstr "Маълумот"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Маълумот - Дар бораи"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Ирландия"
 
 msgid "Italy"
-msgstr ""
+msgstr "Италия"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "100 ба поён ҷаҳида"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "100 боло ҷаҳед"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "500 ба поён ҷаҳида"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "500 боло ҷаҳида"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавиатура"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Семохаи гузашта"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Латвия"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Чап - рӯзи гузашта"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Тирчаи чап - Рӯзи гузашта"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Сабук (0-20 км/с)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Борони сабук / борон"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Сабук то миёна"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Боркунии харитаҳои дастрас..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Боркунии фазаҳои моҳӣ..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Истгоҳҳои наздик бор карда мешавад..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Боркунии сафолҳо..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Боркунии пешгӯии ҳафтаина..."
 
 msgid "Loading..."
 msgstr ""
 
 msgid "Low"
-msgstr ""
+msgstr "Кам"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Саксонияи Поён"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Тақвими моҳӣ"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Марҳилаҳои моҳӣ аз моҳи оянда"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Люксембург"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Харита ва сафолҳо бор карда шудаанд"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Харита бор карда шуд"
 
 msgid "Map server"
-msgstr ""
+msgstr "Сервери харита"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Харитаи {} интихоб шуд"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Мекленбург-Ворпомерн"
 
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Меню - Танзимот"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Муттаҳид карда нашуд"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Метеограмма"
 
 msgid "Metric System"
-msgstr ""
+msgstr "Системаи метрикӣ"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Амрикои Миёна"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Осиёи Миёна"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Ховари Миёна"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "ҳалим (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Муътадил"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Мӯътадил (20-40 км/с)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Борони мӯътадил"
 
 msgid "Month"
-msgstr ""
+msgstr "Моҳ"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Тафсилоти моҳ"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "тулӯи моҳ: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "ғуруби моҳ: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Субх"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Бештар равшан"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Ба поён ҳаракат кунед"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Ба боло ҳаракат кунед"
 
 msgid "Move down"
-msgstr ""
+msgstr "Ба поён ҳаракат кунед"
 
 msgid "Move up"
-msgstr ""
+msgstr "Ба боло ҳаракат кунед"
 
 msgid "N"
-msgstr ""
+msgstr "Н"
 
 msgid "N/A"
-msgstr ""
+msgstr "Н/А"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Нидерланд"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Моҳи нав"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Версияи нави {version} дастрас аст."
 
 msgid "Next"
-msgstr ""
+msgstr "Баъдӣ"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Тасвири навбатӣ"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Чорчубаи навбатй"
 
 msgid "Next page"
-msgstr ""
+msgstr "Саҳифаи оянда"
 
 msgid "Next time"
-msgstr ""
+msgstr "Маротибаи дигар"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Пайвасти интернет ошкор нашудааст."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Плитаҳои OSM нест"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Барои '%s' ягон шаҳре ёфт нашуд"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Ягон шаҳр интихоб нашудааст"
 
 msgid "No data"
-msgstr ""
+msgstr "Маълумот нест"
 
 msgid "No date available"
-msgstr ""
+msgstr "Санаи дастрас нест"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Ягон макон интихоб нашудааст"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Ҳикояи мушаххас мавҷуд нест."
 
 msgid "No station data"
-msgstr ""
+msgstr "Маълумот дар бораи истгоҳ нест"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Маълумоти истгоҳ дастрас нест"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Ягон истгоҳ ёфт нашуд"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Ягон плитка зеркашӣ карда нашудааст"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Африқои Шимолӣ"
 
 msgid "North America"
-msgstr ""
+msgstr "Амрикои Шимолӣ"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Рейн-Вестфалияи Шимолӣ"
 
 msgid "Norway"
-msgstr ""
+msgstr "Норвегия"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "Хуб - Маълумоти иловагӣ"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "Хуб - Пешгӯӣ"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "Хуб - Харитаро кушоед"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Хуб - Тафсилот"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Клавиатураро кушоед"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Харитаи кушода"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Тарҳ ва идеяи аслӣ аз ҷониби %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "абрнок"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Абрнок ва борони сабук"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "абрнок ва барфи сабук"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Абри абрнок ва барфи сабуки тар"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Абрӣ ва борон"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Абрнок ва борон меборад"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Барфу абрнок"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Бориши абрнок ва барф меборад"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Абри абрнок ва барфи тар"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Бориши абрнок ва барфи тар меборад"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Абрӣ, раъду барқ ​​ва борон меборад"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Шабона"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Саҳифаи поён"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Саҳифа боло"
 
 msgid "Page down"
-msgstr ""
+msgstr "Саҳифа поён"
 
 msgid "Page up"
-msgstr ""
+msgstr "Саҳифа боло"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Поён кунед"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Паноҳ ба чап"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Ба рост паноҳ кунед"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Панҷ боло кунед"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Нимаабрӣ"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Нисман абрнок ва борони сабук"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Нисман абрнок ва барфи сабук"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Нисман абрнок ва барфи камбориш"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Нисман абрӣ ва борон меборад"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Ниман абрнок шуда, борони барф меборад"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Нисман абрнок ва барфи тар меборад"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Ниман абрнок, раъду барқ ​​ва борон меборад"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Перижи"
 
 msgid "Phase"
-msgstr ""
+msgstr "Марҳила"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Марҳила: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Бозӣ/Таваққуф"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Лутфан ҳам корбари API ва ҳам пароли API-ро ворид кунед."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Илтимос истед ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Польша"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Португалия"
 
 msgid "Precipitation"
 msgstr ""
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Бориш: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Боришот"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Боришот: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Барои аз нав ҷустуҷӯ кардан RR-ро пахш кунед"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Фишор"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Фишор: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Фишор: %s гПа"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Фишор: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Фишор: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Фишор: {} гПа"
 
 msgid "Prev"
-msgstr ""
+msgstr "Пеш"
 
 msgid "Previous"
-msgstr ""
+msgstr "Гузашта"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Тасвири қаблӣ"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Чаҳорчӯбаи қаблӣ"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Саҳифаи қаблӣ"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Вақти қаблӣ"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Prob борон."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Проблемаи борон. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Эҳтимоли борон: Не"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Борон: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "Радари RainViewer"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Сурх - Интихоби ранг"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Навсозӣ"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Барқарор кардани арзишҳои сервери пешфарз"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Рейнланд-Пфальц"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Рост - рӯзи дигар"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Тирчаи рост - Рӯзи дигар"
 
 msgid "Rise"
-msgstr ""
+msgstr "Бархостан"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Азимути баландшавӣ: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Баландшавии азимут: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Русия"
 
 msgid "S"
-msgstr ""
+msgstr "С"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Саарланд"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Суратҳои моҳвораӣ"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Суратҳои моҳвораӣ ба зудӣ меоянд!"
 
 msgid "Save"
-msgstr ""
+msgstr "Захира кунед"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Танзимоти API-ро захира кунед"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Саксония"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Саксония-Анхальт"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Шлезвиг-Голштейн"
 
 msgid "Scraped"
-msgstr ""
+msgstr "Харошида"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Ҷустуҷӯ аввал онлайн кӯшиш мекунад, агар ноком бошад, рӯйхати маҳаллиро истифода мебарад."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Шаҳри худро ҷустуҷӯ кунед"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Ҷустуҷӯи '%s'..."
 
 msgid "Select"
-msgstr ""
+msgstr "Интихоб кунед"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Минтақаро интихоб кунед"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Шаҳрро интихоб кунед"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Харитаро бо OK интихоб кунед"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Интихоби системаи воҳиди"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Воҳиди шамолро интихоб кунед"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "{} воҳиди интихоб кунед"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Тафсилоти соати интихобшуда"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Танзими азимут: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Азимутро муқаррар кунед: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Маҷмӯаҳо"
 
 msgid "Show info"
-msgstr ""
+msgstr "Нишон додани маълумот"
 
 msgid "Showers"
-msgstr ""
+msgstr "Борон"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Словакия"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Оҳистатар: {}с"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Барф / ях"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Санҷиши барф. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Проблемаи барф: Н/А"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Африқои Ҷанубӣ"
 
 msgid "South America"
-msgstr ""
+msgstr "Амрикои Ҷанубӣ"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Осиёи Ҷанубу Шарқӣ"
 
 msgid "Spain"
-msgstr ""
+msgstr "Испания"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Мушоҳидаҳои истгоҳӣ"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Истгоҳи: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Қувват (40-60 км/с)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "тулӯи офтоб"
 
 msgid "Sunset"
-msgstr ""
+msgstr "ғуруби офтоб"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "Супер пурра моҳ"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Швеция"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Швейтсария"
 
 msgid "Temp"
-msgstr ""
+msgstr "Ҳарорат"
 
 msgid "Temperature"
-msgstr ""
+msgstr "Ҳарорат"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Ҳарорат: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Ҳарорат: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Ҳарорат: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Ҳарорат: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Ҳарорат: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Ҳарорат: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Ташаккур {thanks} ва дӯстони дигар барои пешниҳодҳо"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Версияи дурдаст ({дурдаст}) аз версияи ҷорӣ ({current}) калонтар аст."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Абри болоии борик"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Тюрингия"
 
 msgid "Time"
-msgstr ""
+msgstr "Вақт"
 
 msgid "Today"
-msgstr ""
+msgstr "Имруз"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Тафсилоти имрӯз/фардо"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Иваз кардани афсона"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Токен соатҳои ба охир мерасад"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Соатҳои ба итмом расидани нишонаҳо бояд -1 ё рақами мусбат бошад."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Соатҳои ба итмом расидани нишонаҳо бояд рақам бошад."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Пагох"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Транзит (қулминация): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Баландии транзитӣ: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Баландии транзитӣ: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Танзимоти шаффофият"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Сатҳи шаффофият"
 
 msgid "UV Index"
-msgstr ""
+msgstr "Индекси ултрабунафш"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "ултрабунафш нест"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Носолим"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Барои одамони ҳассос носолим"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Танзимоти воҳид"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Танзимоти воҳид (Мукаммал)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Танзимоти воҳид (оддӣ)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Номаълум"
 
 msgid "Up"
-msgstr ""
+msgstr "боло"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Ба боло - Саҳифаи қаблӣ"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Навсозӣ бекор карда шуд."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Навсозӣ анҷом ёфт. Лутфан Enigma2-ро бозоғоз намоед."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Навсозӣ {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Навсозӣ: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Навсозӣ: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Навсозӣ..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Барои ҳаракат кардан тугмаҳои тирро истифода баред"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Барои тағир додани вақт | ← → -ро истифода баред Хуб барои баромадан"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Барои интиқоли | ←/→/↑/↓ -ро истифода баред Хуб барои баромадан"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Барои тағир додани ▲/▼, барои интихоб кардан OK-ро истифода баред"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Истифодаи вақти ҷорӣ"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Борони хеле сахт"
 
 msgid "Very high"
-msgstr ""
+msgstr "Хеле баланд"
 
 msgid "Very hot (>40°C)"
 msgstr ""
 
 msgid "Very low"
-msgstr ""
+msgstr "Хеле паст"
 
 msgid "Very unhealthy"
 msgstr ""
@@ -1328,142 +1328,142 @@ msgid "Visibility: %s m"
 msgstr ""
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Намоён: {} м"
 
 msgid "W"
-msgstr ""
+msgstr "В"
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Ҳилоли камёб"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Вайрон кардани Гиббоус"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Гарм (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Ҳилоли мумӣ"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Мумкунии Гиббоус"
 
 msgid "Weather"
-msgstr ""
+msgstr "Обу ҳаво"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Харитаи обу ҳаво"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Харитаҳои обу ҳаво"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Харитаҳои обу ҳаво ва моҳвора"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Харитаҳои обу ҳаво (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Слайд-шоу харитаҳои обу ҳаво"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Радари обу ҳаво"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Ҳаво имрӯз"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Ҳаво пагоҳ"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Пешгӯии ҳафта"
 
 msgid "Wind"
-msgstr ""
+msgstr "Шамол"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Самти шамол имрӯз"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Самти шамол пагоҳ"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Самти шамол"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Суръати шамол"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Суръати шамол {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Суръати шамол: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Шамол: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Шамол: %s км/с %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Шамол: Н/А"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Шамол: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Шамол: {} км/с {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Шамол: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Шаффофияти тиреза"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Зард - Дӯстдошта 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Масштаб кардан"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Масоҳат"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "Масштаб+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "Масштаб-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Масштаб:"
 
 msgid "v."
-msgstr ""
+msgstr "в."
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{соат} с {дақ} дақиқа"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• Кабуд барои захира кардан ҳамчун Home\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- барои ҷаҳидан ба 500 шаҳр\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• САБЗ барои захира ҳамчун дӯстдошта 1\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• Хуб барои интихоби шаҳр\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• СУРХ барои кушодани клавиатураи ҷустуҷӯ\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Барои паймоиш тугмаҳои тирро истифода баред\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• ЗАРД барои захира ҳамчун дӯстдошта 2\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Чорчӯба"

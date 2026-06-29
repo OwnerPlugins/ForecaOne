@@ -46,7 +46,7 @@ msgid "9 - Today + 9 days"
 msgstr "9 - Ma + 9 nap"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== HOLD RÉSZLETEK ==="
 
 msgid "API credentials not configured."
 msgstr "Az API-hitelesítő adatok nincsenek beállítva."
@@ -78,23 +78,23 @@ msgid "Afternoon"
 msgstr "Délután"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Életkor Újhold óta: {:.1f} nap"
 
 #, fuzzy
 msgid "Age: N/A"
 msgstr "AQI: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Szögátmérő: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Szögátmérő: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Látszólagos nagyságrend: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Látszólagos magnitúdó: {:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "Hozzárendelés a Kedvenc 1-hez"
@@ -112,7 +112,7 @@ msgid "Austria"
 msgstr "Ausztria"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Auth szerver"
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -187,7 +187,7 @@ msgid "Close legend"
 msgstr "Jelmagyarázat bezárása"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Zárja be a beállítást mentés nélkül"
 
 msgid "Cloudy"
 msgstr "Felhős"
@@ -280,7 +280,7 @@ msgid "Decrease Speed"
 msgstr "Sebesség csökkentése"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Alapértelmezések"
 
 msgid "Denmark"
 msgstr "Dánia"
@@ -316,7 +316,7 @@ msgid "Distance: {} km"
 msgstr "Távolság: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Most szeretné telepíteni?"
 "Új verzió (%s) elérhető\n"
 "\n"
 "Változásnapló: %s\n"
@@ -442,10 +442,10 @@ msgid "Foreca API Setup"
 msgstr "Foreca One menü"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "A Foreca API hitelesítő adatai még nincsenek konfigurálva. Kérjük, írja be őket a beállítási képernyőn."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "A Foreca API beállításai sikeresen mentve."
 
 msgid "Foreca One"
 msgstr "Foreca One"
@@ -670,7 +670,7 @@ msgid "Map loaded"
 msgstr "Térkép betöltve"
 
 msgid "Map server"
-msgstr ""
+msgstr "Térképszerver"
 
 msgid "Map {} selected"
 msgstr "A(z) {} térkép kiválasztva"
@@ -722,10 +722,10 @@ msgid "Moon details"
 msgstr "Óra részletei"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Holdkelte: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Holdnyugta: {}"
 
 msgid "Morning"
 msgstr "Reggel"
@@ -942,7 +942,7 @@ msgid "Play/Pause"
 msgstr "Lejátszás/Szünet"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Kérjük, adja meg az API felhasználót és az API jelszót is."
 
 msgid "Please wait ..."
 msgstr "Kérlek várj…"
@@ -1026,7 +1026,7 @@ msgid "Refresh"
 msgstr "Frissítés"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Az alapértelmezett szerverértékek visszaállítása"
 
 msgid "Rhineland-Palatine"
 msgstr "Rajna-vidék-Pfalz"
@@ -1041,10 +1041,10 @@ msgid "Rise"
 msgstr "Holdkelte"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Azimut emelkedése: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Azimut emelkedése: {:.0f}°"
 
 msgid "Russia"
 msgstr "Oroszország"
@@ -1114,10 +1114,10 @@ msgid "Selected hour details"
 msgstr "A kiválasztott óra részletei"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Azimut beállítása: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Azimut beállítása: {:.0f}°"
 
 msgid "Sets"
 msgstr "Holdnyugta"
@@ -1229,25 +1229,25 @@ msgid "Toggle legend"
 msgstr "Jelmagyarázat be-/kikapcsolása"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Token lejárati óra"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "A token lejárati óráinak -1-nek vagy pozitív számnak kell lenniük."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "A token lejárati órájának számnak kell lennie."
 
 msgid "Tomorrow"
 msgstr "Holnap"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Tömegközlekedés (tetőpont): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Tranzitmagasság: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Tömegközlekedési magasság: {:.0f}°"
 
 msgid "Transparency Settings"
 msgstr "Átlátszósági beállítások"

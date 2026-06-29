@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(అదనపు డేటా అందుబాటులో లేదు)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - ఈరోజు"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - ఈరోజు + 1 రోజు"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - ఈరోజు + 2 రోజులు"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - ఈరోజు + 3 రోజులు"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - ఈరోజు + 4 రోజులు"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - ఈరోజు + 5 రోజులు"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - ఈరోజు + 6 రోజులు"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - ఈరోజు + 7 రోజులు"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - ఈరోజు + 8 రోజులు"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - ఈ రోజు + 9 రోజులు"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== చంద్రుని వివరాలు ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API ఆధారాలు కాన్ఫిగర్ చేయబడలేదు."
 
 msgid "API error"
-msgstr ""
+msgstr "API లోపం"
 
 msgid "API password"
-msgstr ""
+msgstr "API పాస్‌వర్డ్"
 
 msgid "API user"
-msgstr ""
+msgstr "API వినియోగదారు"
 
 msgid "AQI {}"
 msgstr ""
@@ -71,1399 +71,1399 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "అధునాతనమైనది"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "అధునాతన యూనిట్ సెట్టింగ్‌లు"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "మధ్యాహ్నం"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "అమావాస్య నుండి వయస్సు: {:.1f} రోజులు"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "వయస్సు: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "కోణీయ వ్యాసం: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "కోణీయ వ్యాసం: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "స్పష్టమైన పరిమాణం: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "స్పష్టమైన పరిమాణం: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "ఇష్టమైన వాటికి కేటాయించండి 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "ఇష్టమైన 2కి కేటాయించండి"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "ఇంటికి అప్పగించండి"
 
 msgid "Australia"
-msgstr ""
+msgstr "ఆస్ట్రేలియా"
 
 msgid "Austria"
-msgstr ""
+msgstr "ఆస్ట్రియా"
 
 msgid "Auth server"
-msgstr ""
+msgstr "ప్రమాణ సర్వర్"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "బాడెన్-వుర్టెంబర్గ్"
 
 msgid "Barometer"
-msgstr ""
+msgstr "బేరోమీటర్"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "బవేరియా"
 
 msgid "Belgium"
-msgstr ""
+msgstr "బెల్జియం"
 
 msgid "Berlin"
-msgstr ""
+msgstr "బెర్లిన్"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "బ్లాక్ మూన్"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "బ్లూ - హోమ్"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "బ్లూ మూన్"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "బ్రాండెన్‌బర్గ్"
 
 msgid "Bremen"
-msgstr ""
+msgstr "బ్రెమెన్"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "లెక్కిస్తోంది..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "రద్దు చేయి"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "సెల్సియస్, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "చేంజ్లాగ్: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "మార్పులు వెంటనే వర్తిస్తాయి"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "నవీకరణల కోసం తనిఖీ చేయండి"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "వివరాల వీక్షణను ఎంచుకోండి"
 
 msgid "City Selection"
-msgstr ""
+msgstr "నగరం ఎంపిక"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "నగర జాబితా ఫైల్ కనుగొనబడలేదు!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "ఒక టెంప్ ఫైల్‌లను క్లీనప్ చేయాలా?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "తాత్కాలిక ఫైళ్లను క్లీనప్ చేయండి"
 
 msgid "Clear"
-msgstr ""
+msgstr "క్లియర్"
 
 msgid "Close"
-msgstr ""
+msgstr "మూసివేయి"
 
 msgid "Close legend"
-msgstr ""
+msgstr "క్లోజ్ లెజెండ్"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "సేవ్ చేయకుండా సెటప్‌ను మూసివేయండి"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "మేఘావృతం"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "మేఘావృతం మరియు తేలికపాటి వర్షం"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "మేఘావృతం మరియు తేలికపాటి మంచు"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "మేఘావృతం మరియు తేలికపాటి తడి మంచు"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "మేఘావృతం మరియు జల్లులు"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "మేఘావృతం మరియు మంచు జల్లులు"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "మేఘావృతమైన మరియు తడి మంచు జల్లులు"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "మేఘావృతం, ఉరుములు, మెరుపులతో కూడిన వర్షం"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "చలి (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "కలర్ లెజెండ్"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "రంగు సెలెక్టర్"
 
 msgid "Color data"
-msgstr ""
+msgstr "రంగు డేటా"
 
 msgid "Color legend"
-msgstr ""
+msgstr "రంగు పురాణం"
 
 msgid "Color name"
-msgstr ""
+msgstr "రంగు పేరు"
 
 msgid "Color select"
-msgstr ""
+msgstr "రంగు ఎంపిక"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "పరిస్థితి: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "ఖండాల వాతావరణ మ్యాప్స్"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "చల్లని (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "నవీకరణ సమాచారాన్ని పొందడం సాధ్యపడలేదు."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "మ్యాప్ APIని ప్రారంభించడం సాధ్యపడలేదు."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "సూచన డేటాను లోడ్ చేయడం సాధ్యపడలేదు"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "సంస్కరణ సమాచారాన్ని అన్వయించడం సాధ్యపడలేదు."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "ప్రస్తుత వాతావరణం మరియు సూచన"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "ప్రస్తుత వాతావరణం మరియు తదుపరి 10 రోజుల సూచన"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "ప్రస్తుతము: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "చెక్ రిపబ్లిక్"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Foreca అందించిన డేటా"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "తేదీ: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "రోజు"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "వేగాన్ని తగ్గించండి"
 
 msgid "Defaults"
-msgstr ""
+msgstr "డిఫాల్ట్‌లు"
 
 msgid "Denmark"
-msgstr ""
+msgstr "డెన్మార్క్"
 
 msgid "Details"
-msgstr ""
+msgstr "వివరాలు"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "డ్యూపాయింట్ {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "మంచు బిందువు {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "డ్యూపాయింట్: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "మంచు బిందువు: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "డ్యూపాయింట్: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "దూరం {} కి.మీ"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "దూరం: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "దూరం: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "దూరం: {} కి.మీ"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "మీరు దీన్ని ఇప్పుడు ఇన్‌స్టాల్ చేయాలనుకుంటున్నారా?"
 
 msgid "Down"
-msgstr ""
+msgstr "డౌన్"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "డౌన్ - తదుపరి పేజీ"
 
 msgid "Download error"
-msgstr ""
+msgstr "డౌన్‌లోడ్ లోపం"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "చిత్రాలను డౌన్‌లోడ్ చేస్తోంది..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "టైల్స్ డౌన్‌లోడ్ అవుతోంది..."
 
 msgid "E"
-msgstr ""
+msgstr "ఇ"
 
 msgid "East Asia"
-msgstr ""
+msgstr "తూర్పు ఆసియా"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "నవీకరణల కోసం తనిఖీ చేయడంలో లోపం."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "డేటాను లోడ్ చేయడంలో లోపం"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "మ్యాప్ లోడ్ చేయడంలో లోపం"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "మ్యాప్‌లను లోడ్ చేయడంలో లోపం. కనెక్షన్‌ని తనిఖీ చేయండి."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "ఇష్టమైన వాటిని సేవ్ చేయడంలో లోపం!"
 
 msgid "Europe"
-msgstr ""
+msgstr "యూరప్"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "యూరోపియన్ వాతావరణ మ్యాప్స్"
 
 msgid "Evening"
-msgstr ""
+msgstr "సాయంత్రం"
 
 msgid "Exit"
-msgstr ""
+msgstr "నిష్క్రమించు"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "నిష్క్రమించు - ముగింపు"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "ఎగ్జిట్ / క్లోజ్ లెజెండ్"
 
 msgid "Extreme"
-msgstr ""
+msgstr "విపరీతమైనది"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "విపరీతమైన / ఉరుములు"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "ఫారెన్‌హీట్, mph, inHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "వేగంగా: {}లు"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "ఇష్టమైన 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "ఇష్టమైన 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "ఇష్టమైనవి వివరాలు"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "ఇష్టమైనవి వివరాలు"
 
 msgid "Feels like"
-msgstr ""
+msgstr "అనిపిస్తుంది"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "{}లా అనిపిస్తుంది"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "{}{} అనిపిస్తుంది"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "ఇలా అనిపిస్తుంది: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "అనిపిస్తుంది: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "అనిపిస్తుంది: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "ఇలా అనిపిస్తుంది: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "ఇలా అనిపిస్తుంది: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "ఇలా అనిపిస్తుంది: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "ఫిన్లాండ్"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "మొదటి త్రైమాసికం"
 
 msgid "Fog"
-msgstr ""
+msgstr "పొగమంచు"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "ఫోర్కా API సెటప్"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Forca API ఆధారాలు ఇంకా కాన్ఫిగర్ చేయబడలేదు. దయచేసి వాటిని సెటప్ స్క్రీన్‌లో నమోదు చేయండి."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Forca API సెట్టింగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి."
 
 msgid "Foreca One"
-msgstr ""
+msgstr "ఫోర్కా వన్"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "ఫోర్కా వన్ లైవ్ మ్యాప్స్ (API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "ఫోర్కా వన్ మెనూ"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One స్టేషన్‌లు ఏవీ కనుగొనబడలేదు"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "ఫోర్కా వన్ స్టేషన్‌లు: {} సమీపంలోని స్టేషన్‌లు ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "ఫోర్కా వన్ వాతావరణ సూచన"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One వాతావరణం మరియు సూచన ver. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "ఫోర్కా వన్ | మ్యాప్ {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "'%s' కోసం స్థానికంగా %d నగరాలు కనుగొనబడ్డాయి"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "'%s' కోసం ఆన్‌లైన్‌లో %d నగరాలు కనుగొనబడ్డాయి"
 
 msgid "Frame →"
-msgstr ""
+msgstr "ఫ్రేమ్ →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "ఫ్రేమ్: {}"
 
 msgid "France"
-msgstr ""
+msgstr "ఫ్రాన్స్"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "పౌర్ణమి"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "గాల్ ఫోర్స్ (>60 కిమీ/గం)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "జర్మన్ రాష్ట్రాల వాతావరణ మ్యాప్స్"
 
 msgid "Germany"
-msgstr ""
+msgstr "జర్మనీ"
 
 msgid "Good"
-msgstr ""
+msgstr "బాగుంది"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "గ్రేట్ బ్రిటన్"
 
 msgid "Greece"
-msgstr ""
+msgstr "గ్రీస్"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "ఆకుపచ్చ - ఇష్టమైన 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "గస్ట్ {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "గాస్ట్: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "హాంబర్గ్"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "ప్రమాదకరం"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "హెడర్ - ఎంచుకోదగినది కాదు"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "భారీ వర్షం"
 
 msgid "Help"
-msgstr ""
+msgstr "సహాయం"
 
 msgid "Hesse"
-msgstr ""
+msgstr "హెస్సే"
 
 msgid "High"
-msgstr ""
+msgstr "అధిక"
 
 msgid "Home"
-msgstr ""
+msgstr "హోమ్"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "వేడి (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "గంట వివరాలు"
 
 msgid "Humidity"
-msgstr ""
+msgstr "తేమ"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "తేమ: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "తేమ: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "హంగేరి"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "మంచు / మంచు"
 
 msgid "Illumination"
-msgstr ""
+msgstr "ప్రకాశం"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "ప్రకాశం: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "చిత్రం %(ప్రస్తుతం)d/%(మొత్తం)d – %(రోజు)లు"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "చిత్రం %(ప్రస్తుతం)d/%(మొత్తం)d – %(రోజు)లు (పాజ్ చేయబడింది)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "చిత్రం అందుబాటులో లేదు"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "ఇంపీరియల్ వ్యవస్థ"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "వేగం పెంచండి"
 
 msgid "Info"
-msgstr ""
+msgstr "సమాచారం"
 
 msgid "Info - About"
-msgstr ""
+msgstr "సమాచారం - గురించి"
 
 msgid "Ireland"
-msgstr ""
+msgstr "ఐర్లాండ్"
 
 msgid "Italy"
-msgstr ""
+msgstr "ఇటలీ"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "100 క్రిందికి దూకు"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "100 పైకి దూకు"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "500 దిగువకు దూకండి"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "500 పైకి దూకండి"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "కీబోర్డ్"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "చివరి త్రైమాసికం"
 
 msgid "Latvia"
-msgstr ""
+msgstr "లాట్వియా"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "ఎడమ - మునుపటి రోజు"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "ఎడమ బాణం - మునుపటి రోజు"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "కాంతి (0-20 కిమీ/గం)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "తేలికపాటి వర్షం / చినుకులు"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "తేలికపాటి నుండి మితమైన"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "అందుబాటులో ఉన్న మ్యాప్‌లను లోడ్ చేస్తోంది..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "చంద్ర దశలను లోడ్ చేస్తోంది..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "సమీపంలోని స్టేషన్‌లను లోడ్ చేస్తోంది..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "టైల్స్ లోడ్ అవుతోంది..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "వారపు సూచన లోడ్ అవుతోంది..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "లోడ్ అవుతోంది..."
 
 msgid "Low"
-msgstr ""
+msgstr "తక్కువ"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "దిగువ సాక్సోనీ"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "చంద్ర క్యాలెండర్"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "వచ్చే నెల నుండి చంద్ర దశలు"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "లక్సెంబర్గ్"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "మ్యాప్ & టైల్స్ లోడ్ చేయబడ్డాయి"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "మ్యాప్ లోడ్ చేయబడింది"
 
 msgid "Map server"
-msgstr ""
+msgstr "మ్యాప్ సర్వర్"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "మ్యాప్ {} ఎంచుకోబడింది"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "మెక్లెన్‌బర్గ్-వోర్పోమెర్న్"
 
 msgid "Menu"
-msgstr ""
+msgstr "మెనూ"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "మెను - సెట్టింగ్‌లు"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "విలీనం విఫలమైంది"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "మెటియోగ్రామ్"
 
 msgid "Metric System"
-msgstr ""
+msgstr "మెట్రిక్ సిస్టమ్"
 
 msgid "Middle America"
-msgstr ""
+msgstr "మధ్య అమెరికా"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "మధ్య ఆసియా"
 
 msgid "Middle East"
-msgstr ""
+msgstr "మధ్యప్రాచ్యం"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "తేలికపాటి (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "మధ్యస్తంగా"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "మధ్యస్థ (20-40 కిమీ/గం)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "మోస్తరు వర్షం"
 
 msgid "Month"
-msgstr ""
+msgstr "నెల"
 
 msgid "Moon details"
-msgstr ""
+msgstr "చంద్రుని వివరాలు"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "చంద్రోదయం: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "మూన్సెట్: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "ఉదయం"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "చాలా వరకు స్పష్టంగా ఉంటుంది"
 
 msgid "Move Down"
-msgstr ""
+msgstr "క్రిందికి తరలించు"
 
 msgid "Move Up"
-msgstr ""
+msgstr "పైకి తరలించు"
 
 msgid "Move down"
-msgstr ""
+msgstr "క్రిందికి తరలించు"
 
 msgid "Move up"
-msgstr ""
+msgstr "పైకి కదలండి"
 
 msgid "N"
-msgstr ""
+msgstr "ఎన్"
 
 msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "నెదర్లాండ్స్"
 
 msgid "New Moon"
-msgstr ""
+msgstr "అమావాస్య"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "కొత్త వెర్షన్ {version} అందుబాటులో ఉంది."
 
 msgid "Next"
-msgstr ""
+msgstr "తదుపరి"
 
 msgid "Next Image"
-msgstr ""
+msgstr "తదుపరి చిత్రం"
 
 msgid "Next frame"
-msgstr ""
+msgstr "తదుపరి ఫ్రేమ్"
 
 msgid "Next page"
-msgstr ""
+msgstr "తదుపరి పేజీ"
 
 msgid "Next time"
-msgstr ""
+msgstr "తదుపరిసారి"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "ఇంటర్నెట్ కనెక్షన్ కనుగొనబడలేదు."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "OSM టైల్స్ లేవు"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "'%s' కోసం స్థానికంగా నగరాలు ఏవీ కనుగొనబడలేదు"
 
 msgid "No city selected"
-msgstr ""
+msgstr "ఏ నగరం ఎంచుకోబడలేదు"
 
 msgid "No data"
-msgstr ""
+msgstr "డేటా లేదు"
 
 msgid "No date available"
-msgstr ""
+msgstr "తేదీ అందుబాటులో లేదు"
 
 msgid "No location selected"
-msgstr ""
+msgstr "స్థానం ఎంపిక చేయబడలేదు"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "నిర్దిష్ట పురాణం అందుబాటులో లేదు."
 
 msgid "No station data"
-msgstr ""
+msgstr "స్టేషన్ డేటా లేదు"
 
 msgid "No station data available"
-msgstr ""
+msgstr "స్టేషన్ డేటా అందుబాటులో లేదు"
 
 msgid "No stations found"
-msgstr ""
+msgstr "స్టేషన్‌లు ఏవీ కనుగొనబడలేదు"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "టైల్స్ ఏవీ డౌన్‌లోడ్ చేయబడలేదు"
 
 msgid "North Africa"
-msgstr ""
+msgstr "ఉత్తర ఆఫ్రికా"
 
 msgid "North America"
-msgstr ""
+msgstr "ఉత్తర అమెరికా"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "నార్త్ రైన్-వెస్ట్‌ఫాలియా"
 
 msgid "Norway"
-msgstr ""
+msgstr "నార్వే"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "సరే - అదనపు సమాచారం"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "సరే - సూచన"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "సరే - మ్యాప్‌ని తెరవండి"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "సరే - వివరాలు"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "కీబోర్డ్ తెరవండి"
 
 msgid "Open Map"
-msgstr ""
+msgstr "మ్యాప్‌ని తెరవండి"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "అసలు డిజైన్ మరియు ఆలోచన %s ద్వారా"
 
 msgid "Overcast"
-msgstr ""
+msgstr "మేఘావృతమైంది"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "మేఘావృతమై తేలికపాటి వర్షం"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "మేఘావృతమై తేలికపాటి మంచు"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "మేఘావృతమై తేలికపాటి తడి మంచు"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "మేఘావృతమై వర్షం"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "మబ్బులు మరియు జల్లులు"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "మబ్బులు మరియు మంచు"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "మేఘావృతమైన మరియు మంచు జల్లులు"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "మేఘావృతమైన మరియు తడి మంచు"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "మేఘావృతమైన మరియు తడి మంచు జల్లులు"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "మేఘావృతం, ఉరుములు, మెరుపులతో కూడిన వర్షం"
 
 msgid "Overnight"
-msgstr ""
+msgstr "రాత్రిపూట"
 
 msgid "Page Down"
-msgstr ""
+msgstr "పేజీ డౌన్"
 
 msgid "Page Up"
-msgstr ""
+msgstr "పేజీ పైకి"
 
 msgid "Page down"
-msgstr ""
+msgstr "పేజీ డౌన్"
 
 msgid "Page up"
-msgstr ""
+msgstr "పేజీ పైకి"
 
 msgid "Pan down"
-msgstr ""
+msgstr "క్రిందికి పాన్ చేయండి"
 
 msgid "Pan left"
-msgstr ""
+msgstr "పాన్ ఎడమ"
 
 msgid "Pan right"
-msgstr ""
+msgstr "కుడివైపు పాన్ చేయండి"
 
 msgid "Pan up"
-msgstr ""
+msgstr "పైకి పాన్ చేయండి"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతమై ఉంది"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతమై తేలికపాటి వర్షం"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతమై తేలికపాటి మంచు"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతమై తేలికపాటి తడి మంచు"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతం మరియు జల్లులు"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతమై మంచు వర్షం కురుస్తుంది"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతం మరియు తడి మంచు జల్లులు"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "పాక్షికంగా మేఘావృతమై ఉంటుంది, వర్షంతో ఉరుములతో కూడిన వర్షం కురిసే అవకాశం ఉంది"
 
 msgid "Perigee"
-msgstr ""
+msgstr "పెరిగే"
 
 msgid "Phase"
-msgstr ""
+msgstr "దశ"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "దశ: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "ప్లే/పాజ్ చేయండి"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "దయచేసి API వినియోగదారు మరియు API పాస్‌వర్డ్ రెండింటినీ నమోదు చేయండి."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "దయచేసి వేచి ఉండండి..."
 
 msgid "Poland"
-msgstr ""
+msgstr "పోలాండ్"
 
 msgid "Portugal"
-msgstr ""
+msgstr "పోర్చుగల్"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "అవపాతం"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "అవపాతం: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "అవపాతం"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "అవపాతం: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "మళ్లీ వెతకడానికి REDని నొక్కండి"
 
 msgid "Pressure"
-msgstr ""
+msgstr "ఒత్తిడి"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "ఒత్తిడి: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "ఒత్తిడి: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "ఒత్తిడి: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "ఒత్తిడి: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "ఒత్తిడి: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "మునుపటి"
 
 msgid "Previous"
-msgstr ""
+msgstr "మునుపటి"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "మునుపటి చిత్రం"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "మునుపటి ఫ్రేమ్"
 
 msgid "Previous page"
-msgstr ""
+msgstr "మునుపటి పేజీ"
 
 msgid "Previous time"
-msgstr ""
+msgstr "మునుపటి సమయం"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "వర్షం ప్రాబ్."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "వర్షం ప్రాబ్. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "వర్షం ప్రాబ్.: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "వర్షం: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "రెయిన్ వ్యూయర్ రాడార్"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "ఎరుపు - రంగు ఎంపిక"
 
 msgid "Refresh"
-msgstr ""
+msgstr "రిఫ్రెష్ చేయండి"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "డిఫాల్ట్ సర్వర్ విలువలను పునరుద్ధరించండి"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "రైన్‌ల్యాండ్-పాలటైన్"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "కుడి - మరుసటి రోజు"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "కుడి బాణం - మరుసటి రోజు"
 
 msgid "Rise"
-msgstr ""
+msgstr "ఎదుగు"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "రైజ్ అజిముత్: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "రైజ్ అజిముత్: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "రష్యా"
 
 msgid "S"
-msgstr ""
+msgstr "ఎస్"
 
 msgid "Saarland"
-msgstr ""
+msgstr "సార్లాండ్"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "ఉపగ్రహ ఫోటోలు"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "శాటిలైట్ ఫోటోలు త్వరలో వస్తాయి!"
 
 msgid "Save"
-msgstr ""
+msgstr "సేవ్ చేయండి"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "API సెట్టింగ్‌లను సేవ్ చేయండి"
 
 msgid "Saxony"
-msgstr ""
+msgstr "సాక్సోనీ"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "సాక్సోనీ-అన్హాల్ట్"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "ష్లెస్విగ్-హోల్‌స్టెయిన్"
 
 msgid "Scraped"
-msgstr ""
+msgstr "స్క్రాప్ చేయబడింది"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "ఆన్‌లైన్‌లో శోధించండి, విఫలమైతే స్థానిక జాబితాను ఉపయోగిస్తుంది."
 
 msgid "Search your City"
-msgstr ""
+msgstr "మీ నగరాన్ని శోధించండి"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "'%s' కోసం శోధిస్తోంది..."
 
 msgid "Select"
-msgstr ""
+msgstr "ఎంచుకోండి"
 
 msgid "Select Region"
-msgstr ""
+msgstr "ప్రాంతాన్ని ఎంచుకోండి"
 
 msgid "Select a city"
-msgstr ""
+msgstr "ఒక నగరాన్ని ఎంచుకోండి"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "సరేతో మ్యాప్‌ను ఎంచుకోండి"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "యూనిట్ వ్యవస్థను ఎంచుకోండి"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "గాలి యూనిట్ ఎంచుకోండి"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "{} యూనిట్‌ని ఎంచుకోండి"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "ఎంచుకున్న గంట వివరాలు"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "అజిముత్ సెట్: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "అజిముత్ సెట్: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "సెట్స్"
 
 msgid "Show info"
-msgstr ""
+msgstr "సమాచారాన్ని చూపు"
 
 msgid "Showers"
-msgstr ""
+msgstr "జల్లులు"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "స్లోవేకియా"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "నెమ్మదిగా: {}లు"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "మంచు / మంచు"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "మంచు ప్రోబ్. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "స్నో ప్రోబ్.: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "దక్షిణాఫ్రికా"
 
 msgid "South America"
-msgstr ""
+msgstr "దక్షిణ అమెరికా"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "ఆగ్నేయాసియా"
 
 msgid "Spain"
-msgstr ""
+msgstr "స్పెయిన్"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "స్టేషన్ పరిశీలనలు"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "స్టేషన్: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "బలమైన (40-60 కిమీ/గం)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "సూర్యోదయం"
 
 msgid "Sunset"
-msgstr ""
+msgstr "సూర్యాస్తమయం"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "సూపర్ ఫుల్ మూన్"
 
 msgid "Sweden"
-msgstr ""
+msgstr "స్వీడన్"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "స్విట్జర్లాండ్"
 
 msgid "Temp"
-msgstr ""
+msgstr "టెంప్"
 
 msgid "Temperature"
-msgstr ""
+msgstr "ఉష్ణోగ్రత"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "ఉష్ణోగ్రత: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "ఉష్ణోగ్రత: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "ఉష్ణోగ్రత: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "ఉష్ణోగ్రత: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "ఉష్ణోగ్రత: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "ఉష్ణోగ్రత: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "సూచనలకు ధన్యవాదాలు {ధన్యవాదాలు} మరియు ఇతర స్నేహితులకు"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "రిమోట్ వెర్షన్ ({రిమోట్}) ప్రస్తుత ({ప్రస్తుత}) కంటే పాతది."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "సన్నని ఎగువ మేఘం"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "తురింగియా"
 
 msgid "Time"
-msgstr ""
+msgstr "సమయం"
 
 msgid "Today"
-msgstr ""
+msgstr "ఈరోజు"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "నేడు/రేపు వివరాలు"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "లెజెండ్‌ని టోగుల్ చేయండి"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "టోకెన్ గడువు గంటలు"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "టోకెన్ గడువు సమయాలు తప్పనిసరిగా -1 లేదా ధనాత్మక సంఖ్య అయి ఉండాలి."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "టోకెన్ గడువు ముగింపు గంటలు తప్పనిసరిగా సంఖ్య అయి ఉండాలి."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "రేపు"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "రవాణా (పరాకాష్ట): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "రవాణా ఎత్తు: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "రవాణా ఎత్తు: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "పారదర్శకత సెట్టింగ్‌లు"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "పారదర్శకత స్థాయి"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV సూచిక"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "అనారోగ్యకరమైనది"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "సెన్సిటివ్‌లకు అనారోగ్యకరం"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "యూనిట్ సెట్టింగ్‌లు"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "యూనిట్ సెట్టింగ్‌లు (అధునాతన)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "యూనిట్ సెట్టింగ్‌లు (సరళమైన)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "తెలియదు"
 
 msgid "Up"
-msgstr ""
+msgstr "పైకి"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "పైకి - మునుపటి పేజీ"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "నవీకరణ రద్దు చేయబడింది."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "నవీకరణ పూర్తయింది. దయచేసి Enigma2ని పునఃప్రారంభించండి."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "నవీకరించబడింది {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "నవీకరించబడింది: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "నవీకరించబడింది: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "నవీకరిస్తోంది..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "స్క్రోల్ చేయడానికి బాణం కీలను ఉపయోగించండి"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "సమయాన్ని మార్చడానికి ← → ఉపయోగించండి | నిష్క్రమించడానికి సరే"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "తరలించడానికి ←/→/↑/↓ ఉపయోగించండి | నిష్క్రమించడానికి సరే"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "మార్చడానికి ▲/▼ ఉపయోగించండి, ఎంచుకోవడానికి సరే"
 
 msgid "Using current time"
-msgstr ""
+msgstr "ప్రస్తుత సమయాన్ని ఉపయోగించడం"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "చాలా భారీ వర్షం"
 
 msgid "Very high"
-msgstr ""
+msgstr "చాలా ఎక్కువ"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "చాలా వేడి (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "చాలా తక్కువ"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "చాలా అనారోగ్యకరమైనది"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "దృశ్యమానత: %s మీ"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "దృశ్యమానత: {} మీ"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "క్షీణిస్తున్న చంద్రవంక"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "క్షీణిస్తున్న గిబ్బస్"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "వెచ్చగా (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "వాక్సింగ్ చంద్రవంక"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "వాక్సింగ్ గిబ్బస్"
 
 msgid "Weather"
-msgstr ""
+msgstr "వాతావరణం"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "వాతావరణ మ్యాప్"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "వాతావరణ మ్యాప్స్"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "వాతావరణ మ్యాప్స్ & ఉపగ్రహం"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "వాతావరణ మ్యాప్‌లు (వెటర్‌కోంటోర్)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "వాతావరణ మ్యాప్స్ స్లయిడ్ షో"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "వాతావరణ రాడార్"
 
 msgid "Weather today"
-msgstr ""
+msgstr "నేడు వాతావరణం"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "రేపు వాతావరణం"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "వారపు సూచన"
 
 msgid "Wind"
-msgstr ""
+msgstr "గాలి"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "ఈరోజు గాలి దిశ"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "రేపు గాలి దిశ"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "గాలి దిశ"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "గాలి వేగం"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "గాలి వేగం {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "గాలి వేగం: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "గాలి: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "గాలి: %s కిమీ/గం %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "గాలి: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "గాలి: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "గాలి: {} కిమీ/గం {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "గాలి: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "విండో పారదర్శకత"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "పసుపు - ఇష్టమైన 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "జూమ్ ఇన్ చేయండి"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "జూమ్ అవుట్ చేయండి"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "జూమ్+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "జూమ్-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "జూమ్:"
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{hours} h {mins} నిమి"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• హోమ్‌గా సేవ్ చేయడానికి నీలం\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- 500 నగరాలను అధిగమించడానికి\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• ఇష్టమైన 1\nగా సేవ్ చేయడానికి ఆకుపచ్చ"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• నగరాన్ని ఎంచుకోవడానికి సరే\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• శోధన కీబోర్డ్‌ను తెరవడానికి ఎరుపు రంగు\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• నావిగేట్ చేయడానికి బాణం కీలను ఉపయోగించండి\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• ఇష్టమైన 2\nగా సేవ్ చేయడానికి పసుపు"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← ఫ్రేమ్"

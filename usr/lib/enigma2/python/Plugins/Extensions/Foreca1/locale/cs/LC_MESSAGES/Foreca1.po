@@ -312,7 +312,7 @@ msgid "Distance: {} km"
 msgstr "Vzdálenost: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Chcete jej nainstalovat nyní?"
 "Nová verze %s k dispozici\n"
 "\n"
 "Seznam změn: %s\n"
