@@ -722,13 +722,13 @@ msgid "Moonset: {}"
 msgstr "Oy botishi: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Ertalab"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Ko'pincha aniq"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Pastga siljiting"
 
 msgid "Move Up"
 msgstr "Yuqoriga siljitish"
@@ -1289,10 +1289,10 @@ msgid "Updated: N/A"
 msgstr "Yangilangan: Yoʻq"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Yangilangan: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Yangilanmoqda..."
 
 msgid "Use arrow keys to scroll"
 msgstr "O‘tkazish uchun o‘q tugmalaridan foydalaning"

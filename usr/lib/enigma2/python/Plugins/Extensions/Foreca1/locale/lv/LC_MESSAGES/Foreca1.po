@@ -411,10 +411,10 @@ msgid "Feels like: %d%s"
 msgstr "Šķiet, ka: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Šķiet, ka: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Šķiet, ka: N/A"
 
 msgid "Feels like: {}"
 msgstr "Šķiet, ka: {}"

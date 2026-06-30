@@ -1022,7 +1022,7 @@ msgid "Restore default server values"
 msgstr "Rivendosni vlerat e paracaktuara të serverit"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Rheinland-Palatine"
 
 msgid "Right - Next day"
 msgstr "E drejta - Ditën tjetër"

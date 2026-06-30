@@ -1022,7 +1022,7 @@ msgid "Restore default server values"
 msgstr "Rivendosni vlerat e paracaktuara të serverit"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Rheinland-Palatine"
 
 msgid "Right - Next day"
 msgstr "E drejta - Ditën tjetër"
@@ -1445,7 +1445,7 @@ msgid "{hours} h {mins} min"
 msgstr "{orë} orë {min.} min"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• BLU për ta ruajtur si bazë\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
 msgstr "• CH+/CH- për të kapërcyer 500 qytete\n"

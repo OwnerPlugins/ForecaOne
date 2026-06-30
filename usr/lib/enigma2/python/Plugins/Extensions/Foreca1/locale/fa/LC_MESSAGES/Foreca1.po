@@ -410,34 +410,34 @@ msgid "Feels like: %d%s"
 msgstr "به نظر می رسد: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "به نظر می رسد: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "احساسی مانند: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "احساس می کند: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "احساسی مانند: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "احساس مانند: {} درجه سانتیگراد"
 
 msgid "Finland"
-msgstr ""
+msgstr "فنلاند"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "سه ماهه اول"
 
 msgid "Fog"
-msgstr ""
+msgstr "مه"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "راه اندازی API Foreca"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "اعتبارنامه API Foreca هنوز پیکربندی نشده است. لطفاً آنها را در صفحه تنظیمات وارد کنید."
 
 msgid "Foreca API settings saved successfully."
 msgstr "تنظیمات API Foreca با موفقیت ذخیره شد."
@@ -449,10 +449,10 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "منوی Foreca One"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One هیچ ایستگاهی یافت نشد"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "ایستگاه های Foreca One: {} ایستگاه های نزدیک ({})"

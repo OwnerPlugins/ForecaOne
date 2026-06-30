@@ -383,7 +383,7 @@ msgid "Fahrenheit, mph, inHg"
 msgstr "Фаренгейт, миль, дар Hg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Тезтар: {}с"
 
 msgid "Favorite 1"
 msgstr "Дӯстдошта 1"
@@ -947,7 +947,7 @@ msgid "Portugal"
 msgstr "Португалия"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Боришот"
 
 msgid "Precipitation: {}"
 msgstr "Бориш: {}"
@@ -1316,16 +1316,16 @@ msgid "Very high"
 msgstr "Хеле баланд"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Хеле гарм (>40 ° C)"
 
 msgid "Very low"
 msgstr "Хеле паст"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Хеле носолим"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Намоиш: %s м"
 
 msgid "Visibility: {} m"
 msgstr "Намоён: {} м"

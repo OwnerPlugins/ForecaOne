@@ -161,13 +161,13 @@ msgid "Changes apply immediately"
 msgstr "Өөрчлөлтүүд нэн даруй хэрэгжинэ"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Шинэчлэлт байгаа эсэхийг шалгана уу"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Нарийвчилсан харагдацыг сонгоно уу"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Хотын сонголт"
 
 msgid "City list file not found!"
 msgstr "Хотын жагсаалтын файл олдсонгүй!"
@@ -1412,10 +1412,10 @@ msgid "Wind: {}"
 msgstr "Салхи: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Салхи: {} км/ц {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Салхи: {} {} {}"
 
 msgid "Window transparency"
 msgstr "Цонхны ил тод байдал"

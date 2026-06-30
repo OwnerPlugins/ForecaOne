@@ -1010,7 +1010,7 @@ msgid "Rain: {:.1f} {}"
 msgstr "רעגן: {:.1ף} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer ראַדאַר"
 
 msgid "Red - Color select"
 msgstr "רויט - קאָליר אויסקלייַבן"

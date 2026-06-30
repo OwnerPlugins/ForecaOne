@@ -116,7 +116,7 @@ msgid "Auth server"
 msgstr "توثیق سرور"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "بیڈن وورٹمبرگ"
 
 msgid "Barometer"
 msgstr "بیرومیٹر"

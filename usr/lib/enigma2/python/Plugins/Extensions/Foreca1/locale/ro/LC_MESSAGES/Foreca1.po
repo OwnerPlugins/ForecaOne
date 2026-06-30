@@ -95,7 +95,7 @@ msgid "Angular diameter: N/A"
 msgstr "Diametru unghiular: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Diametru unghiular: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
 msgstr "Mărimea aparentă: N/A"
@@ -119,7 +119,7 @@ msgid "Austria"
 msgstr "Austria"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Server de autentificare"
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
@@ -196,7 +196,7 @@ msgid "Close legend"
 msgstr "Închide legenda"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Închideți configurarea fără a salva"
 
 msgid "Cloudy"
 msgstr "Înnorat"

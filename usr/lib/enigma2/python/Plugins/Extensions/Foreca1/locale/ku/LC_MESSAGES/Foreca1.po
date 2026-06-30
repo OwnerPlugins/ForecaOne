@@ -887,7 +887,7 @@ msgid "Page up"
 msgstr "Rûpel up"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Pan xwarê"
 
 msgid "Pan left"
 msgstr "Pan derket"

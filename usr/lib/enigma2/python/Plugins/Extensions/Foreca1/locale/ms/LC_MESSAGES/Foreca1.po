@@ -323,7 +323,7 @@ msgid "Down"
 msgstr "Bawah"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Bawah - Halaman seterusnya"
 
 msgid "Download error"
 msgstr "Ralat muat turun"

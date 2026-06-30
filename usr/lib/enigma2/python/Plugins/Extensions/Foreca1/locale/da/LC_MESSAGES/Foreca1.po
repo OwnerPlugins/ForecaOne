@@ -621,46 +621,46 @@ msgid "Light (0-20 km/h)"
 msgstr "Lys (0-20 km/t)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Let regn / støvregn"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Let til moderat"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Indlæser tilgængelige kort..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Indlæser månefaser..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Indlæser nærliggende stationer..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Indlæser fliser..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Indlæser ugentlig vejrudsigt..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Indlæser..."
 
 msgid "Low"
-msgstr ""
+msgstr "Lav"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Niedersachsen"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Månekalender"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Månefaser fra næste måned"
 
 msgid "Luxembourg"
 msgstr ""
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Kort og fliser er indlæst"
 
 msgid "Map loaded"
 msgstr "Kort indlæst"
@@ -981,7 +981,7 @@ msgid "Pressure: {} hPa"
 msgstr "Tryk: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Forrige"
 
 msgid "Previous"
 msgstr "Tidligere"

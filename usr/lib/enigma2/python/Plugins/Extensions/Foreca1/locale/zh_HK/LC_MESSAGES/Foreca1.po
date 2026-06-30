@@ -272,7 +272,7 @@ msgid "Data provided by Foreca"
 msgstr "數據由 Foreca 提供"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "日期： {}"
 
 msgid "Day"
 msgstr "天"
@@ -830,7 +830,7 @@ msgid "Ok - Details"
 msgstr "好的 - 詳細信息"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "打開鍵盤"
 
 msgid "Open Map"
 msgstr "打開地圖"
@@ -842,7 +842,7 @@ msgid "Overcast"
 msgstr "灰濛濛"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "陰有小雨"
 
 msgid "Overcast and light snow"
 msgstr "陰有小雪"
@@ -920,7 +920,7 @@ msgid "Partly cloudy and wet snow showers"
 msgstr "晴時多雲，有陣雪"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "晴間多雲，可能有雷陣雨"
 
 msgid "Perigee"
 msgstr "近地點"

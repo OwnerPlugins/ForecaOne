@@ -1439,7 +1439,7 @@ msgid "Zoom:"
 msgstr "झूम:"
 
 msgid "v."
-msgstr ""
+msgstr "वि."
 
 msgid "{hours} h {mins} min"
 msgstr "{hours} ता {मिनिटे} मि"

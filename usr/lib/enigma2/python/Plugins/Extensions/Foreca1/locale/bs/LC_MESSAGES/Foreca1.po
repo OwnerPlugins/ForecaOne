@@ -425,7 +425,7 @@ msgid "Feels like: {}°C"
 msgstr "Osjećaj kao: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Finska"
 
 msgid "First Quarter"
 msgstr ""

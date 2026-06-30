@@ -374,7 +374,7 @@ msgid "Exit / Close legend"
 msgstr "Lumabas / Isara ang alamat"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Grabe"
 
 msgid "Extreme / thunderstorms"
 msgstr "Matindi / bagyong may pagkulog at pagkidlat"

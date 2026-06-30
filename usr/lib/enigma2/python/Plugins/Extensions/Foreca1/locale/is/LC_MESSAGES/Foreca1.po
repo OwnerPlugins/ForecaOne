@@ -155,7 +155,7 @@ msgid "Celsius, km/h, hPa"
 msgstr "Celsíus, km/klst., hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Breytingaskrá: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "Breytingar gilda strax"

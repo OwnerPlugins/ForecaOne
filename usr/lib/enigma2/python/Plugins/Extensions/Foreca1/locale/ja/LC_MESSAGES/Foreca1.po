@@ -486,7 +486,7 @@ msgid "Full Moon"
 msgstr "満月"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "強風力 (>60 km/h)"
 
 msgid "German States Weather Maps"
 msgstr "ドイツの州の天気図"

@@ -527,7 +527,7 @@ msgid "Help"
 msgstr "Membantu"
 
 msgid "Hesse"
-msgstr ""
+msgstr "Hessen"
 
 msgid "High"
 msgstr "Tinggi"

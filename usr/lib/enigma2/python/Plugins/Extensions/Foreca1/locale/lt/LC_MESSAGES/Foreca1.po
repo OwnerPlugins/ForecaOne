@@ -1260,7 +1260,7 @@ msgid "Unhealthy for sensitives"
 msgstr "Nesveika jautriems žmonėms"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Vieneto nustatymai"
 
 msgid "Unit Settings (Advanced)"
 msgstr "Vieneto nustatymai (išplėstiniai)"

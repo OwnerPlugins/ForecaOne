@@ -213,7 +213,7 @@ msgid "Cloudy and wet snow showers"
 msgstr "Oblačno in mokro sneženje"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Oblačno, nevihte z dežjem"
 
 msgid "Cold (< 0°C)"
 msgstr "Hladno (< 0°C)"
