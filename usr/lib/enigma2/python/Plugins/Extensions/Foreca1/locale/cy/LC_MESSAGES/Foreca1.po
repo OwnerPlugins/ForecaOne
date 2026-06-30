@@ -17,127 +17,127 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Data ychwanegol ddim ar gael)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Heddiw"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Heddiw + 1 diwrnod"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Heddiw + 2 ddiwrnod"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Heddiw + 3 diwrnod"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Heddiw + 4 diwrnod"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Heddiw + 5 diwrnod"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Heddiw + 6 diwrnod"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Heddiw + 7 diwrnod"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Heddiw + 8 diwrnod"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Heddiw + 9 diwrnod"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== MANYLION LLEUAD ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "Nid yw manylion adnabod API wedi'u ffurfweddu."
 
 msgid "API error"
-msgstr ""
+msgstr "Gwall API"
 
 msgid "API password"
-msgstr ""
+msgstr "Cyfrinair API"
 
 msgid "API user"
-msgstr ""
+msgstr "Defnyddiwr API"
 
 msgid "AQI {}"
 msgstr ""
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "AQI: Amh"
 
 msgid "Advanced"
-msgstr ""
+msgstr "Uwch"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Gosodiadau Uned Uwch"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Prynhawn"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Oedran ers New Moon: {:.1f} diwrnod"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Oedran: Amh"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Diamedr onglog: Amh"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Diamedr onglog: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Maint ymddangosiadol: Amh"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Maint ymddangosiadol: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Aseinio i Hoff 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Aseinio i Hoff 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Neilltuo i Gartref"
 
 msgid "Australia"
-msgstr ""
+msgstr "Awstralia"
 
 msgid "Austria"
-msgstr ""
+msgstr "Awstria"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Awd gweinydd"
 
 msgid "Baden-Wuerttemberg"
 msgstr ""
 
 msgid "Barometer"
-msgstr ""
+msgstr "Baromedr"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Bafaria"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Gwlad Belg"
 
 msgid "Berlin"
 msgstr ""
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Lleuad Ddu"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Glas - Cartref"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Lleuad Las"
 
 msgid "Brandenburg"
 msgstr ""
@@ -146,10 +146,10 @@ msgid "Bremen"
 msgstr ""
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Wrthi'n cyfrifo..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Canslo"
 
 msgid "Celsius, km/h, hPa"
 msgstr ""
@@ -158,136 +158,136 @@ msgid "Changelog: {changelog}"
 msgstr ""
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Mae newidiadau yn berthnasol ar unwaith"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Gwiriwch am ddiweddariadau"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Dewiswch olwg fanwl"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Detholiad Dinas"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Ffeil rhestr dinas heb ei chanfod!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Glanhau Ffeiliau Foreca Un Dros Dro?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Glanhau ffeiliau dros dro"
 
 msgid "Clear"
-msgstr ""
+msgstr "Clir"
 
 msgid "Close"
-msgstr ""
+msgstr "Cau"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Chwedl agos"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Caewch y gosodiad heb arbed"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Cymylog"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Glaw cymylog a ysgafn"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Eira cymylog ac ysgafn"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Eira gwlyb cymylog ac ysgafn"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Cymylog a chawodydd"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Cawodydd cymylog ac eira"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Cawodydd eira cymylog a gwlyb"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Cymylog, stormydd mellt a tharanau gyda glaw"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Oer (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Chwedl Lliw"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Dewisydd Lliw"
 
 msgid "Color data"
-msgstr ""
+msgstr "Data lliw"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Chwedl lliw"
 
 msgid "Color name"
-msgstr ""
+msgstr "Enw lliw"
 
 msgid "Color select"
-msgstr ""
+msgstr "Dewis lliw"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Cyflwr: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Mapiau Tywydd Cyfandiroedd"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Cŵl (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Methu â nôl gwybodaeth diweddaru."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Methu cychwyn API map."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Methu llwytho data rhagolwg"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Methu dosrannu gwybodaeth fersiwn."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Y tywydd a'r rhagolygon presennol"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Tywydd presennol a rhagolygon ar gyfer y 10 diwrnod nesaf"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Cyfredol: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Gweriniaeth Tsiec"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Data a ddarparwyd gan Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Dyddiad: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Dydd"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Gostwng Cyflymder"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Rhagosodiadau"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Denmarc"
 
 msgid "Details"
-msgstr ""
+msgstr "Manylion"
 
 msgid "Dewpoint {}"
 msgstr ""
@@ -302,226 +302,226 @@ msgid "Dewpoint: %s°C"
 msgstr ""
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Dewpoint: Amh"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Pellter {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Pellter: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Pellter: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Pellter: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Ydych chi am ei osod nawr?"
 
 msgid "Down"
-msgstr ""
+msgstr "I lawr"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "I lawr - Tudalen nesaf"
 
 msgid "Download error"
-msgstr ""
+msgstr "Gwall llwytho i lawr"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Wrthi'n lawrlwytho lluniau..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Wrthi'n lawrlwytho teils..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "Dwyrain Asia"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Gwall wrth wirio am ddiweddariadau."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Gwall wrth lwytho data"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Gwall wrth lwytho'r map"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Gwall wrth lwytho mapiau. Gwirio cysylltiad."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Gwall wrth gadw ffefryn!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Ewrop"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Mapiau Tywydd Ewropeaidd"
 
 msgid "Evening"
-msgstr ""
+msgstr "Nos"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ymadael"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Ymadael - Diwedd"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Gadael / Cau chwedl"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Eithafol"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Stormydd a tharanau eithafol"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "Fahrenheit, mya, ynHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Cyflymach: {}s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Hoff 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Hoff 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Manylion Ffefrynnau"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Manylion ffefrynnau"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Yn teimlo fel"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Yn teimlo fel {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Yn teimlo fel {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Yn teimlo fel: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Yn teimlo fel: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Yn teimlo fel: Amh"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Yn teimlo fel: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Yn teimlo fel: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Yn teimlo fel: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Ffindir"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Chwarter Cyntaf"
 
 msgid "Fog"
-msgstr ""
+msgstr "Niwl"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Gosod API Foreca"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Nid yw tystlythyrau API Foreca wedi'u ffurfweddu eto. Rhowch nhw yn y sgrin gosod."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Gosodiadau API Foreca wedi'u cadw'n llwyddiannus."
 
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca Un"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Mapiau Foreca One Live (API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca Un Ddewislen"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Ni ddaethpwyd o hyd i orsafoedd"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Gorsafoedd Foreca One: {} gorsaf gerllaw ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca Rhagolwg Tywydd Un"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca Un Tywydd a Rhagolwg ver. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca Un | Map {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Wedi darganfod %d dinasoedd yn lleol ar gyfer '%s'"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Wedi darganfod %d dinasoedd ar-lein ar gyfer '%s'"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Ffrâm →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Ffrâm: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Ffrainc"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Lleuad Llawn"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Grym tymhestlog (>60 km/awr)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Mapiau Tywydd Taleithiau'r Almaen"
 
 msgid "Germany"
-msgstr ""
+msgstr "Almaen"
 
 msgid "Good"
-msgstr ""
+msgstr "Da"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Prydain Fawr"
 
 msgid "Greece"
-msgstr ""
+msgstr "Groeg"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Gwyrdd - Hoff 1"
 
 msgid "Gust {}"
 msgstr ""
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Gust: {:.1f}{}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Hambwrg"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Peryglus"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Pennawd - nid yw'n ddetholadwy"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Glaw trwm"
 
 msgid "Help"
 msgstr ""
@@ -530,517 +530,517 @@ msgid "Hesse"
 msgstr ""
 
 msgid "High"
-msgstr ""
+msgstr "Uchel"
 
 msgid "Home"
-msgstr ""
+msgstr "Cartref"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Poeth (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Manylion yr Awr"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Lleithder"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Lleithder: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Lleithder: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Hwngari"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Rhew / rhew"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Goleuo"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Goleuo: {:.1f} %"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Delwedd %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Delwedd %(cyfredol)d/%(total)d – %(day)s (Seibiwyd)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Nid yw'r llun ar gael"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "System Imperial"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Cynyddu Cyflymder"
 
 msgid "Info"
-msgstr ""
+msgstr "Gwybodaeth"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Gwybodaeth - Am"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Iwerddon"
 
 msgid "Italy"
-msgstr ""
+msgstr "Eidal"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Neidio 100 i lawr"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Neidio 100 i fyny"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Neidio 500 i lawr"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Neidio 500 i fyny"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Bysellfwrdd"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Chwarter diweddaf"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Latfia"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Chwith - Y diwrnod blaenorol"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Saeth chwith - Y diwrnod blaenorol"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Golau (0-20 km/awr)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Glaw ysgafn / glaw mân"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Ysgafn i gymedrol"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Wrthi'n llwytho mapiau sydd ar gael..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Wrthi'n llwytho cyfnodau lleuad..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Wrthi'n llwytho gorsafoedd cyfagos..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Wrthi'n llwytho teils..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Wrthi'n llwytho rhagolwg wythnosol..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Wrthi'n llwytho..."
 
 msgid "Low"
-msgstr ""
+msgstr "Isel"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Sacsoni Isaf"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Calendr Lleuad"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Cyfnodau lleuad o'r mis nesaf"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Lwcsembwrg"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Map a Theils wedi'u Llwytho"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Map wedi'i lwytho"
 
 msgid "Map server"
-msgstr ""
+msgstr "Gweinydd map"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Map {} wedi'i ddewis"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr ""
 
 msgid "Menu"
-msgstr ""
+msgstr "Bwydlen"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Dewislen - Gosodiadau"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Methodd yr uno"
 
 msgid "Meteogram"
 msgstr ""
 
 msgid "Metric System"
-msgstr ""
+msgstr "System Fetrig"
 
 msgid "Middle America"
-msgstr ""
+msgstr "America Ganol"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Asia Ganol"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Dwyrain Canol"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Ysgafn (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Cymedrol"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Cymedrol (20-40 km/awr)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Glaw cymedrol"
 
 msgid "Month"
-msgstr ""
+msgstr "Mis"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Manylion y lleuad"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Codiad y lleuad: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Machlud lleuad: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Bore"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Yn glir ar y cyfan"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Symud i Lawr"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Symud i Fyny"
 
 msgid "Move down"
-msgstr ""
+msgstr "Symud i lawr"
 
 msgid "Move up"
-msgstr ""
+msgstr "Symud i fyny"
 
 msgid "N"
 msgstr ""
 
 msgid "N/A"
-msgstr ""
+msgstr "Amh"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Iseldiroedd"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Lleuad Newydd"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Mae fersiwn newydd {version} ar gael."
 
 msgid "Next"
-msgstr ""
+msgstr "Nesaf"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Delwedd Nesaf"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Ffrâm nesaf"
 
 msgid "Next page"
-msgstr ""
+msgstr "Tudalen nesaf"
 
 msgid "Next time"
-msgstr ""
+msgstr "Y tro nesaf"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Heb ganfod cysylltiad rhyngrwyd."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Dim teils OSM"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Heb ganfod dinasoedd yn lleol ar gyfer '%s'"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Dim dinas wedi'i dewis"
 
 msgid "No data"
-msgstr ""
+msgstr "Dim data"
 
 msgid "No date available"
-msgstr ""
+msgstr "Dim dyddiad ar gael"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Dim lleoliad wedi'i ddewis"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Dim chwedl benodol ar gael."
 
 msgid "No station data"
-msgstr ""
+msgstr "Dim data gorsaf"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Dim data gorsaf ar gael"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Ni chanfuwyd unrhyw orsafoedd"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Dim teils wedi'u llwytho i lawr"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Gogledd Affrica"
 
 msgid "North America"
-msgstr ""
+msgstr "Gogledd America"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Gogledd Rhein-Westphalia"
 
 msgid "Norway"
-msgstr ""
+msgstr "Norwy"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "Iawn - Gwybodaeth Est"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "Iawn - Rhagolwg"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "Iawn - Map Agored"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Iawn - Manylion"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Agor Bysellfwrdd"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Agor Map"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Dyluniad a syniad gwreiddiol gan %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Cymylog"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Glaw cymylog a ysgafn"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Eira cymylog ac ysgafn"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Eira gwlyb cymylog ac ysgafn"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Cymylog a glaw"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Cymylog a chawodydd"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Cymylog ac eira"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Cawodydd cymylog ac eira"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Eira cymylog a gwlyb"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Cawodydd eira cymylog a gwlyb"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Cymylog, stormydd mellt a tharanau gyda glaw"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Dros nos"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Tudalen i Lawr"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Tudalen i Fyny"
 
 msgid "Page down"
-msgstr ""
+msgstr "Tudalen i lawr"
 
 msgid "Page up"
-msgstr ""
+msgstr "Tudalen i fyny"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Tremio i lawr"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Tremio i'r chwith"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Tremio i'r dde"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Tremio i fyny"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Yn rhannol gymylog"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Yn rhannol gymylog a glaw ysgafn"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Eira rhannol gymylog ac ysgafn"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Eira gwlyb yn rhannol gymylog ac ysgafn"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Yn rhannol yn gymylog a chawodydd"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Cawodydd rhannol gymylog ac eira"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Cawodydd eira rhannol gymylog a gwlyb"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Yn rhannol gymylog, stormydd mellt a tharanau posibl gyda glaw"
 
 msgid "Perigee"
 msgstr ""
 
 msgid "Phase"
-msgstr ""
+msgstr "Cyfnod"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Cyfnod: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Chwarae/Saib"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Rhowch ddefnyddiwr API a chyfrinair API."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Arhoswch os gwelwch yn dda ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Gwlad Pwyl"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portiwgal"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "dyodiad"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Dyodiad: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "dyodiad"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Dyodiad: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Pwyswch RED i chwilio eto"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Pwysau"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Pwysau: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Pwysau: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Pwysau: Amh"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Pwysau: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Pwysau: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Cynt"
 
 msgid "Previous"
-msgstr ""
+msgstr "Blaenorol"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Delwedd Flaenorol"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Ffrâm flaenorol"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Tudalen flaenorol"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Amser blaenorol"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Prob Glaw."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Prob glaw. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Profi glaw: Amh"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Glaw: {:.1f}{}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "Radar Gwyliwr Glaw"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Coch - dewis lliw"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Adnewyddu"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Adfer gwerthoedd gweinydd diofyn"
 
 msgid "Rhineland-Palatine"
 msgstr ""
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Reit - Y diwrnod nesaf"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Saeth dde - Y diwrnod nesaf"
 
 msgid "Rise"
-msgstr ""
+msgstr "Codwch"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Asimuth codi: Amh"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Asimuth codi: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Rwsia"
 
 msgid "S"
 msgstr ""
@@ -1049,421 +1049,421 @@ msgid "Saarland"
 msgstr ""
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Lluniau Lloeren"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Lluniau lloeren yn dod yn fuan!"
 
 msgid "Save"
-msgstr ""
+msgstr "Arbed"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Cadw gosodiadau API"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Sacsoni"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Sacsoni-Anhalt"
 
 msgid "Schleswig-Holstein"
 msgstr ""
 
 msgid "Scraped"
-msgstr ""
+msgstr "Wedi'i sgrapio"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Chwilio yn gyntaf ar-lein, os yn methu yn defnyddio rhestr leol."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Chwiliwch eich Dinas"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Chwilio am '%s'..."
 
 msgid "Select"
-msgstr ""
+msgstr "Dewiswch"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Dewiswch Rhanbarth"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Dewiswch ddinas"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Dewiswch fap ag Iawn"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Dewiswch system uned"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Dewiswch uned wynt"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Dewiswch {} uned"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Manylion yr awr a ddewiswyd"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Gosod azimuth: Amh"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Gosod azimuth: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Setiau"
 
 msgid "Show info"
-msgstr ""
+msgstr "Dangos gwybodaeth"
 
 msgid "Showers"
-msgstr ""
+msgstr "Cawodydd"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Slofacia"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Arafach: {}s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Eira / rhew"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Prob eira. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Profi eira: Amh"
 
 msgid "South Africa"
-msgstr ""
+msgstr "De Affrica"
 
 msgid "South America"
-msgstr ""
+msgstr "De America"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "De-ddwyrain Asia"
 
 msgid "Spain"
-msgstr ""
+msgstr "Sbaen"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Arsylwadau Gorsaf"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Gorsaf: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Cryf (40-60 km/awr)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Codiad yr haul"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Machlud"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "Lleuad Llawn Super"
 
 msgid "Sweden"
 msgstr ""
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Swistir"
 
 msgid "Temp"
 msgstr ""
 
 msgid "Temperature"
-msgstr ""
+msgstr "Tymheredd"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Tymheredd: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Tymheredd: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Tymheredd: Amh"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Tymheredd: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Tymheredd: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Tymheredd: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Diolch {diolch} a ffrindiau eraill am awgrymiadau"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Mae'r fersiwn anghysbell ({remote}) yn hŷn na'r un presennol ({current})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Cwmwl uwch tenau"
 
 msgid "Thuringia"
 msgstr ""
 
 msgid "Time"
-msgstr ""
+msgstr "Amser"
 
 msgid "Today"
-msgstr ""
+msgstr "Heddiw"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Manylion heddiw/yfory"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Toglo chwedl"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Oriau dod i ben tocyn"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Rhaid i oriau terfyn tocyn fod yn -1 neu'n rhif positif."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Rhaid i oriau dod i ben tocyn fod yn rhif."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Yfory"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Trafnidiaeth (penllanw): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Uchder cludo: Amh"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Uchder cludo: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Gosodiadau Tryloywder"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Lefel tryloywder"
 
 msgid "UV Index"
-msgstr ""
+msgstr "Mynegai UV"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "UV Amh"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Afiach"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Afiach ar gyfer pobl sensitif"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Gosodiadau Uned"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Gosodiadau Uned (Uwch)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Gosodiadau Uned (Syml)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Anhysbys"
 
 msgid "Up"
-msgstr ""
+msgstr "I fyny"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "I fyny - Tudalen flaenorol"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Diweddariad wedi'i ganslo."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Diweddariad wedi'i gwblhau. Ailgychwynnwch Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Wedi diweddaru {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Wedi'i ddiweddaru: Amh"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Wedi'i ddiweddaru: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Wrthi'n diweddaru..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Defnyddiwch y bysellau saeth i sgrolio"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Defnyddiwch ← → i newid amser | Iawn i adael"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Defnyddiwch ←/→/↑/↓ i symud | Iawn i adael"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Defnyddiwch ▲/▼ i newid, Iawn i ddewis"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Gan ddefnyddio'r amser presennol"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Glaw trwm iawn"
 
 msgid "Very high"
-msgstr ""
+msgstr "Uchel iawn"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Poeth iawn (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Isel iawn"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Afiach iawn"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Gwelededd: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Gwelededd: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Cilgant Waning"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Gwanu Gibbous"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Cynnes (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Cilgant Cwyr"
 
 msgid "Waxing Gibbous"
 msgstr ""
 
 msgid "Weather"
-msgstr ""
+msgstr "Tywydd"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Map Tywydd"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Mapiau Tywydd"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Mapiau Tywydd a Lloeren"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Mapiau Tywydd (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Sioe Sleidiau Mapiau Tywydd"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Radar tywydd"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Tywydd heddiw"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Tywydd yfory"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Rhagolwg Wythnosol"
 
 msgid "Wind"
-msgstr ""
+msgstr "Gwynt"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Cyfeiriad y Gwynt heddiw"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Cyfeiriad y Gwynt yfory"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Cyfeiriad y gwynt"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Cyflymder y gwynt"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Cyflymder y gwynt {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Cyflymder y gwynt: {:.1f}{}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Gwynt: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Gwynt: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Gwynt: Amh"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Gwynt: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Gwynt: {} km/a {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Gwynt: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Tryloywder ffenestr"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Melyn - Hoff 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Chwyddo i Mewn"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Chwyddo Allan"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "Chwyddo+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "Chwyddo -"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Chwyddo:"
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{oriau} h {mins} min"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• GLAS i'w gadw fel Cartref\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- i neidio 500 o ddinasoedd\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• GWYRDD i arbed fel Hoff 1\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• Iawn dewis dinas\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• COCH i agor y bysellfwrdd chwilio\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Defnyddiwch fysellau saeth i lywio\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• MELYN i gadw fel Hoff 2\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Ffrâm"

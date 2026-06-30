@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Data ya ziada haipatikani)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Leo"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Leo + siku 1"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Leo + siku 2"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Leo + siku 3"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Leo + siku 4"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Leo + siku 5"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Leo + siku 6"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Leo + siku 7"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Leo + siku 8"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Leo + siku 9"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== MAELEZO YA MWEZI ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "Kitambulisho cha API hakijasanidiwa."
 
 msgid "API error"
-msgstr ""
+msgstr "Hitilafu ya API"
 
 msgid "API password"
-msgstr ""
+msgstr "Nenosiri la API"
 
 msgid "API user"
-msgstr ""
+msgstr "Mtumiaji wa API"
 
 msgid "AQI {}"
 msgstr ""
@@ -74,37 +74,37 @@ msgid "Advanced"
 msgstr ""
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Mipangilio ya Kina ya Kitengo"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Alasiri"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Umri tangu Mwezi Mpya: siku {:.1f}"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Umri: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Kipenyo cha angular: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Kipenyo cha angular: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Ukubwa unaoonekana: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Ukubwa dhahiri: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Agiza kwa Unayopendelea 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Agiza kwa Unayopendelea 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Kabidhi Nyumbani"
 
 msgid "Australia"
 msgstr ""
@@ -113,10 +113,10 @@ msgid "Austria"
 msgstr ""
 
 msgid "Auth server"
-msgstr ""
+msgstr "Seva ya uthibitishaji"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Württemberg"
 
 msgid "Barometer"
 msgstr ""
@@ -125,19 +125,19 @@ msgid "Bavaria"
 msgstr ""
 
 msgid "Belgium"
-msgstr ""
+msgstr "Ubelgiji"
 
 msgid "Berlin"
 msgstr ""
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Mwezi Mweusi"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Bluu - Nyumbani"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Mwezi wa Bluu"
 
 msgid "Brandenburg"
 msgstr ""
@@ -146,10 +146,10 @@ msgid "Bremen"
 msgstr ""
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Inakokotoa..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ghairi"
 
 msgid "Celsius, km/h, hPa"
 msgstr ""
@@ -158,289 +158,289 @@ msgid "Changelog: {changelog}"
 msgstr ""
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Mabadiliko yatatumika mara moja"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Angalia masasisho"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Chagua mwonekano wa maelezo"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Uteuzi wa Jiji"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Faili ya orodha ya jiji haijapatikana!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Ungependa Kusafisha Faili za Muda Moja za Foreca?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Kusafisha faili za joto"
 
 msgid "Clear"
-msgstr ""
+msgstr "Wazi"
 
 msgid "Close"
-msgstr ""
+msgstr "Funga"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Funga hadithi"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Funga usanidi bila kuhifadhi"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Mawingu"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Mvua ya mawingu na nyepesi"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Theluji yenye mawingu na nyepesi"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Theluji yenye mawingu na nyepesi yenye unyevunyevu"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Mawingu na mvua"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Mawingu na mvua ya theluji"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Manyunyu ya theluji yenye mawingu na mvua"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Mawingu, ngurumo na mvua"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Baridi (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Hadithi ya Rangi"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Kiteuzi cha Rangi"
 
 msgid "Color data"
-msgstr ""
+msgstr "Data ya rangi"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Hadithi ya rangi"
 
 msgid "Color name"
-msgstr ""
+msgstr "Jina la rangi"
 
 msgid "Color select"
-msgstr ""
+msgstr "Chagua rangi"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Hali: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Ramani za Hali ya Hewa za Mabara"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Poa (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Haikuweza kuleta taarifa ya sasisho."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Haikuweza kuanzisha API ya ramani."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Haikuweza kupakia data ya utabiri"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Haikuweza kuchanganua maelezo ya toleo."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Hali ya hewa ya sasa na utabiri"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Hali ya hewa ya sasa na utabiri wa siku 10 zijazo"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Ya sasa: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Jamhuri ya Czech"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Data iliyotolewa na Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Tarehe: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Siku"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Punguza Kasi"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Chaguomsingi"
 
 msgid "Denmark"
 msgstr ""
 
 msgid "Details"
-msgstr ""
+msgstr "Maelezo"
 
 msgid "Dewpoint {}"
 msgstr ""
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Kiwango cha Umande {}°C"
 
 msgid "Dewpoint: %d%s"
 msgstr ""
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Sehemu ya Umande: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Sehemu ya Umande: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Umbali wa kilomita {}"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Umbali: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Umbali: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Umbali: kilomita {}"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Je, ungependa kukisakinisha sasa?"
 
 msgid "Down"
-msgstr ""
+msgstr "Chini"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Chini - Ukurasa unaofuata"
 
 msgid "Download error"
-msgstr ""
+msgstr "Hitilafu ya kupakua"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Inapakua picha..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Inapakua vigae..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "Asia ya Mashariki"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Hitilafu katika kuangalia masasisho."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Hitilafu katika kupakia data"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Hitilafu katika kupakia ramani"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Hitilafu katika kupakia ramani. Angalia muunganisho."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Hitilafu katika kuhifadhi kipendwa!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Ulaya"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Ramani za hali ya hewa ya Ulaya"
 
 msgid "Evening"
-msgstr ""
+msgstr "Jioni"
 
 msgid "Exit"
-msgstr ""
+msgstr "Utgång"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Toka - Mwisho"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Ondoka / Funga hadithi"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Uliokithiri"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Dhoruba kali / radi"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr ""
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Haraka zaidi: {}s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Kipendwa 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Kipendwa 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Maelezo ya Vipendwa"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Maelezo ya vipendwa"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Anahisi kama"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Anahisi kama {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Anahisi kama {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Inahisi kama: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Inahisi kama: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Inahisi kama: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Anahisi kama: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Anahisi kama: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Inahisi kama: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Ufini"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Robo ya Kwanza"
 
 msgid "Fog"
-msgstr ""
+msgstr "Ukungu"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Usanidi wa API ya Foreca"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Kitambulisho cha Foreca API bado hakijasanidiwa. Tafadhali ziweke kwenye skrini ya kusanidi."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Mipangilio ya Foreca API imehifadhiwa."
 
 msgid "Foreca One"
 msgstr ""
@@ -449,61 +449,61 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Menyu ya Foreca One"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Hakuna stesheni zilizopatikana"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One Stations: {} stesheni zilizo karibu ({})"
 
 msgid "Foreca One Weather Forecast"
 msgstr ""
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One Hali ya hewa na Forecast ver. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | Ramani {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Imepata miji %d ndani ya nchi kwa ajili ya '%s'"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Imepata miji %d mtandaoni kwa '%s'"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Fremu →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Fremu: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Ufaransa"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Mwezi Kamili"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Nguvu ya upepo (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Ramani za Hali ya Hewa za Nchi za Ujerumani"
 
 msgid "Germany"
-msgstr ""
+msgstr "Ujerumani"
 
 msgid "Good"
-msgstr ""
+msgstr "Nzuri"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Uingereza"
 
 msgid "Greece"
-msgstr ""
+msgstr "Ugiriki"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Kijani - Kipendwa 1"
 
 msgid "Gust {}"
 msgstr ""
@@ -515,229 +515,229 @@ msgid "Hamburg"
 msgstr ""
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Hatari"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Kijajuu - hakiwezi kuchaguliwa"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Mvua kubwa"
 
 msgid "Help"
-msgstr ""
+msgstr "Msaada"
 
 msgid "Hesse"
 msgstr ""
 
 msgid "High"
-msgstr ""
+msgstr "Juu"
 
 msgid "Home"
-msgstr ""
+msgstr "Nyumbani"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Moto (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Maelezo ya Saa"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Unyevu"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Unyevu: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Unyevu: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Hungaria"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Barafu / barafu"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Mwangaza"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Mwangaza: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Picha %(sasa)d/%(jumla)d – %(siku)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Picha %(sasa)d/%(jumla)d – %(siku)s (Imesitishwa)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Picha haipatikani"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Mfumo wa Kifalme"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Ongeza Kasi"
 
 msgid "Info"
-msgstr ""
+msgstr "Habari"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Habari - Kuhusu"
 
 msgid "Ireland"
 msgstr ""
 
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Rukia 100 chini"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Rukia 100 juu"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Rukia 500 chini"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Rukia 500 juu"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Kibodi"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Robo Ya Mwisho"
 
 msgid "Latvia"
 msgstr ""
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Kushoto - Siku iliyotangulia"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Mshale wa kushoto - Siku iliyotangulia"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Mwanga (0-20 km/h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Mvua nyepesi / manyunyu"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Mwanga hadi wastani"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Inapakia ramani zinazopatikana..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Inapakia awamu za mwezi..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Inapakia vituo vya karibu..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Inapakia vigae..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Inapakia utabiri wa kila wiki..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Inapakia..."
 
 msgid "Low"
-msgstr ""
+msgstr "Chini"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Saxony ya chini"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Kalenda ya Mwezi"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Awamu za mwezi kutoka mwezi ujao"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxemburg"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Ramani na Vigae Vimepakiwa"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Ramani imepakiwa"
 
 msgid "Map server"
-msgstr ""
+msgstr "Seva ya ramani"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Ramani {} imechaguliwa"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr ""
 
 msgid "Menu"
-msgstr ""
+msgstr "Menyu"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Menyu - Mipangilio"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Kuunganisha kumeshindwa"
 
 msgid "Meteogram"
 msgstr ""
 
 msgid "Metric System"
-msgstr ""
+msgstr "Mfumo wa kipimo"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Amerika ya Kati"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Asia ya Kati"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Mashariki ya Kati"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Kiasi (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Wastani"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Wastani (20-40 km/h)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Mvua ya wastani"
 
 msgid "Month"
-msgstr ""
+msgstr "Mwezi"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Maelezo ya mwezi"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Macheo ya mwezi: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Mwezi Mwandamo: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Asubuhi"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Zaidi wazi"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Sogeza Chini"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Sogeza Juu"
 
 msgid "Move down"
-msgstr ""
+msgstr "Sogeza chini"
 
 msgid "Move up"
-msgstr ""
+msgstr "Sogeza juu"
 
 msgid "N"
 msgstr ""
@@ -746,301 +746,301 @@ msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Uholanzi"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Mwezi Mpya"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Toleo jipya la {version} linapatikana."
 
 msgid "Next"
-msgstr ""
+msgstr "Inayofuata"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Picha Inayofuata"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Fremu inayofuata"
 
 msgid "Next page"
-msgstr ""
+msgstr "Ukurasa unaofuata"
 
 msgid "Next time"
-msgstr ""
+msgstr "Wakati ujao"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Hakuna muunganisho wa Mtandao uliogunduliwa."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Hakuna vigae vya OSM"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Hakuna miji iliyopatikana ndani ya '%s'"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Hakuna jiji lililochaguliwa"
 
 msgid "No data"
-msgstr ""
+msgstr "Hakuna data"
 
 msgid "No date available"
-msgstr ""
+msgstr "Hakuna tarehe inayopatikana"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Hakuna eneo lililochaguliwa"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Hakuna hadithi maalum inayopatikana."
 
 msgid "No station data"
-msgstr ""
+msgstr "Hakuna data ya kituo"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Hakuna data ya kituo inayopatikana"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Hakuna stesheni zilizopatikana"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Hakuna vigae vilivyopakuliwa"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Afrika Kaskazini"
 
 msgid "North America"
-msgstr ""
+msgstr "Amerika ya Kaskazini"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Rhine Kaskazini-Westfalia"
 
 msgid "Norway"
 msgstr ""
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "SAWA - Maelezo ya ziada"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "SAWA - Utabiri"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "SAWA - Fungua Ramani"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Sawa - Maelezo"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Fungua Kibodi"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Fungua Ramani"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Muundo asilia na wazo kulingana na %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Mawingu"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Mvua ya mawingu na nyepesi"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Theluji nyepesi na mawingu"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Theluji ya mawingu na nyepesi mvua"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Mawingu na mvua"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Mawingu na mvua"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Mawingu na theluji"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Manyunyu ya mawingu na theluji"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Theluji ya mawingu na mvua"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Manyunyu ya theluji yenye mawingu na mvua"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Mawingu, dhoruba na mvua"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Usiku mmoja"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Ukurasa Chini"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Ukurasa Juu"
 
 msgid "Page down"
-msgstr ""
+msgstr "Ukurasa chini"
 
 msgid "Page up"
-msgstr ""
+msgstr "Ukurasa juu"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Panda chini"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Sogeza kushoto"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Sogeza kulia"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Panda juu"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Mawingu kiasi"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Mawingu kiasi na mvua nyepesi"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Mawingu kiasi na theluji nyepesi"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Mawingu kiasi na theluji nyepesi mvua"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Mawingu kiasi na mvua"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Mawingu kiasi na mvua ya theluji"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Manyunyu ya theluji yenye mawingu kiasi na mvua"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Mawingu kiasi, dhoruba za ngurumo na mvua zinazoweza kunyesha"
 
 msgid "Perigee"
 msgstr ""
 
 msgid "Phase"
-msgstr ""
+msgstr "Awamu"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Awamu: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Cheza/Sitisha"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Tafadhali ingiza mtumiaji wa API na nenosiri la API."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Tafadhali subiri..."
 
 msgid "Poland"
 msgstr ""
 
 msgid "Portugal"
-msgstr ""
+msgstr "Ureno"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Mvua"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Kunyesha: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Mvua"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Mvua: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Bonyeza RED kutafuta tena"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Shinikizo"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Shinikizo: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Shinikizo: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Shinikizo: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Shinikizo: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Shinikizo: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Iliyotangulia"
 
 msgid "Previous"
-msgstr ""
+msgstr "Iliyotangulia"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Picha Iliyotangulia"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Fremu iliyotangulia"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Ukurasa uliotangulia"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Wakati uliopita"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Mvua Prob."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Usumbufu wa mvua. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Tatizo la mvua: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Mvua: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer Rada"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Nyekundu - Chagua rangi"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Onyesha upya"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Rejesha maadili ya seva chaguo-msingi"
 
 msgid "Rhineland-Palatine"
 msgstr ""
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Haki - Siku inayofuata"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Mshale wa kulia - Siku inayofuata"
 
 msgid "Rise"
-msgstr ""
+msgstr "Inuka"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Azimuth ya kupanda: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Azimuth ya kupanda: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Urusi"
 
 msgid "S"
 msgstr ""
@@ -1049,16 +1049,16 @@ msgid "Saarland"
 msgstr ""
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Picha za Satellite"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Picha za satelaiti zinakuja hivi karibuni!"
 
 msgid "Save"
-msgstr ""
+msgstr "Hifadhi"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Hifadhi mipangilio ya API"
 
 msgid "Saxony"
 msgstr ""
@@ -1070,400 +1070,400 @@ msgid "Schleswig-Holstein"
 msgstr ""
 
 msgid "Scraped"
-msgstr ""
+msgstr "Imefutwa"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Tafuta kwanza hujaribu mtandaoni, ikishindikana tumia orodha ya ndani."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Tafuta Jiji lako"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Inatafuta '%s'..."
 
 msgid "Select"
-msgstr ""
+msgstr "Chagua"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Chagua Mkoa"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Chagua jiji"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Chagua ramani iliyo na Sawa"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Chagua mfumo wa kitengo"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Chagua kitengo cha upepo"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Chagua kitengo {}"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Maelezo ya saa iliyochaguliwa"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Weka azimuth: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Weka azimuth: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Seti"
 
 msgid "Show info"
-msgstr ""
+msgstr "Onyesha habari"
 
 msgid "Showers"
-msgstr ""
+msgstr "Manyunyu"
 
 msgid "Slovakia"
 msgstr ""
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Polepole: {}s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Theluji / barafu"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Usumbufu wa theluji. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Tatizo la theluji.: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Afrika Kusini"
 
 msgid "South America"
-msgstr ""
+msgstr "Amerika ya Kusini"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Asia ya Kusini-mashariki"
 
 msgid "Spain"
-msgstr ""
+msgstr "Uhispania"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Uchunguzi wa Kituo"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Stesheni: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Nguvu (40-60 km/h)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Kuchomoza kwa jua"
 
 msgid "Sunset"
-msgstr ""
+msgstr "machweo"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "Mwezi Kamili Bora"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Uswidi"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Uswisi"
 
 msgid "Temp"
-msgstr ""
+msgstr "Muda"
 
 msgid "Temperature"
-msgstr ""
+msgstr "Halijoto"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Halijoto: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Halijoto: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Halijoto: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Halijoto: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Halijoto: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Halijoto: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Asante {thanks} na marafiki wengine kwa mapendekezo"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Toleo la mbali ({remote}) ni la zamani kuliko la sasa ({current})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Wingu nyembamba juu"
 
 msgid "Thuringia"
 msgstr ""
 
 msgid "Time"
-msgstr ""
+msgstr "Wakati"
 
 msgid "Today"
-msgstr ""
+msgstr "Leo"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Habari za leo/kesho"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Geuza hadithi"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Tokeni inaisha muda wa saa"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Saa za kuisha kwa ishara lazima ziwe -1 au nambari chanya."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Saa za kuisha kwa ishara lazima ziwe nambari."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Kesho"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Usafiri (mwisho): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Urefu wa usafiri: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Urefu wa usafiri wa umma: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Mipangilio ya Uwazi"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Kiwango cha uwazi"
 
 msgid "UV Index"
-msgstr ""
+msgstr "Kiashiria cha UV"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Asiye na afya"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Sio afya kwa nyeti"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Mipangilio ya Kitengo"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Mipangilio ya Kitengo (Ya Juu)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Mipangilio ya Kitengo (Rahisi)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Haijulikani"
 
 msgid "Up"
-msgstr ""
+msgstr "Juu"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Juu - Ukurasa uliotangulia"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Usasishaji umeghairiwa."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Usasishaji umekamilika. Tafadhali anzisha upya Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Ilisasishwa {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Imesasishwa: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Ilisasishwa: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Inasasisha..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Tumia vitufe vya vishale kusogeza"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Tumia ← → kubadilisha saa | Sawa ili kuondoka"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Tumia ←/→/↑/↓ kusogeza | Sawa ili kuondoka"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Tumia ▲/▼ kubadilisha, sawa ili kuchagua"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Kwa kutumia wakati wa sasa"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Mvua kubwa sana"
 
 msgid "Very high"
-msgstr ""
+msgstr "Juu sana"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Moto sana (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Chini sana"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Mbaya sana"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Mwonekano: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Mwonekano: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Mpevu unaopungua"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Gibbous anayepungua"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Joto (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Mwezi Mng'aro"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Gibbous ya kung'aa"
 
 msgid "Weather"
-msgstr ""
+msgstr "Hali ya hewa"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Ramani ya hali ya hewa"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Ramani za hali ya hewa"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Ramani za Hali ya Hewa na Setilaiti"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Ramani za Hali ya Hewa (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Onyesho la slaidi la Ramani za Hali ya Hewa"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Rada ya hali ya hewa"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Hali ya hewa leo"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Hali ya hewa kesho"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Utabiri wa Wiki"
 
 msgid "Wind"
-msgstr ""
+msgstr "Upepo"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Mwelekeo wa Upepo leo"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Mwelekeo wa Upepo kesho"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Mwelekeo wa upepo"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Kasi ya upepo"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Kasi ya upepo {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Kasi ya upepo: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Upepo: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Upepo: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Upepo: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Upepo: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Upepo: {} km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Upepo: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Uwazi wa dirisha"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Njano - Kipendwa 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Kuza"
 
 msgid "Zoom Out"
 msgstr ""
 
 msgid "Zoom+"
-msgstr ""
+msgstr "Kuza+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "Kuza-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Kuza:"
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{hours} h {mins} dakika"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• BLUU ili kuhifadhi kama Nyumbani\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- kuruka miji 500\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• KIJANI ili uhifadhi kama Kipendwa 1\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• SAWA ili kuchagua jiji\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• RED ili kufungua kibodi ya utafutaji\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Tumia vitufe vya vishale kusogeza\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• MANJANO ili uhifadhi kama Kipendwa 2\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Fremu"

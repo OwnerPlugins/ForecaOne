@@ -18,52 +18,52 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Papildu dati nav pieejami)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - šodien"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 — šodien + 1 diena"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 — šodien + 2 dienas"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 — šodien + 3 dienas"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 — šodien + 4 dienas"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 — šodien + 5 dienas"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 — šodien + 6 dienas"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 — šodien + 7 dienas"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 — šodien + 8 dienas"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 — šodien + 9 dienas"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== MĒNES INFORMĀCIJA ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API akreditācijas dati nav konfigurēti."
 
 msgid "API error"
-msgstr ""
+msgstr "API kļūda"
 
 msgid "API password"
-msgstr ""
+msgstr "API parole"
 
 msgid "API user"
-msgstr ""
+msgstr "API lietotājs"
 
 msgid "AQI {}"
 msgstr ""
@@ -72,376 +72,376 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "Papildu"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Papildu vienības iestatījumi"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Pēcpusdiena"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Vecums kopš Jauna Mēness: {:.1f} dienas"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Vecums: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Leņķiskais diametrs: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Leņķiskais diametrs: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Šķietamais lielums: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Šķietamais lielums: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Piešķirt izlasei 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Piešķirt izlasei 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Piešķirt sākumam"
 
 msgid "Australia"
-msgstr ""
+msgstr "Austrālija"
 
 msgid "Austria"
-msgstr ""
+msgstr "Austrija"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Auth serveris"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Bādene-Virtemberga"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Barometrs"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Bavārija"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Beļģija"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Berlīne"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Melnais mēness"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Zils — Mājas"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Zilais mēness"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburga"
 
 msgid "Bremen"
-msgstr ""
+msgstr "Brēmene"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Notiek aprēķināšana..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Atcelt"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Celsija, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Izmaiņu žurnāls: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Izmaiņas tiek piemērotas nekavējoties"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Pārbaudiet, vai nav atjauninājumu"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Izvēlieties detalizētu skatu"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Pilsētas izvēle"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Pilsētu saraksta fails nav atrasts!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Iztīrīt Foreca One Temp failus?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Notīriet pagaidu failus"
 
 msgid "Clear"
-msgstr ""
+msgstr "Skaidrs"
 
 msgid "Close"
-msgstr ""
+msgstr "Aizvērt"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Aizvērt leģendu"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Aizvērt iestatīšanu, nesaglabājot"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Mākoņains"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Mākoņains un neliels lietus"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Mākoņains un neliels sniegs"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Mākoņains un viegls slapjš sniegs"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Mākoņains un lietusgāzes"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Mākoņains un sniegs"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Mākoņains un slapjš sniegs"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Mākoņains, pērkona negaiss ar lietu"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Auksts (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Krāsu leģenda"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Krāsu atlasītājs"
 
 msgid "Color data"
-msgstr ""
+msgstr "Krāsu dati"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Krāsu leģenda"
 
 msgid "Color name"
-msgstr ""
+msgstr "Krāsas nosaukums"
 
 msgid "Color select"
-msgstr ""
+msgstr "Krāsu izvēle"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Stāvoklis: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Kontinentu laikapstākļu kartes"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Vēss (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Nevarēja iegūt atjauninājuma informāciju."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Nevarēja inicializēt kartes API."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Nevarēja ielādēt prognožu datus"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Nevarēja parsēt versijas informāciju."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Pašreizējie laikapstākļi un prognoze"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Pašreizējie laikapstākļi un prognoze nākamajām 10 dienām"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Pašreizējais: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Čehijas Republika"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Datus sniedz Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Datums: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "diena"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Samaziniet ātrumu"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Noklusējumi"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Dānija"
 
 msgid "Details"
-msgstr ""
+msgstr "Sīkāka informācija"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Rasas punkts {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Rasas punkts {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Rasas punkts: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Rasas punkts: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Rasas punkts: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Attālums {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Attālums: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Attālums: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Attālums: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Vai vēlaties to instalēt tūlīt?"
 
 msgid "Down"
-msgstr ""
+msgstr "Uz leju"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Uz leju — nākamā lapa"
 
 msgid "Download error"
-msgstr ""
+msgstr "Lejupielādes kļūda"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Notiek attēlu lejupielāde..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Notiek elementu lejupielāde..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "Austrumāzija"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Pārbaudot atjauninājumus, radās kļūda."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Ielādējot datus, radās kļūda"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Ielādējot karti, radās kļūda"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Ielādējot kartes, radās kļūda. Pārbaudiet savienojumu."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Saglabājot izlasi, radās kļūda!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Eiropā"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Eiropas laika kartes"
 
 msgid "Evening"
-msgstr ""
+msgstr "Vakars"
 
 msgid "Exit"
-msgstr ""
+msgstr "Iziet"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Iziet — beigas"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Iziet / aizvērt leģendu"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Ekstrēmi"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Ekstrēmi / pērkona negaiss"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "Fārenheita, mph, inHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Ātrāk: {}s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Mīļākais 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Mīļākais 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Izlases informācija"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Izlases informācija"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Jūtos kā"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Šķiet, {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Šķiet, ka {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Šķiet, ka: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Šķiet, ka: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Šķiet, ka: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Šķiet, ka: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Šķiet, ka: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Šķiet: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Somija"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Pirmais ceturksnis"
 
 msgid "Fog"
-msgstr ""
+msgstr "Migla"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API iestatīšana"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API akreditācijas dati vēl nav konfigurēti. Lūdzu, ievadiet tos iestatīšanas ekrānā."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API iestatījumi ir veiksmīgi saglabāti."
 
 msgid "Foreca One"
 msgstr ""
@@ -453,292 +453,292 @@ msgid "Foreca One Menu"
 msgstr ""
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Stacijas nav atrastas"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One stacijas: tuvumā atrodas {} stacijas ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca One Laika prognoze"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One Laika apstki un prognoze ver. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | Karte {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Atrastas %d pilsētas lokāli vaicājumam “%s”"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Atrastas %d pilsētas tiešsaistē vaicājumam “%s”"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Rāmis →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Rāmis: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Francija"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Pilnmēness"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Gala spēks (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Vācijas valstu laikapstākļu kartes"
 
 msgid "Germany"
-msgstr ""
+msgstr "Vācija"
 
 msgid "Good"
-msgstr ""
+msgstr "Labi"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Lielbritānija"
 
 msgid "Greece"
-msgstr ""
+msgstr "Grieķija"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Zaļš — iecienītākais 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "Vēsma {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Vēsmas: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburga"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Bīstams"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Virsraksts — nav atlasāms"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Spēcīgs lietus"
 
 msgid "Help"
-msgstr ""
+msgstr "Palīdzība"
 
 msgid "Hesse"
-msgstr ""
+msgstr "Hese"
 
 msgid "High"
-msgstr ""
+msgstr "Augsts"
 
 msgid "Home"
-msgstr ""
+msgstr "Sākums"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Karsts (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Stundu informācija"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Mitrums"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Mitrums: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Mitrums: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Ungārija"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Ledus / sals"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Apgaismojums"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Apgaismojums: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Attēls %(pašreizējais)d/%(kopā)d – %(diena)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Attēls %(pašreizējais)d/%(kopā)d – %(day)s (pauzēts)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Attēls nav pieejams"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Imperiālā sistēma"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Palieliniet ātrumu"
 
 msgid "Info"
-msgstr ""
+msgstr "Informācija"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Info - Par"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Īrija"
 
 msgid "Italy"
-msgstr ""
+msgstr "Itālija"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Leciet par 100 uz leju"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Pārlēkt 100 uz augšu"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Leciet par 500 uz leju"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Pārlēkt 500 uz augšu"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Tastatūra"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Pēdējais ceturksnis"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Latvija"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Pa kreisi — iepriekšējā diena"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Kreisā bultiņa — iepriekšējā diena"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Viegls (0–20 km/h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Neliels lietus / smidzinošs lietus"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Viegls līdz mērens"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Notiek pieejamo karšu ielāde..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Notiek Mēness fāžu ielāde..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Notiek tuvumā esošo staciju ielāde..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Notiek flīžu ielāde..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Notiek nedēļas prognozes ielāde..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Notiek ielāde..."
 
 msgid "Low"
-msgstr ""
+msgstr "Zems"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Lejassaksija"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Mēness kalendārs"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Mēness fāzes no nākamā mēneša"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luksemburga"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Karte un flīzes ir ielādētas"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Karte ielādēta"
 
 msgid "Map server"
-msgstr ""
+msgstr "Kartes serveris"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Atlasīta karte {}"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Mēklenburga-Priekšpomerānija"
 
 msgid "Menu"
-msgstr ""
+msgstr "Izvēlne"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Izvēlne — Iestatījumi"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Sapludināšana neizdevās"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Meteogramma"
 
 msgid "Metric System"
-msgstr ""
+msgstr "Metriskā sistēma"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Vidusamerika"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Vidusāzija"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Tuvie Austrumi"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Viegla (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Mērens"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Mērens (20-40 km/h)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Mērens lietus"
 
 msgid "Month"
-msgstr ""
+msgstr "Mēnesis"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Mēness detaļas"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Mēness lēkts: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Mēness riets: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Rīts"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Pārsvarā skaidrs"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Pārvietot uz leju"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Pārvietot uz augšu"
 
 msgid "Move down"
-msgstr ""
+msgstr "Pārvietojieties uz leju"
 
 msgid "Move up"
-msgstr ""
+msgstr "Pārvietojieties uz augšu"
 
 msgid "N"
 msgstr ""
@@ -747,697 +747,697 @@ msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Nīderlande"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Jauns Mēness"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Ir pieejama jauna versija {version}."
 
 msgid "Next"
-msgstr ""
+msgstr "Tālāk"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Nākamais attēls"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Nākamais kadrs"
 
 msgid "Next page"
-msgstr ""
+msgstr "Nākamā lapa"
 
 msgid "Next time"
-msgstr ""
+msgstr "Nākamreiz"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Nav atrasts interneta savienojums."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Nav OSM flīžu"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Vaicājumam “%s” lokāli nav atrasta neviena pilsēta"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Nav atlasīta neviena pilsēta"
 
 msgid "No data"
-msgstr ""
+msgstr "Nav datu"
 
 msgid "No date available"
-msgstr ""
+msgstr "Datums nav pieejams"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Nav atlasīta neviena atrašanās vieta"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Nav pieejama konkrēta leģenda."
 
 msgid "No station data"
-msgstr ""
+msgstr "Nav stacijas datu"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Stacijas dati nav pieejami"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Nav atrasta neviena stacija"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Nav lejupielādēta neviena flīze"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Ziemeļāfrika"
 
 msgid "North America"
-msgstr ""
+msgstr "Ziemeļamerika"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Ziemeļreina-Vestfālene"
 
 msgid "Norway"
-msgstr ""
+msgstr "Norvēģija"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "Labi — ārējā informācija"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "Labi - Prognoze"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "Labi — atveriet karti"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Labi - detaļas"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Atveriet tastatūru"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Atveriet karti"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Oriģināls dizains un ideja autors %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Apmācies"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Apmācies un neliels lietus"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Apmācies un neliels sniegs"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Apmācies un neliels slapjš sniegs"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Apmācies un lietus"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Apmācies un lietusgāzes"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Apmācies un snieg"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Apmācies un sniegs"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Apmācies un slapjš sniegs"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Apmācies un slapjš sniegs"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Apmācies, pērkona negaiss ar lietu"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Pa nakti"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Lapa uz leju"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Lapa uz augšu"
 
 msgid "Page down"
-msgstr ""
+msgstr "Lapa uz leju"
 
 msgid "Page up"
-msgstr ""
+msgstr "Lapa uz augšu"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Panoramējiet uz leju"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Panna pa kreisi"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Panoramējiet pa labi"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Pana uz augšu"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Daļēji mākoņains"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Daļēji mākoņains un neliels lietus"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Daļēji mākoņains un neliels sniegs"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Daļēji apmācies un neliels slapjš sniegs"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Daļēji mākoņains un lietusgāzes"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Daļēji mākoņains un sniegs"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Daļēji apmācies un slapjš sniegs"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Daļēji mākoņains, iespējams pērkona negaiss ar lietu"
 
 msgid "Perigee"
 msgstr ""
 
 msgid "Phase"
-msgstr ""
+msgstr "Fāze"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Fāze: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Atskaņot/Pauzēt"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Lūdzu, ievadiet gan API lietotāja, gan API paroli."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Lūdzu, uzgaidiet..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Polija"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portugāle"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Nokrišņi"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Nokrišņi: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Nokrišņi"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Nokrišņi: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Nospiediet SARKANU, lai meklētu vēlreiz"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Spiediens"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Spiediens: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Spiediens: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Spiediens: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Spiediens: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Spiediens: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Iepriekšējā"
 
 msgid "Previous"
-msgstr ""
+msgstr "Iepriekšējais"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Iepriekšējais attēls"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Iepriekšējais kadrs"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Iepriekšējā lapa"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Iepriekšējā reize"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Lietus Prob."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Lietus prob. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Lietus varbūtība: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Lietus: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer radars"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Sarkans — izvēlieties krāsu"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Atsvaidzināt"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Atjaunot servera noklusējuma vērtības"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Reinzeme-Pfalca"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Pareizi - nākamajā dienā"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Labā bultiņa — nākamā diena"
 
 msgid "Rise"
-msgstr ""
+msgstr "Celies"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Paaugstināts azimuts: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Azimuta paaugstināšanās: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Krievija"
 
 msgid "S"
 msgstr ""
 
 msgid "Saarland"
-msgstr ""
+msgstr "Zāra zeme"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Satelīta fotoattēli"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Satelīta fotoattēli drīzumā!"
 
 msgid "Save"
-msgstr ""
+msgstr "Saglabāt"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Saglabājiet API iestatījumus"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Saksija"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Saksija-Anhalte"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Šlēsviga-Holšteina"
 
 msgid "Scraped"
-msgstr ""
+msgstr "Nokasīts"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Meklēšana vispirms tiek veikta tiešsaistē, ja neizdodas, tiek izmantots lokālais saraksts."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Meklējiet savu pilsētu"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Notiek “%s” meklēšana..."
 
 msgid "Select"
-msgstr ""
+msgstr "Izvēlieties"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Atlasiet reģionu"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Izvēlieties pilsētu"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Izvēlieties karti ar OK"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Izvēlieties vienību sistēmu"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Izvēlieties vēja vienību"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Izvēlieties {} vienību"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Informācija par izvēlēto stundu"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Iestatīt azimutu: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Iestatīt azimutu: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Komplekti"
 
 msgid "Show info"
-msgstr ""
+msgstr "Rādīt informāciju"
 
 msgid "Showers"
-msgstr ""
+msgstr "Dušas"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Slovākija"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Lēnāk: {} s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Sniegs/ledus"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Sniega prob. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Sniega varbūtība: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Dienvidāfrika"
 
 msgid "South America"
-msgstr ""
+msgstr "Dienvidamerika"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Dienvidaustrumāzija"
 
 msgid "Spain"
-msgstr ""
+msgstr "Spānija"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Stacijas novērojumi"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Stacija: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Spēcīgs (40–60 km/h)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Saullēkts"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Saulriets"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "Super pilnmēness"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Zviedrija"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Šveice"
 
 msgid "Temp"
 msgstr ""
 
 msgid "Temperature"
-msgstr ""
+msgstr "Temperatūra"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Temperatūra: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Temperatūra: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Temperatūra: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Temperatūra: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Temperatūra: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Temperatūra: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Paldies, {thanks} un citiem draugiem par ieteikumiem"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Attālā versija ({remote}) ir vecāka par pašreizējo ({current})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Plāns augšējais mākonis"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Tīringene"
 
 msgid "Time"
-msgstr ""
+msgstr "Laiks"
 
 msgid "Today"
-msgstr ""
+msgstr "Šodien"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Šodien/rītdienas informācija"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Pārslēgt leģendu"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Tokena derīguma termiņš"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Marķiera derīguma stundām ir jābūt -1 vai pozitīvam skaitlim."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Marķiera derīguma termiņam ir jābūt skaitlim."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "rīt"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Sabiedriskais transports (kulminācija): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Sabiedriskā transporta augstums: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Sabiedriskā transporta augstums: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Caurspīdīguma iestatījumi"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Pārredzamības līmenis"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV indekss"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Neveselīgs"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Neveselīgs jutīgiem cilvēkiem"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Vienības iestatījumi"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Vienības iestatījumi (papildu)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Vienības iestatījumi (vienkārši)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Nezināms"
 
 msgid "Up"
-msgstr ""
+msgstr "Uz augšu"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Uz augšu — iepriekšējā lapa"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Atjaunināšana atcelta."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Atjaunināšana pabeigta. Lūdzu, restartējiet Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Atjaunināts {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Atjaunināts: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Atjaunināts: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Notiek atjaunināšana..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Izmantojiet bulttaustiņus, lai ritinātu"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Izmantojiet ← →, lai mainītu laiku | Labi, lai izietu"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Izmantojiet ←/→/↑/↓, lai pārvietotu | Labi, lai izietu"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Izmantojiet ▲/▼, lai mainītu, vai OK, lai atlasītu"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Izmantojot pašreizējo laiku"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Ļoti stiprs lietus"
 
 msgid "Very high"
-msgstr ""
+msgstr "Ļoti augsts"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Ļoti karsts (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Ļoti zems"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Ļoti neveselīgi"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Redzamība: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Redzamība: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Dilstošs pusmēness"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Dilstošs Gibbous"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Silts (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Augošs pusmēness"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Vaksācija Gibbous"
 
 msgid "Weather"
-msgstr ""
+msgstr "Laikapstākļi"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Laikapstākļu karte"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Laikapstākļu kartes"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Laikapstākļu kartes un satelīti"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Laikapstākļu kartes (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Laikapstākļu karšu slaidrāde"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Laika apstākļu radars"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Laiks šodien"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Laikapstākļi rīt"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Nedēļas prognoze"
 
 msgid "Wind"
-msgstr ""
+msgstr "Vējš"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Vēja virziens šodien"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Rīt vēja virziens"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Vēja virziens"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Vēja ātrums"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Vēja ātrums {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Vēja ātrums: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Vējš: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Vējš: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Vējš: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Vējš: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Vējš: {} km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Vējš: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Logu caurspīdīgums"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Dzeltens — 2. mīļākais"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Pietuvināt"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Tālināt"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "Tālummaiņa+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "Tālummaiņa-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Tālummaiņa:"
 
 msgid "v."
 msgstr ""
@@ -1446,25 +1446,25 @@ msgid "{hours} h {mins} min"
 msgstr ""
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• ZILĀ, lai saglabātu kā Sākums\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH-, lai pārietu uz 500 pilsētām\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• ZAĻĀ, lai saglabātu kā 1. izlasi\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• Labi, lai izvēlētos pilsētu\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• SARKANA, lai atvērtu meklēšanas tastatūru\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Izmantojiet bulttaustiņus, lai pārvietotos\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• DZELTENS, lai saglabātu kā 2. izlasi\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Rāmis"

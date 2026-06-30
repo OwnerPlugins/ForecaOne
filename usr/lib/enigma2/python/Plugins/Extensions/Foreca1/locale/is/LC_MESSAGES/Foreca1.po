@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Viðbótargögn ekki tiltæk)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Í dag"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Í dag + 1 dagur"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Í dag + 2 dagar"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Í dag + 3 dagar"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Í dag + 4 dagar"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Í dag + 5 dagar"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Í dag + 6 dagar"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Í dag + 7 dagar"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Í dag + 8 dagar"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Í dag + 9 dagar"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== TUNGLUPPLÝSINGAR ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API skilríki ekki stillt."
 
 msgid "API error"
-msgstr ""
+msgstr "API villa"
 
 msgid "API password"
-msgstr ""
+msgstr "API lykilorð"
 
 msgid "API user"
-msgstr ""
+msgstr "API notandi"
 
 msgid "AQI {}"
 msgstr ""
@@ -71,376 +71,376 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "Ítarlegri"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Ítarlegar einingastillingar"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Síðdegis"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Aldur frá nýju tungli: {:.1f} dagar"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Aldur: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Hornþvermál: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Hornþvermál: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Sýnileg stærð: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Sýnileg stærð: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Úthluta í uppáhalds 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Úthluta í uppáhalds 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Úthluta á Home"
 
 msgid "Australia"
-msgstr ""
+msgstr "Ástralía"
 
 msgid "Austria"
-msgstr ""
+msgstr "Austurríki"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Auth netþjónn"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Württemberg"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Loftvog"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Bæjaraland"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Belgíu"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Berlín"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Svart tungl"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Blár - Heim"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Blár tungl"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenborg"
 
 msgid "Bremen"
 msgstr ""
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Er að reikna..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hætta við"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Celsíus, km/klst., hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Breytingaskrá: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Breytingar gilda strax"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Leitaðu að uppfærslum"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Veldu smáatriði"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Borgarval"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Borgarlistaskrá fannst ekki!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Hreinsaðu Foreca One Temp skrár?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Hreinsaðu tímabundnar skrár"
 
 msgid "Clear"
-msgstr ""
+msgstr "Hreinsa"
 
 msgid "Close"
-msgstr ""
+msgstr "Loka"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Loka goðsögn"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Lokaðu uppsetningu án þess að vista"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Skýjað"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Skýjað og lítilsháttar rigning"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Skýjað og dálítil snjókoma"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Skýjað og lítilsháttar blautur snjór"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Skýjað og skúrir"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Skýjað og snjókoma"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Skýjað og blautir snjór"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Skýjað, þrumuveður með rigningu"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Kalt (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Litur Legend"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Litaval"
 
 msgid "Color data"
-msgstr ""
+msgstr "Litagögn"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Litagoðsögn"
 
 msgid "Color name"
-msgstr ""
+msgstr "Litur nafn"
 
 msgid "Color select"
-msgstr ""
+msgstr "Litaval"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Ástand: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Veðurkort heimsálfa"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Kaldur (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Ekki tókst að sækja uppfærsluupplýsingar."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Ekki tókst að frumstilla kortaforritaskil."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Ekki tókst að hlaða spágögnum"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Gat ekki flokkað útgáfuupplýsingar."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Núverandi veður og spá"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Núverandi veður og spá fyrir næstu 10 daga"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Núverandi: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Tékkland"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Gögn veitt af Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Dagsetning: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Dagur"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Minnka hraða"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Sjálfgefin"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Danmörku"
 
 msgid "Details"
-msgstr ""
+msgstr "Upplýsingar"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Daggarmark {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Daggarmark {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Daggarmark: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Daggarmark: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Daggarmark: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Vegalengd {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Vegalengd: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Fjarlægð: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Vegalengd: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Viltu setja það upp núna?"
 
 msgid "Down"
-msgstr ""
+msgstr "Niður"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Niður - Næsta síða"
 
 msgid "Download error"
-msgstr ""
+msgstr "Villa við niðurhal"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Sækir myndir..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Sækir flísar..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "Austur-Asíu"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Villa við að leita að uppfærslum."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Villa við að hlaða gögnum"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Villa við að hlaða korti"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Villa við að hlaða kortum. Athugaðu tenginguna."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Villa við að vista uppáhalds!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Evrópu"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Veðurkort í Evrópu"
 
 msgid "Evening"
-msgstr ""
+msgstr "Kvöld"
 
 msgid "Exit"
-msgstr ""
+msgstr "Hætta"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Hætta - Lok"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Hætta / Loka þjóðsögu"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Öfgafullt"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Mikill / þrumuveður"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr ""
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Hraðari: {}s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Uppáhalds 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Uppáhalds 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Uppáhalds upplýsingar"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Upplýsingar um eftirlæti"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Finnst eins og"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Finnst eins og {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Finnst eins og {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Líður eins og: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Líður eins og: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Finnst: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Líður eins og: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Líður eins og: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Líður eins og: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Finnlandi"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Fyrsta ársfjórðung"
 
 msgid "Fog"
-msgstr ""
+msgstr "Þoka"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API uppsetning"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API skilríki eru ekki stillt ennþá. Vinsamlega sláðu þær inn á uppsetningarskjáinn."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API stillingar vistaðar."
 
 msgid "Foreca One"
 msgstr ""
@@ -449,61 +449,61 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca One matseðill"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Engar stöðvar fundust"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One Stations: {} stöðvar í nágrenninu ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Veðurspá Foreca One"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr ""
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | Kort {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Fann %d borgir á staðnum fyrir '%s'"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Fann %d borgir á netinu fyrir '%s'"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Rammi →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Rammi: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Frakklandi"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Fullt tungl"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Hvassviðri (>60 km/klst.)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Veðurkort þýskra ríkja"
 
 msgid "Germany"
-msgstr ""
+msgstr "Þýskalandi"
 
 msgid "Good"
-msgstr ""
+msgstr "Gott"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Stóra-Bretland"
 
 msgid "Greece"
-msgstr ""
+msgstr "Grikkland"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Grænn - Uppáhalds 1"
 
 msgid "Gust {}"
 msgstr ""
@@ -512,232 +512,232 @@ msgid "Gust: {:.1f} {}"
 msgstr ""
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamborg"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Hættulegt"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Haus - ekki hægt að velja"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Mikil rigning"
 
 msgid "Help"
-msgstr ""
+msgstr "Hjálp"
 
 msgid "Hesse"
 msgstr ""
 
 msgid "High"
-msgstr ""
+msgstr "Hátt"
 
 msgid "Home"
-msgstr ""
+msgstr "Heim"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Heitt (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Upplýsingar um klukkustund"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Raki"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Raki: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Raki: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Ungverjaland"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Ís / frost"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Lýsing"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Lýsing: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Mynd %(núverandi)d/%(total)d – %(dagur)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Mynd %(núverandi)d/%(total)d – %(dagur)s (í hlé)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Mynd ekki tiltæk"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Keisarakerfi"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Auka hraða"
 
 msgid "Info"
-msgstr ""
+msgstr "Upplýsingar"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Upplýsingar - Um"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Írland"
 
 msgid "Italy"
-msgstr ""
+msgstr "Ítalíu"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Hoppa 100 niður"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Hoppa 100 upp"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Hoppa 500 niður"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Hoppa 500 upp"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Lyklaborð"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Síðasta ársfjórðung"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Lettland"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Vinstri - Fyrri dagur"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Vinstri ör - Fyrri dagur"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Létt (0-20 km/klst.)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Lítil rigning / súld"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Létt til miðlungs"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Hleður tiltæk kort..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Hleður tunglfasa..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Hleður nálægum stöðvum..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Hleður flísum..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Hleður vikuspá..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Hleður..."
 
 msgid "Low"
-msgstr ""
+msgstr "Lágt"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Neðra-Saxland"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Tungldagatal"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Tunglfasa frá og með næsta mánuði"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Lúxemborg"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Kort og flísar hlaðnar"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Kort hlaðið"
 
 msgid "Map server"
-msgstr ""
+msgstr "Kortaþjónn"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Kort {} valið"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr ""
 
 msgid "Menu"
-msgstr ""
+msgstr "Matseðill"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Valmynd - Stillingar"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Sameining mistókst"
 
 msgid "Meteogram"
 msgstr ""
 
 msgid "Metric System"
-msgstr ""
+msgstr "Metrakerfi"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Mið-Ameríka"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Mið-Asía"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Miðausturlönd"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Milt (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Í meðallagi"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Miðlungs (20-40 km/klst.)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Hæfileg rigning"
 
 msgid "Month"
-msgstr ""
+msgstr "Mánuður"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Tungl smáatriði"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Tunglupprás: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Tunglsetur: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Morgun"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Að mestu ljóst"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Færa niður"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Færðu þig upp"
 
 msgid "Move down"
-msgstr ""
+msgstr "Færðu þig niður"
 
 msgid "Move up"
-msgstr ""
+msgstr "Færðu þig upp"
 
 msgid "N"
 msgstr ""
@@ -746,301 +746,301 @@ msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Hollandi"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Nýtt tungl"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Ný útgáfa {version} er fáanleg."
 
 msgid "Next"
-msgstr ""
+msgstr "Næst"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Næsta mynd"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Næsti rammi"
 
 msgid "Next page"
-msgstr ""
+msgstr "Næsta síða"
 
 msgid "Next time"
-msgstr ""
+msgstr "Næst"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Engin internettenging fannst."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Engar OSM flísar"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Engar borgir fundust á staðnum fyrir '%s'"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Engin borg valin"
 
 msgid "No data"
-msgstr ""
+msgstr "Engin gögn"
 
 msgid "No date available"
-msgstr ""
+msgstr "Engin dagsetning í boði"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Engin staðsetning valin"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Engin sérstök goðsögn í boði."
 
 msgid "No station data"
-msgstr ""
+msgstr "Engin stöðvagögn"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Engin stöðvagögn tiltæk"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Engar stöðvar fundust"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Engum flísum hlaðið niður"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Norður-Afríku"
 
 msgid "North America"
-msgstr ""
+msgstr "Norður Ameríku"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Norðurrín-Westfalen"
 
 msgid "Norway"
-msgstr ""
+msgstr "Noregi"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "Í lagi - Ext Info"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "OK - Spá"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "OK - Opna kort"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Allt í lagi - Upplýsingar"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Opnaðu lyklaborð"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Opna kort"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Upprunaleg hönnun og hugmynd frá %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Skýjað"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Skýjað og lítilsháttar rigning"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Skýjað og dálítil snjókoma"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Skýjað og lítilsháttar blautur snjór"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Skýjað og rigning"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Skýjað og skúrir"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Skýjað og snjókoma"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Skýjað og snjókoma"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Skýjað og blautur snjór"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Skýjað og blautt snjókoma"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Skýjað, þrumuveður með rigningu"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Yfir nótt"
 
 msgid "Page Down"
 msgstr ""
 
 msgid "Page Up"
-msgstr ""
+msgstr "Blað upp"
 
 msgid "Page down"
-msgstr ""
+msgstr "Síðu niður"
 
 msgid "Page up"
-msgstr ""
+msgstr "Síðu upp"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Pantaðu niður"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Panna til vinstri"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Pantaðu til hægri"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Pantaðu upp"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Léttskýjað"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Skýjað með köflum og dálítil rigning"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Skýjað með köflum og dálítil snjókoma"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Skýjað með köflum og dálítil blautur snjór"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Skýjað með köflum og skúrir"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Skýjað með köflum og snjókoma"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Skýjað með köflum og blautar snjór"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Skýjað með köflum, hugsanlega þrumuveður með rigningu"
 
 msgid "Perigee"
 msgstr ""
 
 msgid "Phase"
-msgstr ""
+msgstr "Áfangi"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Áfangi: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Spila / gera hlé"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Vinsamlegast sláðu inn bæði API notanda og API lykilorð."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Vinsamlegast bíddu..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Pólland"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portúgal"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Úrkoma"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Úrkoma: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Úrkoma"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Úrkoma: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Ýttu á RAUÐA til að leita aftur"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Þrýstingur"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Þrýstingur: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Þrýstingur: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Þrýstingur: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Þrýstingur: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Þrýstingur: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Fyrri"
 
 msgid "Previous"
-msgstr ""
+msgstr "Fyrri"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Fyrri mynd"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Fyrri rammi"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Fyrri síða"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Fyrri tími"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Rigning Prob."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Rigning prob. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Rigningarlíkur: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Rigning: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer ratsjá"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Rauður - Litur valinn"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Endurnýja"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Endurheimtu sjálfgefin miðlaragildi"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Rínarland-Pfalz"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Rétt - Næsta dag"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Hægri ör - Næsti dagur"
 
 msgid "Rise"
-msgstr ""
+msgstr "Rís upp"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Hækkandi azimut: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Hækkandi azimut: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Rússland"
 
 msgid "S"
 msgstr ""
@@ -1049,421 +1049,421 @@ msgid "Saarland"
 msgstr ""
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Gervihnattamyndir"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Gervihnattamyndir væntanlegar!"
 
 msgid "Save"
-msgstr ""
+msgstr "Vista"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Vista API stillingar"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Saxland"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Saxland-Anhalt"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Slésvík-Holstein"
 
 msgid "Scraped"
-msgstr ""
+msgstr "Skrappað"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Leita reynir fyrst á netinu, ef það mistekst notar staðbundinn lista."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Leitaðu að borginni þinni"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Leitar að '%s'..."
 
 msgid "Select"
-msgstr ""
+msgstr "Veldu"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Veldu svæði"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Veldu borg"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Veldu kort með OK"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Veldu einingakerfi"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Veldu vindeiningu"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Veldu {} einingu"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Upplýsingar um valinn tíma"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Stillt azimut: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Stilltu azimut: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Leikmyndir"
 
 msgid "Show info"
-msgstr ""
+msgstr "Sýna upplýsingar"
 
 msgid "Showers"
-msgstr ""
+msgstr "Sturtur"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Slóvakíu"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Hægari: {}s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Snjór / ís"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Snjó prob. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Snjólíkur: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Suður Afríka"
 
 msgid "South America"
-msgstr ""
+msgstr "Suður Ameríku"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Suðaustur-Asíu"
 
 msgid "Spain"
-msgstr ""
+msgstr "Spánn"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Stöðvarathuganir"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Stöð: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Sterkur (40-60 km/klst.)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Sólarupprás"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Sólsetur"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "Ofur fullt tungl"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Svíþjóð"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Sviss"
 
 msgid "Temp"
 msgstr ""
 
 msgid "Temperature"
-msgstr ""
+msgstr "Hitastig"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Hitastig: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Hitastig: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Hiti: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Hitastig: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Hitastig: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Hitastig: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Takk {thanks} og aðrir vinir fyrir tillögur"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Fjarútgáfan ({remote}) er eldri en núverandi ({current})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Þunnt efra ský"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Thüringen"
 
 msgid "Time"
-msgstr ""
+msgstr "Tími"
 
 msgid "Today"
-msgstr ""
+msgstr "Í dag"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Upplýsingar í dag/á morgun"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Skiptu um goðsögn"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Tákn renna út klukkustundir"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Klukkutímar sem renna út verða að vera -1 eða jákvæð tala."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Klukkutímar sem renna út verða að vera númer."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Á morgun"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Samgöngur (hámark): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Samgönguhæð: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Samgönguhæð: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Gagnsæisstillingar"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Gagnsæisstig"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV vísitala"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Óhollt"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Óhollt fyrir viðkvæma"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Einingastillingar"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Einingastillingar (Ítarlegar)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Einingastillingar (einfalt)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Óþekkt"
 
 msgid "Up"
-msgstr ""
+msgstr "Upp"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Upp - Fyrri síða"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Hætt við uppfærslu."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Uppfærslu lokið. Vinsamlegast endurræstu Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Uppfært {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Uppfært: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Uppfært: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Uppfærir..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Notaðu örvatakkana til að fletta"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Notaðu ← → til að breyta tíma | Í lagi að hætta"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Notaðu ←/→/↑/↓ til að færa | Í lagi að hætta"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Notaðu ▲/▼ til að breyta, OK til að velja"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Notaðu núverandi tíma"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Mjög mikil rigning"
 
 msgid "Very high"
-msgstr ""
+msgstr "Mjög hátt"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Mjög heitt (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Mjög lágt"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Mjög óhollt"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Skyggni: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Skyggni: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Minnkandi hálfmáni"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Dvínandi Gibbous"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Hlýtt (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Vaxandi hálfmáni"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Vaxandi Gibbous"
 
 msgid "Weather"
-msgstr ""
+msgstr "Veður"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Veðurkort"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Veðurkort"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Veðurkort og gervihnöttur"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Veðurkort (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Skyggnusýning á veðurkortum"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Veðurradar"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Veður í dag"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Veður á morgun"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Vikuspá"
 
 msgid "Wind"
-msgstr ""
+msgstr "Vindur"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Vindátt í dag"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Vindátt á morgun"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Vindátt"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Vindhraði"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Vindhraði {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Vindhraði: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Vindur: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Vindur: %s km/klst. %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Vindur: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Vindur: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Vindur: {} km/klst. {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Vindur: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Gagnsæi glugga"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Gulur - Uppáhalds 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Aðdráttur inn"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Aðdráttur út"
 
 msgid "Zoom+"
 msgstr ""
 
 msgid "Zoom-"
-msgstr ""
+msgstr "Aðdráttur-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Aðdráttur:"
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{klst.} klst. {mín}} mín"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• BLÁR til að vista sem heima\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- til að hoppa um 500 borgir\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• GRÆNT til að vista sem uppáhalds 1\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• Í lagi til að velja borg\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• RAUTT til að opna leitarlyklaborð\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Notaðu örvatakkana til að fletta\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• GULUR til að vista sem uppáhalds 2\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Rammi"

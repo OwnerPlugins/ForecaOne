@@ -18,127 +18,127 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Không có dữ liệu bổ sung)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Hôm nay"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Hôm nay + 1 ngày"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Hôm nay + 2 ngày"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Hôm nay + 3 ngày"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Hôm nay + 4 ngày"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Hôm nay + 5 ngày"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Hôm nay + 6 ngày"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Hôm nay + 7 ngày"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Hôm nay + 8 ngày"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Hôm nay + 9 ngày"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== CHI TIẾT TRĂNG ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "Thông tin xác thực API chưa được định cấu hình."
 
 msgid "API error"
-msgstr ""
+msgstr "lỗi API"
 
 msgid "API password"
-msgstr ""
+msgstr "mật khẩu API"
 
 msgid "API user"
-msgstr ""
+msgstr "người dùng API"
 
 msgid "AQI {}"
 msgstr ""
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "Chỉ số AQI: Không áp dụng"
 
 msgid "Advanced"
-msgstr ""
+msgstr "Trình độ cao"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Cài đặt đơn vị nâng cao"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Buổi chiều"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Tuổi kể từ Trăng non: {:.1f} ngày"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Tuổi: Không áp dụng"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Đường kính góc: Không áp dụng"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Đường kính góc: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Độ lớn biểu kiến: Không áp dụng"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Độ lớn biểu kiến: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Gán vào mục yêu thích 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Gán vào mục yêu thích 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Gán vào nhà"
 
 msgid "Australia"
-msgstr ""
+msgstr "Úc"
 
 msgid "Austria"
-msgstr ""
+msgstr "Áo"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Máy chủ xác thực"
 
 msgid "Baden-Wuerttemberg"
 msgstr ""
 
 msgid "Barometer"
-msgstr ""
+msgstr "phong vũ biểu"
 
 msgid "Bavaria"
 msgstr ""
 
 msgid "Belgium"
-msgstr ""
+msgstr "nước Bỉ"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Béc-lin"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Trăng đen"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Màu xanh - Sân nhà"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Trăng xanh"
 
 msgid "Brandenburg"
 msgstr ""
@@ -147,901 +147,901 @@ msgid "Bremen"
 msgstr ""
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Đang tính..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Độ C, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Nhật ký thay đổi: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Những thay đổi được áp dụng ngay lập tức"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Kiểm tra các bản cập nhật"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Chọn chế độ xem chi tiết"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Lựa chọn thành phố"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Không tìm thấy tập tin danh sách thành phố!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Dọn dẹp tập tin tạm thời Foreca One?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Dọn dẹp tập tin tạm thời"
 
 msgid "Clear"
-msgstr ""
+msgstr "Thông thoáng"
 
 msgid "Close"
-msgstr ""
+msgstr "Đóng"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Đóng chú giải"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Đóng thiết lập mà không lưu"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Nhiều mây"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Nhiều mây và mưa nhẹ"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Có mây và tuyết nhẹ"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Có mây và tuyết ướt nhẹ"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Nhiều mây và có mưa rào"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Có mây và mưa tuyết"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Mưa tuyết nhiều mây và ẩm ướt"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Nhiều mây, giông có mưa"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Lạnh (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Huyền thoại màu sắc"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Bộ chọn màu"
 
 msgid "Color data"
-msgstr ""
+msgstr "Dữ liệu màu"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Huyền thoại màu sắc"
 
 msgid "Color name"
-msgstr ""
+msgstr "Tên màu"
 
 msgid "Color select"
-msgstr ""
+msgstr "Chọn màu"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Tình trạng: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Bản đồ thời tiết châu lục"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Mát mẻ (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Không thể tìm nạp thông tin cập nhật."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Không thể khởi tạo API bản đồ."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Không thể tải dữ liệu dự báo"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Không thể phân tích thông tin phiên bản."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Thời tiết hiện tại và dự báo"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Thời tiết hiện tại và dự báo trong 10 ngày tới"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Hiện hành: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Cộng hòa Séc"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Dữ liệu được cung cấp bởi Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Ngày: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Ngày"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Giảm tốc độ"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Mặc định"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Đan Mạch"
 
 msgid "Details"
-msgstr ""
+msgstr "Chi tiết"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "điểm sương {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Điểm sương {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Điểm sương: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Điểm sương: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Điểm sương: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Khoảng cách {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Khoảng cách: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Khoảng cách: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Khoảng cách: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Bạn có muốn cài đặt nó ngay bây giờ không?"
 
 msgid "Down"
-msgstr ""
+msgstr "Xuống"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Xuống - Trang tiếp theo"
 
 msgid "Download error"
-msgstr ""
+msgstr "Lỗi tải xuống"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Đang tải hình ảnh..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Đang tải xuống ô..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "Đông Á"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Lỗi kiểm tra cập nhật."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Lỗi tải dữ liệu"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Lỗi tải bản đồ"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Lỗi tải bản đồ. Kiểm tra kết nối."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Lỗi lưu yêu thích!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Châu Âu"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Bản đồ thời tiết châu Âu"
 
 msgid "Evening"
-msgstr ""
+msgstr "Buổi tối"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ra"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Thoát - Kết thúc"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Thoát/Đóng chú giải"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Vô cùng"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Cực đoan / giông bão"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "F, mph, inHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Nhanh hơn: {} giây"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Yêu thích 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Yêu thích 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Chi tiết yêu thích"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Chi tiết yêu thích"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Cảm thấy như"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "Cảm giác như {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "Cảm giác như {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Có cảm giác như: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Cảm giác như: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Cảm giác như: Không có"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Cảm giác như: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Cảm giác như: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Cảm giác như: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Phần Lan"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Quý I"
 
 msgid "Fog"
-msgstr ""
+msgstr "Sương mù"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Thiết lập API Foreca"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Thông tin đăng nhập API Foreca chưa được định cấu hình. Vui lòng nhập chúng vào màn hình thiết lập."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Cài đặt API Foreca đã được lưu thành công."
 
 msgid "Foreca One"
-msgstr ""
+msgstr "Dự báo một"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Bản đồ trực tiếp của Foreca One (API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca Một Menu"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Không tìm thấy trạm nào"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Trạm Foreca One: {} trạm lân cận ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Dự báo thời tiết Foreca One"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One Thời tiết và Dự báo ver. %S"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca Một | Bản đồ {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "Đã tìm thấy %d thành phố tại địa phương cho '%s'"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "Đã tìm thấy %d thành phố trực tuyến cho '%s'"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Khung →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Khung: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Pháp"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Trăng tròn"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Lực gió lớn (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Bản đồ thời tiết các bang của Đức"
 
 msgid "Germany"
-msgstr ""
+msgstr "nước Đức"
 
 msgid "Good"
-msgstr ""
+msgstr "Tốt"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "nước Anh"
 
 msgid "Greece"
-msgstr ""
+msgstr "Hy Lạp"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Màu xanh lá cây - Yêu thích 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "cơn gió mạnh {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Gió giật: {:.1f} {}"
 
 msgid "Hamburg"
 msgstr ""
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Nguy hiểm"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Tiêu đề - không thể chọn được"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "mưa lớn"
 
 msgid "Help"
-msgstr ""
+msgstr "Giúp đỡ"
 
 msgid "Hesse"
 msgstr ""
 
 msgid "High"
-msgstr ""
+msgstr "Cao"
 
 msgid "Home"
-msgstr ""
+msgstr "Trang chủ"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Nóng (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Chi tiết giờ"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Độ ẩm"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Độ ẩm: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Độ ẩm: {}%"
 
 msgid "Hungary"
 msgstr ""
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Băng/sương giá"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Chiếu sáng"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Chiếu sáng: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Hình ảnh %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Hình ảnh %(current)d/%(total)d – %(day)s (Tạm dừng)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Hình ảnh không có sẵn"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Hệ thống đế quốc"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Tăng tốc độ"
 
 msgid "Info"
-msgstr ""
+msgstr "Thông tin"
 
 msgid "Info - About"
-msgstr ""
+msgstr "Thông tin - Giới thiệu"
 
 msgid "Ireland"
 msgstr ""
 
 msgid "Italy"
-msgstr ""
+msgstr "Ý"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Nhảy xuống 100"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "Nhảy lên 100"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Nhảy xuống 500"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Nhảy lên 500"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Bàn phím"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Quý trước"
 
 msgid "Latvia"
 msgstr ""
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Trái - Ngày trước"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Mũi tên trái - Ngày hôm trước"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Nhẹ (0-20 km/h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Mưa nhỏ/mưa phùn"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Nhẹ đến trung bình"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Đang tải bản đồ có sẵn..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Đang tải các giai đoạn của mặt trăng..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Đang tải các trạm lân cận..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Đang tải ô..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Đang tải dự báo hàng tuần..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Đang tải..."
 
 msgid "Low"
-msgstr ""
+msgstr "Thấp"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Hạ Saxony"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Âm lịch"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Các giai đoạn âm lịch từ tháng tới"
 
 msgid "Luxembourg"
 msgstr ""
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Đã tải bản đồ & ô"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Đã tải bản đồ"
 
 msgid "Map server"
-msgstr ""
+msgstr "Máy chủ bản đồ"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "Bản đồ {} đã được chọn"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr ""
 
 msgid "Menu"
-msgstr ""
+msgstr "Thực đơn"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Thực đơn - Cài đặt"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Hợp nhất không thành công"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Siêu âm"
 
 msgid "Metric System"
-msgstr ""
+msgstr "Hệ thống số liệu"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Trung Mỹ"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Trung Á"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Trung Đông"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Nhẹ (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Vừa phải"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Trung bình (20-40 km/h)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Mưa vừa"
 
 msgid "Month"
-msgstr ""
+msgstr "Tháng"
 
 msgid "Moon details"
-msgstr ""
+msgstr "chi tiết mặt trăng"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Trăng mọc: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Trăng lặn: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Buổi sáng"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Chủ yếu là rõ ràng"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Di chuyển xuống"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Di chuyển lên"
 
 msgid "Move down"
-msgstr ""
+msgstr "Di chuyển xuống"
 
 msgid "Move up"
-msgstr ""
+msgstr "Di chuyển lên"
 
 msgid "N"
 msgstr ""
 
 msgid "N/A"
-msgstr ""
+msgstr "không áp dụng"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Hà Lan"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Trăng non"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "Đã có phiên bản mới {version}."
 
 msgid "Next"
-msgstr ""
+msgstr "Kế tiếp"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Hình ảnh tiếp theo"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Khung tiếp theo"
 
 msgid "Next page"
-msgstr ""
+msgstr "Trang tiếp theo"
 
 msgid "Next time"
-msgstr ""
+msgstr "Lần sau"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Không có kết nối Internet được phát hiện."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Không có ô OSM"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Không tìm thấy thành phố nào tại địa phương cho '%s'"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Không có thành phố nào được chọn"
 
 msgid "No data"
-msgstr ""
+msgstr "Không có dữ liệu"
 
 msgid "No date available"
-msgstr ""
+msgstr "Không có ngày nào"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Không có vị trí nào được chọn"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Không có truyền thuyết cụ thể có sẵn."
 
 msgid "No station data"
-msgstr ""
+msgstr "Không có dữ liệu trạm"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Không có sẵn dữ liệu trạm"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Không tìm thấy trạm nào"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Không có ô nào được tải xuống"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Bắc Phi"
 
 msgid "North America"
-msgstr ""
+msgstr "Bắc Mỹ"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Bắc Rhine-Westphalia"
 
 msgid "Norway"
-msgstr ""
+msgstr "Na Uy"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "OK - Thông tin mở rộng"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "Được rồi - Dự báo"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "Được - Mở bản đồ"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Được - Chi tiết"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Mở bàn phím"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Mở bản đồ"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "Thiết kế và ý tưởng ban đầu của %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "U ám"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Trời u ám và mưa nhẹ"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Trời u ám và có tuyết nhẹ"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Trời u ám và tuyết ướt nhẹ"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "U ám và mưa"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Nhiều mây và có mưa rào"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "U ám và tuyết"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Mây mù và mưa tuyết"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Tuyết u ám và ẩm ướt"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Mưa tuyết u ám và ẩm ướt"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Trời u ám, có giông và mưa"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Qua đêm"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Trang xuống"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Trang lên"
 
 msgid "Page down"
-msgstr ""
+msgstr "Trang xuống"
 
 msgid "Page up"
-msgstr ""
+msgstr "Trang lên"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Xoay xuống"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Xoay sang trái"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Xoay sang phải"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Xoay lên"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Có mây rải rác"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Nhiều mây và mưa nhẹ"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Nhiều mây và có tuyết nhẹ"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Nhiều mây và tuyết ướt nhẹ"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Nhiều mây và có mưa rào"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Có mây rải rác và có mưa tuyết"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Mưa rào có mây và tuyết ướt"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Nhiều mây, có thể có giông bão kèm mưa"
 
 msgid "Perigee"
-msgstr ""
+msgstr "cận điểm"
 
 msgid "Phase"
-msgstr ""
+msgstr "Giai đoạn"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Giai đoạn: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Phát/Tạm dừng"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Vui lòng nhập cả người dùng API và mật khẩu API."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Vui lòng chờ ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Ba Lan"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Bồ Đào Nha"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Sự kết tủa"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Sự kết tủa: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Lượng mưa"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Lượng mưa: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Nhấn ĐỎ để tìm kiếm lại"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Áp lực"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Áp suất: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Áp suất: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Áp lực: Không áp dụng"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Áp lực: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Áp suất: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Trước đó"
 
 msgid "Previous"
-msgstr ""
+msgstr "Trước"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Hình ảnh trước đó"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Khung trước"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Trang trước"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Lần trước"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Mưa vấn đề."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Vấn đề về mưa. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Khả năng mưa: Không áp dụng"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Mưa: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "Radar RainViewer"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Đỏ - Chọn màu"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Làm cho khỏe lại"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Khôi phục giá trị máy chủ mặc định"
 
 msgid "Rhineland-Palatine"
 msgstr ""
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Đúng - Ngày hôm sau"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Mũi tên phải - Ngày hôm sau"
 
 msgid "Rise"
-msgstr ""
+msgstr "Tăng lên"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Tăng góc phương vị: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Góc phương vị tăng: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Nga"
 
 msgid "S"
 msgstr ""
@@ -1050,16 +1050,16 @@ msgid "Saarland"
 msgstr ""
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Ảnh vệ tinh"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Sắp có ảnh vệ tinh!"
 
 msgid "Save"
-msgstr ""
+msgstr "Cứu"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Lưu cài đặt API"
 
 msgid "Saxony"
 msgstr ""
@@ -1071,400 +1071,400 @@ msgid "Schleswig-Holstein"
 msgstr ""
 
 msgid "Scraped"
-msgstr ""
+msgstr "cạo"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Đầu tiên tìm kiếm trực tuyến, nếu thất bại hãy sử dụng danh sách cục bộ."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Tìm kiếm thành phố của bạn"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "Đang tìm kiếm '%s'..."
 
 msgid "Select"
-msgstr ""
+msgstr "Lựa chọn"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Chọn khu vực"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Chọn một thành phố"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Chọn bản đồ bằng OK"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Chọn hệ thống đơn vị"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Chọn đơn vị gió"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Chọn đơn vị {}"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Chi tiết giờ đã chọn"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Đặt góc phương vị: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Đặt góc phương vị: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "bộ"
 
 msgid "Show info"
-msgstr ""
+msgstr "Hiển thị thông tin"
 
 msgid "Showers"
-msgstr ""
+msgstr "Mưa rào"
 
 msgid "Slovakia"
 msgstr ""
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Chậm hơn: {} giây"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Tuyết/băng"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Vấn đề về tuyết. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Vấn đề về tuyết: Không áp dụng"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Nam Phi"
 
 msgid "South America"
-msgstr ""
+msgstr "Nam Mỹ"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Đông Nam Á"
 
 msgid "Spain"
-msgstr ""
+msgstr "Tây ban nha"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Quan sát trạm"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Ga tàu: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Mạnh (40-60 km/h)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Bình minh"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Hoàng hôn"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "Trăng siêu tròn"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Thụy Điển"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Thụy Sĩ"
 
 msgid "Temp"
-msgstr ""
+msgstr "Nhiệt độ"
 
 msgid "Temperature"
-msgstr ""
+msgstr "Nhiệt độ"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Nhiệt độ: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Nhiệt độ: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Nhiệt độ: Không áp dụng"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Nhiệt độ: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Nhiệt độ: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Nhiệt độ: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Cảm ơn {cảm ơn} và những người bạn khác đã gợi ý"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Phiên bản từ xa ({remote}) cũ hơn phiên bản hiện tại ({current})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Đám mây phía trên mỏng"
 
 msgid "Thuringia"
 msgstr ""
 
 msgid "Time"
-msgstr ""
+msgstr "Thời gian"
 
 msgid "Today"
-msgstr ""
+msgstr "Hôm nay"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Chi tiết hôm nay/ngày mai"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Chuyển đổi chú giải"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Số giờ hết hạn mã thông báo"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Số giờ hết hạn của mã thông báo phải là -1 hoặc số dương."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Số giờ hết hạn của mã thông báo phải là một số."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Ngày mai"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Quá cảnh (đỉnh cao): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Độ cao quá cảnh: Không áp dụng"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Độ cao chuyển tuyến: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Cài đặt minh bạch"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Mức độ minh bạch"
 
 msgid "UV Index"
-msgstr ""
+msgstr "Chỉ số UV"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "UVN/A"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Không tốt cho sức khỏe"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Không tốt cho sức khỏe người nhạy cảm"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Cài đặt đơn vị"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Cài đặt đơn vị (Nâng cao)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Cài đặt đơn vị (Đơn giản)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Không xác định"
 
 msgid "Up"
-msgstr ""
+msgstr "Hướng lên"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Lên - Trang trước"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Đã hủy cập nhật."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Cập nhật hoàn tất. Vui lòng khởi động lại Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Đã cập nhật {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Đã cập nhật: Không áp dụng"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Đã cập nhật: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Đang cập nhật..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Sử dụng các phím mũi tên để cuộn"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Sử dụng ← → để thay đổi thời gian | Được rồi để thoát"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Sử dụng ←/→/↑/↓ để di chuyển | Được rồi để thoát"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Sử dụng ▲/▼ để thay đổi, OK để chọn"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Sử dụng thời gian hiện tại"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Mưa rất to"
 
 msgid "Very high"
-msgstr ""
+msgstr "Rất cao"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Rất nóng (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Rất thấp"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Rất không tốt cho sức khỏe"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Mức độ hiển thị: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Tầm nhìn: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Lưỡi liềm suy yếu"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "vượn suy yếu"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Ấm (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Lưỡi liềm sáp"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "tẩy lông vượn"
 
 msgid "Weather"
-msgstr ""
+msgstr "Thời tiết"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Bản đồ thời tiết"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Bản đồ thời tiết"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Bản đồ thời tiết & vệ tinh"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Bản đồ thời tiết (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Trình chiếu bản đồ thời tiết"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Rađa thời tiết"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Thời tiết hôm nay"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Thời tiết ngày mai"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Dự báo hàng tuần"
 
 msgid "Wind"
-msgstr ""
+msgstr "Gió"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Hướng gió hôm nay"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Hướng gió ngày mai"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Hướng gió"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Tốc độ gió"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Tốc độ gió {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Tốc độ gió: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Gió: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Gió: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Gió: Không áp dụng"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Gió: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Gió: {} km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Gió: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Độ trong suốt của cửa sổ"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Màu vàng - Yêu thích 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Phóng to"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Thu nhỏ"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "Thu phóng+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "Phóng-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Phóng:"
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{giờ} giờ {phút} phút"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• BLUE để lưu làm Nhà\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- để nhảy 500 thành phố\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• XANH để lưu làm Mục ưa thích 1\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• OK để chọn thành phố\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• ĐỎ để mở bàn phím tìm kiếm\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Sử dụng phím mũi tên để điều hướng\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• VÀNG để lưu làm Mục ưa thích 2\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Khung"

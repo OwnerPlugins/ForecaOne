@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(Datu gehigarriak ez daude eskuragarri)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - Gaur"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - Gaur + 1 egun"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - Gaur + 2 egun"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - Gaur + 3 egun"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - Gaur + 4 egun"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - Gaur + 5 egun"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - Gaur + 6 egun"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - Gaur + 7 egun"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - Gaur + 8 egun"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - Gaur + 9 egun"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== ILARGIAREN XEHETASUNAK ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "APIaren kredentzialak ez dira konfiguratuta."
 
 msgid "API error"
-msgstr ""
+msgstr "APIaren errorea"
 
 msgid "API password"
-msgstr ""
+msgstr "API pasahitza"
 
 msgid "API user"
-msgstr ""
+msgstr "API erabiltzailea"
 
 msgid "AQI {}"
 msgstr ""
@@ -71,40 +71,40 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "Aurreratua"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "Unitate ezarpen aurreratuak"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "Arratsaldean"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Ilberritik adina: {:.1f} egun"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "Adina: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Diametro angeluarra: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Diametro angeluarra: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Itxurazko magnitudea: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Itxurazko magnitudea: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "Esleitu gogokoari 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "Esleitu gogokoari 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "Esleitu hasierara"
 
 msgid "Australia"
 msgstr ""
@@ -113,334 +113,334 @@ msgid "Austria"
 msgstr ""
 
 msgid "Auth server"
-msgstr ""
+msgstr "Autentifikazio zerbitzaria"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Wurtemberg"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Barometroa"
 
 msgid "Bavaria"
 msgstr ""
 
 msgid "Belgium"
-msgstr ""
+msgstr "Belgika"
 
 msgid "Berlin"
 msgstr ""
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Ilargi Beltza"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "Urdina - Hasiera"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "Ilargi Urdina"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburgo"
 
 msgid "Bremen"
 msgstr ""
 
 msgid "Calculating..."
-msgstr ""
+msgstr "Kalkulatzen..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Utzi"
 
 msgid "Celsius, km/h, hPa"
 msgstr ""
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Aldaketen erregistroa: {aldaketaren erregistroa}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "Aldaketak berehala aplikatzen dira"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "Egiaztatu eguneratzeak"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "Aukeratu xehetasun-ikuspegia"
 
 msgid "City Selection"
-msgstr ""
+msgstr "Hiriaren hautaketa"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "Ez da aurkitu hiri-zerrendaren fitxategia!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Foreca One Temp fitxategiak garbitu?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Garbiketa tenperatura fitxategiak"
 
 msgid "Clear"
-msgstr ""
+msgstr "Garbi"
 
 msgid "Close"
-msgstr ""
+msgstr "Itxi"
 
 msgid "Close legend"
-msgstr ""
+msgstr "Itxi kondaira"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Itxi konfigurazioa gorde gabe"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "Hodeitsu"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "Hodei eta euri arina"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "Hodeitsu eta elur arina"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "Hodeitsu eta elur busti arina"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "Hodeiak eta zaparradak"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "Hodeiak eta elur zaparradak"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "Elur zaparrada hodeitsu eta hezea"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "Hodeitsuak, trumoi-ekaitzak euriarekin"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "Hotza (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "Koloreen kondaira"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "Kolore-hautatzailea"
 
 msgid "Color data"
-msgstr ""
+msgstr "Kolore datuak"
 
 msgid "Color legend"
-msgstr ""
+msgstr "Koloreen kondaira"
 
 msgid "Color name"
-msgstr ""
+msgstr "Kolorearen izena"
 
 msgid "Color select"
-msgstr ""
+msgstr "Kolorea hautatzea"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "Baldintza: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "Kontinenteen Eguraldi Mapak"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Hotza (0-10 °C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "Ezin izan da eguneratze-informazioa eskuratu."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "Ezin izan da maparen APIa hasieratu."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "Ezin izan dira kargatu iragarpen-datuak"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "Ezin izan da bertsioaren informazioa analizatu."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "Egungo eguraldia eta iragarpena"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "Egungo eguraldia eta hurrengo 10 egunetarako iragarpena"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "Unekoa: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "Txekiar Errepublika"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Forecak emandako datuak"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "Data: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "Eguna"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "Jaitsi Abiadura"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Lehenetsiak"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Danimarka"
 
 msgid "Details"
-msgstr ""
+msgstr "Xehetasunak"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Ihintz-puntua {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Ihintz-puntua {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Ihintz-puntua: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Ihintz-puntua: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Ihintz-puntua: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "Distantzia {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "Distantzia: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "Distantzia: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "Distantzia: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "Orain instalatu nahi duzu?"
 
 msgid "Down"
-msgstr ""
+msgstr "Behera"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "Behera - Hurrengo orria"
 
 msgid "Download error"
-msgstr ""
+msgstr "Deskargaren errorea"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "Irudiak deskargatzen..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "Fitxak deskargatzen..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "Ekialdeko Asia"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "Errore bat gertatu da eguneratzeak egiaztatzen."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "Errore bat gertatu da datuak kargatzean"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "Errore bat gertatu da mapa kargatzean"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "Errore bat gertatu da mapak kargatzean. Egiaztatu konexioa."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "Errore bat gertatu da gogokoa gordetzean!"
 
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "Europako eguraldi mapak"
 
 msgid "Evening"
-msgstr ""
+msgstr "Arratsaldean"
 
 msgid "Exit"
-msgstr ""
+msgstr "Irten"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "Irten - Amaiera"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "Irten / Itxi legenda"
 
 msgid "Extreme"
-msgstr ""
+msgstr "Muturrekoa"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "Muturreko / trumoi-ekaitzak"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr ""
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "Azkarrago: {} s"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "Gogokoena 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "Gogokoena 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "Gogokoen xehetasunak"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "Gogokoen xehetasunak"
 
 msgid "Feels like"
-msgstr ""
+msgstr "Gustura sentitzen da"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "{} bezalakoa da"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "{}{} bezalakoa da"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "Hau da: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "Antzekoa: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "Hau da: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "Horrelakoa da: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "Horrelakoa da: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "Sentipena: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "Finlandia"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "Lehen Hiruhilekoa"
 
 msgid "Fog"
-msgstr ""
+msgstr "Lainoa"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca APIaren konfigurazioa"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca APIaren kredentzialak ez daude oraindik konfiguratuta. Mesedez, sartu itzazu konfigurazio pantailan."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca APIaren ezarpenak behar bezala gorde dira."
 
 msgid "Foreca One"
 msgstr ""
@@ -449,295 +449,295 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca One Menua"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One Ez da geltokirik aurkitu"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One geltokiak: {} geltokiak inguruan ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca One Eguraldi Iragarpena"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One Eguraldia eta Iragarpena ber. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | Mapa {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "%d hiri aurkitu dira lokalean '%s'rentzat"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "%d hiri aurkitu dira sarean '%s'-rako"
 
 msgid "Frame →"
-msgstr ""
+msgstr "Markoa →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "Markoa: {}"
 
 msgid "France"
-msgstr ""
+msgstr "Frantzia"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "Ilargi betea"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "Gale-indarra (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "Alemaniako Estatuen Eguraldi Mapak"
 
 msgid "Germany"
-msgstr ""
+msgstr "Alemania"
 
 msgid "Good"
-msgstr ""
+msgstr "Ona"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Britainia Handia"
 
 msgid "Greece"
-msgstr ""
+msgstr "Grezia"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "Berdea - Gogokoena 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "Gusta {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Gusta: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Hanburgo"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Arriskutsuak"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "Goiburua - ezin da hautagarria"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "Euri zaparrada"
 
 msgid "Help"
-msgstr ""
+msgstr "Laguntza"
 
 msgid "Hesse"
 msgstr ""
 
 msgid "High"
-msgstr ""
+msgstr "Alta"
 
 msgid "Home"
-msgstr ""
+msgstr "Hasiera"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "Beroa (30-40 °C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "Orduaren xehetasunak"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Hezetasuna"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "Hezetasuna: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "Hezetasuna: % {}"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Hungaria"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "Izotza / izotza"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Argiztapena"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "Argiztapena: % {:.1f}"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "Irudia %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "Irudia %(current)d/%(total)d – %(day)s (Pausatua)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "Irudia ez dago eskuragarri"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "Sistema Inperiala"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "Abiadura handitu"
 
 msgid "Info"
 msgstr ""
 
 msgid "Info - About"
-msgstr ""
+msgstr "Info - Buruz"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Irlanda"
 
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "Jauzi 100 behera"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "100 gora salto egin"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "Jauzi 500 behera"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "Jauzi 500 gora"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "Teklatua"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "Azken Hiruhilekoa"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Letonia"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "Ezkerrean - Aurreko eguna"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "Ezkerreko gezia - Aurreko eguna"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "Argia (0-20 km/h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "Euri arina / zirimiria"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "Arina eta moderatua"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "Eskuragarri dauden mapak kargatzen..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "Ilargi-faseak kargatzen..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "Inguruko geltokiak kargatzen..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "Fitxak kargatzen..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "Asteko iragarpena kargatzen..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Kargatzen..."
 
 msgid "Low"
-msgstr ""
+msgstr "Baxua"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Saxonia Beherea"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Ilargi Egutegia"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "Datorren hilabetetik aurrera ilargi faseak"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxenburgo"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "Mapa eta fitxak kargatuta"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "Mapa kargatu da"
 
 msgid "Map server"
-msgstr ""
+msgstr "Map zerbitzaria"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "{} mapa hautatuta"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr ""
 
 msgid "Menu"
-msgstr ""
+msgstr "Menua"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "Menua - Ezarpenak"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "Bateratzea huts egin du"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Meteograma"
 
 msgid "Metric System"
-msgstr ""
+msgstr "Sistema metrikoa"
 
 msgid "Middle America"
-msgstr ""
+msgstr "Erdialdeko Amerika"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "Erdialdeko Asia"
 
 msgid "Middle East"
-msgstr ""
+msgstr "Ekialde Hurbila"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Leuna (10-20 °C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "Moderatua"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "Ertain (20-40 km/h)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "Euria moderatua"
 
 msgid "Month"
-msgstr ""
+msgstr "Hilabetea"
 
 msgid "Moon details"
-msgstr ""
+msgstr "Ilargiaren xehetasunak"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Ilargia: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Ilargia: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "Goizean"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "Gehienbat argi"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Mugitu Behera"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Mugitu Gora"
 
 msgid "Move down"
-msgstr ""
+msgstr "Mugitu behera"
 
 msgid "Move up"
-msgstr ""
+msgstr "Gora"
 
 msgid "N"
 msgstr ""
@@ -746,688 +746,688 @@ msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Herbehereak"
 
 msgid "New Moon"
-msgstr ""
+msgstr "Ilberria"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "{version} bertsio berria dago eskuragarri."
 
 msgid "Next"
-msgstr ""
+msgstr "Hurrengoa"
 
 msgid "Next Image"
-msgstr ""
+msgstr "Hurrengo Irudia"
 
 msgid "Next frame"
-msgstr ""
+msgstr "Hurrengo fotograma"
 
 msgid "Next page"
-msgstr ""
+msgstr "Hurrengo orrialdea"
 
 msgid "Next time"
-msgstr ""
+msgstr "Hurrengoan"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "Ez da Interneteko konexiorik hauteman."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "Ez dago OSM fitxarik"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "Ez da aurkitu lokalean "%s" hiririk"
 
 msgid "No city selected"
-msgstr ""
+msgstr "Ez da hiririk hautatu"
 
 msgid "No data"
-msgstr ""
+msgstr "Ez dago daturik"
 
 msgid "No date available"
-msgstr ""
+msgstr "Ez dago datarik eskuragarri"
 
 msgid "No location selected"
-msgstr ""
+msgstr "Ez dago kokapenik hautatu"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "Ez dago kondaira zehatzik."
 
 msgid "No station data"
-msgstr ""
+msgstr "Ez dago geltokiko daturik"
 
 msgid "No station data available"
-msgstr ""
+msgstr "Ez dago geltokiko daturik eskuragarri"
 
 msgid "No stations found"
-msgstr ""
+msgstr "Ez da geltokirik aurkitu"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "Ez da fitxarik deskargatu"
 
 msgid "North Africa"
-msgstr ""
+msgstr "Ipar Afrika"
 
 msgid "North America"
-msgstr ""
+msgstr "Ipar Amerika"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "Ipar Renania-Westfalia"
 
 msgid "Norway"
-msgstr ""
+msgstr "Norvegia"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "Ados - Ext Info"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "Ados - Iragarpena"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "Ados - Ireki mapa"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "Ados - Xehetasunak"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "Ireki teklatua"
 
 msgid "Open Map"
-msgstr ""
+msgstr "Ireki Mapa"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "%s-ren jatorrizko diseinua eta ideia"
 
 msgid "Overcast"
-msgstr ""
+msgstr "Lainotua"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "Lainotua eta euri arina"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "Lainotua eta elur arina"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "Lainotuta eta elur busti arina"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "Lainotua eta euria"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "Ostarteak eta zaparradak"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "Lainotua eta elurra"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "Hodeiak eta elur zaparradak"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "Elur estalia eta hezea"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "Elur estalia eta hezea"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "Lainotua, trumoi-ekaitzak euriarekin"
 
 msgid "Overnight"
-msgstr ""
+msgstr "Gaua"
 
 msgid "Page Down"
-msgstr ""
+msgstr "Orria behera"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Orria gora"
 
 msgid "Page down"
-msgstr ""
+msgstr "Orria behera"
 
 msgid "Page up"
-msgstr ""
+msgstr "Orria gora"
 
 msgid "Pan down"
-msgstr ""
+msgstr "Pan behera"
 
 msgid "Pan left"
-msgstr ""
+msgstr "Pan ezkerrera"
 
 msgid "Pan right"
-msgstr ""
+msgstr "Eskuinera"
 
 msgid "Pan up"
-msgstr ""
+msgstr "Pan gora"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "Ostarteak"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "Ostarteak eta euri arina"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "Ostarteak eta elur arina"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "Ostarteak eta elur busti arina"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "Ostarteak eta zaparradak"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "Ostarteak eta elur zaparradak"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "Erdi hodeitsu eta elur zaparrada"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "Ostarteak, baliteke trumoi-ekaitzak euriarekin"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigeoa"
 
 msgid "Phase"
-msgstr ""
+msgstr "Fasea"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "Fasea: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "Erreproduzitu/Pausatu"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Mesedez, idatzi API erabiltzailea eta API pasahitza."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "Mesedez, itxaron..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Polonia"
 
 msgid "Portugal"
 msgstr ""
 
 msgid "Precipitation"
-msgstr ""
+msgstr "Prezipitazioa"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "Prezipitazioa: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "Prezipitazioak"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "Prezipitazioak: % {}"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "Sakatu GORRIA berriro bilatzeko"
 
 msgid "Pressure"
-msgstr ""
+msgstr "Presioa"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "Presioa: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "Presioa: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "Presioa: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "Presioa: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "Presioa: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "Aurrekoa"
 
 msgid "Previous"
-msgstr ""
+msgstr "Aurrekoa"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "Aurreko irudia"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "Aurreko markoa"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Aurreko orrialdea"
 
 msgid "Previous time"
-msgstr ""
+msgstr "Aurreko ordua"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "Euria Prob."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "Euria prob. % {}"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "Euri-prob.: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "Euria: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr ""
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "Gorria - Kolorea hautatzea"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Freskatu"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Berrezarri zerbitzariaren balio lehenetsiak"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Renania-Palatina"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "Eskuin - Hurrengo egunean"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "Eskuineko gezia - Hurrengo egunean"
 
 msgid "Rise"
-msgstr ""
+msgstr "Altxatu"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Igoera azimutua: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Igoera azimutua: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "Errusia"
 
 msgid "S"
 msgstr ""
 
 msgid "Saarland"
-msgstr ""
+msgstr "Sarre"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "Satelite bidezko argazkiak"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "Laster satelite bidezko argazkiak!"
 
 msgid "Save"
-msgstr ""
+msgstr "Gorde"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "Gorde API ezarpenak"
 
 msgid "Saxony"
-msgstr ""
+msgstr "Saxonia"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Saxonia-Anhalt"
 
 msgid "Schleswig-Holstein"
 msgstr ""
 
 msgid "Scraped"
-msgstr ""
+msgstr "Arraskatua"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "Bilatu lehen aldiz sarean saiatzen da, huts egiten badu tokiko zerrenda erabiltzen du."
 
 msgid "Search your City"
-msgstr ""
+msgstr "Bilatu zure hiria"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "'%s' bilatzen..."
 
 msgid "Select"
-msgstr ""
+msgstr "Hautatu"
 
 msgid "Select Region"
-msgstr ""
+msgstr "Hautatu Eskualdea"
 
 msgid "Select a city"
-msgstr ""
+msgstr "Aukeratu hiri bat"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "Hautatu mapa bat Ados botoian"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "Hautatu unitate-sistema"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "Hautatu haize-unitatea"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "Hautatu {} unitate"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "Aukeratutako orduen xehetasunak"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Ezarri azimutua: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Ezarri azimutua: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "Multzoak"
 
 msgid "Show info"
-msgstr ""
+msgstr "Erakutsi informazioa"
 
 msgid "Showers"
-msgstr ""
+msgstr "Dutxak"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Eslovakia"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "Motelago: {} s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "Elurra / izotza"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "Elurretako prob. % {}"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "Elur-arazoa: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "Hegoafrika"
 
 msgid "South America"
-msgstr ""
+msgstr "Hego Amerika"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Asiako hego-ekialdea"
 
 msgid "Spain"
-msgstr ""
+msgstr "Espainia"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "Geltokiko Behaketak"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "Geltokia: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "Indartsua (40-60 km/h)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "Egunsentia"
 
 msgid "Sunset"
-msgstr ""
+msgstr "Ilunabarra"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "Super Ilargi betea"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Suedia"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Suitza"
 
 msgid "Temp"
-msgstr ""
+msgstr "Tenperatura"
 
 msgid "Temperature"
-msgstr ""
+msgstr "Tenperatura"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "Tenperatura: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "Tenperatura: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "Tenperatura: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "Tenperatura: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "Tenperatura: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "Tenperatura: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "Eskerrik asko {esker} eta beste lagunei iradokizunengatik"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "Urruneko bertsioa ({urruneko}) oraingoa ({unekoa}) baino zaharragoa da."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "Goiko hodei mehea"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Turingia"
 
 msgid "Time"
-msgstr ""
+msgstr "Denbora"
 
 msgid "Today"
-msgstr ""
+msgstr "Gaur"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "Gaur/Bihar xehetasunak"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "Aldatu kondaira"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Token iraungitze orduak"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Token iraungitze orduak -1 edo zenbaki positiboa izan behar du."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Token iraungitze orduak zenbaki bat izan behar du."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "Bihar"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Garraioa (gailurra): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Garraio-altuera: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Garraio-altuera: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "Gardentasun ezarpenak"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "Gardentasun maila"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV indizea"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Osasungaitza"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Osasungaitza sentikorrentzat"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "Unitatearen ezarpenak"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "Unitatearen ezarpenak (aurreratua)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "Unitatearen ezarpenak (errazak)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Ezezaguna"
 
 msgid "Up"
-msgstr ""
+msgstr "Gora"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "Gora - Aurreko orria"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "Eguneraketa bertan behera utzi da."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "Eguneraketa osatu da. Mesedez, berrabiarazi Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "Eguneratu da {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "Eguneratua: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "Eguneratua: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "Eguneratzen..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "Erabili gezi-teklak mugitzeko"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "Erabili ← → ordua aldatzeko | Ados irteteko"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "Erabili ←/→/↑/↓ | mugitzeko Ados irteteko"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "Erabili ▲/▼ aldatzeko, Ados hautatzeko"
 
 msgid "Using current time"
-msgstr ""
+msgstr "Uneko ordua erabiliz"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "Euria oso gogorra"
 
 msgid "Very high"
-msgstr ""
+msgstr "Oso altua"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "Oso beroa (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "Oso baxua"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "Oso osasungaitza"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "Ikusgarritasuna: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "Ikusgarritasuna: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Ilargierdi beherakorra"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Gibosa galtzen"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "Epela (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Argizari Ilargia"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Argizaria Gibbous"
 
 msgid "Weather"
-msgstr ""
+msgstr "Eguraldia"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "Eguraldiaren mapa"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "Eguraldi mapak"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "Eguraldi mapak eta satelitea"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "Eguraldi mapak (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "Eguraldi-mapen diaporama"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "Eguraldi Radar"
 
 msgid "Weather today"
-msgstr ""
+msgstr "Eguraldia gaur"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "Eguraldia bihar"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "Asteko iragarpena"
 
 msgid "Wind"
-msgstr ""
+msgstr "Haizea"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "Haizearen norabidea gaur"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "Haizearen norabidea bihar"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "Haizearen norabidea"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "Haizearen abiadura"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "Haizearen abiadura {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "Haizearen abiadura: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "Haizea: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "Haizea: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "Haizea: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "Haizea: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "Haizea: {} km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "Haizea: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "Leihoaren gardentasuna"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "Horia - Gogokoena 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Handitu"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Txikiagotu"
 
 msgid "Zoom+"
 msgstr ""
@@ -1436,34 +1436,34 @@ msgid "Zoom-"
 msgstr ""
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Zooma:"
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{ordu} h {min} min"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• URDINA Hasiera gisa gordetzeko\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- 500 hiri jauzi egiteko\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• BERDEA Gogoko 1 gisa gordetzeko\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• Ados hiria hautatzeko\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• GORRIA bilaketa-teklatua irekitzeko\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• Erabili gezi-teklak nabigatzeko\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• HORIA 2 gogoko gisa gordetzeko\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← Markoa"

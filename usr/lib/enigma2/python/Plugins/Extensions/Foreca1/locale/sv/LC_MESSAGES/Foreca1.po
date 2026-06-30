@@ -53,7 +53,7 @@ msgid "9 - Today + 9 days"
 msgstr "9 - Idag + 9 dagar"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== MÅNDETALJER ==="
 
 msgid "API credentials not configured."
 msgstr "API-autentiseringsuppgifter har inte konfigurerats."
@@ -85,23 +85,23 @@ msgid "Afternoon"
 msgstr "Eftermiddag"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "Ålder sedan nymåne: {:.1f} dagar"
 
 #, fuzzy
 msgid "Age: N/A"
 msgstr "AQI: Ej tillgängligt"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "Vinkeldiameter: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "Vinkeldiameter: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "Skenbar magnitud: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "Skenbar magnitud: {:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "Tilldela till Favorit 1"
@@ -181,10 +181,10 @@ msgid "City list file not found!"
 msgstr "Stadslistfilen hittades inte!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Rensa Foreca One Temp-filer?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "Rensa temporära filer"
 
 msgid "Clear"
 msgstr "Klart"
@@ -196,7 +196,7 @@ msgid "Close legend"
 msgstr "Stäng förklaring"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "Stäng installationen utan att spara"
 
 msgid "Cloudy"
 msgstr "Molnigt"
@@ -289,7 +289,7 @@ msgid "Decrease Speed"
 msgstr "Minska hastigheten"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Standardvärden"
 
 msgid "Denmark"
 msgstr "Danmark"
@@ -447,10 +447,10 @@ msgid "Foreca API Setup"
 msgstr "Foreca One-meny"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API-uppgifter är inte konfigurerade än. Ange dem på inställningsskärmen."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API-inställningar har sparats."
 
 msgid "Foreca One"
 msgstr "Foreca One"
@@ -504,7 +504,7 @@ msgid "Germany"
 msgstr "Tyskland"
 
 msgid "Good"
-msgstr ""
+msgstr "Bra"
 
 msgid "Great Britain"
 msgstr "Storbritannien"
@@ -525,7 +525,7 @@ msgid "Hamburg"
 msgstr "Hamburg"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "Farlig"
 
 msgid "Header - not selectable"
 msgstr "Rubrik - kan inte väljas"
@@ -676,7 +676,7 @@ msgid "Map loaded"
 msgstr "Karta laddad"
 
 msgid "Map server"
-msgstr ""
+msgstr "Kartserver"
 
 msgid "Map {} selected"
 msgstr "Karta {} vald"
@@ -728,10 +728,10 @@ msgid "Moon details"
 msgstr "Timdetaljer"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "Månuppgång: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "Månnedgång: {}"
 
 msgid "Morning"
 msgstr "Morgon"
@@ -936,7 +936,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Växlande molnighet, möjliga åskväder med regn"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigeum"
 
 msgid "Phase"
 msgstr "Fas"
@@ -949,7 +949,7 @@ msgid "Play/Pause"
 msgstr "Spela/Paus"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "Ange både API-användare och API-lösenord."
 
 msgid "Please wait ..."
 msgstr "Vänligen vänta ..."
@@ -1033,7 +1033,7 @@ msgid "Refresh"
 msgstr "Uppdatera"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "Återställ standardservervärden"
 
 msgid "Rhineland-Palatine"
 msgstr "Rheinland-Pfalz"
@@ -1048,10 +1048,10 @@ msgid "Rise"
 msgstr "Uppgång"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "Stigningsazimut: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "Stigningsazimut: {:.0f}°"
 
 msgid "Russia"
 msgstr "Ryssland"
@@ -1121,10 +1121,10 @@ msgid "Selected hour details"
 msgstr "Detaljer för vald timme"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "Ställ in azimut: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "Ställ in azimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Nedgång"
@@ -1237,25 +1237,25 @@ msgid "Toggle legend"
 msgstr "Växla förklaring"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "Token löper ut timmar"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "Tokens förfallotid måste vara -1 eller ett positivt tal."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "Tokens utgångstider måste vara ett nummer."
 
 msgid "Tomorrow"
 msgstr "Imorgon"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "Transit (kulminering): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "Transithöjd: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "Transithöjd: {:.0f}°"
 
 msgid "Transparency Settings"
 msgstr "Transparensinställningar"
@@ -1270,10 +1270,10 @@ msgid "UV N/A"
 msgstr "UV: Ej tillgängligt"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "Ohälsosam"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "Ohälsosamt för känsliga"
 
 msgid "Unit Settings"
 msgstr "Enhetsinställningar"

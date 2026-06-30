@@ -18,1453 +18,1453 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(追加データはありません)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - 今日"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - 今日 + 1 日"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - 今日 + 2 日"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - 今日 + 3 日"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - 今日 + 4 日"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - 今日 + 5 日"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - 今日 + 6 日"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - 今日 + 7 日"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - 今日 + 8 日"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - 今日 + 9 日"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== 月の詳細 ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API 認証情報が構成されていません。"
 
 msgid "API error"
-msgstr ""
+msgstr "APIエラー"
 
 msgid "API password"
-msgstr ""
+msgstr "APIパスワード"
 
 msgid "API user"
-msgstr ""
+msgstr "APIユーザー"
 
 msgid "AQI {}"
-msgstr ""
+msgstr "アキ {}"
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "AQI: 該当なし"
 
 msgid "Advanced"
-msgstr ""
+msgstr "高度な"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "ユニットの詳細設定"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "午後"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "新月からの経過日数: {:.1f} 日"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "年齢: 該当なし"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "角直径: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "角直径: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "見かけの等級: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "見かけの等級: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "お気に入り 1 に割り当てる"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "お気に入り 2 に割り当てる"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "ホームに割り当てる"
 
 msgid "Australia"
-msgstr ""
+msgstr "オーストラリア"
 
 msgid "Austria"
-msgstr ""
+msgstr "オーストリア"
 
 msgid "Auth server"
-msgstr ""
+msgstr "認証サーバー"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "バーデン ヴュルテンベルク州"
 
 msgid "Barometer"
-msgstr ""
+msgstr "バロメーター"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "バイエルン州"
 
 msgid "Belgium"
-msgstr ""
+msgstr "ベルギー"
 
 msgid "Berlin"
-msgstr ""
+msgstr "ベルリン"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "ブラックムーン"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "ブルー - ホーム"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "ブルームーン"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "ブランデンブルク"
 
 msgid "Bremen"
-msgstr ""
+msgstr "ブレーメン"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "計算中..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "摂氏、km/h、hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "変更ログ: {変更ログ}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "変更はすぐに適用されます"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "アップデートを確認する"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "詳細ビューを選択してください"
 
 msgid "City Selection"
-msgstr ""
+msgstr "都市の選択"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "都市リスト ファイルが見つかりません!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Foreca One の一時ファイルをクリーンアップしますか?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "一時ファイルのクリーンアップ"
 
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 msgid "Close"
-msgstr ""
+msgstr "近い"
 
 msgid "Close legend"
-msgstr ""
+msgstr "凡例を閉じる"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "保存せずにセットアップを閉じます"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "曇り"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "曇り時々小雨"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "曇り時々小雪"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "曇りで軽い湿った雪"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "曇り、にわか雨"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "曇りや雪が降る"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "曇りで湿った雪が降る"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "曇り、雷雨で雨が降る"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "低温 (< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "色の凡例"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "カラーセレクター"
 
 msgid "Color data"
-msgstr ""
+msgstr "カラーデータ"
 
 msgid "Color legend"
-msgstr ""
+msgstr "色の凡例"
 
 msgid "Color name"
-msgstr ""
+msgstr "色の名前"
 
 msgid "Color select"
-msgstr ""
+msgstr "カラーセレクト"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "状態： {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "大陸の天気図"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "涼しい（0～10℃）"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "更新情報を取得できませんでした。"
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "マップ API を初期化できませんでした。"
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "予測データを読み込めませんでした"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "バージョン情報を解析できませんでした。"
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "現在の天気と予報"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "現在の天気と今後10日間の天気予報"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "現在： {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "チェコ共和国"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "データ提供：Foreca"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "日付： {}"
 
 msgid "Day"
-msgstr ""
+msgstr "日"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "速度を下げる"
 
 msgid "Defaults"
-msgstr ""
+msgstr "デフォルト"
 
 msgid "Denmark"
-msgstr ""
+msgstr "デンマーク"
 
 msgid "Details"
-msgstr ""
+msgstr "詳細"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "露点 {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "露点 {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "露点: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "露点: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "露点: N/A"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "距離 {} km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "距離: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "距離： {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "距離: {} km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "今すぐインストールしますか?"
 
 msgid "Down"
-msgstr ""
+msgstr "下"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "下へ - 次のページ"
 
 msgid "Download error"
-msgstr ""
+msgstr "ダウンロードエラー"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "画像をダウンロードしています..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "タイルをダウンロードしています..."
 
 msgid "E"
 msgstr ""
 
 msgid "East Asia"
-msgstr ""
+msgstr "東アジア"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "アップデートのチェック中にエラーが発生しました。"
 
 msgid "Error loading data"
-msgstr ""
+msgstr "データのロード中にエラーが発生しました"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "マップの読み込みエラー"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "マップのロード中にエラーが発生しました。接続を確認してください。"
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "お気に入りの保存中にエラーが発生しました!"
 
 msgid "Europe"
-msgstr ""
+msgstr "ヨーロッパ"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "ヨーロッパの天気図"
 
 msgid "Evening"
-msgstr ""
+msgstr "夕方"
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "終了 - 終了"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "凡例を終了/閉じる"
 
 msgid "Extreme"
-msgstr ""
+msgstr "過激"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "極端な/雷雨"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "華氏、マイル、インチHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "より高速: {} 秒"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "お気に入り 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "お気に入り2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "お気に入りの詳細"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "お気に入りの詳細"
 
 msgid "Feels like"
-msgstr ""
+msgstr "みたいな感じ"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "{} のような感じ"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "{}{} のような感じ"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "次のような感じ: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "体感温度: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "次のような感じ：該当なし"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "次のような感じ: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "次のような感じ: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "体感温度: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "フィンランド"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "第 1 四半期"
 
 msgid "Fog"
-msgstr ""
+msgstr "霧"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API のセットアップ"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API 資格情報はまだ構成されていません。設定画面で入力してください。"
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API 設定が正常に保存されました。"
 
 msgid "Foreca One"
-msgstr ""
+msgstr "フォレカワン"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One ライブ マップ (API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "フォレカワンメニュー"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One ステーションが見つかりませんでした"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One 駅: 近くの {} 駅 ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca Oneの天気予報"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One 天気と予報 ver. %s"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "フォレカワン |地図 {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "'%s' でローカルに %d 都市が見つかりました"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "「%s」のオンラインで %d 都市が見つかりました"
 
 msgid "Frame →"
-msgstr ""
+msgstr "フレーム→"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "フレーム： {}"
 
 msgid "France"
-msgstr ""
+msgstr "フランス"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "満月"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "強風力 (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "ドイツの州の天気図"
 
 msgid "Germany"
-msgstr ""
+msgstr "ドイツ"
 
 msgid "Good"
-msgstr ""
+msgstr "良い"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "イギリス"
 
 msgid "Greece"
-msgstr ""
+msgstr "ギリシャ"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "グリーン - お気に入り 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "ガスト {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "ガスト: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "ハンブルク"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "危険"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "ヘッダー - 選択不可"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "大雨"
 
 msgid "Help"
-msgstr ""
+msgstr "ヘルプ"
 
 msgid "Hesse"
-msgstr ""
+msgstr "ヘッセン州"
 
 msgid "High"
-msgstr ""
+msgstr "高い"
 
 msgid "Home"
-msgstr ""
+msgstr "家"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "高温（30～40℃）"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "時間の詳細"
 
 msgid "Humidity"
-msgstr ""
+msgstr "湿度"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "湿度: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "湿度: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "ハンガリー"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "氷・霜"
 
 msgid "Illumination"
-msgstr ""
+msgstr "照明"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "照度: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "画像 %(現在)d/%(合計)d – %(日)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "画像 %(current)d/%(total)d – %(day)s (一時停止)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "画像がありません"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "帝国制度"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "速度を上げる"
 
 msgid "Info"
-msgstr ""
+msgstr "情報"
 
 msgid "Info - About"
-msgstr ""
+msgstr "情報 - 概要"
 
 msgid "Ireland"
-msgstr ""
+msgstr "アイルランド"
 
 msgid "Italy"
-msgstr ""
+msgstr "イタリア"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "100 ジャンプダウン"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "100 上にジャンプ"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "500 ジャンプダウン"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "500 上にジャンプ"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "キーボード"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "前四半期"
 
 msgid "Latvia"
-msgstr ""
+msgstr "ラトビア"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "左 - 前日"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "左矢印 - 前日"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "ライト (0-20 km/h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "小雨/霧雨"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "軽度から中程度"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "利用可能な地図を読み込み中..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "月相を読み込んでいます..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "近くの駅を読み込んでいます..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "タイルを読み込み中..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "週間予報を読み込んでいます..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "読み込み中..."
 
 msgid "Low"
-msgstr ""
+msgstr "低い"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "ニーダーザクセン州"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "旧暦"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "来月からの月の満ち欠け"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "ルクセンブルク"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "マップとタイルがロードされました"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "マップが読み込まれました"
 
 msgid "Map server"
-msgstr ""
+msgstr "マップサーバー"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "地図 {} が選択されました"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "メクレンブルク フォアポンメルン州"
 
 msgid "Menu"
-msgstr ""
+msgstr "メニュー"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "メニュー - 設定"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "マージに失敗しました"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "メテオグラム"
 
 msgid "Metric System"
-msgstr ""
+msgstr "メートル法"
 
 msgid "Middle America"
-msgstr ""
+msgstr "中米"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "中央アジア"
 
 msgid "Middle East"
-msgstr ""
+msgstr "中東"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "マイルド（10～20℃）"
 
 msgid "Moderate"
-msgstr ""
+msgstr "適度"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "中程度 (20 ～ 40 km/h)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "中程度の雨"
 
 msgid "Month"
-msgstr ""
+msgstr "月"
 
 msgid "Moon details"
-msgstr ""
+msgstr "月の詳細"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "月の出: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "月の入り: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "朝"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "ほとんど透明"
 
 msgid "Move Down"
-msgstr ""
+msgstr "下に移動"
 
 msgid "Move Up"
-msgstr ""
+msgstr "上に移動"
 
 msgid "Move down"
-msgstr ""
+msgstr "下に移動"
 
 msgid "Move up"
-msgstr ""
+msgstr "上に移動"
 
 msgid "N"
 msgstr ""
 
 msgid "N/A"
-msgstr ""
+msgstr "該当なし"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "オランダ"
 
 msgid "New Moon"
-msgstr ""
+msgstr "新月"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "新しいバージョン {version} が利用可能です。"
 
 msgid "Next"
-msgstr ""
+msgstr "次"
 
 msgid "Next Image"
-msgstr ""
+msgstr "次の画像"
 
 msgid "Next frame"
-msgstr ""
+msgstr "次のフレーム"
 
 msgid "Next page"
-msgstr ""
+msgstr "次のページ"
 
 msgid "Next time"
-msgstr ""
+msgstr "次回"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "インターネット接続が検出されませんでした。"
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "OSMタイルなし"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "ローカルに「%s」の都市が見つかりません"
 
 msgid "No city selected"
-msgstr ""
+msgstr "都市が選択されていません"
 
 msgid "No data"
-msgstr ""
+msgstr "データなし"
 
 msgid "No date available"
-msgstr ""
+msgstr "日付がありません"
 
 msgid "No location selected"
-msgstr ""
+msgstr "場所が選択されていません"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "特定の凡例はありません。"
 
 msgid "No station data"
-msgstr ""
+msgstr "局データがありません"
 
 msgid "No station data available"
-msgstr ""
+msgstr "利用可能な局データがありません"
 
 msgid "No stations found"
-msgstr ""
+msgstr "ステーションが見つかりませんでした"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "タイルはダウンロードされていません"
 
 msgid "North Africa"
-msgstr ""
+msgstr "北アフリカ"
 
 msgid "North America"
-msgstr ""
+msgstr "北米"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "ノルトライン ヴェストファーレン州"
 
 msgid "Norway"
-msgstr ""
+msgstr "ノルウェー"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "OK - 内線情報"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "OK - 予報"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "OK - マップを開く"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "わかりました - 詳細"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "キーボードを開く"
 
 msgid "Open Map"
-msgstr ""
+msgstr "地図を開く"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "%s によるオリジナルのデザインとアイデア"
 
 msgid "Overcast"
-msgstr ""
+msgstr "曇り"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "曇り時々小雨"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "曇りや小雪"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "曇りで軽い湿った雪"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "曇りと雨"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "曇りやにわか雨"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "曇りと雪"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "曇りやにわか雪"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "曇りで湿った雪"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "曇りや湿った雪が降る"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "曇り、雨を伴う雷雨"
 
 msgid "Overnight"
-msgstr ""
+msgstr "一晩"
 
 msgid "Page Down"
-msgstr ""
+msgstr "ページダウン"
 
 msgid "Page Up"
-msgstr ""
+msgstr "ページアップ"
 
 msgid "Page down"
-msgstr ""
+msgstr "ページダウン"
 
 msgid "Page up"
-msgstr ""
+msgstr "ページアップ"
 
 msgid "Pan down"
-msgstr ""
+msgstr "パンダウン"
 
 msgid "Pan left"
-msgstr ""
+msgstr "左にパン"
 
 msgid "Pan right"
-msgstr ""
+msgstr "右にパン"
 
 msgid "Pan up"
-msgstr ""
+msgstr "パンアップ"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "所により曇り"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "曇り時々小雨"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "曇り時々小雪"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "薄曇りで軽い湿った雪が降っています"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "曇り時々雨"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "所により曇り時々雪が降る"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "所により曇りで湿った雪が降る"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "曇り時々雨、雷雨の可能性あり"
 
 msgid "Perigee"
-msgstr ""
+msgstr "近地点"
 
 msgid "Phase"
-msgstr ""
+msgstr "段階"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "段階： {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "再生/一時停止"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "APIユーザーとAPIパスワードの両方を入力してください。"
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "お待ちください ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "ポーランド"
 
 msgid "Portugal"
-msgstr ""
+msgstr "ポルトガル"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "降水量"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "降水量: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "降水量"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "降水量: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "もう一度検索するには赤を押してください"
 
 msgid "Pressure"
-msgstr ""
+msgstr "プレッシャー"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "圧力: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "圧力: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "圧力: 該当なし"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "プレッシャー： {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "圧力: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "前へ"
 
 msgid "Previous"
-msgstr ""
+msgstr "前の"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "前の画像"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "前のフレーム"
 
 msgid "Previous page"
-msgstr ""
+msgstr "前のページへ"
 
 msgid "Previous time"
-msgstr ""
+msgstr "前回"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "雨の確率"
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "雨の可能性あり。 {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "雨の可能性: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "雨: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer レーダー"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "赤 - 色選択"
 
 msgid "Refresh"
-msgstr ""
+msgstr "リフレッシュ"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "デフォルトのサーバー値を復元する"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "ラインラント パラティーノ"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "右 - 翌日"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "右矢印 - 翌日"
 
 msgid "Rise"
-msgstr ""
+msgstr "上昇"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "上昇方位: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "上昇方位: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "ロシア"
 
 msgid "S"
 msgstr ""
 
 msgid "Saarland"
-msgstr ""
+msgstr "ザールランド州"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "衛星写真"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "衛星写真も近日公開予定！"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "API設定の保存"
 
 msgid "Saxony"
-msgstr ""
+msgstr "ザクセン州"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "ザクセン アンハルト州"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "シュレースヴィヒ ホルシュタイン州"
 
 msgid "Scraped"
-msgstr ""
+msgstr "削られた"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "検索はまずオンラインで試行され、失敗した場合はローカル リストが使用されます。"
 
 msgid "Search your City"
-msgstr ""
+msgstr "あなたの都市を検索"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "「%s」を検索しています..."
 
 msgid "Select"
-msgstr ""
+msgstr "選択"
 
 msgid "Select Region"
-msgstr ""
+msgstr "地域の選択"
 
 msgid "Select a city"
-msgstr ""
+msgstr "都市を選択してください"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "OKで地図を選択"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "単位系を選択してください"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "風力ユニットを選択してください"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "{} ユニットを選択してください"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "選択した時間の詳細"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "設定方位: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "設定方位: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "セット"
 
 msgid "Show info"
-msgstr ""
+msgstr "番組情報"
 
 msgid "Showers"
-msgstr ""
+msgstr "シャワー"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "スロバキア"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "遅い: {} 秒"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "雪・氷"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "雪の可能性。 {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "降雪の可能性: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "南アフリカ"
 
 msgid "South America"
-msgstr ""
+msgstr "南アメリカ"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "東南アジア"
 
 msgid "Spain"
-msgstr ""
+msgstr "スペイン"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "駅の観測"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "駅： {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "強い (40-60 km/h)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "日の出"
 
 msgid "Sunset"
-msgstr ""
+msgstr "日没"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "スーパーフルムーン"
 
 msgid "Sweden"
-msgstr ""
+msgstr "スウェーデン"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "スイス"
 
 msgid "Temp"
-msgstr ""
+msgstr "温度"
 
 msgid "Temperature"
-msgstr ""
+msgstr "温度"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "温度: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "温度: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "温度: 該当なし"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "温度： {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "温度： {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "温度: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "{Thanks} と他の友人の提案に感謝します"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "リモート バージョン ({remote}) は現在のバージョン ({current}) よりも古いです。"
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "上層の薄い雲"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "テューリンゲン州"
 
 msgid "Time"
-msgstr ""
+msgstr "時間"
 
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "今日・明日の詳細"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "凡例の切り替え"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "トークンの有効期限切れ時間"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "トークンの有効期限は -1 または正の数である必要があります。"
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "トークンの有効期限は数値である必要があります。"
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "明日"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "トランジット (頂点): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "通過高度: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "通過高度: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "透明度の設定"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "透明度レベル"
 
 msgid "UV Index"
-msgstr ""
+msgstr "紫外線指数"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "UV 該当なし"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "不健康"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "敏感な人には不健康"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "ユニットの設定"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "ユニット設定（詳細）"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "ユニット設定（簡易）"
 
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "上へ - 前のページ"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "更新がキャンセルされました。"
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "アップデートが完了しました。 Enigma2を再起動してください。"
 
 msgid "Updated {}"
-msgstr ""
+msgstr "{} を更新しました"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "更新日: 該当なし"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "更新日: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "更新中..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "矢印キーを使用してスクロールします"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "← → を使用して時間を変更します | OK 終了します"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "←/→/↑/↓ で移動 | OK 終了します"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "▲/▼で変更、OKで選択"
 
 msgid "Using current time"
-msgstr ""
+msgstr "現在時刻を使用する"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "非常に激しい雨"
 
 msgid "Very high"
-msgstr ""
+msgstr "非常に高い"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "非常に暑い (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "非常に低い"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "非常に不健康"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "可視性: %s m"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "視程: {} m"
 
 msgid "W"
 msgstr ""
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "下弦の三日月"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "衰退するギブス"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "暖かい（20～30℃）"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "ワックスがけの三日月"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "ギブスのワックスがけ"
 
 msgid "Weather"
-msgstr ""
+msgstr "天気"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "天気図"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "天気図"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "天気図と衛星"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "天気図 (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "天気図のスライドショー"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "気象レーダー"
 
 msgid "Weather today"
-msgstr ""
+msgstr "今日の天気"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "明日の天気"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "週間予報"
 
 msgid "Wind"
-msgstr ""
+msgstr "風"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "今日の風向き"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "明日の風向き"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "風向き"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "風速"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "風速 {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "風速: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "風: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "風: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "風:該当なし"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "風： {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "風: {} km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "風： {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "ウィンドウの透明度"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "イエロー - お気に入り 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "ズームイン"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "ズームアウト"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "ズーム+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "ズーム-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "ズーム："
 
 msgid "v."
 msgstr ""
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{時間} 時間 {分} 分"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• ホームとして保存するには青\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- で 500 都市にジャンプします\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• 緑色はお気に入り 1 として保存します\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• [OK] を選択して都市を選択します\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• 赤で検索キーボードを開きます\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• 矢印キーを使用して移動します\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• 黄色はお気に入り 2 として保存します\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← フレーム"

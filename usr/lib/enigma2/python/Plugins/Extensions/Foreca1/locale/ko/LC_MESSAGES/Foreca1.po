@@ -18,1453 +18,1453 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(추가 데이터는 제공되지 않음)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - 오늘"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - 오늘 + 1일"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - 오늘 + 2일"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - 오늘 + 3일"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - 오늘 + 4일"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - 오늘 + 5일"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - 오늘 + 6일"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - 오늘 + 7일"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - 오늘 + 8일"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - 오늘 + 9일"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== 달 세부정보 ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API 자격 증명이 구성되지 않았습니다."
 
 msgid "API error"
-msgstr ""
+msgstr "API 오류"
 
 msgid "API password"
-msgstr ""
+msgstr "API 비밀번호"
 
 msgid "API user"
-msgstr ""
+msgstr "API 사용자"
 
 msgid "AQI {}"
 msgstr ""
 
 msgid "AQI: N/A"
-msgstr ""
+msgstr "AQI: 해당 없음"
 
 msgid "Advanced"
-msgstr ""
+msgstr "고급의"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "고급 장치 설정"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "오후"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "초승달 이후 경과 기간: {:.1f}일"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "연령: 해당 없음"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "각도 직경: 해당 없음"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "각도 직경: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "겉보기 등급: 해당 없음"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "겉보기 등급: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "즐겨찾기 1에 할당"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "즐겨찾기 2에 할당"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "홈에 할당"
 
 msgid "Australia"
-msgstr ""
+msgstr "호주"
 
 msgid "Austria"
-msgstr ""
+msgstr "오스트리아"
 
 msgid "Auth server"
-msgstr ""
+msgstr "인증 서버"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "바덴뷔르템베르크"
 
 msgid "Barometer"
-msgstr ""
+msgstr "기압계"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "바이에른"
 
 msgid "Belgium"
-msgstr ""
+msgstr "벨기에"
 
 msgid "Berlin"
-msgstr ""
+msgstr "베를린"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "블랙문"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "블루 - 홈"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "블루문"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "브란덴부르크"
 
 msgid "Bremen"
-msgstr ""
+msgstr "브레멘"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "계산 중..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "섭씨, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "변경 로그: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "변경사항이 즉시 적용됩니다."
 
 msgid "Check for updates"
-msgstr ""
+msgstr "업데이트 확인"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "상세보기 선택"
 
 msgid "City Selection"
-msgstr ""
+msgstr "도시 선택"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "도시 목록 파일을 찾을 수 없습니다!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "Foreca One 임시 파일을 정리하시겠습니까?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "임시 파일 정리"
 
 msgid "Clear"
-msgstr ""
+msgstr "분명한"
 
 msgid "Close"
-msgstr ""
+msgstr "닫다"
 
 msgid "Close legend"
-msgstr ""
+msgstr "범례 닫기"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "저장하지 않고 설정을 닫습니다."
 
 msgid "Cloudy"
-msgstr ""
+msgstr "흐린"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "흐리고 가벼운 비"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "흐리고 가벼운 눈"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "흐리고 약간 젖은 눈"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "흐리고 소나기가 내림"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "흐리고 눈이 내림"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "흐리고 젖은 눈"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "흐리고 천둥번개를 동반한 비가 내림"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "추위(< 0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "색상 범례"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "색상 선택기"
 
 msgid "Color data"
-msgstr ""
+msgstr "색상 데이터"
 
 msgid "Color legend"
-msgstr ""
+msgstr "색상 범례"
 
 msgid "Color name"
-msgstr ""
+msgstr "색상명"
 
 msgid "Color select"
-msgstr ""
+msgstr "색상 선택"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "상태: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "대륙 날씨 지도"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "시원함(0~10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "업데이트 정보를 가져올 수 없습니다."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "지도 API를 초기화할 수 없습니다."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "예측 데이터를 로드할 수 없습니다."
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "버전 정보를 구문 분석할 수 없습니다."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "현재 날씨 및 예보"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "현재 날씨 및 향후 10일간의 일기예보"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "현재의: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "체코"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "Foreca에서 제공하는 데이터"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "날짜: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "낮"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "속도 감소"
 
 msgid "Defaults"
-msgstr ""
+msgstr "기본값"
 
 msgid "Denmark"
-msgstr ""
+msgstr "덴마크"
 
 msgid "Details"
-msgstr ""
+msgstr "세부"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "이슬점 {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "이슬점 {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "이슬점: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "이슬점: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "이슬점: 해당 없음"
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "거리 {}km"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "거리: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "거리: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "거리: {}km"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "지금 설치하시겠습니까?"
 
 msgid "Down"
-msgstr ""
+msgstr "아래에"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "아래로 - 다음 페이지"
 
 msgid "Download error"
-msgstr ""
+msgstr "다운로드 오류"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "이미지 다운로드 중..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "타일 ​​다운로드 중..."
 
 msgid "E"
-msgstr ""
+msgstr "이자형"
 
 msgid "East Asia"
-msgstr ""
+msgstr "동아시아"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "업데이트를 확인하는 중에 오류가 발생했습니다."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "데이터를 로드하는 중에 오류가 발생했습니다."
 
 msgid "Error loading map"
-msgstr ""
+msgstr "지도를 로드하는 중에 오류가 발생했습니다."
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "지도를 로드하는 중에 오류가 발생했습니다. 연결을 확인하세요."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "즐겨찾기를 저장하는 중에 오류가 발생했습니다."
 
 msgid "Europe"
-msgstr ""
+msgstr "유럽"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "유럽 ​​날씨 지도"
 
 msgid "Evening"
-msgstr ""
+msgstr "저녁"
 
 msgid "Exit"
-msgstr ""
+msgstr "출구"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "종료 - 종료"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "종료 / 범례 닫기"
 
 msgid "Extreme"
-msgstr ""
+msgstr "극심한"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "극심한/뇌우"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "화씨, mph, inHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "더 빠름: {}초"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "즐겨찾기 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "좋아하는 것 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "즐겨찾기 세부정보"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "즐겨찾기 세부정보"
 
 msgid "Feels like"
-msgstr ""
+msgstr "같은 느낌"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "{} 같은 느낌이에요"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "{}{} 같은 느낌이에요"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "다음과 같은 느낌: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "느낌: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "다음과 같은 느낌: 해당 없음"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "다음과 같은 느낌: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "다음과 같은 느낌: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "느낌: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "핀란드"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "1분기"
 
 msgid "Fog"
-msgstr ""
+msgstr "안개"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API 설정"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API 자격 증명이 아직 구성되지 않았습니다. 설정 화면에서 입력해주세요."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API 설정이 성공적으로 저장되었습니다."
 
 msgid "Foreca One"
-msgstr ""
+msgstr "포레카 원"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One 실시간 지도(API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "포레카원 메뉴"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One 역을 찾을 수 없습니다"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One 역: 인근 역 {}개({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "포레카 원 일기 예보"
 
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One 날씨 및 예보 ver. %에스"
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "포레카원 | 지도 {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "'%s'에 대해 로컬에서 %d개의 도시를 찾았습니다."
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "'%s'에 대한 %d개 도시를 온라인에서 찾았습니다."
 
 msgid "Frame →"
-msgstr ""
+msgstr "프레임 →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "액자: {}"
 
 msgid "France"
-msgstr ""
+msgstr "프랑스"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "만월"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "강풍 힘(>60km/h)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "독일 주 날씨 지도"
 
 msgid "Germany"
-msgstr ""
+msgstr "독일"
 
 msgid "Good"
-msgstr ""
+msgstr "좋은"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "대 브리튼 섬"
 
 msgid "Greece"
-msgstr ""
+msgstr "그리스"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "녹색 - 즐겨찾기 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "돌풍 {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "돌풍: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "함부르크"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "위험한"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "헤더 - 선택할 수 없음"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "폭우"
 
 msgid "Help"
-msgstr ""
+msgstr "돕다"
 
 msgid "Hesse"
-msgstr ""
+msgstr "헤세"
 
 msgid "High"
-msgstr ""
+msgstr "높은"
 
 msgid "Home"
-msgstr ""
+msgstr "집"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "뜨겁다(30~40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "시간 세부정보"
 
 msgid "Humidity"
-msgstr ""
+msgstr "습기"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "습도: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "습도: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "헝가리"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "얼음/서리"
 
 msgid "Illumination"
-msgstr ""
+msgstr "조명"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "조명: ​​{:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "이미지 %(현재)d/%(전체)d – %(일)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "이미지 %(current)d/%(total)d – %(day)s(일시중지됨)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "이미지를 사용할 수 없습니다."
 
 msgid "Imperial System"
-msgstr ""
+msgstr "제국 시스템"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "속도 증가"
 
 msgid "Info"
-msgstr ""
+msgstr "정보"
 
 msgid "Info - About"
-msgstr ""
+msgstr "정보 - 정보"
 
 msgid "Ireland"
-msgstr ""
+msgstr "아일랜드"
 
 msgid "Italy"
-msgstr ""
+msgstr "이탈리아"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "100 아래로 점프"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "100 위로 점프"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "500 아래로 점프"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "500 위로 점프"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "건반"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "지난 분기"
 
 msgid "Latvia"
-msgstr ""
+msgstr "라트비아"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "왼쪽 - 전날"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "왼쪽 화살표 - 전날"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "빛(0-20km/h)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "약한 비 / 이슬비"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "가벼움에서 중간 정도"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "사용 가능한 지도 로드 중..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "달의 위상 로드 중..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "주변 역 로드 중..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "타일 ​​로드 중..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "주간 일기예보 로드 중..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "로드 중..."
 
 msgid "Low"
-msgstr ""
+msgstr "낮은"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "니더작센"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "음력"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "다음 달의 달의 위상"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "룩셈부르크"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "지도 및 타일 로드됨"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "지도가 로드되었습니다."
 
 msgid "Map server"
-msgstr ""
+msgstr "지도 서버"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "지도 {} 선택됨"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "메클렌부르크-포어포메른"
 
 msgid "Menu"
-msgstr ""
+msgstr "메뉴"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "메뉴 - 설정"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "병합 실패"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "운성도"
 
 msgid "Metric System"
-msgstr ""
+msgstr "미터법"
 
 msgid "Middle America"
-msgstr ""
+msgstr "중미"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "중동"
 
 msgid "Middle East"
-msgstr ""
+msgstr "중동"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "온화함(10~20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "보통의"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "보통(20-40km/h)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "적당한 비"
 
 msgid "Month"
-msgstr ""
+msgstr "월"
 
 msgid "Moon details"
-msgstr ""
+msgstr "달 세부정보"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "월출: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "월몰: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "아침"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "대체로 맑음"
 
 msgid "Move Down"
-msgstr ""
+msgstr "아래로 이동"
 
 msgid "Move Up"
-msgstr ""
+msgstr "위로 이동"
 
 msgid "Move down"
-msgstr ""
+msgstr "아래로 이동"
 
 msgid "Move up"
-msgstr ""
+msgstr "위로 이동"
 
 msgid "N"
 msgstr ""
 
 msgid "N/A"
-msgstr ""
+msgstr "해당 없음"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "네덜란드"
 
 msgid "New Moon"
-msgstr ""
+msgstr "초승달"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "새 버전 {version}을(를) 사용할 수 있습니다."
 
 msgid "Next"
-msgstr ""
+msgstr "다음"
 
 msgid "Next Image"
-msgstr ""
+msgstr "다음 이미지"
 
 msgid "Next frame"
-msgstr ""
+msgstr "다음 프레임"
 
 msgid "Next page"
-msgstr ""
+msgstr "다음 페이지"
 
 msgid "Next time"
-msgstr ""
+msgstr "다음번"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "인터넷 연결이 감지되지 않았습니다."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "OSM 타일 없음"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "'%s'에 대해 로컬에서 도시를 찾을 수 없습니다."
 
 msgid "No city selected"
-msgstr ""
+msgstr "선택한 도시가 없습니다."
 
 msgid "No data"
-msgstr ""
+msgstr "데이터 없음"
 
 msgid "No date available"
-msgstr ""
+msgstr "이용 가능한 날짜가 없습니다."
 
 msgid "No location selected"
-msgstr ""
+msgstr "선택한 위치가 없습니다."
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "특정 범례가 없습니다."
 
 msgid "No station data"
-msgstr ""
+msgstr "역 데이터 없음"
 
 msgid "No station data available"
-msgstr ""
+msgstr "사용 가능한 역 데이터가 없습니다."
 
 msgid "No stations found"
-msgstr ""
+msgstr "역을 찾을 수 없습니다"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "다운로드된 타일이 없습니다."
 
 msgid "North Africa"
-msgstr ""
+msgstr "북아프리카"
 
 msgid "North America"
-msgstr ""
+msgstr "북아메리카"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "노스라인-웨스트팔리아"
 
 msgid "Norway"
-msgstr ""
+msgstr "노르웨이"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "확인 - 확장 정보"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "확인 - 예측"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "확인 - 지도 열기"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "알겠습니다 - 세부정보"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "키보드 열기"
 
 msgid "Open Map"
-msgstr ""
+msgstr "지도 열기"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "%s의 독창적인 디자인 및 아이디어"
 
 msgid "Overcast"
-msgstr ""
+msgstr "흐린"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "흐리고 가벼운 비"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "흐리고 가벼운 눈"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "흐리고 살짝 젖은 눈"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "흐리고 비"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "흐리고 소나기"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "흐리고 눈"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "흐리고 눈이 내림"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "흐리고 젖은 눈"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "흐리고 젖은 눈"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "흐리고 천둥번개를 동반한 비가 내림"
 
 msgid "Overnight"
-msgstr ""
+msgstr "밤새"
 
 msgid "Page Down"
-msgstr ""
+msgstr "페이지 아래로"
 
 msgid "Page Up"
-msgstr ""
+msgstr "페이지 위로"
 
 msgid "Page down"
-msgstr ""
+msgstr "페이지 아래로"
 
 msgid "Page up"
-msgstr ""
+msgstr "페이지 위로"
 
 msgid "Pan down"
-msgstr ""
+msgstr "아래로 이동"
 
 msgid "Pan left"
-msgstr ""
+msgstr "왼쪽으로 이동"
 
 msgid "Pan right"
-msgstr ""
+msgstr "오른쪽으로 이동"
 
 msgid "Pan up"
-msgstr ""
+msgstr "위로 이동"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "약간 흐림"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "대체로 흐리고 약한 비"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "대체로 흐리고 눈이 내림"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "약간 흐리고 약간 젖은 눈"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "대체로 흐리고 소나기가 내림"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "대체로 흐리고 눈이 내림"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "약간 흐리고 눈이 내림"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "대체로 흐리고 천둥번개를 동반한 비가 내릴 가능성 있음"
 
 msgid "Perigee"
-msgstr ""
+msgstr "근지점"
 
 msgid "Phase"
-msgstr ""
+msgstr "단계"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "단계: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "재생/일시 정지"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "API 사용자와 API 비밀번호를 모두 입력해주세요."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "기다리세요 ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "폴란드"
 
 msgid "Portugal"
-msgstr ""
+msgstr "포르투갈"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "강수량"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "강수량: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "강수량"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "강수량: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "다시 검색하려면 빨간색을 누르세요."
 
 msgid "Pressure"
-msgstr ""
+msgstr "압력"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "압력: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "압력: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "압력: 해당 없음"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "압력: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "압력: {}hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "이전"
 
 msgid "Previous"
-msgstr ""
+msgstr "이전의"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "이전 이미지"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "이전 프레임"
 
 msgid "Previous page"
-msgstr ""
+msgstr "이전 페이지"
 
 msgid "Previous time"
-msgstr ""
+msgstr "이전 시간"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "비 가능성"
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "비 문제 {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "비가 올 가능성: 해당 없음"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "비: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "레인뷰어 레이더"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "빨간색 - 색상 선택"
 
 msgid "Refresh"
-msgstr ""
+msgstr "새로 고치다"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "기본 서버 값 복원"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "라인란트-팔라틴"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "오른쪽 - 다음날"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "오른쪽 화살표 - 다음날"
 
 msgid "Rise"
-msgstr ""
+msgstr "증가"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "상승 방위각: 해당 없음"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "상승 방위각: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "러시아 제국"
 
 msgid "S"
-msgstr ""
+msgstr "에스"
 
 msgid "Saarland"
-msgstr ""
+msgstr "자를란트"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "위성 사진"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "위성 사진이 곧 공개됩니다!"
 
 msgid "Save"
-msgstr ""
+msgstr "구하다"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "API 설정 저장"
 
 msgid "Saxony"
-msgstr ""
+msgstr "색스니 털실"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "작센안할트"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "슐레스비히-홀슈타인"
 
 msgid "Scraped"
-msgstr ""
+msgstr "긁힌"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "검색은 먼저 온라인으로 시도하고, 실패하면 로컬 목록을 사용합니다."
 
 msgid "Search your City"
-msgstr ""
+msgstr "도시 검색"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr "'%s' 검색 중..."
 
 msgid "Select"
-msgstr ""
+msgstr "선택하다"
 
 msgid "Select Region"
-msgstr ""
+msgstr "지역 선택"
 
 msgid "Select a city"
-msgstr ""
+msgstr "도시를 선택하세요"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "확인을 눌러 지도를 선택하세요"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "단위계 선택"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "바람 단위 선택"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "{} 단위 선택"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "선택한 시간 세부정보"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "방위각 설정: 해당 없음"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "방위각 설정: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "세트"
 
 msgid "Show info"
-msgstr ""
+msgstr "정보 표시"
 
 msgid "Showers"
-msgstr ""
+msgstr "샤워"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "슬로바키아"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "더 느림: {}초"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "눈/얼음"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "눈 문제 {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "눈 가능성: 해당 없음"
 
 msgid "South Africa"
-msgstr ""
+msgstr "남아프리카"
 
 msgid "South America"
-msgstr ""
+msgstr "남아메리카"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "동남아시아"
 
 msgid "Spain"
-msgstr ""
+msgstr "스페인"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "관측소 관측"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "역: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "강함(40-60km/h)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "해돋이"
 
 msgid "Sunset"
-msgstr ""
+msgstr "일몰"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "슈퍼 보름달"
 
 msgid "Sweden"
-msgstr ""
+msgstr "스웨덴"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "스위스"
 
 msgid "Temp"
-msgstr ""
+msgstr "온도"
 
 msgid "Temperature"
-msgstr ""
+msgstr "온도"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "온도: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "온도: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "온도: 해당 없음"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "온도: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "온도: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "온도: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "제안해 주신 {thanks}님과 다른 친구들에게 감사드립니다"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "원격 버전({remote})이 현재 버전({current})보다 오래되었습니다."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "얇은 상부 구름"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "튀링겐"
 
 msgid "Time"
-msgstr ""
+msgstr "시간"
 
 msgid "Today"
-msgstr ""
+msgstr "오늘"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "오늘/내일 세부정보"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "범례 전환"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "토큰 만료 시간"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "토큰 만료 시간은 -1 또는 양수여야 합니다."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "토큰 만료 시간은 숫자여야 합니다."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "내일"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "대중교통(최종점): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "통과 고도: 해당 없음"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "통과 고도: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "투명도 설정"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "투명성 수준"
 
 msgid "UV Index"
-msgstr ""
+msgstr "자외선 지수"
 
 msgid "UV N/A"
-msgstr ""
+msgstr "UV 해당 없음"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "위험한"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "민감한 사람에게는 건강에 해로움"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "단위 설정"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "단위 설정(고급)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "단위 설정(간단)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "알려지지 않은"
 
 msgid "Up"
-msgstr ""
+msgstr "위로"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "위로 - 이전 페이지"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "업데이트가 취소되었습니다."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "업데이트가 완료되었습니다. Enigma2를 다시 시작하십시오."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "업데이트된 {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "업데이트됨: 해당 없음"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "업데이트됨: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "업데이트 중..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "스크롤하려면 화살표 키를 사용하세요."
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "시간을 변경하려면 ← →를 사용하세요 | 종료해도 괜찮습니다"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "이동하려면 ←/→/↑/↓를 사용하세요 | 종료해도 괜찮습니다"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "변경하려면 ▲/▼를 사용하고, 선택하려면 OK를 사용하세요."
 
 msgid "Using current time"
-msgstr ""
+msgstr "현재 시간 사용"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "매우 큰 비"
 
 msgid "Very high"
-msgstr ""
+msgstr "매우 높음"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "매우 뜨겁다(>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "매우 낮음"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "매우 건강에 해로움"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "가시성: %sm"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "가시성: {}m"
 
 msgid "W"
-msgstr ""
+msgstr "여"
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "쇠퇴하는 초승달"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "쇠퇴하는 기버스"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "따뜻함(20~30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "왁싱 초승달"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "왁싱"
 
 msgid "Weather"
-msgstr ""
+msgstr "날씨"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "날씨 지도"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "날씨 지도"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "날씨 지도 및 위성"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "날씨 지도(Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "날씨 지도 슬라이드쇼"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "기상 레이더"
 
 msgid "Weather today"
-msgstr ""
+msgstr "오늘 날씨"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "내일 날씨"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "주간예보"
 
 msgid "Wind"
-msgstr ""
+msgstr "바람"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "오늘의 풍향"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "내일 풍향"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "풍향"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "풍속"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "풍속 {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "풍속: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "바람: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "바람: %skm/h %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "바람: 해당 없음"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "바람: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "바람: {}km/h {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "바람: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "창 투명도"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "노란색 - 좋아하는 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "확대"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "축소"
 
 msgid "Zoom+"
-msgstr ""
+msgstr "줌+"
 
 msgid "Zoom-"
-msgstr ""
+msgstr "줌-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "줌:"
 
 msgid "v."
-msgstr ""
+msgstr "다섯."
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{시간}시간 {분}분"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• 홈으로 저장하려면 파란색\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- 500개 도시 이동\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• 즐겨찾기 1로 저장하려면 녹색\n"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• 도시를 선택하려면 확인\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• 검색 키보드를 열려면 빨간색\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• 화살표 키를 사용하여 탐색하세요.\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• 즐겨찾기 2로 저장하려면 노란색\n"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← 프레임"

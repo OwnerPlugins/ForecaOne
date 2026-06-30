@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "(Additional data not available)"
-msgstr ""
+msgstr "(დამატებითი მონაცემები მიუწვდომელია)"
 
 msgid "0 - Today"
-msgstr ""
+msgstr "0 - დღეს"
 
 msgid "1 - Today + 1 day"
-msgstr ""
+msgstr "1 - დღეს + 1 დღე"
 
 msgid "2 - Today + 2 days"
-msgstr ""
+msgstr "2 - დღეს + 2 დღე"
 
 msgid "3 - Today + 3 days"
-msgstr ""
+msgstr "3 - დღეს + 3 დღე"
 
 msgid "4 - Today + 4 days"
-msgstr ""
+msgstr "4 - დღეს + 4 დღე"
 
 msgid "5 - Today + 5 days"
-msgstr ""
+msgstr "5 - დღეს + 5 დღე"
 
 msgid "6 - Today + 6 days"
-msgstr ""
+msgstr "6 - დღეს + 6 დღე"
 
 msgid "7 - Today + 7 days"
-msgstr ""
+msgstr "7 - დღეს + 7 დღე"
 
 msgid "8 - Today + 8 days"
-msgstr ""
+msgstr "8 - დღეს + 8 დღე"
 
 msgid "9 - Today + 9 days"
-msgstr ""
+msgstr "9 - დღეს + 9 დღე"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== მთვარის დეტალები ==="
 
 msgid "API credentials not configured."
-msgstr ""
+msgstr "API სერთიფიკატები არ არის კონფიგურირებული."
 
 msgid "API error"
-msgstr ""
+msgstr "API შეცდომა"
 
 msgid "API password"
-msgstr ""
+msgstr "API პაროლი"
 
 msgid "API user"
-msgstr ""
+msgstr "API მომხმარებელი"
 
 msgid "AQI {}"
 msgstr ""
@@ -71,223 +71,223 @@ msgid "AQI: N/A"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "გაფართოებული"
 
 msgid "Advanced Unit Settings"
-msgstr ""
+msgstr "გაფართოებული ერთეულის პარამეტრები"
 
 msgid "Afternoon"
-msgstr ""
+msgstr "შუადღე"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "ასაკი ახალი მთვარის შემდეგ: {:.1f} დღე"
 
 msgid "Age: N/A"
-msgstr ""
+msgstr "ასაკი: N/A"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "კუთხოვანი დიამეტრი: N/A"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "კუთხოვანი დიამეტრი: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "მოჩვენებითი სიდიდე: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "აშკარა სიდიდე: {:.2f}"
 
 msgid "Assign to Favorite 1"
-msgstr ""
+msgstr "მიანიჭეთ რჩეულს 1"
 
 msgid "Assign to Favorite 2"
-msgstr ""
+msgstr "მიანიჭეთ რჩეულს 2"
 
 msgid "Assign to Home"
-msgstr ""
+msgstr "მიანიჭეთ სახლს"
 
 msgid "Australia"
-msgstr ""
+msgstr "ავსტრალია"
 
 msgid "Austria"
-msgstr ""
+msgstr "ავსტრია"
 
 msgid "Auth server"
-msgstr ""
+msgstr "ავტორიზაციის სერვერი"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "ბადენ-ვიურტემბერგი"
 
 msgid "Barometer"
-msgstr ""
+msgstr "ბარომეტრი"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "ბავარია"
 
 msgid "Belgium"
-msgstr ""
+msgstr "ბელგია"
 
 msgid "Berlin"
-msgstr ""
+msgstr "ბერლინი"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "შავი მთვარე"
 
 msgid "Blue - Home"
-msgstr ""
+msgstr "ლურჯი - მთავარი"
 
 msgid "Blue Moon"
-msgstr ""
+msgstr "ლურჯი მთვარე"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "ბრანდენბურგი"
 
 msgid "Bremen"
-msgstr ""
+msgstr "ბრემენი"
 
 msgid "Calculating..."
-msgstr ""
+msgstr "გაანგარიშება..."
 
 msgid "Cancel"
-msgstr ""
+msgstr "გაუქმება"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "ცელსიუსი, კმ/სთ, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "ცვლილებების ჟურნალი: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr ""
+msgstr "ცვლილებები მოქმედებს დაუყოვნებლივ"
 
 msgid "Check for updates"
-msgstr ""
+msgstr "შეამოწმეთ განახლებები"
 
 msgid "Choose detail view"
-msgstr ""
+msgstr "აირჩიეთ დეტალური ხედი"
 
 msgid "City Selection"
-msgstr ""
+msgstr "ქალაქის შერჩევა"
 
 msgid "City list file not found!"
-msgstr ""
+msgstr "ქალაქების სიის ფაილი ვერ მოიძებნა!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "გაასუფთავეთ Foreca One Temp ფაილები?"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "დროებითი ფაილების გასუფთავება"
 
 msgid "Clear"
-msgstr ""
+msgstr "წმინდა"
 
 msgid "Close"
-msgstr ""
+msgstr "დახურვა"
 
 msgid "Close legend"
-msgstr ""
+msgstr "დახურეთ ლეგენდა"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "დახურეთ დაყენება შენახვის გარეშე"
 
 msgid "Cloudy"
-msgstr ""
+msgstr "მოღრუბლული"
 
 msgid "Cloudy and light rain"
-msgstr ""
+msgstr "მოღრუბლული და მსუბუქი წვიმა"
 
 msgid "Cloudy and light snow"
-msgstr ""
+msgstr "მოღრუბლული და მსუბუქი თოვლი"
 
 msgid "Cloudy and light wet snow"
-msgstr ""
+msgstr "მოღრუბლული და მსუბუქი სველი თოვლი"
 
 msgid "Cloudy and showers"
-msgstr ""
+msgstr "მოღრუბლული და წვიმა"
 
 msgid "Cloudy and snow showers"
-msgstr ""
+msgstr "მოღრუბლული და თოვლიანი წვიმა"
 
 msgid "Cloudy and wet snow showers"
-msgstr ""
+msgstr "მოღრუბლული და სველი თოვლიანი წვიმა"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr ""
+msgstr "მოღრუბლული, ჭექა-ქუხილი წვიმით"
 
 msgid "Cold (< 0°C)"
-msgstr ""
+msgstr "ცივი (<0°C)"
 
 msgid "Color Legend"
-msgstr ""
+msgstr "ფერის ლეგენდა"
 
 msgid "Color Selector"
-msgstr ""
+msgstr "ფერის ამომრჩევი"
 
 msgid "Color data"
-msgstr ""
+msgstr "ფერის მონაცემები"
 
 msgid "Color legend"
-msgstr ""
+msgstr "ფერის ლეგენდა"
 
 msgid "Color name"
-msgstr ""
+msgstr "ფერის სახელი"
 
 msgid "Color select"
-msgstr ""
+msgstr "ფერის არჩევა"
 
 msgid "Condition: {}"
-msgstr ""
+msgstr "მდგომარეობა: {}"
 
 msgid "Continents Weather Maps"
-msgstr ""
+msgstr "კონტინენტების ამინდის რუქები"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "მაგარი (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr ""
+msgstr "განახლების ინფორმაციის მიღება ვერ მოხერხდა."
 
 msgid "Could not initialize map API."
-msgstr ""
+msgstr "რუკის API-ის ინიციალიზაცია ვერ მოხერხდა."
 
 msgid "Could not load forecast data"
-msgstr ""
+msgstr "პროგნოზის მონაცემები ვერ ჩაიტვირთა"
 
 msgid "Could not parse version information."
-msgstr ""
+msgstr "ვერსიის ინფორმაციის გარჩევა ვერ მოხერხდა."
 
 msgid "Current weather and forecast"
-msgstr ""
+msgstr "ამჟამინდელი ამინდი და პროგნოზი"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr ""
+msgstr "ამჟამინდელი ამინდი და პროგნოზი მომდევნო 10 დღისთვის"
 
 msgid "Current: {}"
-msgstr ""
+msgstr "მიმდინარე: {}"
 
 msgid "Czech Republic"
-msgstr ""
+msgstr "ჩეხეთის რესპუბლიკა"
 
 msgid "Data provided by Foreca"
-msgstr ""
+msgstr "მონაცემები მოწოდებულია Foreca-ს მიერ"
 
 msgid "Date: {}"
-msgstr ""
+msgstr "თარიღი: {}"
 
 msgid "Day"
-msgstr ""
+msgstr "დღე"
 
 msgid "Decrease Speed"
-msgstr ""
+msgstr "სიჩქარის შემცირება"
 
 msgid "Defaults"
-msgstr ""
+msgstr "ნაგულისხმევი"
 
 msgid "Denmark"
-msgstr ""
+msgstr "დანია"
 
 msgid "Details"
-msgstr ""
+msgstr "დეტალები"
 
 msgid "Dewpoint {}"
 msgstr ""
@@ -305,142 +305,142 @@ msgid "Dewpoint: N/A"
 msgstr ""
 
 msgid "Distance {} km"
-msgstr ""
+msgstr "მანძილი {} კმ"
 
 msgid "Distance: %s"
-msgstr ""
+msgstr "მანძილი: %s"
 
 msgid "Distance: {}"
-msgstr ""
+msgstr "მანძილი: {}"
 
 msgid "Distance: {} km"
-msgstr ""
+msgstr "მანძილი: {} კმ"
 
 msgid "Do you want to install it now?"
-msgstr ""
+msgstr "გსურთ მისი დაყენება ახლა?"
 
 msgid "Down"
-msgstr ""
+msgstr "ქვემოთ"
 
 msgid "Down - Next page"
-msgstr ""
+msgstr "ქვემოთ - შემდეგი გვერდი"
 
 msgid "Download error"
-msgstr ""
+msgstr "ჩამოტვირთვის შეცდომა"
 
 msgid "Downloading images..."
-msgstr ""
+msgstr "მიმდინარეობს სურათების ჩამოტვირთვა..."
 
 msgid "Downloading tiles..."
-msgstr ""
+msgstr "მიმდინარეობს ფილების ჩამოტვირთვა..."
 
 msgid "E"
-msgstr ""
+msgstr "ე"
 
 msgid "East Asia"
-msgstr ""
+msgstr "აღმოსავლეთ აზია"
 
 msgid "Error checking for updates."
-msgstr ""
+msgstr "შეცდომა განახლებების შემოწმებისას."
 
 msgid "Error loading data"
-msgstr ""
+msgstr "შეცდომა მონაცემთა ჩატვირთვისას"
 
 msgid "Error loading map"
-msgstr ""
+msgstr "შეცდომა რუკის ჩატვირთვისას"
 
 msgid "Error loading maps. Check connection."
-msgstr ""
+msgstr "შეცდომა რუკების ჩატვირთვისას. შეამოწმეთ კავშირი."
 
 msgid "Error saving favorite!"
-msgstr ""
+msgstr "შეცდომა ფავორიტის შენახვისას!"
 
 msgid "Europe"
-msgstr ""
+msgstr "ევროპა"
 
 msgid "European Weather Maps"
-msgstr ""
+msgstr "ევროპის ამინდის რუქები"
 
 msgid "Evening"
-msgstr ""
+msgstr "საღამო"
 
 msgid "Exit"
-msgstr ""
+msgstr "გასვლა"
 
 msgid "Exit - End"
-msgstr ""
+msgstr "გასვლა - დასასრული"
 
 msgid "Exit / Close legend"
-msgstr ""
+msgstr "გასვლა / ლეგენდის დახურვა"
 
 msgid "Extreme"
-msgstr ""
+msgstr "ექსტრემალური"
 
 msgid "Extreme / thunderstorms"
-msgstr ""
+msgstr "ექსტრემალური / ჭექა-ქუხილი"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "ფარენჰეიტი, mph, inHg"
 
 msgid "Faster: {}s"
-msgstr ""
+msgstr "უფრო სწრაფად: {} წმ"
 
 msgid "Favorite 1"
-msgstr ""
+msgstr "საყვარელი 1"
 
 msgid "Favorite 2"
-msgstr ""
+msgstr "საყვარელი 2"
 
 msgid "Favorites Details"
-msgstr ""
+msgstr "ფავორიტების დეტალები"
 
 msgid "Favorites details"
-msgstr ""
+msgstr "რჩეული დეტალები"
 
 msgid "Feels like"
-msgstr ""
+msgstr "იგრძნობა"
 
 msgid "Feels like {}"
-msgstr ""
+msgstr "გრძნობს, როგორც {}"
 
 msgid "Feels like {}{}"
-msgstr ""
+msgstr "გრძნობს, როგორც {}{}"
 
 msgid "Feels like: %d%s"
-msgstr ""
+msgstr "იგრძნობა: %d%s"
 
 msgid "Feels like: %s°C"
-msgstr ""
+msgstr "იგრძნობა: %s°C"
 
 msgid "Feels like: N/A"
-msgstr ""
+msgstr "იგრძნობა: N/A"
 
 msgid "Feels like: {}"
-msgstr ""
+msgstr "იგრძნობა: {}"
 
 msgid "Feels like: {}{}"
-msgstr ""
+msgstr "იგრძნობა: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr ""
+msgstr "იგრძნობა: {}°C"
 
 msgid "Finland"
-msgstr ""
+msgstr "ფინეთი"
 
 msgid "First Quarter"
-msgstr ""
+msgstr "პირველი კვარტალი"
 
 msgid "Fog"
-msgstr ""
+msgstr "ნისლი"
 
 msgid "Foreca API Setup"
-msgstr ""
+msgstr "Foreca API-ის დაყენება"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "Foreca API სერთიფიკატები ჯერ არ არის კონფიგურირებული. გთხოვთ, შეიყვანოთ ისინი დაყენების ეკრანზე."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "Foreca API პარამეტრები წარმატებით შენახულია."
 
 msgid "Foreca One"
 msgstr ""
@@ -449,1021 +449,1021 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca One მენიუ"
 
 msgid "Foreca One No stations found"
-msgstr ""
+msgstr "Foreca One სადგურები არ მოიძებნა"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr ""
+msgstr "Foreca One სადგურები: {} სადგურები ახლოს ({})"
 
 msgid "Foreca One Weather Forecast"
-msgstr ""
+msgstr "Foreca One ამინდის პროგნოზი"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr ""
 
 msgid "Foreca One | Map {}"
-msgstr ""
+msgstr "Foreca One | რუკა {}"
 
 msgid "Found %d cities locally for '%s'"
-msgstr ""
+msgstr "ნაპოვნია %d ქალაქი ადგილობრივად '%s'-ისთვის"
 
 msgid "Found %d cities online for '%s'"
-msgstr ""
+msgstr "ნაპოვნია %d ქალაქი ინტერნეტში '%s'-ისთვის"
 
 msgid "Frame →"
-msgstr ""
+msgstr "ჩარჩო →"
 
 msgid "Frame: {}"
-msgstr ""
+msgstr "ჩარჩო: {}"
 
 msgid "France"
-msgstr ""
+msgstr "საფრანგეთი"
 
 msgid "Full Moon"
-msgstr ""
+msgstr "სავსე მთვარე"
 
 msgid "Gale force (>60 km/h)"
-msgstr ""
+msgstr "ქარიშხლის ძალა (>60 კმ/სთ)"
 
 msgid "German States Weather Maps"
-msgstr ""
+msgstr "გერმანიის შტატების ამინდის რუქები"
 
 msgid "Germany"
-msgstr ""
+msgstr "გერმანია"
 
 msgid "Good"
-msgstr ""
+msgstr "კარგი"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "დიდი ბრიტანეთი"
 
 msgid "Greece"
-msgstr ""
+msgstr "საბერძნეთი"
 
 msgid "Green - Favorite 1"
-msgstr ""
+msgstr "მწვანე - საყვარელი 1"
 
 msgid "Gust {}"
-msgstr ""
+msgstr "აფეთქება {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "ნაკადი: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "ჰამბურგი"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "სახიფათო"
 
 msgid "Header - not selectable"
-msgstr ""
+msgstr "სათაური - არ არის შერჩეული"
 
 msgid "Heavy rain"
-msgstr ""
+msgstr "ძლიერი წვიმა"
 
 msgid "Help"
-msgstr ""
+msgstr "დახმარება"
 
 msgid "Hesse"
-msgstr ""
+msgstr "ჰესე"
 
 msgid "High"
-msgstr ""
+msgstr "მაღალი"
 
 msgid "Home"
-msgstr ""
+msgstr "მთავარი"
 
 msgid "Hot (30-40°C)"
-msgstr ""
+msgstr "ცხელი (30-40°C)"
 
 msgid "Hour Details"
-msgstr ""
+msgstr "საათის დეტალები"
 
 msgid "Humidity"
-msgstr ""
+msgstr "ტენიანობა"
 
 msgid "Humidity: %s%%"
-msgstr ""
+msgstr "ტენიანობა: %s%%"
 
 msgid "Humidity: {}%"
-msgstr ""
+msgstr "ტენიანობა: {}%"
 
 msgid "Hungary"
-msgstr ""
+msgstr "უნგრეთი"
 
 msgid "Ice / frost"
-msgstr ""
+msgstr "ყინული / ყინვა"
 
 msgid "Illumination"
-msgstr ""
+msgstr "განათება"
 
 msgid "Illumination: {:.1f}%"
-msgstr ""
+msgstr "განათება: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr ""
+msgstr "სურათი %(მიმდინარე)d/%(სულ)d – %(დღე)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr ""
+msgstr "სურათი %(მიმდინარე)d/%(სულ)d – %(დღე)s (დაპაუზებულია)"
 
 msgid "Image not available"
-msgstr ""
+msgstr "სურათი მიუწვდომელია"
 
 msgid "Imperial System"
-msgstr ""
+msgstr "იმპერიული სისტემა"
 
 msgid "Increase Speed"
-msgstr ""
+msgstr "სიჩქარის გაზრდა"
 
 msgid "Info"
-msgstr ""
+msgstr "ინფორმაცია"
 
 msgid "Info - About"
-msgstr ""
+msgstr "ინფორმაცია - შესახებ"
 
 msgid "Ireland"
-msgstr ""
+msgstr "ირლანდია"
 
 msgid "Italy"
-msgstr ""
+msgstr "იტალია"
 
 msgid "Jump 100 down"
-msgstr ""
+msgstr "გადახტე 100 ქვემოთ"
 
 msgid "Jump 100 up"
-msgstr ""
+msgstr "გადახტე 100 ზევით"
 
 msgid "Jump 500 down"
-msgstr ""
+msgstr "გადახტე 500 ქვემოთ"
 
 msgid "Jump 500 up"
-msgstr ""
+msgstr "გადახტე 500 ზევით"
 
 msgid "Keyboard"
-msgstr ""
+msgstr "კლავიატურა"
 
 msgid "Last Quarter"
-msgstr ""
+msgstr "ბოლო კვარტალი"
 
 msgid "Latvia"
-msgstr ""
+msgstr "ლატვია"
 
 msgid "Left - Previous day"
-msgstr ""
+msgstr "მარცხნივ - წინა დღე"
 
 msgid "Left arrow - Previous day"
-msgstr ""
+msgstr "მარცხენა ისარი - წინა დღე"
 
 msgid "Light (0-20 km/h)"
-msgstr ""
+msgstr "მსუბუქი (0-20 კმ/სთ)"
 
 msgid "Light rain / drizzle"
-msgstr ""
+msgstr "მსუბუქი წვიმა / წვიმა"
 
 msgid "Light to moderate"
-msgstr ""
+msgstr "მსუბუქიდან ზომიერამდე"
 
 msgid "Loading available maps..."
-msgstr ""
+msgstr "ხელმისაწვდომი რუქების ჩატვირთვა..."
 
 msgid "Loading lunar phases..."
-msgstr ""
+msgstr "მთვარის ფაზების ჩატვირთვა..."
 
 msgid "Loading nearby stations..."
-msgstr ""
+msgstr "ახლომდებარე სადგურების ჩატვირთვა..."
 
 msgid "Loading tiles..."
-msgstr ""
+msgstr "ფილების ჩატვირთვა..."
 
 msgid "Loading weekly forecast..."
-msgstr ""
+msgstr "იტვირთება ყოველკვირეული პროგნოზი..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "იტვირთება..."
 
 msgid "Low"
-msgstr ""
+msgstr "დაბალი"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "ქვემო საქსონია"
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "მთვარის კალენდარი"
 
 msgid "Lunar phases from next month"
-msgstr ""
+msgstr "მთვარის ფაზები მომავალი თვიდან"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "ლუქსემბურგი"
 
 msgid "Map & Tiles Loaded"
-msgstr ""
+msgstr "რუკა და ფილები ჩაიტვირთა"
 
 msgid "Map loaded"
-msgstr ""
+msgstr "რუკა ჩაიტვირთა"
 
 msgid "Map server"
-msgstr ""
+msgstr "რუქის სერვერი"
 
 msgid "Map {} selected"
-msgstr ""
+msgstr "არჩეულია რუკა {}"
 
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "მეკლენბურგი-ფორპომერნია"
 
 msgid "Menu"
-msgstr ""
+msgstr "მენიუ"
 
 msgid "Menu - Settings"
-msgstr ""
+msgstr "მენიუ - პარამეტრები"
 
 msgid "Merge failed"
-msgstr ""
+msgstr "შერწყმა ვერ მოხერხდა"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "მეტეოგრამა"
 
 msgid "Metric System"
-msgstr ""
+msgstr "მეტრული სისტემა"
 
 msgid "Middle America"
-msgstr ""
+msgstr "შუა ამერიკა"
 
 msgid "Middle Asia"
-msgstr ""
+msgstr "შუა აზია"
 
 msgid "Middle East"
-msgstr ""
+msgstr "ახლო აღმოსავლეთი"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "რბილი (10-20°C)"
 
 msgid "Moderate"
-msgstr ""
+msgstr "ზომიერი"
 
 msgid "Moderate (20-40 km/h)"
-msgstr ""
+msgstr "ზომიერი (20-40 კმ/სთ)"
 
 msgid "Moderate rain"
-msgstr ""
+msgstr "ზომიერი წვიმა"
 
 msgid "Month"
-msgstr ""
+msgstr "თვე"
 
 msgid "Moon details"
-msgstr ""
+msgstr "მთვარის დეტალები"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "მთვარის ამოსვლა: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "მთვარის ჩასვლა: {}"
 
 msgid "Morning"
-msgstr ""
+msgstr "დილა"
 
 msgid "Mostly clear"
-msgstr ""
+msgstr "ძირითადად ნათელი"
 
 msgid "Move Down"
-msgstr ""
+msgstr "გადაადგილება ქვემოთ"
 
 msgid "Move Up"
-msgstr ""
+msgstr "გადაადგილება ზემოთ"
 
 msgid "Move down"
-msgstr ""
+msgstr "ქვევით გადაადგილება"
 
 msgid "Move up"
-msgstr ""
+msgstr "ზევით გადაადგილება"
 
 msgid "N"
-msgstr ""
+msgstr "ნ"
 
 msgid "N/A"
 msgstr ""
 
 msgid "Netherlands"
-msgstr ""
+msgstr "ნიდერლანდები"
 
 msgid "New Moon"
-msgstr ""
+msgstr "ახალი მთვარე"
 
 msgid "New version {version} is available."
-msgstr ""
+msgstr "ახალი ვერსია {version} ხელმისაწვდომია."
 
 msgid "Next"
-msgstr ""
+msgstr "შემდეგი"
 
 msgid "Next Image"
-msgstr ""
+msgstr "შემდეგი სურათი"
 
 msgid "Next frame"
-msgstr ""
+msgstr "შემდეგი ჩარჩო"
 
 msgid "Next page"
-msgstr ""
+msgstr "შემდეგი გვერდი"
 
 msgid "Next time"
-msgstr ""
+msgstr "შემდეგ ჯერზე"
 
 msgid "No Internet connection detected."
-msgstr ""
+msgstr "ინტერნეტ კავშირი არ არის აღმოჩენილი."
 
 msgid "No OSM tiles"
-msgstr ""
+msgstr "არ არის OSM ფილები"
 
 msgid "No cities found locally for '%s'"
-msgstr ""
+msgstr "ქალაქები არ მოიძებნა ადგილობრივად '%s'-ისთვის"
 
 msgid "No city selected"
-msgstr ""
+msgstr "არ არის შერჩეული ქალაქი"
 
 msgid "No data"
-msgstr ""
+msgstr "მონაცემები არ არის"
 
 msgid "No date available"
-msgstr ""
+msgstr "თარიღი არ არის ხელმისაწვდომი"
 
 msgid "No location selected"
-msgstr ""
+msgstr "მდებარეობა არჩეული არ არის"
 
 msgid "No specific legend available."
-msgstr ""
+msgstr "კონკრეტული ლეგენდა არ არის ხელმისაწვდომი."
 
 msgid "No station data"
-msgstr ""
+msgstr "სადგურის მონაცემები არ არის"
 
 msgid "No station data available"
-msgstr ""
+msgstr "სადგურის მონაცემები არ არის ხელმისაწვდომი"
 
 msgid "No stations found"
-msgstr ""
+msgstr "სადგურები ვერ მოიძებნა"
 
 msgid "No tiles downloaded"
-msgstr ""
+msgstr "ფილები არ არის ჩამოტვირთული"
 
 msgid "North Africa"
-msgstr ""
+msgstr "ჩრდილოეთ აფრიკა"
 
 msgid "North America"
-msgstr ""
+msgstr "ჩრდილოეთ ამერიკა"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "ჩრდილოეთ რაინ-ვესტფალია"
 
 msgid "Norway"
-msgstr ""
+msgstr "ნორვეგია"
 
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "OK - დამატებითი ინფორმაცია"
 
 msgid "OK - Forecast"
-msgstr ""
+msgstr "კარგი - პროგნოზი"
 
 msgid "OK - Open Map"
-msgstr ""
+msgstr "OK - გახსენით რუკა"
 
 msgid "Ok - Details"
-msgstr ""
+msgstr "კარგი - დეტალები"
 
 msgid "Open Keyboard"
-msgstr ""
+msgstr "გახსენით კლავიატურა"
 
 msgid "Open Map"
-msgstr ""
+msgstr "გახსენით რუკა"
 
 msgid "Original design and idea by %s"
-msgstr ""
+msgstr "ორიგინალური დიზაინი და იდეა %s"
 
 msgid "Overcast"
-msgstr ""
+msgstr "მოღრუბლული"
 
 msgid "Overcast and light rain"
-msgstr ""
+msgstr "მოღრუბლული და მსუბუქი წვიმა"
 
 msgid "Overcast and light snow"
-msgstr ""
+msgstr "მოღრუბლული და მსუბუქი თოვლი"
 
 msgid "Overcast and light wet snow"
-msgstr ""
+msgstr "მოღრუბლული და მსუბუქი სველი თოვლი"
 
 msgid "Overcast and rain"
-msgstr ""
+msgstr "მოღრუბლული და წვიმა"
 
 msgid "Overcast and showers"
-msgstr ""
+msgstr "მოღრუბლული და წვიმა"
 
 msgid "Overcast and snow"
-msgstr ""
+msgstr "მოღრუბლული და თოვლი"
 
 msgid "Overcast and snow showers"
-msgstr ""
+msgstr "მოღრუბლული და თოვლიანი წვიმა"
 
 msgid "Overcast and wet snow"
-msgstr ""
+msgstr "მოღრუბლული და სველი თოვლი"
 
 msgid "Overcast and wet snow showers"
-msgstr ""
+msgstr "მოღრუბლული და სველი თოვლიანი წვიმა"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr ""
+msgstr "მოღრუბლული, ჭექა-ქუხილი წვიმით"
 
 msgid "Overnight"
-msgstr ""
+msgstr "ღამისთევა"
 
 msgid "Page Down"
-msgstr ""
+msgstr "გვერდი ქვემოთ"
 
 msgid "Page Up"
-msgstr ""
+msgstr "გვერდი ზემოთ"
 
 msgid "Page down"
-msgstr ""
+msgstr "გვერდი ქვემოთ"
 
 msgid "Page up"
-msgstr ""
+msgstr "გვერდი ზემოთ"
 
 msgid "Pan down"
-msgstr ""
+msgstr "გადაიტანეთ ქვემოთ"
 
 msgid "Pan left"
-msgstr ""
+msgstr "პან მარცხნივ"
 
 msgid "Pan right"
-msgstr ""
+msgstr "გადაიტანეთ მარჯვნივ"
 
 msgid "Pan up"
-msgstr ""
+msgstr "აწიეთ"
 
 msgid "Partly cloudy"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული"
 
 msgid "Partly cloudy and light rain"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული და მსუბუქი წვიმა"
 
 msgid "Partly cloudy and light snow"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული და მსუბუქი თოვლი"
 
 msgid "Partly cloudy and light wet snow"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული და მსუბუქი სველი თოვლი"
 
 msgid "Partly cloudy and showers"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული და წვიმა"
 
 msgid "Partly cloudy and snow showers"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული და თოვლიანი წვიმა"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული და სველი თოვლის წვიმა"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr ""
+msgstr "ნაწილობრივ მოღრუბლული, შესაძლებელია ელჭექით წვიმა"
 
 msgid "Perigee"
-msgstr ""
+msgstr "პერიგეე"
 
 msgid "Phase"
-msgstr ""
+msgstr "ფაზა"
 
 msgid "Phase: {}"
-msgstr ""
+msgstr "ფაზა: {}"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "დაკვრა/პაუზა"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "გთხოვთ, შეიყვანოთ როგორც API მომხმარებლის, ასევე API პაროლი."
 
 msgid "Please wait ..."
-msgstr ""
+msgstr "გთხოვთ დაელოდოთ..."
 
 msgid "Poland"
-msgstr ""
+msgstr "პოლონეთი"
 
 msgid "Portugal"
-msgstr ""
+msgstr "პორტუგალია"
 
 msgid "Precipitation"
-msgstr ""
+msgstr "ნალექები"
 
 msgid "Precipitation: {}"
-msgstr ""
+msgstr "ნალექი: {}"
 
 msgid "Precipitations"
-msgstr ""
+msgstr "ნალექები"
 
 msgid "Precipitations: {}%"
-msgstr ""
+msgstr "ნალექები: {}%"
 
 msgid "Press RED to search again"
-msgstr ""
+msgstr "ხელახლა მოსაძებნად დააჭირეთ წითელს"
 
 msgid "Pressure"
-msgstr ""
+msgstr "წნევა"
 
 msgid "Pressure: %s"
-msgstr ""
+msgstr "წნევა: %s"
 
 msgid "Pressure: %s hPa"
-msgstr ""
+msgstr "წნევა: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr ""
+msgstr "წნევა: N/A"
 
 msgid "Pressure: {}"
-msgstr ""
+msgstr "წნევა: {}"
 
 msgid "Pressure: {} hPa"
-msgstr ""
+msgstr "წნევა: {} hPa"
 
 msgid "Prev"
-msgstr ""
+msgstr "წინა"
 
 msgid "Previous"
-msgstr ""
+msgstr "წინა"
 
 msgid "Previous Image"
-msgstr ""
+msgstr "წინა სურათი"
 
 msgid "Previous frame"
-msgstr ""
+msgstr "წინა ჩარჩო"
 
 msgid "Previous page"
-msgstr ""
+msgstr "წინა გვერდი"
 
 msgid "Previous time"
-msgstr ""
+msgstr "წინა დრო"
 
 msgid "Rain Prob."
-msgstr ""
+msgstr "წვიმა პრობ."
 
 msgid "Rain prob. {}%"
-msgstr ""
+msgstr "წვიმა პრობ. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr ""
+msgstr "წვიმის პრობ.: არ არის"
 
 msgid "Rain: {:.1f} {}"
-msgstr ""
+msgstr "წვიმა: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer რადარი"
 
 msgid "Red - Color select"
-msgstr ""
+msgstr "წითელი - ფერის შერჩევა"
 
 msgid "Refresh"
-msgstr ""
+msgstr "განაახლეთ"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "სერვერის ნაგულისხმევი მნიშვნელობების აღდგენა"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "რაინლანდ-პალატინა"
 
 msgid "Right - Next day"
-msgstr ""
+msgstr "მარჯვენა - მეორე დღეს"
 
 msgid "Right arrow - Next day"
-msgstr ""
+msgstr "მარჯვენა ისარი - მეორე დღეს"
 
 msgid "Rise"
-msgstr ""
+msgstr "ამაღლება"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "აწევის აზიმუტი: N/A"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "აწევის აზიმუტი: {:.0f}°"
 
 msgid "Russia"
-msgstr ""
+msgstr "რუსეთი"
 
 msgid "S"
-msgstr ""
+msgstr "ს"
 
 msgid "Saarland"
-msgstr ""
+msgstr "ზაარლანდი"
 
 msgid "Satellite Photos"
-msgstr ""
+msgstr "სატელიტური ფოტოები"
 
 msgid "Satellite photos coming soon!"
-msgstr ""
+msgstr "სატელიტური ფოტოები მალე!"
 
 msgid "Save"
-msgstr ""
+msgstr "შენახვა"
 
 msgid "Save API settings"
-msgstr ""
+msgstr "შეინახეთ API პარამეტრები"
 
 msgid "Saxony"
-msgstr ""
+msgstr "საქსონია"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "საქსონია-ანჰალტი"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "შლეზვიგ-ჰოლშტაინი"
 
 msgid "Scraped"
-msgstr ""
+msgstr "გამოფხეკილი"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr ""
+msgstr "ძიება ჯერ ონლაინ ცდება, თუ ვერ ხერხდება, იყენებს ლოკალურ სიას."
 
 msgid "Search your City"
-msgstr ""
+msgstr "მოძებნეთ თქვენი ქალაქი"
 
 msgid "Searching for '%s'..."
-msgstr ""
+msgstr ""%s"-ის ძიება..."
 
 msgid "Select"
-msgstr ""
+msgstr "აირჩიეთ"
 
 msgid "Select Region"
-msgstr ""
+msgstr "აირჩიეთ რეგიონი"
 
 msgid "Select a city"
-msgstr ""
+msgstr "აირჩიეთ ქალაქი"
 
 msgid "Select a map with OK"
-msgstr ""
+msgstr "აირჩიეთ რუკა OK-ით"
 
 msgid "Select unit system"
-msgstr ""
+msgstr "აირჩიეთ ერთეული სისტემა"
 
 msgid "Select wind unit"
-msgstr ""
+msgstr "აირჩიეთ ქარის ერთეული"
 
 msgid "Select {} unit"
-msgstr ""
+msgstr "აირჩიეთ {} ერთეული"
 
 msgid "Selected hour details"
-msgstr ""
+msgstr "არჩეული საათის დეტალები"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "დააყენეთ აზიმუტი: N/A"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "დააყენეთ აზიმუტი: {:.0f}°"
 
 msgid "Sets"
-msgstr ""
+msgstr "კომპლექტი"
 
 msgid "Show info"
-msgstr ""
+msgstr "ინფორმაციის ჩვენება"
 
 msgid "Showers"
-msgstr ""
+msgstr "საშხაპეები"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "სლოვაკეთი"
 
 msgid "Slower: {}s"
-msgstr ""
+msgstr "ნელა: {}s"
 
 msgid "Snow / ice"
-msgstr ""
+msgstr "თოვლი / ყინული"
 
 msgid "Snow prob. {}%"
-msgstr ""
+msgstr "თოვლის პრობლემა. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr ""
+msgstr "თოვლის პრობ.: N/A"
 
 msgid "South Africa"
-msgstr ""
+msgstr "სამხრეთ აფრიკა"
 
 msgid "South America"
-msgstr ""
+msgstr "სამხრეთ ამერიკა"
 
 msgid "Southeast Asia"
-msgstr ""
+msgstr "სამხრეთ-აღმოსავლეთ აზია"
 
 msgid "Spain"
-msgstr ""
+msgstr "ესპანეთი"
 
 msgid "Station Observations"
-msgstr ""
+msgstr "სადგურის დაკვირვებები"
 
 msgid "Station: {}"
-msgstr ""
+msgstr "სადგური: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr ""
+msgstr "ძლიერი (40-60 კმ/სთ)"
 
 msgid "Sunrise"
-msgstr ""
+msgstr "მზის ამოსვლა"
 
 msgid "Sunset"
-msgstr ""
+msgstr "მზის ჩასვლა"
 
 msgid "Super Full Moon"
-msgstr ""
+msgstr "სუპერ სავსე მთვარე"
 
 msgid "Sweden"
-msgstr ""
+msgstr "შვედეთი"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "შვეიცარია"
 
 msgid "Temp"
-msgstr ""
+msgstr "ტემპერატურა"
 
 msgid "Temperature"
-msgstr ""
+msgstr "ტემპერატურა"
 
 msgid "Temperature: %d%s"
-msgstr ""
+msgstr "ტემპერატურა: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr ""
+msgstr "ტემპერატურა: %s°C"
 
 msgid "Temperature: N/A"
-msgstr ""
+msgstr "ტემპერატურა: N/A"
 
 msgid "Temperature: {}"
-msgstr ""
+msgstr "ტემპერატურა: {}"
 
 msgid "Temperature: {}{}"
-msgstr ""
+msgstr "ტემპერატურა: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr ""
+msgstr "ტემპერატურა: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr ""
+msgstr "მადლობა {მადლობა} და სხვა მეგობრებს შემოთავაზებისთვის"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr ""
+msgstr "დისტანციური ვერსია ({დისტანციური}) უფრო ძველია, ვიდრე მიმდინარე ({მიმდინარე})."
 
 msgid "Thin upper cloud"
-msgstr ""
+msgstr "თხელი ზედა ღრუბელი"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "ტურინგია"
 
 msgid "Time"
-msgstr ""
+msgstr "დრო"
 
 msgid "Today"
-msgstr ""
+msgstr "დღეს"
 
 msgid "Today/Tomorrow details"
-msgstr ""
+msgstr "დეტალები დღეს/ხვალ"
 
 msgid "Toggle legend"
-msgstr ""
+msgstr "ლეგენდის გადართვა"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "ჟეტონის ვადის გასვლის საათები"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "ტოკენის ვადის გასვლის საათები უნდა იყოს -1 ან დადებითი რიცხვი."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "ჟეტონის ვადის გასვლის საათები უნდა იყოს რიცხვი."
 
 msgid "Tomorrow"
-msgstr ""
+msgstr "ხვალ"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "ტრანზიტი (კულმინაცია): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "სატრანზიტო სიმაღლე: N/A"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "სატრანზიტო სიმაღლე: {:.0f}°"
 
 msgid "Transparency Settings"
-msgstr ""
+msgstr "გამჭვირვალობის პარამეტრები"
 
 msgid "Transparency level"
-msgstr ""
+msgstr "გამჭვირვალობის დონე"
 
 msgid "UV Index"
-msgstr ""
+msgstr "UV ინდექსი"
 
 msgid "UV N/A"
 msgstr ""
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "არაჯანსაღი"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "არაჯანსაღი მგრძნობიარე ადამიანებისთვის"
 
 msgid "Unit Settings"
-msgstr ""
+msgstr "ერთეულის პარამეტრები"
 
 msgid "Unit Settings (Advanced)"
-msgstr ""
+msgstr "ერთეულის პარამეტრები (გაფართოებული)"
 
 msgid "Unit Settings (Simple)"
-msgstr ""
+msgstr "ერთეულის პარამეტრები (მარტივი)"
 
 msgid "Unknown"
-msgstr ""
+msgstr "უცნობი"
 
 msgid "Up"
-msgstr ""
+msgstr "ზემოთ"
 
 msgid "Up - Previous page"
-msgstr ""
+msgstr "ზევით - წინა გვერდი"
 
 msgid "Update canceled."
-msgstr ""
+msgstr "განახლება გაუქმდა."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr ""
+msgstr "განახლება დასრულდა. გთხოვთ გადატვირთოთ Enigma2."
 
 msgid "Updated {}"
-msgstr ""
+msgstr "განახლებულია {}"
 
 msgid "Updated: N/A"
-msgstr ""
+msgstr "განახლებულია: N/A"
 
 msgid "Updated: {}"
-msgstr ""
+msgstr "განახლებულია: {}"
 
 msgid "Updating..."
-msgstr ""
+msgstr "მიმდინარეობს განახლება..."
 
 msgid "Use arrow keys to scroll"
-msgstr ""
+msgstr "გამოიყენეთ ისრიანი ღილაკები გადახვევისთვის"
 
 msgid "Use ← → to change time | OK to exit"
-msgstr ""
+msgstr "გამოიყენეთ ← → დროის შესაცვლელად | კარგი გასასვლელად"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr ""
+msgstr "გამოიყენეთ ←/→/↑/↓ გადასაადგილებლად | კარგი გასასვლელად"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr ""
+msgstr "გამოიყენეთ ▲/▼ შესაცვლელად, OK ასარჩევად"
 
 msgid "Using current time"
-msgstr ""
+msgstr "მიმდინარე დროის გამოყენება"
 
 msgid "Very heavy rain"
-msgstr ""
+msgstr "ძალიან ძლიერი წვიმა"
 
 msgid "Very high"
-msgstr ""
+msgstr "ძალიან მაღალი"
 
 msgid "Very hot (>40°C)"
-msgstr ""
+msgstr "ძალიან ცხელა (>40°C)"
 
 msgid "Very low"
-msgstr ""
+msgstr "ძალიან დაბალი"
 
 msgid "Very unhealthy"
-msgstr ""
+msgstr "ძალიან არაჯანსაღი"
 
 msgid "Visibility: %s m"
-msgstr ""
+msgstr "ხილვადობა: %s მ"
 
 msgid "Visibility: {} m"
-msgstr ""
+msgstr "ხილვადობა: {} მ"
 
 msgid "W"
-msgstr ""
+msgstr "ვ"
 
 msgid "Waning Crescent"
-msgstr ""
+msgstr "ჩამქრალი ნახევარმთვარე"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "უნაყოფო გიბოუსი"
 
 msgid "Warm (20-30°C)"
-msgstr ""
+msgstr "თბილი (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "ცვილის ნახევარმთვარე"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "ცვილის ცვილი გიბოუსი"
 
 msgid "Weather"
-msgstr ""
+msgstr "ამინდი"
 
 msgid "Weather Map"
-msgstr ""
+msgstr "ამინდის რუკა"
 
 msgid "Weather Maps"
-msgstr ""
+msgstr "ამინდის რუქები"
 
 msgid "Weather Maps & Satellite"
-msgstr ""
+msgstr "ამინდის რუქები და სატელიტური"
 
 msgid "Weather Maps (Wetterkontor)"
-msgstr ""
+msgstr "ამინდის რუქები (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
-msgstr ""
+msgstr "ამინდის რუქების სლაიდშოუ"
 
 msgid "Weather Radar"
-msgstr ""
+msgstr "ამინდის რადარი"
 
 msgid "Weather today"
-msgstr ""
+msgstr "ამინდი დღეს"
 
 msgid "Weather tomorrow"
-msgstr ""
+msgstr "ამინდი ხვალ"
 
 msgid "Weekly Forecast"
-msgstr ""
+msgstr "ყოველკვირეული პროგნოზი"
 
 msgid "Wind"
-msgstr ""
+msgstr "ქარი"
 
 msgid "Wind Direction today"
-msgstr ""
+msgstr "ქარის მიმართულება დღეს"
 
 msgid "Wind Direction tomorrow"
-msgstr ""
+msgstr "ქარის მიმართულება ხვალ"
 
 msgid "Wind direction"
-msgstr ""
+msgstr "ქარის მიმართულება"
 
 msgid "Wind speed"
-msgstr ""
+msgstr "ქარის სიჩქარე"
 
 msgid "Wind speed {}"
-msgstr ""
+msgstr "ქარის სიჩქარე {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr ""
+msgstr "ქარის სიჩქარე: {:.1f} {}"
 
 msgid "Wind: %d %s %s"
-msgstr ""
+msgstr "ქარი: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr ""
+msgstr "ქარი: %s კმ/სთ %s"
 
 msgid "Wind: N/A"
-msgstr ""
+msgstr "ქარი: N/A"
 
 msgid "Wind: {}"
-msgstr ""
+msgstr "ქარი: {}"
 
 msgid "Wind: {} km/h {}"
-msgstr ""
+msgstr "ქარი: {} კმ/სთ {}"
 
 msgid "Wind: {} {} {}"
-msgstr ""
+msgstr "ქარი: {} {} {}"
 
 msgid "Window transparency"
-msgstr ""
+msgstr "ფანჯრის გამჭვირვალობა"
 
 msgid "Yellow - Favorite 2"
-msgstr ""
+msgstr "ყვითელი - საყვარელი 2"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "მასშტაბირება"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "მასშტაბირება"
 
 msgid "Zoom+"
 msgstr ""
 
 msgid "Zoom-"
-msgstr ""
+msgstr "მასშტაბირება -"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "მასშტაბირება:"
 
 msgid "v."
-msgstr ""
+msgstr "ვ."
 
 msgid "{hours} h {mins} min"
-msgstr ""
+msgstr "{საათი} სთ {წთ} წთ"
 
 msgid "• BLUE to save as Home\n"
-msgstr ""
+msgstr "• ცისფერი, რათა შეინახოთ როგორც მთავარი\n"
 
 msgid "• CH+/CH- to jump 500 cities\n"
-msgstr ""
+msgstr "• CH+/CH- 500 ქალაქზე გადასასვლელად\n"
 
 msgid "• GREEN to save as Favorite 1\n"
-msgstr ""
+msgstr "• მწვანე რჩეულში 1\n შესანახად"
 
 msgid "• OK to select city\n"
-msgstr ""
+msgstr "• OK ქალაქის ასარჩევად\n"
 
 msgid "• RED to open search keyboard\n"
-msgstr ""
+msgstr "• წითელი საძიებო კლავიატურის გასახსნელად\n"
 
 msgid "• Use arrow keys to navigate\n"
-msgstr ""
+msgstr "• გამოიყენეთ ისრიანი ღილაკები ნავიგაციისთვის\n"
 
 msgid "• YELLOW to save as Favorite 2\n"
-msgstr ""
+msgstr "• ყვითელი რჩეულში 2\n შესანახად"
 
 msgid "← Frame"
-msgstr ""
+msgstr "← ჩარჩო"

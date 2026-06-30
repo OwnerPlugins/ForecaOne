@@ -52,7 +52,7 @@ msgid "9 - Today + 9 days"
 msgstr "9 - اليوم + 9 أيام"
 
 msgid "=== MOON DETAILS ==="
-msgstr ""
+msgstr "=== تفاصيل القمر ==="
 
 msgid "API credentials not configured."
 msgstr "لم يتم تكوين بيانات اعتماد API."
@@ -84,23 +84,23 @@ msgid "Afternoon"
 msgstr "بعد الظهر"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr ""
+msgstr "العمر منذ ظهور القمر الجديد: {:.1f} يوم"
 
 #, fuzzy
 msgid "Age: N/A"
 msgstr "مؤشر جودة الهواء: غير متوفر"
 
 msgid "Angular diameter: N/A"
-msgstr ""
+msgstr "القطر الزاوي: غير متوفر"
 
 msgid "Angular diameter: {:.0f}"
-msgstr ""
+msgstr "القطر الزاوي: {:.0f}"
 
 msgid "Apparent magnitude: N/A"
-msgstr ""
+msgstr "الحجم الظاهري: N / A"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr ""
+msgstr "الحجم الظاهري: {:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "تعيين إلى المفضلة 1"
@@ -118,7 +118,7 @@ msgid "Austria"
 msgstr "النمسا"
 
 msgid "Auth server"
-msgstr ""
+msgstr "خادم المصادقة"
 
 msgid "Baden-Wuerttemberg"
 msgstr "بادن-فورتمبيرغ"
@@ -180,10 +180,10 @@ msgid "City list file not found!"
 msgstr "ملف قائمة المدن غير موجود!"
 
 msgid "Cleanup Foreca One Temp Files?"
-msgstr ""
+msgstr "تنظيف ملفات Foreca One Temp؟"
 
 msgid "Cleanup temp files"
-msgstr ""
+msgstr "تنظيف الملفات المؤقتة"
 
 msgid "Clear"
 msgstr "صافٍ"
@@ -195,7 +195,7 @@ msgid "Close legend"
 msgstr "إغلاق وسيلة الإيضاح"
 
 msgid "Close setup without saving"
-msgstr ""
+msgstr "إغلاق الإعداد دون حفظ"
 
 msgid "Cloudy"
 msgstr "غائم"
@@ -288,7 +288,7 @@ msgid "Decrease Speed"
 msgstr "تقليل السرعة"
 
 msgid "Defaults"
-msgstr ""
+msgstr "الافتراضيات"
 
 msgid "Denmark"
 msgstr "الدنمارك"
@@ -446,10 +446,10 @@ msgid "Foreca API Setup"
 msgstr "قائمة Foreca One"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
-msgstr ""
+msgstr "لم يتم تكوين بيانات اعتماد Foreca API بعد. الرجاء إدخالها في شاشة الإعداد."
 
 msgid "Foreca API settings saved successfully."
-msgstr ""
+msgstr "تم حفظ إعدادات Foreca API بنجاح."
 
 msgid "Foreca One"
 msgstr "Foreca One"
@@ -503,7 +503,7 @@ msgid "Germany"
 msgstr "ألمانيا"
 
 msgid "Good"
-msgstr ""
+msgstr "جيد"
 
 msgid "Great Britain"
 msgstr "بريطانيا العظمى"
@@ -524,7 +524,7 @@ msgid "Hamburg"
 msgstr "هامبورغ"
 
 msgid "Hazardous"
-msgstr ""
+msgstr "خطرة"
 
 msgid "Header - not selectable"
 msgstr "رأس - غير قابل للتحديد"
@@ -675,7 +675,7 @@ msgid "Map loaded"
 msgstr "تم تحميل الخريطة"
 
 msgid "Map server"
-msgstr ""
+msgstr "خادم الخريطة"
 
 msgid "Map {} selected"
 msgstr "الخريطة {} محددة"
@@ -727,10 +727,10 @@ msgid "Moon details"
 msgstr "تفاصيل الساعة"
 
 msgid "Moonrise: {}"
-msgstr ""
+msgstr "طلوع القمر: {}"
 
 msgid "Moonset: {}"
-msgstr ""
+msgstr "غروب القمر: {}"
 
 msgid "Morning"
 msgstr "الصباح"
@@ -935,7 +935,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "غائم جزئيًا، احتمالية عواصف رعدية مع أمطار"
 
 msgid "Perigee"
-msgstr ""
+msgstr "الحضيض"
 
 msgid "Phase"
 msgstr "الطور"
@@ -948,7 +948,7 @@ msgid "Play/Pause"
 msgstr "تشغيل/إيقاف مؤقت"
 
 msgid "Please enter both API user and API password."
-msgstr ""
+msgstr "الرجاء إدخال كلاً من مستخدم واجهة برمجة التطبيقات وكلمة مرور واجهة برمجة التطبيقات."
 
 msgid "Please wait ..."
 msgstr "يرجى الانتظار ..."
@@ -1032,7 +1032,7 @@ msgid "Refresh"
 msgstr "تحديث"
 
 msgid "Restore default server values"
-msgstr ""
+msgstr "استعادة قيم الخادم الافتراضية"
 
 msgid "Rhineland-Palatine"
 msgstr "راينلاند-بفالز"
@@ -1047,10 +1047,10 @@ msgid "Rise"
 msgstr "الشروق"
 
 msgid "Rise azimuth: N/A"
-msgstr ""
+msgstr "ارتفاع السمت: غير متوفر"
 
 msgid "Rise azimuth: {:.0f}°"
-msgstr ""
+msgstr "سمت الارتفاع: {:.0f}°"
 
 msgid "Russia"
 msgstr "روسيا"
@@ -1120,10 +1120,10 @@ msgid "Selected hour details"
 msgstr "تفاصيل الساعة المحددة"
 
 msgid "Set azimuth: N/A"
-msgstr ""
+msgstr "ضبط السمت: غير متوفر"
 
 msgid "Set azimuth: {:.0f}°"
-msgstr ""
+msgstr "ضبط السمت: {:.0f}°"
 
 msgid "Sets"
 msgstr "الغروب"
@@ -1236,25 +1236,25 @@ msgid "Toggle legend"
 msgstr "تبديل وسيلة الإيضاح"
 
 msgid "Token expire hours"
-msgstr ""
+msgstr "ساعات تنتهي صلاحية الرمز المميز"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr ""
+msgstr "يجب أن تكون ساعات انتهاء صلاحية الرمز المميز -1 أو رقمًا موجبًا."
 
 msgid "Token expire hours must be a number."
-msgstr ""
+msgstr "يجب أن تكون ساعات انتهاء الرمز المميز رقمًا."
 
 msgid "Tomorrow"
 msgstr "الغد"
 
 msgid "Transit (culmination): {}"
-msgstr ""
+msgstr "العبور (الذروة): {}"
 
 msgid "Transit altitude: N/A"
-msgstr ""
+msgstr "ارتفاع العبور: غير متوفر"
 
 msgid "Transit altitude: {:.0f}°"
-msgstr ""
+msgstr "ارتفاع العبور: {:.0f}°"
 
 msgid "Transparency Settings"
 msgstr "إعدادات الشفافية"
@@ -1269,10 +1269,10 @@ msgid "UV N/A"
 msgstr "مؤشر الأشعة فوق البنفسجية: غير متوفر"
 
 msgid "Unhealthy"
-msgstr ""
+msgstr "غير صحي"
 
 msgid "Unhealthy for sensitives"
-msgstr ""
+msgstr "غير صحي للأشخاص الحساسين"
 
 msgid "Unit Settings"
 msgstr "إعدادات الوحدات"
