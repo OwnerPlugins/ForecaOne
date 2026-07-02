@@ -320,7 +320,7 @@ msgid "Do you want to install it now?"
 msgstr "Trid tinstallah issa?"
 
 msgid "Down"
-msgstr ""
+msgstr "'l isfel"
 
 msgid "Down - Next page"
 msgstr "Down - Il-paġna li jmiss"
