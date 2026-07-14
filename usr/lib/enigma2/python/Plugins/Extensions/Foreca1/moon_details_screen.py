@@ -125,58 +125,33 @@ class MoonDetailsScreen(Screen, HelpableScreen):
         phase = data.get('phase_name', 'N/A')
         self["phase_label"].setText(_("Phase: {}").format(trans(phase)))
 
-        self["illum_label"].setText(
-            _("Illumination: {:.1f}%").format(
-                data.get(
-                    'illumination', 0)))
-        self["distance_label"].setText(
-            _("Distance: {} km").format(
-                data.get(
-                    'distance', 0)))
-        self["moonrise_label"].setText(
-            _("Moonrise: {}").format(
-                data.get(
-                    'moonrise', 'N/A')))
-        self["moonset_label"].setText(
-            _("Moonset: {}").format(
-                data.get(
-                    'moonset', 'N/A')))
+        self["illum_label"].setText(_("Illumination: {:.1f}%").format(data.get('illumination', 0)))
+        self["distance_label"].setText(_("Distance: {} km").format(data.get('distance', 0)))
+        self["moonrise_label"].setText(_("Moonrise: {}").format(data.get('moonrise', 'N/A')))
+        self["moonset_label"].setText(_("Moonset: {}").format(data.get('moonset', 'N/A')))
 
         extra = data.get('extra', {})
         self["rise_azimuth_label"].setText(
-            _("Rise azimuth: {:.0f}°").format(
-                extra.get(
-                    'rise_azimuth',
-                    0)) if extra.get('rise_azimuth') is not None else _("Rise azimuth: N/A"))
+            _("Rise azimuth: {:.0f}°").format(extra.get('rise_azimuth', 0)) if extra.get('rise_azimuth') is not None else _("Rise azimuth: N/A")
+        )
         self["set_azimuth_label"].setText(
-            _("Set azimuth: {:.0f}°").format(
-                extra.get(
-                    'set_azimuth',
-                    0)) if extra.get('set_azimuth') is not None else _("Set azimuth: N/A"))
-        self["transit_label"].setText(
-            _("Transit (culmination): {}").format(
-                extra.get(
-                    'transit_time', 'N/A')))
+            _("Set azimuth: {:.0f}°").format(extra.get('set_azimuth', 0)) if extra.get('set_azimuth') is not None else _("Set azimuth: N/A")
+        )
+        self["transit_label"].setText(_("Transit (culmination): {}").format(extra.get('transit_time', 'N/A')))
         self["transit_alt_label"].setText(
-            _("Transit altitude: {:.0f}°").format(
-                extra.get(
-                    'transit_altitude',
-                    0)) if extra.get('transit_altitude') is not None else _("Transit altitude: N/A"))
+            _("Transit altitude: {:.0f}°").format(extra.get('transit_altitude', 0)) if extra.get('transit_altitude') is not None else _("Transit altitude: N/A")
+        )
         self["magnitude_label"].setText(
-            _("Apparent magnitude: {:.2f}").format(
-                extra.get(
-                    'magnitude',
-                    0)) if extra.get('magnitude') is not None else _("Magnitude: N/A"))
+            _("Apparent magnitude: {:.2f}").format(extra.get('magnitude', 0)) if extra.get('magnitude') is not None else _("Magnitude: N/A")
+        )
         self["angular_diam_label"].setText(
-            _("Angular diameter: {:.0f}″").format(
-                extra.get(
-                    'angular_diameter',
-                    0)) if extra.get('angular_diameter') is not None else _("Angular diameter: N/A"))
-        self["age_label"].setText(_("Age since New Moon: {:.1f} days").format(
-            extra.get('age', 0)) if extra.get('age') is not None else _("Age: N/A"))
+            _("Angular diameter: {:.0f}″").format(extra.get('angular_diameter', 0)) if extra.get('angular_diameter') is not None else _("Angular diameter: N/A")
+        )
+        self["age_label"].setText(
+            _("Age since New Moon: {:.1f} days").format(extra.get('age', 0)) if extra.get('age') is not None else _("Age: N/A")
+        )
 
         # Apply background colors
         bg = gRGB(int(self.rgbmyr), int(self.rgbmyg), int(self.rgbmyb))
         self["background_plate"].instance.setBackgroundColor(bg)
-        self["selection_overlay"].instance.setBackgroundColor(
-            parseColor(self.alpha))
+        self["selection_overlay"].instance.setBackgroundColor(parseColor(self.alpha))
