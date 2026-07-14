@@ -86,9 +86,9 @@
     <widget name="icon_weather" position="460,287" size="160,160" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <!-- Wind values -->
     <widget name="icon_wind_speed" position="973,867" size="67,67" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="wind_speed_value" position="527,873" size="440,53" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="wind_speed_value" position="487,873" size="480,53" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_wind_direction" position="825,721" size="120,120" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="wind_gust_value" position="527,947" size="440,53" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="wind_gust_value" position="487,947" size="480,53" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_wind_burst" position="973,940" size="67,67" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <!-- Precipitation, humidity, pressure -->
     <widget name="icon_rain" position="53,1081" size="67,67" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
@@ -107,17 +107,17 @@
     <widget name="icon_sunset" position="973,347" size="67,67" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/sunset.png" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="sunset_value" position="653,344" size="307,37" zPosition="10" font="Liberation; 37" foregroundColor="#ff9632" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <!-- uva -->
-    <widget name="uvi_value" position="527,1064" size="440,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
-    <widget name="uvi_desc" position="527,1017" size="440,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="uvi_value" position="487,1064" size="480,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="uvi_desc" position="487,1017" size="480,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_uvi" position="973,1035" size="67,67" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <!-- sola radiation -->
-    <widget name="solar_value" position="527,1256" size="440,47" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" alphatest="blend" />
-    <widget name="solar_desc" position="527,1213" size="440,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="solar_value" position="487,1256" size="480,47" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" alphatest="blend" />
+    <widget name="solar_desc" position="487,1213" size="480,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
     <widget name="icon_solar" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/rdsun.png" position="973,1220" size="67,67" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <!-- AQI, probabilità pioggia/neve, aggiornamento -->
     <widget name="icon_aqi" position="973,1127" size="67,67" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
-    <widget name="aqi_value" position="527,1160" size="440,53" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
-    <widget name="aqi_desc" position="527,1121" size="440,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
+    <widget name="aqi_value" position="487,1160" size="480,53" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" zPosition="10" />
+    <widget name="aqi_desc" position="487,1121" size="480,47" zPosition="10" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="right" />
 
     <widget name="icon_rainp" position="53,1153" size="67,67" scale="1" zPosition="10" backgroundColor="#000000" transparent="1" alphatest="blend" />
     <widget name="rainp_value" position="127,1160" size="467,53" font="Liberation; 35" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" valign="center" halign="left" zPosition="10" />

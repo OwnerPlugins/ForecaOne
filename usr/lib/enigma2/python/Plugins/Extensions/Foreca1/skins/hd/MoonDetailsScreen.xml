@@ -1,0 +1,58 @@
+<screen name="MoonDetailsScreen" position="center,center" size="1100,700" flags="wfNoBorder" backgroundColor="#ff000000">
+    <ePixmap position="56,116" size="1000,450" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/background2.png" zPosition="3" scale="1" cornerRadius="21" />
+    <ePixmap position="927,568" size="90,23" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
+    <!-- Background plates -->
+    <widget name="background_plate" position="12,12" backgroundColor="#ff9632" size="1076,676" zPosition="1" cornerRadius="28" />
+    <widget name="selection_overlay" position="26,26" backgroundColor="black" size="1048,648" zPosition="2" cornerRadius="28" />
+
+    <!-- Title -->
+    <widget name="title" position="35,35" size="1030,45" font="Liberation; 28" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="center" zPosition="13" />
+
+    <!-- Moon icon -->
+    <widget name="moon_icon" position="75,130" size="130,130" scale="1" zPosition="13" backgroundColor="#000000" transparent="1" alphatest="blend" />
+
+    <!-- Phase -->
+    <widget name="phase_label" position="225,140" size="350,35" font="Liberation; 24" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Illumination -->
+    <widget name="illum_label" position="225,185" size="350,28" font="Liberation; 20" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Distance -->
+    <widget name="distance_label" position="225,225" size="350,28" font="Liberation; 20" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Separator line -->
+    <widget name="separator" position="75,270" size="950,1" backgroundColor="#53a9ff" zPosition="13" />
+
+    <!-- Moonrise -->
+    <widget name="moonrise_label" position="75,310" size="480,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Moonset -->
+    <widget name="moonset_label" position="75,350" size="480,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Rise azimuth -->
+    <widget name="rise_azimuth_label" position="75,390" size="480,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Set azimuth -->
+    <widget name="set_azimuth_label" position="75,430" size="480,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Transit time -->
+    <widget name="transit_label" position="75,470" size="480,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Transit altitude -->
+    <widget name="transit_alt_label" position="75,510" size="480,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Magnitude -->
+    <widget name="magnitude_label" position="600,310" size="440,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Angular diameter -->
+    <widget name="angular_diam_label" position="600,350" size="440,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Age -->
+    <widget name="age_label" position="600,390" size="440,28" font="Liberation; 22" foregroundColor="#92f1fc" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+
+    <!-- Buttons -->
+    <widget source="key_red" render="Label" position="125,612" size="200,45" font="Liberation;24" backgroundColor="#ff0000" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_green" render="Label" position="335,612" size="200,45" font="Liberation;24" backgroundColor="#009933" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_yellow" render="Label" position="545,612" size="200,45" font="Liberation;24" backgroundColor="#ffff00" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+    <widget source="key_blue" render="Label" position="755,612" size="200,45" font="Liberation;24" backgroundColor="#3399ff" foregroundColor="#000000" halign="center" valign="center" zPosition="3" />
+</screen>
