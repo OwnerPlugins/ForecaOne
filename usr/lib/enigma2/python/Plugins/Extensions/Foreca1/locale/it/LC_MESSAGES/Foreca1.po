@@ -18,9 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-msgid "(Additional data not available)"
-msgstr "(Dati aggiuntivi non disponibili)"
-
 msgid "0 - Today"
 msgstr "0 - Oggi"
 
@@ -50,9 +47,6 @@ msgstr "8 - Oggi + 8 giorni"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Oggi + 9 giorni"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETTAGLI DELLA LUNA ==="
 
 msgid "API credentials not configured."
 msgstr "Nessuna credenziale API configurata."
@@ -90,15 +84,9 @@ msgstr "Età: N/D"
 msgid "Angular diameter: N/A"
 msgstr "Diametro angolare: N/D"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Diametro angolare: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Diametro angolare: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Magnitudine apparente: N/D"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Magnitudine apparente: {:.2f}"
@@ -1481,3 +1469,15 @@ msgstr "• GIALLO per salvare Preferito 2\n"
 
 msgid "← Frame"
 msgstr "← Cornice"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Dati aggiuntivi non disponibili)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETTAGLI DELLA LUNA ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Diametro angolare: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Magnitudine apparente: N/D"

@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Дополнителни податоци не се достапни)"
-
 msgid "0 - Today"
 msgstr "0 - Денес"
 
@@ -48,9 +45,6 @@ msgstr "8 - Денес + 8 дена"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Денес + 9 дена"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ДЕТАЛИ ЗА МЕСЕЧИНАТА ==="
 
 msgid "API credentials not configured."
 msgstr "Акредитациите на API не се конфигурирани."
@@ -88,15 +82,9 @@ msgstr "Возраст: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Аголен дијаметар: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Аголен дијаметар: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Аголен дијаметар: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Привидна магнитуда: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Привидна магнитуда: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ЖОЛТО за зачувување како Омилени 2\n"
 
 msgid "← Frame"
 msgstr "← Рамка"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Дополнителни податоци не се достапни)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ДЕТАЛИ ЗА МЕСЕЧИНАТА ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Аголен дијаметар: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Привидна магнитуда: N/A"

@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Papildu dati nav pieejami)"
-
 msgid "0 - Today"
 msgstr "0 - šodien"
 
@@ -49,9 +46,6 @@ msgstr "8 — šodien + 8 dienas"
 
 msgid "9 - Today + 9 days"
 msgstr "9 — šodien + 9 dienas"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MĒNES INFORMĀCIJA ==="
 
 msgid "API credentials not configured."
 msgstr "API akreditācijas dati nav konfigurēti."
@@ -89,15 +83,9 @@ msgstr "Vecums: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Leņķiskais diametrs: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Leņķiskais diametrs: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Leņķiskais diametrs: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Šķietamais lielums: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Šķietamais lielums: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• DZELTENS, lai saglabātu kā 2. izlasi\n"
 
 msgid "← Frame"
 msgstr "← Rāmis"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Papildu dati nav pieejami)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MĒNES INFORMĀCIJA ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Leņķiskais diametrs: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Šķietamais lielums: N/A"

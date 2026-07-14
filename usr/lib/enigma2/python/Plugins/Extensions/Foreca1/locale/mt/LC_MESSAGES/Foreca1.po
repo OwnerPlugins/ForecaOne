@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Data addizzjonali mhux disponibbli)"
-
 msgid "0 - Today"
 msgstr "0 - Illum"
 
@@ -48,9 +45,6 @@ msgstr "8 - Illum + 8 ijiem"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Illum + 9 ijiem"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETTALJI TAL-QAMAR ==="
 
 msgid "API credentials not configured."
 msgstr "Kredenzjali tal-API mhux konfigurati."
@@ -88,15 +82,9 @@ msgstr "Età: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Dijametru angolari: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Dijametru angolari: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Dijametru angolari: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Kobor apparenti: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Kobor apparenti: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ISFAR biex issalva bħala Favoriti 2\n"
 
 msgid "← Frame"
 msgstr "← Qafas"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Data addizzjonali mhux disponibbli)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETTALJI TAL-QAMAR ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Dijametru angolari: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Kobor apparenti: N/A"

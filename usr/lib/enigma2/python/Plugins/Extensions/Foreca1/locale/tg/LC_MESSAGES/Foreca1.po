@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Маълумоти иловагӣ дастрас нест)"
-
 msgid "0 - Today"
 msgstr "0 - Имрӯз"
 
@@ -48,9 +45,6 @@ msgstr "8 - Имрӯз + 8 рӯз"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Имрӯз + 9 рӯз"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ТАФСИЛИ МОХ ==="
 
 msgid "API credentials not configured."
 msgstr "Маълумоти эътимоднокии API танзим карда нашудааст."
@@ -88,15 +82,9 @@ msgstr "Синну сол: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Диаметри кунҷӣ: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Диаметри кунҷӣ: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Диаметри кунҷӣ: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Андозаи намоён: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Бузургии намоён: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ЗАРД барои захира ҳамчун дӯстдошта 2\n
 
 msgid "← Frame"
 msgstr "← Чорчӯба"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Маълумоти иловагӣ дастрас нест)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ТАФСИЛИ МОХ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Диаметри кунҷӣ: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Андозаи намоён: N/A"

@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(اطلاعات اضافی در دسترس نیست)"
-
 msgid "0 - Today"
 msgstr "0 - امروز"
 
@@ -48,9 +45,6 @@ msgstr "8 - امروز + 8 روز"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - امروز + 9 روز"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== جزئیات ماه ==="
 
 msgid "API credentials not configured."
 msgstr "اعتبارنامه API پیکربندی نشده است."
@@ -88,15 +82,9 @@ msgstr "سن: غیر مجاز"
 msgid "Angular diameter: N/A"
 msgstr "قطر زاویه ای: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "قطر زاویه ای: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "قطر زاویه ای: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "قدر ظاهری: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "قدر ظاهری: {:.2f}"
@@ -1468,6 +1456,7 @@ msgstr "• سبز برای ذخیره به عنوان دلخواه 1\n"
 msgid "• OK to select city\n"
 msgstr "• برای انتخاب شهر\n تأیید کنید"
 "• برای انتخاب شهر\n"
+" تأیید کنید• برای انتخاب شهر\n"
 " تأیید کنید"
 
 msgid "• RED to open search keyboard\n"
@@ -1476,6 +1465,7 @@ msgstr "• قرمز برای باز کردن صفحه کلید جستجو\n"
 msgid "• Use arrow keys to navigate\n"
 msgstr "• از کلیدهای پیکان برای پیمایش\n استفاده کنید"
 "• از کلیدهای پیکان برای پیمایش\n"
+" استفاده کنید• از کلیدهای پیکان برای پیمایش\n"
 " استفاده کنید"
 
 msgid "• YELLOW to save as Favorite 2\n"
@@ -1483,3 +1473,15 @@ msgstr "• زرد برای ذخیره به عنوان دلخواه 2\n"
 
 msgid "← Frame"
 msgstr "← قاب"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(اطلاعات اضافی در دسترس نیست)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== جزئیات ماه ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "قطر زاویه ای: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "قدر ظاهری: N/A"

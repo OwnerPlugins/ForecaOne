@@ -18,10 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "Няма даступных дадзеных станцыі"
-
 msgid "0 - Today"
 msgstr "0 - Сёння"
 
@@ -51,9 +47,6 @@ msgstr "8 - Сёння + 8 дзён"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Сёння + 9 дзён"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== МЕСЯЦ ДЭТАЛІ ==="
 
 msgid "API credentials not configured."
 msgstr "Уліковыя дадзеныя API не наладжаны."
@@ -94,15 +87,9 @@ msgstr "ІКВ: Н/Д"
 msgid "Angular diameter: N/A"
 msgstr "Кутні дыяметр: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Вуглавы дыяметр: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Вуглавы дыяметр: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Бачная зорная велічыня: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Бачная зорная велічыня: {:.2f}"
@@ -1510,6 +1497,19 @@ msgstr "• ЖОЎТЫ, каб захаваць як абранае 2\n"
 
 msgid "← Frame"
 msgstr "← Рамка"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "Няма даступных дадзеных станцыі"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== МЕСЯЦ ДЭТАЛІ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Вуглавы дыяметр: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Бачная зорная велічыня: N/A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

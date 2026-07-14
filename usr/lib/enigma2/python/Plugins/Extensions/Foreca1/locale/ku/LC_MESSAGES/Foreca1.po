@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Daneyên zêde ne berdest in)"
-
 msgid "0 - Today"
 msgstr "0 - Îro"
 
@@ -48,9 +45,6 @@ msgstr "8 - Îro + 8 roj"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Îro + 9 roj"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== HÎVEKÊN HEVÊ ==="
 
 msgid "API credentials not configured."
 msgstr "Pêbaweriyên API-ê nehatine mîheng kirin."
@@ -88,15 +82,9 @@ msgstr "Temen: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Dirêjahiya goşeyê: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Dirêjahiya goşeyî: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Dirêjahiya goşeyî: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Mezinahiya xuya: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Mezinahiya diyar: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ZER ji bo tomarkirina wekî 2yê bijarte\n"
 
 msgid "← Frame"
 msgstr "← Çarçove"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Daneyên zêde ne berdest in)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== HÎVEKÊN HEVÊ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Dirêjahiya goşeyî: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Mezinahiya xuya: N/A"

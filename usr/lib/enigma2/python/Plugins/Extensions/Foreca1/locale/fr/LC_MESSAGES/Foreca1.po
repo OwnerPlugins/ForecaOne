@@ -18,10 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "Aucune donnée de station disponible"
-
 msgid "0 - Today"
 msgstr "0 - Aujourd'hui"
 
@@ -51,9 +47,6 @@ msgstr "8 - Aujourd'hui + 8 jours"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Aujourd'hui + 9 jours"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DÉTAILS DE LA LUNE ==="
 
 msgid "API credentials not configured."
 msgstr "Identifiants API non configurés."
@@ -94,15 +87,9 @@ msgstr "IQA : N/D"
 msgid "Angular diameter: N/A"
 msgstr "Diamètre angulaire : N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Diamètre angulaire : {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Diamètre angulaire : {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Magnitude apparente : N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Magnitude apparente : {:.2f}"
@@ -1497,6 +1484,19 @@ msgstr "• JAUNE pour enregistrer comme Favori 2\n"
 
 msgid "← Frame"
 msgstr "← Image"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "Aucune donnée de station disponible"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DÉTAILS DE LA LUNE ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Diamètre angulaire : {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Magnitude apparente : N/A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Data ychwanegol ddim ar gael)"
-
 msgid "0 - Today"
 msgstr "0 - Heddiw"
 
@@ -48,9 +45,6 @@ msgstr "8 - Heddiw + 8 diwrnod"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Heddiw + 9 diwrnod"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MANYLION LLEUAD ==="
 
 msgid "API credentials not configured."
 msgstr "Nid yw manylion adnabod API wedi'u ffurfweddu."
@@ -88,15 +82,9 @@ msgstr "Oedran: Amh"
 msgid "Angular diameter: N/A"
 msgstr "Diamedr onglog: Amh"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Diamedr onglog: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Diamedr onglog: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Maint ymddangosiadol: Amh"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Maint ymddangosiadol: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• MELYN i gadw fel Hoff 2\n"
 
 msgid "← Frame"
 msgstr "← Ffrâm"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Data ychwanegol ddim ar gael)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MANYLION LLEUAD ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Diamedr onglog: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Maint ymddangosiadol: Amh"

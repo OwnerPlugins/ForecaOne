@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(ਵਾਧੂ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ)"
-
 msgid "0 - Today"
 msgstr "0 - ਅੱਜ"
 
@@ -48,9 +45,6 @@ msgstr "8 - ਅੱਜ + 8 ਦਿਨ"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ਅੱਜ + 9 ਦਿਨ"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ਚੰਦਰਮਾ ਦੇ ਵੇਰਵੇ ==="
 
 msgid "API credentials not configured."
 msgstr "API ਕ੍ਰੀਡੈਂਸ਼ੀਅਲ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੇ ਗਏ ਹਨ।"
@@ -88,15 +82,9 @@ msgstr "ਉਮਰ: N/A"
 msgid "Angular diameter: N/A"
 msgstr "ਕੋਣੀ ਵਿਆਸ: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "ਕੋਣੀ ਵਿਆਸ: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "ਕੋਣੀ ਵਿਆਸ: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "ਸਪੱਸ਼ਟ ਤੀਬਰਤਾ: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ਸਪੱਸ਼ਟ ਤੀਬਰਤਾ: {:.2f}"
@@ -1465,6 +1453,7 @@ msgstr "• CH+/CH- 500 ਸ਼ਹਿਰਾਂ ਵਿੱਚ ਛਾਲ ਮਾਰ�
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• ਮਨਪਸੰਦ 1\n ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਹਰਾ"
 "• ਮਨਪਸੰਦ 1\n"
+" ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਹਰਾ• ਮਨਪਸੰਦ 1\n"
 " ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਹਰਾ"
 
 msgid "• OK to select city\n"
@@ -1479,7 +1468,20 @@ msgstr "• ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਤੀਰ ਕੁੰਜੀਆ�
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ਮਨਪਸੰਦ 2\n ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਪੀਲਾ"
 "• ਮਨਪਸੰਦ 2\n"
+" ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਪੀਲਾ• ਮਨਪਸੰਦ 2\n"
 " ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਪੀਲਾ"
 
 msgid "← Frame"
 msgstr "← ਫਰੇਮ"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(ਵਾਧੂ ਡਾਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ਚੰਦਰਮਾ ਦੇ ਵੇਰਵੇ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "ਕੋਣੀ ਵਿਆਸ: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "ਸਪੱਸ਼ਟ ਤੀਬਰਤਾ: N/A"

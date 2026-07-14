@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "(Additional data not available)"
-msgstr "(Không có dữ liệu bổ sung)"
-
 msgid "0 - Today"
 msgstr "0 - Hôm nay"
 
@@ -49,9 +46,6 @@ msgstr "8 - Hôm nay + 8 ngày"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hôm nay + 9 ngày"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== CHI TIẾT TRĂNG ==="
 
 msgid "API credentials not configured."
 msgstr "Thông tin xác thực API chưa được định cấu hình."
@@ -89,15 +83,9 @@ msgstr "Tuổi: Không áp dụng"
 msgid "Angular diameter: N/A"
 msgstr "Đường kính góc: Không áp dụng"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Đường kính góc: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Đường kính góc: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Độ lớn biểu kiến: Không áp dụng"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Độ lớn biểu kiến: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• VÀNG để lưu làm Mục ưa thích 2\n"
 
 msgid "← Frame"
 msgstr "← Khung"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Không có dữ liệu bổ sung)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== CHI TIẾT TRĂNG ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Đường kính góc: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Độ lớn biểu kiến: Không áp dụng"

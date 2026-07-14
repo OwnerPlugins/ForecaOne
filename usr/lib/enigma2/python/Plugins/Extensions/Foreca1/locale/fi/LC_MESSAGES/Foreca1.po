@@ -18,9 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-msgid "(Additional data not available)"
-msgstr "(Lisätietoja ei ole saatavilla)"
-
 msgid "0 - Today"
 msgstr "0 - Tänään"
 
@@ -50,9 +47,6 @@ msgstr "8 - Tänään + 8 päivää"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Tänään + 9 päivää"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== KUUN TIEDOT ==="
 
 msgid "API credentials not configured."
 msgstr "API-tunnuksia ei ole määritetty."
@@ -90,15 +84,9 @@ msgstr "Ikä: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Kulman halkaisija: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Kulman halkaisija: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Kulman halkaisija: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Näennäinen kirkkaus: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Näennäinen kirkkaus: {:.2f}"
@@ -1481,6 +1469,18 @@ msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
 
 msgid "← Frame"
 msgstr "← Kehys"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Lisätietoja ei ole saatavilla)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== KUUN TIEDOT ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Kulman halkaisija: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Näennäinen kirkkaus: N/A"
 
 #~ msgid "7 Day Forecast"
 #~ msgstr "7 päivän ennuste"

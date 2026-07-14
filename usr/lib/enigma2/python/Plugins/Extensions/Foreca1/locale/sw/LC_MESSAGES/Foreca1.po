@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Data ya ziada haipatikani)"
-
 msgid "0 - Today"
 msgstr "0 - Leo"
 
@@ -48,9 +45,6 @@ msgstr "8 - Leo + siku 8"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Leo + siku 9"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MAELEZO YA MWEZI ==="
 
 msgid "API credentials not configured."
 msgstr "Kitambulisho cha API hakijasanidiwa."
@@ -88,15 +82,9 @@ msgstr "Umri: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Kipenyo cha angular: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Kipenyo cha angular: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Kipenyo cha angular: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Ukubwa unaoonekana: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Ukubwa dhahiri: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• MANJANO ili uhifadhi kama Kipendwa 2\n"
 
 msgid "← Frame"
 msgstr "← Fremu"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Data ya ziada haipatikani)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MAELEZO YA MWEZI ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Kipenyo cha angular: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Ukubwa unaoonekana: N/A"

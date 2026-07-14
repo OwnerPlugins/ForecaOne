@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Dados adicionais não disponíveis)"
-
 msgid "0 - Today"
 msgstr "0 - Hoje"
 
@@ -48,9 +45,6 @@ msgstr "8 - Hoje + 8 dias"
 
 msgid "9 - Today + 9 days"
 msgstr "9 – Hoje + 9 dias"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETALHES DA LUA ==="
 
 msgid "API credentials not configured."
 msgstr "Credenciais de API não configuradas."
@@ -88,15 +82,9 @@ msgstr "Idade: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Diâmetro angular: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Diâmetro angular: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Diâmetro angular: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Magnitude aparente: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Magnitude aparente: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• AMARELO para salvar como Favorito 2\n"
 
 msgid "← Frame"
 msgstr "← Quadro"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Dados adicionais não disponíveis)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETALHES DA LUA ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Diâmetro angular: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Magnitude aparente: N/A"

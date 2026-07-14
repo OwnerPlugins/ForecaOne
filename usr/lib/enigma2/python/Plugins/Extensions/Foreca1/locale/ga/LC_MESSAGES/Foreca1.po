@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 
-msgid "(Additional data not available)"
-msgstr "(Níl sonraí breise ar fáil)"
-
 msgid "0 - Today"
 msgstr "0 - Inniu"
 
@@ -49,9 +46,6 @@ msgstr "8 - Inniu + 8 lá"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Inniu + 9 lá"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== SONRAÍ AN GHEALACH ==="
 
 msgid "API credentials not configured."
 msgstr "Níl dintiúir API cumraithe."
@@ -89,15 +83,9 @@ msgstr "Aois: N/B"
 msgid "Angular diameter: N/A"
 msgstr "Trastomhas uilleach: N/B"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Trastomhas uilleach: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Trastomhas uilleach: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Méid dealraitheach: N/B"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Méid dealraitheach: {:.2f}"
@@ -1468,7 +1456,8 @@ msgstr "• GLAS le sábháil mar an 1 is fearr leat"
 
 msgid "• OK to select city\n"
 msgstr "• Ceart go leor chun cathair\n a roghnú"
-"• Ceart go leor cathair\n"
+"• Ceart go leor chun cathair\n"
+" a roghnú• Ceart go leor cathair\n"
 " a roghnú"
 
 msgid "• RED to open search keyboard\n"
@@ -1482,3 +1471,15 @@ msgstr "• YELLOW le sábháil mar an 2 is fearr leat\n"
 
 msgid "← Frame"
 msgstr "← Fráma"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Níl sonraí breise ar fáil)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== SONRAÍ AN GHEALACH ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Trastomhas uilleach: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Méid dealraitheach: N/B"

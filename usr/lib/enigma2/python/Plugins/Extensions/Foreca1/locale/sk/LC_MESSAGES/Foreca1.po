@@ -11,10 +11,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "Žiadne údaje o stanici nie sú k dispozícii"
-
 msgid "0 - Today"
 msgstr "0 - Dnes"
 
@@ -44,9 +40,6 @@ msgstr "8 - Dnes + 8 dní"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Dnes + 9 dní"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== PODROBNOSTI O MESIACI ==="
 
 msgid "API credentials not configured."
 msgstr "Poverenia API nie sú nakonfigurované."
@@ -87,15 +80,9 @@ msgstr "AQI: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Uhlový priemer: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Uhlový priemer: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Uhlový priemer: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Zdanlivá magnitúda: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Zdanlivá magnitúda: {:.2f}"
@@ -321,7 +308,7 @@ msgstr "Vzdialenosť: {} km"
 
 msgid "Do you want to install it now?"
 msgstr "Chcete ho nainštalovať teraz?"
-"Chcete ho nainštalovať teraz?Nová verzia %s je k dispozícii\n"
+"Chcete ho nainštalovať teraz?Chcete ho nainštalovať teraz?Nová verzia %s je k dispozícii\n"
 "\n"
 "Zoznam zmien: %s\n"
 "\n"
@@ -1488,6 +1475,19 @@ msgstr "• ŽLTÉ na uloženie ako Obľúbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámik"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "Žiadne údaje o stanici nie sú k dispozícii"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== PODROBNOSTI O MESIACI ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Uhlový priemer: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Zdanlivá magnitúda: N/A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

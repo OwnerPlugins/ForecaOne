@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(ไม่มีข้อมูลเพิ่มเติม)"
-
 msgid "0 - Today"
 msgstr "0 - วันนี้"
 
@@ -48,9 +45,6 @@ msgstr "8 - วันนี้ + 8 วัน"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - วันนี้ + 9 วัน"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== รายละเอียดดวงจันทร์ ==="
 
 msgid "API credentials not configured."
 msgstr "ไม่ได้กำหนดค่าข้อมูลรับรอง API"
@@ -88,15 +82,9 @@ msgstr "อายุ: ไม่ระบุ"
 msgid "Angular diameter: N/A"
 msgstr "เส้นผ่านศูนย์กลางเชิงมุม: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "เส้นผ่านศูนย์กลางเชิงมุม: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "เส้นผ่านศูนย์กลางเชิงมุม: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "ขนาดที่ปรากฏ: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ขนาดที่ปรากฏ: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• สีเหลือง เพื่อบันทึกเป็�
 
 msgid "← Frame"
 msgstr "← โครง"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(ไม่มีข้อมูลเพิ่มเติม)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== รายละเอียดดวงจันทร์ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "เส้นผ่านศูนย์กลางเชิงมุม: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "ขนาดที่ปรากฏ: N/A"

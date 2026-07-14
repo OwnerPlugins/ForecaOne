@@ -18,10 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "Nu sunt disponibile date ale stației"
-
 msgid "0 - Today"
 msgstr "0 - Astăzi"
 
@@ -51,9 +47,6 @@ msgstr "8 - Astăzi + 8 zile"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Astăzi + 9 zile"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETALII LUNA ==="
 
 msgid "API credentials not configured."
 msgstr "Datele de autentificare API nu sunt configurate."
@@ -94,15 +87,9 @@ msgstr "ICA: N/D"
 msgid "Angular diameter: N/A"
 msgstr "Diametru unghiular: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Diametru unghiular: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Diametru unghiular: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Mărimea aparentă: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Mărimea aparentă: {:.2f}"
@@ -1497,6 +1484,19 @@ msgstr "• GALBEN pentru a salva ca Favorite 2\n"
 
 msgid "← Frame"
 msgstr "← Cadru"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "Nu sunt disponibile date ale stației"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETALII LUNA ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Diametru unghiular: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Mărimea aparentă: N/A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

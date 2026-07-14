@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Papildomų duomenų nėra)"
-
 msgid "0 - Today"
 msgstr "0 - Šiandien"
 
@@ -49,9 +46,6 @@ msgstr "8 - šiandien + 8 dienos"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - šiandien + 9 dienos"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MĖNULIO INFORMACIJA ==="
 
 msgid "API credentials not configured."
 msgstr "API kredencialai nesukonfigūruoti."
@@ -89,15 +83,9 @@ msgstr "Amžius: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Kampinis skersmuo: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Kampinis skersmuo: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Kampinis skersmuo: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Tariamas dydis: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Tariamas dydis: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• GELTONA, jei norite išsaugoti kaip 2 mėgstamiausią\n"
 
 msgid "← Frame"
 msgstr "← Rėmas"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Papildomų duomenų nėra)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MĖNULIO INFORMACIJA ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Kampinis skersmuo: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Tariamas dydis: N/A"

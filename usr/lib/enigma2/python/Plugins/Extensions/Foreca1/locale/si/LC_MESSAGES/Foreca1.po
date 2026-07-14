@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(අමතර දත්ත නොමැත)"
-
 msgid "0 - Today"
 msgstr "0 - අද"
 
@@ -48,9 +45,6 @@ msgstr "8 - අද + දින 8"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - අද + දින 9"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== සඳ විස්තර ==="
 
 msgid "API credentials not configured."
 msgstr "API අක්තපත්‍ර වින්‍යාස කර නැත."
@@ -88,15 +82,9 @@ msgstr "වයස: N/A"
 msgid "Angular diameter: N/A"
 msgstr "කෝණික විෂ්කම්භය: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "කෝණික විෂ්කම්භය: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "කෝණික විෂ්කම්භය: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "පෙනෙන විශාලත්වය: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "පෙනෙන විශාලත්වය: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ප්‍රියතම 2 ලෙස සුරැකීමට කහ
 
 msgid "← Frame"
 msgstr "← රාමුව"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(අමතර දත්ත නොමැත)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== සඳ විස්තර ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "කෝණික විෂ්කම්භය: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "පෙනෙන විශාලත්වය: N/A"

@@ -16,9 +16,6 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ui.py\n"
 
-msgid "(Additional data not available)"
-msgstr "(Weitere Daten nicht verfügbar)"
-
 msgid "0 - Today"
 msgstr "0 – Heute"
 
@@ -48,9 +45,6 @@ msgstr "8 – Heute + 8 Tage"
 
 msgid "9 - Today + 9 days"
 msgstr "9 – Heute + 9 Tage"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MONDDETAILS ==="
 
 msgid "API credentials not configured."
 msgstr "API-Zugangsdaten nicht konfiguriert."
@@ -88,15 +82,9 @@ msgstr "Alter: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Winkeldurchmesser: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Winkeldurchmesser: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Winkeldurchmesser: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Scheinbare Größe: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Scheinbare Größe: {:.2f}"
@@ -1479,6 +1467,18 @@ msgstr "• GELB zum Speichern als Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Bild"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Weitere Daten nicht verfügbar)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MONDDETAILS ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Winkeldurchmesser: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Scheinbare Größe: N/A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

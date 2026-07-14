@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Viðbótargögn ekki tiltæk)"
-
 msgid "0 - Today"
 msgstr "0 - Í dag"
 
@@ -48,9 +45,6 @@ msgstr "8 - Í dag + 8 dagar"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Í dag + 9 dagar"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== TUNGLUPPLÝSINGAR ==="
 
 msgid "API credentials not configured."
 msgstr "API skilríki ekki stillt."
@@ -88,15 +82,9 @@ msgstr "Aldur: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Hornþvermál: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Hornþvermál: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Hornþvermál: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Sýnileg stærð: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Sýnileg stærð: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• GULUR til að vista sem uppáhalds 2\n"
 
 msgid "← Frame"
 msgstr "← Rammi"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Viðbótargögn ekki tiltæk)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== TUNGLUPPLÝSINGAR ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Hornþvermál: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Sýnileg stærð: N/A"

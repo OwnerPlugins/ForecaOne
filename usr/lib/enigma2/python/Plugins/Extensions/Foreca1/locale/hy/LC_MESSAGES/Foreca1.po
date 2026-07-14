@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Լրացուցիչ տվյալներ չկան)"
-
 msgid "0 - Today"
 msgstr "0 - Այսօր"
 
@@ -48,9 +45,6 @@ msgstr "8 - Այսօր + 8 օր"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Այսօր + 9 օր"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ԼՈՒՍՆԻ ՄԱՆՐԱՄԱՍՆԵՐ ==="
 
 msgid "API credentials not configured."
 msgstr "API-ի հավատարմագրերը կազմաձևված չեն:"
@@ -88,15 +82,9 @@ msgstr "Տարիքը` N/A"
 msgid "Angular diameter: N/A"
 msgstr "Անկյունային տրամագիծը՝ N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Անկյունային տրամագիծը՝ {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Անկյունային տրամագիծը՝ {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Տեսանելի մեծություն՝ N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Տեսանելի մեծություն՝ {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ԴԵՂԻՆ՝ որպես Սիրված 2 պահելու համար\n"
 
 msgid "← Frame"
 msgstr "← Շրջանակ"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Լրացուցիչ տվյալներ չկան)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ԼՈՒՍՆԻ ՄԱՆՐԱՄԱՍՆԵՐ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Անկյունային տրամագիծը՝ {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Տեսանելի մեծություն՝ N/A"

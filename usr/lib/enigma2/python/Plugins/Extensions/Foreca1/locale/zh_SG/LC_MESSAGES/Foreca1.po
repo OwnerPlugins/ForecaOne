@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "（无法提供其他数据）"
-
 msgid "0 - Today"
 msgstr "0 - 今天"
 
@@ -48,9 +45,6 @@ msgstr "8 - 今天 + 8 天"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - 今天 + 9 天"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== 月球细节 ==="
 
 msgid "API credentials not configured."
 msgstr "未配置 API 凭据。"
@@ -88,15 +82,9 @@ msgstr "年龄：不适用"
 msgid "Angular diameter: N/A"
 msgstr "角直径：不适用"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "角直径：{:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "角直径：{:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "视星等：不适用"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "视星等：{:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• 黄色保存为收藏夹 2\n"
 
 msgid "← Frame"
 msgstr "← 框架"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "（无法提供其他数据）"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== 月球细节 ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "角直径：{:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "视星等：不适用"

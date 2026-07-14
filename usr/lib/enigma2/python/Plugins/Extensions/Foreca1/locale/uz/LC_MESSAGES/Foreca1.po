@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Qo'shimcha ma'lumotlar mavjud emas)"
-
 msgid "0 - Today"
 msgstr "0 - Bugun"
 
@@ -48,9 +45,6 @@ msgstr "8 - Bugun + 8 kun"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Bugun + 9 kun"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== OY HAQIDAGI TAVSIFI ==="
 
 msgid "API credentials not configured."
 msgstr "API hisob ma'lumotlari sozlanmagan."
@@ -88,15 +82,9 @@ msgstr "Yosh: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Burchak diametri: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Burchak diametri: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Burchak diametri: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Koʻrinib turgan kattalik: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Koʻrinib turgan kattalik: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• Sevimli 2 sifatida saqlash uchun SARI.\n"
 
 msgid "← Frame"
 msgstr "← Ramka"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Qo'shimcha ma'lumotlar mavjud emas)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== OY HAQIDAGI TAVSIFI ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Burchak diametri: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Koʻrinib turgan kattalik: N/A"

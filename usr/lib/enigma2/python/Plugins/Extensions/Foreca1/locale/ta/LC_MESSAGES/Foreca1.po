@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(கூடுதல் தரவு கிடைக்கவில்லை)"
-
 msgid "0 - Today"
 msgstr "0 - இன்று"
 
@@ -48,9 +45,6 @@ msgstr "8 - இன்று + 8 நாட்கள்"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - இன்று + 9 நாட்கள்"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== சந்திரன் விவரங்கள் ==="
 
 msgid "API credentials not configured."
 msgstr "API நற்சான்றிதழ்கள் உள்ளமைக்கப்படவில்லை."
@@ -88,15 +82,9 @@ msgstr "வயது: N/A"
 msgid "Angular diameter: N/A"
 msgstr "கோண விட்டம்: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "கோண விட்டம்: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "கோண விட்டம்: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "வெளிப்படையான அளவு: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "வெளிப்படையான அளவு: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• பிடித்த 2 ஆக சேமிக்க மஞ்சள
 
 msgid "← Frame"
 msgstr "← சட்டகம்"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(கூடுதல் தரவு கிடைக்கவில்லை)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== சந்திரன் விவரங்கள் ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "கோண விட்டம்: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "வெளிப்படையான அளவு: N/A"

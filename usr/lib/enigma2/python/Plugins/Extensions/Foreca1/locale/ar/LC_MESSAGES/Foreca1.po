@@ -17,10 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "لا توجد بيانات محطة متاحة"
-
 msgid "0 - Today"
 msgstr "0 - اليوم"
 
@@ -50,9 +46,6 @@ msgstr "8 - اليوم + 8 أيام"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - اليوم + 9 أيام"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== تفاصيل القمر ==="
 
 msgid "API credentials not configured."
 msgstr "لم يتم تكوين بيانات اعتماد API."
@@ -93,15 +86,9 @@ msgstr "مؤشر جودة الهواء: غير متوفر"
 msgid "Angular diameter: N/A"
 msgstr "القطر الزاوي: غير متوفر"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "القطر الزاوي: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "القطر الزاوي: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "الحجم الظاهري: N / A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "الحجم الظاهري: {:.2f}"
@@ -1496,6 +1483,19 @@ msgstr "• أصفر للحفظ كالمفضلة 2\n"
 
 msgid "← Frame"
 msgstr "إطار ←"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "لا توجد بيانات محطة متاحة"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== تفاصيل القمر ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "القطر الزاوي: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "الحجم الظاهري: N / A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

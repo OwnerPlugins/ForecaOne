@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Hindi available ang karagdagang data)"
-
 msgid "0 - Today"
 msgstr "0 - Ngayon"
 
@@ -48,9 +45,6 @@ msgstr "8 - Ngayon + 8 araw"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Ngayon + 9 na araw"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MGA DETALYE NG MOON ==="
 
 msgid "API credentials not configured."
 msgstr "Hindi na-configure ang mga kredensyal ng API."
@@ -88,15 +82,9 @@ msgstr "Edad: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Angular na diameter: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Angular na diameter: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Angular na diameter: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Maliwanag na magnitude: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Tila magnitude: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• DILAW para i-save bilang Paborito 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Hindi available ang karagdagang data)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MGA DETALYE NG MOON ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Angular na diameter: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Maliwanag na magnitude: N/A"

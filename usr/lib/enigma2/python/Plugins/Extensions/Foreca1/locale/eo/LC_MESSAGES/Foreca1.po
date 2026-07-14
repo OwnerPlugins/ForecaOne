@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Pliaj datumoj ne haveblaj)"
-
 msgid "0 - Today"
 msgstr "0 - Hodiaŭ"
 
@@ -49,9 +46,6 @@ msgstr "8 - Hodiaŭ + 8 tagoj"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hodiaŭ + 9 tagoj"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== LUNO-DETALOJ ==="
 
 msgid "API credentials not configured."
 msgstr "API-akreditaĵoj ne agordis."
@@ -89,15 +83,9 @@ msgstr "Aĝo: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Angula diametro: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Angula diametro: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Angula diametro: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Ŝajna grandeco: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Ŝajna grandeco: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• FLAVA por konservi kiel Favorita 2\n"
 
 msgid "← Frame"
 msgstr "← Kadro"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Pliaj datumoj ne haveblaj)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== LUNO-DETALOJ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Angula diametro: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Ŝajna grandeco: N/A"

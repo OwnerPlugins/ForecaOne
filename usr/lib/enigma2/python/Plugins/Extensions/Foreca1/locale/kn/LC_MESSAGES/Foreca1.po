@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(ಹೆಚ್ಚುವರಿ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ)"
-
 msgid "0 - Today"
 msgstr "0 - ಇಂದು"
 
@@ -48,9 +45,6 @@ msgstr "8 - ಇಂದು + 8 ದಿನಗಳು"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ಇಂದು + 9 ದಿನಗಳು"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ಚಂದ್ರನ ವಿವರಗಳು ==="
 
 msgid "API credentials not configured."
 msgstr "API ರುಜುವಾತುಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ."
@@ -88,15 +82,9 @@ msgstr "ವಯಸ್ಸು: N/A"
 msgid "Angular diameter: N/A"
 msgstr "ಕೋನೀಯ ವ್ಯಾಸ: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "ಕೋನೀಯ ವ್ಯಾಸ: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "ಕೋನೀಯ ವ್ಯಾಸ: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "ಗೋಚರ ಪ್ರಮಾಣ: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ಗೋಚರ ಪ್ರಮಾಣ: {:.2f}"
@@ -1465,6 +1453,7 @@ msgstr "• CH+/CH- 500 ನಗರಗಳನ್ನು ನೆಗೆಯಲು\n"
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• ಮೆಚ್ಚಿನ 1\n ಆಗಿ ಉಳಿಸಲು ಹಸಿರು"
 "• ಮೆಚ್ಚಿನ 1\n"
+" ಆಗಿ ಉಳಿಸಲು ಹಸಿರು• ಮೆಚ್ಚಿನ 1\n"
 " ಆಗಿ ಉಳಿಸಲು ಹಸಿರು"
 
 msgid "• OK to select city\n"
@@ -1479,7 +1468,20 @@ msgstr "• ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಬಾಣದ ಕೀ�
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ಮೆಚ್ಚಿನ 2\n ಆಗಿ ಉಳಿಸಲು ಹಳದಿ"
 "• ಮೆಚ್ಚಿನ 2\n"
+" ಆಗಿ ಉಳಿಸಲು ಹಳದಿ• ಮೆಚ್ಚಿನ 2\n"
 " ಆಗಿ ಉಳಿಸಲು ಹಳದಿ"
 
 msgid "← Frame"
 msgstr "← ಫ್ರೇಮ್"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(ಹೆಚ್ಚುವರಿ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ಚಂದ್ರನ ವಿವರಗಳು ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "ಕೋನೀಯ ವ್ಯಾಸ: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "ಗೋಚರ ಪ್ರಮಾಣ: N/A"

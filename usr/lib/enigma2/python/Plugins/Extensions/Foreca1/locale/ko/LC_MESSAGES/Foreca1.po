@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "(Additional data not available)"
-msgstr "(추가 데이터는 제공되지 않음)"
-
 msgid "0 - Today"
 msgstr "0 - 오늘"
 
@@ -49,9 +46,6 @@ msgstr "8 - 오늘 + 8일"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - 오늘 + 9일"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== 달 세부정보 ==="
 
 msgid "API credentials not configured."
 msgstr "API 자격 증명이 구성되지 않았습니다."
@@ -89,15 +83,9 @@ msgstr "연령: 해당 없음"
 msgid "Angular diameter: N/A"
 msgstr "각도 직경: 해당 없음"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "각도 직경: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "각도 직경: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "겉보기 등급: 해당 없음"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "겉보기 등급: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• 즐겨찾기 2로 저장하려면 노란색\n"
 
 msgid "← Frame"
 msgstr "← 프레임"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(추가 데이터는 제공되지 않음)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== 달 세부정보 ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "각도 직경: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "겉보기 등급: 해당 없음"

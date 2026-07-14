@@ -17,8 +17,6 @@
 
 
 
-msgid "(Additional data not available)"
-msgstr ""
 
 msgid "0 - Today"
 msgstr ""
@@ -48,9 +46,6 @@ msgid "8 - Today + 8 days"
 msgstr ""
 
 msgid "9 - Today + 9 days"
-msgstr ""
-
-msgid "=== MOON DETAILS ==="
 msgstr ""
 
 msgid "API credentials not configured."
@@ -89,13 +84,7 @@ msgstr ""
 msgid "Angular diameter: N/A"
 msgstr ""
 
-msgid "Angular diameter: {:.0f}"
-msgstr ""
-
 msgid "Angular diameter: {:.0f}″"
-msgstr ""
-
-msgid "Apparent magnitude: N/A"
 msgstr ""
 
 msgid "Apparent magnitude: {:.2f}"

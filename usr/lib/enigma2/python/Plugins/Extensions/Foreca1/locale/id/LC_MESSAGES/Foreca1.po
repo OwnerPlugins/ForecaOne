@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Data tambahan tidak tersedia)"
-
 msgid "0 - Today"
 msgstr "0 - Hari ini"
 
@@ -48,9 +45,6 @@ msgstr "8 - Hari ini + 8 hari"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hari ini + 9 hari"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETAIL BULAN ==="
 
 msgid "API credentials not configured."
 msgstr "Kredensial API tidak dikonfigurasi."
@@ -88,15 +82,9 @@ msgstr "Usia: Tidak Ada"
 msgid "Angular diameter: N/A"
 msgstr "Diameter sudut: T/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Diameter sudut: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Diameter sudut: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Magnitudo semu: T/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Magnitudo semu: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• KUNING untuk menyimpan sebagai Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Bingkai"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Data tambahan tidak tersedia)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETAIL BULAN ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Diameter sudut: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Magnitudo semu: T/A"

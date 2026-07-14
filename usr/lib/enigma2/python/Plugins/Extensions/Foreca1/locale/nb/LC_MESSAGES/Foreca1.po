@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Ytterligere data er ikke tilgjengelig)"
-
 msgid "0 - Today"
 msgstr "0 - I dag"
 
@@ -49,9 +46,6 @@ msgstr "8 - I dag + 8 dager"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - I dag + 9 dager"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MÅNEDETALJER ==="
 
 msgid "API credentials not configured."
 msgstr "API-legitimasjon er ikke konfigurert."
@@ -89,15 +83,9 @@ msgstr "Alder: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Vinkeldiameter: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Vinkeldiameter: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Vinkeldiameter: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Tilsynelatende størrelse: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Tilsynelatende størrelse: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• GUL for å lagre som favoritt 2\n"
 
 msgid "← Frame"
 msgstr "← Ramme"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Ytterligere data er ikke tilgjengelig)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MÅNEDETALJER ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Vinkeldiameter: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Tilsynelatende størrelse: N/A"

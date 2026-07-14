@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Täiendavad andmed pole saadaval)"
-
 msgid "0 - Today"
 msgstr "0 - täna"
 
@@ -49,9 +46,6 @@ msgstr "8 – täna + 8 päeva"
 
 msgid "9 - Today + 9 days"
 msgstr "9 – täna + 9 päeva"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== KUU ANDMED ==="
 
 msgid "API credentials not configured."
 msgstr "API mandaate pole konfigureeritud."
@@ -89,15 +83,9 @@ msgstr "Vanus: puudub"
 msgid "Angular diameter: N/A"
 msgstr "Nurga läbimõõt: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Nurga läbimõõt: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Nurga läbimõõt: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Näiv suurusjärk: puudub"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Näiv suurusjärk: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• KOLLANE, et salvestada 2. lemmikuna\n"
 
 msgid "← Frame"
 msgstr "← Raam"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Täiendavad andmed pole saadaval)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== KUU ANDMED ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Nurga läbimõõt: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Näiv suurusjärk: puudub"

@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Dodatni podaci nisu dostupni)"
-
 msgid "0 - Today"
 msgstr "0 - Danas"
 
@@ -48,9 +45,6 @@ msgstr "8 - Danas + 8 dana"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Danas + 9 dana"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETALJI MJESECA ==="
 
 msgid "API credentials not configured."
 msgstr "API vjerodajnice nisu konfigurirane."
@@ -88,15 +82,9 @@ msgstr "Starost: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Ugaoni prečnik: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Ugaoni prečnik: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Ugaoni prečnik: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Prividna magnituda: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Prividna magnituda: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ŽUTO da sačuvate kao Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Okvir"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Dodatni podaci nisu dostupni)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETALJI MJESECA ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Ugaoni prečnik: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Prividna magnituda: N/A"

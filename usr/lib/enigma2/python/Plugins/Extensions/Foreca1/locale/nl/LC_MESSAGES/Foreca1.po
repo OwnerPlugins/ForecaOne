@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Aanvullende gegevens niet beschikbaar)"
-
 msgid "0 - Today"
 msgstr "0 - Vandaag"
 
@@ -49,9 +46,6 @@ msgstr "8 - Vandaag + 8 dagen"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Vandaag + 9 dagen"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MAANDETAILS ==="
 
 msgid "API credentials not configured."
 msgstr "API-referenties niet geconfigureerd."
@@ -89,15 +83,9 @@ msgstr "Leeftijd: n.v.t"
 msgid "Angular diameter: N/A"
 msgstr "Hoekdiameter: N.v.t"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Hoekdiameter: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Hoekdiameter: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Schijnbare omvang: n.v.t"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Schijnbare magnitude: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• GEEL om op te slaan als Favoriet 2\n"
 
 msgid "← Frame"
 msgstr "← Kader"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Aanvullende gegevens niet beschikbaar)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MAANDETAILS ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Hoekdiameter: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Schijnbare omvang: n.v.t"

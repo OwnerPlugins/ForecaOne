@@ -12,9 +12,6 @@ msgstr ""
 "X-Generator: Poedit 3.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-msgid "(Additional data not available)"
-msgstr "(Δεν υπάρχουν διαθέσιμα επιπλέον δεδομένα)"
-
 msgid "0 - Today"
 msgstr "0 - Σήμερα"
 
@@ -44,9 +41,6 @@ msgstr "8 - Σήμερα + 8 ημέρες"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Σήμερα + 9 ημέρες"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ΛΕΠΤΟΜΕΡΕΙΕΣ ΣΕΛΗΝΗΣ ==="
 
 msgid "API credentials not configured."
 msgstr "Τα διαπιστευτήρια API δεν έχουν ρυθμιστεί."
@@ -84,15 +78,9 @@ msgstr "Ηλικία: Μ/Δ"
 msgid "Angular diameter: N/A"
 msgstr "Γωνιακή διάμετρος: Μ/Δ"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Γωνιακή διάμετρος: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Γωνιακή διάμετρος: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Φαινόμενο μέγεθος: Μ/Δ"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Φαινόμενο μέγεθος: {:.2f}"
@@ -1475,6 +1463,18 @@ msgstr "• ΚΙΤΡΙΝΟ για αποθήκευση ως Αγαπημένο 2
 
 msgid "← Frame"
 msgstr "← Καρέ"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Δεν υπάρχουν διαθέσιμα επιπλέον δεδομένα)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ΛΕΠΤΟΜΕΡΕΙΕΣ ΣΕΛΗΝΗΣ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Γωνιακή διάμετρος: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Φαινόμενο μέγεθος: Μ/Δ"
 
 #~ msgid "Configure Foreca API credentials"
 #~ msgstr "Ρύθμιση διαπιστευτηρίων Foreca API"

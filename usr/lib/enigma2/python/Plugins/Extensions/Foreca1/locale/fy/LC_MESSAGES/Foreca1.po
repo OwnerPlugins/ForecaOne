@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Oanfoljende gegevens net beskikber)"
-
 msgid "0 - Today"
 msgstr "0 - Hjoed"
 
@@ -48,9 +45,6 @@ msgstr "8 - Hjoed + 8 dagen"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hjoed + 9 dagen"
-
-msgid "=== MOON DETAILS ==="
-msgstr ""
 
 msgid "API credentials not configured."
 msgstr "API-bewizen net ynsteld."
@@ -88,15 +82,9 @@ msgstr "Leeftyd: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Hoekdiameter: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Hoekdiameter: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Hoekdiameter: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Skynbere grutte: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Skynbere grutte: {:.2f}"
@@ -1479,3 +1467,12 @@ msgstr "• GEEL om te bewarjen as Favorite 2\n"
 
 msgid "← Frame"
 msgstr ""
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Oanfoljende gegevens net beskikber)"
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Hoekdiameter: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Skynbere grutte: N/A"

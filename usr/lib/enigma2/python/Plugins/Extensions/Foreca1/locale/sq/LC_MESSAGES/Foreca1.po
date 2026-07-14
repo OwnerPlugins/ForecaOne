@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Të dhëna shtesë nuk disponohen)"
-
 msgid "0 - Today"
 msgstr "0 - Sot"
 
@@ -48,9 +45,6 @@ msgstr "8 - Sot + 8 ditë"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Sot + 9 ditë"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETAJET E HËNËS ==="
 
 msgid "API credentials not configured."
 msgstr "Kredencialet API nuk janë konfiguruar."
@@ -88,15 +82,9 @@ msgstr "Mosha: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Diametri këndor: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Diametri këndor: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Diametri këndor: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Madhësia e dukshme: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Madhësia e dukshme: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• E VERDHA për ta ruajtur si të preferuar 2\n"
 
 msgid "← Frame"
 msgstr "← Korniza"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Të dhëna shtesë nuk disponohen)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETAJET E HËNËS ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Diametri këndor: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Madhësia e dukshme: N/A"

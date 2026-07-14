@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(មិនមានទិន្នន័យបន្ថែមទេ)"
-
 msgid "0 - Today"
 msgstr "0 - ថ្ងៃនេះ"
 
@@ -48,9 +45,6 @@ msgstr "8 - ថ្ងៃនេះ + 8 ថ្ងៃ។"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ថ្ងៃនេះ + 9 ថ្ងៃ។"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ព័ត៌មានលម្អិតនៃព្រះច័ន្ទ ==="
 
 msgid "API credentials not configured."
 msgstr "ការកំណត់អត្តសញ្ញាណ API មិនបានកំណត់រចនាសម្ព័ន្ធទេ។"
@@ -88,15 +82,9 @@ msgstr "អាយុ៖ គ្មាន"
 msgid "Angular diameter: N/A"
 msgstr "អង្កត់ផ្ចិតជ្រុង៖ N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "អង្កត់ផ្ចិតជ្រុង៖ {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "អង្កត់ផ្ចិតជ្រុង៖ {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "ទំហំជាក់ស្តែង៖ N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ទំហំជាក់ស្តែង៖ {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• ពណ៌លឿងដើម្បីរក្សាទុកជា�
 
 msgid "← Frame"
 msgstr "← ស៊ុម"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(មិនមានទិន្នន័យបន្ថែមទេ)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ព័ត៌មានលម្អិតនៃព្រះច័ន្ទ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "អង្កត់ផ្ចិតជ្រុង៖ {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "ទំហំជាក់ស្តែង៖ N/A"

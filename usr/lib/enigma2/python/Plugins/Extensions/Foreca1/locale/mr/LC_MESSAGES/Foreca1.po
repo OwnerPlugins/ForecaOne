@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(अतिरिक्त डेटा उपलब्ध नाही)"
-
 msgid "0 - Today"
 msgstr "0 - आज"
 
@@ -48,9 +45,6 @@ msgstr "8 - आज + 8 दिवस"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - आज + 9 दिवस"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== चंद्र तपशील ==="
 
 msgid "API credentials not configured."
 msgstr "API क्रेडेंशियल कॉन्फिगर केलेले नाहीत."
@@ -88,15 +82,9 @@ msgstr "वय: N/A"
 msgid "Angular diameter: N/A"
 msgstr "कोनीय व्यास: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "कोनीय व्यास: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "कोनीय व्यास: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "स्पष्ट परिमाण: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "स्पष्ट परिमाण: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• आवडते म्हणून सेव्ह करण्य�
 
 msgid "← Frame"
 msgstr "← फ्रेम"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(अतिरिक्त डेटा उपलब्ध नाही)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== चंद्र तपशील ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "कोनीय व्यास: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "स्पष्ट परिमाण: N/A"

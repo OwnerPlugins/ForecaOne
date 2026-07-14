@@ -11,10 +11,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "Nem érhetők el állomásadatok"
-
 msgid "0 - Today"
 msgstr "0 - Ma"
 
@@ -44,9 +40,6 @@ msgstr "8 - Ma + 8 nap"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Ma + 9 nap"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== HOLD RÉSZLETEK ==="
 
 msgid "API credentials not configured."
 msgstr "Az API-hitelesítő adatok nincsenek beállítva."
@@ -87,15 +80,9 @@ msgstr "AQI: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Szögátmérő: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Szögátmérő: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Szögátmérő: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Látszólagos nagyságrend: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Látszólagos magnitúdó: {:.2f}"
@@ -321,7 +308,7 @@ msgstr "Távolság: {} km"
 
 msgid "Do you want to install it now?"
 msgstr "Most szeretné telepíteni?"
-"Most szeretné telepíteni?Új verzió (%s) elérhető\n"
+"Most szeretné telepíteni?Most szeretné telepíteni?Új verzió (%s) elérhető\n"
 "\n"
 "Változásnapló: %s\n"
 "\n"
@@ -1488,6 +1475,19 @@ msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
 
 msgid "← Frame"
 msgstr "← Keret"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "Nem érhetők el állomásadatok"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== HOLD RÉSZLETEK ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Szögátmérő: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Látszólagos nagyságrend: N/A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

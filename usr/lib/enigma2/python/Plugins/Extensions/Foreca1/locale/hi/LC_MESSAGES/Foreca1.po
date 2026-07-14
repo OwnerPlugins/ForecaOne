@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(अतिरिक्त डेटा उपलब्ध नहीं है)"
-
 msgid "0 - Today"
 msgstr "0 - आज"
 
@@ -48,9 +45,6 @@ msgstr "8 - आज + 8 दिन"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - आज + 9 दिन"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== चंद्रमा विवरण ==="
 
 msgid "API credentials not configured."
 msgstr "एपीआई क्रेडेंशियल कॉन्फ़िगर नहीं किया गया।"
@@ -88,15 +82,9 @@ msgstr "आयु: एन/ए"
 msgid "Angular diameter: N/A"
 msgstr "कोणीय व्यास: एन/ए"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "कोणीय व्यास: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "कोणीय व्यास: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "स्पष्ट परिमाण: एन/ए"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "स्पष्ट परिमाण: {:.2f}"
@@ -1465,6 +1453,7 @@ msgstr "• सीएच+/सीएच- 500 शहरों की छलां�
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• पसंदीदा 1\n के रूप में सहेजने के लिए हरा"
 "• पसंदीदा 1\n"
+" के रूप में सहेजने के लिए हरा• पसंदीदा 1\n"
 " के रूप में सहेजने के लिए हरा"
 
 msgid "• OK to select city\n"
@@ -1479,7 +1468,20 @@ msgstr "• नेविगेट करने के लिए तीर कु
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• पसंदीदा 2\n के रूप में सहेजने के लिए पीला"
 "• पसंदीदा 2\n"
+" के रूप में सहेजने के लिए पीला• पसंदीदा 2\n"
 " के रूप में सहेजने के लिए पीला"
 
 msgid "← Frame"
 msgstr "← फ़्रेम"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(अतिरिक्त डेटा उपलब्ध नहीं है)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== चंद्रमा विवरण ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "कोणीय व्यास: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "स्पष्ट परिमाण: एन/ए"

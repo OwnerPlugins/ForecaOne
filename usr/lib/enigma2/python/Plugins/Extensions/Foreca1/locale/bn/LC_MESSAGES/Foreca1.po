@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(অতিরিক্ত ডেটা উপলব্ধ নয়)"
-
 msgid "0 - Today"
 msgstr "0 - আজ"
 
@@ -48,9 +45,6 @@ msgstr "8 - আজ + 8 দিন"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - আজ + 9 দিন"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== চাঁদের বিবরণ ==="
 
 msgid "API credentials not configured."
 msgstr "API শংসাপত্রগুলি কনফিগার করা হয়নি৷"
@@ -88,15 +82,9 @@ msgstr "বয়স: N/A"
 msgid "Angular diameter: N/A"
 msgstr "কৌণিক ব্যাস: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "কৌণিক ব্যাস: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "কৌণিক ব্যাস: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "স্পষ্ট মাত্রা: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "স্পষ্ট মাত্রা: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• প্রিয় 2 হিসেবে সংরক্ষণ কর
 
 msgid "← Frame"
 msgstr "← ফ্রেম"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(অতিরিক্ত ডেটা উপলব্ধ নয়)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== চাঁদের বিবরণ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "কৌণিক ব্যাস: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "স্পষ্ট মাত্রা: N/A"

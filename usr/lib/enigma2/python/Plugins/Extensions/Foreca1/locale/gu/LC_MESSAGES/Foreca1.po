@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(વધારાની માહિતી ઉપલબ્ધ નથી)"
-
 msgid "0 - Today"
 msgstr "0 - આજે"
 
@@ -48,9 +45,6 @@ msgstr "8 - આજે + 8 દિવસ"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - આજે + 9 દિવસ"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ચંદ્રની વિગતો ==="
 
 msgid "API credentials not configured."
 msgstr "API ઓળખપત્રો ગોઠવેલ નથી."
@@ -88,15 +82,9 @@ msgstr "ઉંમર: N/A"
 msgid "Angular diameter: N/A"
 msgstr "કોણીય વ્યાસ: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "કોણીય વ્યાસ: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "કોણીય વ્યાસ: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "દેખીતી તીવ્રતા: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "દેખીતી તીવ્રતા: {:.2f}"
@@ -1465,6 +1453,7 @@ msgstr "• CH+/CH- 500 શહેરો જમ્પ કરવા\n"
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• મનપસંદ 1\n તરીકે સાચવવા માટે ગ્રીન"
 "• મનપસંદ 1\n"
+" તરીકે સાચવવા માટે ગ્રીન• મનપસંદ 1\n"
 " તરીકે સાચવવા માટે ગ્રીન"
 
 msgid "• OK to select city\n"
@@ -1481,3 +1470,15 @@ msgstr "• મનપસંદ 2 તરીકે સાચવવા માટે
 
 msgid "← Frame"
 msgstr "← ફ્રેમ"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(વધારાની માહિતી ઉપલબ્ધ નથી)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ચંદ્રની વિગતો ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "કોણીય વ્યાસ: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "દેખીતી તીવ્રતા: N/A"

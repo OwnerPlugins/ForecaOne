@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Dodatni podaci nisu dostupni)"
-
 msgid "0 - Today"
 msgstr "0 - Danas"
 
@@ -49,9 +46,6 @@ msgstr "8 - Danas + 8 dana"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Danas + 9 dana"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== DETALJI O MJESECU ==="
 
 msgid "API credentials not configured."
 msgstr "API vjerodajnice nisu konfigurirane."
@@ -89,15 +83,9 @@ msgstr "Dob: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Kutni promjer: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Kutni promjer: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Kutni promjer: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Prividna magnituda: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Prividna magnituda: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• ŽUTO za spremanje kao Favorit 2\n"
 
 msgid "← Frame"
 msgstr "← Okvir"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Dodatni podaci nisu dostupni)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== DETALJI O MJESECU ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Kutni promjer: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Prividna magnituda: N/A"

@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(נאָך דאַטן ניט בנימצא)"
-
 msgid "0 - Today"
 msgstr "0 - הייַנט"
 
@@ -48,9 +45,6 @@ msgstr "8 - הייַנט + 8 טעג"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - הייַנט + 9 טעג"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== לעוואָנע דעטאַילס ==="
 
 msgid "API credentials not configured."
 msgstr "API קראַדענטשאַלז ניט קאַנפיגיערד."
@@ -88,15 +82,9 @@ msgstr "עלטער: N/A"
 msgid "Angular diameter: N/A"
 msgstr "ווינקלדיק דיאַמעטער: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "ווינקלדיק דיאַמעטער: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "ווינקלדיק דיאַמעטער: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "קלאָר מאַגנאַטוד: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "קלאָר מאַגנאַטוד: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• געל צו ראַטעווען ווי באַליבסטע 2\n"
 
 msgid "← Frame"
 msgstr "← ראַם"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(נאָך דאַטן ניט בנימצא)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== לעוואָנע דעטאַילס ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "ווינקלדיק דיאַמעטער: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "קלאָר מאַגנאַטוד: N/A"

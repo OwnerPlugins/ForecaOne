@@ -11,9 +11,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-msgid "(Additional data not available)"
-msgstr "Dodatečná data nejsou k dispozici"
-
 msgid "0 - Today"
 msgstr "0 - Dnes"
 
@@ -43,9 +40,6 @@ msgstr "8 - Dnes + 8 dní"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Dnes + 9 dní"
-
-msgid "=== MOON DETAILS ==="
-msgstr "===  DETAILY MĚSÍCE ==="
 
 msgid "API credentials not configured."
 msgstr "Přihlašovací údaje API nejsou nakonfigurovány."
@@ -83,15 +77,9 @@ msgstr "VěkI: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Úhlový průměr: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Úhlový průměr:  {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Úhlový průměr:  {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Zdánlivá velikost: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Zdánlivá velikost: {:.2f}"
@@ -317,7 +305,7 @@ msgstr "Vzdálenost: {} km"
 
 msgid "Do you want to install it now?"
 msgstr "Chcete jej nainstalovat nyní?"
-"Chcete jej nainstalovat nyní?Nová verze %s k dispozici\n"
+"Chcete jej nainstalovat nyní?Chcete jej nainstalovat nyní?Nová verze %s k dispozici\n"
 "\n"
 "Seznam změn: %s\n"
 "\n"
@@ -1479,6 +1467,18 @@ msgstr "• ŽLUTÉ pro uložení jako Oblíbené 2\n"
 
 msgid "← Frame"
 msgstr "← Rámeček"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "Dodatečná data nejsou k dispozici"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "===  DETAILY MĚSÍCE ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Úhlový průměr:  {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Zdánlivá velikost: N/A"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

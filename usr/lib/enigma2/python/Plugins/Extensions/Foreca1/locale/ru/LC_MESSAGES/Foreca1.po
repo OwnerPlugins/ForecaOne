@@ -11,10 +11,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "Данные станции недоступны"
-
 msgid "0 - Today"
 msgstr "0 - Сегодня"
 
@@ -44,9 +40,6 @@ msgstr "8 - Сегодня + 8 дней"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Сегодня + 9 дней"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ДЕТАЛИ ЛУНЫ ==="
 
 msgid "API credentials not configured."
 msgstr "Учетные данные API не настроены."
@@ -87,15 +80,9 @@ msgstr "AQI: Н/Д"
 msgid "Angular diameter: N/A"
 msgstr "Угловой диаметр: Н/Д"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Угловой диаметр: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Угловой диаметр: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Видимая звездная величина: Н/Д"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Видимая звездная величина: {:.2f}"
@@ -321,7 +308,7 @@ msgstr "Расстояние: {} км"
 
 msgid "Do you want to install it now?"
 msgstr "Хотите установить его сейчас?"
-"Хотите установить его сейчас?Доступна новая версия %s\n"
+"Хотите установить его сейчас?Хотите установить его сейчас?Доступна новая версия %s\n"
 "\n"
 "Журнал изменений: %s\n"
 "\n"
@@ -1488,6 +1475,19 @@ msgstr "• ЖЁЛТАЯ — сохранить как Избранное 2\n"
 
 msgid "← Frame"
 msgstr "← Кадр"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "Данные станции недоступны"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ДЕТАЛИ ЛУНЫ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Угловой диаметр: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Видимая звездная величина: Н/Д"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

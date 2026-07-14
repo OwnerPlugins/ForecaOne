@@ -17,10 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "无可用站点数据"
-
 msgid "0 - Today"
 msgstr "0 - 今日"
 
@@ -50,9 +46,6 @@ msgstr "8 - 今天 + 8天"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - 今天 + 9天"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== 月球细节 ==="
 
 msgid "API credentials not configured."
 msgstr "API凭证未配置。"
@@ -93,15 +86,9 @@ msgstr "空气质量指数: 无"
 msgid "Angular diameter: N/A"
 msgstr "角直径：不适用"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "角直径：{:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "角直径：{:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "视星等：不适用"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "视星等：{:.2f}"
@@ -1496,6 +1483,19 @@ msgstr "• 黄色 保存为收藏2\n"
 
 msgid "← Frame"
 msgstr "← 帧"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "无可用站点数据"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== 月球细节 ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "角直径：{:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "视星等：不适用"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

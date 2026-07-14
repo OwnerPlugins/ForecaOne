@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Bykomende data nie beskikbaar nie)"
-
 msgid "0 - Today"
 msgstr "0 - Vandag"
 
@@ -48,9 +45,6 @@ msgstr "8 - Vandag + 8 dae"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Vandag + 9 dae"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== MAANBESONDERHEDE ==="
 
 msgid "API credentials not configured."
 msgstr "API-eiebewyse nie opgestel nie."
@@ -88,15 +82,9 @@ msgstr "Ouderdom: NVT"
 msgid "Angular diameter: N/A"
 msgstr "Hoek deursnee: NVT"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Hoek deursnee: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Hoek deursnee: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Skynbare grootte: NVT"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Skynbare grootte: {:.2f}"
@@ -1465,6 +1453,7 @@ msgstr "• CH+/CH- om 500 stede te spring\n"
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• GROEN om as gunsteling 1\n te stoor"
 "• GROEN om as gunsteling 1\n"
+" te stoor• GROEN om as gunsteling 1\n"
 " te stoor"
 
 msgid "• OK to select city\n"
@@ -1481,3 +1470,15 @@ msgstr "• GEEL om as gunsteling 2 te stoor\n"
 
 msgid "← Frame"
 msgstr "← Raam"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Bykomende data nie beskikbaar nie)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== MAANBESONDERHEDE ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Hoek deursnee: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Skynbare grootte: NVT"

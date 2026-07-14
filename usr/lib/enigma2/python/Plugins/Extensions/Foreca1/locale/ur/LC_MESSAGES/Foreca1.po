@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(اضافی ڈیٹا دستیاب نہیں ہے)"
-
 msgid "0 - Today"
 msgstr "0 - آج"
 
@@ -48,9 +45,6 @@ msgstr "8 - آج + 8 دن"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - آج + 9 دن"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== چاند کی تفصیلات ==="
 
 msgid "API credentials not configured."
 msgstr "API اسناد کنفیگر نہیں ہیں۔"
@@ -88,15 +82,9 @@ msgstr "عمر: N/A"
 msgid "Angular diameter: N/A"
 msgstr "کونیی قطر: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "کونیی قطر: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "کونیی قطر: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "ظاہری شدت: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ظاہری شدت: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• پسندیدہ کے طور پر محفوظ کرنے کے لیے پی
 
 msgid "← Frame"
 msgstr "← فریم"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(اضافی ڈیٹا دستیاب نہیں ہے)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== چاند کی تفصیلات ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "کونیی قطر: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "ظاہری شدت: N/A"

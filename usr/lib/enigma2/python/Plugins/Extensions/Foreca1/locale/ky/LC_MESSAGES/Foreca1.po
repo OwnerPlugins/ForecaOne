@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Кошумча маалымат жок)"
-
 msgid "0 - Today"
 msgstr "0 - Бүгүн"
 
@@ -48,9 +45,6 @@ msgstr "8 - Бүгүн + 8 күн"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Бүгүн + 9 күн"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== АЙ ЖӨНҮНДӨ ТАЛКУУЛАР ==="
 
 msgid "API credentials not configured."
 msgstr "API эсептик дайындары конфигурацияланган эмес."
@@ -88,15 +82,9 @@ msgstr "Жашы: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Бурчтук диаметри: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Бурчтук диаметри: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Бурчтук диаметри: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Көрүнүп турган чоңдук: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Көрүнгөн чоңдугу: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• Сүйүктүү 2 катары сактоо үчүн САРЫ.\n"
 
 msgid "← Frame"
 msgstr ""
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Кошумча маалымат жок)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== АЙ ЖӨНҮНДӨ ТАЛКУУЛАР ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Бурчтук диаметри: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Көрүнүп турган чоңдук: N/A"

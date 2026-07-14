@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Dodatni podatki niso na voljo)"
-
 msgid "0 - Today"
 msgstr "0 - Danes"
 
@@ -49,9 +46,6 @@ msgstr "8 - Danes + 8 dni"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Danes + 9 dni"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== PODROBNOSTI LUNE ==="
 
 msgid "API credentials not configured."
 msgstr "Poverilnice za API niso konfigurirane."
@@ -89,15 +83,9 @@ msgstr "Starost: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Kotni premer: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Kotni premer: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Kotni premer: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Navidezna magnituda: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Navidezna magnituda: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• RUMENA ​​za shranjevanje kot Priljubljena 2\n"
 
 msgid "← Frame"
 msgstr "← Okvir"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Dodatni podatki niso na voljo)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== PODROBNOSTI LUNE ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Kotni premer: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Navidezna magnituda: N/A"

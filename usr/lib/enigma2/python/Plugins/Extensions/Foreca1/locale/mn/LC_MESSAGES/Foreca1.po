@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Нэмэлт мэдээлэл байхгүй)"
-
 msgid "0 - Today"
 msgstr "0 - Өнөөдөр"
 
@@ -48,9 +45,6 @@ msgstr "8 - Өнөөдөр + 8 хоног"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Өнөөдөр + 9 хоног"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== САРЫН ДЭЛГЭРЭНГҮЙ ==="
 
 msgid "API credentials not configured."
 msgstr "API итгэмжлэлүүдийг тохируулаагүй байна."
@@ -88,15 +82,9 @@ msgstr "Нас: Үгүй"
 msgid "Angular diameter: N/A"
 msgstr "Өнцгийн диаметр: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Өнцгийн диаметр: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Өнцгийн диаметр: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Харагдах хэмжээ: Үгүй"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Харагдах хэмжээ: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• Дуртай 2 болгон хадгалахын тулд ШАР.\n"
 
 msgid "← Frame"
 msgstr "← Хүрээ"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Нэмэлт мэдээлэл байхгүй)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== САРЫН ДЭЛГЭРЭНГҮЙ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Өнцгийн диаметр: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Харагдах хэмжээ: Үгүй"

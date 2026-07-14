@@ -12,10 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-#, fuzzy
-msgid "(Additional data not available)"
-msgstr "没有可用的预测数据"
-
 msgid "0 - Today"
 msgstr "0-今日"
 
@@ -45,9 +41,6 @@ msgstr "8-今天+ 8天"
 
 msgid "9 - Today + 9 days"
 msgstr "9 -今天+ 9天"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== 月球细节 ==="
 
 msgid "API credentials not configured."
 msgstr "未配置 API 凭据."
@@ -88,15 +81,9 @@ msgstr "AQI ：不适用"
 msgid "Angular diameter: N/A"
 msgstr "角直径：不适用"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "角直径：{:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "角直径：{:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "视星等：不适用"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "视星等：{:.2f}"
@@ -255,7 +242,7 @@ msgstr "无法获取更新信息。"
 
 msgid "Could not initialize map API."
 msgstr "无法初始化地图 API。"
-"无法初始化地图 API。无法初始化地图API.\n"
+"无法初始化地图 API。无法初始化地图 API。无法初始化地图API.\n"
 "检查配置."
 
 msgid "Could not load forecast data"
@@ -1494,6 +1481,19 @@ msgstr "黄色-分配给收藏夹2\n"
 
 msgid "← Frame"
 msgstr "←框架"
+
+#, fuzzy
+#~ msgid "(Additional data not available)"
+#~ msgstr "没有可用的预测数据"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== 月球细节 ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "角直径：{:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "视星等：不适用"
 
 #, fuzzy
 #~ msgid "Foreca One Setup"

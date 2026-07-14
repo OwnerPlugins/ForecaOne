@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "(Additional data not available)"
-msgstr "(Няма налични допълнителни данни)"
-
 msgid "0 - Today"
 msgstr "0 - Днес"
 
@@ -49,9 +46,6 @@ msgstr "8 - Днес + 8 дни"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Днес + 9 дни"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ДЕТАЙЛИ ЗА ЛУНАТА ==="
 
 msgid "API credentials not configured."
 msgstr "Идентификационните данни за API не са конфигурирани."
@@ -89,15 +83,9 @@ msgstr "Възраст: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Ъглов диаметър: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Ъглов диаметър: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Ъглов диаметър: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Видима величина: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Видима величина: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• ЖЪЛТО за запазване като Любим 2\n"
 
 msgid "← Frame"
 msgstr "← Рамка"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Няма налични допълнителни данни)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ДЕТАЙЛИ ЗА ЛУНАТА ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Ъглов диаметър: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Видима величина: N/A"

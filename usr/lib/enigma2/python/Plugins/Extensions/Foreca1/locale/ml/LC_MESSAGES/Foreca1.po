@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(അധിക ഡാറ്റ ലഭ്യമല്ല)"
-
 msgid "0 - Today"
 msgstr "0 - ഇന്ന്"
 
@@ -48,9 +45,6 @@ msgstr "8 - ഇന്ന് + 8 ദിവസം"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ഇന്ന് + 9 ദിവസം"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== ചന്ദ്രൻ്റെ വിശദാംശങ്ങൾ ==="
 
 msgid "API credentials not configured."
 msgstr "API ക്രെഡൻഷ്യലുകൾ കോൺഫിഗർ ചെയ്തിട്ടില്ല."
@@ -88,15 +82,9 @@ msgstr "പ്രായം: N/A"
 msgid "Angular diameter: N/A"
 msgstr "കോണീയ വ്യാസം: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "കോണീയ വ്യാസം: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "കോണീയ വ്യാസം: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "ദൃശ്യകാന്തിമാനം: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ദൃശ്യകാന്തിമാനം: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• പ്രിയപ്പെട്ട 2 ആയി സംരക്ഷ�
 
 msgid "← Frame"
 msgstr "← ഫ്രെയിം"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(അധിക ഡാറ്റ ലഭ്യമല്ല)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== ചന്ദ്രൻ്റെ വിശദാംശങ്ങൾ ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "കോണീയ വ്യാസം: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "ദൃശ്യകാന്തിമാനം: N/A"

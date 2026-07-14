@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "(Additional data not available)"
-msgstr "(追加データはありません)"
-
 msgid "0 - Today"
 msgstr "0 - 今日"
 
@@ -49,9 +46,6 @@ msgstr "8 - 今日 + 8 日"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - 今日 + 9 日"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== 月の詳細 ==="
 
 msgid "API credentials not configured."
 msgstr "API 認証情報が構成されていません。"
@@ -89,15 +83,9 @@ msgstr "年齢: 該当なし"
 msgid "Angular diameter: N/A"
 msgstr "角直径: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "角直径: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "角直径: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "見かけの等級: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "見かけの等級: {:.2f}"
@@ -1480,3 +1468,15 @@ msgstr "• 黄色はお気に入り 2 として保存します\n"
 
 msgid "← Frame"
 msgstr "← フレーム"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(追加データはありません)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== 月の詳細 ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "角直径: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "見かけの等級: N/A"

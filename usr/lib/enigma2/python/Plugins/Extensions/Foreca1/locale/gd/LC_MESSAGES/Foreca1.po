@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Chan eil dàta a bharrachd ri fhaighinn)"
-
 msgid "0 - Today"
 msgstr "0 - An-diugh"
 
@@ -48,9 +45,6 @@ msgstr "8 - An-diugh + 8 làithean"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - An-diugh + 9 làithean"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== FIOSRACHADH GEALACH ==="
 
 msgid "API credentials not configured."
 msgstr "Chan eil teisteanasan API air an rèiteachadh."
@@ -88,15 +82,9 @@ msgstr "Aois: N/A"
 msgid "Angular diameter: N/A"
 msgstr "Trast-thomhas ceàrnach: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "Trast-thomhas ceàrnach: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "Trast-thomhas ceàrnach: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Meud follaiseach: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Meud follaiseach: {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• YELLOW a shàbhaladh mar an 2 as fheàrr leat\n"
 
 msgid "← Frame"
 msgstr "← Frèam"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(Chan eil dàta a bharrachd ri fhaighinn)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== FIOSRACHADH GEALACH ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "Trast-thomhas ceàrnach: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "Meud follaiseach: N/A"

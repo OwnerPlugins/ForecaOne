@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(ተጨማሪ መረጃ አይገኝም)"
-
 msgid "0 - Today"
 msgstr "0 - ዛሬ"
 
@@ -48,9 +45,6 @@ msgstr "8 - ዛሬ + 8 ቀናት"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ዛሬ + 9 ቀናት"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== የጨረቃ ዝርዝሮች ==="
 
 msgid "API credentials not configured."
 msgstr "የኤፒአይ ምስክርነቶች አልተዋቀሩም።"
@@ -88,15 +82,9 @@ msgstr "ዕድሜ፡ N/A"
 msgid "Angular diameter: N/A"
 msgstr "የማዕዘን ዲያሜትር፡ N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "የማዕዘን ዲያሜትር: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "የማዕዘን ዲያሜትር: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "የሚታየው መጠን፡ N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "የሚታየው መጠን፡ {:.2f}"
@@ -1479,3 +1467,15 @@ msgstr "• እንደ ተወዳጅ ለመቆጠብ ቢጫ 2\n"
 
 msgid "← Frame"
 msgstr "← ፍሬም"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(ተጨማሪ መረጃ አይገኝም)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== የጨረቃ ዝርዝሮች ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "የማዕዘን ዲያሜትር: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "የሚታየው መጠን፡ N/A"

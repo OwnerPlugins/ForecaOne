@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(అదనపు డేటా అందుబాటులో లేదు)"
-
 msgid "0 - Today"
 msgstr "0 - ఈరోజు"
 
@@ -48,9 +45,6 @@ msgstr "8 - ఈరోజు + 8 రోజులు"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ఈ రోజు + 9 రోజులు"
-
-msgid "=== MOON DETAILS ==="
-msgstr "=== చంద్రుని వివరాలు ==="
 
 msgid "API credentials not configured."
 msgstr "API ఆధారాలు కాన్ఫిగర్ చేయబడలేదు."
@@ -88,15 +82,9 @@ msgstr "వయస్సు: N/A"
 msgid "Angular diameter: N/A"
 msgstr "కోణీయ వ్యాసం: N/A"
 
-msgid "Angular diameter: {:.0f}"
-msgstr "కోణీయ వ్యాసం: {:.0f}"
-
 #, fuzzy
 msgid "Angular diameter: {:.0f}″"
 msgstr "కోణీయ వ్యాసం: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "స్పష్టమైన పరిమాణం: N/A"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "స్పష్టమైన పరిమాణం: {:.2f}"
@@ -1465,6 +1453,7 @@ msgstr "• CH+/CH- 500 నగరాలను అధిగమించడాన�
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• ఇష్టమైన 1\nగా సేవ్ చేయడానికి ఆకుపచ్చ"
 "• ఇష్టమైన 1\n"
+"గా సేవ్ చేయడానికి ఆకుపచ్చ• ఇష్టమైన 1\n"
 "గా సేవ్ చేయడానికి ఆకుపచ్చ"
 
 msgid "• OK to select city\n"
@@ -1479,7 +1468,20 @@ msgstr "• నావిగేట్ చేయడానికి బాణం �
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ఇష్టమైన 2\nగా సేవ్ చేయడానికి పసుపు"
 "• ఇష్టమైన 2\n"
+"గా సేవ్ చేయడానికి పసుపు• ఇష్టమైన 2\n"
 "గా సేవ్ చేయడానికి పసుపు"
 
 msgid "← Frame"
 msgstr "← ఫ్రేమ్"
+
+#~ msgid "(Additional data not available)"
+#~ msgstr "(అదనపు డేటా అందుబాటులో లేదు)"
+
+#~ msgid "=== MOON DETAILS ==="
+#~ msgstr "=== చంద్రుని వివరాలు ==="
+
+#~ msgid "Angular diameter: {:.0f}"
+#~ msgstr "కోణీయ వ్యాసం: {:.0f}"
+
+#~ msgid "Apparent magnitude: N/A"
+#~ msgstr "స్పష్టమైన పరిమాణం: N/A"
