@@ -71,6 +71,7 @@ from .unit_manager import UnitManager, UnitSettingsSimple
 from .weather_detail import WeatherDetailView
 from .MoonPhase import MoonPhase
 from .hour_detail import HourDetailView
+from .moon_details_screen import MoonDetailsScreen
 
 # Foreca One Weather Forecast for Enigma2
 # Copyright (C) 2026 @Lululla
@@ -2390,93 +2391,41 @@ class Foreca_Preview(Screen, HelpableScreen):
         return 50
 
     def show_moon_details(self):
-        # Use the date of the first entry in the list (if available)
         if self.f_date and len(self.f_date) > 0:
             try:
-                target_date = datetime.datetime.strptime(
-                    self.f_date[0], "%d.%m.%Y"
-                ).date()
+                target_date = datetime.datetime.strptime(self.f_date[0], "%d.%m.%Y").date()
             except ValueError:
                 target_date = datetime.date.today()
         else:
             target_date = datetime.date.today()
 
-        # Convert to datetime for functions
-        target_datetime = datetime.datetime(
-            target_date.year, target_date.month, target_date.day, 0, 0, 0)
+        target_datetime = datetime.datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0)
 
-        # Get base data
         info = self.moon.get_phase_info(target_datetime)
         phase_name = info.get("name", "N/A")
         illumination = info.get("illumination", 0)
         distance_km = info.get("distance", 0)
+        icon_path = info.get("icon_path")
 
-        # Get extra data (requires lat/lon)
         extra = {}
         if self.lat != 'N/A' and self.lon != 'N/A':
             try:
                 extra = self.moon.get_moon_extra_details(
-                    float(self.lat), float(self.lon), target_datetime)
+                    float(self.lat), float(self.lon), target_datetime
+                )
             except Exception as e:
                 print("[Moon] extra error:", e)
 
-        # Format message
-        lines = []
-        lines.append(_("=== MOON DETAILS ==="))
-        lines.append("")
-        lines.append(_("Date: {}").format(target_date.strftime('%d.%m.%Y')))
-        lines.append(_("Phase: {}").format(_(phase_name)))
-        lines.append(_("Illumination: {:.1f}%").format(illumination))
-        lines.append(_("Distance: {} km").format(distance_km))
-        lines.append("")
+        data = {
+            'phase_name': phase_name,
+            'illumination': illumination,
+            'distance': int(round(distance_km)),
+            'moonrise': self["moonrise_value"].getText() if "moonrise_value" in self else "N/A",
+            'moonset': self["moonset_value"].getText() if "moonset_value" in self else "N/A",
+            'extra': extra,
+        }
 
-        if extra:
-            # Use the already correct values from the main screen widgets
-            moonrise_widget = self["moonrise_value"].getText(
-            ) if "moonrise_value" in self else "N/A"
-            moonset_widget = self["moonset_value"].getText(
-            ) if "moonset_value" in self else "N/A"
-
-            lines.append(_("Moonrise: {}").format(moonrise_widget))
-            lines.append(_("Moonset: {}").format(moonset_widget))
-
-            lines.append(
-                _("Rise azimuth: {:.0f}°").format(extra.get('rise_azimuth'))
-                if extra.get('rise_azimuth') is not None else _("Rise azimuth: N/A")
-            )
-            lines.append(
-                _("Set azimuth: {:.0f}°").format(extra.get('set_azimuth'))
-                if extra.get('set_azimuth') is not None else _("Set azimuth: N/A")
-            )
-
-            lines.append(
-                _("Transit (culmination): {}").format(
-                    extra.get(
-                        'transit_time',
-                        'N/A')))
-            lines.append(
-                _("Transit altitude: {:.0f}°").format(extra.get('transit_altitude'))
-                if extra.get('transit_altitude') is not None else _("Transit altitude: N/A")
-            )
-
-            lines.append(
-                _("Apparent magnitude: {:.2f}").format(extra.get('magnitude'))
-                if extra.get('magnitude') is not None else _("Apparent magnitude: N/A")
-            )
-            lines.append(
-                (_("Angular diameter: {:.0f}") + "\"").format(extra.get('angular_diameter'))
-                if extra.get('angular_diameter') is not None else _("Angular diameter: N/A")
-            )
-
-            lines.append(
-                _("Age since New Moon: {:.1f} days").format(extra.get('age'))
-                if extra.get('age') is not None else _("Age: N/A")
-            )
-        else:
-            lines.append(_("(Additional data not available)"))
-
-        message = "\n".join(lines)
-        self.session.open(MessageBox, message, MessageBox.TYPE_INFO)
+        self.session.open(MoonDetailsScreen, icon_path, data)
 
     def open_foreca_api_maps(self, callback=None):
         if not exists(CONFIG_FILE):
