@@ -90,6 +90,10 @@ msgstr "Uhlový priemer: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Uhlový priemer: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Uhlový priemer: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Zdanlivá magnitúda: N/A"
 
@@ -317,7 +321,7 @@ msgstr "Vzdialenosť: {} km"
 
 msgid "Do you want to install it now?"
 msgstr "Chcete ho nainštalovať teraz?"
-"Nová verzia %s je k dispozícii\n"
+"Chcete ho nainštalovať teraz?Nová verzia %s je k dispozícii\n"
 "\n"
 "Zoznam zmien: %s\n"
 "\n"
@@ -663,6 +667,10 @@ msgstr "Fázy Mesiaca od budúceho mesiaca"
 msgid "Luxembourg"
 msgstr "Luxembursko"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Zdanlivá magnitúda: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Mapa a dlaždice načítané"
 
@@ -716,6 +724,10 @@ msgstr "Mierny dážď"
 
 msgid "Month"
 msgstr "Mesiac"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Podrobnosti o hodine"
 
 #, fuzzy
 msgid "Moon details"

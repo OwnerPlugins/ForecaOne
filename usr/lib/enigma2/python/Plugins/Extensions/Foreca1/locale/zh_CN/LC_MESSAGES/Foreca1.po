@@ -91,6 +91,10 @@ msgstr "角直径：不适用"
 msgid "Angular diameter: {:.0f}"
 msgstr "角直径：{:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "角直径：{:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "视星等：不适用"
 
@@ -251,7 +255,7 @@ msgstr "无法获取更新信息。"
 
 msgid "Could not initialize map API."
 msgstr "无法初始化地图 API。"
-"无法初始化地图API.\n"
+"无法初始化地图 API。无法初始化地图API.\n"
 "检查配置."
 
 msgid "Could not load forecast data"
@@ -665,6 +669,10 @@ msgstr "下个月的月相"
 msgid "Luxembourg"
 msgstr "卢森堡"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "视星等：不适用"
+
 msgid "Map & Tiles Loaded"
 msgstr "已加载地图图块"
 
@@ -718,6 +726,10 @@ msgstr "中雨"
 
 msgid "Month"
 msgstr "月"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "小时详情"
 
 #, fuzzy
 msgid "Moon details"

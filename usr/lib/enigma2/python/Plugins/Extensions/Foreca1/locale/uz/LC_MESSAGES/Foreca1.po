@@ -91,6 +91,10 @@ msgstr "Burchak diametri: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Burchak diametri: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Burchak diametri: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Koʻrinib turgan kattalik: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Keyingi oydan boshlab oy fazalari"
 msgid "Luxembourg"
 msgstr "Lyuksemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Koʻrinib turgan kattalik: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Xarita va plitkalar yuklandi"
 
@@ -711,6 +719,10 @@ msgstr "Oʻrtacha yomgʻir"
 
 msgid "Month"
 msgstr "Oy"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Oy tafsilotlari"
 
 msgid "Moon details"
 msgstr "Oy tafsilotlari"

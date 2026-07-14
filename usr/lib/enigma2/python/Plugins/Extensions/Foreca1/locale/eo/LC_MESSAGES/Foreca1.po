@@ -92,6 +92,10 @@ msgstr "Angula diametro: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Angula diametro: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Angula diametro: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Ŝajna grandeco: N/A"
 
@@ -659,6 +663,10 @@ msgstr "Lunaj fazoj de la venonta monato"
 msgid "Luxembourg"
 msgstr "Luksemburgio"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Ŝajna grandeco: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Mapo kaj Kaheloj Ŝargitaj"
 
@@ -712,6 +720,10 @@ msgstr "Modera pluvo"
 
 msgid "Month"
 msgstr "Monato"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Luno detaloj"
 
 msgid "Moon details"
 msgstr "Luno detaloj"

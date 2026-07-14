@@ -92,6 +92,10 @@ msgstr "Nurga läbimõõt: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Nurga läbimõõt: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Nurga läbimõõt: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Näiv suurusjärk: puudub"
 
@@ -659,6 +663,10 @@ msgstr "Kuufaasid järgmisest kuust"
 msgid "Luxembourg"
 msgstr "Luksemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Näiv suurusjärk: puudub"
+
 msgid "Map & Tiles Loaded"
 msgstr "Kaart ja plaadid laaditud"
 
@@ -712,6 +720,10 @@ msgstr "Mõõdukas vihmasadu"
 
 msgid "Month"
 msgstr "Kuu"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Kuu üksikasjad"
 
 msgid "Moon details"
 msgstr "Kuu üksikasjad"

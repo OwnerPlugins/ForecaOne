@@ -93,6 +93,9 @@ msgstr ""
 msgid "Angular diameter: {:.0f}"
 msgstr ""
 
+msgid "Angular diameter: {:.0f}″"
+msgstr ""
+
 msgid "Apparent magnitude: N/A"
 msgstr ""
 
@@ -707,6 +710,10 @@ msgstr ""
 msgid "Luxembourg"
 msgstr ""
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Wind"
+
 msgid "Map & Tiles Loaded"
 msgstr ""
 
@@ -763,6 +770,10 @@ msgstr "Foreca 4"
 
 msgid "Month"
 msgstr ""
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Green - Favorite 1"
 
 #, fuzzy
 msgid "Moon details"

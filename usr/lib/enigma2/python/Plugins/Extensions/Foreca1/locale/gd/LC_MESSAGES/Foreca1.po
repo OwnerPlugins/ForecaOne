@@ -91,6 +91,10 @@ msgstr "Trast-thomhas ceàrnach: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Trast-thomhas ceàrnach: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Trast-thomhas ceàrnach: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Meud follaiseach: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Ìrean gealaich bhon ath mhìos"
 msgid "Luxembourg"
 msgstr "Lugsamburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Meud follaiseach: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Mapa & leacan air an luchdachadh"
 
@@ -711,6 +719,10 @@ msgstr "Uisge meadhanach"
 
 msgid "Month"
 msgstr "Mìos"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Mion-fhiosrachadh gealach"
 
 msgid "Moon details"
 msgstr "Mion-fhiosrachadh gealach"

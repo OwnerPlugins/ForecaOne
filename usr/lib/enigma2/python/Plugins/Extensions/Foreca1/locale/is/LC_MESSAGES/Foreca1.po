@@ -91,6 +91,10 @@ msgstr "Hornþvermál: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Hornþvermál: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Hornþvermál: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Sýnileg stærð: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Tunglfasa frá og með næsta mánuði"
 msgid "Luxembourg"
 msgstr "Lúxemborg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Sýnileg stærð: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Kort og flísar hlaðnar"
 
@@ -711,6 +719,10 @@ msgstr "Hæfileg rigning"
 
 msgid "Month"
 msgstr "Mánuður"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Tungl smáatriði"
 
 msgid "Moon details"
 msgstr "Tungl smáatriði"

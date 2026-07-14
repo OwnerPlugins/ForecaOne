@@ -91,6 +91,10 @@ msgstr "ווינקלדיק דיאַמעטער: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "ווינקלדיק דיאַמעטער: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "ווינקלדיק דיאַמעטער: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "קלאָר מאַגנאַטוד: N/A"
 
@@ -658,6 +662,10 @@ msgstr "לונער פייזאַז פון ווייַטער חודש"
 msgid "Luxembourg"
 msgstr "לוקסעמבאָורג"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "קלאָר מאַגנאַטוד: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "מאַפּע & טילעס לאָודיד"
 
@@ -711,6 +719,10 @@ msgstr "מעסיק רעגן"
 
 msgid "Month"
 msgstr "חודש"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "לבנה פרטים"
 
 msgid "Moon details"
 msgstr "לבנה פרטים"

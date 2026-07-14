@@ -92,6 +92,10 @@ msgstr "Kutni promjer: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Kutni promjer: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kutni promjer: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Prividna magnituda: N/A"
 
@@ -659,6 +663,10 @@ msgstr "Mjesečeve mijene od sljedećeg mjeseca"
 msgid "Luxembourg"
 msgstr "Luksemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Prividna magnituda: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Karta i ploče su učitane"
 
@@ -712,6 +720,10 @@ msgstr "Umjerena kiša"
 
 msgid "Month"
 msgstr "Mjesec"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Detalji o mjesecu"
 
 msgid "Moon details"
 msgstr "Detalji o mjesecu"

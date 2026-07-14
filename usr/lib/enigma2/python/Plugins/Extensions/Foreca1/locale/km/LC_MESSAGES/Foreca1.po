@@ -91,6 +91,10 @@ msgstr "អង្កត់ផ្ចិតជ្រុង៖ N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "អង្កត់ផ្ចិតជ្រុង៖ {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "អង្កត់ផ្ចិតជ្រុង៖ {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ទំហំជាក់ស្តែង៖ N/A"
 
@@ -658,6 +662,10 @@ msgstr "ដំណាក់កាលតាមច័ន្ទគតិចាប់
 msgid "Luxembourg"
 msgstr "លុចសំបួរ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ទំហំជាក់ស្តែង៖ N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "បានផ្ទុកផែនទី និងក្រឡា"
 
@@ -711,6 +719,10 @@ msgstr "ភ្លៀងល្មម"
 
 msgid "Month"
 msgstr "ខែ"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "ព័ត៌មានលម្អិតអំពីព្រះច័ន្ទ"
 
 msgid "Moon details"
 msgstr "ព័ត៌មានលម្អិតអំពីព្រះច័ន្ទ"

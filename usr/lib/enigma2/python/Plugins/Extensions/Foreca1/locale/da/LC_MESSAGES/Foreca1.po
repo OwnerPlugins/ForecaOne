@@ -92,6 +92,10 @@ msgstr "Vinkeldiameter: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Vinkeldiameter: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Vinkeldiameter: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Tilsyneladende størrelse: N/A"
 
@@ -659,6 +663,10 @@ msgstr "Månefaser fra næste måned"
 msgid "Luxembourg"
 msgstr ""
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Tilsyneladende størrelse: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Kort og fliser er indlæst"
 
@@ -712,6 +720,10 @@ msgstr "Moderat regn"
 
 msgid "Month"
 msgstr "Måned"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Måne detaljer"
 
 msgid "Moon details"
 msgstr "Måne detaljer"

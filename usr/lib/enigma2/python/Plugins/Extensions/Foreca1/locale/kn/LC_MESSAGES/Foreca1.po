@@ -91,6 +91,10 @@ msgstr "ಕೋನೀಯ ವ್ಯಾಸ: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "ಕೋನೀಯ ವ್ಯಾಸ: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "ಕೋನೀಯ ವ್ಯಾಸ: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ಗೋಚರ ಪ್ರಮಾಣ: N/A"
 
@@ -658,6 +662,10 @@ msgstr "ಮುಂದಿನ ತಿಂಗಳಿನಿಂದ ಚಂದ್ರನ ಹ
 msgid "Luxembourg"
 msgstr "ಲಕ್ಸೆಂಬರ್ಗ್"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ಗೋಚರ ಪ್ರಮಾಣ: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "ನಕ್ಷೆ ಮತ್ತು ಟೈಲ್ಸ್ ಲೋಡ್ ಮಾಡಲಾಗಿದೆ"
 
@@ -711,6 +719,10 @@ msgstr "ಸಾಧಾರಣ ಮಳೆ"
 
 msgid "Month"
 msgstr "ತಿಂಗಳು"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "ಚಂದ್ರನ ವಿವರಗಳು"
 
 msgid "Moon details"
 msgstr "ಚಂದ್ರನ ವಿವರಗಳು"
@@ -1452,6 +1464,8 @@ msgstr "• CH+/CH- 500 ನಗರಗಳನ್ನು ನೆಗೆಯಲು\n"
 
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• ಮೆಚ್ಚಿನ 1\n ಆಗಿ ಉಳಿಸಲು ಹಸಿರು"
+"• ಮೆಚ್ಚಿನ 1\n"
+" ಆಗಿ ಉಳಿಸಲು ಹಸಿರು"
 
 msgid "• OK to select city\n"
 msgstr "• ನಗರವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಸರಿ\n"
@@ -1464,6 +1478,8 @@ msgstr "• ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಬಾಣದ ಕೀ�
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ಮೆಚ್ಚಿನ 2\n ಆಗಿ ಉಳಿಸಲು ಹಳದಿ"
+"• ಮೆಚ್ಚಿನ 2\n"
+" ಆಗಿ ಉಳಿಸಲು ಹಳದಿ"
 
 msgid "← Frame"
 msgstr "← ಫ್ರೇಮ್"

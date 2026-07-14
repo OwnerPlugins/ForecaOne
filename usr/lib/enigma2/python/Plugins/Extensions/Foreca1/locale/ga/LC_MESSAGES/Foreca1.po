@@ -92,6 +92,10 @@ msgstr "Trastomhas uilleach: N/B"
 msgid "Angular diameter: {:.0f}"
 msgstr "Trastomhas uilleach: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Trastomhas uilleach: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Méid dealraitheach: N/B"
 
@@ -291,7 +295,7 @@ msgid "Details"
 msgstr "Sonraí"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Screamhphointe {}"
 
 msgid "Dewpoint {}°C"
 msgstr "Screamhphointe {}°C"
@@ -659,6 +663,10 @@ msgstr "Céimeanna gealaí ón mhí seo chugainn"
 msgid "Luxembourg"
 msgstr "Lucsamburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Méid dealraitheach: N/B"
+
 msgid "Map & Tiles Loaded"
 msgstr "Léarscáil & Tíleanna Luchtaithe"
 
@@ -712,6 +720,10 @@ msgstr "Báisteach measartha"
 
 msgid "Month"
 msgstr "Mí"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Sonraí gealach"
 
 msgid "Moon details"
 msgstr "Sonraí gealach"
@@ -1455,7 +1467,9 @@ msgid "• GREEN to save as Favorite 1\n"
 msgstr "• GLAS le sábháil mar an 1 is fearr leat"
 
 msgid "• OK to select city\n"
-msgstr "• Ceart go leor cathair\n a roghnú"
+msgstr "• Ceart go leor chun cathair\n a roghnú"
+"• Ceart go leor cathair\n"
+" a roghnú"
 
 msgid "• RED to open search keyboard\n"
 msgstr "• RED chun an méarchlár cuardaigh a oscailt\n"

@@ -91,6 +91,10 @@ msgstr "زاویه قطر: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "زاویه قطر: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "زاویه قطر: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ښکاره اندازه: N/A"
 
@@ -658,6 +662,10 @@ msgstr "د راتلونکي میاشت څخه د قمري مرحلې"
 msgid "Luxembourg"
 msgstr "لوګزامبورګ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ښکاره اندازه: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "نقشه او ټایلونه بار شوي"
 
@@ -711,6 +719,10 @@ msgstr "معتدل باران"
 
 msgid "Month"
 msgstr "میاشت"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "د سپوږمۍ توضیحات"
 
 msgid "Moon details"
 msgstr "د سپوږمۍ توضیحات"

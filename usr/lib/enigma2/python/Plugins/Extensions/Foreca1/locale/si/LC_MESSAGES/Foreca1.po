@@ -91,6 +91,10 @@ msgstr "කෝණික විෂ්කම්භය: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "කෝණික විෂ්කම්භය: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "කෝණික විෂ්කම්භය: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "පෙනෙන විශාලත්වය: N/A"
 
@@ -658,6 +662,10 @@ msgstr "ලබන මාසයේ සිට චන්ද්ර අදියර"
 msgid "Luxembourg"
 msgstr "ලක්සම්බර්ග්"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "පෙනෙන විශාලත්වය: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "සිතියම සහ ටයිල් පටවා ඇත"
 
@@ -711,6 +719,10 @@ msgstr "මධ්‍යස්ථ වැසි"
 
 msgid "Month"
 msgstr "මාසය"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "සඳ විස්තර"
 
 msgid "Moon details"
 msgstr "සඳ විස්තර"

@@ -92,6 +92,10 @@ msgstr "角直径: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "角直径: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "角直径: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "見かけの等級: N/A"
 
@@ -659,6 +663,10 @@ msgstr "来月からの月の満ち欠け"
 msgid "Luxembourg"
 msgstr "ルクセンブルク"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "見かけの等級: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "マップとタイルがロードされました"
 
@@ -712,6 +720,10 @@ msgstr "中程度の雨"
 
 msgid "Month"
 msgstr "月"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "月の詳細"
 
 msgid "Moon details"
 msgstr "月の詳細"

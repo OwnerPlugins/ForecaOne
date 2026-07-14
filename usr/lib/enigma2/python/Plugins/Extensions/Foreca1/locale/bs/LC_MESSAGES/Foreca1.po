@@ -91,6 +91,10 @@ msgstr "Ugaoni prečnik: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Ugaoni prečnik: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Ugaoni prečnik: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Prividna magnituda: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Lunarne faze od sledećeg meseca"
 msgid "Luxembourg"
 msgstr "Luksemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Prividna magnituda: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr ""
 
@@ -711,6 +719,10 @@ msgstr "Umjerena kiša"
 
 msgid "Month"
 msgstr "Mjesec"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Detalji o mjesecu"
 
 msgid "Moon details"
 msgstr "Detalji o mjesecu"

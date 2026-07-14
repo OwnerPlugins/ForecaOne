@@ -91,6 +91,10 @@ msgstr "কৌণিক ব্যাস: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "কৌণিক ব্যাস: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "কৌণিক ব্যাস: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "স্পষ্ট মাত্রা: N/A"
 
@@ -658,6 +662,10 @@ msgstr "আগামী মাস থেকে চন্দ্র পর্ব"
 msgid "Luxembourg"
 msgstr "লুক্সেমবার্গ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "স্পষ্ট মাত্রা: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "মানচিত্র এবং টাইলস লোড হয়েছে"
 
@@ -711,6 +719,10 @@ msgstr "মাঝারি বৃষ্টি"
 
 msgid "Month"
 msgstr "মাস"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "চাঁদের বিবরণ"
 
 msgid "Moon details"
 msgstr "চাঁদের বিবরণ"

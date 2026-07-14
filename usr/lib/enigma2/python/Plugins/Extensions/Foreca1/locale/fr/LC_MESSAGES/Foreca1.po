@@ -97,6 +97,10 @@ msgstr "Diamètre angulaire : N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Diamètre angulaire : {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diamètre angulaire : {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Magnitude apparente : N/A"
 
@@ -669,6 +673,10 @@ msgstr "Phases lunaires à partir du mois prochain"
 msgid "Luxembourg"
 msgstr "Luxembourg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Magnitude apparente : N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Carte et tuiles chargées"
 
@@ -722,6 +730,10 @@ msgstr "Pluie modérée"
 
 msgid "Month"
 msgstr "Mois"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Détails horaires"
 
 #, fuzzy
 msgid "Moon details"

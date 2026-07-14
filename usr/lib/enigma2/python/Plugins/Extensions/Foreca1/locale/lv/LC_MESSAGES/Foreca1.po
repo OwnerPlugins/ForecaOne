@@ -92,6 +92,10 @@ msgstr "Leņķiskais diametrs: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Leņķiskais diametrs: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Leņķiskais diametrs: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Šķietamais lielums: N/A"
 
@@ -659,6 +663,10 @@ msgstr "Mēness fāzes no nākamā mēneša"
 msgid "Luxembourg"
 msgstr "Luksemburga"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Šķietamais lielums: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Karte un flīzes ir ielādētas"
 
@@ -712,6 +720,10 @@ msgstr "Mērens lietus"
 
 msgid "Month"
 msgstr "Mēnesis"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Mēness detaļas"
 
 msgid "Moon details"
 msgstr "Mēness detaļas"

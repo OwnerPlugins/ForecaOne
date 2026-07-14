@@ -91,6 +91,10 @@ msgstr "Аголен дијаметар: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Аголен дијаметар: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Аголен дијаметар: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Привидна магнитуда: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Месечеви фази од следниот месец"
 msgid "Luxembourg"
 msgstr "Луксембург"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Привидна магнитуда: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Картата и плочките се вчитани"
 
@@ -711,6 +719,10 @@ msgstr "Умерен дожд"
 
 msgid "Month"
 msgstr "Месец"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Детали за месечината"
 
 msgid "Moon details"
 msgstr "Детали за месечината"

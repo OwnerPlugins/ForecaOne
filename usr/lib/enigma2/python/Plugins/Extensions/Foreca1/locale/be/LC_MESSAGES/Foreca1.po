@@ -97,6 +97,10 @@ msgstr "Кутні дыяметр: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Вуглавы дыяметр: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Вуглавы дыяметр: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Бачная зорная велічыня: N/A"
 
@@ -669,6 +673,10 @@ msgstr "Фазы Месяца з наступнага месяца"
 msgid "Luxembourg"
 msgstr "Люксембург"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Бачная зорная велічыня: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Карта і пліткі загружаны"
 
@@ -722,6 +730,10 @@ msgstr "Умераны дождж"
 
 msgid "Month"
 msgstr "Месяц"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Дэталі гадзіны"
 
 #, fuzzy
 msgid "Moon details"

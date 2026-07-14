@@ -91,6 +91,10 @@ msgstr "Hoekdiameter: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Hoekdiameter: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Hoekdiameter: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Skynbere grutte: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Lunar fazen fan takom moanne"
 msgid "Luxembourg"
 msgstr "Lúksemboarch"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Skynbere grutte: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Kaart & tegels laden"
 
@@ -711,6 +719,10 @@ msgstr "Matige rein"
 
 msgid "Month"
 msgstr "Moanne"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Oere Details"
 
 msgid "Moon details"
 msgstr ""

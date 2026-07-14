@@ -97,6 +97,10 @@ msgstr "Açısal çap: Yok"
 msgid "Angular diameter: {:.0f}"
 msgstr "Açısal çap: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Açısal çap: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Görünen büyüklük: Yok"
 
@@ -669,6 +673,10 @@ msgstr "Gelecek aydan itibaren ay evreleri"
 msgid "Luxembourg"
 msgstr "Lüksemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Görünen büyüklük: Yok"
+
 msgid "Map & Tiles Loaded"
 msgstr "Harita ve Parçalar Yüklendi"
 
@@ -722,6 +730,10 @@ msgstr "Orta şiddetli yağmur"
 
 msgid "Month"
 msgstr "Ay"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Saat Detayları"
 
 #, fuzzy
 msgid "Moon details"

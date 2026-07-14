@@ -91,6 +91,10 @@ msgstr "کونیی قطر: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "کونیی قطر: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "کونیی قطر: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ظاہری شدت: N/A"
 
@@ -658,6 +662,10 @@ msgstr "اگلے مہینے سے قمری مراحل"
 msgid "Luxembourg"
 msgstr "لکسمبرگ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ظاہری شدت: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "نقشہ اور ٹائلیں بھری ہوئی ہیں۔"
 
@@ -711,6 +719,10 @@ msgstr "درمیانی بارش"
 
 msgid "Month"
 msgstr "مہینہ"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "چاند کی تفصیلات"
 
 msgid "Moon details"
 msgstr "چاند کی تفصیلات"

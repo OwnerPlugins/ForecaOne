@@ -91,6 +91,10 @@ msgstr "கோண விட்டம்: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "கோண விட்டம்: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "கோண விட்டம்: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "வெளிப்படையான அளவு: N/A"
 
@@ -658,6 +662,10 @@ msgstr "அடுத்த மாதம் முதல் சந்திரா
 msgid "Luxembourg"
 msgstr "லக்சம்பர்க்"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "வெளிப்படையான அளவு: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "வரைபடம் & டைல்ஸ் ஏற்றப்பட்டது"
 
@@ -711,6 +719,10 @@ msgstr "மிதமான மழை"
 
 msgid "Month"
 msgstr "மாதம்"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "சந்திரனின் விவரங்கள்"
 
 msgid "Moon details"
 msgstr "சந்திரனின் விவரங்கள்"

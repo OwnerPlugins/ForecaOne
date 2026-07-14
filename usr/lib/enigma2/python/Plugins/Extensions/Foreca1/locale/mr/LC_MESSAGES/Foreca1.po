@@ -91,6 +91,10 @@ msgstr "कोनीय व्यास: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "कोनीय व्यास: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "कोनीय व्यास: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "स्पष्ट परिमाण: N/A"
 
@@ -658,6 +662,10 @@ msgstr "पुढील महिन्यापासून चंद्रा�
 msgid "Luxembourg"
 msgstr "लक्झेंबर्ग"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "स्पष्ट परिमाण: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "नकाशा आणि फरशा लोड केल्या"
 
@@ -711,6 +719,10 @@ msgstr "मध्यम पाऊस"
 
 msgid "Month"
 msgstr "महिना"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "चंद्र तपशील"
 
 msgid "Moon details"
 msgstr "चंद्र तपशील"

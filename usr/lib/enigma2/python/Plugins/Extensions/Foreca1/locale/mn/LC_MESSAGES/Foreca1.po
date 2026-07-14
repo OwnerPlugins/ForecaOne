@@ -91,6 +91,10 @@ msgstr "Өнцгийн диаметр: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Өнцгийн диаметр: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Өнцгийн диаметр: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Харагдах хэмжээ: Үгүй"
 
@@ -658,6 +662,10 @@ msgstr "Ирэх сараас сарны үе шатууд"
 msgid "Luxembourg"
 msgstr "Люксембург"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Харагдах хэмжээ: Үгүй"
+
 msgid "Map & Tiles Loaded"
 msgstr "Газрын зураг, хавтан ачаалагдсан"
 
@@ -711,6 +719,10 @@ msgstr "Дунд зэргийн бороо"
 
 msgid "Month"
 msgstr "Сар"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Сарны дэлгэрэнгүй мэдээлэл"
 
 msgid "Moon details"
 msgstr "Сарны дэлгэрэнгүй мэдээлэл"

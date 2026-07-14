@@ -96,6 +96,10 @@ msgstr "القطر الزاوي: غير متوفر"
 msgid "Angular diameter: {:.0f}"
 msgstr "القطر الزاوي: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "القطر الزاوي: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "الحجم الظاهري: N / A"
 
@@ -668,6 +672,10 @@ msgstr "أطوار القمر من الشهر القادم"
 msgid "Luxembourg"
 msgstr "لوكسمبورغ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "الحجم الظاهري: N / A"
+
 msgid "Map & Tiles Loaded"
 msgstr "تم تحميل الخريطة والبلاط"
 
@@ -721,6 +729,10 @@ msgstr "أمطار معتدلة"
 
 msgid "Month"
 msgstr "الشهر"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "تفاصيل الساعة"
 
 #, fuzzy
 msgid "Moon details"

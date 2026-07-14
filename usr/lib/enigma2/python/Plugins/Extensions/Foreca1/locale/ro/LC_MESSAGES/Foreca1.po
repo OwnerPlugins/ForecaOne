@@ -97,6 +97,10 @@ msgstr "Diametru unghiular: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Diametru unghiular: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diametru unghiular: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Mărimea aparentă: N/A"
 
@@ -669,6 +673,10 @@ msgstr "Fazele lunii de luna viitoare"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Mărimea aparentă: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Harta și tile-urile au fost încărcate"
 
@@ -722,6 +730,10 @@ msgstr "Ploaie moderată"
 
 msgid "Month"
 msgstr "Lună"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Detalii orare"
 
 #, fuzzy
 msgid "Moon details"

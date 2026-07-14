@@ -97,6 +97,10 @@ msgstr "Угаони пречник: Н/А"
 msgid "Angular diameter: {:.0f}"
 msgstr "Угаони пречник: {:.0ф}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Угаони пречник: {:.0ф}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Привидна величина: Н/А"
 
@@ -669,6 +673,10 @@ msgstr "Месечеве фазе од следећег месеца"
 msgid "Luxembourg"
 msgstr "Луксембург"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Привидна величина: Н/А"
+
 msgid "Map & Tiles Loaded"
 msgstr "Мапа и плочице учитане"
 
@@ -722,6 +730,10 @@ msgstr "Умерена киша"
 
 msgid "Month"
 msgstr "Месец"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Детаљи по сату"
 
 #, fuzzy
 msgid "Moon details"

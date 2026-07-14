@@ -91,6 +91,10 @@ msgstr "Diamedr onglog: Amh"
 msgid "Angular diameter: {:.0f}"
 msgstr "Diamedr onglog: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diamedr onglog: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Maint ymddangosiadol: Amh"
 
@@ -658,6 +662,10 @@ msgstr "Cyfnodau lleuad o'r mis nesaf"
 msgid "Luxembourg"
 msgstr "Lwcsembwrg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Maint ymddangosiadol: Amh"
+
 msgid "Map & Tiles Loaded"
 msgstr "Map a Theils wedi'u Llwytho"
 
@@ -711,6 +719,10 @@ msgstr "Glaw cymedrol"
 
 msgid "Month"
 msgstr "Mis"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Manylion y lleuad"
 
 msgid "Moon details"
 msgstr "Manylion y lleuad"

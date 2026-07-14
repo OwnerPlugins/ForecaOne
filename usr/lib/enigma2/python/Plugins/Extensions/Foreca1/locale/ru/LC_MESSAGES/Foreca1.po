@@ -90,6 +90,10 @@ msgstr "Угловой диаметр: Н/Д"
 msgid "Angular diameter: {:.0f}"
 msgstr "Угловой диаметр: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Угловой диаметр: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Видимая звездная величина: Н/Д"
 
@@ -317,7 +321,7 @@ msgstr "Расстояние: {} км"
 
 msgid "Do you want to install it now?"
 msgstr "Хотите установить его сейчас?"
-"Доступна новая версия %s\n"
+"Хотите установить его сейчас?Доступна новая версия %s\n"
 "\n"
 "Журнал изменений: %s\n"
 "\n"
@@ -663,6 +667,10 @@ msgstr "Лунные фазы со следующего месяца"
 msgid "Luxembourg"
 msgstr "Люксембург"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Видимая звездная величина: Н/Д"
+
 msgid "Map & Tiles Loaded"
 msgstr "Карта и тайлы загружены"
 
@@ -716,6 +724,10 @@ msgstr "Умеренный дождь"
 
 msgid "Month"
 msgstr "Месяц"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Почасовые подробности"
 
 #, fuzzy
 msgid "Moon details"

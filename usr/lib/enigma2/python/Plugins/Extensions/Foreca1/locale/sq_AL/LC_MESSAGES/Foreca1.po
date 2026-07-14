@@ -91,6 +91,10 @@ msgstr "Diametri këndor: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Diametri këndor: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diametri këndor: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Madhësia e dukshme: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Fazat hënore nga muaji i ardhshëm"
 msgid "Luxembourg"
 msgstr "Luksemburgu"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Madhësia e dukshme: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Harta dhe pllakat u ngarkuan"
 
@@ -711,6 +719,10 @@ msgstr "Shi i moderuar"
 
 msgid "Month"
 msgstr "muaj"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Detajet e hënës"
 
 msgid "Moon details"
 msgstr "Detajet e hënës"

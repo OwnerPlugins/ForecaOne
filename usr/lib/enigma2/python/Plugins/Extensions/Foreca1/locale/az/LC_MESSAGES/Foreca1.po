@@ -91,6 +91,10 @@ msgstr "Bucaq diametri: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Bucaq diametri: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Bucaq diametri: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Görünən böyüklük: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Gələn aydan etibarən Ay fazaları"
 msgid "Luxembourg"
 msgstr "Lüksemburq"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Görünən böyüklük: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Xəritə və Plitələr Yükləndi"
 
@@ -711,6 +719,10 @@ msgstr "Orta yağış"
 
 msgid "Month"
 msgstr "ay"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Ay təfərrüatları"
 
 msgid "Moon details"
 msgstr "Ay təfərrüatları"

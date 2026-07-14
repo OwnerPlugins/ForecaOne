@@ -92,6 +92,10 @@ msgstr "Đường kính góc: Không áp dụng"
 msgid "Angular diameter: {:.0f}"
 msgstr "Đường kính góc: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Đường kính góc: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Độ lớn biểu kiến: Không áp dụng"
 
@@ -659,6 +663,10 @@ msgstr "Các giai đoạn âm lịch từ tháng tới"
 msgid "Luxembourg"
 msgstr ""
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Độ lớn biểu kiến: Không áp dụng"
+
 msgid "Map & Tiles Loaded"
 msgstr "Đã tải bản đồ & ô"
 
@@ -712,6 +720,10 @@ msgstr "Mưa vừa"
 
 msgid "Month"
 msgstr "Tháng"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "chi tiết mặt trăng"
 
 msgid "Moon details"
 msgstr "chi tiết mặt trăng"

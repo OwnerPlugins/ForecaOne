@@ -92,6 +92,10 @@ msgstr "각도 직경: 해당 없음"
 msgid "Angular diameter: {:.0f}"
 msgstr "각도 직경: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "각도 직경: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "겉보기 등급: 해당 없음"
 
@@ -659,6 +663,10 @@ msgstr "다음 달의 달의 위상"
 msgid "Luxembourg"
 msgstr "룩셈부르크"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "겉보기 등급: 해당 없음"
+
 msgid "Map & Tiles Loaded"
 msgstr "지도 및 타일 로드됨"
 
@@ -712,6 +720,10 @@ msgstr "적당한 비"
 
 msgid "Month"
 msgstr "월"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "달 세부정보"
 
 msgid "Moon details"
 msgstr "달 세부정보"

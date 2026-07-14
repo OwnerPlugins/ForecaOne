@@ -96,6 +96,10 @@ msgstr "Diàmetre angular: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Diàmetre angular: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diàmetre angular: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Magnitud aparent: N/A"
 
@@ -710,6 +714,10 @@ msgstr "Fases lunars a partir del mes vinent"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Magnitud aparent: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Mapa i rajoles carregats"
 
@@ -765,6 +773,10 @@ msgstr "Cobert i pluja"
 
 msgid "Month"
 msgstr "Mes"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Favorit 1"
 
 #, fuzzy
 msgid "Moon details"

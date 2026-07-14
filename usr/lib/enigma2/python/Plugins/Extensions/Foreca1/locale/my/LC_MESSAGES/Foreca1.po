@@ -91,6 +91,10 @@ msgstr "ထောင့်အချင်း- N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "ထောင့်အချင်း- {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "ထောင့်အချင်း- {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ထင်ရှားသော ပြင်းအား- N/A"
 
@@ -658,6 +662,10 @@ msgstr "လာမည့်လမှစပြီး လအဆင့်မျာ�
 msgid "Luxembourg"
 msgstr "လူဇင်ဘတ်"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ထင်ရှားသော ပြင်းအား- N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "မြေပုံနှင့် ကြွေပြားများ တင်ထားသည်။"
 
@@ -711,6 +719,10 @@ msgstr "မိုးအသင့်အတင့်"
 
 msgid "Month"
 msgstr "လ"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "မွန်းအသေးစိတ်"
 
 msgid "Moon details"
 msgstr "မွန်းအသေးစိတ်"
@@ -1446,15 +1458,21 @@ msgstr "{hours} နာရီ {mins} မိနစ်"
 
 msgid "• BLUE to save as Home\n"
 msgstr "• ပင်မ\nအဖြစ် သိမ်းဆည်းရန် အပြာရောင်"
+"• ပင်မ\n"
+"အဖြစ် သိမ်းဆည်းရန် အပြာရောင်"
 
 msgid "• CH+/CH- to jump 500 cities\n"
 msgstr "• မြို့ 500 ကိုခုန်ရန် CH+/CH-\n"
 
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• အကြိုက်ဆုံး 1\nအဖြစ် သိမ်းဆည်းရန် အစိမ်းရောင်"
+"• အကြိုက်ဆုံး 1\n"
+"အဖြစ် သိမ်းဆည်းရန် အစိမ်းရောင်"
 
 msgid "• OK to select city\n"
 msgstr "• မြို့\nကို ရွေးရန် အိုကေ"
+"• မြို့\n"
+"ကို ရွေးရန် အိုကေ"
 
 msgid "• RED to open search keyboard\n"
 msgstr "• ရှာဖွေမှုကီးဘုတ်ကိုဖွင့်ရန် အနီရောင်\n"
@@ -1464,6 +1482,8 @@ msgstr "• လမ်းညွှန်ရန် မြှားခလုတ်�
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• အကြိုက်ဆုံး 2\nအဖြစ် သိမ်းဆည်းရန် အဝါရောင်"
+"• အကြိုက်ဆုံး 2\n"
+"အဖြစ် သိမ်းဆည်းရန် အဝါရောင်"
 
 msgid "← Frame"
 msgstr "← ဘောင်"

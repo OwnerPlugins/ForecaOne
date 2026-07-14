@@ -91,6 +91,10 @@ msgstr "Angular na diameter: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Angular na diameter: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Angular na diameter: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Maliwanag na magnitude: N/A"
 
@@ -650,13 +654,17 @@ msgid "Lower Saxony"
 msgstr ""
 
 msgid "Lunar Calendar"
-msgstr ""
+msgstr "Kalendaryong Lunar"
 
 msgid "Lunar phases from next month"
 msgstr "Lunar phase mula sa susunod na buwan"
 
 msgid "Luxembourg"
 msgstr ""
+
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Maliwanag na magnitude: N/A"
 
 msgid "Map & Tiles Loaded"
 msgstr "Na-load ang Mapa at Mga Tile"
@@ -711,6 +719,10 @@ msgstr "Katamtamang ulan"
 
 msgid "Month"
 msgstr "buwan"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Mga detalye ng buwan"
 
 msgid "Moon details"
 msgstr "Mga detalye ng buwan"

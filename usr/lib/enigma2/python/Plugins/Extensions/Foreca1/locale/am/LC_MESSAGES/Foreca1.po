@@ -91,6 +91,10 @@ msgstr "የማዕዘን ዲያሜትር፡ N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "የማዕዘን ዲያሜትር: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "የማዕዘን ዲያሜትር: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "የሚታየው መጠን፡ N/A"
 
@@ -658,6 +662,10 @@ msgstr "የጨረቃ ደረጃዎች ከሚቀጥለው ወር"
 msgid "Luxembourg"
 msgstr "ሉዘምቤርግ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "የሚታየው መጠን፡ N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "ካርታ እና ሰቆች ተጭነዋል"
 
@@ -711,6 +719,10 @@ msgstr "መጠነኛ ዝናብ"
 
 msgid "Month"
 msgstr "ወር"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "የጨረቃ ዝርዝሮች"
 
 msgid "Moon details"
 msgstr "የጨረቃ ዝርዝሮች"

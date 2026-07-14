@@ -91,6 +91,10 @@ msgstr "കോണീയ വ്യാസം: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "കോണീയ വ്യാസം: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "കോണീയ വ്യാസം: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ദൃശ്യകാന്തിമാനം: N/A"
 
@@ -658,6 +662,10 @@ msgstr "അടുത്ത മാസം മുതൽ ചാന്ദ്ര ഘ�
 msgid "Luxembourg"
 msgstr "ലക്സംബർഗ്"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ദൃശ്യകാന്തിമാനം: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "മാപ്പും ടൈലുകളും ലോഡുചെയ്‌തു"
 
@@ -711,6 +719,10 @@ msgstr "മിതമായ മഴ"
 
 msgid "Month"
 msgstr "മാസം"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "ചന്ദ്രൻ്റെ വിശദാംശങ്ങൾ"
 
 msgid "Moon details"
 msgstr "ചന്ദ്രൻ്റെ വിശദാംശങ്ങൾ"

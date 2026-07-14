@@ -91,6 +91,10 @@ msgstr "कोणीय व्यास: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "कोणीय व्यास: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "कोणीय व्यास: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "स्पष्ट परिमाण: N/A"
 
@@ -658,6 +662,10 @@ msgstr "अर्को महिना देखि चन्द्र चर�
 msgid "Luxembourg"
 msgstr "लक्जमबर्ग"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "स्पष्ट परिमाण: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "नक्सा र टाइलहरू लोड गरियो"
 
@@ -711,6 +719,10 @@ msgstr "मध्यम वर्षा"
 
 msgid "Month"
 msgstr "महिना"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "चन्द्रमा विवरण"
 
 msgid "Moon details"
 msgstr "चन्द्रमा विवरण"
@@ -1452,6 +1464,8 @@ msgstr "• CH+/CH- 500 शहरहरू जम्प गर्न\n"
 
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• मनपर्ने १\n को रूपमा बचत गर्न हरियो"
+"• मनपर्ने १\n"
+" को रूपमा बचत गर्न हरियो"
 
 msgid "• OK to select city\n"
 msgstr "• सहर चयन गर्न ठीक छ\n"

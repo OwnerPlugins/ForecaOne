@@ -91,6 +91,10 @@ msgstr "ਕੋਣੀ ਵਿਆਸ: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "ਕੋਣੀ ਵਿਆਸ: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "ਕੋਣੀ ਵਿਆਸ: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ਸਪੱਸ਼ਟ ਤੀਬਰਤਾ: N/A"
 
@@ -658,6 +662,10 @@ msgstr "ਅਗਲੇ ਮਹੀਨੇ ਤੋਂ ਚੰਦਰ ਪੜਾਅ"
 msgid "Luxembourg"
 msgstr "ਲਕਸਮਬਰਗ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ਸਪੱਸ਼ਟ ਤੀਬਰਤਾ: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "ਨਕਸ਼ਾ ਅਤੇ ਟਾਈਲਾਂ ਲੋਡ ਕੀਤੀਆਂ ਗਈਆਂ"
 
@@ -711,6 +719,10 @@ msgstr "ਦਰਮਿਆਨੀ ਬਾਰਿਸ਼"
 
 msgid "Month"
 msgstr "ਮਹੀਨਾ"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "ਚੰਦਰਮਾ ਦੇ ਵੇਰਵੇ"
 
 msgid "Moon details"
 msgstr "ਚੰਦਰਮਾ ਦੇ ਵੇਰਵੇ"
@@ -1452,6 +1464,8 @@ msgstr "• CH+/CH- 500 ਸ਼ਹਿਰਾਂ ਵਿੱਚ ਛਾਲ ਮਾਰ�
 
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• ਮਨਪਸੰਦ 1\n ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਹਰਾ"
+"• ਮਨਪਸੰਦ 1\n"
+" ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਹਰਾ"
 
 msgid "• OK to select city\n"
 msgstr "• ਸ਼ਹਿਰ ਚੁਣਨ ਲਈ ਠੀਕ ਹੈ\n"
@@ -1464,6 +1478,8 @@ msgstr "• ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਤੀਰ ਕੁੰਜੀਆ�
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• ਮਨਪਸੰਦ 2\n ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਪੀਲਾ"
+"• ਮਨਪਸੰਦ 2\n"
+" ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਪੀਲਾ"
 
 msgid "← Frame"
 msgstr "← ਫਰੇਮ"

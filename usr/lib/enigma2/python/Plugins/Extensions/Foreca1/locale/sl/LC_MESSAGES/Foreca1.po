@@ -92,6 +92,10 @@ msgstr "Kotni premer: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Kotni premer: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kotni premer: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Navidezna magnituda: N/A"
 
@@ -450,7 +454,7 @@ msgid "Foreca One Live Maps (API)"
 msgstr ""
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Meni Foreca One"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One Ni najdenih postaj"
@@ -659,6 +663,10 @@ msgstr "Lunine faze od naslednjega meseca"
 msgid "Luxembourg"
 msgstr "Luksemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Navidezna magnituda: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Zemljevid in ploščice so naložene"
 
@@ -712,6 +720,10 @@ msgstr "Zmeren dež"
 
 msgid "Month"
 msgstr "mesec"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Podrobnosti lune"
 
 msgid "Moon details"
 msgstr "Podrobnosti lune"

@@ -91,6 +91,10 @@ msgstr "เส้นผ่านศูนย์กลางเชิงมุม
 msgid "Angular diameter: {:.0f}"
 msgstr "เส้นผ่านศูนย์กลางเชิงมุม: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "เส้นผ่านศูนย์กลางเชิงมุม: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "ขนาดที่ปรากฏ: N/A"
 
@@ -658,6 +662,10 @@ msgstr "ข้างขึ้นข้างแรมตั้งแต่เด
 msgid "Luxembourg"
 msgstr "ลักเซมเบิร์ก"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "ขนาดที่ปรากฏ: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "โหลดแผนที่และไทล์แล้ว"
 
@@ -711,6 +719,10 @@ msgstr "มีฝนตกปานกลาง"
 
 msgid "Month"
 msgstr "เดือน"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "รายละเอียดดวงจันทร์"
 
 msgid "Moon details"
 msgstr "รายละเอียดดวงจันทร์"

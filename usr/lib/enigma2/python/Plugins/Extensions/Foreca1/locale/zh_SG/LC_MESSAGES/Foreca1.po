@@ -91,6 +91,10 @@ msgstr "角直径：不适用"
 msgid "Angular diameter: {:.0f}"
 msgstr "角直径：{:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "角直径：{:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "视星等：不适用"
 
@@ -658,6 +662,10 @@ msgstr "下个月开始的月相"
 msgid "Luxembourg"
 msgstr "卢森堡"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "视星等：不适用"
+
 msgid "Map & Tiles Loaded"
 msgstr "地图和图块已加载"
 
@@ -711,6 +719,10 @@ msgstr "中雨"
 
 msgid "Month"
 msgstr "月"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "月亮细节"
 
 msgid "Moon details"
 msgstr "月亮细节"

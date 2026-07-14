@@ -91,6 +91,10 @@ msgstr "Winkeldurchmesser: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Winkeldurchmesser: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Winkeldurchmesser: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Scheinbare Größe: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Mondphasen ab nächstem Monat"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Scheinbare Größe: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Karte & Kacheln geladen"
 
@@ -711,6 +719,10 @@ msgstr "Mäßiger Regen"
 
 msgid "Month"
 msgstr "Monat"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Monddetails"
 
 msgid "Moon details"
 msgstr "Monddetails"

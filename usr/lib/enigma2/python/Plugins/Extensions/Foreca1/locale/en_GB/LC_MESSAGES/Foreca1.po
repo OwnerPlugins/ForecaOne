@@ -91,6 +91,9 @@ msgstr ""
 msgid "Angular diameter: {:.0f}"
 msgstr ""
 
+msgid "Angular diameter: {:.0f}″"
+msgstr ""
+
 msgid "Apparent magnitude: N/A"
 msgstr ""
 
@@ -658,6 +661,9 @@ msgstr ""
 msgid "Luxembourg"
 msgstr ""
 
+msgid "Magnitude: N/A"
+msgstr ""
+
 msgid "Map & Tiles Loaded"
 msgstr ""
 
@@ -710,6 +716,9 @@ msgid "Moderate rain"
 msgstr ""
 
 msgid "Month"
+msgstr ""
+
+msgid "Moon Details"
 msgstr ""
 
 msgid "Moon details"

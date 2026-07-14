@@ -91,6 +91,10 @@ msgstr "Dijametru angolari: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Dijametru angolari: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Dijametru angolari: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Kobor apparenti: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Fażijiet Lunar mix-xahar id-dieħel"
 msgid "Luxembourg"
 msgstr "Lussemburgu"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Kobor apparenti: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Mappa & Madum Mgħobbija"
 
@@ -711,6 +719,10 @@ msgstr "Xita moderata"
 
 msgid "Month"
 msgstr "Xahar"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Dettalji tal-qamar"
 
 msgid "Moon details"
 msgstr "Dettalji tal-qamar"

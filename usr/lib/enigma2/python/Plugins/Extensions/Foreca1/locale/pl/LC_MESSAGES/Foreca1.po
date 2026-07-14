@@ -97,6 +97,10 @@ msgstr "Średnica kątowa: nie dotyczy"
 msgid "Angular diameter: {:.0f}"
 msgstr "Średnica kątowa: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Średnica kątowa: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Wielkość pozorna: nie dotyczy"
 
@@ -669,6 +673,10 @@ msgstr "Fazy Księżyca od przyszłego miesiąca"
 msgid "Luxembourg"
 msgstr "Luksemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Wielkość pozorna: nie dotyczy"
+
 msgid "Map & Tiles Loaded"
 msgstr "Mapa i kafelki załadowane"
 
@@ -722,6 +730,10 @@ msgstr "Umiarkowany deszcz"
 
 msgid "Month"
 msgstr "Miesiąc"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Szczegóły godzinne"
 
 #, fuzzy
 msgid "Moon details"

@@ -91,6 +91,10 @@ msgstr "Անկյունային տրամագիծը՝ N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Անկյունային տրամագիծը՝ {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Անկյունային տրամագիծը՝ {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Տեսանելի մեծություն՝ N/A"
 
@@ -658,6 +662,10 @@ msgstr "Լուսնային փուլերը հաջորդ ամսվանից"
 msgid "Luxembourg"
 msgstr "Լյուքսեմբուրգ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Տեսանելի մեծություն՝ N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Քարտեզ և սալիկներ բեռնված են"
 
@@ -711,6 +719,10 @@ msgstr "Չափավոր անձրև"
 
 msgid "Month"
 msgstr "Ամիս"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Լուսնի մանրամասները"
 
 msgid "Moon details"
 msgstr "Լուսնի մանրամասները"

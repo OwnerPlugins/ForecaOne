@@ -91,6 +91,10 @@ msgstr "قطر زاویه ای: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "قطر زاویه ای: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "قطر زاویه ای: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "قدر ظاهری: N/A"
 
@@ -658,6 +662,10 @@ msgstr "فازهای قمری از ماه آینده"
 msgid "Luxembourg"
 msgstr "لوکزامبورگ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "قدر ظاهری: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "نقشه و کاشی بارگیری شد"
 
@@ -711,6 +719,10 @@ msgstr "باران متوسط"
 
 msgid "Month"
 msgstr "ماه"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "جزئیات ماه"
 
 msgid "Moon details"
 msgstr "جزئیات ماه"
@@ -1455,12 +1467,16 @@ msgstr "• سبز برای ذخیره به عنوان دلخواه 1\n"
 
 msgid "• OK to select city\n"
 msgstr "• برای انتخاب شهر\n تأیید کنید"
+"• برای انتخاب شهر\n"
+" تأیید کنید"
 
 msgid "• RED to open search keyboard\n"
 msgstr "• قرمز برای باز کردن صفحه کلید جستجو\n"
 
 msgid "• Use arrow keys to navigate\n"
 msgstr "• از کلیدهای پیکان برای پیمایش\n استفاده کنید"
+"• از کلیدهای پیکان برای پیمایش\n"
+" استفاده کنید"
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• زرد برای ذخیره به عنوان دلخواه 2\n"

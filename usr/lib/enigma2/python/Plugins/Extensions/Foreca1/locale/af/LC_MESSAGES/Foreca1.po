@@ -91,6 +91,10 @@ msgstr "Hoek deursnee: NVT"
 msgid "Angular diameter: {:.0f}"
 msgstr "Hoek deursnee: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Hoek deursnee: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Skynbare grootte: NVT"
 
@@ -658,6 +662,10 @@ msgstr "Maanfases vanaf volgende maand"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Skynbare grootte: NVT"
+
 msgid "Map & Tiles Loaded"
 msgstr "Kaart en teëls gelaai"
 
@@ -711,6 +719,10 @@ msgstr "Matige reën"
 
 msgid "Month"
 msgstr "Maand"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Maan besonderhede"
 
 msgid "Moon details"
 msgstr "Maan besonderhede"
@@ -1452,6 +1464,8 @@ msgstr "• CH+/CH- om 500 stede te spring\n"
 
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• GROEN om as gunsteling 1\n te stoor"
+"• GROEN om as gunsteling 1\n"
+" te stoor"
 
 msgid "• OK to select city\n"
 msgstr "• OK om stad te kies\n"

@@ -92,6 +92,10 @@ msgstr "Hoekdiameter: N.v.t"
 msgid "Angular diameter: {:.0f}"
 msgstr "Hoekdiameter: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Hoekdiameter: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Schijnbare omvang: n.v.t"
 
@@ -659,6 +663,10 @@ msgstr "Maanfasen vanaf volgende maand"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Schijnbare omvang: n.v.t"
+
 msgid "Map & Tiles Loaded"
 msgstr "Kaart en tegels geladen"
 
@@ -712,6 +720,10 @@ msgstr "Matige regen"
 
 msgid "Month"
 msgstr "Maand"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Maandetails"
 
 msgid "Moon details"
 msgstr "Maandetails"

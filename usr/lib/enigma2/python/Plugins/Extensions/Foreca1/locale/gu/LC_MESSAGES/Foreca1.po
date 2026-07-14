@@ -91,6 +91,10 @@ msgstr "કોણીય વ્યાસ: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "કોણીય વ્યાસ: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "કોણીય વ્યાસ: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "દેખીતી તીવ્રતા: N/A"
 
@@ -658,6 +662,10 @@ msgstr "આવતા મહિનાથી ચંદ્ર તબક્કાઓ
 msgid "Luxembourg"
 msgstr "લક્ઝમબર્ગ"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "દેખીતી તીવ્રતા: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "નકશો અને ટાઇલ્સ લોડ"
 
@@ -711,6 +719,10 @@ msgstr "મધ્યમ વરસાદ"
 
 msgid "Month"
 msgstr "મહિનો"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "ચંદ્ર વિગતો"
 
 msgid "Moon details"
 msgstr "ચંદ્ર વિગતો"
@@ -1452,6 +1464,8 @@ msgstr "• CH+/CH- 500 શહેરો જમ્પ કરવા\n"
 
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• મનપસંદ 1\n તરીકે સાચવવા માટે ગ્રીન"
+"• મનપસંદ 1\n"
+" તરીકે સાચવવા માટે ગ્રીન"
 
 msgid "• OK to select city\n"
 msgstr "• શહેર પસંદ કરવા માટે બરાબર\n"

@@ -93,6 +93,10 @@ msgstr "Kulman halkaisija: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Kulman halkaisija: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kulman halkaisija: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Näennäinen kirkkaus: N/A"
 
@@ -660,6 +664,10 @@ msgstr "Kuun vaiheet ensi kuusta alkaen"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Näennäinen kirkkaus: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Kartta ja ruudut ladattu"
 
@@ -713,6 +721,10 @@ msgstr "Kohtalaista sadetta"
 
 msgid "Month"
 msgstr "Kuukausi"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Kuun tiedot"
 
 msgid "Moon details"
 msgstr "Kuun tiedot"

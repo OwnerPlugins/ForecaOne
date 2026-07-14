@@ -92,6 +92,10 @@ msgstr "Kampinis skersmuo: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Kampinis skersmuo: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kampinis skersmuo: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Tariamas dydis: N/A"
 
@@ -659,6 +663,10 @@ msgstr "Mėnulio fazės nuo kito mėnesio"
 msgid "Luxembourg"
 msgstr "Liuksemburgas"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Tariamas dydis: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Žemėlapis ir plytelės įkelti"
 
@@ -712,6 +720,10 @@ msgstr "Vidutinis lietus"
 
 msgid "Month"
 msgstr "Mėnuo"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Mėnulio detalės"
 
 msgid "Moon details"
 msgstr "Mėnulio detalės"

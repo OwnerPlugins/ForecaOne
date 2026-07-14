@@ -91,6 +91,10 @@ msgstr "कोणीय व्यास: एन/ए"
 msgid "Angular diameter: {:.0f}"
 msgstr "कोणीय व्यास: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "कोणीय व्यास: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "स्पष्ट परिमाण: एन/ए"
 
@@ -658,6 +662,10 @@ msgstr "अगले महीने से चंद्र चरण"
 msgid "Luxembourg"
 msgstr "लक्समबर्ग"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "स्पष्ट परिमाण: एन/ए"
+
 msgid "Map & Tiles Loaded"
 msgstr "मानचित्र एवं टाइलें लोड की गईं"
 
@@ -711,6 +719,10 @@ msgstr "औसत दर्जे की वर्षा"
 
 msgid "Month"
 msgstr "महीना"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "चंद्रमा का विवरण"
 
 msgid "Moon details"
 msgstr "चंद्रमा का विवरण"
@@ -1452,6 +1464,8 @@ msgstr "• सीएच+/सीएच- 500 शहरों की छलां�
 
 msgid "• GREEN to save as Favorite 1\n"
 msgstr "• पसंदीदा 1\n के रूप में सहेजने के लिए हरा"
+"• पसंदीदा 1\n"
+" के रूप में सहेजने के लिए हरा"
 
 msgid "• OK to select city\n"
 msgstr "• शहर का चयन करना ठीक है\n"
@@ -1464,6 +1478,8 @@ msgstr "• नेविगेट करने के लिए तीर कु
 
 msgid "• YELLOW to save as Favorite 2\n"
 msgstr "• पसंदीदा 2\n के रूप में सहेजने के लिए पीला"
+"• पसंदीदा 2\n"
+" के रूप में सहेजने के लिए पीला"
 
 msgid "← Frame"
 msgstr "← फ़्रेम"

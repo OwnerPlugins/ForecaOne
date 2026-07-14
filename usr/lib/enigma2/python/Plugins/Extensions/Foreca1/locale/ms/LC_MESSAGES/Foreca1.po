@@ -91,6 +91,10 @@ msgstr "Diameter sudut: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Diameter sudut: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diameter sudut: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Magnitud ketara: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Fasa lunar dari bulan depan"
 msgid "Luxembourg"
 msgstr ""
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Magnitud ketara: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Peta & Jubin Dimuatkan"
 
@@ -711,6 +719,10 @@ msgstr "Hujan sederhana"
 
 msgid "Month"
 msgstr "bulan"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Butiran bulan"
 
 msgid "Moon details"
 msgstr "Butiran bulan"

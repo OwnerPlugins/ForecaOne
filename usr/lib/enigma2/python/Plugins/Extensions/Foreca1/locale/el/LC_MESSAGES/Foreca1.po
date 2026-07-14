@@ -87,6 +87,10 @@ msgstr "Γωνιακή διάμετρος: Μ/Δ"
 msgid "Angular diameter: {:.0f}"
 msgstr "Γωνιακή διάμετρος: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Γωνιακή διάμετρος: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Φαινόμενο μέγεθος: Μ/Δ"
 
@@ -654,6 +658,10 @@ msgstr "Σεληνιακές φάσεις του επόμενου μήνα"
 msgid "Luxembourg"
 msgstr "Λουξεμβούργο"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Φαινόμενο μέγεθος: Μ/Δ"
+
 msgid "Map & Tiles Loaded"
 msgstr "Ο χάρτης & τα πλαίσια φορτώθηκαν"
 
@@ -707,6 +715,10 @@ msgstr "Μέτρια βροχή"
 
 msgid "Month"
 msgstr "Μήνας"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Λεπτομέρειες σελήνης"
 
 msgid "Moon details"
 msgstr "Λεπτομέρειες σελήνης"

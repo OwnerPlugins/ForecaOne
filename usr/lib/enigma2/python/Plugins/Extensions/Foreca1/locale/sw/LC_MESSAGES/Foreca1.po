@@ -91,6 +91,10 @@ msgstr "Kipenyo cha angular: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Kipenyo cha angular: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kipenyo cha angular: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Ukubwa unaoonekana: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Awamu za mwezi kutoka mwezi ujao"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Ukubwa unaoonekana: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Ramani na Vigae Vimepakiwa"
 
@@ -711,6 +719,10 @@ msgstr "Mvua ya wastani"
 
 msgid "Month"
 msgstr "Mwezi"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Maelezo ya mwezi"
 
 msgid "Moon details"
 msgstr "Maelezo ya mwezi"

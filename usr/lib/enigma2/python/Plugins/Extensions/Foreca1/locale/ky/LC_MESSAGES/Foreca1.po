@@ -91,6 +91,10 @@ msgstr "Бурчтук диаметри: N/A"
 msgid "Angular diameter: {:.0f}"
 msgstr "Бурчтук диаметри: {:.0f}"
 
+#, fuzzy
+msgid "Angular diameter: {:.0f}″"
+msgstr "Бурчтук диаметри: {:.0f}"
+
 msgid "Apparent magnitude: N/A"
 msgstr "Көрүнүп турган чоңдук: N/A"
 
@@ -658,6 +662,10 @@ msgstr "Кийинки айдан баштап Айдын фазалары"
 msgid "Luxembourg"
 msgstr "Люксембург"
 
+#, fuzzy
+msgid "Magnitude: N/A"
+msgstr "Көрүнүп турган чоңдук: N/A"
+
 msgid "Map & Tiles Loaded"
 msgstr "Карта жана плиткалар жүктөлдү"
 
@@ -711,6 +719,10 @@ msgstr "Мелүүн жаан"
 
 msgid "Month"
 msgstr "Ай"
+
+#, fuzzy
+msgid "Moon Details"
+msgstr "Айдын чоо-жайы"
 
 msgid "Moon details"
 msgstr "Айдын чоо-жайы"
