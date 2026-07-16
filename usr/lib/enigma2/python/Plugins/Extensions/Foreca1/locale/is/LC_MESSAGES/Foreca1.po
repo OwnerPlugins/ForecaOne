@@ -679,7 +679,7 @@ msgid "Merge failed"
 msgstr "Sameining mistókst"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Veðurrit"
 
 msgid "Metric System"
 msgstr "Metrakerfi"
