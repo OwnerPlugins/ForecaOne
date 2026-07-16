@@ -14,7 +14,7 @@
     <widget name="selection_overlay" size="1815,990" zPosition="2" position="52,45" backgroundColor="#00000000" cornerRadius="45" />
 
     <!-- Exit button (red) -->
-    <widget source="key_red" render="Label" position="75,994" size="180,36" font="Liberation;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
+    <widget source="key_red" render="Label" position="75,995" size="180,35" font="Liberation;32" backgroundColor="#ff0000" foregroundColor="#ffffff" halign="center" valign="center" zPosition="13" />
 
     <!-- Other buttons (hidden/unused) -->
     <widget source="key_green" render="Label" position="75,994" size="180,36" font="Liberation;32" backgroundColor="#009933" foregroundColor="#ffffff" halign="center" valign="center" zPosition="5" />
@@ -55,13 +55,13 @@
     <widget name="transit_alt_label" position="150,712" size="750,38" font="Liberation; 28" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Magnitude -->
-    <widget name="magnitude_label" position="990,450" size="750,38" font="Liberation; 28" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+    <widget name="magnitude_label" position="150,868" size="750,38" font="Liberation; 28" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Angular diameter -->
-    <widget name="angular_diam_label" position="990,502" size="750,38" font="Liberation; 28" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+    <widget name="angular_diam_label" position="150,816" size="750,38" font="Liberation; 28" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Age -->
-    <widget name="age_label" position="990,555" size="750,38" font="Liberation; 28" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+    <widget name="age_label" position="150,764" size="750,38" font="Liberation; 28" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Info label (navigation hints) -->
     <eLabel text="◄ ✖ ►" position="795,982" size="450,57" font="Liberation; 34" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" />

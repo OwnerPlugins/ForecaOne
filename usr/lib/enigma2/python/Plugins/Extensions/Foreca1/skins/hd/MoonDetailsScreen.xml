@@ -55,13 +55,13 @@
     <widget name="transit_alt_label" position="100,475" size="500,25" font="Liberation; 18" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Magnitude -->
-    <widget name="magnitude_label" position="660,300" size="500,25" font="Liberation; 18" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+    <widget name="magnitude_label" position="100,510" size="500,25" font="Liberation; 18" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Angular diameter -->
-    <widget name="angular_diam_label" position="660,335" size="500,25" font="Liberation; 18" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+    <widget name="angular_diam_label" position="100,545" size="500,25" font="Liberation; 18" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Age -->
-    <widget name="age_label" position="660,370" size="500,25" font="Liberation; 18" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
+    <widget name="age_label" position="100,580" size="500,25" font="Liberation; 18" foregroundColor="#53a9ff" transparent="1" valign="center" zPosition="13" alphatest="blend" />
 
     <!-- Info label (navigation hints) -->
     <eLabel text="◄ ✖ ►" position="530,655" size="300,38" font="Liberation; 22" halign="center" valign="center" zPosition="10" transparent="1" foregroundColor="#aaaaaa" />
