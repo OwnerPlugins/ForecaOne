@@ -878,7 +878,7 @@ msgid "Page Down"
 msgstr "Sahifa pastga"
 
 msgid "Page Up"
-msgstr ""
+msgstr "Sahifa yuqoriga"
 
 msgid "Page down"
 msgstr "Sahifa pastga"

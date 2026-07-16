@@ -1011,7 +1011,7 @@ msgid "Rain: {:.1f} {}"
 msgstr "Kiša: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr ""
+msgstr "RainViewer radar"
 
 msgid "Red - Color select"
 msgstr "Crvena - odabir boje"
