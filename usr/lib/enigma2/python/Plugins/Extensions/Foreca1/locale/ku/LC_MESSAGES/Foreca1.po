@@ -782,7 +782,7 @@ msgid "No city selected"
 msgstr "Ti bajar nehat hilbijartin"
 
 msgid "No data"
-msgstr ""
+msgstr "Daneyên tune"
 
 msgid "No date available"
 msgstr "Dîrok tune"
