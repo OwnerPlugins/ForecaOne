@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} mun"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLUE i arbed fel Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- i neidio 500 o ddinasoedd\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• GWYRDD i arbed fel Hoff 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• Iawn i ddewis city\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• RED i agor chwilair keyboard\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Defnyddiwch fysellau saeth i lywio \n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- i neidio 100 o ddinasoedd\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• MELYN i arbed fel Hoff 2\n"
-
-msgid "← Frame"
-msgstr "← Ffrâm"
-
 msgid "0 - Today"
 msgstr "0 - Heddiw"
 
@@ -67,14 +37,29 @@ msgstr "6 - Heddiw + 6 diwrnod"
 msgid "7 - Today + 7 days"
 msgstr "7 - Heddiw + 7 diwrnod"
 
-msgid "7 Day Forecast"
-msgstr "Rhagolwg 7 Diwrnod"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Heddiw + 8 diwrnod"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Heddiw + 9 diwrnod"
+
+msgid "API credentials not configured."
+msgstr "Nid yw manylion adnabod API wedi'u ffurfweddu."
+
+msgid "API error"
+msgstr "Gwall API"
+
+msgid "API password"
+msgstr "Cyfrinair API"
+
+msgid "API user"
+msgstr "Defnyddiwr API"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Amh"
 
 msgid "Advanced"
 msgstr "Uwch"
@@ -91,35 +76,14 @@ msgstr "Oedran ers New Moon: {:.1f} diwrnod"
 msgid "Age: N/A"
 msgstr "Oedran: Amh"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Diamedr onglog: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Diamedr onglog: Amh"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "Heb ganfod ffeil ffurfweddu API!\n\nCrëwch ffeil:\n{0}\n\ngyda'ch manylion adnabod Foreca API."
-
-msgid "API credentials not configured."
-msgstr "Nid yw manylion adnabod API wedi'u ffurfweddu."
-
-msgid "API error"
-msgstr "Gwall API"
-
-msgid "API password"
-msgstr "Cyfrinair API"
-
-msgid "API user"
-msgstr "Defnyddiwr API"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diamedr onglog: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Maint ymddangosiadol: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: Amh"
 
 msgid "Assign to Favorite 1"
 msgstr "Aseinio i Hoff 1"
@@ -157,9 +121,6 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Lleuad Ddu"
 
-msgid "Blue"
-msgstr "Glas"
-
 msgid "Blue - Home"
 msgstr "Glas - Cartref"
 
@@ -193,14 +154,11 @@ msgstr "Gwiriwch am ddiweddariadau"
 msgid "Choose detail view"
 msgstr "Dewiswch olwg fanwl"
 
-msgid "City list file not found!"
-msgstr "Ffeil rhestr dinas heb ei chanfod!"
-
 msgid "City Selection"
 msgstr "Detholiad Dinas"
 
-msgid "City Selection Help:\n\n"
-msgstr "Cymorth Dewis Dinas: \n\n"
+msgid "City list file not found!"
+msgstr "Ffeil rhestr dinas heb ei chanfod!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Glanhau Ffeiliau Foreca Un Dros Dro?"
@@ -247,14 +205,17 @@ msgstr "Cymylog, stormydd mellt a tharanau gyda glaw"
 msgid "Cold (< 0°C)"
 msgstr "Oer (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Chwedl Lliw"
+
+msgid "Color Selector"
+msgstr "Dewisydd Lliw"
+
 msgid "Color data"
 msgstr "Data lliw"
 
 msgid "Color legend"
 msgstr "Chwedl lliw"
-
-msgid "Color Legend"
-msgstr "Chwedl Lliw"
 
 msgid "Color name"
 msgstr "Enw lliw"
@@ -262,14 +223,8 @@ msgstr "Enw lliw"
 msgid "Color select"
 msgstr "Dewis lliw"
 
-msgid "Color Selector"
-msgstr "Dewisydd Lliw"
-
 msgid "Condition: {}"
 msgstr "Cyflwr: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Ffurfweddu tystlythyrau API Foreca"
 
 msgid "Continents Weather Maps"
 msgstr "Mapiau Tywydd Cyfandiroedd"
@@ -337,20 +292,17 @@ msgstr "Dewpoint: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Dewpoint: Amh"
 
-msgid "Distance"
-msgstr "Pellter"
-
 msgid "Distance {} km"
 msgstr "Pellter {} km"
+
+msgid "Distance: %s"
+msgstr "Pellter: %s"
 
 msgid "Distance: {}"
 msgstr "Pellter: {}"
 
 msgid "Distance: {} km"
 msgstr "Pellter: {} km"
-
-msgid "Distance: %s"
-msgstr "Pellter: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Ydych chi am ei osod nawr?"
@@ -418,9 +370,6 @@ msgstr "Stormydd a tharanau eithafol"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mya, ynHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Wedi methu ysgrifennu ffeil ffurfweddu: \n%s"
-
 msgid "Faster: {}s"
 msgstr "Cyflymach: {}s"
 
@@ -430,11 +379,11 @@ msgstr "Hoff 1"
 msgid "Favorite 2"
 msgstr "Hoff 2"
 
-msgid "Favorites details"
-msgstr "Manylion ffefrynnau"
-
 msgid "Favorites Details"
 msgstr "Manylion Ffefrynnau"
+
+msgid "Favorites details"
+msgstr "Manylion ffefrynnau"
 
 msgid "Feels like"
 msgstr "Yn teimlo fel"
@@ -445,15 +394,6 @@ msgstr "Yn teimlo fel {}"
 msgid "Feels like {}{}"
 msgstr "Yn teimlo fel {}{}"
 
-msgid "Feels like: {}"
-msgstr "Yn teimlo fel: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Yn teimlo fel: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Yn teimlo fel: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Yn teimlo fel: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Yn teimlo fel: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Yn teimlo fel: Amh"
+
+msgid "Feels like: {}"
+msgstr "Yn teimlo fel: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Yn teimlo fel: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Yn teimlo fel: {}°C"
 
 msgid "Finland"
 msgstr "Ffindir"
@@ -472,20 +421,17 @@ msgstr "Chwarter Cyntaf"
 msgid "Fog"
 msgstr "Niwl"
 
+msgid "Foreca API Setup"
+msgstr "Gosod API Foreca"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Nid yw tystlythyrau API Foreca wedi'u ffurfweddu eto. Rhowch nhw yn y sgrin gosod."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Gosodiadau API Foreca wedi'u cadw'n llwyddiannus."
 
-msgid "Foreca API Setup"
-msgstr "Gosod API Foreca"
-
 msgid "Foreca One"
 msgstr "Foreca Un"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca Un | Map {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Mapiau Foreca One Live (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca Un Ddewislen"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Ni ddaethpwyd o hyd i orsafoedd"
 
-msgid "Foreca One Setup"
-msgstr "Gosod Foreca Un"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Gorsafoedd Foreca One: {} gorsaf gerllaw ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca Rhagolwg Tywydd Un"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca Un Tywydd a Rhagolwg ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca Rhagolwg Tywydd Un"
+msgid "Foreca One | Map {}"
+msgstr "Foreca Un | Map {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Wedi darganfod %d dinasoedd yn lleol ar gyfer '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Wedi darganfod %d dinasoedd ar-lein ar gyfer '%s'"
 
 msgid "Frame →"
 msgstr "Ffrâm →"
@@ -537,9 +489,6 @@ msgstr "Prydain Fawr"
 
 msgid "Greece"
 msgstr "Groeg"
-
-msgid "Green"
-msgstr "Gwyrdd"
 
 msgid "Green - Favorite 1"
 msgstr "Gwyrdd - Hoff 1"
@@ -580,17 +529,14 @@ msgstr "Poeth (30-40°C)"
 msgid "Hour Details"
 msgstr "Manylion yr Awr"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Lleithder"
 
-msgid "Humidity: {}%"
-msgstr "Lleithder: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Lleithder: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Lleithder: {}%"
 
 msgid "Hungary"
 msgstr "Hwngari"
@@ -649,9 +595,6 @@ msgstr "Bysellfwrdd"
 msgid "Last Quarter"
 msgstr "Chwarter diweddaf"
 
-msgid "Last update"
-msgstr "Diweddariad diwethaf"
-
 msgid "Latvia"
 msgstr "Latfia"
 
@@ -706,9 +649,6 @@ msgstr "Lwcsembwrg"
 msgid "Magnitude: N/A"
 msgstr "Maint: Amh"
 
-msgid "Map {} selected"
-msgstr "Map {} wedi'i ddewis"
-
 msgid "Map & Tiles Loaded"
 msgstr "Map a Theils wedi'u Llwytho"
 
@@ -717,6 +657,9 @@ msgstr "Map wedi'i lwytho"
 
 msgid "Map server"
 msgstr "Gweinydd map"
+
+msgid "Map {} selected"
+msgstr "Map {} wedi'i ddewis"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,11 +703,11 @@ msgstr "Glaw cymedrol"
 msgid "Month"
 msgstr "Mis"
 
-msgid "Moon details"
-msgstr "Manylion y lleuad"
-
 msgid "Moon Details"
 msgstr "Manylion y Lleuad"
+
+msgid "Moon details"
+msgstr "Manylion y lleuad"
 
 msgid "Moonrise: {}"
 msgstr "Codiad y lleuad: {}"
@@ -778,17 +721,17 @@ msgstr "Bore"
 msgid "Mostly clear"
 msgstr "Yn glir ar y cyfan"
 
-msgid "Move down"
-msgstr "Symud i lawr"
-
 msgid "Move Down"
 msgstr "Symud i Lawr"
 
-msgid "Move up"
-msgstr "Symud i fyny"
-
 msgid "Move Up"
 msgstr "Symud i Fyny"
+
+msgid "Move down"
+msgstr "Symud i lawr"
+
+msgid "Move up"
+msgstr "Symud i fyny"
 
 msgid "N"
 msgstr "N"
@@ -808,17 +751,26 @@ msgstr "Mae fersiwn newydd {version} ar gael."
 msgid "Next"
 msgstr "Nesaf"
 
-msgid "Next frame"
-msgstr "Ffrâm nesaf"
-
 msgid "Next Image"
 msgstr "Delwedd Nesaf"
+
+msgid "Next frame"
+msgstr "Ffrâm nesaf"
 
 msgid "Next page"
 msgstr "Tudalen nesaf"
 
 msgid "Next time"
 msgstr "Y tro nesaf"
+
+msgid "No Internet connection detected."
+msgstr "Heb ganfod cysylltiad rhyngrwyd."
+
+msgid "No OSM tiles"
+msgstr "Dim teils OSM"
+
+msgid "No cities found locally for '%s'"
+msgstr "Heb ganfod dinasoedd yn lleol ar gyfer '%s'"
 
 msgid "No city selected"
 msgstr "Dim dinas wedi'i dewis"
@@ -829,14 +781,8 @@ msgstr "Dim data"
 msgid "No date available"
 msgstr "Dim dyddiad ar gael"
 
-msgid "No Internet connection detected."
-msgstr "Heb ganfod cysylltiad rhyngrwyd."
-
 msgid "No location selected"
 msgstr "Dim lleoliad wedi'i ddewis"
-
-msgid "No OSM tiles"
-msgstr "Dim teils OSM"
 
 msgid "No specific legend available."
 msgstr "Dim chwedl benodol ar gael."
@@ -865,9 +811,6 @@ msgstr "Gogledd Rhine-Westphalia"
 msgid "Norway"
 msgstr "Norwy"
 
-msgid "Ok - Details"
-msgstr "Iawn - Manylion"
-
 msgid "OK - Ext Info"
 msgstr "Iawn - Gwybodaeth Est"
 
@@ -876,6 +819,9 @@ msgstr "Iawn - Rhagolwg"
 
 msgid "OK - Open Map"
 msgstr "Iawn - Map Agored"
+
+msgid "Ok - Details"
+msgstr "Iawn - Manylion"
 
 msgid "Open Keyboard"
 msgstr "Agor Bysellfwrdd"
@@ -922,17 +868,17 @@ msgstr "Cymylog, stormydd mellt a tharanau gyda glaw"
 msgid "Overnight"
 msgstr "Dros nos"
 
-msgid "Page down"
-msgstr "Tudalen i lawr"
-
 msgid "Page Down"
 msgstr "Tudalen i Lawr"
 
-msgid "Page up"
-msgstr "Tudalen i fyny"
-
 msgid "Page Up"
 msgstr "Tudalen i Fyny"
+
+msgid "Page down"
+msgstr "Tudalen i lawr"
+
+msgid "Page up"
+msgstr "Tudalen i fyny"
 
 msgid "Pan down"
 msgstr "Tremio i lawr"
@@ -1012,12 +958,6 @@ msgstr "Pwyswch RED i chwilio eto"
 msgid "Pressure"
 msgstr "Pwysau"
 
-msgid "Pressure: {}"
-msgstr "Pwysau: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Pwysau: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Pwysau: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Pwysau: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Pwysau: Amh"
 
+msgid "Pressure: {}"
+msgstr "Pwysau: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Pwysau: {} hPa"
+
 msgid "Prev"
 msgstr "Cynt"
 
 msgid "Previous"
 msgstr "Blaenorol"
 
-msgid "Previous frame"
-msgstr "Ffrâm flaenorol"
-
 msgid "Previous Image"
 msgstr "Delwedd Flaenorol"
+
+msgid "Previous frame"
+msgstr "Ffrâm flaenorol"
 
 msgid "Previous page"
 msgstr "Tudalen flaenorol"
@@ -1060,9 +1006,6 @@ msgstr "Glaw: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radar Gwyliwr Glaw"
 
-msgid "Red"
-msgstr "Coch"
-
 msgid "Red - Color select"
 msgstr "Coch - dewis lliw"
 
@@ -1084,11 +1027,11 @@ msgstr "Saeth dde - Y diwrnod nesaf"
 msgid "Rise"
 msgstr "Codwch"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Asimuth codi: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Asimuth codi: Amh"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Asimuth codi: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rwsia"
@@ -1132,11 +1075,14 @@ msgstr "Chwilio yn gyntaf ar-lein, os yn methu yn defnyddio rhestr leol."
 msgid "Search your City"
 msgstr "Chwiliwch eich Dinas"
 
+msgid "Searching for '%s'..."
+msgstr "Chwilio am '%s'..."
+
 msgid "Select"
 msgstr "Dewiswch"
 
-msgid "Select {} unit"
-msgstr "Dewiswch {} uned"
+msgid "Select Region"
+msgstr "Dewiswch Rhanbarth"
 
 msgid "Select a city"
 msgstr "Dewiswch ddinas"
@@ -1144,23 +1090,23 @@ msgstr "Dewiswch ddinas"
 msgid "Select a map with OK"
 msgstr "Dewiswch fap ag Iawn"
 
-msgid "Select Region"
-msgstr "Dewiswch Rhanbarth"
-
 msgid "Select unit system"
 msgstr "Dewiswch system uned"
 
 msgid "Select wind unit"
 msgstr "Dewiswch uned wynt"
 
+msgid "Select {} unit"
+msgstr "Dewiswch {} uned"
+
 msgid "Selected hour details"
 msgstr "Manylion yr awr a ddewiswyd"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Gosod asimuth: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Gosod azimuth: Amh"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Gosod asimuth: {:.0f}°"
 
 msgid "Sets"
 msgstr "Setiau"
@@ -1231,15 +1177,6 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Tymheredd"
 
-msgid "Temperature: {}"
-msgstr "Tymheredd: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Tymheredd: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Tymheredd: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Tymheredd: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Tymheredd: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Tymheredd: Amh"
+
+msgid "Temperature: {}"
+msgstr "Tymheredd: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Tymheredd: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Tymheredd: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Diolch {thanks} a ffrindiau eraill am awgrymiadau"
@@ -1288,20 +1234,26 @@ msgstr "Yfory"
 msgid "Transit (culmination): {}"
 msgstr "Trafnidiaeth (penllanw): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Uchder tramwy: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Uchder cludo: Amh"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Uchder tramwy: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Gosodiadau Cyfieithu"
 
+msgid "Transparency Settings"
+msgstr "Gosodiadau Tryloywder"
+
 msgid "Transparency level"
 msgstr "Lefel tryloywder"
 
-msgid "Transparency Settings"
-msgstr "Gosodiadau Tryloywder"
+msgid "UV Index"
+msgstr "Mynegai UV"
+
+msgid "UV N/A"
+msgstr "UV Amh"
 
 msgid "Unhealthy"
 msgstr "Afiach"
@@ -1336,14 +1288,20 @@ msgstr "Diweddariad wedi'i gwblhau. Ailgychwynnwch Enigma2."
 msgid "Updated {}"
 msgstr "Wedi diweddaru {}"
 
-msgid "Updated: {}"
-msgstr "Wedi'i ddiweddaru: {}"
-
 msgid "Updated: N/A"
 msgstr "Wedi'i ddiweddaru: Amh"
 
+msgid "Updated: {}"
+msgstr "Wedi'i ddiweddaru: {}"
+
 msgid "Updating..."
 msgstr "Wrthi'n diweddaru..."
+
+msgid "Use Google Translate"
+msgstr "Defnyddiwch Google Translate"
+
+msgid "Use arrow keys to scroll"
+msgstr "Defnyddiwch y bysellau saeth i sgrolio"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Defnyddiwch ← → i newid amser | Iawn i adael"
@@ -1354,26 +1312,8 @@ msgstr "Defnyddiwch ←/→/↑/↓ i symud | Iawn i adael"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Defnyddiwch ▲/▼ i newid, Iawn i ddewis"
 
-msgid "Use arrow keys to scroll"
-msgstr "Defnyddiwch y bysellau saeth i sgrolio"
-
-msgid "Use Google Translate"
-msgstr "Defnyddiwch Google Translate"
-
 msgid "Using current time"
 msgstr "Gan ddefnyddio'r amser presennol"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "Mynegai UV"
-
-msgid "UV N/A"
-msgstr "UV Amh"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Glaw trwm iawn"
@@ -1390,11 +1330,11 @@ msgstr "Isel iawn"
 msgid "Very unhealthy"
 msgstr "Afiach iawn"
 
-msgid "Visibility: {} m"
-msgstr "Gwelededd: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Gwelededd: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Gwelededd: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Map Tywydd"
 msgid "Weather Maps"
 msgstr "Mapiau Tywydd"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Mapiau Tywydd (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Mapiau Tywydd a Lloeren"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Mapiau Tywydd (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Sioe Sleidiau Mapiau Tywydd"
@@ -1447,14 +1387,14 @@ msgstr "Rhagolwg Wythnosol"
 msgid "Wind"
 msgstr "Gwynt"
 
-msgid "Wind direction"
-msgstr "Cyfeiriad y gwynt"
-
 msgid "Wind Direction today"
 msgstr "Cyfeiriad y Gwynt heddiw"
 
 msgid "Wind Direction tomorrow"
 msgstr "Cyfeiriad y Gwynt yfory"
+
+msgid "Wind direction"
+msgstr "Cyfeiriad y gwynt"
 
 msgid "Wind speed"
 msgstr "Cyflymder y gwynt"
@@ -1465,15 +1405,6 @@ msgstr "Cyflymder y gwynt {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Cyflymder y gwynt: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Gwynt: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Gwynt: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Gwynt: {} km/a {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Gwynt: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Gwynt: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Gwynt: Amh"
 
+msgid "Wind: {}"
+msgstr "Gwynt: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Gwynt: {} km/a {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Gwynt: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Tryloywder ffenestr"
 
 msgid "Yellow - Favorite 2"
 msgstr "Melyn - Hoff 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Mae gennych chi fersiwn {version} wedi'i osod yn barod.\nYdych chi am ei ailosod?"
 
 msgid "Zoom In"
 msgstr "Chwyddo i Mewn"
@@ -1498,12 +1435,114 @@ msgstr "Chwyddo i Mewn"
 msgid "Zoom Out"
 msgstr "Chwyddo Allan"
 
+msgid "Zoom+"
+msgstr "Chwyddo+"
+
 msgid "Zoom-"
 msgstr "Chwyddo -"
 
 msgid "Zoom:"
 msgstr "Chwyddo:"
 
-msgid "Zoom+"
-msgstr "Chwyddo+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} mun"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLUE i arbed fel Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- i neidio 500 o ddinasoedd\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GWYRDD i arbed fel Hoff 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• Iawn i ddewis city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RED i agor chwilair keyboard\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Defnyddiwch fysellau saeth i lywio \n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• MELYN i arbed fel Hoff 2\n"
+
+msgid "← Frame"
+msgstr "← Ffrâm"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- i neidio 100 o ddinasoedd\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Rhagolwg 7 Diwrnod"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "Heb ganfod ffeil ffurfweddu API!\n"
+#~ "\n"
+#~ "Crëwch ffeil:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "gyda'ch manylion adnabod Foreca API."
+
+#~ msgid "Blue"
+#~ msgstr "Glas"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Cymorth Dewis Dinas: \n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Ffurfweddu tystlythyrau API Foreca"
+
+#~ msgid "Distance"
+#~ msgstr "Pellter"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Wedi methu ysgrifennu ffeil ffurfweddu: \n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Gosod Foreca Un"
+
+#~ msgid "Green"
+#~ msgstr "Gwyrdd"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Diweddariad diwethaf"
+
+#~ msgid "Red"
+#~ msgstr "Coch"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Mae gennych chi fersiwn {version} wedi'i osod yn barod.\n"
+#~ "Ydych chi am ei ailosod?"

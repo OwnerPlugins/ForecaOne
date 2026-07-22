@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} год {mins} хв"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• СИНІЙ, щоб зберегти як Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- для переходу на 500 міст\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• ЗЕЛЕНИЙ, щоб зберегти як улюблене 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK, щоб вибрати місто\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ЧЕРВОНИЙ, щоб відкрити пошукову клавіатуру\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Використовуйте клавіші зі стрілками для навігації \n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL-, щоб перейти на 100 міст\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• ЖОВТИЙ, щоб зберегти як улюблене 2\n"
-
-msgid "← Frame"
-msgstr "← Рамка"
-
 msgid "0 - Today"
 msgstr "0 - Сьогодні"
 
@@ -67,14 +37,29 @@ msgstr "6 - Сьогодні + 6 днів"
 msgid "7 - Today + 7 days"
 msgstr "7 - Сьогодні + 7 днів"
 
-msgid "7 Day Forecast"
-msgstr "Прогноз на 7 днів"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Сьогодні + 8 днів"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Сьогодні + 9 днів"
+
+msgid "API credentials not configured."
+msgstr "Облікові дані API не налаштовано."
+
+msgid "API error"
+msgstr "Помилка API"
+
+msgid "API password"
+msgstr "Пароль API"
+
+msgid "API user"
+msgstr "Користувач API"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Н/Д"
 
 msgid "Advanced"
 msgstr "Просунутий"
@@ -91,35 +76,14 @@ msgstr "Вік після молодика: {:.1f} днів"
 msgid "Age: N/A"
 msgstr "Вік: Н/Д"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Кутовий діаметр: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Кутовий діаметр: Н/Д"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "Файл конфігурації API не знайдено!\n\nСтворіть файл:\n{0}\n\nз вашими обліковими даними Foreca API."
-
-msgid "API credentials not configured."
-msgstr "Облікові дані API не налаштовано."
-
-msgid "API error"
-msgstr "Помилка API"
-
-msgid "API password"
-msgstr "Пароль API"
-
-msgid "API user"
-msgstr "Користувач API"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Кутовий діаметр: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Видима зоряна величина: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: Н/Д"
 
 msgid "Assign to Favorite 1"
 msgstr "Призначити до улюбленого 1"
@@ -157,9 +121,6 @@ msgstr "Берлін"
 msgid "Black Moon"
 msgstr "Чорний місяць"
 
-msgid "Blue"
-msgstr "Синій"
-
 msgid "Blue - Home"
 msgstr "Синій - Дім"
 
@@ -193,14 +154,11 @@ msgstr "Перевірте наявність оновлень"
 msgid "Choose detail view"
 msgstr "Виберіть детальний перегляд"
 
-msgid "City list file not found!"
-msgstr "Файл списку міст не знайдено!"
-
 msgid "City Selection"
 msgstr "Вибір міста"
 
-msgid "City Selection Help:\n\n"
-msgstr "Допомога у виборі міста: \n\n"
+msgid "City list file not found!"
+msgstr "Файл списку міст не знайдено!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Очистити тимчасові файли Foreca One?"
@@ -247,13 +205,16 @@ msgstr "Хмарно, гроза з дощем"
 msgid "Cold (< 0°C)"
 msgstr "Холодна (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Кольорова легенда"
+
+msgid "Color Selector"
+msgstr "Вибір кольору"
+
 msgid "Color data"
 msgstr "Кольорові дані"
 
 msgid "Color legend"
-msgstr "Кольорова легенда"
-
-msgid "Color Legend"
 msgstr "Кольорова легенда"
 
 msgid "Color name"
@@ -262,14 +223,8 @@ msgstr "Назва кольору"
 msgid "Color select"
 msgstr "Вибір кольору"
 
-msgid "Color Selector"
-msgstr "Вибір кольору"
-
 msgid "Condition: {}"
 msgstr "Хвороба: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Налаштуйте облікові дані Foreca API"
 
 msgid "Continents Weather Maps"
 msgstr "Карти погоди континентів"
@@ -337,20 +292,17 @@ msgstr "Точка роси: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Точка роси: Н/Д"
 
-msgid "Distance"
-msgstr "Відстань"
-
 msgid "Distance {} km"
 msgstr "Відстань {} км"
+
+msgid "Distance: %s"
+msgstr "Відстань: %s"
 
 msgid "Distance: {}"
 msgstr "Відстань: {}"
 
 msgid "Distance: {} km"
 msgstr "Відстань: {} км"
-
-msgid "Distance: %s"
-msgstr "Відстань: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Ви хочете встановити його зараз?"
@@ -418,9 +370,6 @@ msgstr "Екстремальні / грози"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Фаренгейт, милі/год, дюйми рт.ст"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Не вдалося записати файл конфігурації: \n%s"
-
 msgid "Faster: {}s"
 msgstr "Швидше: {} с"
 
@@ -430,11 +379,11 @@ msgstr "Улюблений 1"
 msgid "Favorite 2"
 msgstr "Улюблений 2"
 
-msgid "Favorites details"
-msgstr "Вибрані деталі"
-
 msgid "Favorites Details"
 msgstr "Вибрані подробиці"
+
+msgid "Favorites details"
+msgstr "Вибрані деталі"
 
 msgid "Feels like"
 msgstr "Відчувається як"
@@ -445,15 +394,6 @@ msgstr "Відчуття як {}"
 msgid "Feels like {}{}"
 msgstr "Відчуття як {}{}"
 
-msgid "Feels like: {}"
-msgstr "Відчуття: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Відчуття: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Відчувається як: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Відчуття: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Відчувається як: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Відчуття: Н/Д"
+
+msgid "Feels like: {}"
+msgstr "Відчуття: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Відчуття: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Відчувається як: {}°C"
 
 msgid "Finland"
 msgstr "Фінляндія"
@@ -472,20 +421,17 @@ msgstr "Перша чверть"
 msgid "Fog"
 msgstr "Туман"
 
+msgid "Foreca API Setup"
+msgstr "Налаштування Foreca API"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Облікові дані Foreca API ще не налаштовано. Введіть їх на екрані налаштування."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Налаштування Foreca API успішно збережено."
 
-msgid "Foreca API Setup"
-msgstr "Налаштування Foreca API"
-
 msgid "Foreca One"
 msgstr "Foreca One"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Карта {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Maps (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One Menu"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Станцій не знайдено"
 
-msgid "Foreca One Setup"
-msgstr "Налаштування Foreca One"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Станції Foreca One: {} станцій поблизу ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Прогноз погоди"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca One Прогноз погоди"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Карта {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Знайдено %d міста для "%s""
+
+msgid "Found %d cities online for '%s'"
+msgstr "Знайдено %d міст онлайн для "%s""
 
 msgid "Frame →"
 msgstr "Рамка →"
@@ -537,9 +489,6 @@ msgstr "Велика Британія"
 
 msgid "Greece"
 msgstr "Греція"
-
-msgid "Green"
-msgstr "Зелений"
 
 msgid "Green - Favorite 1"
 msgstr "Зелений - улюблений 1"
@@ -580,17 +529,14 @@ msgstr "Гарячий (30-40°C)"
 msgid "Hour Details"
 msgstr "Деталі години"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Вологість"
 
-msgid "Humidity: {}%"
-msgstr "Вологість: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Вологість: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Вологість: {}%"
 
 msgid "Hungary"
 msgstr "Угорщина"
@@ -649,9 +595,6 @@ msgstr "Клавіатура"
 msgid "Last Quarter"
 msgstr "Остання чверть"
 
-msgid "Last update"
-msgstr "Останнє оновлення"
-
 msgid "Latvia"
 msgstr "Латвія"
 
@@ -706,9 +649,6 @@ msgstr "Люксембург"
 msgid "Magnitude: N/A"
 msgstr "Магнітуда: N/A"
 
-msgid "Map {} selected"
-msgstr "Карту {} вибрано"
-
 msgid "Map & Tiles Loaded"
 msgstr "Карту та фрагменти завантажено"
 
@@ -717,6 +657,9 @@ msgstr "Карту завантажено"
 
 msgid "Map server"
 msgstr "Сервер карт"
+
+msgid "Map {} selected"
+msgstr "Карту {} вибрано"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Мекленбург-Передня Померанія"
@@ -760,10 +703,10 @@ msgstr "Помірний дощ"
 msgid "Month"
 msgstr "місяць"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "Деталі місяця"
 
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "Деталі місяця"
 
 msgid "Moonrise: {}"
@@ -778,17 +721,17 @@ msgstr "Ранок"
 msgid "Mostly clear"
 msgstr "Переважно ясно"
 
-msgid "Move down"
-msgstr "Рухатися вниз"
-
 msgid "Move Down"
 msgstr "Рух вниз"
 
-msgid "Move up"
-msgstr "Рухатися вгору"
-
 msgid "Move Up"
 msgstr "Рух вгору"
+
+msgid "Move down"
+msgstr "Рухатися вниз"
+
+msgid "Move up"
+msgstr "Рухатися вгору"
 
 msgid "N"
 msgstr "Н"
@@ -808,17 +751,26 @@ msgstr "Доступна нова версія {version}."
 msgid "Next"
 msgstr "Далі"
 
-msgid "Next frame"
-msgstr "Наступний кадр"
-
 msgid "Next Image"
 msgstr "Наступне зображення"
+
+msgid "Next frame"
+msgstr "Наступний кадр"
 
 msgid "Next page"
 msgstr "Наступна сторінка"
 
 msgid "Next time"
 msgstr "Наступного разу"
+
+msgid "No Internet connection detected."
+msgstr "Підключення до Інтернету не виявлено."
+
+msgid "No OSM tiles"
+msgstr "Жодних плиток OSM"
+
+msgid "No cities found locally for '%s'"
+msgstr "Не знайдено міст для "%s""
 
 msgid "No city selected"
 msgstr "Місто не вибрано"
@@ -829,14 +781,8 @@ msgstr "Немає даних"
 msgid "No date available"
 msgstr "Немає доступної дати"
 
-msgid "No Internet connection detected."
-msgstr "Підключення до Інтернету не виявлено."
-
 msgid "No location selected"
 msgstr "Місцезнаходження не вибрано"
-
-msgid "No OSM tiles"
-msgstr "Жодних плиток OSM"
 
 msgid "No specific legend available."
 msgstr "Немає конкретної легенди."
@@ -865,9 +811,6 @@ msgstr "Північний Рейн-Вестфалія"
 msgid "Norway"
 msgstr "Норвегія"
 
-msgid "Ok - Details"
-msgstr "Добре - Деталі"
-
 msgid "OK - Ext Info"
 msgstr "OK - Ext Info"
 
@@ -876,6 +819,9 @@ msgstr "OK - Прогноз"
 
 msgid "OK - Open Map"
 msgstr "OK - Відкрити карту"
+
+msgid "Ok - Details"
+msgstr "Добре - Деталі"
 
 msgid "Open Keyboard"
 msgstr "Відкрийте клавіатуру"
@@ -922,17 +868,17 @@ msgstr "Похмуро, гроза з дощем"
 msgid "Overnight"
 msgstr "Ночівля"
 
-msgid "Page down"
-msgstr "Сторінка вниз"
-
 msgid "Page Down"
 msgstr "Page Down"
 
-msgid "Page up"
-msgstr "Сторінка вгору"
-
 msgid "Page Up"
 msgstr "Page Up"
+
+msgid "Page down"
+msgstr "Сторінка вниз"
+
+msgid "Page up"
+msgstr "Сторінка вгору"
 
 msgid "Pan down"
 msgstr "Панорама вниз"
@@ -1012,12 +958,6 @@ msgstr "Натисніть ЧЕРВОНУ для повторного пошук
 msgid "Pressure"
 msgstr "Тиск"
 
-msgid "Pressure: {}"
-msgstr "Тиск: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Тиск: {} гПа"
-
 msgid "Pressure: %s"
 msgstr "Тиск: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Тиск: %s гПа"
 msgid "Pressure: N/A"
 msgstr "Тиск: Н/Д"
 
+msgid "Pressure: {}"
+msgstr "Тиск: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Тиск: {} гПа"
+
 msgid "Prev"
 msgstr "попередня"
 
 msgid "Previous"
 msgstr "Попередній"
 
-msgid "Previous frame"
-msgstr "Попередній кадр"
-
 msgid "Previous Image"
 msgstr "Попереднє зображення"
+
+msgid "Previous frame"
+msgstr "Попередній кадр"
 
 msgid "Previous page"
 msgstr "Попередня сторінка"
@@ -1060,9 +1006,6 @@ msgstr "Дощ: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer Radar"
 
-msgid "Red"
-msgstr "Червоний"
-
 msgid "Red - Color select"
 msgstr "Червоний - вибір кольору"
 
@@ -1084,11 +1027,11 @@ msgstr "Стрілка вправо - наступного дня"
 msgid "Rise"
 msgstr "Підйом"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Азимут підйому: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Азимут підйому: Н/Д"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Азимут підйому: {:.0f}°"
 
 msgid "Russia"
 msgstr "Росія"
@@ -1132,11 +1075,14 @@ msgstr "Пошук спочатку виконується онлайн, якщ�
 msgid "Search your City"
 msgstr "Шукайте своє місто"
 
+msgid "Searching for '%s'..."
+msgstr "Пошук "%s"..."
+
 msgid "Select"
 msgstr "Виберіть"
 
-msgid "Select {} unit"
-msgstr "Виберіть одиницю {}"
+msgid "Select Region"
+msgstr "Виберіть регіон"
 
 msgid "Select a city"
 msgstr "Виберіть місто"
@@ -1144,23 +1090,23 @@ msgstr "Виберіть місто"
 msgid "Select a map with OK"
 msgstr "Виберіть карту за допомогою ОК"
 
-msgid "Select Region"
-msgstr "Виберіть регіон"
-
 msgid "Select unit system"
 msgstr "Виберіть систему одиниць"
 
 msgid "Select wind unit"
 msgstr "Виберіть вітрову установку"
 
+msgid "Select {} unit"
+msgstr "Виберіть одиницю {}"
+
 msgid "Selected hour details"
 msgstr "Вибрані деталі години"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Встановити азимут: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Встановити азимут: Н/Д"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Встановити азимут: {:.0f}°"
 
 msgid "Sets"
 msgstr "Набори"
@@ -1231,15 +1177,6 @@ msgstr "темп"
 msgid "Temperature"
 msgstr "температура"
 
-msgid "Temperature: {}"
-msgstr "Температура: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Температура: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Температура: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Температура: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Температура: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Температура: Н/Д"
+
+msgid "Temperature: {}"
+msgstr "Температура: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Температура: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Температура: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Дякуємо {thanks} та іншим друзям за пропозиції"
@@ -1288,20 +1234,26 @@ msgstr "завтра"
 msgid "Transit (culmination): {}"
 msgstr "Транзит (кульмінація): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Висота проходження: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Транзитна висота: Н/Д"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Висота проходження: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Налаштування перекладу"
 
+msgid "Transparency Settings"
+msgstr "Налаштування прозорості"
+
 msgid "Transparency level"
 msgstr "Рівень прозорості"
 
-msgid "Transparency Settings"
-msgstr "Налаштування прозорості"
+msgid "UV Index"
+msgstr "УФ-індекс"
+
+msgid "UV N/A"
+msgstr "УФ Н/Д"
 
 msgid "Unhealthy"
 msgstr "Нездоровий"
@@ -1336,14 +1288,20 @@ msgstr "Оновлення завершено. Перезапустіть Enigma
 msgid "Updated {}"
 msgstr "Оновлено {}"
 
-msgid "Updated: {}"
-msgstr "Оновлено: {}"
-
 msgid "Updated: N/A"
 msgstr "Оновлено: Н/Д"
 
+msgid "Updated: {}"
+msgstr "Оновлено: {}"
+
 msgid "Updating..."
 msgstr "Оновлення..."
+
+msgid "Use Google Translate"
+msgstr "Використовуйте Google Translate"
+
+msgid "Use arrow keys to scroll"
+msgstr "Використовуйте клавіші зі стрілками для прокручування"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Використовуйте ← →, щоб змінити час | OK, щоб вийти"
@@ -1354,26 +1312,8 @@ msgstr "Використовуйте ←/→/↑/↓, щоб перемісти�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Використовуйте ▲/▼ для зміни, OK для вибору"
 
-msgid "Use arrow keys to scroll"
-msgstr "Використовуйте клавіші зі стрілками для прокручування"
-
-msgid "Use Google Translate"
-msgstr "Використовуйте Google Translate"
-
 msgid "Using current time"
 msgstr "Використання поточного часу"
-
-msgid "UV"
-msgstr "УФ"
-
-msgid "UV Index"
-msgstr "УФ-індекс"
-
-msgid "UV N/A"
-msgstr "УФ Н/Д"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Дуже сильний дощ"
@@ -1390,11 +1330,11 @@ msgstr "Дуже низький"
 msgid "Very unhealthy"
 msgstr "Дуже нездоровий"
 
-msgid "Visibility: {} m"
-msgstr "Видимість: {} м"
-
 msgid "Visibility: %s m"
 msgstr "Видимість: %s хв"
+
+msgid "Visibility: {} m"
+msgstr "Видимість: {} м"
 
 msgid "W"
 msgstr "В"
@@ -1423,11 +1363,11 @@ msgstr "Карта погоди"
 msgid "Weather Maps"
 msgstr "Карти погоди"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Карти погоди (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Карти погоди та супутник"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Карти погоди (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Слайд-шоу карт погоди"
@@ -1447,14 +1387,14 @@ msgstr "Щотижневий прогноз"
 msgid "Wind"
 msgstr "Вітер"
 
-msgid "Wind direction"
-msgstr "Напрямок вітру"
-
 msgid "Wind Direction today"
 msgstr "Напрям вітру сьогодні"
 
 msgid "Wind Direction tomorrow"
 msgstr "Напрямок вітру завтра"
+
+msgid "Wind direction"
+msgstr "Напрямок вітру"
 
 msgid "Wind speed"
 msgstr "Швидкість вітру"
@@ -1465,15 +1405,6 @@ msgstr "Швидкість вітру {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Швидкість вітру: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Вітер: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Вітер: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Вітер: {} км/год {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Вітер: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Вітер: %s км/год %s"
 msgid "Wind: N/A"
 msgstr "Вітер: немає"
 
+msgid "Wind: {}"
+msgstr "Вітер: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Вітер: {} км/год {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Вітер: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Прозорість вікна"
 
 msgid "Yellow - Favorite 2"
 msgstr "Жовтий - улюблений 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "У вас уже встановлено версію {version}. \nВи хочете перевстановити її?"
 
 msgid "Zoom In"
 msgstr "Збільшити"
@@ -1498,12 +1435,114 @@ msgstr "Збільшити"
 msgid "Zoom Out"
 msgstr "Зменшити"
 
+msgid "Zoom+"
+msgstr "Збільшити+"
+
 msgid "Zoom-"
 msgstr "Zoom-"
 
 msgid "Zoom:"
 msgstr "Масштаб:"
 
-msgid "Zoom+"
-msgstr "Збільшити+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} год {mins} хв"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• СИНІЙ, щоб зберегти як Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- для переходу на 500 міст\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ЗЕЛЕНИЙ, щоб зберегти як улюблене 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK, щоб вибрати місто\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ЧЕРВОНИЙ, щоб відкрити пошукову клавіатуру\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Використовуйте клавіші зі стрілками для навігації \n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• ЖОВТИЙ, щоб зберегти як улюблене 2\n"
+
+msgid "← Frame"
+msgstr "← Рамка"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL-, щоб перейти на 100 міст\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Прогноз на 7 днів"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "Файл конфігурації API не знайдено!\n"
+#~ "\n"
+#~ "Створіть файл:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "з вашими обліковими даними Foreca API."
+
+#~ msgid "Blue"
+#~ msgstr "Синій"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Допомога у виборі міста: \n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Налаштуйте облікові дані Foreca API"
+
+#~ msgid "Distance"
+#~ msgstr "Відстань"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Не вдалося записати файл конфігурації: \n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Налаштування Foreca One"
+
+#~ msgid "Green"
+#~ msgstr "Зелений"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Останнє оновлення"
+
+#~ msgid "Red"
+#~ msgstr "Червоний"
+
+#~ msgid "UV"
+#~ msgstr "УФ"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "У вас уже встановлено версію {version}. \n"
+#~ "Ви хочете перевстановити її?"

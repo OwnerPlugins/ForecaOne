@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• SININEN tallentaaksesi nimellä Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- hyppää 500 kaupunkiin\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• VIHREÄ tallentaaksesi suosikiksi 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK valitaksesi city\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• PUNAINEN avataksesi hakunäppäimistön\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Käytä nuolinäppäimiä navigoidaksesi \n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- hypätä 100 kaupunkiin\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
-
-msgid "← Frame"
-msgstr "← Kehys"
-
 msgid "0 - Today"
 msgstr "0 - Tänään"
 
@@ -67,14 +37,29 @@ msgstr "6 - Tänään + 6 päivää"
 msgid "7 - Today + 7 days"
 msgstr "7 - Tänään + 7 päivää"
 
-msgid "7 Day Forecast"
-msgstr "7 päivän ennuste"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Tänään + 8 päivää"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Tänään + 9 päivää"
+
+msgid "API credentials not configured."
+msgstr "API-tunnistetietoja ei ole määritetty."
+
+msgid "API error"
+msgstr "API-virhe"
+
+msgid "API password"
+msgstr "API-salasana"
+
+msgid "API user"
+msgstr "API-käyttäjä"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Ei käytössä"
 
 msgid "Advanced"
 msgstr "Edistynyt"
@@ -91,35 +76,14 @@ msgstr "Ikä uudenkuun jälkeen: {:.1f} päivää"
 msgid "Age: N/A"
 msgstr "Ikä: N/A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Kulman halkaisija: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Kulman halkaisija: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API-määritystiedostoa ei löydy!\n\nLuo tiedosto:\n{0}\n\n Foreca API -tunnuksillasi."
-
-msgid "API credentials not configured."
-msgstr "API-tunnistetietoja ei ole määritetty."
-
-msgid "API error"
-msgstr "API-virhe"
-
-msgid "API password"
-msgstr "API-salasana"
-
-msgid "API user"
-msgstr "API-käyttäjä"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Kulman halkaisija: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Näennäinen suuruus: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: Ei käytössä"
 
 msgid "Assign to Favorite 1"
 msgstr "Liitä suosikiksi 1"
@@ -157,9 +121,6 @@ msgstr "Berliini"
 msgid "Black Moon"
 msgstr "Musta kuu"
 
-msgid "Blue"
-msgstr "Sininen"
-
 msgid "Blue - Home"
 msgstr "Sininen - Kotiin"
 
@@ -193,14 +154,11 @@ msgstr "Tarkista päivitykset"
 msgid "Choose detail view"
 msgstr "Valitse yksityiskohtanäkymä"
 
-msgid "City list file not found!"
-msgstr "Kaupunkiluettelotiedostoa ei löydy!"
-
 msgid "City Selection"
 msgstr "Kaupungin valinta"
 
-msgid "City Selection Help:\n\n"
-msgstr "Kaupungin valintaohje: \n\n"
+msgid "City list file not found!"
+msgstr "Kaupunkiluettelotiedostoa ei löydy!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Siivotaanko Foreca One Temp -tiedostot?"
@@ -247,13 +205,16 @@ msgstr "Pilvistä, ukkosmyrskyjä ja sadekuuroja"
 msgid "Cold (< 0°C)"
 msgstr "Kylmä (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Väri legenda"
+
+msgid "Color Selector"
+msgstr "Värin valitsin"
+
 msgid "Color data"
 msgstr "Väritiedot"
 
 msgid "Color legend"
-msgstr "Väri legenda"
-
-msgid "Color Legend"
 msgstr "Väri legenda"
 
 msgid "Color name"
@@ -262,14 +223,8 @@ msgstr "Värin nimi"
 msgid "Color select"
 msgstr "Värin valinta"
 
-msgid "Color Selector"
-msgstr "Värin valitsin"
-
 msgid "Condition: {}"
 msgstr "Kunto: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Määritä Foreca API -tunnistetiedot"
 
 msgid "Continents Weather Maps"
 msgstr "Mannerten sääkartat"
@@ -337,20 +292,17 @@ msgstr "Kastepiste: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Kastepiste: N/A"
 
-msgid "Distance"
-msgstr "Etäisyys"
-
 msgid "Distance {} km"
 msgstr "Etäisyys {} km"
+
+msgid "Distance: %s"
+msgstr "Etäisyys: %s"
 
 msgid "Distance: {}"
 msgstr "Etäisyys: {}"
 
 msgid "Distance: {} km"
 msgstr "Etäisyys: {} km"
-
-msgid "Distance: %s"
-msgstr "Etäisyys: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Haluatko asentaa sen nyt?"
@@ -418,9 +370,6 @@ msgstr "Äärimmäiset / ukkosmyrskyt"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Määritystiedoston kirjoittaminen epäonnistui: \n%s"
-
 msgid "Faster: {}s"
 msgstr "Nopeampi: {}s"
 
@@ -430,10 +379,10 @@ msgstr "Suosikki 1"
 msgid "Favorite 2"
 msgstr "Suosikki 2"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "Suosikkien tiedot"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "Suosikkien tiedot"
 
 msgid "Feels like"
@@ -445,15 +394,6 @@ msgstr "Tuntuu kuin {}"
 msgid "Feels like {}{}"
 msgstr "Tuntuu kuin {}{}"
 
-msgid "Feels like: {}"
-msgstr "Tuntuu: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Tuntuu: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Tuntuu kuin: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Tuntuu: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Tuntuu kuin: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Tuntuu: N/A"
+
+msgid "Feels like: {}"
+msgstr "Tuntuu: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Tuntuu: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Tuntuu kuin: {}°C"
 
 msgid "Finland"
 msgstr "Suomi"
@@ -472,20 +421,17 @@ msgstr "Ensimmäinen vuosineljännes"
 msgid "Fog"
 msgstr "Sumu"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API -asetukset"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API -tunnuksia ei ole vielä määritetty. Kirjoita ne asetusnäyttöön."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API -asetukset tallennettu onnistuneesti."
 
-msgid "Foreca API Setup"
-msgstr "Foreca API -asetukset"
-
 msgid "Foreca One"
 msgstr "Foreca One"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Kartta {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Maps (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One -valikko"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Asemia ei löytynyt"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One -asennus"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stations: {} asemaa lähellä ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Sääennuste"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca One Sääennuste"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Kartta {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Löytyi %d kaupunkia paikallisesti haulle %s"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Löytyi %d kaupunkia verkosta haulle %s"
 
 msgid "Frame →"
 msgstr "Kehys →"
@@ -537,9 +489,6 @@ msgstr "Iso-Britannia"
 
 msgid "Greece"
 msgstr "Kreikka"
-
-msgid "Green"
-msgstr "Vihreä"
 
 msgid "Green - Favorite 1"
 msgstr "Vihreä - suosikki 1"
@@ -580,17 +529,14 @@ msgstr "Kuuma (30-40°C)"
 msgid "Hour Details"
 msgstr "Tuntitiedot"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Kosteus"
 
-msgid "Humidity: {}%"
-msgstr "Kosteus: {} %"
-
 msgid "Humidity: %s%%"
 msgstr "Kosteus: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Kosteus: {} %"
 
 msgid "Hungary"
 msgstr "Unkari"
@@ -649,9 +595,6 @@ msgstr "Näppäimistö"
 msgid "Last Quarter"
 msgstr "Viimeinen vuosineljännes"
 
-msgid "Last update"
-msgstr "Viimeisin päivitys"
-
 msgid "Latvia"
 msgstr "Latvia"
 
@@ -706,9 +649,6 @@ msgstr "Luxemburg"
 msgid "Magnitude: N/A"
 msgstr "Suuruus: N/A"
 
-msgid "Map {} selected"
-msgstr "Kartta {} valittu"
-
 msgid "Map & Tiles Loaded"
 msgstr "Kartta ja laatat ladattu"
 
@@ -717,6 +657,9 @@ msgstr "Kartta ladattu"
 
 msgid "Map server"
 msgstr "Karttapalvelin"
+
+msgid "Map {} selected"
+msgstr "Kartta {} valittu"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,11 +703,11 @@ msgstr "Kohtalaista sadetta"
 msgid "Month"
 msgstr "Kuukausi"
 
-msgid "Moon details"
-msgstr "Kuun yksityiskohdat"
-
 msgid "Moon Details"
 msgstr "Kuun tiedot"
+
+msgid "Moon details"
+msgstr "Kuun yksityiskohdat"
 
 msgid "Moonrise: {}"
 msgstr "Kuunnousu: {}"
@@ -778,16 +721,16 @@ msgstr "Aamu"
 msgid "Mostly clear"
 msgstr "Pääosin selkeä"
 
-msgid "Move down"
-msgstr "Siirry alas"
-
 msgid "Move Down"
 msgstr "Siirrä alas"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "Siirrä ylös"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "Siirry alas"
+
+msgid "Move up"
 msgstr "Siirrä ylös"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "Uusi versio {version} on saatavilla."
 msgid "Next"
 msgstr "Seuraavaksi"
 
-msgid "Next frame"
-msgstr "Seuraava kehys"
-
 msgid "Next Image"
 msgstr "Seuraava kuva"
+
+msgid "Next frame"
+msgstr "Seuraava kehys"
 
 msgid "Next page"
 msgstr "Seuraava sivu"
 
 msgid "Next time"
 msgstr "Ensi kerralla"
+
+msgid "No Internet connection detected."
+msgstr "Internet-yhteyttä ei havaittu."
+
+msgid "No OSM tiles"
+msgstr "Ei OSM-laattoja"
+
+msgid "No cities found locally for '%s'"
+msgstr "Kaupunkeja ei löytynyt paikallisesti haulle %s"
 
 msgid "No city selected"
 msgstr "Kaupunkia ei ole valittu"
@@ -829,14 +781,8 @@ msgstr "Ei dataa"
 msgid "No date available"
 msgstr "Päivämäärää ei ole saatavilla"
 
-msgid "No Internet connection detected."
-msgstr "Internet-yhteyttä ei havaittu."
-
 msgid "No location selected"
 msgstr "Sijaintia ei ole valittu"
-
-msgid "No OSM tiles"
-msgstr "Ei OSM-laattoja"
 
 msgid "No specific legend available."
 msgstr "Tarkkaa legendaa ei ole saatavilla."
@@ -865,9 +811,6 @@ msgstr "Nordrhein-Westfalen"
 msgid "Norway"
 msgstr "Norja"
 
-msgid "Ok - Details"
-msgstr "Ok - Yksityiskohdat"
-
 msgid "OK - Ext Info"
 msgstr "OK - Ulk Info"
 
@@ -876,6 +819,9 @@ msgstr "OK - Ennuste"
 
 msgid "OK - Open Map"
 msgstr "OK - Avaa kartta"
+
+msgid "Ok - Details"
+msgstr "Ok - Yksityiskohdat"
 
 msgid "Open Keyboard"
 msgstr "Avaa Näppäimistö"
@@ -922,16 +868,16 @@ msgstr "Pilvistä, ukkosmyrskyjä ja vesisadetta"
 msgid "Overnight"
 msgstr "Yön yli"
 
-msgid "Page down"
-msgstr "Sivu alas"
-
 msgid "Page Down"
 msgstr "Sivu alas"
 
-msgid "Page up"
+msgid "Page Up"
 msgstr "Sivu ylös"
 
-msgid "Page Up"
+msgid "Page down"
+msgstr "Sivu alas"
+
+msgid "Page up"
 msgstr "Sivu ylös"
 
 msgid "Pan down"
@@ -1012,12 +958,6 @@ msgstr "Hae uudelleen painamalla PUNAISTA"
 msgid "Pressure"
 msgstr "Paine"
 
-msgid "Pressure: {}"
-msgstr "Paine: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Paine: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Paine: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Paine: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Paine: N/A"
 
+msgid "Pressure: {}"
+msgstr "Paine: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Paine: {} hPa"
+
 msgid "Prev"
 msgstr "Ed"
 
 msgid "Previous"
 msgstr "Edellinen"
 
-msgid "Previous frame"
-msgstr "Edellinen kehys"
-
 msgid "Previous Image"
 msgstr "Edellinen kuva"
+
+msgid "Previous frame"
+msgstr "Edellinen kehys"
 
 msgid "Previous page"
 msgstr "Edellinen sivu"
@@ -1060,9 +1006,6 @@ msgstr "Sade: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer-tutka"
 
-msgid "Red"
-msgstr "Punainen"
-
 msgid "Red - Color select"
 msgstr "Punainen - Valitse väri"
 
@@ -1084,11 +1027,11 @@ msgstr "Oikea nuoli - Seuraava päivä"
 msgid "Rise"
 msgstr "Nouse"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Nouse atsimuutti: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Nouse atsimuutti: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Nouse atsimuutti: {:.0f}°"
 
 msgid "Russia"
 msgstr "Venäjä"
@@ -1132,11 +1075,14 @@ msgstr "Haku yrittää ensin verkossa, jos epäonnistuu, käyttää paikallista 
 msgid "Search your City"
 msgstr "Hae kaupunkiasi"
 
+msgid "Searching for '%s'..."
+msgstr "Haetaan '%s'..."
+
 msgid "Select"
 msgstr "Valitse"
 
-msgid "Select {} unit"
-msgstr "Valitse {} yksikkö"
+msgid "Select Region"
+msgstr "Valitse Alue"
 
 msgid "Select a city"
 msgstr "Valitse kaupunki"
@@ -1144,23 +1090,23 @@ msgstr "Valitse kaupunki"
 msgid "Select a map with OK"
 msgstr "Valitse kartta painamalla OK"
 
-msgid "Select Region"
-msgstr "Valitse Alue"
-
 msgid "Select unit system"
 msgstr "Valitse yksikköjärjestelmä"
 
 msgid "Select wind unit"
 msgstr "Valitse tuuliyksikkö"
 
+msgid "Select {} unit"
+msgstr "Valitse {} yksikkö"
+
 msgid "Selected hour details"
 msgstr "Valittujen tuntien tiedot"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Aseta atsimuutti: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Aseta atsimuutti: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Aseta atsimuutti: {:.0f}°"
 
 msgid "Sets"
 msgstr "Sarjat"
@@ -1231,15 +1177,6 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Lämpötila"
 
-msgid "Temperature: {}"
-msgstr "Lämpötila: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Lämpötila: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Lämpötila: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Lämpötila: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Lämpötila: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Lämpötila: N/A"
+
+msgid "Temperature: {}"
+msgstr "Lämpötila: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Lämpötila: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Lämpötila: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Kiitos {thanks} ja muut ystävät ehdotuksista"
@@ -1288,20 +1234,26 @@ msgstr "Huomenna"
 msgid "Transit (culmination): {}"
 msgstr "Transit (huippu): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Liikennekorkeus: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Liikennekorkeus: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Liikennekorkeus: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Käännösasetukset"
 
+msgid "Transparency Settings"
+msgstr "Läpinäkyvyysasetukset"
+
 msgid "Transparency level"
 msgstr "Läpinäkyvyystaso"
 
-msgid "Transparency Settings"
-msgstr "Läpinäkyvyysasetukset"
+msgid "UV Index"
+msgstr "UV-indeksi"
+
+msgid "UV N/A"
+msgstr "UV N/A"
 
 msgid "Unhealthy"
 msgstr "Epäterveellistä"
@@ -1336,14 +1288,20 @@ msgstr "Päivitys valmis. Käynnistä Enigma2 uudelleen."
 msgid "Updated {}"
 msgstr "Päivitetty {}"
 
-msgid "Updated: {}"
-msgstr "Päivitetty: {}"
-
 msgid "Updated: N/A"
 msgstr "Päivitetty: N/A"
 
+msgid "Updated: {}"
+msgstr "Päivitetty: {}"
+
 msgid "Updating..."
 msgstr "Päivitetään..."
+
+msgid "Use Google Translate"
+msgstr "Käytä Google Translatea"
+
+msgid "Use arrow keys to scroll"
+msgstr "Käytä nuolinäppäimiä vierittääksesi"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Käytä ← → muuttaaksesi aikaa | OK poistuaksesi"
@@ -1354,26 +1312,8 @@ msgstr "Käytä ←/→/↑/↓ siirtääksesi | OK poistuaksesi"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Käytä ▲/▼ muuttaaksesi ja OK valitaksesi"
 
-msgid "Use arrow keys to scroll"
-msgstr "Käytä nuolinäppäimiä vierittääksesi"
-
-msgid "Use Google Translate"
-msgstr "Käytä Google Translatea"
-
 msgid "Using current time"
 msgstr "Käytetään nykyistä aikaa"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV-indeksi"
-
-msgid "UV N/A"
-msgstr "UV N/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Erittäin rankkaa sadetta"
@@ -1390,11 +1330,11 @@ msgstr "Erittäin matala"
 msgid "Very unhealthy"
 msgstr "Erittäin epäterveellistä"
 
-msgid "Visibility: {} m"
-msgstr "Näkyvyys: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Näkyvyys: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Näkyvyys: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Sää kartta"
 msgid "Weather Maps"
 msgstr "Sääkartat"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Sääkartat (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Sääkartat ja satelliitti"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Sääkartat (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Sääkarttojen diaesitys"
@@ -1447,14 +1387,14 @@ msgstr "Viikon ennuste"
 msgid "Wind"
 msgstr "Tuuli"
 
-msgid "Wind direction"
-msgstr "Tuulen suunta"
-
 msgid "Wind Direction today"
 msgstr "Tuulen suunta tänään"
 
 msgid "Wind Direction tomorrow"
 msgstr "Tuulen suunta huomenna"
+
+msgid "Wind direction"
+msgstr "Tuulen suunta"
 
 msgid "Wind speed"
 msgstr "Tuulen nopeus"
@@ -1465,15 +1405,6 @@ msgstr "Tuulen nopeus {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Tuulen nopeus: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Tuuli: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Tuuli: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Tuuli: {} km/h {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Tuuli: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Tuuli: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Tuuli: N/A"
 
+msgid "Wind: {}"
+msgstr "Tuuli: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Tuuli: {} km/h {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Tuuli: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Ikkunan läpinäkyvyys"
 
 msgid "Yellow - Favorite 2"
 msgstr "Keltainen - suosikki 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Sinulla on jo versio {version} asennettuna.\nHaluatko asentaa sen uudelleen?"
 
 msgid "Zoom In"
 msgstr "Lähennä"
@@ -1498,12 +1435,114 @@ msgstr "Lähennä"
 msgid "Zoom Out"
 msgstr "Loitonna"
 
+msgid "Zoom+"
+msgstr "Zoomaus+"
+
 msgid "Zoom-"
 msgstr "Zoom-"
 
 msgid "Zoom:"
 msgstr "Zoomaa:"
 
-msgid "Zoom+"
-msgstr "Zoomaus+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• SININEN tallentaaksesi nimellä Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- hyppää 500 kaupunkiin\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• VIHREÄ tallentaaksesi suosikiksi 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK valitaksesi city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• PUNAINEN avataksesi hakunäppäimistön\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Käytä nuolinäppäimiä navigoidaksesi \n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• KELTAINEN tallentaaksesi suosikiksi 2\n"
+
+msgid "← Frame"
+msgstr "← Kehys"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- hypätä 100 kaupunkiin\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 päivän ennuste"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API-määritystiedostoa ei löydy!\n"
+#~ "\n"
+#~ "Luo tiedosto:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ " Foreca API -tunnuksillasi."
+
+#~ msgid "Blue"
+#~ msgstr "Sininen"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Kaupungin valintaohje: \n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Määritä Foreca API -tunnistetiedot"
+
+#~ msgid "Distance"
+#~ msgstr "Etäisyys"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Määritystiedoston kirjoittaminen epäonnistui: \n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One -asennus"
+
+#~ msgid "Green"
+#~ msgstr "Vihreä"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Viimeisin päivitys"
+
+#~ msgid "Red"
+#~ msgstr "Punainen"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Sinulla on jo versio {version} asennettuna.\n"
+#~ "Haluatko asentaa sen uudelleen?"

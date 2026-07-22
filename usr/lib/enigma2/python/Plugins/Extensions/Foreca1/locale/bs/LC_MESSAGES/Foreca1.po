@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• PLAVA za spremanje kao Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- da preskočite 500 gradova\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• ZELENO za spremanje kao Favorite 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK za odabir city\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• CRVENO za otvaranje tastature za pretragu\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Koristite tipke sa strelicama za navigaciju \n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- za skok 100 gradova\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• ŽUTO da sačuvate kao favorit 2\n"
-
-msgid "← Frame"
-msgstr "← Okvir"
-
 msgid "0 - Today"
 msgstr "0 - Danas"
 
@@ -67,14 +37,29 @@ msgstr "6 - Danas + 6 dana"
 msgid "7 - Today + 7 days"
 msgstr "7 - Danas + 7 dana"
 
-msgid "7 Day Forecast"
-msgstr "Prognoza za 7 dana"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Danas + 8 dana"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Danas + 9 dana"
+
+msgid "API credentials not configured."
+msgstr "API vjerodajnice nisu konfigurirane."
+
+msgid "API error"
+msgstr "API greška"
+
+msgid "API password"
+msgstr "API lozinka"
+
+msgid "API user"
+msgstr "API korisnik"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Advanced"
 msgstr "Napredno"
@@ -91,35 +76,14 @@ msgstr "Starost od mladog mjeseca: {:.1f} dana"
 msgid "Age: N/A"
 msgstr "Starost: N/A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Ugaoni prečnik: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Ugaoni prečnik: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API konfiguracijski fajl nije pronađen!\n\nMolimo kreirajte fajl:\n{0}\n\nsa vašim Foreca API vjerodajnicama."
-
-msgid "API credentials not configured."
-msgstr "API vjerodajnice nisu konfigurirane."
-
-msgid "API error"
-msgstr "API greška"
-
-msgid "API password"
-msgstr "API lozinka"
-
-msgid "API user"
-msgstr "API korisnik"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Ugaoni prečnik: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Prividna magnituda: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Dodijeli u Favorite 1"
@@ -157,9 +121,6 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Black Moon"
 
-msgid "Blue"
-msgstr "Plava"
-
 msgid "Blue - Home"
 msgstr "Plava - Dom"
 
@@ -193,14 +154,11 @@ msgstr "Provjerite ima li ažuriranja"
 msgid "Choose detail view"
 msgstr "Odaberite detaljan prikaz"
 
-msgid "City list file not found!"
-msgstr "Datoteka liste gradova nije pronađena!"
-
 msgid "City Selection"
 msgstr "Izbor grada"
 
-msgid "City Selection Help:\n\n"
-msgstr "Pomoć za odabir grada:\n\n"
+msgid "City list file not found!"
+msgstr "Datoteka liste gradova nije pronađena!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Čišćenje Foreca One Temp datoteka?"
@@ -247,14 +205,17 @@ msgstr "Oblačno, grmljavina sa kišom"
 msgid "Cold (< 0°C)"
 msgstr "hladno (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Legenda boja"
+
+msgid "Color Selector"
+msgstr "Birač boja"
+
 msgid "Color data"
 msgstr "Podaci o boji"
 
 msgid "Color legend"
 msgstr "Legenda u boji"
-
-msgid "Color Legend"
-msgstr "Legenda boja"
 
 msgid "Color name"
 msgstr "Naziv boje"
@@ -262,14 +223,8 @@ msgstr "Naziv boje"
 msgid "Color select"
 msgstr "Odabir boje"
 
-msgid "Color Selector"
-msgstr "Birač boja"
-
 msgid "Condition: {}"
 msgstr "Stanje: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Konfigurirajte vjerodajnice za Foreca API"
 
 msgid "Continents Weather Maps"
 msgstr "Vremenske karte kontinenata"
@@ -337,20 +292,17 @@ msgstr "Tačka rose: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Tačka rose: N/A"
 
-msgid "Distance"
-msgstr "Udaljenost"
-
 msgid "Distance {} km"
 msgstr "Udaljenost {} km"
+
+msgid "Distance: %s"
+msgstr "Udaljenost: %s"
 
 msgid "Distance: {}"
 msgstr "Udaljenost: {}"
 
 msgid "Distance: {} km"
 msgstr "Udaljenost: {} km"
-
-msgid "Distance: %s"
-msgstr "Udaljenost: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Želite li ga sada instalirati?"
@@ -418,9 +370,6 @@ msgstr "Ekstremno / grmljavina"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Farenhajt, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Nije uspjelo pisanje konfiguracijske datoteke:\n%s"
-
 msgid "Faster: {}s"
 msgstr "Brže: {}s"
 
@@ -430,11 +379,11 @@ msgstr "Favorit 1"
 msgid "Favorite 2"
 msgstr "Favorit 2"
 
-msgid "Favorites details"
-msgstr "Omiljeni detalji"
-
 msgid "Favorites Details"
 msgstr "Favoriti Detalji"
+
+msgid "Favorites details"
+msgstr "Omiljeni detalji"
 
 msgid "Feels like"
 msgstr "Oseća se kao"
@@ -445,15 +394,6 @@ msgstr "Osjećam se kao {}"
 msgid "Feels like {}{}"
 msgstr "Osjećam se kao {}{}"
 
-msgid "Feels like: {}"
-msgstr "Osjećaj kao: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Osjećaj kao: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Osjećaj kao: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Osjećaj kao: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Osjećaj kao: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Osjećaj kao: N/A"
+
+msgid "Feels like: {}"
+msgstr "Osjećaj kao: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Osjećaj kao: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Osjećaj kao: {}°C"
 
 msgid "Finland"
 msgstr "Finska"
@@ -472,20 +421,17 @@ msgstr "First Quarter"
 msgid "Fog"
 msgstr "Magla"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API podešavanje"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API vjerodajnice još nisu konfigurirane. Unesite ih na ekranu za podešavanje."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API postavke su uspješno sačuvane."
 
-msgid "Foreca API Setup"
-msgstr "Foreca API podešavanje"
-
 msgid "Foreca One"
 msgstr "Foreca One"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Mapa {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Maps (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One Menu"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Nema pronađenih stanica"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One Setup"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One stanice: {} stanica u blizini ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One vremenska prognoza"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca One vremenska prognoza"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Mapa {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Pronađeno %d gradova lokalno za '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Pronađeno %d gradova na mreži za '%s'"
 
 msgid "Frame →"
 msgstr "Okvir →"
@@ -537,9 +489,6 @@ msgstr "Velika Britanija"
 
 msgid "Greece"
 msgstr "Grčka"
-
-msgid "Green"
-msgstr "Zeleno"
 
 msgid "Green - Favorite 1"
 msgstr "Zelena - favorit 1"
@@ -580,17 +529,14 @@ msgstr "vruće (30-40°C)"
 msgid "Hour Details"
 msgstr "Detalji o satu"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Vlažnost"
 
-msgid "Humidity: {}%"
-msgstr "Vlažnost: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Vlažnost: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Vlažnost: {}%"
 
 msgid "Hungary"
 msgstr "Mađarska"
@@ -649,9 +595,6 @@ msgstr "Tastatura"
 msgid "Last Quarter"
 msgstr "Last Quarter"
 
-msgid "Last update"
-msgstr "Posljednje ažuriranje"
-
 msgid "Latvia"
 msgstr "Latvija"
 
@@ -706,9 +649,6 @@ msgstr "Luksemburg"
 msgid "Magnitude: N/A"
 msgstr "Magnituda: N/A"
 
-msgid "Map {} selected"
-msgstr "Mapa {} odabrana"
-
 msgid "Map & Tiles Loaded"
 msgstr "Map & Tiles Loaded"
 
@@ -717,6 +657,9 @@ msgstr "Mapa je učitana"
 
 msgid "Map server"
 msgstr "Map server"
+
+msgid "Map {} selected"
+msgstr "Mapa {} odabrana"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,11 +703,11 @@ msgstr "Umjerena kiša"
 msgid "Month"
 msgstr "Mjesec"
 
-msgid "Moon details"
-msgstr "Detalji o mjesecu"
-
 msgid "Moon Details"
 msgstr "Moon Details"
+
+msgid "Moon details"
+msgstr "Detalji o mjesecu"
 
 msgid "Moonrise: {}"
 msgstr "Izlazak mjeseca: {}"
@@ -778,17 +721,17 @@ msgstr "Jutro"
 msgid "Mostly clear"
 msgstr "Uglavnom vedro"
 
-msgid "Move down"
-msgstr "Pomeri se dole"
-
 msgid "Move Down"
 msgstr "Move Down"
 
-msgid "Move up"
-msgstr "Kreni gore"
-
 msgid "Move Up"
 msgstr "Move Up"
+
+msgid "Move down"
+msgstr "Pomeri se dole"
+
+msgid "Move up"
+msgstr "Kreni gore"
 
 msgid "N"
 msgstr "N"
@@ -808,17 +751,26 @@ msgstr "Nova verzija {version} je dostupna."
 msgid "Next"
 msgstr "Sledeći"
 
-msgid "Next frame"
-msgstr "Sledeći kadar"
-
 msgid "Next Image"
 msgstr "Next Image"
+
+msgid "Next frame"
+msgstr "Sledeći kadar"
 
 msgid "Next page"
 msgstr "Sledeća stranica"
 
 msgid "Next time"
 msgstr "Sledeći put"
+
+msgid "No Internet connection detected."
+msgstr "Nije otkrivena internetska veza."
+
+msgid "No OSM tiles"
+msgstr "Nema OSM pločica"
+
+msgid "No cities found locally for '%s'"
+msgstr "Lokalno nije pronađen nijedan grad za '%s'"
 
 msgid "No city selected"
 msgstr "Nije odabran nijedan grad"
@@ -829,14 +781,8 @@ msgstr "Nema podataka"
 msgid "No date available"
 msgstr "Nema raspoloživog datuma"
 
-msgid "No Internet connection detected."
-msgstr "Nije otkrivena internetska veza."
-
 msgid "No location selected"
 msgstr "Nije odabrana lokacija"
-
-msgid "No OSM tiles"
-msgstr "Nema OSM pločica"
 
 msgid "No specific legend available."
 msgstr "Nije dostupna posebna legenda."
@@ -865,9 +811,6 @@ msgstr "Sjeverna Rajna-Vestfalija"
 msgid "Norway"
 msgstr "Norveška"
 
-msgid "Ok - Details"
-msgstr "Ok - Detalji"
-
 msgid "OK - Ext Info"
 msgstr "OK - Ext Info"
 
@@ -876,6 +819,9 @@ msgstr "OK - Prognoza"
 
 msgid "OK - Open Map"
 msgstr "OK - Otvorite mapu"
+
+msgid "Ok - Details"
+msgstr "Ok - Detalji"
 
 msgid "Open Keyboard"
 msgstr "Otvorite tastaturu"
@@ -922,17 +868,17 @@ msgstr "Oblačno, grmljavina sa kišom"
 msgid "Overnight"
 msgstr "Noćenje"
 
-msgid "Page down"
-msgstr "Stranica dolje"
-
 msgid "Page Down"
 msgstr "Page Down"
 
-msgid "Page up"
-msgstr "Stranica gore"
-
 msgid "Page Up"
 msgstr "Page Up"
+
+msgid "Page down"
+msgstr "Stranica dolje"
+
+msgid "Page up"
+msgstr "Stranica gore"
 
 msgid "Pan down"
 msgstr "Pan down"
@@ -1012,12 +958,6 @@ msgstr "Pritisnite CRVENU za ponovno pretraživanje"
 msgid "Pressure"
 msgstr "Pritisak"
 
-msgid "Pressure: {}"
-msgstr "Pritisak: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Pritisak: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Pritisak: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Pritisak: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Pritisak: N/A"
 
+msgid "Pressure: {}"
+msgstr "Pritisak: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Pritisak: {} hPa"
+
 msgid "Prev"
 msgstr "Prev"
 
 msgid "Previous"
 msgstr "Prethodno"
 
-msgid "Previous frame"
-msgstr "Prethodni kadar"
-
 msgid "Previous Image"
 msgstr "Prethodna slika"
+
+msgid "Previous frame"
+msgstr "Prethodni kadar"
 
 msgid "Previous page"
 msgstr "Prethodna stranica"
@@ -1060,9 +1006,6 @@ msgstr "Kiša: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer Radar"
 
-msgid "Red"
-msgstr "Crveni"
-
 msgid "Red - Color select"
 msgstr "Crvena - odabir boje"
 
@@ -1084,11 +1027,11 @@ msgstr "Strelica desno - Sljedeći dan"
 msgid "Rise"
 msgstr "Ustani"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Azimut uspona: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Azimut uspona: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Azimut uspona: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusija"
@@ -1132,11 +1075,14 @@ msgstr "Pretraga prvo pokušava na mreži, ako ne uspije koristi lokalnu listu."
 msgid "Search your City"
 msgstr "Pretražite svoj grad"
 
+msgid "Searching for '%s'..."
+msgstr "Traženje '%s'..."
+
 msgid "Select"
 msgstr "Odaberite"
 
-msgid "Select {} unit"
-msgstr "Odaberite {} jedinicu"
+msgid "Select Region"
+msgstr "Odaberite Region"
 
 msgid "Select a city"
 msgstr "Odaberite grad"
@@ -1144,23 +1090,23 @@ msgstr "Odaberite grad"
 msgid "Select a map with OK"
 msgstr "Odaberite kartu sa OK"
 
-msgid "Select Region"
-msgstr "Odaberite Region"
-
 msgid "Select unit system"
 msgstr "Odaberite sistem jedinica"
 
 msgid "Select wind unit"
 msgstr "Odaberite jedinicu vjetra"
 
+msgid "Select {} unit"
+msgstr "Odaberite {} jedinicu"
+
 msgid "Selected hour details"
 msgstr "Detalji odabranog sata"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Postavite azimut: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Postavite azimut: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Postavite azimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Setovi"
@@ -1231,15 +1177,6 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Temperatura"
 
-msgid "Temperature: {}"
-msgstr "Temperatura: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Temperatura: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Temperatura: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Temperatura: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Temperatura: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Temperatura: N/A"
+
+msgid "Temperature: {}"
+msgstr "Temperatura: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatura: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatura: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Hvala {thanks} i drugim prijateljima na prijedlozima"
@@ -1288,20 +1234,26 @@ msgstr "sutra"
 msgid "Transit (culmination): {}"
 msgstr "Tranzit (kulminacija): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Tranzitna visina: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Tranzitna visina: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Tranzitna visina: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Postavke prijevoda"
 
+msgid "Transparency Settings"
+msgstr "Postavke transparentnosti"
+
 msgid "Transparency level"
 msgstr "Nivo transparentnosti"
 
-msgid "Transparency Settings"
-msgstr "Postavke transparentnosti"
+msgid "UV Index"
+msgstr "UV indeks"
+
+msgid "UV N/A"
+msgstr "UV N/A"
 
 msgid "Unhealthy"
 msgstr "Nezdravo"
@@ -1336,14 +1288,20 @@ msgstr "Ažuriranje je završeno. Ponovo pokrenite Enigma2."
 msgid "Updated {}"
 msgstr "Ažurirano {}"
 
-msgid "Updated: {}"
-msgstr "Ažurirano: {}"
-
 msgid "Updated: N/A"
 msgstr "Ažurirano: N/A"
 
+msgid "Updated: {}"
+msgstr "Ažurirano: {}"
+
 msgid "Updating..."
 msgstr "Ažuriranje..."
+
+msgid "Use Google Translate"
+msgstr "Koristite Google prevodilac"
+
+msgid "Use arrow keys to scroll"
+msgstr "Koristite tipke sa strelicama za pomicanje"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Koristite ← → za promjenu vremena | OK za izlaz"
@@ -1354,26 +1312,8 @@ msgstr "Koristite ←/→/↑/↓ za pomicanje | OK za izlaz"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Koristite ▲/▼ za promjenu, OK za odabir"
 
-msgid "Use arrow keys to scroll"
-msgstr "Koristite tipke sa strelicama za pomicanje"
-
-msgid "Use Google Translate"
-msgstr "Koristite Google prevodilac"
-
 msgid "Using current time"
 msgstr "Korištenje trenutnog vremena"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV indeks"
-
-msgid "UV N/A"
-msgstr "UV N/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Veoma jaka kiša"
@@ -1390,11 +1330,11 @@ msgstr "Veoma nisko"
 msgid "Very unhealthy"
 msgstr "Veoma nezdravo"
 
-msgid "Visibility: {} m"
-msgstr "Vidljivost: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Vidljivost: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Vidljivost: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Vremenska karta"
 msgid "Weather Maps"
 msgstr "Vremenske karte"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Vremenske karte (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Vremenske karte i satelit"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Vremenske karte (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Vremenske karte Slideshow"
@@ -1447,14 +1387,14 @@ msgstr "Weekly Forecast"
 msgid "Wind"
 msgstr "Vjetar"
 
-msgid "Wind direction"
-msgstr "Smjer vjetra"
-
 msgid "Wind Direction today"
 msgstr "Smjer vjetra danas"
 
 msgid "Wind Direction tomorrow"
 msgstr "Smjer vjetra sutra"
+
+msgid "Wind direction"
+msgstr "Smjer vjetra"
 
 msgid "Wind speed"
 msgstr "Brzina vjetra"
@@ -1465,15 +1405,6 @@ msgstr "brzina vjetra {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Brzina vjetra: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Vjetar: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Vjetar: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Vjetar: {} km/h {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Vjetar: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Vjetar: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Vjetar: N/A"
 
+msgid "Wind: {}"
+msgstr "Vjetar: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vjetar: {} km/h {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vjetar: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Transparentnost prozora"
 
 msgid "Yellow - Favorite 2"
 msgstr "Žuta - Favorit 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Već imate instaliranu verziju {version}.\nŽelite li je ponovo instalirati?"
 
 msgid "Zoom In"
 msgstr "Zoom In"
@@ -1498,12 +1435,114 @@ msgstr "Zoom In"
 msgid "Zoom Out"
 msgstr "Zoom Out"
 
+msgid "Zoom+"
+msgstr "Zoom+"
+
 msgid "Zoom-"
 msgstr "Zoom-"
 
 msgid "Zoom:"
 msgstr "zumiranje:"
 
-msgid "Zoom+"
-msgstr "Zoom+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• PLAVA za spremanje kao Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- da preskočite 500 gradova\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ZELENO za spremanje kao Favorite 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK za odabir city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• CRVENO za otvaranje tastature za pretragu\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Koristite tipke sa strelicama za navigaciju \n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• ŽUTO da sačuvate kao favorit 2\n"
+
+msgid "← Frame"
+msgstr "← Okvir"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- za skok 100 gradova\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Prognoza za 7 dana"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API konfiguracijski fajl nije pronađen!\n"
+#~ "\n"
+#~ "Molimo kreirajte fajl:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "sa vašim Foreca API vjerodajnicama."
+
+#~ msgid "Blue"
+#~ msgstr "Plava"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Pomoć za odabir grada:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Konfigurirajte vjerodajnice za Foreca API"
+
+#~ msgid "Distance"
+#~ msgstr "Udaljenost"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nije uspjelo pisanje konfiguracijske datoteke:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One Setup"
+
+#~ msgid "Green"
+#~ msgstr "Zeleno"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Posljednje ažuriranje"
+
+#~ msgid "Red"
+#~ msgstr "Crveni"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Već imate instaliranu verziju {version}.\n"
+#~ "Želite li je ponovo instalirati?"

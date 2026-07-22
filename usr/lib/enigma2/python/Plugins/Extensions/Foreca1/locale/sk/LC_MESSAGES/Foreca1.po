@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• MODRÝ pre uloženie ako Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- pre skok o 500 miest\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• ZELENÁ na uloženie ako obľúbené 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK pre výber mesta\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ČERVENÁ na otvorenie vyhľadávacej klávesnice\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Na navigáciu \n použite klávesy so šípkami\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- pre skok o 100 miest\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• ŽLTÉ pre uloženie ako Obľúbené 2\n"
-
-msgid "← Frame"
-msgstr "← Rám"
-
 msgid "0 - Today"
 msgstr "0 - Dnes"
 
@@ -67,14 +37,29 @@ msgstr "6 - Dnes + 6 dní"
 msgid "7 - Today + 7 days"
 msgstr "7 - Dnes + 7 dní"
 
-msgid "7 Day Forecast"
-msgstr "Predpoveď na 7 dní"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Dnes + 8 dní"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Dnes + 9 dní"
+
+msgid "API credentials not configured."
+msgstr "Poverenia API nie sú nakonfigurované."
+
+msgid "API error"
+msgstr "Chyba API"
+
+msgid "API password"
+msgstr "API heslo"
+
+msgid "API user"
+msgstr "Používateľ API"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Advanced"
 msgstr "Pokročilé"
@@ -91,35 +76,14 @@ msgstr "Vek od Novu: {:.1f} dní"
 msgid "Age: N/A"
 msgstr "Vek: N/A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Uhlový priemer: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Uhlový priemer: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "Konfiguračný súbor API sa nenašiel!\n\nVytvorte súbor:\n{0}\n\ns vašimi povereniami rozhrania Foreca API."
-
-msgid "API credentials not configured."
-msgstr "Poverenia API nie sú nakonfigurované."
-
-msgid "API error"
-msgstr "Chyba API"
-
-msgid "API password"
-msgstr "API heslo"
-
-msgid "API user"
-msgstr "Používateľ API"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Uhlový priemer: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Zdanlivá magnitúda: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Priradiť k obľúbeným 1"
@@ -157,9 +121,6 @@ msgstr "Berlín"
 msgid "Black Moon"
 msgstr "Čierna Luna"
 
-msgid "Blue"
-msgstr "Modrá"
-
 msgid "Blue - Home"
 msgstr "Modrá - Domov"
 
@@ -193,14 +154,11 @@ msgstr "Skontrolujte aktualizácie"
 msgid "Choose detail view"
 msgstr "Vyberte zobrazenie detailov"
 
-msgid "City list file not found!"
-msgstr "Súbor zoznamu miest sa nenašiel!"
-
 msgid "City Selection"
 msgstr "Výber mesta"
 
-msgid "City Selection Help:\n\n"
-msgstr "Pomocník pre výber mesta:\n\n"
+msgid "City list file not found!"
+msgstr "Súbor zoznamu miest sa nenašiel!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Vyčistiť súbory Foreca One Temp?"
@@ -247,14 +205,17 @@ msgstr "Oblačno, búrky s dažďom"
 msgid "Cold (< 0°C)"
 msgstr "Chlad (< 0 °C)"
 
+msgid "Color Legend"
+msgstr "Farba Legenda"
+
+msgid "Color Selector"
+msgstr "Výber farieb"
+
 msgid "Color data"
 msgstr "Údaje o farbe"
 
 msgid "Color legend"
 msgstr "Farebná legenda"
-
-msgid "Color Legend"
-msgstr "Farba Legenda"
 
 msgid "Color name"
 msgstr "Názov farby"
@@ -262,14 +223,8 @@ msgstr "Názov farby"
 msgid "Color select"
 msgstr "Výber farby"
 
-msgid "Color Selector"
-msgstr "Výber farieb"
-
 msgid "Condition: {}"
 msgstr "Podmienka: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Nakonfigurujte poverenia rozhrania Foreca API"
 
 msgid "Continents Weather Maps"
 msgstr "Poveternostné mapy kontinentov"
@@ -337,20 +292,17 @@ msgstr "Rosný bod: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Rosný bod: N/A"
 
-msgid "Distance"
-msgstr "Vzdialenosť"
-
 msgid "Distance {} km"
 msgstr "Vzdialenosť {} km"
+
+msgid "Distance: %s"
+msgstr "Vzdialenosť: %s"
 
 msgid "Distance: {}"
 msgstr "Vzdialenosť: {}"
 
 msgid "Distance: {} km"
 msgstr "Vzdialenosť: {} km"
-
-msgid "Distance: %s"
-msgstr "Vzdialenosť: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Chcete ho nainštalovať teraz?"
@@ -418,9 +370,6 @@ msgstr "Extrémne / búrky"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Nepodarilo sa zapísať konfiguračný súbor: \n%s"
-
 msgid "Faster: {}s"
 msgstr "Rýchlejšie: {}s"
 
@@ -430,11 +379,11 @@ msgstr "Obľúbený 1"
 msgid "Favorite 2"
 msgstr "Obľúbený 2"
 
-msgid "Favorites details"
-msgstr "Podrobnosti o obľúbených"
-
 msgid "Favorites Details"
 msgstr "Detaily obľúbených položiek"
+
+msgid "Favorites details"
+msgstr "Podrobnosti o obľúbených"
 
 msgid "Feels like"
 msgstr "Cítim sa ako"
@@ -445,15 +394,6 @@ msgstr "Cíti sa ako {}"
 msgid "Feels like {}{}"
 msgstr "Cíti sa ako {}{}"
 
-msgid "Feels like: {}"
-msgstr "Pocit: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Pocit: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Pocitovo: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Pocit ako: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Pocit: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Pocit: N/A"
+
+msgid "Feels like: {}"
+msgstr "Pocit: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Pocit: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Pocitovo: {}°C"
 
 msgid "Finland"
 msgstr "Fínsko"
@@ -472,20 +421,17 @@ msgstr "Prvý štvrťrok"
 msgid "Fog"
 msgstr "Hmla"
 
+msgid "Foreca API Setup"
+msgstr "Nastavenie rozhrania Foreca API"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Prihlasovacie údaje rozhrania Foreca API ešte nie sú nakonfigurované. Zadajte ich na obrazovke nastavenia."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Nastavenia rozhrania Foreca API boli úspešne uložené."
 
-msgid "Foreca API Setup"
-msgstr "Nastavenie rozhrania Foreca API"
-
 msgid "Foreca One"
 msgstr "Foreca One"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Mapa {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Živé mapy Foreca One (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One Menu"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Neboli nájdené žiadne stanice"
 
-msgid "Foreca One Setup"
-msgstr "Nastavenie Foreca One"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stations: {} staníc v okolí ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Predpoveď počasia jedna"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Predpoveď One Weather and Forecast ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Predpoveď počasia jedna"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Mapa {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Našlo sa %d miest lokálne pre '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Našlo sa %d miest online pre '%s'"
 
 msgid "Frame →"
 msgstr "Rám →"
@@ -537,9 +489,6 @@ msgstr "Veľká Británia"
 
 msgid "Greece"
 msgstr "Grécko"
-
-msgid "Green"
-msgstr "Zelená"
 
 msgid "Green - Favorite 1"
 msgstr "Zelená - obľúbená 1"
@@ -580,17 +529,14 @@ msgstr "Horúce (30-40 °C)"
 msgid "Hour Details"
 msgstr "Podrobnosti o hodine"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Vlhkosť"
 
-msgid "Humidity: {}%"
-msgstr "Vlhkosť: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Vlhkosť: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Vlhkosť: {}%"
 
 msgid "Hungary"
 msgstr "Maďarsko"
@@ -649,9 +595,6 @@ msgstr "Klávesnica"
 msgid "Last Quarter"
 msgstr "Posledný štvrťrok"
 
-msgid "Last update"
-msgstr "Posledná aktualizácia"
-
 msgid "Latvia"
 msgstr "Lotyšsko"
 
@@ -706,9 +649,6 @@ msgstr "Luxembursko"
 msgid "Magnitude: N/A"
 msgstr "Veľkosť: N/A"
 
-msgid "Map {} selected"
-msgstr "Vybratá mapa {}"
-
 msgid "Map & Tiles Loaded"
 msgstr "Mapa a dlaždice načítané"
 
@@ -717,6 +657,9 @@ msgstr "Mapa načítaná"
 
 msgid "Map server"
 msgstr "Mapový server"
+
+msgid "Map {} selected"
+msgstr "Vybratá mapa {}"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Meklenbursko-Predné Pomoransko"
@@ -760,11 +703,11 @@ msgstr "Mierny dážď"
 msgid "Month"
 msgstr "mesiac"
 
-msgid "Moon details"
-msgstr "Detaily mesiaca"
-
 msgid "Moon Details"
 msgstr "Podrobnosti o mesiaci"
+
+msgid "Moon details"
+msgstr "Detaily mesiaca"
 
 msgid "Moonrise: {}"
 msgstr "Východ mesiaca: {}"
@@ -778,17 +721,17 @@ msgstr "ráno"
 msgid "Mostly clear"
 msgstr "Väčšinou jasné"
 
-msgid "Move down"
-msgstr "Presuňte sa nadol"
-
 msgid "Move Down"
 msgstr "Posunúť nadol"
 
-msgid "Move up"
-msgstr "Posunúť sa hore"
-
 msgid "Move Up"
 msgstr "Move Up"
+
+msgid "Move down"
+msgstr "Presuňte sa nadol"
+
+msgid "Move up"
+msgstr "Posunúť sa hore"
 
 msgid "N"
 msgstr "N"
@@ -808,17 +751,26 @@ msgstr "K dispozícii je nová verzia {version}."
 msgid "Next"
 msgstr "Ďalej"
 
-msgid "Next frame"
-msgstr "Ďalší rám"
-
 msgid "Next Image"
 msgstr "Ďalší obrázok"
+
+msgid "Next frame"
+msgstr "Ďalší rám"
 
 msgid "Next page"
 msgstr "Ďalšia strana"
 
 msgid "Next time"
 msgstr "Nabudúce"
+
+msgid "No Internet connection detected."
+msgstr "Nebolo zistené žiadne internetové pripojenie."
+
+msgid "No OSM tiles"
+msgstr "Žiadne dlaždice OSM"
+
+msgid "No cities found locally for '%s'"
+msgstr "Pre '%s' sa nenašli žiadne lokálne mestá"
 
 msgid "No city selected"
 msgstr "Nie je vybraté žiadne mesto"
@@ -829,14 +781,8 @@ msgstr "Žiadne údaje"
 msgid "No date available"
 msgstr "Nie je k dispozícii žiadny dátum"
 
-msgid "No Internet connection detected."
-msgstr "Nebolo zistené žiadne internetové pripojenie."
-
 msgid "No location selected"
 msgstr "Nie je vybraté žiadne miesto"
-
-msgid "No OSM tiles"
-msgstr "Žiadne dlaždice OSM"
 
 msgid "No specific legend available."
 msgstr "Nie je k dispozícii žiadna konkrétna legenda."
@@ -865,9 +811,6 @@ msgstr "Severné Porýnie-Vestfálsko"
 msgid "Norway"
 msgstr "Nórsko"
 
-msgid "Ok - Details"
-msgstr "Ok - Podrobnosti"
-
 msgid "OK - Ext Info"
 msgstr "OK - Ext Info"
 
@@ -876,6 +819,9 @@ msgstr "OK - Predpoveď"
 
 msgid "OK - Open Map"
 msgstr "OK - Otvoriť mapu"
+
+msgid "Ok - Details"
+msgstr "Ok - Podrobnosti"
 
 msgid "Open Keyboard"
 msgstr "Otvorte klávesnicu"
@@ -922,17 +868,17 @@ msgstr "Zamračené, búrky s dažďom"
 msgid "Overnight"
 msgstr "Cez noc"
 
-msgid "Page down"
-msgstr "O stránku nižšie"
-
 msgid "Page Down"
 msgstr "Page Down"
 
-msgid "Page up"
-msgstr "Strana hore"
-
 msgid "Page Up"
 msgstr "Page Up"
+
+msgid "Page down"
+msgstr "O stránku nižšie"
+
+msgid "Page up"
+msgstr "Strana hore"
 
 msgid "Pan down"
 msgstr "Posuňte nadol"
@@ -1012,12 +958,6 @@ msgstr "Pre opätovné vyhľadávanie stlačte ČERVENÉ tlačidlo"
 msgid "Pressure"
 msgstr "Tlak"
 
-msgid "Pressure: {}"
-msgstr "Tlak: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Tlak: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Tlak: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Tlak: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Tlak: N/A"
 
+msgid "Pressure: {}"
+msgstr "Tlak: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Tlak: {} hPa"
+
 msgid "Prev"
 msgstr "Predch"
 
 msgid "Previous"
 msgstr "Predchádzajúce"
 
-msgid "Previous frame"
-msgstr "Predchádzajúci rám"
-
 msgid "Previous Image"
 msgstr "Predchádzajúci obrázok"
+
+msgid "Previous frame"
+msgstr "Predchádzajúci rám"
 
 msgid "Previous page"
 msgstr "Predchádzajúca strana"
@@ -1060,9 +1006,6 @@ msgstr "Dážď: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
 
-msgid "Red"
-msgstr "Červená"
-
 msgid "Red - Color select"
 msgstr "Červená - výber farby"
 
@@ -1084,11 +1027,11 @@ msgstr "Šípka doprava - Ďalší deň"
 msgid "Rise"
 msgstr "Vstať"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Azimut stúpania: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Azimut stúpania: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Azimut stúpania: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusko"
@@ -1132,11 +1075,14 @@ msgstr "Vyhľadávanie sa najprv pokúsi online, ak zlyhá, použije miestny zoz
 msgid "Search your City"
 msgstr "Vyhľadajte svoje mesto"
 
+msgid "Searching for '%s'..."
+msgstr "Hľadá sa '%s'..."
+
 msgid "Select"
 msgstr "Vyberte"
 
-msgid "Select {} unit"
-msgstr "Vyberte jednotku {}"
+msgid "Select Region"
+msgstr "Vyberte možnosť Región"
 
 msgid "Select a city"
 msgstr "Vyberte mesto"
@@ -1144,23 +1090,23 @@ msgstr "Vyberte mesto"
 msgid "Select a map with OK"
 msgstr "Pomocou OK vyberte mapu"
 
-msgid "Select Region"
-msgstr "Vyberte možnosť Región"
-
 msgid "Select unit system"
 msgstr "Vyberte systém jednotiek"
 
 msgid "Select wind unit"
 msgstr "Vyberte veternú jednotku"
 
+msgid "Select {} unit"
+msgstr "Vyberte jednotku {}"
+
 msgid "Selected hour details"
 msgstr "Podrobnosti o vybratej hodine"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Nastavte azimut: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Nastaviť azimut: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Nastavte azimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Súpravy"
@@ -1231,15 +1177,6 @@ msgstr "tepl"
 msgid "Temperature"
 msgstr "Teplota"
 
-msgid "Temperature: {}"
-msgstr "Teplota: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Teplota: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Teplota: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Teplota: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Teplota: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Teplota: N/A"
+
+msgid "Temperature: {}"
+msgstr "Teplota: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Teplota: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Teplota: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Ďakujeme {thanks} a ostatným priateľom za návrhy"
@@ -1288,20 +1234,26 @@ msgstr "zajtra"
 msgid "Transit (culmination): {}"
 msgstr "Tranzit (kulminácia): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Tranzitná výška: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Tranzitná výška: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Tranzitná výška: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Nastavenia prekladu"
 
+msgid "Transparency Settings"
+msgstr "Nastavenia priehľadnosti"
+
 msgid "Transparency level"
 msgstr "Úroveň transparentnosti"
 
-msgid "Transparency Settings"
-msgstr "Nastavenia priehľadnosti"
+msgid "UV Index"
+msgstr "UV index"
+
+msgid "UV N/A"
+msgstr "UV N/A"
 
 msgid "Unhealthy"
 msgstr "Nezdravé"
@@ -1336,14 +1288,20 @@ msgstr "Aktualizácia dokončená. Reštartujte Enigmu2."
 msgid "Updated {}"
 msgstr "Aktualizované {}"
 
-msgid "Updated: {}"
-msgstr "Aktualizované: {}"
-
 msgid "Updated: N/A"
 msgstr "Aktualizované: N/A"
 
+msgid "Updated: {}"
+msgstr "Aktualizované: {}"
+
 msgid "Updating..."
 msgstr "Aktualizuje sa..."
+
+msgid "Use Google Translate"
+msgstr "Použite Prekladač Google"
+
+msgid "Use arrow keys to scroll"
+msgstr "Na posúvanie použite klávesy so šípkami"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Pomocou ← → zmeňte čas | OK pre ukončenie"
@@ -1354,26 +1312,8 @@ msgstr "Použite ←/→/↑/↓ na pohyb | OK pre ukončenie"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Použite ▲/▼ na zmenu, OK na výber"
 
-msgid "Use arrow keys to scroll"
-msgstr "Na posúvanie použite klávesy so šípkami"
-
-msgid "Use Google Translate"
-msgstr "Použite Prekladač Google"
-
 msgid "Using current time"
 msgstr "Použitie aktuálneho času"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV index"
-
-msgid "UV N/A"
-msgstr "UV N/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Veľmi silný dážď"
@@ -1390,11 +1330,11 @@ msgstr "Veľmi nízka"
 msgid "Very unhealthy"
 msgstr "Veľmi nezdravé"
 
-msgid "Visibility: {} m"
-msgstr "Viditeľnosť: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Viditeľnosť: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Viditeľnosť: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Mapa počasia"
 msgid "Weather Maps"
 msgstr "Mapy počasia"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Mapy počasia (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Poveternostné mapy a satelit"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Mapy počasia (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Prezentácia máp počasia"
@@ -1447,14 +1387,14 @@ msgstr "Týždenná predpoveď"
 msgid "Wind"
 msgstr "Vietor"
 
-msgid "Wind direction"
-msgstr "Smer vetra"
-
 msgid "Wind Direction today"
 msgstr "Smer vetra dnes"
 
 msgid "Wind Direction tomorrow"
 msgstr "Smer vetra zajtra"
+
+msgid "Wind direction"
+msgstr "Smer vetra"
 
 msgid "Wind speed"
 msgstr "Rýchlosť vetra"
@@ -1465,15 +1405,6 @@ msgstr "Rýchlosť vetra {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Rýchlosť vetra: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Vietor: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Vietor: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Vietor: {} km/h {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Vietor: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Vietor: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Vietor: N/A"
 
+msgid "Wind: {}"
+msgstr "Vietor: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vietor: {} km/h {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vietor: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Priehľadnosť okien"
 
 msgid "Yellow - Favorite 2"
 msgstr "Žltá - obľúbená 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Verziu {version} už máte nainštalovanú.\nChcete ju preinštalovať?"
 
 msgid "Zoom In"
 msgstr "Priblížiť"
@@ -1498,12 +1435,116 @@ msgstr "Priblížiť"
 msgid "Zoom Out"
 msgstr "Oddialiť"
 
+msgid "Zoom+"
+msgstr "Zoom+"
+
 msgid "Zoom-"
 msgstr "Zoom-"
 
 msgid "Zoom:"
 msgstr "Lupa:"
 
-msgid "Zoom+"
-msgstr "Zoom+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• MODRÝ pre uloženie ako Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- pre skok o 500 miest\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ZELENÁ na uloženie ako obľúbené 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK pre výber mesta\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ČERVENÁ na otvorenie vyhľadávacej klávesnice\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Na navigáciu použite klávesy so šípkami\n"
+"• Na navigáciu \n"
+" použite klávesy so šípkami\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• ŽLTÉ pre uloženie ako Obľúbené 2\n"
+
+msgid "← Frame"
+msgstr "← Rám"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- pre skok o 100 miest\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Predpoveď na 7 dní"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "Konfiguračný súbor API sa nenašiel!\n"
+#~ "\n"
+#~ "Vytvorte súbor:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "s vašimi povereniami rozhrania Foreca API."
+
+#~ msgid "Blue"
+#~ msgstr "Modrá"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Pomocník pre výber mesta:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Nakonfigurujte poverenia rozhrania Foreca API"
+
+#~ msgid "Distance"
+#~ msgstr "Vzdialenosť"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Nepodarilo sa zapísať konfiguračný súbor: \n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Nastavenie Foreca One"
+
+#~ msgid "Green"
+#~ msgstr "Zelená"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Posledná aktualizácia"
+
+#~ msgid "Red"
+#~ msgstr "Červená"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Verziu {version} už máte nainštalovanú.\n"
+#~ "Chcete ju preinštalovať?"

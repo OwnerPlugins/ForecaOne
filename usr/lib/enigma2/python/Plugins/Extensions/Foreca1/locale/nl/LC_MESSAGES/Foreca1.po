@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} u {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLAUW om op te slaan als Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- om 500 steden te springen\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• GROEN om op te slaan als Favoriet 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK om stad\n te selecteren\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ROOD om zoektoetsenbord\n te openen\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Gebruik de pijltoetsen om door \n te navigeren\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- om 100 steden te springen\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• GEEL om op te slaan als Favoriet 2\n"
-
-msgid "← Frame"
-msgstr "← Kader"
-
 msgid "0 - Today"
 msgstr "0 - Vandaag"
 
@@ -67,14 +37,29 @@ msgstr "6 - Vandaag + 6 dagen"
 msgid "7 - Today + 7 days"
 msgstr "7 - Vandaag + 7 dagen"
 
-msgid "7 Day Forecast"
-msgstr "7-daagse voorspelling"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Vandaag + 8 dagen"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Vandaag + 9 dagen"
+
+msgid "API credentials not configured."
+msgstr "API-referenties niet geconfigureerd."
+
+msgid "API error"
+msgstr "API-fout"
+
+msgid "API password"
+msgstr "API-wachtwoord"
+
+msgid "API user"
+msgstr "API-gebruiker"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N.v.t"
 
 msgid "Advanced"
 msgstr "Geavanceerd"
@@ -91,35 +76,14 @@ msgstr "Leeftijd sinds Nieuwe Maan: {:.1f} dagen"
 msgid "Age: N/A"
 msgstr "Leeftijd: n.v.t"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Hoekdiameter: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Hoekdiameter: N.v.t"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API-configuratiebestand niet gevonden!\n\nMaak bestand:\n{0}\n\nmet uw Foreca API-inloggegevens."
-
-msgid "API credentials not configured."
-msgstr "API-referenties niet geconfigureerd."
-
-msgid "API error"
-msgstr "API-fout"
-
-msgid "API password"
-msgstr "API-wachtwoord"
-
-msgid "API user"
-msgstr "API-gebruiker"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Hoekdiameter: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Schijnbare magnitude: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N.v.t"
 
 msgid "Assign to Favorite 1"
 msgstr "Toewijzen aan favoriet 1"
@@ -157,9 +121,6 @@ msgstr "Berlijn"
 msgid "Black Moon"
 msgstr "Zwarte Maan"
 
-msgid "Blue"
-msgstr "Blauw"
-
 msgid "Blue - Home"
 msgstr "Blauw - Thuis"
 
@@ -193,14 +154,11 @@ msgstr "Controleer op updates"
 msgid "Choose detail view"
 msgstr "Kies detailweergave"
 
-msgid "City list file not found!"
-msgstr "Stadslijstbestand niet gevonden!"
-
 msgid "City Selection"
 msgstr "Stad selectie"
 
-msgid "City Selection Help:\n\n"
-msgstr "Hulp voor stadselectie:\n\n"
+msgid "City list file not found!"
+msgstr "Stadslijstbestand niet gevonden!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Foreca One tijdelijke bestanden opruimen?"
@@ -247,14 +205,17 @@ msgstr "Bewolkt, onweer met regen"
 msgid "Cold (< 0°C)"
 msgstr "Koud (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Kleurlegende"
+
+msgid "Color Selector"
+msgstr "Kleurkiezer"
+
 msgid "Color data"
 msgstr "Kleurgegevens"
 
 msgid "Color legend"
 msgstr "Kleur legende"
-
-msgid "Color Legend"
-msgstr "Kleurlegende"
 
 msgid "Color name"
 msgstr "Kleur naam"
@@ -262,14 +223,8 @@ msgstr "Kleur naam"
 msgid "Color select"
 msgstr "Kleur selecteren"
 
-msgid "Color Selector"
-msgstr "Kleurkiezer"
-
 msgid "Condition: {}"
 msgstr "Voorwaarde: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Configureer Foreca API-referenties"
 
 msgid "Continents Weather Maps"
 msgstr "Continenten weerkaarten"
@@ -337,20 +292,17 @@ msgstr "Dauwpunt: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Dauwpunt: N.v.t"
 
-msgid "Distance"
-msgstr "Afstand"
-
 msgid "Distance {} km"
 msgstr "Afstand {} km"
+
+msgid "Distance: %s"
+msgstr "Afstand: %s"
 
 msgid "Distance: {}"
 msgstr "Afstand: {}"
 
 msgid "Distance: {} km"
 msgstr "Afstand: {} km"
-
-msgid "Distance: %s"
-msgstr "Afstand: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Wil je het nu installeren?"
@@ -418,9 +370,6 @@ msgstr "Extreme / onweersbuien"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Kan configuratiebestand niet schrijven: \n%s"
-
 msgid "Faster: {}s"
 msgstr "Sneller: {}s"
 
@@ -430,10 +379,10 @@ msgstr "Favoriet 1"
 msgid "Favorite 2"
 msgstr "Favoriet 2"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "Favorietendetails"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "Favorietendetails"
 
 msgid "Feels like"
@@ -445,15 +394,6 @@ msgstr "Voelt als {}"
 msgid "Feels like {}{}"
 msgstr "Het voelt als {}{}"
 
-msgid "Feels like: {}"
-msgstr "Voelt als: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Voelt als: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Voelt als: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Voelt als: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Voelt als: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Voelt als: n.v.t"
+
+msgid "Feels like: {}"
+msgstr "Voelt als: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Voelt als: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Voelt als: {}°C"
 
 msgid "Finland"
 msgstr "Finland"
@@ -472,20 +421,17 @@ msgstr "Eerste kwartaal"
 msgid "Fog"
 msgstr "Mist"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API-installatie"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API-inloggegevens zijn nog niet geconfigureerd. Voer ze in het configuratiescherm in."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API-instellingen zijn succesvol opgeslagen."
 
-msgid "Foreca API Setup"
-msgstr "Foreca API-installatie"
-
 msgid "Foreca One"
 msgstr "Foreca Eén"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca Eén | Kaart {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live-kaarten (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One-menu"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Geen zenders gevonden"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One-opstelling"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stations: {} stations in de buurt ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Weersverwachting"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weersverwachting ver. %S"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca One Weersverwachting"
+msgid "Foreca One | Map {}"
+msgstr "Foreca Eén | Kaart {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "%d steden lokaal gevonden voor '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "%d steden online gevonden voor '%s'"
 
 msgid "Frame →"
 msgstr "Kader →"
@@ -537,9 +489,6 @@ msgstr "Groot-Brittannië"
 
 msgid "Greece"
 msgstr "Griekenland"
-
-msgid "Green"
-msgstr "Groente"
 
 msgid "Green - Favorite 1"
 msgstr "Groen - Favoriet 1"
@@ -580,17 +529,14 @@ msgstr "Heet (30-40°C)"
 msgid "Hour Details"
 msgstr "Uurgegevens"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Vochtigheid"
 
-msgid "Humidity: {}%"
-msgstr "Vochtigheid: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Vochtigheid: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Vochtigheid: {}%"
 
 msgid "Hungary"
 msgstr "Hongarije"
@@ -649,9 +595,6 @@ msgstr "Toetsenbord"
 msgid "Last Quarter"
 msgstr "Laatste kwartaal"
 
-msgid "Last update"
-msgstr "Laatste update"
-
 msgid "Latvia"
 msgstr "Letland"
 
@@ -706,9 +649,6 @@ msgstr "Luxemburg"
 msgid "Magnitude: N/A"
 msgstr "Omvang: N.v.t"
 
-msgid "Map {} selected"
-msgstr "Kaart {} geselecteerd"
-
 msgid "Map & Tiles Loaded"
 msgstr "Kaart en tegels geladen"
 
@@ -717,6 +657,9 @@ msgstr "Kaart geladen"
 
 msgid "Map server"
 msgstr "Kaartserver"
+
+msgid "Map {} selected"
+msgstr "Kaart {} geselecteerd"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,10 +703,10 @@ msgstr "Matige regen"
 msgid "Month"
 msgstr "Maand"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "Maandetails"
 
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "Maandetails"
 
 msgid "Moonrise: {}"
@@ -778,16 +721,16 @@ msgstr "Ochtend"
 msgid "Mostly clear"
 msgstr "Meestal duidelijk"
 
-msgid "Move down"
-msgstr "Ga naar beneden"
-
 msgid "Move Down"
 msgstr "Ga naar beneden"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "Ga omhoog"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "Ga naar beneden"
+
+msgid "Move up"
 msgstr "Ga omhoog"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "Nieuwe versie {version} is beschikbaar."
 msgid "Next"
 msgstr "Volgende"
 
-msgid "Next frame"
-msgstr "Volgende frame"
-
 msgid "Next Image"
 msgstr "Volgende afbeelding"
+
+msgid "Next frame"
+msgstr "Volgende frame"
 
 msgid "Next page"
 msgstr "Volgende pagina"
 
 msgid "Next time"
 msgstr "Volgende keer"
+
+msgid "No Internet connection detected."
+msgstr "Geen internetverbinding gedetecteerd."
+
+msgid "No OSM tiles"
+msgstr "Geen OSM-tegels"
+
+msgid "No cities found locally for '%s'"
+msgstr "Geen steden lokaal gevonden voor '%s'"
 
 msgid "No city selected"
 msgstr "Geen stad geselecteerd"
@@ -829,14 +781,8 @@ msgstr "Geen gegevens"
 msgid "No date available"
 msgstr "Geen datum beschikbaar"
 
-msgid "No Internet connection detected."
-msgstr "Geen internetverbinding gedetecteerd."
-
 msgid "No location selected"
 msgstr "Geen locatie geselecteerd"
-
-msgid "No OSM tiles"
-msgstr "Geen OSM-tegels"
 
 msgid "No specific legend available."
 msgstr "Geen specifieke legenda beschikbaar."
@@ -865,9 +811,6 @@ msgstr "Noordrijn-Westfalen"
 msgid "Norway"
 msgstr "Noorwegen"
 
-msgid "Ok - Details"
-msgstr "Oké - Details"
-
 msgid "OK - Ext Info"
 msgstr "OK - Ext. info"
 
@@ -876,6 +819,9 @@ msgstr "Oké - Voorspelling"
 
 msgid "OK - Open Map"
 msgstr "OK - Kaart openen"
+
+msgid "Ok - Details"
+msgstr "Oké - Details"
 
 msgid "Open Keyboard"
 msgstr "Toetsenbord openen"
@@ -922,16 +868,16 @@ msgstr "Bewolkt, onweer met regen"
 msgid "Overnight"
 msgstr "Overnachting"
 
-msgid "Page down"
-msgstr "Pagina naar beneden"
-
 msgid "Page Down"
 msgstr "Pagina omlaag"
 
-msgid "Page up"
+msgid "Page Up"
 msgstr "Pagina omhoog"
 
-msgid "Page Up"
+msgid "Page down"
+msgstr "Pagina naar beneden"
+
+msgid "Page up"
 msgstr "Pagina omhoog"
 
 msgid "Pan down"
@@ -1012,12 +958,6 @@ msgstr "Druk op ROOD om opnieuw te zoeken"
 msgid "Pressure"
 msgstr "Druk"
 
-msgid "Pressure: {}"
-msgstr "Druk: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Druk: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Druk: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Druk: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Druk: n.v.t"
 
+msgid "Pressure: {}"
+msgstr "Druk: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Druk: {} hPa"
+
 msgid "Prev"
 msgstr "Vorige"
 
 msgid "Previous"
 msgstr "Vorig"
 
-msgid "Previous frame"
-msgstr "Vorige frame"
-
 msgid "Previous Image"
 msgstr "Vorige afbeelding"
+
+msgid "Previous frame"
+msgstr "Vorige frame"
 
 msgid "Previous page"
 msgstr "Vorige pagina"
@@ -1060,9 +1006,6 @@ msgstr "Regen: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer-radar"
 
-msgid "Red"
-msgstr "Rood"
-
 msgid "Red - Color select"
 msgstr "Rood - Kleur selecteren"
 
@@ -1084,11 +1027,11 @@ msgstr "Pijl naar rechts - Volgende dag"
 msgid "Rise"
 msgstr "Opstaan"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Stijging azimut: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Azimut stijgen: n.v.t"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Stijging azimut: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusland"
@@ -1132,11 +1075,14 @@ msgstr "Zoeken probeert eerst online, als dit mislukt, wordt de lokale lijst geb
 msgid "Search your City"
 msgstr "Zoek uw stad"
 
+msgid "Searching for '%s'..."
+msgstr "Zoeken naar '%s'..."
+
 msgid "Select"
 msgstr "Selecteer"
 
-msgid "Select {} unit"
-msgstr "Selecteer {} eenheid"
+msgid "Select Region"
+msgstr "Selecteer Regio"
 
 msgid "Select a city"
 msgstr "Selecteer een stad"
@@ -1144,23 +1090,23 @@ msgstr "Selecteer een stad"
 msgid "Select a map with OK"
 msgstr "Selecteer een kaart met OK"
 
-msgid "Select Region"
-msgstr "Selecteer Regio"
-
 msgid "Select unit system"
 msgstr "Selecteer eenheidssysteem"
 
 msgid "Select wind unit"
 msgstr "Selecteer windeenheid"
 
+msgid "Select {} unit"
+msgstr "Selecteer {} eenheid"
+
 msgid "Selected hour details"
 msgstr "Geselecteerde uurdetails"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Azimut instellen: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Azimut instellen: N.v.t"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Azimut instellen: {:.0f}°"
 
 msgid "Sets"
 msgstr "Stelt in"
@@ -1231,15 +1177,6 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Temperatuur"
 
-msgid "Temperature: {}"
-msgstr "Temperatuur: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Temperatuur: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Temperatuur: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Temperatuur: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Temperatuur: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Temperatuur: n.v.t"
+
+msgid "Temperature: {}"
+msgstr "Temperatuur: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatuur: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatuur: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Bedankt {thanks} en andere vrienden voor suggesties"
@@ -1288,20 +1234,26 @@ msgstr "Morgen"
 msgid "Transit (culmination): {}"
 msgstr "Doorvoer (culminatie): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Transithoogte: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Transithoogte: N.v.t"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Transithoogte: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Vertaalinstellingen"
 
+msgid "Transparency Settings"
+msgstr "Transparantie-instellingen"
+
 msgid "Transparency level"
 msgstr "Transparantieniveau"
 
-msgid "Transparency Settings"
-msgstr "Transparantie-instellingen"
+msgid "UV Index"
+msgstr "UV-index"
+
+msgid "UV N/A"
+msgstr "UV-N.v.t"
 
 msgid "Unhealthy"
 msgstr "Ongezond"
@@ -1336,14 +1288,20 @@ msgstr "Update voltooid. Start Enigma2 opnieuw op."
 msgid "Updated {}"
 msgstr "Bijgewerkt {}"
 
-msgid "Updated: {}"
-msgstr "Bijgewerkt: {}"
-
 msgid "Updated: N/A"
 msgstr "Bijgewerkt: N.v.t"
 
+msgid "Updated: {}"
+msgstr "Bijgewerkt: {}"
+
 msgid "Updating..."
 msgstr "Updaten..."
+
+msgid "Use Google Translate"
+msgstr "Gebruik Google Translate"
+
+msgid "Use arrow keys to scroll"
+msgstr "Gebruik de pijltjestoetsen om te scrollen"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Gebruik ← → om de tijd te wijzigen | Oké om af te sluiten"
@@ -1354,26 +1312,8 @@ msgstr "Gebruik ←/→/↑/↓ om | te verplaatsen Oké om af te sluiten"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Gebruik ▲/▼ om te wijzigen, OK om te selecteren"
 
-msgid "Use arrow keys to scroll"
-msgstr "Gebruik de pijltjestoetsen om te scrollen"
-
-msgid "Use Google Translate"
-msgstr "Gebruik Google Translate"
-
 msgid "Using current time"
 msgstr "Met behulp van de huidige tijd"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV-index"
-
-msgid "UV N/A"
-msgstr "UV-N.v.t"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Zeer zware regen"
@@ -1390,11 +1330,11 @@ msgstr "Zeer laag"
 msgid "Very unhealthy"
 msgstr "Zeer ongezond"
 
-msgid "Visibility: {} m"
-msgstr "Zichtbaarheid: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Zichtbaarheid: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Zichtbaarheid: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Weerkaart"
 msgid "Weather Maps"
 msgstr "Weerkaarten"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Weerkaarten (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Weerkaarten en satelliet"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Weerkaarten (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Weerkaarten diavoorstelling"
@@ -1447,14 +1387,14 @@ msgstr "Wekelijkse voorspelling"
 msgid "Wind"
 msgstr "Wind"
 
-msgid "Wind direction"
-msgstr "Windrichting"
-
 msgid "Wind Direction today"
 msgstr "Windrichting vandaag"
 
 msgid "Wind Direction tomorrow"
 msgstr "Windrichting morgen"
+
+msgid "Wind direction"
+msgstr "Windrichting"
 
 msgid "Wind speed"
 msgstr "Windsnelheid"
@@ -1465,15 +1405,6 @@ msgstr "Windsnelheid {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Windsnelheid: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Wind: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Wind: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Wind: {} km/u {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Wind: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Wind: %s km/u %s"
 msgid "Wind: N/A"
 msgstr "Wind: n.v.t"
 
+msgid "Wind: {}"
+msgstr "Wind: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Wind: {} km/u {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Wind: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Transparantie van vensters"
 
 msgid "Yellow - Favorite 2"
 msgstr "Geel - Favoriet 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Je hebt versie {version} al geïnstalleerd.\nWil je deze opnieuw installeren?"
 
 msgid "Zoom In"
 msgstr "Inzoomen"
@@ -1498,12 +1435,120 @@ msgstr "Inzoomen"
 msgid "Zoom Out"
 msgstr "Uitzoomen"
 
+msgid "Zoom+"
+msgstr "Zoom+"
+
 msgid "Zoom-"
 msgstr "Zoom-"
 
 msgid "Zoom:"
 msgstr "Zoom:"
 
-msgid "Zoom+"
-msgstr "Zoom+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} u {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLAUW om op te slaan als Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- om 500 steden te springen\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GROEN om op te slaan als Favoriet 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK om stad te selecteren\n"
+"• OK om stad\n"
+" te selecteren\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ROOD om het zoektoetsenbord te openen\n"
+"• ROOD om zoektoetsenbord\n"
+" te openen\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Gebruik de pijltoetsen om te navigeren\n"
+"• Gebruik de pijltoetsen om door \n"
+" te navigeren\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GEEL om op te slaan als Favoriet 2\n"
+
+msgid "← Frame"
+msgstr "← Kader"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- om 100 steden te springen\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7-daagse voorspelling"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API-configuratiebestand niet gevonden!\n"
+#~ "\n"
+#~ "Maak bestand:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "met uw Foreca API-inloggegevens."
+
+#~ msgid "Blue"
+#~ msgstr "Blauw"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Hulp voor stadselectie:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Configureer Foreca API-referenties"
+
+#~ msgid "Distance"
+#~ msgstr "Afstand"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kan configuratiebestand niet schrijven: \n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One-opstelling"
+
+#~ msgid "Green"
+#~ msgstr "Groente"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Laatste update"
+
+#~ msgid "Red"
+#~ msgstr "Rood"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Je hebt versie {version} al geïnstalleerd.\n"
+#~ "Wil je deze opnieuw installeren?"

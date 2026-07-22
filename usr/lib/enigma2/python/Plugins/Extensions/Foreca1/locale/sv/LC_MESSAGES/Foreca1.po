@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLÅ för att spara som Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- för att hoppa 500 städer\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• GRÖN för att spara som favorit 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK för att välja stad\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• RÖD för att öppna söktangentbordet\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Använd piltangenterna för att navigera i\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- för att hoppa 100 städer\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• GUL för att spara som favorit 2\n"
-
-msgid "← Frame"
-msgstr "← Ram"
-
 msgid "0 - Today"
 msgstr "0 - Idag"
 
@@ -67,14 +37,29 @@ msgstr "6 - Idag + 6 dagar"
 msgid "7 - Today + 7 days"
 msgstr "7 - Idag + 7 dagar"
 
-msgid "7 Day Forecast"
-msgstr "7 dagars prognos"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Idag + 8 dagar"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Idag + 9 dagar"
+
+msgid "API credentials not configured."
+msgstr "API-uppgifter är inte konfigurerade."
+
+msgid "API error"
+msgstr "API-fel"
+
+msgid "API password"
+msgstr "API-lösenord"
+
+msgid "API user"
+msgstr "API-användare"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Advanced"
 msgstr "Avancerad"
@@ -91,35 +76,14 @@ msgstr "Ålder sedan nymåne: {:.1f} dagar"
 msgid "Age: N/A"
 msgstr "Ålder: N/A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Vinkeldiameter: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Vinkeldiameter: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API-konfigurationsfil hittades inte!\n\nSkapa filen:\n{0}\n\nmed dina Foreca API-uppgifter."
-
-msgid "API credentials not configured."
-msgstr "API-uppgifter är inte konfigurerade."
-
-msgid "API error"
-msgstr "API-fel"
-
-msgid "API password"
-msgstr "API-lösenord"
-
-msgid "API user"
-msgstr "API-användare"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Vinkeldiameter: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Skenbar magnitud: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Tilldela till favorit 1"
@@ -157,9 +121,6 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Svart måne"
 
-msgid "Blue"
-msgstr "Blå"
-
 msgid "Blue - Home"
 msgstr "Blå - Hem"
 
@@ -193,14 +154,11 @@ msgstr "Sök efter uppdateringar"
 msgid "Choose detail view"
 msgstr "Välj detaljvy"
 
-msgid "City list file not found!"
-msgstr "Stadslista fil hittades inte!"
-
 msgid "City Selection"
 msgstr "Stadsval"
 
-msgid "City Selection Help:\n\n"
-msgstr "Hjälp för val av stad:\n\n"
+msgid "City list file not found!"
+msgstr "Stadslista fil hittades inte!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Rensa Foreca One Temp-filer?"
@@ -247,14 +205,17 @@ msgstr "Molnigt, åskväder med regn"
 msgid "Cold (< 0°C)"
 msgstr "Kallt (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Färg Legend"
+
+msgid "Color Selector"
+msgstr "Färgväljare"
+
 msgid "Color data"
 msgstr "Färgdata"
 
 msgid "Color legend"
 msgstr "Färg legend"
-
-msgid "Color Legend"
-msgstr "Färg Legend"
 
 msgid "Color name"
 msgstr "Färgnamn"
@@ -262,14 +223,8 @@ msgstr "Färgnamn"
 msgid "Color select"
 msgstr "Välj färg"
 
-msgid "Color Selector"
-msgstr "Färgväljare"
-
 msgid "Condition: {}"
 msgstr "Skick: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Konfigurera Foreca API-uppgifter"
 
 msgid "Continents Weather Maps"
 msgstr "Kontinenter väderkartor"
@@ -337,20 +292,17 @@ msgstr "Daggpunkt: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Daggpunkt: N/A"
 
-msgid "Distance"
-msgstr "Avstånd"
-
 msgid "Distance {} km"
 msgstr "Avstånd {} km"
+
+msgid "Distance: %s"
+msgstr "Avstånd: %s"
 
 msgid "Distance: {}"
 msgstr "Avstånd: {}"
 
 msgid "Distance: {} km"
 msgstr "Avstånd: {} km"
-
-msgid "Distance: %s"
-msgstr "Avstånd: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Vill du installera den nu?"
@@ -418,9 +370,6 @@ msgstr "Extrema / åskväder"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Det gick inte att skriva konfigurationsfilen:\n%s"
-
 msgid "Faster: {}s"
 msgstr "Snabbare: {}s"
 
@@ -430,11 +379,11 @@ msgstr "Favorit 1"
 msgid "Favorite 2"
 msgstr "Favorit 2"
 
-msgid "Favorites details"
-msgstr "Favoritdetaljer"
-
 msgid "Favorites Details"
 msgstr "Favoriter Detaljer"
+
+msgid "Favorites details"
+msgstr "Favoritdetaljer"
 
 msgid "Feels like"
 msgstr "Känns som"
@@ -445,15 +394,6 @@ msgstr "Känns som {}"
 msgid "Feels like {}{}"
 msgstr "Känns som {}{}"
 
-msgid "Feels like: {}"
-msgstr "Känns som: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Känns som: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Känns som: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Känns som: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Känns som: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Känns som: N/A"
+
+msgid "Feels like: {}"
+msgstr "Känns som: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Känns som: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Känns som: {}°C"
 
 msgid "Finland"
 msgstr "Finland"
@@ -472,20 +421,17 @@ msgstr "Första kvartalet"
 msgid "Fog"
 msgstr "Dimma"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API-inställning"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API-uppgifter är inte konfigurerade än. Ange dem på inställningsskärmen."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API-inställningar har sparats."
 
-msgid "Foreca API Setup"
-msgstr "Foreca API-inställning"
-
 msgid "Foreca One"
 msgstr "Foreca One"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Karta {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Maps (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One Meny"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Inga stationer hittades"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One Setup"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stations: {} stationer i närheten ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One väderprognos"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca One väderprognos"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Karta {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Hittade %d städer lokalt för '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Hittade %d städer online för '%s'"
 
 msgid "Frame →"
 msgstr "Ram →"
@@ -537,9 +489,6 @@ msgstr "Storbritannien"
 
 msgid "Greece"
 msgstr "Grekland"
-
-msgid "Green"
-msgstr "Grön"
 
 msgid "Green - Favorite 1"
 msgstr "Grön - Favorit 1"
@@ -580,17 +529,14 @@ msgstr "Varm (30-40°C)"
 msgid "Hour Details"
 msgstr "Timme detaljer"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Fuktighet"
 
-msgid "Humidity: {}%"
-msgstr "Luftfuktighet: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Luftfuktighet: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Luftfuktighet: {}%"
 
 msgid "Hungary"
 msgstr "Ungern"
@@ -649,9 +595,6 @@ msgstr "Tangentbord"
 msgid "Last Quarter"
 msgstr "Sista kvartalet"
 
-msgid "Last update"
-msgstr "Senaste uppdatering"
-
 msgid "Latvia"
 msgstr "Lettland"
 
@@ -706,9 +649,6 @@ msgstr "Luxemburg"
 msgid "Magnitude: N/A"
 msgstr "Storlek: N/A"
 
-msgid "Map {} selected"
-msgstr "Karta {} har valts"
-
 msgid "Map & Tiles Loaded"
 msgstr "Karta och plattor laddade"
 
@@ -717,6 +657,9 @@ msgstr "Kartan laddad"
 
 msgid "Map server"
 msgstr "Kartserver"
+
+msgid "Map {} selected"
+msgstr "Karta {} har valts"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,11 +703,11 @@ msgstr "Måttligt regn"
 msgid "Month"
 msgstr "Månad"
 
-msgid "Moon details"
-msgstr "Månens detaljer"
-
 msgid "Moon Details"
 msgstr "Månedetaljer"
+
+msgid "Moon details"
+msgstr "Månens detaljer"
 
 msgid "Moonrise: {}"
 msgstr "Månuppgång: {}"
@@ -778,16 +721,16 @@ msgstr "Morgon"
 msgid "Mostly clear"
 msgstr "För det mesta klart"
 
-msgid "Move down"
-msgstr "Flytta ner"
-
 msgid "Move Down"
 msgstr "Flytta ner"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "Flytta upp"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "Flytta ner"
+
+msgid "Move up"
 msgstr "Flytta upp"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "Ny version {version} är tillgänglig."
 msgid "Next"
 msgstr "Nästa"
 
-msgid "Next frame"
-msgstr "Nästa ram"
-
 msgid "Next Image"
 msgstr "Nästa bild"
+
+msgid "Next frame"
+msgstr "Nästa ram"
 
 msgid "Next page"
 msgstr "Nästa sida"
 
 msgid "Next time"
 msgstr "Nästa gång"
+
+msgid "No Internet connection detected."
+msgstr "Ingen internetanslutning upptäcktes."
+
+msgid "No OSM tiles"
+msgstr "Inga OSM-plattor"
+
+msgid "No cities found locally for '%s'"
+msgstr "Inga städer hittades lokalt för '%s'"
 
 msgid "No city selected"
 msgstr "Ingen stad har valts"
@@ -829,14 +781,8 @@ msgstr "Inga data"
 msgid "No date available"
 msgstr "Inget datum tillgängligt"
 
-msgid "No Internet connection detected."
-msgstr "Ingen internetanslutning upptäcktes."
-
 msgid "No location selected"
 msgstr "Ingen plats har valts"
-
-msgid "No OSM tiles"
-msgstr "Inga OSM-plattor"
 
 msgid "No specific legend available."
 msgstr "Ingen specifik legend tillgänglig."
@@ -865,9 +811,6 @@ msgstr "Nordrhein-Westfalen"
 msgid "Norway"
 msgstr "Norge"
 
-msgid "Ok - Details"
-msgstr "Ok - Detaljer"
-
 msgid "OK - Ext Info"
 msgstr "OK - Ext info"
 
@@ -876,6 +819,9 @@ msgstr "OK - Prognos"
 
 msgid "OK - Open Map"
 msgstr "OK - Öppna karta"
+
+msgid "Ok - Details"
+msgstr "Ok - Detaljer"
 
 msgid "Open Keyboard"
 msgstr "Öppna tangentbordet"
@@ -922,16 +868,16 @@ msgstr "Mulet, åska med regn"
 msgid "Overnight"
 msgstr "Över natten"
 
-msgid "Page down"
-msgstr "Sida ner"
-
 msgid "Page Down"
 msgstr "Sida ner"
 
-msgid "Page up"
+msgid "Page Up"
 msgstr "Sida upp"
 
-msgid "Page Up"
+msgid "Page down"
+msgstr "Sida ner"
+
+msgid "Page up"
 msgstr "Sida upp"
 
 msgid "Pan down"
@@ -1012,12 +958,6 @@ msgstr "Tryck på RÖD för att söka igen"
 msgid "Pressure"
 msgstr "Tryck"
 
-msgid "Pressure: {}"
-msgstr "Tryck: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Tryck: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Tryck: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Tryck: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Tryck: N/A"
 
+msgid "Pressure: {}"
+msgstr "Tryck: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Tryck: {} hPa"
+
 msgid "Prev"
 msgstr "Föreg"
 
 msgid "Previous"
 msgstr "Tidigare"
 
-msgid "Previous frame"
-msgstr "Föregående ram"
-
 msgid "Previous Image"
 msgstr "Föregående bild"
+
+msgid "Previous frame"
+msgstr "Föregående ram"
 
 msgid "Previous page"
 msgstr "Föregående sida"
@@ -1060,9 +1006,6 @@ msgstr "Regn: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer radar"
 
-msgid "Red"
-msgstr "Röd"
-
 msgid "Red - Color select"
 msgstr "Röd - Välj färg"
 
@@ -1084,11 +1027,11 @@ msgstr "Högerpil - Nästa dag"
 msgid "Rise"
 msgstr "Stiga"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Ökningsazimut: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Stigningsazimut: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Ökningsazimut: {:.0f}°"
 
 msgid "Russia"
 msgstr "Ryssland"
@@ -1132,11 +1075,14 @@ msgstr "Sök först försöker online, om det misslyckas använder lokal lista."
 msgid "Search your City"
 msgstr "Sök i din stad"
 
+msgid "Searching for '%s'..."
+msgstr "Söker efter '%s'..."
+
 msgid "Select"
 msgstr "Välja"
 
-msgid "Select {} unit"
-msgstr "Välj {} enhet"
+msgid "Select Region"
+msgstr "Välj Region"
 
 msgid "Select a city"
 msgstr "Välj en stad"
@@ -1144,23 +1090,23 @@ msgstr "Välj en stad"
 msgid "Select a map with OK"
 msgstr "Välj en karta med OK"
 
-msgid "Select Region"
-msgstr "Välj Region"
-
 msgid "Select unit system"
 msgstr "Välj enhetssystem"
 
 msgid "Select wind unit"
 msgstr "Välj vindenhet"
 
+msgid "Select {} unit"
+msgstr "Välj {} enhet"
+
 msgid "Selected hour details"
 msgstr "Valda timdetaljer"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Ställ in azimut: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Ställ in azimut: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Ställ in azimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Uppsättningar"
@@ -1231,15 +1177,6 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Temperatur"
 
-msgid "Temperature: {}"
-msgstr "Temperatur: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Temperatur: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Temperatur: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Temperatur: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Temperatur: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Temperatur: N/A"
+
+msgid "Temperature: {}"
+msgstr "Temperatur: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatur: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatur: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Tack {thanks} och andra vänner för förslag"
@@ -1288,20 +1234,26 @@ msgstr "I morgon"
 msgid "Transit (culmination): {}"
 msgstr "Transit (kulminering): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Transithöjd: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Transithöjd: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Transithöjd: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Översättningsinställningar"
 
+msgid "Transparency Settings"
+msgstr "Inställningar för insyn"
+
 msgid "Transparency level"
 msgstr "Transparensnivå"
 
-msgid "Transparency Settings"
-msgstr "Inställningar för insyn"
+msgid "UV Index"
+msgstr "UV-index"
+
+msgid "UV N/A"
+msgstr "UV N/A"
 
 msgid "Unhealthy"
 msgstr "Ohälsosam"
@@ -1336,14 +1288,20 @@ msgstr "Uppdatering slutförd. Vänligen starta om Enigma2."
 msgid "Updated {}"
 msgstr "Uppdaterade {}"
 
-msgid "Updated: {}"
-msgstr "Uppdaterad: {}"
-
 msgid "Updated: N/A"
 msgstr "Uppdaterad: N/A"
 
+msgid "Updated: {}"
+msgstr "Uppdaterad: {}"
+
 msgid "Updating..."
 msgstr "Uppdaterar..."
+
+msgid "Use Google Translate"
+msgstr "Använd Google Translate"
+
+msgid "Use arrow keys to scroll"
+msgstr "Använd piltangenterna för att bläddra"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Använd ← → för att ändra tid | OK för att avsluta"
@@ -1354,26 +1312,8 @@ msgstr "Använd ←/→/↑/↓ för att flytta | OK för att avsluta"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Använd ▲/▼ för att ändra, OK för att välja"
 
-msgid "Use arrow keys to scroll"
-msgstr "Använd piltangenterna för att bläddra"
-
-msgid "Use Google Translate"
-msgstr "Använd Google Translate"
-
 msgid "Using current time"
 msgstr "Använder aktuell tid"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV-index"
-
-msgid "UV N/A"
-msgstr "UV N/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Mycket kraftigt regn"
@@ -1390,11 +1330,11 @@ msgstr "Mycket låg"
 msgid "Very unhealthy"
 msgstr "Väldigt ohälsosamt"
 
-msgid "Visibility: {} m"
-msgstr "Sikt: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Synlighet: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Sikt: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Väderkarta"
 msgid "Weather Maps"
 msgstr "Väderkartor"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Väderkartor (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Väderkartor och satellit"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Väderkartor (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Väderkartor bildspel"
@@ -1447,14 +1387,14 @@ msgstr "Veckoprognos"
 msgid "Wind"
 msgstr "Vind"
 
-msgid "Wind direction"
-msgstr "Vindriktning"
-
 msgid "Wind Direction today"
 msgstr "Vindriktning idag"
 
 msgid "Wind Direction tomorrow"
 msgstr "Vindriktning imorgon"
+
+msgid "Wind direction"
+msgstr "Vindriktning"
 
 msgid "Wind speed"
 msgstr "Vindhastighet"
@@ -1465,15 +1405,6 @@ msgstr "Vindhastighet {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Vindhastighet: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Vind: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Vind: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Vind: {} km/h {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Vind: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Vind: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Vind: N/A"
 
+msgid "Wind: {}"
+msgstr "Vind: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vind: {} km/h {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vind: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Fönster genomskinlighet"
 
 msgid "Yellow - Favorite 2"
 msgstr "Gul - Favorit 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Du har redan version {version} installerad.\nVill du installera om den?"
 
 msgid "Zoom In"
 msgstr "Zooma in"
@@ -1498,12 +1435,114 @@ msgstr "Zooma in"
 msgid "Zoom Out"
 msgstr "Zooma ut"
 
+msgid "Zoom+"
+msgstr "Zoom+"
+
 msgid "Zoom-"
 msgstr "Zoom-"
 
 msgid "Zoom:"
 msgstr "Zoom:"
 
-msgid "Zoom+"
-msgstr "Zoom+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLÅ för att spara som Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- för att hoppa 500 städer\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GRÖN för att spara som favorit 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK för att välja stad\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RÖD för att öppna söktangentbordet\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Använd piltangenterna för att navigera i\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GUL för att spara som favorit 2\n"
+
+msgid "← Frame"
+msgstr "← Ram"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- för att hoppa 100 städer\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 dagars prognos"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API-konfigurationsfil hittades inte!\n"
+#~ "\n"
+#~ "Skapa filen:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "med dina Foreca API-uppgifter."
+
+#~ msgid "Blue"
+#~ msgstr "Blå"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Hjälp för val av stad:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Konfigurera Foreca API-uppgifter"
+
+#~ msgid "Distance"
+#~ msgstr "Avstånd"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Det gick inte att skriva konfigurationsfilen:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One Setup"
+
+#~ msgid "Green"
+#~ msgstr "Grön"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Senaste uppdatering"
+
+#~ msgid "Red"
+#~ msgstr "Röd"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Du har redan version {version} installerad.\n"
+#~ "Vill du installera om den?"

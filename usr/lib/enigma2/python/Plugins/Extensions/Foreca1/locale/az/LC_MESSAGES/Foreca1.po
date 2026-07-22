@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} saat {mins} dəq"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• Home\n kimi yadda saxlamaq üçün MAVİ\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- 500 şəhərə tullanmaq üçün\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• Sevimli 1\n kimi saxlamaq üçün YAŞIL\n"
-
-msgid "• OK to select city\n"
-msgstr "• city\n seçmək üçün OK\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• \n axtarış klaviaturasını açmaq üçün QIRMIZI\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• \n ilə getmək üçün ox düymələrindən istifadə edin\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- 100 şəhərə tullanmaq üçün\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• Sevimli 2\n kimi yadda saxlamaq üçün SARI\n"
-
-msgid "← Frame"
-msgstr "← Çərçivə"
-
 msgid "0 - Today"
 msgstr "0 - Bu gün"
 
@@ -67,14 +37,29 @@ msgstr "6 - Bu gün + 6 gün"
 msgid "7 - Today + 7 days"
 msgstr "7 - Bu gün + 7 gün"
 
-msgid "7 Day Forecast"
-msgstr "7 günlük hava proqnozu"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Bu gün + 8 gün"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Bu gün + 9 gün"
+
+msgid "API credentials not configured."
+msgstr "API etimadnamələri konfiqurasiya olunmayıb."
+
+msgid "API error"
+msgstr "API xətası"
+
+msgid "API password"
+msgstr "API parolu"
+
+msgid "API user"
+msgstr "API istifadəçisi"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Yoxdur"
 
 msgid "Advanced"
 msgstr "Qabaqcıl"
@@ -91,35 +76,14 @@ msgstr "Yeni Aydan bəri yaş: {:.1f} gün"
 msgid "Age: N/A"
 msgstr "Yaş: N/A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Bucaq diametri: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Bucaq diametri: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API konfiqurasiya faylı tapılmadı!\n\nLütfən, Foreca API etimadnaməsini ilə fayl yaradın:\n{0}\n\n."
-
-msgid "API credentials not configured."
-msgstr "API etimadnamələri konfiqurasiya olunmayıb."
-
-msgid "API error"
-msgstr "API xətası"
-
-msgid "API password"
-msgstr "API parolu"
-
-msgid "API user"
-msgstr "API istifadəçisi"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Bucaq diametri: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Görünən böyüklük: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: Yoxdur"
 
 msgid "Assign to Favorite 1"
 msgstr "Sevimli 1-ə təyin edin"
@@ -157,9 +121,6 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Qara Ay"
 
-msgid "Blue"
-msgstr "Mavi"
-
 msgid "Blue - Home"
 msgstr "Mavi - Ev"
 
@@ -193,14 +154,11 @@ msgstr "Yeniləmələri yoxlayın"
 msgid "Choose detail view"
 msgstr "Detal görünüşünü seçin"
 
-msgid "City list file not found!"
-msgstr "Şəhər siyahısı faylı tapılmadı!"
-
 msgid "City Selection"
 msgstr "Şəhər Seçimi"
 
-msgid "City Selection Help:\n\n"
-msgstr "Şəhər Seçimi Yardımı:\n\n"
+msgid "City list file not found!"
+msgstr "Şəhər siyahısı faylı tapılmadı!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Foreca One Temp Fayllarını Təmizləyin?"
@@ -247,13 +205,16 @@ msgstr "Buludlu, şimşək çaxacaq, yağış yağacaq"
 msgid "Cold (< 0°C)"
 msgstr "Soyuq (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Rəng əfsanəsi"
+
+msgid "Color Selector"
+msgstr "Rəng Seçici"
+
 msgid "Color data"
 msgstr "Rəng məlumatları"
 
 msgid "Color legend"
-msgstr "Rəng əfsanəsi"
-
-msgid "Color Legend"
 msgstr "Rəng əfsanəsi"
 
 msgid "Color name"
@@ -262,14 +223,8 @@ msgstr "Rəng adı"
 msgid "Color select"
 msgstr "Rəng seçimi"
 
-msgid "Color Selector"
-msgstr "Rəng Seçici"
-
 msgid "Condition: {}"
 msgstr "Vəziyyət: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Foreca API etimadnaməsini konfiqurasiya edin"
 
 msgid "Continents Weather Maps"
 msgstr "Qitələrin hava xəritələri"
@@ -337,20 +292,17 @@ msgstr "Çiy nöqtəsi: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Çiy nöqtəsi: N/A"
 
-msgid "Distance"
-msgstr "Məsafə"
-
 msgid "Distance {} km"
 msgstr "Məsafə {} km"
+
+msgid "Distance: %s"
+msgstr "Məsafə: %s"
 
 msgid "Distance: {}"
 msgstr "Məsafə: {}"
 
 msgid "Distance: {} km"
 msgstr "Məsafə: {} km"
-
-msgid "Distance: %s"
-msgstr "Məsafə: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Onu indi quraşdırmaq istəyirsiniz?"
@@ -418,9 +370,6 @@ msgstr "Ekstremal / tufanlar"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Konfiqurasiya faylını yazmaq alınmadı:\n%s"
-
 msgid "Faster: {}s"
 msgstr "Daha sürətli: {}s"
 
@@ -430,11 +379,11 @@ msgstr "Sevimli 1"
 msgid "Favorite 2"
 msgstr "Sevimli 2"
 
-msgid "Favorites details"
-msgstr "Sevimlilər təfərrüatları"
-
 msgid "Favorites Details"
 msgstr "Sevimlilər Detalları"
+
+msgid "Favorites details"
+msgstr "Sevimlilər təfərrüatları"
 
 msgid "Feels like"
 msgstr "Hiss olunur"
@@ -445,15 +394,6 @@ msgstr "{} kimi hiss olunur"
 msgid "Feels like {}{}"
 msgstr "{}{} kimi hiss olunur"
 
-msgid "Feels like: {}"
-msgstr "Hiss olunur: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Hiss olunur: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Hiss olunur: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Hiss olunur: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Hiss olunur: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Hiss olunur: N/A"
+
+msgid "Feels like: {}"
+msgstr "Hiss olunur: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Hiss olunur: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Hiss olunur: {}°C"
 
 msgid "Finland"
 msgstr "Finlandiya"
@@ -472,20 +421,17 @@ msgstr "Birinci rüb"
 msgid "Fog"
 msgstr "Duman"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API Quraşdırma"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API etimadnamələri hələ konfiqurasiya edilməyib. Lütfən, onları quraşdırma ekranına daxil edin."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API parametrləri uğurla yadda saxlanıldı."
 
-msgid "Foreca API Setup"
-msgstr "Foreca API Quraşdırma"
-
 msgid "Foreca One"
 msgstr "Foreca One"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Xəritə {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Maps (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One Menyu"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Heç bir stansiya tapılmadı"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One Quraşdırma"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stansiyaları: yaxınlıqda {} stansiya ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Hava Proqnozu"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Hava və Proqnoz ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca One Hava Proqnozu"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Xəritə {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "'%s' üçün yerli %d şəhər tapıldı"
+
+msgid "Found %d cities online for '%s'"
+msgstr "'%s' üçün onlayn %d şəhər tapıldı"
 
 msgid "Frame →"
 msgstr "Çərçivə →"
@@ -537,9 +489,6 @@ msgstr "Böyük Britaniya"
 
 msgid "Greece"
 msgstr "Yunanıstan"
-
-msgid "Green"
-msgstr "Yaşıl"
 
 msgid "Green - Favorite 1"
 msgstr "Yaşıl - Sevimli 1"
@@ -580,17 +529,14 @@ msgstr "İsti (30-40°C)"
 msgid "Hour Details"
 msgstr "Saat təfərrüatları"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Rütubət"
 
-msgid "Humidity: {}%"
-msgstr "Rütubət: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Rütubət: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Rütubət: {}%"
 
 msgid "Hungary"
 msgstr "Macarıstan"
@@ -649,9 +595,6 @@ msgstr "Klaviatura"
 msgid "Last Quarter"
 msgstr "Son rüb"
 
-msgid "Last update"
-msgstr "Son yeniləmə"
-
 msgid "Latvia"
 msgstr "Latviya"
 
@@ -706,9 +649,6 @@ msgstr "Lüksemburq"
 msgid "Magnitude: N/A"
 msgstr "Böyüklük: N/A"
 
-msgid "Map {} selected"
-msgstr "Xəritə {} seçildi"
-
 msgid "Map & Tiles Loaded"
 msgstr "Xəritə və Plitələr Yükləndi"
 
@@ -717,6 +657,9 @@ msgstr "Xəritə yükləndi"
 
 msgid "Map server"
 msgstr "Xəritə server"
+
+msgid "Map {} selected"
+msgstr "Xəritə {} seçildi"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Meklenburq-Ön Pommern"
@@ -760,10 +703,10 @@ msgstr "Orta yağış"
 msgid "Month"
 msgstr "ay"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "Ay təfərrüatları"
 
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "Ay təfərrüatları"
 
 msgid "Moonrise: {}"
@@ -778,16 +721,16 @@ msgstr "Səhər"
 msgid "Mostly clear"
 msgstr "Əsasən aydın"
 
-msgid "Move down"
-msgstr "Aşağı hərəkət edin"
-
 msgid "Move Down"
 msgstr "Aşağı hərəkət edin"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "Yuxarı hərəkət edin"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "Aşağı hərəkət edin"
+
+msgid "Move up"
 msgstr "Yuxarı hərəkət edin"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "Yeni versiya {version} mövcuddur."
 msgid "Next"
 msgstr "Sonrakı"
 
-msgid "Next frame"
-msgstr "Növbəti çərçivə"
-
 msgid "Next Image"
 msgstr "Növbəti Şəkil"
+
+msgid "Next frame"
+msgstr "Növbəti çərçivə"
 
 msgid "Next page"
 msgstr "Növbəti səhifə"
 
 msgid "Next time"
 msgstr "Növbəti dəfə"
+
+msgid "No Internet connection detected."
+msgstr "İnternet bağlantısı aşkarlanmadı."
+
+msgid "No OSM tiles"
+msgstr "OSM plitələri yoxdur"
+
+msgid "No cities found locally for '%s'"
+msgstr "'%s' üçün heç bir şəhər tapılmadı"
 
 msgid "No city selected"
 msgstr "Heç bir şəhər seçilməyib"
@@ -829,14 +781,8 @@ msgstr "Məlumat yoxdur"
 msgid "No date available"
 msgstr "Tarix yoxdur"
 
-msgid "No Internet connection detected."
-msgstr "İnternet bağlantısı aşkarlanmadı."
-
 msgid "No location selected"
 msgstr "Heç bir məkan seçilməyib"
-
-msgid "No OSM tiles"
-msgstr "OSM plitələri yoxdur"
 
 msgid "No specific legend available."
 msgstr "Xüsusi əfsanə mövcud deyil."
@@ -865,9 +811,6 @@ msgstr "Şimali Reyn-Vestfaliya"
 msgid "Norway"
 msgstr "Norveç"
 
-msgid "Ok - Details"
-msgstr "Ok - Təfərrüatlar"
-
 msgid "OK - Ext Info"
 msgstr "OK - Əlavə məlumat"
 
@@ -876,6 +819,9 @@ msgstr "OK - Proqnoz"
 
 msgid "OK - Open Map"
 msgstr "OK - Xəritəni açın"
+
+msgid "Ok - Details"
+msgstr "Ok - Təfərrüatlar"
 
 msgid "Open Keyboard"
 msgstr "Klaviaturanı açın"
@@ -922,17 +868,17 @@ msgstr "Buludlu, şimşək çaxacaq, yağış yağacaq"
 msgid "Overnight"
 msgstr "Gecədə"
 
-msgid "Page down"
-msgstr "Səhifə aşağı"
-
 msgid "Page Down"
 msgstr "Səhifə Aşağı"
 
-msgid "Page up"
-msgstr "Səhifə yuxarı"
-
 msgid "Page Up"
 msgstr "Səhifə Yuxarı"
+
+msgid "Page down"
+msgstr "Səhifə aşağı"
+
+msgid "Page up"
+msgstr "Səhifə yuxarı"
 
 msgid "Pan down"
 msgstr "Aşağı sürüşdürün"
@@ -1012,12 +958,6 @@ msgstr "Yenidən axtarmaq üçün QIRMIZI basın"
 msgid "Pressure"
 msgstr "Təzyiq"
 
-msgid "Pressure: {}"
-msgstr "Təzyiq: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Təzyiq: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Təzyiq: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Təzyiq: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Təzyiq: N/A"
 
+msgid "Pressure: {}"
+msgstr "Təzyiq: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Təzyiq: {} hPa"
+
 msgid "Prev"
 msgstr "Əvvəlki"
 
 msgid "Previous"
 msgstr "Əvvəlki"
 
-msgid "Previous frame"
-msgstr "Əvvəlki çərçivə"
-
 msgid "Previous Image"
 msgstr "Əvvəlki Şəkil"
+
+msgid "Previous frame"
+msgstr "Əvvəlki çərçivə"
 
 msgid "Previous page"
 msgstr "Əvvəlki səhifə"
@@ -1060,9 +1006,6 @@ msgstr "Yağış: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer Radar"
 
-msgid "Red"
-msgstr "Qırmızı"
-
 msgid "Red - Color select"
 msgstr "Qırmızı - Rəng seçin"
 
@@ -1084,11 +1027,11 @@ msgstr "Sağ ox - Növbəti gün"
 msgid "Rise"
 msgstr "Qalx"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Yüksəlmə azimutu: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Yüksəlmə azimutu: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Yüksəlmə azimutu: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusiya"
@@ -1132,11 +1075,14 @@ msgstr "Axtarış ilk olaraq onlayn cəhd edir, uğursuz olarsa yerli siyahıdan
 msgid "Search your City"
 msgstr "Şəhərinizi axtarın"
 
+msgid "Searching for '%s'..."
+msgstr "'%s' axtarılır..."
+
 msgid "Select"
 msgstr "seçin"
 
-msgid "Select {} unit"
-msgstr "{} vahidi seçin"
+msgid "Select Region"
+msgstr "Region seçin"
 
 msgid "Select a city"
 msgstr "Şəhər seçin"
@@ -1144,23 +1090,23 @@ msgstr "Şəhər seçin"
 msgid "Select a map with OK"
 msgstr "OK ilə xəritə seçin"
 
-msgid "Select Region"
-msgstr "Region seçin"
-
 msgid "Select unit system"
 msgstr "Vahid sistemini seçin"
 
 msgid "Select wind unit"
 msgstr "Külək vahidini seçin"
 
+msgid "Select {} unit"
+msgstr "{} vahidi seçin"
+
 msgid "Selected hour details"
 msgstr "Seçilmiş saat təfərrüatları"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Azimut təyin edin: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Azimut təyin edin: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Azimut təyin edin: {:.0f}°"
 
 msgid "Sets"
 msgstr "Dəstlər"
@@ -1231,15 +1177,6 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Temperatur"
 
-msgid "Temperature: {}"
-msgstr "Temperatur: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Temperatur: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Temperatur: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Temperatur: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Temperatur: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Temperatur: N/A"
+
+msgid "Temperature: {}"
+msgstr "Temperatur: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Temperatur: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Temperatur: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Təkliflər üçün {thanks} və digər dostlara təşəkkür edirik"
@@ -1288,20 +1234,26 @@ msgstr "Sabah"
 msgid "Transit (culmination): {}"
 msgstr "Tranzit (kulminasiya): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Tranzit hündürlüyü: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Tranzit hündürlüyü: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Tranzit hündürlüyü: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Tərcümə Parametrləri"
 
+msgid "Transparency Settings"
+msgstr "Şəffaflıq Parametrləri"
+
 msgid "Transparency level"
 msgstr "Şəffaflıq səviyyəsi"
 
-msgid "Transparency Settings"
-msgstr "Şəffaflıq Parametrləri"
+msgid "UV Index"
+msgstr "UV indeksi"
+
+msgid "UV N/A"
+msgstr "UV N/A"
 
 msgid "Unhealthy"
 msgstr "Sağlam olmayan"
@@ -1336,14 +1288,20 @@ msgstr "Yeniləmə tamamlandı. Zəhmət olmasa Enigma2-ni yenidən başladın."
 msgid "Updated {}"
 msgstr "Yenilənib {}"
 
-msgid "Updated: {}"
-msgstr "Yenilənib: {}"
-
 msgid "Updated: N/A"
 msgstr "Yenilənib: N/A"
 
+msgid "Updated: {}"
+msgstr "Yenilənib: {}"
+
 msgid "Updating..."
 msgstr "Yenilənir..."
+
+msgid "Use Google Translate"
+msgstr "Google Translate istifadə edin"
+
+msgid "Use arrow keys to scroll"
+msgstr "Sürüşdürmək üçün ox düymələrindən istifadə edin"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Vaxtı dəyişmək üçün ← → istifadə edin | çıxmaq üçün OK"
@@ -1354,26 +1312,8 @@ msgstr "Hərəkət etmək üçün ←/→/↑/↓ istifadə edin çıxmaq üçü
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Dəyişmək üçün ▲/▼, seçmək üçün OK düyməsini istifadə edin"
 
-msgid "Use arrow keys to scroll"
-msgstr "Sürüşdürmək üçün ox düymələrindən istifadə edin"
-
-msgid "Use Google Translate"
-msgstr "Google Translate istifadə edin"
-
 msgid "Using current time"
 msgstr "Cari vaxtdan istifadə"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV indeksi"
-
-msgid "UV N/A"
-msgstr "UV N/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Çox güclü yağış"
@@ -1390,11 +1330,11 @@ msgstr "Çox aşağı"
 msgid "Very unhealthy"
 msgstr "Çox qeyri-sağlam"
 
-msgid "Visibility: {} m"
-msgstr "Görünüş: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Görünmə: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Görünüş: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Hava xəritəsi"
 msgid "Weather Maps"
 msgstr "Hava Xəritələri"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Hava Xəritələri (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Hava Xəritələri və Peyk"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Hava Xəritələri (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Hava xəritələri slayd şousu"
@@ -1447,14 +1387,14 @@ msgstr "Həftəlik Proqnoz"
 msgid "Wind"
 msgstr "Külək"
 
-msgid "Wind direction"
-msgstr "Küləyin istiqaməti"
-
 msgid "Wind Direction today"
 msgstr "Bu gün küləyin istiqaməti"
 
 msgid "Wind Direction tomorrow"
 msgstr "Sabah küləyin istiqaməti"
+
+msgid "Wind direction"
+msgstr "Küləyin istiqaməti"
 
 msgid "Wind speed"
 msgstr "Küləyin sürəti"
@@ -1465,15 +1405,6 @@ msgstr "Küləyin sürəti {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Küləyin sürəti: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Külək: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Külək: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Külək: {} km/saat {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Külək: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Külək: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Külək: N/A"
 
+msgid "Wind: {}"
+msgstr "Külək: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Külək: {} km/saat {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Külək: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Pəncərə şəffaflığı"
 
 msgid "Yellow - Favorite 2"
 msgstr "Sarı - Sevimli 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Sizdə artıq {version} versiyası quraşdırılıb.\nOnu yenidən quraşdırmaq istəyirsiniz?"
 
 msgid "Zoom In"
 msgstr "Böyüt"
@@ -1498,12 +1435,126 @@ msgstr "Böyüt"
 msgid "Zoom Out"
 msgstr "Uzaqlaşdır"
 
+msgid "Zoom+"
+msgstr "Zoom+"
+
 msgid "Zoom-"
 msgstr "Zoom-"
 
 msgid "Zoom:"
 msgstr "Zoom:"
 
-msgid "Zoom+"
-msgstr "Zoom+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} saat {mins} dəq"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• Əsas kimi saxlamaq üçün MAVİ.\n"
+"• Home\n"
+" kimi yadda saxlamaq üçün MAVİ\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 şəhərə tullanmaq üçün\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• Sevimli 1 kimi saxlamaq üçün YAŞIL\n"
+"• Sevimli 1\n"
+" kimi saxlamaq üçün YAŞIL\n"
+
+msgid "• OK to select city\n"
+msgstr "• Şəhər seçmək üçün OK\n"
+"• city\n"
+" seçmək üçün OK\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• Axtarış klaviaturasını açmaq üçün QIRMIZI\n"
+"• \n"
+" axtarış klaviaturasını açmaq üçün QIRMIZI\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Naviqasiya etmək üçün ox düymələrindən istifadə edin\n"
+"• \n"
+" ilə getmək üçün ox düymələrindən istifadə edin\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• Sevimli 2 kimi saxlamaq üçün SARI\n"
+"• Sevimli 2\n"
+" kimi yadda saxlamaq üçün SARI\n"
+
+msgid "← Frame"
+msgstr "← Çərçivə"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- 100 şəhərə tullanmaq üçün\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 günlük hava proqnozu"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API konfiqurasiya faylı tapılmadı!\n"
+#~ "\n"
+#~ "Lütfən, Foreca API etimadnaməsini ilə fayl yaradın:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "."
+
+#~ msgid "Blue"
+#~ msgstr "Mavi"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Şəhər Seçimi Yardımı:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Foreca API etimadnaməsini konfiqurasiya edin"
+
+#~ msgid "Distance"
+#~ msgstr "Məsafə"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Konfiqurasiya faylını yazmaq alınmadı:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One Quraşdırma"
+
+#~ msgid "Green"
+#~ msgstr "Yaşıl"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Son yeniləmə"
+
+#~ msgid "Red"
+#~ msgstr "Qırmızı"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Sizdə artıq {version} versiyası quraşdırılıb.\n"
+#~ "Onu yenidən quraşdırmaq istəyirsiniz?"

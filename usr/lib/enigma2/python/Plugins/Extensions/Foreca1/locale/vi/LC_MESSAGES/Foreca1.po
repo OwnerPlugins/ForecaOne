@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} giờ {mins} phút"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLUE để lưu dưới dạng Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- để nhảy 500 thành phố\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• XANH để lưu làm 1\n yêu thích\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK để chọn thành phố\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ĐỎ để mở bàn phím tìm kiếm\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Sử dụng các phím mũi tên để điều hướng\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- để nhảy 100 thành phố\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• VÀNG để lưu làm 2\n yêu thích\n"
-
-msgid "← Frame"
-msgstr "← Khung"
-
 msgid "0 - Today"
 msgstr "0 - Hôm nay"
 
@@ -67,14 +37,29 @@ msgstr "6 - Hôm nay + 6 ngày"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hôm nay + 7 ngày"
 
-msgid "7 Day Forecast"
-msgstr "Dự báo 7 ngày"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Hôm nay + 8 ngày"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hôm nay + 9 ngày"
+
+msgid "API credentials not configured."
+msgstr "Thông tin xác thực API chưa được định cấu hình."
+
+msgid "API error"
+msgstr "lỗi API"
+
+msgid "API password"
+msgstr "mật khẩu API"
+
+msgid "API user"
+msgstr "người dùng API"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "Chỉ số AQI: Không áp dụng"
 
 msgid "Advanced"
 msgstr "Trình độ cao"
@@ -91,35 +76,14 @@ msgstr "Tuổi kể từ Trăng non: {:.1f} ngày"
 msgid "Age: N/A"
 msgstr "Tuổi: Không áp dụng"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Đường kính góc: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Đường kính góc: Không áp dụng"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "Không tìm thấy tệp cấu hình API!\n\nVui lòng tạo tệp:\n{0}\n\nbằng thông tin xác thực API Foreca của bạn."
-
-msgid "API credentials not configured."
-msgstr "Thông tin xác thực API chưa được định cấu hình."
-
-msgid "API error"
-msgstr "lỗi API"
-
-msgid "API password"
-msgstr "mật khẩu API"
-
-msgid "API user"
-msgstr "người dùng API"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Đường kính góc: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Độ lớn biểu kiến: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "Chỉ số AQI: Không áp dụng"
 
 msgid "Assign to Favorite 1"
 msgstr "Gán vào mục yêu thích 1"
@@ -157,9 +121,6 @@ msgstr "Béc-lin"
 msgid "Black Moon"
 msgstr "Trăng đen"
 
-msgid "Blue"
-msgstr "Màu xanh da trời"
-
 msgid "Blue - Home"
 msgstr "Màu xanh - Sân nhà"
 
@@ -193,14 +154,11 @@ msgstr "Kiểm tra các bản cập nhật"
 msgid "Choose detail view"
 msgstr "Chọn chế độ xem chi tiết"
 
-msgid "City list file not found!"
-msgstr "Không tìm thấy tập tin danh sách thành phố!"
-
 msgid "City Selection"
 msgstr "Lựa chọn thành phố"
 
-msgid "City Selection Help:\n\n"
-msgstr "Trợ giúp chọn thành phố:\n\n"
+msgid "City list file not found!"
+msgstr "Không tìm thấy tập tin danh sách thành phố!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Dọn dẹp tập tin tạm thời Foreca One?"
@@ -247,13 +205,16 @@ msgstr "Nhiều mây, giông có mưa"
 msgid "Cold (< 0°C)"
 msgstr "Lạnh (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Huyền thoại màu sắc"
+
+msgid "Color Selector"
+msgstr "Bộ chọn màu"
+
 msgid "Color data"
 msgstr "Dữ liệu màu"
 
 msgid "Color legend"
-msgstr "Huyền thoại màu sắc"
-
-msgid "Color Legend"
 msgstr "Huyền thoại màu sắc"
 
 msgid "Color name"
@@ -262,14 +223,8 @@ msgstr "Tên màu"
 msgid "Color select"
 msgstr "Chọn màu"
 
-msgid "Color Selector"
-msgstr "Bộ chọn màu"
-
 msgid "Condition: {}"
 msgstr "Tình trạng: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Định cấu hình thông tin xác thực API Foreca"
 
 msgid "Continents Weather Maps"
 msgstr "Bản đồ thời tiết các châu lục"
@@ -337,20 +292,17 @@ msgstr "Điểm sương: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Điểm sương: N/A"
 
-msgid "Distance"
-msgstr "Khoảng cách"
-
 msgid "Distance {} km"
 msgstr "Khoảng cách {} km"
+
+msgid "Distance: %s"
+msgstr "Khoảng cách: %s"
 
 msgid "Distance: {}"
 msgstr "Khoảng cách: {}"
 
 msgid "Distance: {} km"
 msgstr "Khoảng cách: {} km"
-
-msgid "Distance: %s"
-msgstr "Khoảng cách: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Bạn có muốn cài đặt nó ngay bây giờ không?"
@@ -418,9 +370,6 @@ msgstr "Cực đoan / giông bão"
 msgid "Fahrenheit, mph, inHg"
 msgstr "F, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Không thể ghi tệp cấu hình:\n%s"
-
 msgid "Faster: {}s"
 msgstr "Nhanh hơn: {} giây"
 
@@ -430,10 +379,10 @@ msgstr "Yêu thích 1"
 msgid "Favorite 2"
 msgstr "Yêu thích 2"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "Chi tiết yêu thích"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "Chi tiết yêu thích"
 
 msgid "Feels like"
@@ -445,15 +394,6 @@ msgstr "Cảm giác như {}"
 msgid "Feels like {}{}"
 msgstr "Cảm giác như {}{}"
 
-msgid "Feels like: {}"
-msgstr "Cảm giác như: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Cảm giác như: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Cảm giác như: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Có cảm giác như: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Cảm giác như: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Cảm giác như: Không có"
+
+msgid "Feels like: {}"
+msgstr "Cảm giác như: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Cảm giác như: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Cảm giác như: {}°C"
 
 msgid "Finland"
 msgstr "Phần Lan"
@@ -472,20 +421,17 @@ msgstr "Quý I"
 msgid "Fog"
 msgstr "Sương mù"
 
+msgid "Foreca API Setup"
+msgstr "Thiết lập API Foreca"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Thông tin đăng nhập API Foreca chưa được định cấu hình. Vui lòng nhập chúng vào màn hình thiết lập."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Cài đặt API Foreca đã được lưu thành công."
 
-msgid "Foreca API Setup"
-msgstr "Thiết lập API Foreca"
-
 msgid "Foreca One"
 msgstr "Dự báo một"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca Một | Bản đồ {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Bản đồ trực tiếp của Foreca One (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca Một Menu"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Không tìm thấy trạm nào"
 
-msgid "Foreca One Setup"
-msgstr "Thiết lập Foreca One"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Trạm Foreca One: {} trạm lân cận ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Dự báo thời tiết Foreca One"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Thời tiết và Dự báo ver. %S"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Dự báo thời tiết Foreca One"
+msgid "Foreca One | Map {}"
+msgstr "Foreca Một | Bản đồ {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Đã tìm thấy %d thành phố tại địa phương cho '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Đã tìm thấy %d thành phố trực tuyến cho '%s'"
 
 msgid "Frame →"
 msgstr "Khung →"
@@ -537,9 +489,6 @@ msgstr "nước Anh"
 
 msgid "Greece"
 msgstr "Hy Lạp"
-
-msgid "Green"
-msgstr "Màu xanh lá"
 
 msgid "Green - Favorite 1"
 msgstr "Màu xanh lá cây - Yêu thích 1"
@@ -580,17 +529,14 @@ msgstr "Nóng (30-40°C)"
 msgid "Hour Details"
 msgstr "Chi tiết giờ"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Độ ẩm"
 
-msgid "Humidity: {}%"
-msgstr "Độ ẩm: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Độ ẩm: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Độ ẩm: {}%"
 
 msgid "Hungary"
 msgstr "Hungary"
@@ -649,9 +595,6 @@ msgstr "Bàn phím"
 msgid "Last Quarter"
 msgstr "Quý trước"
 
-msgid "Last update"
-msgstr "Cập nhật lần cuối"
-
 msgid "Latvia"
 msgstr "Latvia"
 
@@ -706,9 +649,6 @@ msgstr "Luxembourg"
 msgid "Magnitude: N/A"
 msgstr "Độ lớn: Không áp dụng"
 
-msgid "Map {} selected"
-msgstr "Bản đồ {} đã được chọn"
-
 msgid "Map & Tiles Loaded"
 msgstr "Đã tải bản đồ & ô"
 
@@ -717,6 +657,9 @@ msgstr "Đã tải bản đồ"
 
 msgid "Map server"
 msgstr "Máy chủ bản đồ"
+
+msgid "Map {} selected"
+msgstr "Bản đồ {} đã được chọn"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,11 +703,11 @@ msgstr "Mưa vừa"
 msgid "Month"
 msgstr "Tháng"
 
-msgid "Moon details"
-msgstr "chi tiết mặt trăng"
-
 msgid "Moon Details"
 msgstr "Chi tiết mặt trăng"
+
+msgid "Moon details"
+msgstr "chi tiết mặt trăng"
 
 msgid "Moonrise: {}"
 msgstr "Trăng mọc: {}"
@@ -778,16 +721,16 @@ msgstr "Buổi sáng"
 msgid "Mostly clear"
 msgstr "Chủ yếu là rõ ràng"
 
-msgid "Move down"
-msgstr "Di chuyển xuống"
-
 msgid "Move Down"
 msgstr "Di chuyển xuống"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "Di chuyển lên"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "Di chuyển xuống"
+
+msgid "Move up"
 msgstr "Di chuyển lên"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "Đã có phiên bản mới {version}."
 msgid "Next"
 msgstr "Kế tiếp"
 
-msgid "Next frame"
-msgstr "Khung tiếp theo"
-
 msgid "Next Image"
 msgstr "Hình ảnh tiếp theo"
+
+msgid "Next frame"
+msgstr "Khung tiếp theo"
 
 msgid "Next page"
 msgstr "Trang tiếp theo"
 
 msgid "Next time"
 msgstr "Lần sau"
+
+msgid "No Internet connection detected."
+msgstr "Không có kết nối Internet được phát hiện."
+
+msgid "No OSM tiles"
+msgstr "Không có ô OSM"
+
+msgid "No cities found locally for '%s'"
+msgstr "Không tìm thấy thành phố nào tại địa phương cho '%s'"
 
 msgid "No city selected"
 msgstr "Không có thành phố nào được chọn"
@@ -829,14 +781,8 @@ msgstr "Không có dữ liệu"
 msgid "No date available"
 msgstr "Không có ngày nào"
 
-msgid "No Internet connection detected."
-msgstr "Không có kết nối Internet được phát hiện."
-
 msgid "No location selected"
 msgstr "Không có vị trí nào được chọn"
-
-msgid "No OSM tiles"
-msgstr "Không có ô OSM"
 
 msgid "No specific legend available."
 msgstr "Không có truyền thuyết cụ thể có sẵn."
@@ -865,9 +811,6 @@ msgstr "Bắc Rhine-Westphalia"
 msgid "Norway"
 msgstr "Na Uy"
 
-msgid "Ok - Details"
-msgstr "Được - Chi tiết"
-
 msgid "OK - Ext Info"
 msgstr "OK - Thông tin mở rộng"
 
@@ -876,6 +819,9 @@ msgstr "Được rồi - Dự báo"
 
 msgid "OK - Open Map"
 msgstr "Được - Mở bản đồ"
+
+msgid "Ok - Details"
+msgstr "Được - Chi tiết"
 
 msgid "Open Keyboard"
 msgstr "Mở bàn phím"
@@ -922,16 +868,16 @@ msgstr "Trời u ám, có giông và mưa"
 msgid "Overnight"
 msgstr "Qua đêm"
 
-msgid "Page down"
-msgstr "Trang xuống"
-
 msgid "Page Down"
 msgstr "Trang xuống"
 
-msgid "Page up"
+msgid "Page Up"
 msgstr "Trang lên"
 
-msgid "Page Up"
+msgid "Page down"
+msgstr "Trang xuống"
+
+msgid "Page up"
 msgstr "Trang lên"
 
 msgid "Pan down"
@@ -1012,12 +958,6 @@ msgstr "Nhấn ĐỎ để tìm kiếm lại"
 msgid "Pressure"
 msgstr "Áp lực"
 
-msgid "Pressure: {}"
-msgstr "Áp lực: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Áp suất: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Áp suất: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Áp suất: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Áp lực: Không áp dụng"
 
+msgid "Pressure: {}"
+msgstr "Áp lực: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Áp suất: {} hPa"
+
 msgid "Prev"
 msgstr "Trước đó"
 
 msgid "Previous"
 msgstr "Trước"
 
-msgid "Previous frame"
-msgstr "Khung trước"
-
 msgid "Previous Image"
 msgstr "Hình ảnh trước đó"
+
+msgid "Previous frame"
+msgstr "Khung trước"
 
 msgid "Previous page"
 msgstr "Trang trước"
@@ -1060,9 +1006,6 @@ msgstr "Mưa: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
 
-msgid "Red"
-msgstr "Màu đỏ"
-
 msgid "Red - Color select"
 msgstr "Đỏ - Chọn màu"
 
@@ -1084,11 +1027,11 @@ msgstr "Mũi tên phải - Ngày hôm sau"
 msgid "Rise"
 msgstr "Tăng lên"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Góc phương vị tăng: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Tăng góc phương vị: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Góc phương vị tăng: {:.0f}°"
 
 msgid "Russia"
 msgstr "Nga"
@@ -1132,11 +1075,14 @@ msgstr "Đầu tiên tìm kiếm trực tuyến, nếu thất bại hãy sử d�
 msgid "Search your City"
 msgstr "Tìm kiếm thành phố của bạn"
 
+msgid "Searching for '%s'..."
+msgstr "Đang tìm kiếm '%s'..."
+
 msgid "Select"
 msgstr "Lựa chọn"
 
-msgid "Select {} unit"
-msgstr "Chọn đơn vị {}"
+msgid "Select Region"
+msgstr "Chọn khu vực"
 
 msgid "Select a city"
 msgstr "Chọn một thành phố"
@@ -1144,23 +1090,23 @@ msgstr "Chọn một thành phố"
 msgid "Select a map with OK"
 msgstr "Chọn bản đồ bằng OK"
 
-msgid "Select Region"
-msgstr "Chọn khu vực"
-
 msgid "Select unit system"
 msgstr "Chọn hệ thống đơn vị"
 
 msgid "Select wind unit"
 msgstr "Chọn đơn vị gió"
 
+msgid "Select {} unit"
+msgstr "Chọn đơn vị {}"
+
 msgid "Selected hour details"
 msgstr "Chi tiết giờ đã chọn"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Đặt góc phương vị: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Đặt góc phương vị: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Đặt góc phương vị: {:.0f}°"
 
 msgid "Sets"
 msgstr "bộ"
@@ -1231,15 +1177,6 @@ msgstr "Nhiệt độ"
 msgid "Temperature"
 msgstr "Nhiệt độ"
 
-msgid "Temperature: {}"
-msgstr "Nhiệt độ: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Nhiệt độ: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Nhiệt độ: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Nhiệt độ: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Nhiệt độ: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Nhiệt độ: Không áp dụng"
+
+msgid "Temperature: {}"
+msgstr "Nhiệt độ: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Nhiệt độ: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Nhiệt độ: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Cảm ơn {thanks} và những người bạn khác đã gợi ý"
@@ -1288,20 +1234,26 @@ msgstr "Ngày mai"
 msgid "Transit (culmination): {}"
 msgstr "Quá cảnh (đỉnh cao): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Độ cao chuyển tuyến: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Độ cao quá cảnh: Không áp dụng"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Độ cao chuyển tuyến: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Cài đặt dịch"
 
+msgid "Transparency Settings"
+msgstr "Cài đặt minh bạch"
+
 msgid "Transparency level"
 msgstr "Mức độ minh bạch"
 
-msgid "Transparency Settings"
-msgstr "Cài đặt minh bạch"
+msgid "UV Index"
+msgstr "Chỉ số UV"
+
+msgid "UV N/A"
+msgstr "UVN/A"
 
 msgid "Unhealthy"
 msgstr "Không tốt cho sức khỏe"
@@ -1336,14 +1288,20 @@ msgstr "Cập nhật hoàn tất. Vui lòng khởi động lại Enigma2."
 msgid "Updated {}"
 msgstr "Đã cập nhật {}"
 
-msgid "Updated: {}"
-msgstr "Đã cập nhật: {}"
-
 msgid "Updated: N/A"
 msgstr "Đã cập nhật: Không áp dụng"
 
+msgid "Updated: {}"
+msgstr "Đã cập nhật: {}"
+
 msgid "Updating..."
 msgstr "Đang cập nhật..."
+
+msgid "Use Google Translate"
+msgstr "Sử dụng Google Dịch"
+
+msgid "Use arrow keys to scroll"
+msgstr "Sử dụng các phím mũi tên để cuộn"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Sử dụng ← → để thay đổi thời gian | Được rồi để thoát"
@@ -1354,26 +1312,8 @@ msgstr "Sử dụng ←/→/↑/↓ để di chuyển | Được rồi để tho
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Sử dụng ▲/▼ để thay đổi, OK để chọn"
 
-msgid "Use arrow keys to scroll"
-msgstr "Sử dụng các phím mũi tên để cuộn"
-
-msgid "Use Google Translate"
-msgstr "Sử dụng Google Dịch"
-
 msgid "Using current time"
 msgstr "Sử dụng thời gian hiện tại"
-
-msgid "UV"
-msgstr "tia cực tím"
-
-msgid "UV Index"
-msgstr "Chỉ số UV"
-
-msgid "UV N/A"
-msgstr "UVN/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Mưa rất to"
@@ -1390,11 +1330,11 @@ msgstr "Rất thấp"
 msgid "Very unhealthy"
 msgstr "Rất không tốt cho sức khỏe"
 
-msgid "Visibility: {} m"
-msgstr "Tầm nhìn: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Mức độ hiển thị: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Tầm nhìn: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Bản đồ thời tiết"
 msgid "Weather Maps"
 msgstr "Bản đồ thời tiết"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Bản đồ thời tiết (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Bản đồ thời tiết & vệ tinh"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Bản đồ thời tiết (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Trình chiếu bản đồ thời tiết"
@@ -1447,14 +1387,14 @@ msgstr "Dự báo hàng tuần"
 msgid "Wind"
 msgstr "Gió"
 
-msgid "Wind direction"
-msgstr "Hướng gió"
-
 msgid "Wind Direction today"
 msgstr "Hướng gió hôm nay"
 
 msgid "Wind Direction tomorrow"
 msgstr "Hướng gió ngày mai"
+
+msgid "Wind direction"
+msgstr "Hướng gió"
 
 msgid "Wind speed"
 msgstr "Tốc độ gió"
@@ -1465,15 +1405,6 @@ msgstr "Tốc độ gió {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Tốc độ gió: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Gió: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Gió: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Gió: {} km/h {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Gió: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Gió: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Gió: Không áp dụng"
 
+msgid "Wind: {}"
+msgstr "Gió: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Gió: {} km/h {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Gió: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Độ trong suốt của cửa sổ"
 
 msgid "Yellow - Favorite 2"
 msgstr "Màu vàng - Yêu thích 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Bạn đã cài đặt phiên bản {version}.\nBạn có muốn cài đặt lại phiên bản này không?"
 
 msgid "Zoom In"
 msgstr "Phóng to"
@@ -1498,12 +1435,118 @@ msgstr "Phóng to"
 msgid "Zoom Out"
 msgstr "Thu nhỏ"
 
+msgid "Zoom+"
+msgstr "Thu phóng+"
+
 msgid "Zoom-"
 msgstr "Phóng-"
 
 msgid "Zoom:"
 msgstr "Phóng:"
 
-msgid "Zoom+"
-msgstr "Thu phóng+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} giờ {mins} phút"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLUE để lưu dưới dạng Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- để nhảy 500 thành phố\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• XANH để lưu làm Mục ưa thích 1\n"
+"• XANH để lưu làm 1\n"
+" yêu thích\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK để chọn thành phố\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ĐỎ để mở bàn phím tìm kiếm\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Sử dụng các phím mũi tên để điều hướng\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• VÀNG để lưu làm Mục ưa thích 2\n"
+"• VÀNG để lưu làm 2\n"
+" yêu thích\n"
+
+msgid "← Frame"
+msgstr "← Khung"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- để nhảy 100 thành phố\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Dự báo 7 ngày"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "Không tìm thấy tệp cấu hình API!\n"
+#~ "\n"
+#~ "Vui lòng tạo tệp:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "bằng thông tin xác thực API Foreca của bạn."
+
+#~ msgid "Blue"
+#~ msgstr "Màu xanh da trời"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Trợ giúp chọn thành phố:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Định cấu hình thông tin xác thực API Foreca"
+
+#~ msgid "Distance"
+#~ msgstr "Khoảng cách"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Không thể ghi tệp cấu hình:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Thiết lập Foreca One"
+
+#~ msgid "Green"
+#~ msgstr "Màu xanh lá"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Cập nhật lần cuối"
+
+#~ msgid "Red"
+#~ msgstr "Màu đỏ"
+
+#~ msgid "UV"
+#~ msgstr "tia cực tím"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Bạn đã cài đặt phiên bản {version}.\n"
+#~ "Bạn có muốn cài đặt lại phiên bản này không?"

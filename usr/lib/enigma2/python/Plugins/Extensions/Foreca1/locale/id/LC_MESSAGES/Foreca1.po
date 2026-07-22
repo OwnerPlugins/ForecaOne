@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} jam {mins} menit"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BIRU untuk menyimpan sebagai Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- untuk melompati 500 kota\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• HIJAU untuk disimpan sebagai Favorit 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK untuk memilih kota\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• MERAH untuk membuka keyboard pencarian\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Gunakan tombol panah untuk menavigasi\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- untuk melompati 100 kota\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• KUNING untuk menyimpan sebagai Favorit 2\n"
-
-msgid "← Frame"
-msgstr "← Bingkai"
-
 msgid "0 - Today"
 msgstr "0 - Hari ini"
 
@@ -67,14 +37,29 @@ msgstr "6 - Hari ini + 6 hari"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hari ini + 7 hari"
 
-msgid "7 Day Forecast"
-msgstr "Prakiraan 7 Hari"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Hari ini + 8 hari"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hari ini + 9 hari"
+
+msgid "API credentials not configured."
+msgstr "Kredensial API tidak dikonfigurasi."
+
+msgid "API error"
+msgstr "kesalahan API"
+
+msgid "API password"
+msgstr "kata sandi API"
+
+msgid "API user"
+msgstr "pengguna API"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: Tidak Ada"
 
 msgid "Advanced"
 msgstr "Canggih"
@@ -91,35 +76,14 @@ msgstr "Usia sejak Bulan Baru: {:.1f} hari"
 msgid "Age: N/A"
 msgstr "Usia: Tidak Ada"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Diameter sudut: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Diameter sudut: T/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "File konfigurasi API tidak ditemukan!\n\nSilakan buat file:\n{0}\n\ndengan kredensial Foreca API Anda."
-
-msgid "API credentials not configured."
-msgstr "Kredensial API tidak dikonfigurasi."
-
-msgid "API error"
-msgstr "kesalahan API"
-
-msgid "API password"
-msgstr "kata sandi API"
-
-msgid "API user"
-msgstr "pengguna API"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diameter sudut: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Magnitudo semu: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: Tidak Ada"
 
 msgid "Assign to Favorite 1"
 msgstr "Tetapkan ke Favorit 1"
@@ -157,9 +121,6 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Bulan Hitam"
 
-msgid "Blue"
-msgstr "Biru"
-
 msgid "Blue - Home"
 msgstr "Biru - Rumah"
 
@@ -193,14 +154,11 @@ msgstr "Periksa pembaruan"
 msgid "Choose detail view"
 msgstr "Pilih tampilan detail"
 
-msgid "City list file not found!"
-msgstr "File daftar kota tidak ditemukan!"
-
 msgid "City Selection"
 msgstr "Seleksi Kota"
 
-msgid "City Selection Help:\n\n"
-msgstr "Bantuan Pemilihan Kota:\n\n"
+msgid "City list file not found!"
+msgstr "File daftar kota tidak ditemukan!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Bersihkan File Temp Foreca One?"
@@ -247,14 +205,17 @@ msgstr "Berawan, banyak badai petir disertai hujan"
 msgid "Cold (< 0°C)"
 msgstr "Dingin (<0°C)"
 
+msgid "Color Legend"
+msgstr "Legenda Warna"
+
+msgid "Color Selector"
+msgstr "Pemilih Warna"
+
 msgid "Color data"
 msgstr "data warna"
 
 msgid "Color legend"
 msgstr "Legenda warna"
-
-msgid "Color Legend"
-msgstr "Legenda Warna"
 
 msgid "Color name"
 msgstr "Nama warna"
@@ -262,14 +223,8 @@ msgstr "Nama warna"
 msgid "Color select"
 msgstr "Pilih warna"
 
-msgid "Color Selector"
-msgstr "Pemilih Warna"
-
 msgid "Condition: {}"
 msgstr "Kondisi: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Konfigurasikan kredensial Foreca API"
 
 msgid "Continents Weather Maps"
 msgstr "Peta Cuaca Benua"
@@ -337,20 +292,17 @@ msgstr "Titik embun: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Titik embun: T/A"
 
-msgid "Distance"
-msgstr "Jarak"
-
 msgid "Distance {} km"
 msgstr "Jarak {} km"
+
+msgid "Distance: %s"
+msgstr "Jarak: %s"
 
 msgid "Distance: {}"
 msgstr "Jarak: {}"
 
 msgid "Distance: {} km"
 msgstr "Jarak: {} km"
-
-msgid "Distance: %s"
-msgstr "Jarak: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Apakah Anda ingin menginstalnya sekarang?"
@@ -418,9 +370,6 @@ msgstr "Ekstrim / badai petir"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Gagal menulis file konfigurasi:\n%s"
-
 msgid "Faster: {}s"
 msgstr "Lebih cepat: {}s"
 
@@ -430,11 +379,11 @@ msgstr "Favorit 1"
 msgid "Favorite 2"
 msgstr "Favorit 2"
 
-msgid "Favorites details"
-msgstr "Detail favorit"
-
 msgid "Favorites Details"
 msgstr "Detail Favorit"
+
+msgid "Favorites details"
+msgstr "Detail favorit"
 
 msgid "Feels like"
 msgstr "Terasa seperti"
@@ -445,15 +394,6 @@ msgstr "Rasanya seperti {}"
 msgid "Feels like {}{}"
 msgstr "Terasa seperti {}{}"
 
-msgid "Feels like: {}"
-msgstr "Rasanya seperti: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Rasanya seperti: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Terasa seperti: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Terasa seperti: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Terasa seperti: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Terasa seperti: T/A"
+
+msgid "Feels like: {}"
+msgstr "Rasanya seperti: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Rasanya seperti: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Terasa seperti: {}°C"
 
 msgid "Finland"
 msgstr "Finlandia"
@@ -472,20 +421,17 @@ msgstr "Kuartal Pertama"
 msgid "Fog"
 msgstr "Kabut"
 
+msgid "Foreca API Setup"
+msgstr "Pengaturan API Foreca"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Kredensial Foreca API belum dikonfigurasi. Silakan masukkan di layar pengaturan."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Pengaturan Foreca API berhasil disimpan."
 
-msgid "Foreca API Setup"
-msgstr "Pengaturan API Foreca"
-
 msgid "Foreca One"
 msgstr "Foreca Satu"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca Satu | Peta {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Peta Langsung Foreca One (API)"
@@ -496,17 +442,23 @@ msgstr "Menu Foreca Satu"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Tidak ada stasiun yang ditemukan"
 
-msgid "Foreca One Setup"
-msgstr "Pengaturan Foreca Satu"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stasiun Foreca One: {} stasiun terdekat ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Prakiraan Cuaca Foreca Satu"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Cuaca dan Prakiraan ver. %S"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Prakiraan Cuaca Foreca Satu"
+msgid "Foreca One | Map {}"
+msgstr "Foreca Satu | Peta {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Menemukan %d kota secara lokal untuk '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Menemukan %d kota online untuk '%s'"
 
 msgid "Frame →"
 msgstr "Bingkai →"
@@ -537,9 +489,6 @@ msgstr "Britania Raya"
 
 msgid "Greece"
 msgstr "Yunani"
-
-msgid "Green"
-msgstr "Hijau"
 
 msgid "Green - Favorite 1"
 msgstr "Hijau - Favorit 1"
@@ -580,17 +529,14 @@ msgstr "Panas (30-40°C)"
 msgid "Hour Details"
 msgstr "Detail Jam"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Kelembaban"
 
-msgid "Humidity: {}%"
-msgstr "Kelembapan: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Kelembapan: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Kelembapan: {}%"
 
 msgid "Hungary"
 msgstr "Hongaria"
@@ -649,9 +595,6 @@ msgstr "papan ketik"
 msgid "Last Quarter"
 msgstr "Kuartal Terakhir"
 
-msgid "Last update"
-msgstr "Pembaruan terakhir"
-
 msgid "Latvia"
 msgstr "Latvia"
 
@@ -706,9 +649,6 @@ msgstr "Luksemburg"
 msgid "Magnitude: N/A"
 msgstr "Besaran: Tidak Ada"
 
-msgid "Map {} selected"
-msgstr "Peta {} dipilih"
-
 msgid "Map & Tiles Loaded"
 msgstr "Peta & Ubin Dimuat"
 
@@ -717,6 +657,9 @@ msgstr "Peta dimuat"
 
 msgid "Map server"
 msgstr "Server peta"
+
+msgid "Map {} selected"
+msgstr "Peta {} dipilih"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,11 +703,11 @@ msgstr "Hujan sedang"
 msgid "Month"
 msgstr "Bulan"
 
-msgid "Moon details"
-msgstr "Detail bulan"
-
 msgid "Moon Details"
 msgstr "Detail Bulan"
+
+msgid "Moon details"
+msgstr "Detail bulan"
 
 msgid "Moonrise: {}"
 msgstr "Bulan terbit: {}"
@@ -778,17 +721,17 @@ msgstr "Pagi"
 msgid "Mostly clear"
 msgstr "Sebagian besar jelas"
 
-msgid "Move down"
-msgstr "Pindah ke bawah"
-
 msgid "Move Down"
 msgstr "Pindah ke Bawah"
 
-msgid "Move up"
-msgstr "Naik"
-
 msgid "Move Up"
 msgstr "Pindah ke Atas"
+
+msgid "Move down"
+msgstr "Pindah ke bawah"
+
+msgid "Move up"
+msgstr "Naik"
 
 msgid "N"
 msgstr "N"
@@ -808,17 +751,26 @@ msgstr "Versi baru {version} tersedia."
 msgid "Next"
 msgstr "Berikutnya"
 
-msgid "Next frame"
-msgstr "Bingkai berikutnya"
-
 msgid "Next Image"
 msgstr "Gambar Berikutnya"
+
+msgid "Next frame"
+msgstr "Bingkai berikutnya"
 
 msgid "Next page"
 msgstr "Halaman selanjutnya"
 
 msgid "Next time"
 msgstr "Lain kali"
+
+msgid "No Internet connection detected."
+msgstr "Tidak ada koneksi Internet yang terdeteksi."
+
+msgid "No OSM tiles"
+msgstr "Tidak ada ubin OSM"
+
+msgid "No cities found locally for '%s'"
+msgstr "Tidak ada kota yang ditemukan secara lokal untuk '%s'"
 
 msgid "No city selected"
 msgstr "Tidak ada kota yang dipilih"
@@ -829,14 +781,8 @@ msgstr "Tidak ada data"
 msgid "No date available"
 msgstr "Tidak ada tanggal yang tersedia"
 
-msgid "No Internet connection detected."
-msgstr "Tidak ada koneksi Internet yang terdeteksi."
-
 msgid "No location selected"
 msgstr "Tidak ada lokasi yang dipilih"
-
-msgid "No OSM tiles"
-msgstr "Tidak ada ubin OSM"
 
 msgid "No specific legend available."
 msgstr "Tidak ada legenda khusus yang tersedia."
@@ -865,9 +811,6 @@ msgstr "Rhine-Westphalia Utara"
 msgid "Norway"
 msgstr "Norwegia"
 
-msgid "Ok - Details"
-msgstr "Oke - Detail"
-
 msgid "OK - Ext Info"
 msgstr "Oke - Info Ekst"
 
@@ -876,6 +819,9 @@ msgstr "Oke - Prakiraan"
 
 msgid "OK - Open Map"
 msgstr "Oke - Buka Peta"
+
+msgid "Ok - Details"
+msgstr "Oke - Detail"
 
 msgid "Open Keyboard"
 msgstr "Buka Papan Ketik"
@@ -922,17 +868,17 @@ msgstr "Mendung, badai petir disertai hujan"
 msgid "Overnight"
 msgstr "Semalam"
 
-msgid "Page down"
-msgstr "Halaman ke bawah"
-
 msgid "Page Down"
 msgstr "Halaman Bawah"
 
-msgid "Page up"
-msgstr "Halaman ke atas"
-
 msgid "Page Up"
 msgstr "Halaman Atas"
+
+msgid "Page down"
+msgstr "Halaman ke bawah"
+
+msgid "Page up"
+msgstr "Halaman ke atas"
 
 msgid "Pan down"
 msgstr "Geser ke bawah"
@@ -1012,12 +958,6 @@ msgstr "Tekan MERAH untuk mencari lagi"
 msgid "Pressure"
 msgstr "Tekanan"
 
-msgid "Pressure: {}"
-msgstr "Tekanan: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Tekanan: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Tekanan: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Tekanan: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Tekanan: Tidak Ada"
 
+msgid "Pressure: {}"
+msgstr "Tekanan: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Tekanan: {} hPa"
+
 msgid "Prev"
 msgstr "Sebelumnya"
 
 msgid "Previous"
 msgstr "Sebelumnya"
 
-msgid "Previous frame"
-msgstr "Bingkai sebelumnya"
-
 msgid "Previous Image"
 msgstr "Gambar Sebelumnya"
+
+msgid "Previous frame"
+msgstr "Bingkai sebelumnya"
 
 msgid "Previous page"
 msgstr "Halaman sebelumnya"
@@ -1060,9 +1006,6 @@ msgstr "Hujan: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radar Penampil Hujan"
 
-msgid "Red"
-msgstr "Merah"
-
 msgid "Red - Color select"
 msgstr "Merah - Pilihan warna"
 
@@ -1084,11 +1027,11 @@ msgstr "Panah kanan - Hari berikutnya"
 msgid "Rise"
 msgstr "Bangkit"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Kenaikan azimuth: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Kenaikan azimuth: T/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Kenaikan azimuth: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusia"
@@ -1132,11 +1075,14 @@ msgstr "Pencarian pertama kali mencoba online, jika gagal menggunakan daftar lok
 msgid "Search your City"
 msgstr "Cari Kota Anda"
 
+msgid "Searching for '%s'..."
+msgstr "Mencari '%s'..."
+
 msgid "Select"
 msgstr "Memilih"
 
-msgid "Select {} unit"
-msgstr "Pilih satuan {}"
+msgid "Select Region"
+msgstr "Pilih Wilayah"
 
 msgid "Select a city"
 msgstr "Pilih kota"
@@ -1144,23 +1090,23 @@ msgstr "Pilih kota"
 msgid "Select a map with OK"
 msgstr "Pilih peta dengan OK"
 
-msgid "Select Region"
-msgstr "Pilih Wilayah"
-
 msgid "Select unit system"
 msgstr "Pilih sistem satuan"
 
 msgid "Select wind unit"
 msgstr "Pilih unit angin"
 
+msgid "Select {} unit"
+msgstr "Pilih satuan {}"
+
 msgid "Selected hour details"
 msgstr "Detail jam yang dipilih"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Atur azimuth: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Tetapkan azimuth: T/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Atur azimuth: {:.0f}°"
 
 msgid "Sets"
 msgstr "Set"
@@ -1231,15 +1177,6 @@ msgstr "Suhu"
 msgid "Temperature"
 msgstr "Suhu"
 
-msgid "Temperature: {}"
-msgstr "Suhu: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Suhu: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Suhu: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Suhu: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Suhu: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Suhu: Tidak Ada"
+
+msgid "Temperature: {}"
+msgstr "Suhu: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Suhu: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Suhu: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Terima kasih {thanks} dan teman lainnya atas sarannya"
@@ -1288,20 +1234,26 @@ msgstr "Besok"
 msgid "Transit (culmination): {}"
 msgstr "Transit (puncak): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Ketinggian transit: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Ketinggian transit: T/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Ketinggian transit: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Pengaturan Terjemahan"
 
+msgid "Transparency Settings"
+msgstr "Pengaturan Transparansi"
+
 msgid "Transparency level"
 msgstr "Tingkat transparansi"
 
-msgid "Transparency Settings"
-msgstr "Pengaturan Transparansi"
+msgid "UV Index"
+msgstr "Indeks UV"
+
+msgid "UV N/A"
+msgstr "UV Tidak T/A"
 
 msgid "Unhealthy"
 msgstr "Tidak sehat"
@@ -1336,14 +1288,20 @@ msgstr "Pembaruan selesai. Silakan mulai ulang Enigma2."
 msgid "Updated {}"
 msgstr "Diperbarui {}"
 
-msgid "Updated: {}"
-msgstr "Diperbarui: {}"
-
 msgid "Updated: N/A"
 msgstr "Diperbarui: Tidak Ada"
 
+msgid "Updated: {}"
+msgstr "Diperbarui: {}"
+
 msgid "Updating..."
 msgstr "Memperbarui..."
+
+msgid "Use Google Translate"
+msgstr "Gunakan Google Terjemahan"
+
+msgid "Use arrow keys to scroll"
+msgstr "Gunakan tombol panah untuk menggulir"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Gunakan ← → untuk mengubah waktu | Oke untuk keluar"
@@ -1354,26 +1312,8 @@ msgstr "Gunakan ←/→/↑/↓ untuk memindahkan | Oke untuk keluar"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Gunakan ▲/▼ untuk mengubah, OK untuk memilih"
 
-msgid "Use arrow keys to scroll"
-msgstr "Gunakan tombol panah untuk menggulir"
-
-msgid "Use Google Translate"
-msgstr "Gunakan Google Terjemahan"
-
 msgid "Using current time"
 msgstr "Menggunakan waktu saat ini"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "Indeks UV"
-
-msgid "UV N/A"
-msgstr "UV Tidak T/A"
-
-msgid "v."
-msgstr "ay."
 
 msgid "Very heavy rain"
 msgstr "Hujan yang sangat lebat"
@@ -1390,11 +1330,11 @@ msgstr "Sangat rendah"
 msgid "Very unhealthy"
 msgstr "Sangat tidak sehat"
 
-msgid "Visibility: {} m"
-msgstr "Visibilitas: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Visibilitas: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Visibilitas: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Peta Cuaca"
 msgid "Weather Maps"
 msgstr "Peta Cuaca"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Peta Cuaca (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Peta Cuaca & Satelit"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Peta Cuaca (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Tayangan Slide Peta Cuaca"
@@ -1447,14 +1387,14 @@ msgstr "Prakiraan Mingguan"
 msgid "Wind"
 msgstr "Angin"
 
-msgid "Wind direction"
-msgstr "Arah angin"
-
 msgid "Wind Direction today"
 msgstr "Arah Angin hari ini"
 
 msgid "Wind Direction tomorrow"
 msgstr "Arah Angin besok"
+
+msgid "Wind direction"
+msgstr "Arah angin"
 
 msgid "Wind speed"
 msgstr "Kecepatan angin"
@@ -1465,15 +1405,6 @@ msgstr "Kecepatan angin {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Kecepatan angin: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Angin: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Angin: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Angin: {} km/jam {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Angin: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Angin: %s km/jam %s"
 msgid "Wind: N/A"
 msgstr "Angin: Tidak Ada"
 
+msgid "Wind: {}"
+msgstr "Angin: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Angin: {} km/jam {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Angin: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Transparansi jendela"
 
 msgid "Yellow - Favorite 2"
 msgstr "Kuning - Favorit 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Anda sudah menginstal versi {version}.\nApakah Anda ingin menginstalnya kembali?"
 
 msgid "Zoom In"
 msgstr "Perbesar"
@@ -1498,12 +1435,114 @@ msgstr "Perbesar"
 msgid "Zoom Out"
 msgstr "Perkecil"
 
+msgid "Zoom+"
+msgstr "Perbesar+"
+
 msgid "Zoom-"
 msgstr "Perbesar-"
 
 msgid "Zoom:"
 msgstr "Perbesar:"
 
-msgid "Zoom+"
-msgstr "Perbesar+"
+msgid "v."
+msgstr "ay."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} jam {mins} menit"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BIRU untuk menyimpan sebagai Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- untuk melompati 500 kota\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• HIJAU untuk disimpan sebagai Favorit 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK untuk memilih kota\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• MERAH untuk membuka keyboard pencarian\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Gunakan tombol panah untuk menavigasi\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• KUNING untuk menyimpan sebagai Favorit 2\n"
+
+msgid "← Frame"
+msgstr "← Bingkai"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- untuk melompati 100 kota\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "Prakiraan 7 Hari"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "File konfigurasi API tidak ditemukan!\n"
+#~ "\n"
+#~ "Silakan buat file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "dengan kredensial Foreca API Anda."
+
+#~ msgid "Blue"
+#~ msgstr "Biru"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Bantuan Pemilihan Kota:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Konfigurasikan kredensial Foreca API"
+
+#~ msgid "Distance"
+#~ msgstr "Jarak"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Gagal menulis file konfigurasi:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Pengaturan Foreca Satu"
+
+#~ msgid "Green"
+#~ msgstr "Hijau"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Pembaruan terakhir"
+
+#~ msgid "Red"
+#~ msgstr "Merah"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Anda sudah menginstal versi {version}.\n"
+#~ "Apakah Anda ingin menginstalnya kembali?"

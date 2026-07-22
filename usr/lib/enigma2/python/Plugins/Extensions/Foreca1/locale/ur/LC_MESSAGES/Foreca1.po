@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} گھنٹہ {mins} منٹ"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• Home\n کے بطور محفوظ کرنے کے لیے نیلا\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- 500 شہروں کو چھلانگ لگانے کے لیے\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• پسندیدہ 1\n کے بطور محفوظ کرنے کے لیے GREEN\n"
-
-msgid "• OK to select city\n"
-msgstr "• شہر منتخب کرنے کے لیے ٹھیک ہے\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• تلاش کی بورڈ کو کھولنے کے لیے RED\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• ای ایس سی_0 کو نیویگیٹ کرنے کے لیے تیر والے بٹنوں کا استعمال کریں۔\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- 100 شہروں کو چھلانگ لگانے کے لیے\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• پسندیدہ 2\n کے بطور محفوظ کرنے کے لیے پیلا\n"
-
-msgid "← Frame"
-msgstr "← فریم"
-
 msgid "0 - Today"
 msgstr "0 - آج"
 
@@ -67,14 +37,29 @@ msgstr "6 - آج + 6 دن"
 msgid "7 - Today + 7 days"
 msgstr "7 - آج + 7 دن"
 
-msgid "7 Day Forecast"
-msgstr "7 دن کی پیشن گوئی"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - آج + 8 دن"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - آج + 9 دن"
+
+msgid "API credentials not configured."
+msgstr "API اسناد کنفیگر نہیں ہیں۔"
+
+msgid "API error"
+msgstr "API کی خرابی۔"
+
+msgid "API password"
+msgstr "API پاس ورڈ"
+
+msgid "API user"
+msgstr "API صارف"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Advanced"
 msgstr "اعلی درجے کی"
@@ -91,35 +76,14 @@ msgstr "نئے چاند سے عمر: {:.1f} دن"
 msgid "Age: N/A"
 msgstr "عمر: N/A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "کونیی قطر: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "کونیی قطر: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API کنفیگریشن فائل نہیں ملی!\n\nبراہ کرم فائل بنائیں:\n{0}\n\nاپنے Foreca API اسناد کے ساتھ۔"
-
-msgid "API credentials not configured."
-msgstr "API اسناد کنفیگر نہیں ہیں۔"
-
-msgid "API error"
-msgstr "API کی خرابی۔"
-
-msgid "API password"
-msgstr "API پاس ورڈ"
-
-msgid "API user"
-msgstr "API صارف"
+msgid "Angular diameter: {:.0f}″"
+msgstr "کونیی قطر: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ظاہری شدت: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "پسندیدہ 1 کو تفویض کریں۔"
@@ -157,9 +121,6 @@ msgstr "برلن"
 msgid "Black Moon"
 msgstr "بلیک مون"
 
-msgid "Blue"
-msgstr "نیلا"
-
 msgid "Blue - Home"
 msgstr "بلیو - گھر"
 
@@ -193,14 +154,11 @@ msgstr "اپ ڈیٹس کے لیے چیک کریں۔"
 msgid "Choose detail view"
 msgstr "تفصیلی منظر کا انتخاب کریں۔"
 
-msgid "City list file not found!"
-msgstr "شہر کی فہرست کی فائل نہیں ملی!"
-
 msgid "City Selection"
 msgstr "شہر کا انتخاب"
 
-msgid "City Selection Help:\n\n"
-msgstr "شہر کے انتخاب میں مدد:\n\n"
+msgid "City list file not found!"
+msgstr "شہر کی فہرست کی فائل نہیں ملی!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "کلین اپ فاریکا ون ٹیمپ فائلز؟"
@@ -247,14 +205,17 @@ msgstr "ابر آلود، گرج چمک کے ساتھ بارش"
 msgid "Cold (< 0°C)"
 msgstr "سرد (<0°C)"
 
+msgid "Color Legend"
+msgstr "رنگین لیجنڈ"
+
+msgid "Color Selector"
+msgstr "رنگ سلیکٹر"
+
 msgid "Color data"
 msgstr "رنگین ڈیٹا"
 
 msgid "Color legend"
 msgstr "رنگین افسانہ"
-
-msgid "Color Legend"
-msgstr "رنگین لیجنڈ"
 
 msgid "Color name"
 msgstr "رنگ کا نام"
@@ -262,14 +223,8 @@ msgstr "رنگ کا نام"
 msgid "Color select"
 msgstr "رنگ منتخب کریں۔"
 
-msgid "Color Selector"
-msgstr "رنگ سلیکٹر"
-
 msgid "Condition: {}"
 msgstr "حالت: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Foreca API اسناد کو ترتیب دیں۔"
 
 msgid "Continents Weather Maps"
 msgstr "براعظموں کے موسم کے نقشے"
@@ -337,20 +292,17 @@ msgstr "اوس پوائنٹ: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "ڈیو پوائنٹ: N/A"
 
-msgid "Distance"
-msgstr "فاصلہ"
-
 msgid "Distance {} km"
 msgstr "فاصلہ {} کلومیٹر"
+
+msgid "Distance: %s"
+msgstr "فاصلہ: %s"
 
 msgid "Distance: {}"
 msgstr "فاصلہ: {}"
 
 msgid "Distance: {} km"
 msgstr "فاصلہ: {} کلومیٹر"
-
-msgid "Distance: %s"
-msgstr "فاصلہ: %s"
 
 msgid "Do you want to install it now?"
 msgstr "کیا آپ اسے ابھی انسٹال کرنا چاہتے ہیں؟"
@@ -418,9 +370,6 @@ msgstr "شدید / گرج چمک کے ساتھ"
 msgid "Fahrenheit, mph, inHg"
 msgstr "فارن ہائیٹ، میل فی گھنٹہ، inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "کنفیگریشن فائل لکھنے میں ناکام:\n%s"
-
 msgid "Faster: {}s"
 msgstr "تیز تر: {}s"
 
@@ -430,10 +379,10 @@ msgstr "پسندیدہ 1"
 msgid "Favorite 2"
 msgstr "پسندیدہ 2"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "پسندیدہ تفصیلات"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "پسندیدہ تفصیلات"
 
 msgid "Feels like"
@@ -445,15 +394,6 @@ msgstr "ایسا لگتا ہے {}"
 msgid "Feels like {}{}"
 msgstr "ایسا لگتا ہے {}{}"
 
-msgid "Feels like: {}"
-msgstr "ایسا محسوس ہوتا ہے: {}"
-
-msgid "Feels like: {}{}"
-msgstr "ایسا محسوس ہوتا ہے: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "ایسا محسوس ہوتا ہے: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "ایسا محسوس ہوتا ہے: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "ایسا محسوس ہوتا ہے: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "ایسا محسوس ہوتا ہے: N/A"
+
+msgid "Feels like: {}"
+msgstr "ایسا محسوس ہوتا ہے: {}"
+
+msgid "Feels like: {}{}"
+msgstr "ایسا محسوس ہوتا ہے: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "ایسا محسوس ہوتا ہے: {}°C"
 
 msgid "Finland"
 msgstr "فن لینڈ"
@@ -472,20 +421,17 @@ msgstr "پہلی سہ ماہی"
 msgid "Fog"
 msgstr "دھند"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API سیٹ اپ"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API کی اسناد ابھی تک کنفیگر نہیں ہوئی ہیں۔ براہ کرم انہیں سیٹ اپ اسکرین میں درج کریں۔"
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API سیٹنگز کامیابی سے محفوظ ہو گئیں۔"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API سیٹ اپ"
-
 msgid "Foreca One"
 msgstr "Foreca ایک"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | نقشہ {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Maps (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca ایک مینو"
 msgid "Foreca One No stations found"
 msgstr "Foreca One کوئی اسٹیشن نہیں ملا"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One سیٹ اپ"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One اسٹیشنز: {} قریبی اسٹیشنز ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca ایک موسم کی پیشن گوئی"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca ایک موسم کی پیشن گوئی"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | نقشہ {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "'%s' کے لیے مقامی طور پر %d شہر ملے"
+
+msgid "Found %d cities online for '%s'"
+msgstr "'%s' کے لیے %d شہر آن لائن ملے"
 
 msgid "Frame →"
 msgstr "فریم →"
@@ -537,9 +489,6 @@ msgstr "برطانیہ"
 
 msgid "Greece"
 msgstr "یونان"
-
-msgid "Green"
-msgstr "سبز"
 
 msgid "Green - Favorite 1"
 msgstr "سبز - پسندیدہ 1"
@@ -580,17 +529,14 @@ msgstr "گرم (30-40 ° C)"
 msgid "Hour Details"
 msgstr "گھنٹے کی تفصیلات"
 
-msgid "HTML"
-msgstr "ایچ ٹی ایم ایل"
-
 msgid "Humidity"
 msgstr "نمی"
 
-msgid "Humidity: {}%"
-msgstr "نمی: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "نمی: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "نمی: {}%"
 
 msgid "Hungary"
 msgstr "ہنگری"
@@ -649,9 +595,6 @@ msgstr "کی بورڈ"
 msgid "Last Quarter"
 msgstr "آخری سہ ماہی"
 
-msgid "Last update"
-msgstr "آخری اپ ڈیٹ"
-
 msgid "Latvia"
 msgstr "لٹویا"
 
@@ -706,9 +649,6 @@ msgstr "لکسمبرگ"
 msgid "Magnitude: N/A"
 msgstr "شدت: N/A"
 
-msgid "Map {} selected"
-msgstr "نقشہ {} منتخب کیا گیا۔"
-
 msgid "Map & Tiles Loaded"
 msgstr "نقشہ اور ٹائلیں بھری ہوئی ہیں۔"
 
@@ -717,6 +657,9 @@ msgstr "نقشہ بھرا ہوا ہے۔"
 
 msgid "Map server"
 msgstr "نقشہ سرور"
+
+msgid "Map {} selected"
+msgstr "نقشہ {} منتخب کیا گیا۔"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "میکلنبرگ-ورپومرن"
@@ -760,10 +703,10 @@ msgstr "درمیانی بارش"
 msgid "Month"
 msgstr "مہینہ"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "چاند کی تفصیلات"
 
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "چاند کی تفصیلات"
 
 msgid "Moonrise: {}"
@@ -778,17 +721,17 @@ msgstr "صبح"
 msgid "Mostly clear"
 msgstr "زیادہ تر واضح"
 
-msgid "Move down"
+msgid "Move Down"
 msgstr "نیچے کی طرف بڑھیں۔"
 
-msgid "Move Down"
+msgid "Move Up"
+msgstr "اوپر منتقل کریں۔"
+
+msgid "Move down"
 msgstr "نیچے کی طرف بڑھیں۔"
 
 msgid "Move up"
 msgstr "اوپر بڑھیں۔"
-
-msgid "Move Up"
-msgstr "اوپر منتقل کریں۔"
 
 msgid "N"
 msgstr "ن"
@@ -808,17 +751,26 @@ msgstr "نیا ورژن {version} دستیاب ہے۔"
 msgid "Next"
 msgstr "اگلا"
 
-msgid "Next frame"
-msgstr "اگلا فریم"
-
 msgid "Next Image"
 msgstr "اگلی تصویر"
+
+msgid "Next frame"
+msgstr "اگلا فریم"
 
 msgid "Next page"
 msgstr "اگلا صفحہ"
 
 msgid "Next time"
 msgstr "اگلی بار"
+
+msgid "No Internet connection detected."
+msgstr "کوئی انٹرنیٹ کنکشن نہیں ملا۔"
+
+msgid "No OSM tiles"
+msgstr "کوئی OSM ٹائل نہیں ہے۔"
+
+msgid "No cities found locally for '%s'"
+msgstr "مقامی طور پر '%s' کے لیے کوئی شہر نہیں ملا"
 
 msgid "No city selected"
 msgstr "کوئی شہر منتخب نہیں کیا گیا۔"
@@ -829,14 +781,8 @@ msgstr "کوئی ڈیٹا نہیں۔"
 msgid "No date available"
 msgstr "کوئی تاریخ دستیاب نہیں ہے۔"
 
-msgid "No Internet connection detected."
-msgstr "کوئی انٹرنیٹ کنکشن نہیں ملا۔"
-
 msgid "No location selected"
 msgstr "کوئی مقام منتخب نہیں کیا گیا۔"
-
-msgid "No OSM tiles"
-msgstr "کوئی OSM ٹائل نہیں ہے۔"
 
 msgid "No specific legend available."
 msgstr "کوئی مخصوص لیجنڈ دستیاب نہیں ہے۔"
@@ -865,9 +811,6 @@ msgstr "نارتھ رائن ویسٹ فیلیا"
 msgid "Norway"
 msgstr "ناروے"
 
-msgid "Ok - Details"
-msgstr "ٹھیک ہے - تفصیلات"
-
 msgid "OK - Ext Info"
 msgstr "ٹھیک ہے - Ext معلومات"
 
@@ -876,6 +819,9 @@ msgstr "ٹھیک ہے - پیشن گوئی"
 
 msgid "OK - Open Map"
 msgstr "ٹھیک ہے - نقشہ کھولیں۔"
+
+msgid "Ok - Details"
+msgstr "ٹھیک ہے - تفصیلات"
 
 msgid "Open Keyboard"
 msgstr "کی بورڈ کھولیں۔"
@@ -922,16 +868,16 @@ msgstr "ابر آلود، گرج چمک کے ساتھ بارش"
 msgid "Overnight"
 msgstr "راتوں رات"
 
-msgid "Page down"
-msgstr "صفحہ نیچے"
-
 msgid "Page Down"
 msgstr "صفحہ نیچے"
 
-msgid "Page up"
+msgid "Page Up"
 msgstr "صفحہ اوپر"
 
-msgid "Page Up"
+msgid "Page down"
+msgstr "صفحہ نیچے"
+
+msgid "Page up"
 msgstr "صفحہ اوپر"
 
 msgid "Pan down"
@@ -1012,12 +958,6 @@ msgstr "دوبارہ تلاش کرنے کے لیے RED دبائیں۔"
 msgid "Pressure"
 msgstr "دباؤ"
 
-msgid "Pressure: {}"
-msgstr "دباؤ: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "دباؤ: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "دباؤ: %s"
 
@@ -1027,17 +967,23 @@ msgstr "دباؤ: %s hPa"
 msgid "Pressure: N/A"
 msgstr "دباؤ: N/A"
 
+msgid "Pressure: {}"
+msgstr "دباؤ: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "دباؤ: {} hPa"
+
 msgid "Prev"
 msgstr "پچھلا"
 
 msgid "Previous"
 msgstr "پچھلا"
 
-msgid "Previous frame"
-msgstr "پچھلا فریم"
-
 msgid "Previous Image"
 msgstr "پچھلی تصویر"
+
+msgid "Previous frame"
+msgstr "پچھلا فریم"
 
 msgid "Previous page"
 msgstr "پچھلا صفحہ"
@@ -1060,9 +1006,6 @@ msgstr "بارش: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "رین ویور ریڈار"
 
-msgid "Red"
-msgstr "سرخ"
-
 msgid "Red - Color select"
 msgstr "سرخ - رنگ منتخب کریں۔"
 
@@ -1084,11 +1027,11 @@ msgstr "دائیں تیر - اگلے دن"
 msgid "Rise"
 msgstr "اٹھو"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "عروج ازمتھ: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "عروج ازمتھ: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "عروج ازمتھ: {:.0f}°"
 
 msgid "Russia"
 msgstr "روس"
@@ -1132,11 +1075,14 @@ msgstr "تلاش سب سے پہلے آن لائن کوشش کرتا ہے، اگ�
 msgid "Search your City"
 msgstr "اپنا شہر تلاش کریں۔"
 
+msgid "Searching for '%s'..."
+msgstr "'%s' تلاش کر رہا ہے..."
+
 msgid "Select"
 msgstr "منتخب کریں۔"
 
-msgid "Select {} unit"
-msgstr "{} یونٹ منتخب کریں۔"
+msgid "Select Region"
+msgstr "علاقہ منتخب کریں۔"
 
 msgid "Select a city"
 msgstr "ایک شہر منتخب کریں۔"
@@ -1144,23 +1090,23 @@ msgstr "ایک شہر منتخب کریں۔"
 msgid "Select a map with OK"
 msgstr "OK کے ساتھ ایک نقشہ منتخب کریں۔"
 
-msgid "Select Region"
-msgstr "علاقہ منتخب کریں۔"
-
 msgid "Select unit system"
 msgstr "یونٹ کا نظام منتخب کریں۔"
 
 msgid "Select wind unit"
 msgstr "ونڈ یونٹ منتخب کریں۔"
 
+msgid "Select {} unit"
+msgstr "{} یونٹ منتخب کریں۔"
+
 msgid "Selected hour details"
 msgstr "منتخب گھنٹے کی تفصیلات"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "ازمتھ سیٹ کریں: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Azimuth سیٹ کریں: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "ازمتھ سیٹ کریں: {:.0f}°"
 
 msgid "Sets"
 msgstr "سیٹ کرتا ہے۔"
@@ -1231,15 +1177,6 @@ msgstr "درجہ حرارت"
 msgid "Temperature"
 msgstr "درجہ حرارت"
 
-msgid "Temperature: {}"
-msgstr "درجہ حرارت: {}"
-
-msgid "Temperature: {}{}"
-msgstr "درجہ حرارت: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "درجہ حرارت: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "درجہ حرارت: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "درجہ حرارت: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "درجہ حرارت: N/A"
+
+msgid "Temperature: {}"
+msgstr "درجہ حرارت: {}"
+
+msgid "Temperature: {}{}"
+msgstr "درجہ حرارت: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "درجہ حرارت: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "تجاویز کا شکریہ {thanks} اور دیگر دوستوں کا"
@@ -1288,20 +1234,26 @@ msgstr "کل"
 msgid "Transit (culmination): {}"
 msgstr "ٹرانزٹ (اختتام): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "ٹرانزٹ اونچائی: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "ٹرانزٹ اونچائی: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "ٹرانزٹ اونچائی: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "ترجمے کی ترتیبات"
 
+msgid "Transparency Settings"
+msgstr "شفافیت کی ترتیبات"
+
 msgid "Transparency level"
 msgstr "شفافیت کی سطح"
 
-msgid "Transparency Settings"
-msgstr "شفافیت کی ترتیبات"
+msgid "UV Index"
+msgstr "یووی انڈیکس"
+
+msgid "UV N/A"
+msgstr "UV N/A"
 
 msgid "Unhealthy"
 msgstr "غیر صحت مند"
@@ -1336,14 +1288,20 @@ msgstr "اپ ڈیٹ مکمل ہو گیا۔ براہ کرم Enigma2 کو دوبا
 msgid "Updated {}"
 msgstr "اپ ڈیٹ کیا گیا {}"
 
-msgid "Updated: {}"
-msgstr "اپ ڈیٹ کیا گیا: {}"
-
 msgid "Updated: N/A"
 msgstr "اپ ڈیٹ شدہ: N/A"
 
+msgid "Updated: {}"
+msgstr "اپ ڈیٹ کیا گیا: {}"
+
 msgid "Updating..."
 msgstr "اپ ڈیٹ ہو رہا ہے..."
+
+msgid "Use Google Translate"
+msgstr "گوگل ٹرانسلیٹ استعمال کریں۔"
+
+msgid "Use arrow keys to scroll"
+msgstr "اسکرول کرنے کے لیے تیر والے بٹنوں کا استعمال کریں۔"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "وقت کو تبدیل کرنے کے لیے ← → استعمال کریں۔ باہر نکلنا ٹھیک ہے۔"
@@ -1354,26 +1312,8 @@ msgstr "منتقل کرنے کے لیے ←/→/↑/↓ استعمال کریں�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "تبدیل کرنے کے لیے ▲/▼ استعمال کریں، منتخب کرنے کے لیے ٹھیک ہے۔"
 
-msgid "Use arrow keys to scroll"
-msgstr "اسکرول کرنے کے لیے تیر والے بٹنوں کا استعمال کریں۔"
-
-msgid "Use Google Translate"
-msgstr "گوگل ٹرانسلیٹ استعمال کریں۔"
-
 msgid "Using current time"
 msgstr "موجودہ وقت کا استعمال"
-
-msgid "UV"
-msgstr "یووی"
-
-msgid "UV Index"
-msgstr "یووی انڈیکس"
-
-msgid "UV N/A"
-msgstr "UV N/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "بہت تیز بارش"
@@ -1390,11 +1330,11 @@ msgstr "بہت کم"
 msgid "Very unhealthy"
 msgstr "بہت غیر صحت بخش"
 
-msgid "Visibility: {} m"
-msgstr "مرئیت: {} m"
-
 msgid "Visibility: %s m"
 msgstr "مرئیت: %s m"
+
+msgid "Visibility: {} m"
+msgstr "مرئیت: {} m"
 
 msgid "W"
 msgstr "ڈبلیو"
@@ -1423,11 +1363,11 @@ msgstr "موسم کا نقشہ"
 msgid "Weather Maps"
 msgstr "موسم کے نقشے"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "موسم کے نقشے (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "موسم کے نقشے اور سیٹلائٹ"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "موسم کے نقشے (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "موسم کے نقشے سلائیڈ شو"
@@ -1447,14 +1387,14 @@ msgstr "ہفتہ وار پیشن گوئی"
 msgid "Wind"
 msgstr "ہوا"
 
-msgid "Wind direction"
-msgstr "ہوا کی سمت"
-
 msgid "Wind Direction today"
 msgstr "آج ہوا کی سمت"
 
 msgid "Wind Direction tomorrow"
 msgstr "کل ہوا کی سمت"
+
+msgid "Wind direction"
+msgstr "ہوا کی سمت"
 
 msgid "Wind speed"
 msgstr "ہوا کی رفتار"
@@ -1465,15 +1405,6 @@ msgstr "ہوا کی رفتار {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "ہوا کی رفتار: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "ہوا: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "ہوا: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "ہوا: {} کلومیٹر فی گھنٹہ {}"
-
 msgid "Wind: %d %s %s"
 msgstr "ہوا: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "ہوا: %s کلومیٹر فی گھنٹہ %s"
 msgid "Wind: N/A"
 msgstr "ہوا: N/A"
 
+msgid "Wind: {}"
+msgstr "ہوا: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "ہوا: {} کلومیٹر فی گھنٹہ {}"
+
+msgid "Wind: {} {} {}"
+msgstr "ہوا: {} {} {}"
+
 msgid "Window transparency"
 msgstr "ونڈو شفافیت"
 
 msgid "Yellow - Favorite 2"
 msgstr "پیلا - پسندیدہ 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "آپ کے پاس پہلے سے ہی ورژن {version} انسٹال ہے۔\nکیا آپ اسے دوبارہ انسٹال کرنا چاہتے ہیں؟"
 
 msgid "Zoom In"
 msgstr "زوم ان"
@@ -1498,12 +1435,120 @@ msgstr "زوم ان"
 msgid "Zoom Out"
 msgstr "زوم آؤٹ"
 
+msgid "Zoom+"
+msgstr "زوم+"
+
 msgid "Zoom-"
 msgstr "زوم-"
 
 msgid "Zoom:"
 msgstr "زوم:"
 
-msgid "Zoom+"
-msgstr "زوم+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} گھنٹہ {mins} منٹ"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• گھر کے طور پر محفوظ کرنے کے لیے نیلا\n"
+"• Home\n"
+" کے بطور محفوظ کرنے کے لیے نیلا\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 شہروں کو چھلانگ لگانے کے لیے\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• پسندیدہ 1 کے طور پر محفوظ کرنے کے لیے گرین"
+"• پسندیدہ 1\n"
+" کے بطور محفوظ کرنے کے لیے GREEN\n"
+
+msgid "• OK to select city\n"
+msgstr "• شہر منتخب کرنے کے لیے ٹھیک ہے\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• تلاش کی بورڈ کو کھولنے کے لیے RED\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• ای ایس سی_0 کو نیویگیٹ کرنے کے لیے تیر والے بٹنوں کا استعمال کریں۔\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• پسندیدہ کے طور پر محفوظ کرنے کے لیے پیلا 2\n"
+"• پسندیدہ 2\n"
+" کے بطور محفوظ کرنے کے لیے پیلا\n"
+
+msgid "← Frame"
+msgstr "← فریم"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- 100 شہروں کو چھلانگ لگانے کے لیے\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 دن کی پیشن گوئی"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API کنفیگریشن فائل نہیں ملی!\n"
+#~ "\n"
+#~ "براہ کرم فائل بنائیں:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "اپنے Foreca API اسناد کے ساتھ۔"
+
+#~ msgid "Blue"
+#~ msgstr "نیلا"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "شہر کے انتخاب میں مدد:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Foreca API اسناد کو ترتیب دیں۔"
+
+#~ msgid "Distance"
+#~ msgstr "فاصلہ"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "کنفیگریشن فائل لکھنے میں ناکام:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One سیٹ اپ"
+
+#~ msgid "Green"
+#~ msgstr "سبز"
+
+#~ msgid "HTML"
+#~ msgstr "ایچ ٹی ایم ایل"
+
+#~ msgid "Last update"
+#~ msgstr "آخری اپ ڈیٹ"
+
+#~ msgid "Red"
+#~ msgstr "سرخ"
+
+#~ msgid "UV"
+#~ msgstr "یووی"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "آپ کے پاس پہلے سے ہی ورژن {version} انسٹال ہے۔\n"
+#~ "کیا آپ اسے دوبارہ انسٹال کرنا چاہتے ہیں؟"

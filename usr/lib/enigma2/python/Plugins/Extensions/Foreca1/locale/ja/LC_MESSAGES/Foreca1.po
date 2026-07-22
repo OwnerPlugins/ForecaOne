@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} 時間 {mins} 分"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• Blue は Home\n として保存します\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- で 500 都市にジャンプ\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• 緑色: お気に入りとして保存 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK で都市\nを選択します\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• RED で検索キーボードを開きます\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• 矢印キーを使用して\nに移動します\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- で 100 都市にジャンプ\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• 黄色：お気に入りとして保存 2\n"
-
-msgid "← Frame"
-msgstr "← フレーム"
-
 msgid "0 - Today"
 msgstr "0 - 今日"
 
@@ -67,14 +37,29 @@ msgstr "6 - 今日 + 6 日"
 msgid "7 - Today + 7 days"
 msgstr "7 - 今日 + 7 日"
 
-msgid "7 Day Forecast"
-msgstr "7日間の予報"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - 今日 + 8 日"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - 今日 + 9 日"
+
+msgid "API credentials not configured."
+msgstr "API 認証情報が設定されていません。"
+
+msgid "API error"
+msgstr "APIエラー"
+
+msgid "API password"
+msgstr "APIパスワード"
+
+msgid "API user"
+msgstr "APIユーザー"
+
+msgid "AQI {}"
+msgstr "アキ {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: 該当なし"
 
 msgid "Advanced"
 msgstr "高度な"
@@ -91,35 +76,14 @@ msgstr "新月からの経過日数: {:.1f} 日"
 msgid "Age: N/A"
 msgstr "年齢: 該当なし"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "角直径: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "角直径: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API 構成ファイルが見つかりません!\n\nForeca API 認証情報を使用してファイル:\n{0}\n\n を作成してください。"
-
-msgid "API credentials not configured."
-msgstr "API 認証情報が設定されていません。"
-
-msgid "API error"
-msgstr "APIエラー"
-
-msgid "API password"
-msgstr "APIパスワード"
-
-msgid "API user"
-msgstr "APIユーザー"
+msgid "Angular diameter: {:.0f}″"
+msgstr "角直径: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "見かけの等級: {:.2f}"
-
-msgid "AQI {}"
-msgstr "アキ {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: 該当なし"
 
 msgid "Assign to Favorite 1"
 msgstr "お気に入り 1 に割り当てる"
@@ -157,9 +121,6 @@ msgstr "ベルリン"
 msgid "Black Moon"
 msgstr "ブラックムーン"
 
-msgid "Blue"
-msgstr "青"
-
 msgid "Blue - Home"
 msgstr "ブルー - ホーム"
 
@@ -193,14 +154,11 @@ msgstr "アップデートをチェックする"
 msgid "Choose detail view"
 msgstr "詳細ビューを選択してください"
 
-msgid "City list file not found!"
-msgstr "都市リスト ファイルが見つかりません!"
-
 msgid "City Selection"
 msgstr "都市の選択"
 
-msgid "City Selection Help:\n\n"
-msgstr "都市選択のヘルプ:\n\n"
+msgid "City list file not found!"
+msgstr "都市リスト ファイルが見つかりません!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Foreca One の一時ファイルをクリーンアップしますか?"
@@ -247,13 +205,16 @@ msgstr "曇り、雷雨で雨が降る"
 msgid "Cold (< 0°C)"
 msgstr "低温 (< 0°C)"
 
+msgid "Color Legend"
+msgstr "色の凡例"
+
+msgid "Color Selector"
+msgstr "カラーセレクター"
+
 msgid "Color data"
 msgstr "カラーデータ"
 
 msgid "Color legend"
-msgstr "色の凡例"
-
-msgid "Color Legend"
 msgstr "色の凡例"
 
 msgid "Color name"
@@ -262,14 +223,8 @@ msgstr "色の名前"
 msgid "Color select"
 msgstr "カラーセレクト"
 
-msgid "Color Selector"
-msgstr "カラーセレクター"
-
 msgid "Condition: {}"
 msgstr "状態： {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Foreca API 資格情報を構成する"
 
 msgid "Continents Weather Maps"
 msgstr "大陸の天気図"
@@ -337,20 +292,17 @@ msgstr "露点: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "露点: N/A"
 
-msgid "Distance"
-msgstr "距離"
-
 msgid "Distance {} km"
 msgstr "距離 {} km"
+
+msgid "Distance: %s"
+msgstr "距離: %s"
 
 msgid "Distance: {}"
 msgstr "距離： {}"
 
 msgid "Distance: {} km"
 msgstr "距離: {} km"
-
-msgid "Distance: %s"
-msgstr "距離: %s"
 
 msgid "Do you want to install it now?"
 msgstr "今すぐインストールしますか?"
@@ -418,9 +370,6 @@ msgstr "極端な/雷雨"
 msgid "Fahrenheit, mph, inHg"
 msgstr "華氏、マイル、インチHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "構成ファイルの書き込みに失敗しました:\n%s"
-
 msgid "Faster: {}s"
 msgstr "より高速: {} 秒"
 
@@ -430,10 +379,10 @@ msgstr "お気に入り 1"
 msgid "Favorite 2"
 msgstr "お気に入り2"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "お気に入りの詳細"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "お気に入りの詳細"
 
 msgid "Feels like"
@@ -445,15 +394,6 @@ msgstr "{} のような感じ"
 msgid "Feels like {}{}"
 msgstr "{}{} のような感じ"
 
-msgid "Feels like: {}"
-msgstr "次のような感じ: {}"
-
-msgid "Feels like: {}{}"
-msgstr "次のような感じ: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "体感温度: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "次のような感じ: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "体感温度: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "次のような感じ：該当なし"
+
+msgid "Feels like: {}"
+msgstr "次のような感じ: {}"
+
+msgid "Feels like: {}{}"
+msgstr "次のような感じ: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "体感温度: {}°C"
 
 msgid "Finland"
 msgstr "フィンランド"
@@ -472,20 +421,17 @@ msgstr "第 1 四半期"
 msgid "Fog"
 msgstr "霧"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API のセットアップ"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API 資格情報はまだ構成されていません。設定画面で入力してください。"
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API 設定が正常に保存されました。"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API のセットアップ"
-
 msgid "Foreca One"
 msgstr "フォレカワン"
-
-msgid "Foreca One | Map {}"
-msgstr "フォレカワン |地図 {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One ライブ マップ (API)"
@@ -496,17 +442,23 @@ msgstr "フォレカワンメニュー"
 msgid "Foreca One No stations found"
 msgstr "Foreca One ステーションが見つかりませんでした"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One のセットアップ"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One 駅: 近くの {} 駅 ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca Oneの天気予報"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One 天気と予報 ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca Oneの天気予報"
+msgid "Foreca One | Map {}"
+msgstr "フォレカワン |地図 {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "'%s' でローカルに %d 都市が見つかりました"
+
+msgid "Found %d cities online for '%s'"
+msgstr "「%s」のオンラインで %d 都市が見つかりました"
 
 msgid "Frame →"
 msgstr "フレーム→"
@@ -537,9 +489,6 @@ msgstr "イギリス"
 
 msgid "Greece"
 msgstr "ギリシャ"
-
-msgid "Green"
-msgstr "緑"
 
 msgid "Green - Favorite 1"
 msgstr "グリーン - お気に入り 1"
@@ -580,17 +529,14 @@ msgstr "高温（30～40℃）"
 msgid "Hour Details"
 msgstr "時間の詳細"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "湿度"
 
-msgid "Humidity: {}%"
-msgstr "湿度: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "湿度: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "湿度: {}%"
 
 msgid "Hungary"
 msgstr "ハンガリー"
@@ -649,9 +595,6 @@ msgstr "キーボード"
 msgid "Last Quarter"
 msgstr "前四半期"
 
-msgid "Last update"
-msgstr "最終更新"
-
 msgid "Latvia"
 msgstr "ラトビア"
 
@@ -706,9 +649,6 @@ msgstr "ルクセンブルク"
 msgid "Magnitude: N/A"
 msgstr "マグニチュード: N/A"
 
-msgid "Map {} selected"
-msgstr "地図 {} が選択されました"
-
 msgid "Map & Tiles Loaded"
 msgstr "マップとタイルがロードされました"
 
@@ -717,6 +657,9 @@ msgstr "マップが読み込まれました"
 
 msgid "Map server"
 msgstr "マップサーバー"
+
+msgid "Map {} selected"
+msgstr "地図 {} が選択されました"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "メクレンブルク フォアポンメルン州"
@@ -760,10 +703,10 @@ msgstr "中程度の雨"
 msgid "Month"
 msgstr "月"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "月の詳細"
 
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "月の詳細"
 
 msgid "Moonrise: {}"
@@ -778,16 +721,16 @@ msgstr "朝"
 msgid "Mostly clear"
 msgstr "ほとんど透明"
 
-msgid "Move down"
-msgstr "下に移動"
-
 msgid "Move Down"
 msgstr "下に移動"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "上に移動"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "下に移動"
+
+msgid "Move up"
 msgstr "上に移動"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "新しいバージョン {version} が利用可能です。"
 msgid "Next"
 msgstr "次"
 
-msgid "Next frame"
-msgstr "次のフレーム"
-
 msgid "Next Image"
 msgstr "次の画像"
+
+msgid "Next frame"
+msgstr "次のフレーム"
 
 msgid "Next page"
 msgstr "次のページ"
 
 msgid "Next time"
 msgstr "次回"
+
+msgid "No Internet connection detected."
+msgstr "インターネット接続が検出されませんでした。"
+
+msgid "No OSM tiles"
+msgstr "OSMタイルなし"
+
+msgid "No cities found locally for '%s'"
+msgstr "ローカルに「%s」の都市が見つかりません"
 
 msgid "No city selected"
 msgstr "都市が選択されていません"
@@ -829,14 +781,8 @@ msgstr "データなし"
 msgid "No date available"
 msgstr "日付がありません"
 
-msgid "No Internet connection detected."
-msgstr "インターネット接続が検出されませんでした。"
-
 msgid "No location selected"
 msgstr "場所が選択されていません"
-
-msgid "No OSM tiles"
-msgstr "OSMタイルなし"
 
 msgid "No specific legend available."
 msgstr "特定の凡例はありません。"
@@ -865,9 +811,6 @@ msgstr "ノルトライン ヴェストファーレン州"
 msgid "Norway"
 msgstr "ノルウェー"
 
-msgid "Ok - Details"
-msgstr "わかりました - 詳細"
-
 msgid "OK - Ext Info"
 msgstr "OK - 内線情報"
 
@@ -876,6 +819,9 @@ msgstr "OK - 予報"
 
 msgid "OK - Open Map"
 msgstr "OK - マップを開く"
+
+msgid "Ok - Details"
+msgstr "わかりました - 詳細"
 
 msgid "Open Keyboard"
 msgstr "キーボードを開く"
@@ -922,16 +868,16 @@ msgstr "曇り、雨を伴う雷雨"
 msgid "Overnight"
 msgstr "一晩"
 
-msgid "Page down"
-msgstr "ページダウン"
-
 msgid "Page Down"
 msgstr "ページダウン"
 
-msgid "Page up"
+msgid "Page Up"
 msgstr "ページアップ"
 
-msgid "Page Up"
+msgid "Page down"
+msgstr "ページダウン"
+
+msgid "Page up"
 msgstr "ページアップ"
 
 msgid "Pan down"
@@ -1012,12 +958,6 @@ msgstr "もう一度検索するには赤を押してください"
 msgid "Pressure"
 msgstr "プレッシャー"
 
-msgid "Pressure: {}"
-msgstr "プレッシャー： {}"
-
-msgid "Pressure: {} hPa"
-msgstr "圧力: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "圧力: %s"
 
@@ -1027,17 +967,23 @@ msgstr "圧力: %s hPa"
 msgid "Pressure: N/A"
 msgstr "圧力: 該当なし"
 
+msgid "Pressure: {}"
+msgstr "プレッシャー： {}"
+
+msgid "Pressure: {} hPa"
+msgstr "圧力: {} hPa"
+
 msgid "Prev"
 msgstr "前へ"
 
 msgid "Previous"
 msgstr "前の"
 
-msgid "Previous frame"
-msgstr "前のフレーム"
-
 msgid "Previous Image"
 msgstr "前の画像"
+
+msgid "Previous frame"
+msgstr "前のフレーム"
 
 msgid "Previous page"
 msgstr "前のページへ"
@@ -1060,9 +1006,6 @@ msgstr "雨: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer レーダー"
 
-msgid "Red"
-msgstr "赤"
-
 msgid "Red - Color select"
 msgstr "赤 - 色選択"
 
@@ -1084,11 +1027,11 @@ msgstr "右矢印 - 翌日"
 msgid "Rise"
 msgstr "上昇"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "上昇方位: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "上昇方位: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "上昇方位: {:.0f}°"
 
 msgid "Russia"
 msgstr "ロシア"
@@ -1132,11 +1075,14 @@ msgstr "検索はまずオンラインで試行され、失敗した場合はロ
 msgid "Search your City"
 msgstr "あなたの都市を検索"
 
+msgid "Searching for '%s'..."
+msgstr "「%s」を検索しています..."
+
 msgid "Select"
 msgstr "選択"
 
-msgid "Select {} unit"
-msgstr "{} ユニットを選択してください"
+msgid "Select Region"
+msgstr "地域の選択"
 
 msgid "Select a city"
 msgstr "都市を選択してください"
@@ -1144,23 +1090,23 @@ msgstr "都市を選択してください"
 msgid "Select a map with OK"
 msgstr "OKで地図を選択"
 
-msgid "Select Region"
-msgstr "地域の選択"
-
 msgid "Select unit system"
 msgstr "単位系を選択してください"
 
 msgid "Select wind unit"
 msgstr "風力ユニットを選択してください"
 
+msgid "Select {} unit"
+msgstr "{} ユニットを選択してください"
+
 msgid "Selected hour details"
 msgstr "選択した時間の詳細"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "設定方位: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "設定方位: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "設定方位: {:.0f}°"
 
 msgid "Sets"
 msgstr "セット"
@@ -1231,15 +1177,6 @@ msgstr "温度"
 msgid "Temperature"
 msgstr "温度"
 
-msgid "Temperature: {}"
-msgstr "温度： {}"
-
-msgid "Temperature: {}{}"
-msgstr "温度： {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "温度: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "温度: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "温度: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "温度: 該当なし"
+
+msgid "Temperature: {}"
+msgstr "温度： {}"
+
+msgid "Temperature: {}{}"
+msgstr "温度： {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "温度: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "{thanks} と他の友人の提案に感謝します"
@@ -1288,20 +1234,26 @@ msgstr "明日"
 msgid "Transit (culmination): {}"
 msgstr "トランジット (頂点): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "通過高度: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "通過高度: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "通過高度: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "翻訳設定"
 
+msgid "Transparency Settings"
+msgstr "透明度の設定"
+
 msgid "Transparency level"
 msgstr "透明度レベル"
 
-msgid "Transparency Settings"
-msgstr "透明度の設定"
+msgid "UV Index"
+msgstr "紫外線指数"
+
+msgid "UV N/A"
+msgstr "UV 該当なし"
 
 msgid "Unhealthy"
 msgstr "不健康"
@@ -1336,14 +1288,20 @@ msgstr "アップデートが完了しました。 Enigma2を再起動してく�
 msgid "Updated {}"
 msgstr "{} を更新しました"
 
-msgid "Updated: {}"
-msgstr "更新日: {}"
-
 msgid "Updated: N/A"
 msgstr "更新日: 該当なし"
 
+msgid "Updated: {}"
+msgstr "更新日: {}"
+
 msgid "Updating..."
 msgstr "更新中..."
+
+msgid "Use Google Translate"
+msgstr "Google翻訳を使用する"
+
+msgid "Use arrow keys to scroll"
+msgstr "矢印キーを使用してスクロールします"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "← → を使用して時間を変更します | OK 終了します"
@@ -1354,26 +1312,8 @@ msgstr "←/→/↑/↓ で移動 | OK 終了します"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "▲/▼で変更、OKで選択"
 
-msgid "Use arrow keys to scroll"
-msgstr "矢印キーを使用してスクロールします"
-
-msgid "Use Google Translate"
-msgstr "Google翻訳を使用する"
-
 msgid "Using current time"
 msgstr "現在時刻を使用する"
-
-msgid "UV"
-msgstr "紫外線"
-
-msgid "UV Index"
-msgstr "紫外線指数"
-
-msgid "UV N/A"
-msgstr "UV 該当なし"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "非常に激しい雨"
@@ -1390,11 +1330,11 @@ msgstr "非常に低い"
 msgid "Very unhealthy"
 msgstr "非常に不健康"
 
-msgid "Visibility: {} m"
-msgstr "視程: {} m"
-
 msgid "Visibility: %s m"
 msgstr "可視性: %s m"
+
+msgid "Visibility: {} m"
+msgstr "視程: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "天気図"
 msgid "Weather Maps"
 msgstr "天気図"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "天気図 (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "天気図と衛星"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "天気図 (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "天気図のスライドショー"
@@ -1447,14 +1387,14 @@ msgstr "週間予報"
 msgid "Wind"
 msgstr "風"
 
-msgid "Wind direction"
-msgstr "風向き"
-
 msgid "Wind Direction today"
 msgstr "今日の風向き"
 
 msgid "Wind Direction tomorrow"
 msgstr "明日の風向き"
+
+msgid "Wind direction"
+msgstr "風向き"
 
 msgid "Wind speed"
 msgstr "風速"
@@ -1465,15 +1405,6 @@ msgstr "風速 {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "風速: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "風： {}"
-
-msgid "Wind: {} {} {}"
-msgstr "風： {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "風: {} km/h {}"
-
 msgid "Wind: %d %s %s"
 msgstr "風: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "風: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "風:該当なし"
 
+msgid "Wind: {}"
+msgstr "風： {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "風: {} km/h {}"
+
+msgid "Wind: {} {} {}"
+msgstr "風： {} {} {}"
+
 msgid "Window transparency"
 msgstr "ウィンドウの透明度"
 
 msgid "Yellow - Favorite 2"
 msgstr "イエロー - お気に入り 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "すでにバージョン {version} がインストールされています。\n再インストールしますか?"
 
 msgid "Zoom In"
 msgstr "ズームイン"
@@ -1498,12 +1435,120 @@ msgstr "ズームイン"
 msgid "Zoom Out"
 msgstr "ズームアウト"
 
+msgid "Zoom+"
+msgstr "ズーム+"
+
 msgid "Zoom-"
 msgstr "ズーム-"
 
 msgid "Zoom:"
 msgstr "ズーム："
 
-msgid "Zoom+"
-msgstr "ズーム+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} 時間 {mins} 分"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• ホームとして保存するには青\n"
+"• Blue は Home\n"
+" として保存します\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- で 500 都市にジャンプ\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• 緑色: お気に入りとして保存 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• [OK] を選択して都市を選択します\n"
+"• OK で都市\n"
+"を選択します\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RED で検索キーボードを開きます\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• 矢印キーを使用して移動します\n"
+"• 矢印キーを使用して\n"
+"に移動します\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• 黄色：お気に入りとして保存 2\n"
+
+msgid "← Frame"
+msgstr "← フレーム"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- で 100 都市にジャンプ\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7日間の予報"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API 構成ファイルが見つかりません!\n"
+#~ "\n"
+#~ "Foreca API 認証情報を使用してファイル:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ " を作成してください。"
+
+#~ msgid "Blue"
+#~ msgstr "青"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "都市選択のヘルプ:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Foreca API 資格情報を構成する"
+
+#~ msgid "Distance"
+#~ msgstr "距離"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "構成ファイルの書き込みに失敗しました:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One のセットアップ"
+
+#~ msgid "Green"
+#~ msgstr "緑"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "最終更新"
+
+#~ msgid "Red"
+#~ msgstr "赤"
+
+#~ msgid "UV"
+#~ msgstr "紫外線"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "すでにバージョン {version} がインストールされています。\n"
+#~ "再インストールしますか?"

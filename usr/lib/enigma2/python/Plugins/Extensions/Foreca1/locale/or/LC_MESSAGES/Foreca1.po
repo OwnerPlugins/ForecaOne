@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} ମିନିଟ୍ |"
-
-msgid "• BLUE to save as Home\n"
-msgstr "Home\n ଭାବରେ ସେଭ୍ କରିବାକୁ ବ୍ଲୁ |\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "CH + / CH- 500 ସହରକୁ ଡେଇଁବାକୁ \n |\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "ପ୍ରିୟ 1\n ଭାବରେ ସଞ୍ଚୟ କରିବାକୁ ଗ୍ରୀନ୍ |\n"
-
-msgid "• OK to select city\n"
-msgstr "City\n ଚୟନ କରିବାକୁ ଠିକ ଅଛି |\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "ସନ୍ଧାନ କୀବୋର୍ଡ୍ ଖୋଲିବା ପାଇଁ RED |\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "ନେଭିଗେଟ୍ କରିବା ପାଇଁ ତୀର କୀ ବ୍ୟବହାର କରନ୍ତୁ |\n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "100 ଟି ସହରକୁ ଡେଇଁବା ପାଇଁ VOL + / VOL- \n\n |\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "ପ୍ରିୟ 2\n ଭାବରେ ସଞ୍ଚୟ କରିବାକୁ YELLOW |\n"
-
-msgid "← Frame"
-msgstr "← ଫ୍ରେମ୍"
-
 msgid "0 - Today"
 msgstr "0 - ଆଜି |"
 
@@ -67,14 +37,29 @@ msgstr "6 - ଆଜି + 6 ଦିନ |"
 msgid "7 - Today + 7 days"
 msgstr "7 - ଆଜି + 7 ଦିନ |"
 
-msgid "7 Day Forecast"
-msgstr "7 ଦିନର ପୂର୍ବାନୁମାନ |"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - ଆଜି + 8 ଦିନ |"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ଆଜି + 9 ଦିନ |"
+
+msgid "API credentials not configured."
+msgstr "API ପରିଚୟପତ୍ର ବିନ୍ୟାସ ହୋଇନାହିଁ |"
+
+msgid "API error"
+msgstr "API ତ୍ରୁଟି |"
+
+msgid "API password"
+msgstr "API ପାସୱାର୍ଡ |"
+
+msgid "API user"
+msgstr "API ବ୍ୟବହାରକାରୀ |"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N / A"
 
 msgid "Advanced"
 msgstr "ଉନ୍ନତ"
@@ -91,35 +76,14 @@ msgstr "ଅମାବାସ୍ୟା ଠାରୁ ବୟସ: {:.1f} ଦିନ |"
 msgid "Age: N/A"
 msgstr "ବୟସ: N / A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "କୋଣାର୍କ ବ୍ୟାସ: {:.0f} ″"
-
 msgid "Angular diameter: N/A"
 msgstr "କୋଣାର୍କ ବ୍ୟାସ: N / A |"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API ବିନ୍ୟାସ ଫାଇଲ ମିଳିଲା ନାହିଁ! \n\n ଦୟାକରି ଫାଇଲ ସୃଷ୍ଟି କରନ୍ତୁ: \n{0}\n\n ଆପଣଙ୍କର ଫୋରେକା API ପ୍ରମାଣପତ୍ର ସହିତ |"
-
-msgid "API credentials not configured."
-msgstr "API ପରିଚୟପତ୍ର ବିନ୍ୟାସ ହୋଇନାହିଁ |"
-
-msgid "API error"
-msgstr "API ତ୍ରୁଟି |"
-
-msgid "API password"
-msgstr "API ପାସୱାର୍ଡ |"
-
-msgid "API user"
-msgstr "API ବ୍ୟବହାରକାରୀ |"
+msgid "Angular diameter: {:.0f}″"
+msgstr "କୋଣାର୍କ ବ୍ୟାସ: {:.0f} ″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "ଦୃଶ୍ୟମାନତା: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N / A"
 
 msgid "Assign to Favorite 1"
 msgstr "ପ୍ରିୟ 1 କୁ ନ୍ୟସ୍ତ କରନ୍ତୁ |"
@@ -157,9 +121,6 @@ msgstr "ବର୍ଲିନ୍ |"
 msgid "Black Moon"
 msgstr "କଳା ଚନ୍ଦ୍ର"
 
-msgid "Blue"
-msgstr "ନୀଳ"
-
 msgid "Blue - Home"
 msgstr "ନୀଳ - ଘର"
 
@@ -193,14 +154,11 @@ msgstr "ଅଦ୍ୟତନ ପାଇଁ ଯାଞ୍ଚ କରନ୍ତୁ |"
 msgid "Choose detail view"
 msgstr "ସବିଶେଷ ଦୃଶ୍ୟ ବାଛନ୍ତୁ |"
 
-msgid "City list file not found!"
-msgstr "ସହର ତାଲିକା ଫାଇଲ ମିଳିଲା ନାହିଁ!"
-
 msgid "City Selection"
 msgstr "ସହର ଚୟନ"
 
-msgid "City Selection Help:\n\n"
-msgstr "ସହର ଚୟନ ସହାୟତା: \n\n |\n"
+msgid "City list file not found!"
+msgstr "ସହର ତାଲିକା ଫାଇଲ ମିଳିଲା ନାହିଁ!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "କ୍ଲିନଅପ୍ ଫୋରେକା ଏକ ଟେମ୍ପ ଫାଇଲ୍?"
@@ -247,13 +205,16 @@ msgstr "ମେଘୁଆ, ବର୍ଷା ସହିତ ବଜ୍ରପାତ |"
 msgid "Cold (< 0°C)"
 msgstr "ଥଣ୍ଡା (<0 ° C)"
 
+msgid "Color Legend"
+msgstr "ରଙ୍ଗ କିମ୍ବଦନ୍ତୀ |"
+
+msgid "Color Selector"
+msgstr "ରଙ୍ଗ ଚୟନକର୍ତ୍ତା |"
+
 msgid "Color data"
 msgstr "ରଙ୍ଗ ତଥ୍ୟ |"
 
 msgid "Color legend"
-msgstr "ରଙ୍ଗ କିମ୍ବଦନ୍ତୀ |"
-
-msgid "Color Legend"
 msgstr "ରଙ୍ଗ କିମ୍ବଦନ୍ତୀ |"
 
 msgid "Color name"
@@ -262,14 +223,8 @@ msgstr "ରଙ୍ଗ ନାମ"
 msgid "Color select"
 msgstr "ରଙ୍ଗ ଚୟନ କରନ୍ତୁ |"
 
-msgid "Color Selector"
-msgstr "ରଙ୍ଗ ଚୟନକର୍ତ୍ତା |"
-
 msgid "Condition: {}"
 msgstr "ଅବସ୍ଥା: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Foreca API ପ୍ରମାଣପତ୍ରଗୁଡ଼ିକୁ ବିନ୍ୟାସ କରନ୍ତୁ |"
 
 msgid "Continents Weather Maps"
 msgstr "ମାଳଦ୍ୱୀପ ପାଣିପାଗ ମାନଚିତ୍ରଗୁଡିକ |"
@@ -337,20 +292,17 @@ msgstr "ଡିୱପଏଣ୍ଟ:% s ° C"
 msgid "Dewpoint: N/A"
 msgstr "ଡିୱପଏଣ୍ଟ: N / A"
 
-msgid "Distance"
-msgstr "ଦୂରତା |"
-
 msgid "Distance {} km"
 msgstr "ଦୂରତା {} କିମି |"
+
+msgid "Distance: %s"
+msgstr "ଦୂରତା:% s"
 
 msgid "Distance: {}"
 msgstr "ଦୂରତା: {}"
 
 msgid "Distance: {} km"
 msgstr "ଦୂରତା: {} କିମି |"
-
-msgid "Distance: %s"
-msgstr "ଦୂରତା:% s"
 
 msgid "Do you want to install it now?"
 msgstr "ଆପଣ ବର୍ତ୍ତମାନ ଏହାକୁ ସଂସ୍ଥାପନ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?"
@@ -418,9 +370,6 @@ msgstr "ଅତ୍ୟଧିକ / ବଜ୍ରପାତ |"
 msgid "Fahrenheit, mph, inHg"
 msgstr "ଫାରେନ୍ହାଇଟ୍, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "ବିନ୍ୟାସ ଫାଇଲ ଲେଖିବାରେ ବିଫଳ: \n% s |"
-
 msgid "Faster: {}s"
 msgstr "ଶୀଘ୍ର: {} s |"
 
@@ -430,11 +379,11 @@ msgstr "ପ୍ରିୟ 1"
 msgid "Favorite 2"
 msgstr "ପ୍ରିୟ 2"
 
-msgid "Favorites details"
-msgstr "ପ୍ରିୟ ବିବରଣୀଗୁଡିକ |"
-
 msgid "Favorites Details"
 msgstr "ପସନ୍ଦ ବିବରଣୀ"
+
+msgid "Favorites details"
+msgstr "ପ୍ରିୟ ବିବରଣୀଗୁଡିକ |"
 
 msgid "Feels like"
 msgstr "ଅନୁଭବ କରେ |"
@@ -445,15 +394,6 @@ msgstr "{} ପରି ଅନୁଭବ କରେ |"
 msgid "Feels like {}{}"
 msgstr "{} {Like ପରି ଅନୁଭବ କରେ |"
 
-msgid "Feels like: {}"
-msgstr "ଅନୁଭବ କରେ: {}"
-
-msgid "Feels like: {}{}"
-msgstr "ଅନୁଭବ କରେ: {} {}"
-
-msgid "Feels like: {}°C"
-msgstr "ଅନୁଭବ କରେ: {} ° C"
-
 msgid "Feels like: %d%s"
 msgstr "ଅନୁଭବ କରେ:% d% s |"
 
@@ -462,6 +402,15 @@ msgstr "ଅନୁଭବ କରେ:% s ° C"
 
 msgid "Feels like: N/A"
 msgstr "ଅନୁଭବ କରେ: N / A"
+
+msgid "Feels like: {}"
+msgstr "ଅନୁଭବ କରେ: {}"
+
+msgid "Feels like: {}{}"
+msgstr "ଅନୁଭବ କରେ: {} {}"
+
+msgid "Feels like: {}°C"
+msgstr "ଅନୁଭବ କରେ: {} ° C"
 
 msgid "Finland"
 msgstr "ଫିନଲ୍ୟାଣ୍ଡ |"
@@ -472,20 +421,17 @@ msgstr "ପ୍ରଥମ ତ୍ର ar ମାସିକ |"
 msgid "Fog"
 msgstr "କୁହୁଡି"
 
+msgid "Foreca API Setup"
+msgstr "ଫୋରେକା API ସେଟଅପ୍ |"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "ଫୋରେକା API ପରିଚୟପତ୍ର ଏପର୍ଯ୍ୟନ୍ତ ବିନ୍ୟାସ ହୋଇନାହିଁ | ଦୟାକରି ସେଟଅପ୍ ସ୍କ୍ରିନରେ ଏଣ୍ଟର୍ କରନ୍ତୁ |"
 
 msgid "Foreca API settings saved successfully."
 msgstr "ଫୋରେକା API ସେଟିଂସମୂହ ସଫଳତାର ସହିତ ସଞ୍ଚୟ ହୋଇଛି |"
 
-msgid "Foreca API Setup"
-msgstr "ଫୋରେକା API ସେଟଅପ୍ |"
-
 msgid "Foreca One"
 msgstr "ଫୋରେକା ୱାନ୍ |"
-
-msgid "Foreca One | Map {}"
-msgstr "ଫୋରେକା ଏକ | ମାନଚିତ୍ର {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "ଫୋରେକା ୱାନ୍ ଲାଇଭ୍ ମ୍ୟାପ୍ସ (API)"
@@ -496,17 +442,23 @@ msgstr "ଫୋରେକା ଏକ ମେନୁ |"
 msgid "Foreca One No stations found"
 msgstr "ଫୋରେକା ୱାନ୍ କ station ଣସି ଷ୍ଟେସନ୍ ମିଳିଲା ନାହିଁ |"
 
-msgid "Foreca One Setup"
-msgstr "ଫୋରେକା ଏକ ସେଟଅପ୍ |"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "ଫୋରେକା ଏକ ଷ୍ଟେସନ୍: nearby} ନିକଟସ୍ଥ ଷ୍ଟେସନଗୁଡିକ ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "ଫୋରେକା ଏକ ପାଣିପାଗ ପୂର୍ବାନୁମାନ |"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "ଫୋରେକା ଏକ ପାଣିପାଗ ଏବଂ ପୂର୍ବାନୁମାନ ver। % s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "ଫୋରେକା ଏକ ପାଣିପାଗ ପୂର୍ବାନୁମାନ |"
+msgid "Foreca One | Map {}"
+msgstr "ଫୋରେକା ଏକ | ମାନଚିତ୍ର {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "'% S' ପାଇଁ ସ୍ଥାନୀୟ ଭାବରେ% d ସହରଗୁଡିକ ମିଳିଲା |"
+
+msgid "Found %d cities online for '%s'"
+msgstr "'% S' ପାଇଁ ଅନ୍ଲାଇନ୍ରେ% d ସହର ମିଳିଲା |"
 
 msgid "Frame →"
 msgstr "ଫ୍ରେମ୍ →"
@@ -537,9 +489,6 @@ msgstr "ଗ୍ରେଟ୍ ବ୍ରିଟେନ୍"
 
 msgid "Greece"
 msgstr "ଗ୍ରୀସ୍"
-
-msgid "Green"
-msgstr "ସବୁଜ"
 
 msgid "Green - Favorite 1"
 msgstr "ସବୁଜ - ପ୍ରିୟ 1 |"
@@ -580,17 +529,14 @@ msgstr "ଗରମ (30-40 ° C)"
 msgid "Hour Details"
 msgstr "ଘଣ୍ଟା ବିବରଣୀ"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "ଆର୍ଦ୍ରତା"
 
-msgid "Humidity: {}%"
-msgstr "ଆର୍ଦ୍ରତା: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "ଆର୍ଦ୍ରତା:% s %%"
+
+msgid "Humidity: {}%"
+msgstr "ଆର୍ଦ୍ରତା: {}%"
 
 msgid "Hungary"
 msgstr "ହଙ୍ଗେରୀ"
@@ -649,9 +595,6 @@ msgstr "କୀବୋର୍ଡ୍ |"
 msgid "Last Quarter"
 msgstr "ଶେଷ ତ୍ର ar ମାସିକ |"
 
-msgid "Last update"
-msgstr "ଶେଷ ଅଦ୍ୟତନ |"
-
 msgid "Latvia"
 msgstr "ଲାଟଭିଆ"
 
@@ -706,9 +649,6 @@ msgstr "ଲକ୍ସେମବର୍ଗ"
 msgid "Magnitude: N/A"
 msgstr "ପରିମାଣ: N / A"
 
-msgid "Map {} selected"
-msgstr "ମାନଚିତ୍ର {} ମନୋନୀତ |"
-
 msgid "Map & Tiles Loaded"
 msgstr "ମାନଚିତ୍ର ଏବଂ ଟାଇଲ୍ସ ଲୋଡ୍ ହୋଇଛି |"
 
@@ -717,6 +657,9 @@ msgstr "ମାନଚିତ୍ର ଲୋଡ୍ ହୋଇଛି |"
 
 msgid "Map server"
 msgstr "ମାନଚିତ୍ର ସର୍ଭର |"
+
+msgid "Map {} selected"
+msgstr "ମାନଚିତ୍ର {} ମନୋନୀତ |"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "ମେକଲେନବର୍ଗ-ଭର୍ପୋମର୍ନ୍ |"
@@ -760,10 +703,10 @@ msgstr "ମଧ୍ୟମ ବର୍ଷା"
 msgid "Month"
 msgstr "ମାସ"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "ଚନ୍ଦ୍ର ବିବରଣୀ"
 
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "ଚନ୍ଦ୍ର ବିବରଣୀ"
 
 msgid "Moonrise: {}"
@@ -778,16 +721,16 @@ msgstr "ପ୍ରଭାତ"
 msgid "Mostly clear"
 msgstr "ପ୍ରାୟତ clear ସଫା |"
 
-msgid "Move down"
-msgstr "ତଳକୁ ଯାଅ |"
-
 msgid "Move Down"
 msgstr "ତଳକୁ ଘୁଞ୍ଚାନ୍ତୁ |"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "ଉପରକୁ ଯାଅ |"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "ତଳକୁ ଯାଅ |"
+
+msgid "Move up"
 msgstr "ଉପରକୁ ଯାଅ |"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "ନୂତନ ସଂସ୍କରଣ {version} ଉପଲବ୍ଧ |"
 msgid "Next"
 msgstr "ପରବର୍ତ୍ତୀ"
 
-msgid "Next frame"
-msgstr "ପରବର୍ତ୍ତୀ ଫ୍ରେମ୍ |"
-
 msgid "Next Image"
 msgstr "ପରବର୍ତ୍ତୀ ପ୍ରତିଛବି |"
+
+msgid "Next frame"
+msgstr "ପରବର୍ତ୍ତୀ ଫ୍ରେମ୍ |"
 
 msgid "Next page"
 msgstr "ପରବର୍ତ୍ତୀ ପୃଷ୍ଠା |"
 
 msgid "Next time"
 msgstr "ପରବର୍ତ୍ତୀ ସମୟରେ"
+
+msgid "No Internet connection detected."
+msgstr "କ Internet ଣସି ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଚିହ୍ନଟ ହୋଇନାହିଁ |"
+
+msgid "No OSM tiles"
+msgstr "କ OS ଣସି OSM ଟାଇଲ୍ ନାହିଁ |"
+
+msgid "No cities found locally for '%s'"
+msgstr "କ% ଣସି ସହର ସ୍ଥାନୀୟ ଭାବରେ '% s' ପାଇଁ ମିଳିଲା ନାହିଁ |"
 
 msgid "No city selected"
 msgstr "କ city ଣସି ସହର ଚୟନ ହୋଇନାହିଁ |"
@@ -829,14 +781,8 @@ msgstr "କ data ଣସି ତଥ୍ୟ ନାହିଁ |"
 msgid "No date available"
 msgstr "କ date ଣସି ତାରିଖ ଉପଲବ୍ଧ ନାହିଁ |"
 
-msgid "No Internet connection detected."
-msgstr "କ Internet ଣସି ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଚିହ୍ନଟ ହୋଇନାହିଁ |"
-
 msgid "No location selected"
 msgstr "କ location ଣସି ସ୍ଥାନ ଚୟନ ହୋଇନାହିଁ |"
-
-msgid "No OSM tiles"
-msgstr "କ OS ଣସି OSM ଟାଇଲ୍ ନାହିଁ |"
 
 msgid "No specific legend available."
 msgstr "କ specific ଣସି ନିର୍ଦ୍ଦିଷ୍ଟ କିମ୍ବଦନ୍ତୀ ଉପଲବ୍ଧ ନାହିଁ |"
@@ -865,9 +811,6 @@ msgstr "ଉତ୍ତର ରେନ୍-ୱେଷ୍ଟଫାଲିଆ |"
 msgid "Norway"
 msgstr "ନରୱେ"
 
-msgid "Ok - Details"
-msgstr "ଠିକ ଅଛି - ବିବରଣୀଗୁଡିକ |"
-
 msgid "OK - Ext Info"
 msgstr "ଠିକ ଅଛି - ବିସ୍ତୃତ ସୂଚନା |"
 
@@ -876,6 +819,9 @@ msgstr "ଠିକ ଅଛି - ପୂର୍ବାନୁମାନ |"
 
 msgid "OK - Open Map"
 msgstr "ଠିକ ଅଛି - ମାନଚିତ୍ର ଖୋଲନ୍ତୁ |"
+
+msgid "Ok - Details"
+msgstr "ଠିକ ଅଛି - ବିବରଣୀଗୁଡିକ |"
 
 msgid "Open Keyboard"
 msgstr "କୀବୋର୍ଡ୍ ଖୋଲ |"
@@ -922,16 +868,16 @@ msgstr "ବର୍ଷା ସହିତ ଘଡଘଡି, ବଜ୍ରପାତ |"
 msgid "Overnight"
 msgstr "ରାତାରାତି |"
 
-msgid "Page down"
-msgstr "ପୃଷ୍ଠା ତଳକୁ |"
-
 msgid "Page Down"
 msgstr "ପେଜ୍ ଡାଉନ୍ |"
 
-msgid "Page up"
+msgid "Page Up"
 msgstr "ପୃଷ୍ଠା ଅପ୍ |"
 
-msgid "Page Up"
+msgid "Page down"
+msgstr "ପୃଷ୍ଠା ତଳକୁ |"
+
+msgid "Page up"
 msgstr "ପୃଷ୍ଠା ଅପ୍ |"
 
 msgid "Pan down"
@@ -1012,12 +958,6 @@ msgstr "ପୁନର୍ବାର ଖୋଜିବାକୁ RED ଦବାନ୍ତ
 msgid "Pressure"
 msgstr "ଚାପ"
 
-msgid "Pressure: {}"
-msgstr "ଚାପ: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "ଚାପ: {} hPa |"
-
 msgid "Pressure: %s"
 msgstr "ଚାପ:% s"
 
@@ -1027,17 +967,23 @@ msgstr "ଚାପ:% s hPa"
 msgid "Pressure: N/A"
 msgstr "ଚାପ: N / A"
 
+msgid "Pressure: {}"
+msgstr "ଚାପ: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "ଚାପ: {} hPa |"
+
 msgid "Prev"
 msgstr "ପୂର୍ବ"
 
 msgid "Previous"
 msgstr "ପୂର୍ବ"
 
-msgid "Previous frame"
-msgstr "ପୂର୍ବ ଫ୍ରେମ୍"
-
 msgid "Previous Image"
 msgstr "ପୂର୍ବ ପ୍ରତିଛବି |"
+
+msgid "Previous frame"
+msgstr "ପୂର୍ବ ଫ୍ରେମ୍"
 
 msgid "Previous page"
 msgstr "ପୂର୍ବ ପୃଷ୍ଠା |"
@@ -1060,9 +1006,6 @@ msgstr "ବର୍ଷା: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "ରେନ୍ ଭିଭର୍ ରାଡାର୍ |"
 
-msgid "Red"
-msgstr "ଲାଲ୍ |"
-
 msgid "Red - Color select"
 msgstr "ନାଲି - ରଙ୍ଗ ଚୟନ କରନ୍ତୁ |"
 
@@ -1084,11 +1027,11 @@ msgstr "ଡାହାଣ ତୀର - ପରଦିନ |"
 msgid "Rise"
 msgstr "ଉଠ"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "ଆଜିମ୍ୟୁଥ୍ ଉଠ: {:.0f} ° |"
-
 msgid "Rise azimuth: N/A"
 msgstr "ଆଜିମ୍ୟୁଥ୍ ଉଠ: N / A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "ଆଜିମ୍ୟୁଥ୍ ଉଠ: {:.0f} ° |"
 
 msgid "Russia"
 msgstr "Russia ଷ"
@@ -1132,11 +1075,14 @@ msgstr "ସନ୍ଧାନ ପ୍ରଥମେ ଅନଲାଇନ୍ ଚେଷ୍
 msgid "Search your City"
 msgstr "ତୁମର ସହର ଖୋଜ |"
 
+msgid "Searching for '%s'..."
+msgstr "'% S' ଖୋଜୁଛି ..."
+
 msgid "Select"
 msgstr "ଚୟନ କରନ୍ତୁ |"
 
-msgid "Select {} unit"
-msgstr "{} ୟୁନିଟ୍ ଚୟନ କରନ୍ତୁ |"
+msgid "Select Region"
+msgstr "ଅଞ୍ଚଳ ଚୟନ କରନ୍ତୁ |"
 
 msgid "Select a city"
 msgstr "ଏକ ସହର ଚୟନ କରନ୍ତୁ |"
@@ -1144,23 +1090,23 @@ msgstr "ଏକ ସହର ଚୟନ କରନ୍ତୁ |"
 msgid "Select a map with OK"
 msgstr "ଓକେ ସହିତ ଏକ ମାନଚିତ୍ର ଚୟନ କରନ୍ତୁ |"
 
-msgid "Select Region"
-msgstr "ଅଞ୍ଚଳ ଚୟନ କରନ୍ତୁ |"
-
 msgid "Select unit system"
 msgstr "ୟୁନିଟ୍ ସିଷ୍ଟମ୍ ଚୟନ କରନ୍ତୁ |"
 
 msgid "Select wind unit"
 msgstr "ପବନ ଏକକ ଚୟନ କରନ୍ତୁ |"
 
+msgid "Select {} unit"
+msgstr "{} ୟୁନିଟ୍ ଚୟନ କରନ୍ତୁ |"
+
 msgid "Selected hour details"
 msgstr "ମନୋନୀତ ଘଣ୍ଟା ବିବରଣୀ |"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "ଆଜିମ୍ୟୁଥ୍ ସେଟ୍ କରନ୍ତୁ: {:.0f} ° |"
-
 msgid "Set azimuth: N/A"
 msgstr "ଆଜିମ୍ୟୁଥ୍ ସେଟ୍ କରନ୍ତୁ: N / A |"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "ଆଜିମ୍ୟୁଥ୍ ସେଟ୍ କରନ୍ତୁ: {:.0f} ° |"
 
 msgid "Sets"
 msgstr "ସେଟ୍ କରେ |"
@@ -1231,15 +1177,6 @@ msgstr "ଟେମ୍ପ୍ |"
 msgid "Temperature"
 msgstr "ତାପମାତ୍ରା"
 
-msgid "Temperature: {}"
-msgstr "ତାପମାତ୍ରା: {}"
-
-msgid "Temperature: {}{}"
-msgstr "ତାପମାତ୍ରା: {} {}"
-
-msgid "Temperature: {}°C"
-msgstr "ତାପମାତ୍ରା: {} ° C"
-
 msgid "Temperature: %d%s"
 msgstr "ତାପମାତ୍ରା:% d% s"
 
@@ -1248,6 +1185,15 @@ msgstr "ତାପମାତ୍ରା:% s ° C"
 
 msgid "Temperature: N/A"
 msgstr "ତାପମାତ୍ରା: N / A"
+
+msgid "Temperature: {}"
+msgstr "ତାପମାତ୍ରା: {}"
+
+msgid "Temperature: {}{}"
+msgstr "ତାପମାତ୍ରା: {} {}"
+
+msgid "Temperature: {}°C"
+msgstr "ତାପମାତ୍ରା: {} ° C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "ପରାମର୍ଶ ପାଇଁ {thanks} ଏବଂ ଅନ୍ୟ ସାଙ୍ଗମାନଙ୍କୁ ଧନ୍ୟବାଦ |"
@@ -1288,20 +1234,26 @@ msgstr "ଆସନ୍ତାକାଲି |"
 msgid "Transit (culmination): {}"
 msgstr "ଗମନାଗମନ (ସମାପ୍ତି): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "ଗମନାଗମନ ଉଚ୍ଚତା: {:.0f} ° |"
-
 msgid "Transit altitude: N/A"
 msgstr "ଗମନାଗମନ ଉଚ୍ଚତା: N / A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "ଗମନାଗମନ ଉଚ୍ଚତା: {:.0f} ° |"
 
 msgid "Translation Settings"
 msgstr "ଅନୁବାଦ ସେଟିଂସମୂହ"
 
+msgid "Transparency Settings"
+msgstr "ସ୍ୱଚ୍ଛତା ସେଟିଂସମୂହ"
+
 msgid "Transparency level"
 msgstr "ସ୍ୱଚ୍ଛତା ସ୍ତର"
 
-msgid "Transparency Settings"
-msgstr "ସ୍ୱଚ୍ଛତା ସେଟିଂସମୂହ"
+msgid "UV Index"
+msgstr "UV ସୂଚକାଙ୍କ |"
+
+msgid "UV N/A"
+msgstr "UV N / A"
 
 msgid "Unhealthy"
 msgstr "ଅସ୍ୱାସ୍ଥ୍ୟକର"
@@ -1336,14 +1288,20 @@ msgstr "ଅଦ୍ୟତନ ସମାପ୍ତ ହୋଇଛି | ଦୟାକର�
 msgid "Updated {}"
 msgstr "ଅଦ୍ୟତନ କରାଯାଇଛି {}"
 
-msgid "Updated: {}"
-msgstr "ଅଦ୍ୟତନ: {}"
-
 msgid "Updated: N/A"
 msgstr "ଅଦ୍ୟତନ: N / A"
 
+msgid "Updated: {}"
+msgstr "ଅଦ୍ୟତନ: {}"
+
 msgid "Updating..."
 msgstr "ଅଦ୍ୟତନ ..."
+
+msgid "Use Google Translate"
+msgstr "ଗୁଗୁଲ୍ ଅନୁବାଦ ବ୍ୟବହାର କରନ୍ତୁ |"
+
+msgid "Use arrow keys to scroll"
+msgstr "ସ୍କ୍ରୋଲ୍ କରିବାକୁ ତୀର କୀ ବ୍ୟବହାର କରନ୍ତୁ |"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "ସମୟ ପରିବର୍ତ୍ତନ କରିବାକୁ ← Use ବ୍ୟବହାର କରନ୍ତୁ | ବାହାରକୁ ଯିବା ଠିକ ଅଛି |"
@@ -1354,26 +1312,8 @@ msgstr "ଘୁଞ୍ଚାଇବା ପାଇଁ ← / → / ↑ / ବ୍ୟବ�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "ପରିବର୍ତ୍ତନ କରିବାକୁ ▲ / Use ବ୍ୟବହାର କରନ୍ତୁ, ଚୟନ କରିବାକୁ ଠିକ ଅଛି |"
 
-msgid "Use arrow keys to scroll"
-msgstr "ସ୍କ୍ରୋଲ୍ କରିବାକୁ ତୀର କୀ ବ୍ୟବହାର କରନ୍ତୁ |"
-
-msgid "Use Google Translate"
-msgstr "ଗୁଗୁଲ୍ ଅନୁବାଦ ବ୍ୟବହାର କରନ୍ତୁ |"
-
 msgid "Using current time"
 msgstr "ସାମ୍ପ୍ରତିକ ସମୟ ବ୍ୟବହାର କରି |"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV ସୂଚକାଙ୍କ |"
-
-msgid "UV N/A"
-msgstr "UV N / A"
-
-msgid "v."
-msgstr "v।"
 
 msgid "Very heavy rain"
 msgstr "ବହୁତ ପ୍ରବଳ ବର୍ଷା |"
@@ -1390,11 +1330,11 @@ msgstr "ବହୁତ କମ୍ |"
 msgid "Very unhealthy"
 msgstr "ବହୁତ ଅସ୍ୱାସ୍ଥ୍ୟକର |"
 
-msgid "Visibility: {} m"
-msgstr "ଦୃଶ୍ୟମାନତା: {} ମି"
-
 msgid "Visibility: %s m"
 msgstr "ଦୃଶ୍ୟମାନତା:% s ମି"
+
+msgid "Visibility: {} m"
+msgstr "ଦୃଶ୍ୟମାନତା: {} ମି"
 
 msgid "W"
 msgstr "W।"
@@ -1423,11 +1363,11 @@ msgstr "ପାଣିପାଗ ମାନଚିତ୍ର"
 msgid "Weather Maps"
 msgstr "ପାଣିପାଗ ମାନଚିତ୍ରଗୁଡିକ"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "ପାଣିପାଗ ମାନଚିତ୍ର (ୱେଟରକଣ୍ଟର୍)"
-
 msgid "Weather Maps & Satellite"
 msgstr "ପାଣିପାଗ ମାନଚିତ୍ର ଏବଂ ଉପଗ୍ରହ |"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "ପାଣିପାଗ ମାନଚିତ୍ର (ୱେଟରକଣ୍ଟର୍)"
 
 msgid "Weather Maps Slideshow"
 msgstr "ପାଣିପାଗ ମାନଚିତ୍ର ସ୍ଲାଇଡ୍ ଶୋ |"
@@ -1447,14 +1387,14 @@ msgstr "ସାପ୍ତାହିକ ପୂର୍ବାନୁମାନ |"
 msgid "Wind"
 msgstr "ପବନ"
 
-msgid "Wind direction"
-msgstr "ପବନ ଦିଗ"
-
 msgid "Wind Direction today"
 msgstr "ଆଜି ପବନ ନିର୍ଦ୍ଦେଶନା |"
 
 msgid "Wind Direction tomorrow"
 msgstr "ଆସନ୍ତାକାଲି ପବନ ନିର୍ଦ୍ଦେଶନା |"
+
+msgid "Wind direction"
+msgstr "ପବନ ଦିଗ"
 
 msgid "Wind speed"
 msgstr "ପବନର ବେଗ |"
@@ -1465,15 +1405,6 @@ msgstr "ପବନର ବେଗ {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "ପବନର ବେଗ: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "ପବନ: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "ପବନ: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "ପବନ: {} km / h {}"
-
 msgid "Wind: %d %s %s"
 msgstr "ପବନ:% d% s% s |"
 
@@ -1483,14 +1414,20 @@ msgstr "ପବନ:% s km / h% s"
 msgid "Wind: N/A"
 msgstr "ପବନ: N / A"
 
+msgid "Wind: {}"
+msgstr "ପବନ: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "ପବନ: {} km / h {}"
+
+msgid "Wind: {} {} {}"
+msgstr "ପବନ: {} {} {}"
+
 msgid "Window transparency"
 msgstr "ୱିଣ୍ଡୋ ସ୍ୱଚ୍ଛତା |"
 
 msgid "Yellow - Favorite 2"
 msgstr "ହଳଦିଆ - ପ୍ରିୟ 2 |"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "ଆପଣଙ୍କର ପୂର୍ବରୁ {version} ସଂସ୍କରଣ ସଂସ୍ଥାପିତ ହୋଇଛି | \n ଆପଣ ଏହାକୁ ପୁନ rein ସଂସ୍ଥାପନ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?"
 
 msgid "Zoom In"
 msgstr "ଜୁମ୍ ଇନ୍ କରନ୍ତୁ |"
@@ -1498,12 +1435,126 @@ msgstr "ଜୁମ୍ ଇନ୍ କରନ୍ତୁ |"
 msgid "Zoom Out"
 msgstr "ଜୁମ୍ ଆଉଟ୍ କରନ୍ତୁ |"
 
+msgid "Zoom+"
+msgstr "ଜୁମ୍ +"
+
 msgid "Zoom-"
 msgstr "ଜୁମ୍-"
 
 msgid "Zoom:"
 msgstr "ଜୁମ୍:"
 
-msgid "Zoom+"
-msgstr "ଜୁମ୍ +"
+msgid "v."
+msgstr "v।"
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} ମିନିଟ୍ |"
+
+msgid "• BLUE to save as Home\n"
+msgstr "ହୋମ୍ \ n ଭାବରେ ସେଭ୍ କରିବାକୁ ବ୍ଲୁ |"
+"Home\n"
+" ଭାବରେ ସେଭ୍ କରିବାକୁ ବ୍ଲୁ |\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH + / CH- 500 ସହରକୁ ଡେଇଁବା \ n |"
+"CH + / CH- 500 ସହରକୁ ଡେଇଁବାକୁ \n"
+" |\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "ପ୍ରିୟ 1 \ n ଭାବରେ ସଞ୍ଚୟ କରିବାକୁ ଗ୍ରୀନ୍ |"
+"ପ୍ରିୟ 1\n"
+" ଭାବରେ ସଞ୍ଚୟ କରିବାକୁ ଗ୍ରୀନ୍ |\n"
+
+msgid "• OK to select city\n"
+msgstr "ସହର ଚୟନ କରିବାକୁ ଠିକ ଅଛି \ n"
+"City\n"
+" ଚୟନ କରିବାକୁ ଠିକ ଅଛି |\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "ସନ୍ଧାନ କୀବୋର୍ଡ୍ ଖୋଲିବା ପାଇଁ RED |\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "ନେଭିଗେଟ୍ କରିବା ପାଇଁ ତୀର କୀ ବ୍ୟବହାର କରନ୍ତୁ |\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "ପ୍ରିୟ 2 \ n ଭାବରେ ସେଭ୍ କରିବାକୁ YELLOW |"
+"ପ୍ରିୟ 2\n"
+" ଭାବରେ ସଞ୍ଚୟ କରିବାକୁ YELLOW |\n"
+
+msgid "← Frame"
+msgstr "← ଫ୍ରେମ୍"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "100 ଟି ସହରକୁ ଡେଇଁବା ପାଇଁ VOL + / VOL- \n"
+#~ "\n"
+#~ " |\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 ଦିନର ପୂର୍ବାନୁମାନ |"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API ବିନ୍ୟାସ ଫାଇଲ ମିଳିଲା ନାହିଁ! \n"
+#~ "\n"
+#~ " ଦୟାକରି ଫାଇଲ ସୃଷ୍ଟି କରନ୍ତୁ: \n"
+#~ "{0}\n"
+#~ "\n"
+#~ " ଆପଣଙ୍କର ଫୋରେକା API ପ୍ରମାଣପତ୍ର ସହିତ |"
+
+#~ msgid "Blue"
+#~ msgstr "ନୀଳ"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "ସହର ଚୟନ ସହାୟତା: \n"
+#~ "\n"
+#~ " |\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Foreca API ପ୍ରମାଣପତ୍ରଗୁଡ଼ିକୁ ବିନ୍ୟାସ କରନ୍ତୁ |"
+
+#~ msgid "Distance"
+#~ msgstr "ଦୂରତା |"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ବିନ୍ୟାସ ଫାଇଲ ଲେଖିବାରେ ବିଫଳ: \n"
+#~ "% s |"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "ଫୋରେକା ଏକ ସେଟଅପ୍ |"
+
+#~ msgid "Green"
+#~ msgstr "ସବୁଜ"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "ଶେଷ ଅଦ୍ୟତନ |"
+
+#~ msgid "Red"
+#~ msgstr "ଲାଲ୍ |"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "ଆପଣଙ୍କର ପୂର୍ବରୁ {version} ସଂସ୍କରଣ ସଂସ୍ଥାପିତ ହୋଇଛି | \n"
+#~ " ଆପଣ ଏହାକୁ ପୁନ rein ସଂସ୍ଥାପନ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?"

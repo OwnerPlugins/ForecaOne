@@ -13,36 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} klst. {mins} mín"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLÁR til að vista sem Home\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- til að hoppa um 500 borgir\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• GRÆNT til að vista sem uppáhalds 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• Í lagi til að velja borg\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• RAUTT til að opna leitarlyklaborðið\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Notaðu örvatakkana til að fletta í \n"
-
-msgid "• VOL+/VOL- to jump 100 cities\n\n"
-msgstr "• VOL+/VOL- til að hoppa um 100 borgir\n\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• GULUR til að vista sem uppáhalds 2\n"
-
-msgid "← Frame"
-msgstr "← Rammi"
-
 msgid "0 - Today"
 msgstr "0 - Í dag"
 
@@ -67,14 +37,29 @@ msgstr "6 - Í dag + 6 dagar"
 msgid "7 - Today + 7 days"
 msgstr "7 - Í dag + 7 dagar"
 
-msgid "7 Day Forecast"
-msgstr "7 daga spá"
-
 msgid "8 - Today + 8 days"
 msgstr "8 - Í dag + 8 dagar"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Í dag + 9 dagar"
+
+msgid "API credentials not configured."
+msgstr "API skilríki ekki stillt."
+
+msgid "API error"
+msgstr "API villa"
+
+msgid "API password"
+msgstr "API lykilorð"
+
+msgid "API user"
+msgstr "API notandi"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Advanced"
 msgstr "Ítarlegri"
@@ -91,35 +76,14 @@ msgstr "Aldur frá nýju tungli: {:.1f} dagar"
 msgid "Age: N/A"
 msgstr "Aldur: N/A"
 
-msgid "Angular diameter: {:.0f}″"
-msgstr "Hornþvermál: {:.0f}″"
-
 msgid "Angular diameter: N/A"
 msgstr "Hornþvermál: N/A"
 
-msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
-msgstr "API stillingarskrá fannst ekki!\n\nVinsamlegast búðu til skrána:\n{0}\n\nmeð Foreca API skilríkjum þínum."
-
-msgid "API credentials not configured."
-msgstr "API skilríki ekki stillt."
-
-msgid "API error"
-msgstr "API villa"
-
-msgid "API password"
-msgstr "API lykilorð"
-
-msgid "API user"
-msgstr "API notandi"
+msgid "Angular diameter: {:.0f}″"
+msgstr "Hornþvermál: {:.0f}″"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Sýnileg stærð: {:.2f}"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Úthluta í uppáhalds 1"
@@ -157,9 +121,6 @@ msgstr "Berlín"
 msgid "Black Moon"
 msgstr "Svart tungl"
 
-msgid "Blue"
-msgstr "Blár"
-
 msgid "Blue - Home"
 msgstr "Blár - Heim"
 
@@ -193,14 +154,11 @@ msgstr "Leitaðu að uppfærslum"
 msgid "Choose detail view"
 msgstr "Veldu smáatriði"
 
-msgid "City list file not found!"
-msgstr "Borgarlistaskrá fannst ekki!"
-
 msgid "City Selection"
 msgstr "Borgarval"
 
-msgid "City Selection Help:\n\n"
-msgstr "Borgarvalhjálp:\n\n"
+msgid "City list file not found!"
+msgstr "Borgarlistaskrá fannst ekki!"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Hreinsaðu Foreca One Temp skrár?"
@@ -247,14 +205,17 @@ msgstr "Skýjað, þrumuveður með rigningu"
 msgid "Cold (< 0°C)"
 msgstr "Kalt (< 0°C)"
 
+msgid "Color Legend"
+msgstr "Litur Legend"
+
+msgid "Color Selector"
+msgstr "Litaval"
+
 msgid "Color data"
 msgstr "Litagögn"
 
 msgid "Color legend"
 msgstr "Litagoðsögn"
-
-msgid "Color Legend"
-msgstr "Litur Legend"
 
 msgid "Color name"
 msgstr "Litur nafn"
@@ -262,14 +223,8 @@ msgstr "Litur nafn"
 msgid "Color select"
 msgstr "Litaval"
 
-msgid "Color Selector"
-msgstr "Litaval"
-
 msgid "Condition: {}"
 msgstr "Ástand: {}"
-
-msgid "Configure Foreca API credentials"
-msgstr "Stilltu Foreca API skilríki"
 
 msgid "Continents Weather Maps"
 msgstr "Veðurkort heimsálfa"
@@ -337,20 +292,17 @@ msgstr "Daggarmark: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Daggarmark: N/A"
 
-msgid "Distance"
-msgstr "Fjarlægð"
-
 msgid "Distance {} km"
 msgstr "Vegalengd {} km"
+
+msgid "Distance: %s"
+msgstr "Vegalengd: %s"
 
 msgid "Distance: {}"
 msgstr "Fjarlægð: {}"
 
 msgid "Distance: {} km"
 msgstr "Vegalengd: {} km"
-
-msgid "Distance: %s"
-msgstr "Vegalengd: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Viltu setja það upp núna?"
@@ -418,9 +370,6 @@ msgstr "Mikill / þrumuveður"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
 
-msgid "Failed to write configuration file:\n%s"
-msgstr "Mistókst að skrifa stillingarskrá:\n%s"
-
 msgid "Faster: {}s"
 msgstr "Hraðari: {}s"
 
@@ -430,11 +379,11 @@ msgstr "Uppáhalds 1"
 msgid "Favorite 2"
 msgstr "Uppáhalds 2"
 
-msgid "Favorites details"
-msgstr "Upplýsingar um eftirlæti"
-
 msgid "Favorites Details"
 msgstr "Uppáhalds upplýsingar"
+
+msgid "Favorites details"
+msgstr "Upplýsingar um eftirlæti"
 
 msgid "Feels like"
 msgstr "Finnst eins og"
@@ -445,15 +394,6 @@ msgstr "Finnst eins og {}"
 msgid "Feels like {}{}"
 msgstr "Finnst eins og {}{}"
 
-msgid "Feels like: {}"
-msgstr "Líður eins og: {}"
-
-msgid "Feels like: {}{}"
-msgstr "Líður eins og: {}{}"
-
-msgid "Feels like: {}°C"
-msgstr "Líður eins og: {}°C"
-
 msgid "Feels like: %d%s"
 msgstr "Líður eins og: %d%s"
 
@@ -462,6 +402,15 @@ msgstr "Líður eins og: %s°C"
 
 msgid "Feels like: N/A"
 msgstr "Finnst: N/A"
+
+msgid "Feels like: {}"
+msgstr "Líður eins og: {}"
+
+msgid "Feels like: {}{}"
+msgstr "Líður eins og: {}{}"
+
+msgid "Feels like: {}°C"
+msgstr "Líður eins og: {}°C"
 
 msgid "Finland"
 msgstr "Finnlandi"
@@ -472,20 +421,17 @@ msgstr "Fyrsta ársfjórðung"
 msgid "Fog"
 msgstr "Þoka"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API uppsetning"
+
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API skilríki eru ekki stillt ennþá. Vinsamlega sláðu þær inn á uppsetningarskjáinn."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API stillingar vistaðar."
 
-msgid "Foreca API Setup"
-msgstr "Foreca API uppsetning"
-
 msgid "Foreca One"
 msgstr "Foreca One"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Kort {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Maps (API)"
@@ -496,17 +442,23 @@ msgstr "Foreca One matseðill"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Engar stöðvar fundust"
 
-msgid "Foreca One Setup"
-msgstr "Foreca One uppsetning"
-
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stations: {} stöðvar í nágrenninu ({})"
+
+msgid "Foreca One Weather Forecast"
+msgstr "Veðurspá Foreca One"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Veðurspá Foreca One"
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Kort {}"
+
+msgid "Found %d cities locally for '%s'"
+msgstr "Fann %d borgir á staðnum fyrir '%s'"
+
+msgid "Found %d cities online for '%s'"
+msgstr "Fann %d borgir á netinu fyrir '%s'"
 
 msgid "Frame →"
 msgstr "Rammi →"
@@ -537,9 +489,6 @@ msgstr "Stóra-Bretland"
 
 msgid "Greece"
 msgstr "Grikkland"
-
-msgid "Green"
-msgstr "Grænn"
 
 msgid "Green - Favorite 1"
 msgstr "Grænn - Uppáhalds 1"
@@ -580,17 +529,14 @@ msgstr "Heitt (30-40°C)"
 msgid "Hour Details"
 msgstr "Upplýsingar um klukkustund"
 
-msgid "HTML"
-msgstr "HTML"
-
 msgid "Humidity"
 msgstr "Raki"
 
-msgid "Humidity: {}%"
-msgstr "Raki: {}%"
-
 msgid "Humidity: %s%%"
 msgstr "Raki: %s%%"
+
+msgid "Humidity: {}%"
+msgstr "Raki: {}%"
 
 msgid "Hungary"
 msgstr "Ungverjaland"
@@ -649,9 +595,6 @@ msgstr "Lyklaborð"
 msgid "Last Quarter"
 msgstr "Síðasta ársfjórðung"
 
-msgid "Last update"
-msgstr "Síðasta uppfærsla"
-
 msgid "Latvia"
 msgstr "Lettland"
 
@@ -706,9 +649,6 @@ msgstr "Lúxemborg"
 msgid "Magnitude: N/A"
 msgstr "Stærð: N/A"
 
-msgid "Map {} selected"
-msgstr "Kort {} valið"
-
 msgid "Map & Tiles Loaded"
 msgstr "Kort og flísar hlaðnar"
 
@@ -717,6 +657,9 @@ msgstr "Kort hlaðið"
 
 msgid "Map server"
 msgstr "Kortaþjónn"
+
+msgid "Map {} selected"
+msgstr "Kort {} valið"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -760,10 +703,10 @@ msgstr "Hæfileg rigning"
 msgid "Month"
 msgstr "Mánuður"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "Tungl smáatriði"
 
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "Tungl smáatriði"
 
 msgid "Moonrise: {}"
@@ -778,16 +721,16 @@ msgstr "Morgun"
 msgid "Mostly clear"
 msgstr "Að mestu ljóst"
 
-msgid "Move down"
-msgstr "Færðu þig niður"
-
 msgid "Move Down"
 msgstr "Færa niður"
 
-msgid "Move up"
+msgid "Move Up"
 msgstr "Færðu þig upp"
 
-msgid "Move Up"
+msgid "Move down"
+msgstr "Færðu þig niður"
+
+msgid "Move up"
 msgstr "Færðu þig upp"
 
 msgid "N"
@@ -808,17 +751,26 @@ msgstr "Ný útgáfa {version} er fáanleg."
 msgid "Next"
 msgstr "Næst"
 
-msgid "Next frame"
-msgstr "Næsti rammi"
-
 msgid "Next Image"
 msgstr "Næsta mynd"
+
+msgid "Next frame"
+msgstr "Næsti rammi"
 
 msgid "Next page"
 msgstr "Næsta síða"
 
 msgid "Next time"
 msgstr "Næst"
+
+msgid "No Internet connection detected."
+msgstr "Engin internettenging fannst."
+
+msgid "No OSM tiles"
+msgstr "Engar OSM flísar"
+
+msgid "No cities found locally for '%s'"
+msgstr "Engar borgir fundust á staðnum fyrir '%s'"
 
 msgid "No city selected"
 msgstr "Engin borg valin"
@@ -829,14 +781,8 @@ msgstr "Engin gögn"
 msgid "No date available"
 msgstr "Engin dagsetning í boði"
 
-msgid "No Internet connection detected."
-msgstr "Engin internettenging fannst."
-
 msgid "No location selected"
 msgstr "Engin staðsetning valin"
-
-msgid "No OSM tiles"
-msgstr "Engar OSM flísar"
 
 msgid "No specific legend available."
 msgstr "Engin sérstök goðsögn í boði."
@@ -865,9 +811,6 @@ msgstr "Norðurrín-Westfalen"
 msgid "Norway"
 msgstr "Noregi"
 
-msgid "Ok - Details"
-msgstr "Allt í lagi - Upplýsingar"
-
 msgid "OK - Ext Info"
 msgstr "Í lagi - Ext Info"
 
@@ -876,6 +819,9 @@ msgstr "OK - Spá"
 
 msgid "OK - Open Map"
 msgstr "OK - Opna kort"
+
+msgid "Ok - Details"
+msgstr "Allt í lagi - Upplýsingar"
 
 msgid "Open Keyboard"
 msgstr "Opnaðu lyklaborð"
@@ -922,17 +868,17 @@ msgstr "Skýjað, þrumuveður með rigningu"
 msgid "Overnight"
 msgstr "Yfir nótt"
 
-msgid "Page down"
-msgstr "Síðu niður"
-
 msgid "Page Down"
 msgstr "Page Down"
 
-msgid "Page up"
-msgstr "Síðu upp"
-
 msgid "Page Up"
 msgstr "Blað upp"
+
+msgid "Page down"
+msgstr "Síðu niður"
+
+msgid "Page up"
+msgstr "Síðu upp"
 
 msgid "Pan down"
 msgstr "Pantaðu niður"
@@ -1012,12 +958,6 @@ msgstr "Ýttu á RAUÐA til að leita aftur"
 msgid "Pressure"
 msgstr "Þrýstingur"
 
-msgid "Pressure: {}"
-msgstr "Þrýstingur: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Þrýstingur: {} hPa"
-
 msgid "Pressure: %s"
 msgstr "Þrýstingur: %s"
 
@@ -1027,17 +967,23 @@ msgstr "Þrýstingur: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Þrýstingur: N/A"
 
+msgid "Pressure: {}"
+msgstr "Þrýstingur: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Þrýstingur: {} hPa"
+
 msgid "Prev"
 msgstr "Fyrri"
 
 msgid "Previous"
 msgstr "Fyrri"
 
-msgid "Previous frame"
-msgstr "Fyrri rammi"
-
 msgid "Previous Image"
 msgstr "Fyrri mynd"
+
+msgid "Previous frame"
+msgstr "Fyrri rammi"
 
 msgid "Previous page"
 msgstr "Fyrri síða"
@@ -1060,9 +1006,6 @@ msgstr "Rigning: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer ratsjá"
 
-msgid "Red"
-msgstr "Rauður"
-
 msgid "Red - Color select"
 msgstr "Rauður - Litur valinn"
 
@@ -1084,11 +1027,11 @@ msgstr "Hægri ör - Næsti dagur"
 msgid "Rise"
 msgstr "Rís upp"
 
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Hækkandi azimut: {:.0f}°"
-
 msgid "Rise azimuth: N/A"
 msgstr "Hækkandi azimut: N/A"
+
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Hækkandi azimut: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rússland"
@@ -1132,11 +1075,14 @@ msgstr "Leita reynir fyrst á netinu, ef það mistekst notar staðbundinn lista
 msgid "Search your City"
 msgstr "Leitaðu að borginni þinni"
 
+msgid "Searching for '%s'..."
+msgstr "Leitar að '%s'..."
+
 msgid "Select"
 msgstr "Veldu"
 
-msgid "Select {} unit"
-msgstr "Veldu {} einingu"
+msgid "Select Region"
+msgstr "Veldu svæði"
 
 msgid "Select a city"
 msgstr "Veldu borg"
@@ -1144,23 +1090,23 @@ msgstr "Veldu borg"
 msgid "Select a map with OK"
 msgstr "Veldu kort með OK"
 
-msgid "Select Region"
-msgstr "Veldu svæði"
-
 msgid "Select unit system"
 msgstr "Veldu einingakerfi"
 
 msgid "Select wind unit"
 msgstr "Veldu vindeiningu"
 
+msgid "Select {} unit"
+msgstr "Veldu {} einingu"
+
 msgid "Selected hour details"
 msgstr "Upplýsingar um valinn tíma"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Stilltu azimut: {:.0f}°"
-
 msgid "Set azimuth: N/A"
 msgstr "Stillt azimut: N/A"
+
+msgid "Set azimuth: {:.0f}°"
+msgstr "Stilltu azimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Leikmyndir"
@@ -1231,15 +1177,6 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Hitastig"
 
-msgid "Temperature: {}"
-msgstr "Hitastig: {}"
-
-msgid "Temperature: {}{}"
-msgstr "Hitastig: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "Hitastig: {}°C"
-
 msgid "Temperature: %d%s"
 msgstr "Hitastig: %d%s"
 
@@ -1248,6 +1185,15 @@ msgstr "Hitastig: %s°C"
 
 msgid "Temperature: N/A"
 msgstr "Hiti: N/A"
+
+msgid "Temperature: {}"
+msgstr "Hitastig: {}"
+
+msgid "Temperature: {}{}"
+msgstr "Hitastig: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "Hitastig: {}°C"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Takk {thanks} og aðrir vinir fyrir tillögur"
@@ -1288,20 +1234,26 @@ msgstr "Á morgun"
 msgid "Transit (culmination): {}"
 msgstr "Samgöngur (hámark): {}"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Samgönguhæð: {:.0f}°"
-
 msgid "Transit altitude: N/A"
 msgstr "Samgönguhæð: N/A"
+
+msgid "Transit altitude: {:.0f}°"
+msgstr "Samgönguhæð: {:.0f}°"
 
 msgid "Translation Settings"
 msgstr "Þýðingarstillingar"
 
+msgid "Transparency Settings"
+msgstr "Gagnsæisstillingar"
+
 msgid "Transparency level"
 msgstr "Gagnsæisstig"
 
-msgid "Transparency Settings"
-msgstr "Gagnsæisstillingar"
+msgid "UV Index"
+msgstr "UV vísitala"
+
+msgid "UV N/A"
+msgstr "UV N/A"
 
 msgid "Unhealthy"
 msgstr "Óhollt"
@@ -1336,14 +1288,20 @@ msgstr "Uppfærslu lokið. Vinsamlegast endurræstu Enigma2."
 msgid "Updated {}"
 msgstr "Uppfært {}"
 
-msgid "Updated: {}"
-msgstr "Uppfært: {}"
-
 msgid "Updated: N/A"
 msgstr "Uppfært: N/A"
 
+msgid "Updated: {}"
+msgstr "Uppfært: {}"
+
 msgid "Updating..."
 msgstr "Uppfærir..."
+
+msgid "Use Google Translate"
+msgstr "Notaðu Google Translate"
+
+msgid "Use arrow keys to scroll"
+msgstr "Notaðu örvatakkana til að fletta"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Notaðu ← → til að breyta tíma | Í lagi að hætta"
@@ -1354,26 +1312,8 @@ msgstr "Notaðu ←/→/↑/↓ til að færa | Í lagi að hætta"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Notaðu ▲/▼ til að breyta, OK til að velja"
 
-msgid "Use arrow keys to scroll"
-msgstr "Notaðu örvatakkana til að fletta"
-
-msgid "Use Google Translate"
-msgstr "Notaðu Google Translate"
-
 msgid "Using current time"
 msgstr "Notaðu núverandi tíma"
-
-msgid "UV"
-msgstr "UV"
-
-msgid "UV Index"
-msgstr "UV vísitala"
-
-msgid "UV N/A"
-msgstr "UV N/A"
-
-msgid "v."
-msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Mjög mikil rigning"
@@ -1390,11 +1330,11 @@ msgstr "Mjög lágt"
 msgid "Very unhealthy"
 msgstr "Mjög óhollt"
 
-msgid "Visibility: {} m"
-msgstr "Skyggni: {} m"
-
 msgid "Visibility: %s m"
 msgstr "Skyggni: %s m"
+
+msgid "Visibility: {} m"
+msgstr "Skyggni: {} m"
 
 msgid "W"
 msgstr "W"
@@ -1423,11 +1363,11 @@ msgstr "Veðurkort"
 msgid "Weather Maps"
 msgstr "Veðurkort"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Veðurkort (Wetterkontor)"
-
 msgid "Weather Maps & Satellite"
 msgstr "Veðurkort og gervihnöttur"
+
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Veðurkort (Wetterkontor)"
 
 msgid "Weather Maps Slideshow"
 msgstr "Skyggnusýning á veðurkortum"
@@ -1447,14 +1387,14 @@ msgstr "Vikuspá"
 msgid "Wind"
 msgstr "Vindur"
 
-msgid "Wind direction"
-msgstr "Vindátt"
-
 msgid "Wind Direction today"
 msgstr "Vindátt í dag"
 
 msgid "Wind Direction tomorrow"
 msgstr "Vindátt á morgun"
+
+msgid "Wind direction"
+msgstr "Vindátt"
 
 msgid "Wind speed"
 msgstr "Vindhraði"
@@ -1465,15 +1405,6 @@ msgstr "Vindhraði {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Vindhraði: {:.1f} {}"
 
-msgid "Wind: {}"
-msgstr "Vindur: {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Vindur: {} {} {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Vindur: {} km/klst. {}"
-
 msgid "Wind: %d %s %s"
 msgstr "Vindur: %d %s %s"
 
@@ -1483,14 +1414,20 @@ msgstr "Vindur: %s km/klst. %s"
 msgid "Wind: N/A"
 msgstr "Vindur: N/A"
 
+msgid "Wind: {}"
+msgstr "Vindur: {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vindur: {} km/klst. {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vindur: {} {} {}"
+
 msgid "Window transparency"
 msgstr "Gagnsæi glugga"
 
 msgid "Yellow - Favorite 2"
 msgstr "Gulur - Uppáhalds 2"
-
-msgid "You already have version {version} installed.\nDo you want to reinstall it?"
-msgstr "Þú ert nú þegar með útgáfu {version} uppsetta.\nViltu setja hana upp aftur?"
 
 msgid "Zoom In"
 msgstr "Aðdráttur inn"
@@ -1498,12 +1435,114 @@ msgstr "Aðdráttur inn"
 msgid "Zoom Out"
 msgstr "Aðdráttur út"
 
+msgid "Zoom+"
+msgstr "Zoom+"
+
 msgid "Zoom-"
 msgstr "Aðdráttur-"
 
 msgid "Zoom:"
 msgstr "Aðdráttur:"
 
-msgid "Zoom+"
-msgstr "Zoom+"
+msgid "v."
+msgstr "v."
 
+msgid "{hours} h {mins} min"
+msgstr "{hours} klst. {mins} mín"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLÁR til að vista sem Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- til að hoppa um 500 borgir\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GRÆNT til að vista sem uppáhalds 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• Í lagi til að velja borg\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RAUTT til að opna leitarlyklaborðið\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Notaðu örvatakkana til að fletta í \n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GULUR til að vista sem uppáhalds 2\n"
+
+msgid "← Frame"
+msgstr "← Rammi"
+
+#~ msgid ""
+#~ "• VOL+/VOL- to jump 100 cities\n"
+#~ "\n"
+#~ msgstr ""
+#~ "• VOL+/VOL- til að hoppa um 100 borgir\n"
+#~ "\n"
+
+#~ msgid "7 Day Forecast"
+#~ msgstr "7 daga spá"
+
+#~ msgid ""
+#~ "API configuration file not found!\n"
+#~ "\n"
+#~ "Please create file:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "with your Foreca API credentials."
+#~ msgstr ""
+#~ "API stillingarskrá fannst ekki!\n"
+#~ "\n"
+#~ "Vinsamlegast búðu til skrána:\n"
+#~ "{0}\n"
+#~ "\n"
+#~ "með Foreca API skilríkjum þínum."
+
+#~ msgid "Blue"
+#~ msgstr "Blár"
+
+#~ msgid ""
+#~ "City Selection Help:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Borgarvalhjálp:\n"
+#~ "\n"
+
+#~ msgid "Configure Foreca API credentials"
+#~ msgstr "Stilltu Foreca API skilríki"
+
+#~ msgid "Distance"
+#~ msgstr "Fjarlægð"
+
+#~ msgid ""
+#~ "Failed to write configuration file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Mistókst að skrifa stillingarskrá:\n"
+#~ "%s"
+
+#~ msgid "Foreca One Setup"
+#~ msgstr "Foreca One uppsetning"
+
+#~ msgid "Green"
+#~ msgstr "Grænn"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Last update"
+#~ msgstr "Síðasta uppfærsla"
+
+#~ msgid "Red"
+#~ msgstr "Rauður"
+
+#~ msgid "UV"
+#~ msgstr "UV"
+
+#~ msgid ""
+#~ "You already have version {version} installed.\n"
+#~ "Do you want to reinstall it?"
+#~ msgstr ""
+#~ "Þú ert nú þegar með útgáfu {version} uppsetta.\n"
+#~ "Viltu setja hana upp aftur?"
