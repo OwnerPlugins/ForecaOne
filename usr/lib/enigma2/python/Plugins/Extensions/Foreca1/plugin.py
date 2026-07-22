@@ -73,6 +73,8 @@ from .MoonPhase import MoonPhase
 from .hour_detail import HourDetailView
 from .moon_details_screen import MoonDetailsScreen
 
+from .translation_setup import TranslationSetup
+
 # Foreca One Weather Forecast for Enigma2
 # Copyright (C) 2026 @Lululla
 #
@@ -843,6 +845,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             (_("Transparency Settings"), "transparency"),
             (_("Check for updates"), "update"),
             (_("Cleanup temp files"), "cleanup"),
+            (_("Translation Settings"), "translation"),
             (_("Info"), "info"),
             (_("Exit"), "exit")
         ]
@@ -898,15 +901,11 @@ class Foreca_Preview(Screen, HelpableScreen):
                     MessageBox,
                     _("No location selected"),
                     MessageBox.TYPE_INFO)
-        # elif key == "moon_calendar":
-            # self.session.openWithCallback(
-                # self.after_main_menu, MoonCalendar, self.moon)
         elif key == "moon_calendar":
             self.session.openWithCallback(
                 self.after_main_menu,
                 MoonCalendar,
                 self.moon,
-                # passa l'offset (es. 2.0 per Italia)
                 getattr(self, 'tz_offset', None)
             )
         elif key == "stations":
@@ -957,6 +956,8 @@ class Foreca_Preview(Screen, HelpableScreen):
         elif key == "info":
             self.session.openWithCallback(
                 self.after_main_menu, InfoDialog, self)
+        elif key == "translation":
+            self.session.openWithCallback(self.after_translation_settings, TranslationSetup)
         elif key == "exit":
             return
 
@@ -2393,15 +2394,13 @@ class Foreca_Preview(Screen, HelpableScreen):
     def show_moon_details(self):
         if self.f_date and len(self.f_date) > 0:
             try:
-                target_date = datetime.datetime.strptime(
-                    self.f_date[0], "%d.%m.%Y").date()
+                target_date = datetime.datetime.strptime(self.f_date[0], "%d.%m.%Y").date()
             except ValueError:
                 target_date = datetime.date.today()
         else:
             target_date = datetime.date.today()
 
-        target_datetime = datetime.datetime(
-            target_date.year, target_date.month, target_date.day, 0, 0, 0)
+        target_datetime = datetime.datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0)
 
         info = self.moon.get_phase_info(target_datetime)
         phase_name = info.get("name", "N/A")
@@ -2421,8 +2420,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         data = {
             'phase_name': phase_name,
             'illumination': illumination,
-            'distance': int(
-                round(distance_km)),
+            'distance': int(round(distance_km)),
             'moonrise': self["moonrise_value"].getText() if "moonrise_value" in self else "N/A",
             'moonset': self["moonset_value"].getText() if "moonset_value" in self else "N/A",
             'extra': extra,
@@ -2604,6 +2602,15 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.my_forecast_weather()
             self._update_moon()
             self._update_titles()
+
+    def after_translation_settings(self, result=None):
+        """Callback after translation settings are closed."""
+        if result:
+            # Refresh UI with new translation settings
+            self._update_titles()
+            self.my_cur_weather()
+            self.my_forecast_weather()
+            self._update_fav_button_names()
 
     def maps_menu_callback(self, choice):
         if choice is None:

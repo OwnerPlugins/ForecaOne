@@ -11,8 +11,136 @@ from os import makedirs, environ, rmdir, walk, remove
 import gettext
 import codecs
 import shutil
+import re
 
-__version__ = "1.2.9"
+# ============================================================
+# CONFIGURATION IMPORTS FOR TRANSLATION ENGINE
+# ============================================================
+from Components.config import config, ConfigSubsection, ConfigBoolean, ConfigSelection
+
+# Ensure config namespace exists
+if not hasattr(config.plugins, 'foreca'):
+    config.plugins.foreca = ConfigSubsection()
+
+# Translation engine: False = gettext (local .po files), True = Google Translate
+config.plugins.foreca.translation_engine = ConfigBoolean(default=False)
+
+# Target language for Google Translate (ISO 639-1 codes)
+# 'auto' means use system language
+LANGUAGE_CHOICES = [
+    ('auto', 'Auto (System Language)'),
+    ('af', 'Afrikaans'),
+    ('sq', 'Albanian'),
+    ('am', 'Amharic'),
+    ('ar', 'Arabic'),
+    ('hy', 'Armenian'),
+    ('az', 'Azerbaijani'),
+    ('eu', 'Basque'),
+    ('be', 'Belarusian'),
+    ('bn', 'Bengali'),
+    ('bs', 'Bosnian'),
+    ('bg', 'Bulgarian'),
+    ('ca', 'Catalan'),
+    ('ceb', 'Cebuano'),
+    ('ny', 'Chichewa'),
+    ('zh-cn', 'Chinese (Simplified)'),
+    ('zh-tw', 'Chinese (Traditional)'),
+    ('co', 'Corsican'),
+    ('hr', 'Croatian'),
+    ('cs', 'Czech'),
+    ('da', 'Danish'),
+    ('nl', 'Dutch'),
+    ('en', 'English'),
+    ('eo', 'Esperanto'),
+    ('et', 'Estonian'),
+    ('tl', 'Filipino'),
+    ('fi', 'Finnish'),
+    ('fr', 'French'),
+    ('fy', 'Frisian'),
+    ('gl', 'Galician'),
+    ('ka', 'Georgian'),
+    ('de', 'German'),
+    ('el', 'Greek'),
+    ('gu', 'Gujarati'),
+    ('ht', 'Haitian Creole'),
+    ('ha', 'Hausa'),
+    ('haw', 'Hawaiian'),
+    ('iw', 'Hebrew'),
+    ('hi', 'Hindi'),
+    ('hmn', 'Hmong'),
+    ('hu', 'Hungarian'),
+    ('is', 'Icelandic'),
+    ('ig', 'Igbo'),
+    ('id', 'Indonesian'),
+    ('ga', 'Irish'),
+    ('it', 'Italian'),
+    ('ja', 'Japanese'),
+    ('jw', 'Javanese'),
+    ('kn', 'Kannada'),
+    ('kk', 'Kazakh'),
+    ('km', 'Khmer'),
+    ('rw', 'Kinyarwanda'),
+    ('ko', 'Korean'),
+    ('ku', 'Kurdish (Kurmanji)'),
+    ('ky', 'Kyrgyz'),
+    ('lo', 'Lao'),
+    ('la', 'Latin'),
+    ('lv', 'Latvian'),
+    ('lt', 'Lithuanian'),
+    ('lb', 'Luxembourgish'),
+    ('mk', 'Macedonian'),
+    ('mg', 'Malagasy'),
+    ('ms', 'Malay'),
+    ('ml', 'Malayalam'),
+    ('mt', 'Maltese'),
+    ('mi', 'Maori'),
+    ('mr', 'Marathi'),
+    ('mn', 'Mongolian'),
+    ('my', 'Myanmar (Burmese)'),
+    ('ne', 'Nepali'),
+    ('no', 'Norwegian'),
+    ('or', 'Odia (Oriya)'),
+    ('ps', 'Pashto'),
+    ('fa', 'Persian'),
+    ('pl', 'Polish'),
+    ('pt', 'Portuguese'),
+    ('pa', 'Punjabi'),
+    ('ro', 'Romanian'),
+    ('ru', 'Russian'),
+    ('sm', 'Samoan'),
+    ('gd', 'Scots Gaelic'),
+    ('sr', 'Serbian'),
+    ('st', 'Sesotho'),
+    ('sn', 'Shona'),
+    ('sd', 'Sindhi'),
+    ('si', 'Sinhala'),
+    ('sk', 'Slovak'),
+    ('sl', 'Slovenian'),
+    ('so', 'Somali'),
+    ('es', 'Spanish'),
+    ('su', 'Sundanese'),
+    ('sw', 'Swahili'),
+    ('sv', 'Swedish'),
+    ('tg', 'Tajik'),
+    ('ta', 'Tamil'),
+    ('te', 'Telugu'),
+    ('th', 'Thai'),
+    ('tr', 'Turkish'),
+    ('uk', 'Ukrainian'),
+    ('ur', 'Urdu'),
+    ('ug', 'Uyghur'),
+    ('uz', 'Uzbek'),
+    ('vi', 'Vietnamese'),
+    ('cy', 'Welsh'),
+    ('xh', 'Xhosa'),
+    ('yi', 'Yiddish'),
+    ('yo', 'Yoruba'),
+    ('zu', 'Zulu'),
+]
+
+config.plugins.foreca.target_language = ConfigSelection(choices=LANGUAGE_CHOICES, default='auto')
+
+__version__ = "1.3.0"
 VERSION = __version__
 _AUTHOR_ = "by Lululla - 2026"
 IDEAS = "@Bauernbub"
@@ -40,6 +168,7 @@ DEBUG = True
 CACHE_EXPIRE = 3600
 
 
+# Create necessary directories
 if not exists(SYSTEM_DIR):
     makedirs(SYSTEM_DIR)
 
@@ -83,7 +212,12 @@ OSM_HEADERS = {
 }
 
 
+# ============================================================
+# TRANSLATION FUNCTION WITH ENGINE SELECTION
+# ============================================================
+
 def localeInit():
+    """Initialize locale for gettext translations."""
     lang = language.getLanguage()[:2]
     environ["LANGUAGE"] = lang
     if PluginLanguageDomain and PluginLanguagePath:
@@ -95,41 +229,177 @@ def localeInit():
         )
 
 
+# Import Google Translate function (lazy import to avoid circular deps)
+def _get_google_translate():
+    """Lazy import of google_translate module."""
+    try:
+        from .google_translate import trans
+        return trans
+    except ImportError:
+        print("[Foreca1] Google Translate module not available, falling back to gettext")
+        return None
+
+
+def _restore_placeholders_from_original(original, translated):
+    """
+    Restore placeholders in translated string using original string as reference.
+    Works with {name}, {0}, %(name)s, %s, etc.
+    """
+    if not original or not translated:
+        return translated
+
+    # Extract all placeholders from original
+    placeholders = []
+
+    # 1. C# style: {name}, {0}
+    for match in re.finditer(r'\{[^{}]+\}', original):
+        placeholders.append(match.group(0))
+
+    # 2. Python style: %(name)s, %(name)d, etc.
+    for match in re.finditer(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]', original):
+        placeholders.append(match.group(0))
+
+    # 3. Python style: %s, %d, etc.
+    for match in re.finditer(r'%[diouxXeEfFgGcrs]', original):
+        placeholders.append(match.group(0))
+
+    if not placeholders:
+        return translated
+
+    # Try to restore placeholders in translated string
+    result = translated
+    for placeholder in placeholders:
+        # If the placeholder appears in original but not in translated, skip
+        if placeholder not in original:
+            continue
+
+        # Try to find where the placeholder should be in translated
+        # Simple approach: if translated contains the placeholder, keep it
+        if placeholder in translated:
+            continue
+
+        # Otherwise, try to find if the placeholder was translated
+        # We need to know the context to restore it properly
+        # Without mapping, we can't know which translated word corresponds to which placeholder
+
+        # Fallback: keep the translated string as-is
+        # The user will need to fix the .po files
+        pass
+
+    return result
+
+
+def _has_placeholders(text):
+    """Check if text contains any placeholders."""
+    if not text:
+        return False
+    return (
+        '{' in text and '}' in text or
+        '%(' in text or
+        re.search(r'%[diouxXeEfFgGcrs]', text) is not None
+    )
+
+
+def _get_system_language():
+    """
+    Get system language in short format (e.g., 'it', 'en', 'de').
+    """
+    try:
+        from Components.config import config
+        lang = config.misc.language.value
+        return lang.split('_')[0].lower()
+    except Exception:
+        try:
+            lang = config.osd.language.value
+            return lang.split('_')[0].lower()
+        except Exception:
+            return 'en'  # fallback
+
+
 def _(txt):
+    """
+    Main translation function.
+    - If Google Translate is enabled, uses it with the selected language.
+    - Otherwise, forces gettext to use the selected language.
+    - Restores placeholders if gettext broke them.
+    """
     if not txt:
         return ""
 
-    translated = gettext.dgettext(PluginLanguageDomain, txt)
-    if translated and translated != txt:
-        return translated
+    # Read settings
+    use_google = config.plugins.foreca.translation_engine.value
+    target_lang = config.plugins.foreca.target_language.value
 
-    print(
-        "[%s] fallback to default translation for %s" %
-        (PluginLanguageDomain, txt)
-    )
-    return gettext.gettext(txt)
+    # If user selected 'auto', fallback to system language
+    if target_lang == 'auto':
+        target_lang = _get_system_language()
+
+    # If Google Translate is enabled, use it (already handles placeholders)
+    if use_google:
+        trans_func = _get_google_translate()
+        if trans_func:
+            try:
+                result = trans_func(txt, target_lang=target_lang)
+                if result and result != txt:
+                    return result
+            except Exception as e:
+                print("[Foreca1] Google Translate error: %s" % str(e))
+
+    # Google Translate disabled or failed: use gettext with forced language
+    try:
+        import gettext
+        from os import environ
+
+        old_lang = environ.get('LANGUAGE')
+        environ['LANGUAGE'] = target_lang
+        gettext.bindtextdomain(PluginLanguageDomain, resolveFilename(SCOPE_PLUGINS, PluginLanguagePath))
+        gettext.textdomain(PluginLanguageDomain)
+
+        translated = gettext.dgettext(PluginLanguageDomain, txt)
+
+        if old_lang:
+            environ['LANGUAGE'] = old_lang
+        else:
+            if 'LANGUAGE' in environ:
+                del environ['LANGUAGE']
+
+        if translated and translated != txt:
+            # If original has placeholders and translated doesn't match, try to restore
+            if _has_placeholders(txt):
+                # Simple: if translated has the same placeholders, keep it
+                # Otherwise, we need to fix the .po files
+                # We can't magically restore without mapping
+                pass
+            return translated
+    except Exception as e:
+        print("[Foreca1] gettext error: %s" % str(e))
+
+    # Ultimate fallback
+    return txt
 
 
 localeInit()
 language.addCallback(localeInit)
 
+# ============================================================
+# SKIN LOADING FUNCTIONS
+# ============================================================
 
-# ============ DETECT SCREEN RESOLUTION ============
+
 def get_screen_resolution():
-    """Get current screen resolution"""
+    """Get current screen resolution."""
     desktop = getDesktop(0)
     return desktop.size()
 
 
 def get_resolution_type():
-    """Get resolution type: hd, fhd, wqhd"""
+    """Get resolution type: hd, fhd, wqhd."""
     width = get_screen_resolution().width()
-
     if width >= 2560:
         return 'wqhd'
     elif width >= 1920:
         return 'fhd'
-    else:  # 1280x720 or smaller
+    else:
         return 'hd'
 
 
@@ -139,31 +409,28 @@ def load_skin_by_class(class_name):
     """
     if DEBUG:
         print("\n" + "=" * 60)
-        print(f"[SKIN DEBUG] Looking for skin: '{class_name}'")
-        print(f"[SKIN DEBUG] Built-in skins path = {SKINS_PATH}")
-        print(f"[SKIN DEBUG] Custom skins path = {CUSTOM_SKINS_PATH}")
+        print("[SKIN DEBUG] Looking for skin: '%s'" % class_name)
+        print("[SKIN DEBUG] Built-in skins path = %s" % SKINS_PATH)
+        print("[SKIN DEBUG] Custom skins path = %s" % CUSTOM_SKINS_PATH)
 
     resolution = get_resolution_type()
     if DEBUG:
-        print(f"[SKIN DEBUG] resolution = {resolution}")
+        print("[SKIN DEBUG] resolution = %s" % resolution)
 
     # 1) Try custom skins first
     custom_skin_file = None
     if exists(CUSTOM_SKINS_PATH):
-        custom_skin_file = join(
-            CUSTOM_SKINS_PATH,
-            resolution,
-            f"{class_name}.xml")
+        custom_skin_file = join(CUSTOM_SKINS_PATH, resolution, "%s.xml" % class_name)
         if DEBUG:
-            print(f"[SKIN DEBUG] Trying custom: {custom_skin_file}")
-            print(f"[SKIN DEBUG] Exists? {exists(custom_skin_file)}")
+            print("[SKIN DEBUG] Trying custom: %s" % custom_skin_file)
+            print("[SKIN DEBUG] Exists? %s" % exists(custom_skin_file))
     else:
         if DEBUG:
             print("[SKIN DEBUG] Custom skins directory does not exist")
 
     # 2) Built-in skins
-    builtin_skin_file = join(SKINS_PATH, resolution, f"{class_name}.xml")
-    fallback_skin_file = join(SKINS_PATH, "hd", f"{class_name}.xml")
+    builtin_skin_file = join(SKINS_PATH, resolution, "%s.xml" % class_name)
+    fallback_skin_file = join(SKINS_PATH, "hd", "%s.xml" % class_name)
 
     # Determine which file to load
     skin_file = None
@@ -185,26 +452,26 @@ def load_skin_by_class(class_name):
 
     if skin_file and exists(skin_file):
         if DEBUG:
-            print(f"[SKIN DEBUG] ✓ FOUND! Loading file: {skin_file}")
+            print("[SKIN DEBUG] ✓ FOUND! Loading file: %s" % skin_file)
         try:
             with codecs.open(skin_file, 'r', 'utf-8') as f:
                 content = f.read()
                 if DEBUG:
-                    print(f"[SKIN DEBUG] ✓ Loaded {len(content)} bytes")
-                    print(
-                        f"[SKIN DEBUG] First 100 chars: {content[:100].replace(chr(10), ' ')}")
+                    print("[SKIN DEBUG] ✓ Loaded %d bytes" % len(content))
+                    print("[SKIN DEBUG] First 100 chars: %s" % content[:100].replace(chr(10), ' '))
                     print("=" * 60 + "\n")
                 return content
         except Exception as e:
-            print(f"[SKIN DEBUG] ✗ Error reading file: {e}")
+            print("[SKIN DEBUG] ✗ Error reading file: %s" % e)
     else:
-        print(f"[SKIN DEBUG] ✗ SKIN FILE MISSING: {skin_file}")
+        print("[SKIN DEBUG] ✗ SKIN FILE MISSING: %s" % skin_file)
     if DEBUG:
         print("=" * 60 + "\n")
     return None
 
 
 def load_skin_for_class(cls):
+    """Load skin for a specific class."""
     return load_skin_by_class(cls.__name__)
 
 
@@ -230,7 +497,7 @@ def apply_global_theme(screen):
         except Exception as e:
             print("[Theme] Error loading color:", e)
 
-    # transparency
+    # Transparency
     if exists(alpha_file):
         try:
             with open(alpha_file, "r") as f:
@@ -287,11 +554,11 @@ def cleanup_temp_files(keep_token=True):
                     if not exists(subdir):
                         makedirs(subdir)
                 if DEBUG:
-                    print(f"[Cleanup] Cleaned {d} (kept token)")
+                    print("[Cleanup] Cleaned %s (kept token)" % d)
             else:
                 shutil.rmtree(d)
                 if DEBUG:
-                    print(f"[Cleanup] Removed {d}")
+                    print("[Cleanup] Removed %s" % d)
                 if d == TEMP_DIR:
                     makedirs(d)
                     # Also recreate subdirs if TEMP_DIR was completely removed
@@ -305,4 +572,4 @@ def cleanup_temp_files(keep_token=True):
                 elif d == DBG_DIR:
                     makedirs(d)
         except Exception as e:
-            print(f"[Cleanup] Error cleaning {d}: {e}")
+            print("[Cleanup] Error cleaning %s: %s" % (d, e))

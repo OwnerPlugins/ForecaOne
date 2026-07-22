@@ -27,7 +27,6 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
     Loads the appropriate skin for the resolution (HD/FHD/WQHD).
     Uses ConfigListScreen for a clean UI.
     """
-
     def __init__(self, session):
         self.skin = load_skin_for_class(TranslationSetup)
         Screen.__init__(self, session)
