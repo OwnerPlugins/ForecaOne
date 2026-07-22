@@ -1,22 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# es translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-15 16:14+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish <es@tp.org.es>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: es <ekekaz@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• AZUL para guardar como Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- para saltar 500 ciudades\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• VERDE para guardar como Favorito 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• Aceptar para seleccionar ciudad\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ROJO para abrir el teclado de búsqueda\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Utilice las teclas de flecha para navegar\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- para saltar 100 ciudades\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• AMARILLO para guardar como Favorito 2\n"
+
+msgid "← Frame"
+msgstr "← Marco"
 
 msgid "0 - Today"
 msgstr "0 - Hoy"
@@ -42,37 +67,20 @@ msgstr "6 - Hoy + 6 días"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hoy + 7 días"
 
+msgid "7 Day Forecast"
+msgstr "Pronóstico de 7 días"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Hoy + 8 días"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hoy + 9 días"
 
-msgid "API credentials not configured."
-msgstr "Credenciales de API no configuradas."
-
-msgid "API error"
-msgstr "Error de API"
-
-#, fuzzy
-msgid "API password"
-msgstr "Error de API"
-
-#, fuzzy
-msgid "API user"
-msgstr "Error de API"
-
-msgid "AQI {}"
-msgstr "ICA {}"
-
-msgid "AQI: N/A"
-msgstr "ICA: N/D"
-
 msgid "Advanced"
 msgstr "Avanzado"
 
 msgid "Advanced Unit Settings"
-msgstr "Configuración avanzada de unidades"
+msgstr "Configuración avanzada de la unidad"
 
 msgid "Afternoon"
 msgstr "Tarde"
@@ -80,19 +88,38 @@ msgstr "Tarde"
 msgid "Age since New Moon: {:.1f} days"
 msgstr "Edad desde Luna Nueva: {:.1f} días"
 
-#, fuzzy
 msgid "Age: N/A"
-msgstr "ICA: N/D"
+msgstr "Edad: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diámetro angular: {:.0f}″"
 
 msgid "Angular diameter: N/A"
 msgstr "Diámetro angular: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Diámetro angular: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "¡No se encontró el archivo de configuración API!\n\nCree el archivo:\n{0}\n\ncon sus credenciales API de Foreca."
+
+msgid "API credentials not configured."
+msgstr "Credenciales de API no configuradas."
+
+msgid "API error"
+msgstr "Error de API"
+
+msgid "API password"
+msgstr "Contraseña API"
+
+msgid "API user"
+msgstr "usuario API"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Magnitud aparente: {:.2f}"
+
+msgid "AQI {}"
+msgstr "ICA {}"
+
+msgid "AQI: N/A"
+msgstr "ICA: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Asignar a Favorito 1"
@@ -101,7 +128,7 @@ msgid "Assign to Favorite 2"
 msgstr "Asignar a Favorito 2"
 
 msgid "Assign to Home"
-msgstr "Asignar como Inicio"
+msgstr "Asignar a casa"
 
 msgid "Australia"
 msgstr "Australia"
@@ -125,27 +152,28 @@ msgid "Belgium"
 msgstr "Bélgica"
 
 msgid "Berlin"
-msgstr "Berlín"
+msgstr "Berlina"
 
-#, fuzzy
 msgid "Black Moon"
-msgstr "Luna llena"
+msgstr "luna negra"
+
+msgid "Blue"
+msgstr "Azul"
 
 msgid "Blue - Home"
 msgstr "Azul - Inicio"
 
-#, fuzzy
 msgid "Blue Moon"
-msgstr "Luna nueva"
+msgstr "luna azul"
 
 msgid "Brandenburg"
 msgstr "Brandeburgo"
 
 msgid "Bremen"
-msgstr "Bremen"
+msgstr "Brema"
 
 msgid "Calculating..."
-msgstr "Calculando..."
+msgstr "Calculador..."
 
 msgid "Cancel"
 msgstr "Cancelar"
@@ -157,19 +185,22 @@ msgid "Changelog: {changelog}"
 msgstr "Registro de cambios: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr "Los cambios se aplican inmediatamente"
+msgstr "Los cambios se aplican inmediatamente."
 
 msgid "Check for updates"
 msgstr "Buscar actualizaciones"
 
 msgid "Choose detail view"
-msgstr "Elegir vista detallada"
+msgstr "Elija vista detallada"
+
+msgid "City list file not found!"
+msgstr "¡No se encontró el archivo de lista de ciudades!"
 
 msgid "City Selection"
 msgstr "Selección de ciudad"
 
-msgid "City list file not found!"
-msgstr "¡No se encontró el archivo de lista de ciudades!"
+msgid "City Selection Help:\n\n"
+msgstr "Ayuda para la selección de ciudad:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "¿Limpiar archivos temporales de Foreca One?"
@@ -178,10 +209,10 @@ msgid "Cleanup temp files"
 msgstr "Limpiar archivos temporales"
 
 msgid "Clear"
-msgstr "Despejado"
+msgstr "Claro"
 
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Cerca"
 
 msgid "Close legend"
 msgstr "Cerrar leyenda"
@@ -199,7 +230,7 @@ msgid "Cloudy and light snow"
 msgstr "Nublado y nieve ligera"
 
 msgid "Cloudy and light wet snow"
-msgstr "Nublado y aguanieve ligera"
+msgstr "Nublado y nieve ligeramente húmeda"
 
 msgid "Cloudy and showers"
 msgstr "Nublado y chubascos"
@@ -208,7 +239,7 @@ msgid "Cloudy and snow showers"
 msgstr "Nublado y chubascos de nieve"
 
 msgid "Cloudy and wet snow showers"
-msgstr "Nublado y chubascos de aguanieve"
+msgstr "Chubascos de nieve nublados y húmedos"
 
 msgid "Cloudy, thunderstorms with rain"
 msgstr "Nublado, tormentas con lluvia"
@@ -216,50 +247,53 @@ msgstr "Nublado, tormentas con lluvia"
 msgid "Cold (< 0°C)"
 msgstr "Frío (< 0°C)"
 
-msgid "Color Legend"
-msgstr "Leyenda de colores"
-
-msgid "Color Selector"
-msgstr "Selector de color"
-
 msgid "Color data"
 msgstr "Datos de color"
 
 msgid "Color legend"
+msgstr "Leyenda de color"
+
+msgid "Color Legend"
 msgstr "Leyenda de colores"
 
 msgid "Color name"
 msgstr "Nombre del color"
 
 msgid "Color select"
-msgstr "Selección de color"
+msgstr "Seleccionar color"
+
+msgid "Color Selector"
+msgstr "Selector de colores"
 
 msgid "Condition: {}"
 msgstr "Condición: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Configurar las credenciales de la API de Foreca"
 
 msgid "Continents Weather Maps"
 msgstr "Mapas meteorológicos de continentes"
 
 msgid "Cool (0-10°C)"
-msgstr "Fresco (0-10°C)"
+msgstr "Frío (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr "No se pudo obtener información de actualización."
+msgstr "No se pudo recuperar la información de actualización."
 
 msgid "Could not initialize map API."
-msgstr "No se pudo inicializar la API de mapas."
+msgstr "No se pudo inicializar la API del mapa."
 
 msgid "Could not load forecast data"
-msgstr "No se pudieron cargar los datos del pronóstico"
+msgstr "No se pudieron cargar los datos de pronóstico"
 
 msgid "Could not parse version information."
-msgstr "No se pudo analizar la información de versión."
+msgstr "No se pudo analizar la información de la versión."
 
 msgid "Current weather and forecast"
-msgstr "Clima actual y pronóstico"
+msgstr "Tiempo actual y pronóstico"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr "Clima actual y pronóstico para los próximos 10 días"
+msgstr "Tiempo actual y previsión para los próximos 10 días."
 
 msgid "Current: {}"
 msgstr "Actual: {}"
@@ -277,7 +311,7 @@ msgid "Day"
 msgstr "Día"
 
 msgid "Decrease Speed"
-msgstr "Reducir velocidad"
+msgstr "Disminuir velocidad"
 
 msgid "Defaults"
 msgstr "Valores predeterminados"
@@ -301,23 +335,25 @@ msgid "Dewpoint: %s°C"
 msgstr "Punto de rocío: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr "Punto de rocío: N/D"
+msgstr "Punto de rocío: N/A"
+
+msgid "Distance"
+msgstr "Distancia"
 
 msgid "Distance {} km"
-msgstr "Distancia {} km"
-
-msgid "Distance: %s"
-msgstr "Distancia: %s"
+msgstr "Distancia {} kilómetros"
 
 msgid "Distance: {}"
 msgstr "Distancia: {}"
 
-#, fuzzy
 msgid "Distance: {} km"
-msgstr "Distancia {} km"
+msgstr "Distancia: {} kilómetros"
+
+msgid "Distance: %s"
+msgstr "Distancia: %s"
 
 msgid "Do you want to install it now?"
-msgstr "¿Quiere instalarlo ahora?"
+msgstr "¿Quieres instalarlo ahora?"
 
 msgid "Down"
 msgstr "Abajo"
@@ -335,7 +371,7 @@ msgid "Downloading tiles..."
 msgstr "Descargando mosaicos..."
 
 msgid "E"
-msgstr "E"
+msgstr "mi"
 
 msgid "East Asia"
 msgstr "Asia Oriental"
@@ -347,7 +383,7 @@ msgid "Error loading data"
 msgstr "Error al cargar datos"
 
 msgid "Error loading map"
-msgstr "Error al cargar mapa"
+msgstr "Error al cargar el mapa"
 
 msgid "Error loading maps. Check connection."
 msgstr "Error al cargar mapas. Verifique la conexión."
@@ -365,22 +401,25 @@ msgid "Evening"
 msgstr "Noche"
 
 msgid "Exit"
-msgstr "Salir"
+msgstr "Salida"
 
 msgid "Exit - End"
 msgstr "Salir - Fin"
 
 msgid "Exit / Close legend"
-msgstr "Salir / Cerrar leyenda"
+msgstr "Salir/Cerrar leyenda"
 
 msgid "Extreme"
 msgstr "Extremo"
 
 msgid "Extreme / thunderstorms"
-msgstr "Extremo / tormentas"
+msgstr "Extremo / tormentas eléctricas"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "No se pudo escribir el archivo de configuración:\n%s"
 
 msgid "Faster: {}s"
 msgstr "Más rápido: {}s"
@@ -391,51 +430,47 @@ msgstr "Favorito 1"
 msgid "Favorite 2"
 msgstr "Favorito 2"
 
-msgid "Favorites Details"
-msgstr "Detalles de favoritos"
-
 msgid "Favorites details"
 msgstr "Detalles de favoritos"
 
+msgid "Favorites Details"
+msgstr "Detalles de favoritos"
+
 msgid "Feels like"
-msgstr "Sensación térmica"
+msgstr "se siente como"
 
 msgid "Feels like {}"
-msgstr "Sensación térmica {}"
+msgstr "Se siente como {}"
 
 msgid "Feels like {}{}"
-msgstr "Sensación térmica {}{}"
-
-msgid "Feels like: %d%s"
-msgstr "Sensación térmica: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Sensación térmica: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Sensación térmica: N/D"
+msgstr "Se siente como {}{}"
 
 msgid "Feels like: {}"
-msgstr "Sensación térmica: {}"
+msgstr "Se siente como: {}"
 
 msgid "Feels like: {}{}"
-msgstr "Sensación térmica: {}{}"
+msgstr "Se siente como: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr "Sensación térmica: {}°C"
+msgstr "Sensación como: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Se siente como: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Sensación como: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Se siente como: N/A"
 
 msgid "Finland"
 msgstr "Finlandia"
 
 msgid "First Quarter"
-msgstr "Cuarto creciente"
+msgstr "Primer trimestre"
 
 msgid "Fog"
 msgstr "Niebla"
-
-#, fuzzy
-msgid "Foreca API Setup"
-msgstr "Menú de Foreca One"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Las credenciales de la API de Foreca aún no están configuradas. Introdúzcalos en la pantalla de configuración."
@@ -443,35 +478,35 @@ msgstr "Las credenciales de la API de Foreca aún no están configuradas. Introd
 msgid "Foreca API settings saved successfully."
 msgstr "La configuración de la API de Foreca se guardó correctamente."
 
+msgid "Foreca API Setup"
+msgstr "Configuración de la API de Foreca"
+
 msgid "Foreca One"
-msgstr "Foreca One"
+msgstr "Foreca uno"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca Uno | Mapa {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Mapas en vivo de Foreca One (API)"
 
 msgid "Foreca One Menu"
-msgstr "Menú de Foreca One"
+msgstr "Menú Foreca One"
 
 msgid "Foreca One No stations found"
-msgstr "Foreca One: No se encontraron estaciones"
+msgstr "Foreca One No se encontraron estaciones"
+
+msgid "Foreca One Setup"
+msgstr "Configuración de Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Estaciones de Foreca One: {} estaciones cercanas ({})"
 
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
 msgid "Foreca One Weather Forecast"
 msgstr "Pronóstico del tiempo de Foreca One"
-
-msgid "Foreca One Weather and Forecast ver. %s"
-msgstr "Clima y pronóstico de Foreca One versión %s"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Mapa {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "Se encontraron %d ciudades localmente para '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "Se encontraron %d ciudades en línea para '%s'"
 
 msgid "Frame →"
 msgstr "Marco →"
@@ -486,10 +521,10 @@ msgid "Full Moon"
 msgstr "Luna llena"
 
 msgid "Gale force (>60 km/h)"
-msgstr "Ventarrón (>60 km/h)"
+msgstr "Fuerza del vendaval (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr "Mapas meteorológicos de estados alemanes"
+msgstr "Mapas meteorológicos de los estados alemanes"
 
 msgid "Germany"
 msgstr "Alemania"
@@ -502,6 +537,9 @@ msgstr "Gran Bretaña"
 
 msgid "Greece"
 msgstr "Grecia"
+
+msgid "Green"
+msgstr "Verde"
 
 msgid "Green - Favorite 1"
 msgstr "Verde - Favorito 1"
@@ -522,7 +560,7 @@ msgid "Header - not selectable"
 msgstr "Encabezado - no seleccionable"
 
 msgid "Heavy rain"
-msgstr "Lluvia intensa"
+msgstr "Lluvia Pesada"
 
 msgid "Help"
 msgstr "Ayuda"
@@ -534,22 +572,25 @@ msgid "High"
 msgstr "Alto"
 
 msgid "Home"
-msgstr "Inicio"
+msgstr "Hogar"
 
 msgid "Hot (30-40°C)"
-msgstr "Caluroso (30-40°C)"
+msgstr "Caliente (30-40°C)"
 
 msgid "Hour Details"
-msgstr "Detalles por hora"
+msgstr "Detalles de la hora"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Humidity"
 msgstr "Humedad"
 
-msgid "Humidity: %s%%"
-msgstr "Humedad: %s%%"
-
 msgid "Humidity: {}%"
 msgstr "Humedad: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Humedad: %s%%"
 
 msgid "Hungary"
 msgstr "Hungría"
@@ -560,15 +601,14 @@ msgstr "Hielo / escarcha"
 msgid "Illumination"
 msgstr "Iluminación"
 
-#, fuzzy
 msgid "Illumination: {:.1f}%"
-msgstr "Iluminación"
+msgstr "Iluminación: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
 msgstr "Imagen %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Imagen %(current)d/%(total)d – %(day)s (Pausada)"
+msgstr "Imagen %(current)d/%(total)d – %(day)s (en pausa)"
 
 msgid "Image not available"
 msgstr "Imagen no disponible"
@@ -577,7 +617,7 @@ msgid "Imperial System"
 msgstr "Sistema Imperial"
 
 msgid "Increase Speed"
-msgstr "Aumentar velocidad"
+msgstr "Aumentar la velocidad"
 
 msgid "Info"
 msgstr "Información"
@@ -592,22 +632,25 @@ msgid "Italy"
 msgstr "Italia"
 
 msgid "Jump 100 down"
-msgstr "Saltar 100 abajo"
+msgstr "Salta 100 hacia abajo"
 
 msgid "Jump 100 up"
-msgstr "Saltar 100 arriba"
+msgstr "Salta 100 arriba"
 
 msgid "Jump 500 down"
-msgstr "Saltar 500 abajo"
+msgstr "Salta 500 hacia abajo"
 
 msgid "Jump 500 up"
-msgstr "Saltar 500 arriba"
+msgstr "Salta 500 arriba"
 
 msgid "Keyboard"
 msgstr "Teclado"
 
 msgid "Last Quarter"
-msgstr "Cuarto menguante"
+msgstr "Último trimestre"
+
+msgid "Last update"
+msgstr "Última actualización"
 
 msgid "Latvia"
 msgstr "Letonia"
@@ -640,7 +683,7 @@ msgid "Loading tiles..."
 msgstr "Cargando mosaicos..."
 
 msgid "Loading weekly forecast..."
-msgstr "Cargando pronóstico semanal..."
+msgstr "Cargando previsión semanal..."
 
 msgid "Loading..."
 msgstr "Cargando..."
@@ -655,14 +698,16 @@ msgid "Lunar Calendar"
 msgstr "Calendario lunar"
 
 msgid "Lunar phases from next month"
-msgstr "Fases lunares desde el próximo mes"
+msgstr "Fases lunares del próximo mes."
 
 msgid "Luxembourg"
 msgstr "Luxemburgo"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Magnitud aparente: N/A"
+msgstr "Magnitud: N/A"
+
+msgid "Map {} selected"
+msgstr "Mapa {} seleccionado"
 
 msgid "Map & Tiles Loaded"
 msgstr "Mapa y mosaicos cargados"
@@ -672,9 +717,6 @@ msgstr "Mapa cargado"
 
 msgid "Map server"
 msgstr "Servidor de mapas"
-
-msgid "Map {} selected"
-msgstr "Mapa {} seleccionado"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklemburgo-Pomerania Occidental"
@@ -686,25 +728,25 @@ msgid "Menu - Settings"
 msgstr "Menú - Configuración"
 
 msgid "Merge failed"
-msgstr "Fallo al fusionar"
+msgstr "Fusión fallida"
 
 msgid "Meteogram"
 msgstr "Meteograma"
 
 msgid "Metric System"
-msgstr "Sistema Métrico"
+msgstr "Sistema métrico"
 
 msgid "Middle America"
-msgstr "América Central"
+msgstr "América media"
 
 msgid "Middle Asia"
-msgstr "Asia Central"
+msgstr "Asia media"
 
 msgid "Middle East"
 msgstr "Oriente Medio"
 
 msgid "Mild (10-20°C)"
-msgstr "Templado (10-20°C)"
+msgstr "Suave (10-20°C)"
 
 msgid "Moderate"
 msgstr "Moderado"
@@ -718,13 +760,11 @@ msgstr "Lluvia moderada"
 msgid "Month"
 msgstr "Mes"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "Detalles por hora"
-
-#, fuzzy
 msgid "Moon details"
-msgstr "Detalles por hora"
+msgstr "Detalles de la luna"
+
+msgid "Moon Details"
+msgstr "Detalles de la luna"
 
 msgid "Moonrise: {}"
 msgstr "Salida de la luna: {}"
@@ -736,25 +776,25 @@ msgid "Morning"
 msgstr "Mañana"
 
 msgid "Mostly clear"
-msgstr "Mayormente despejado"
-
-msgid "Move Down"
-msgstr "Mover abajo"
-
-msgid "Move Up"
-msgstr "Mover arriba"
+msgstr "Mayormente claro"
 
 msgid "Move down"
-msgstr "Mover abajo"
+msgstr "Bajar"
+
+msgid "Move Down"
+msgstr "Mover hacia abajo"
 
 msgid "Move up"
-msgstr "Mover arriba"
+msgstr "Subir"
+
+msgid "Move Up"
+msgstr "Subir"
 
 msgid "N"
-msgstr "N"
+msgstr "norte"
 
 msgid "N/A"
-msgstr "N/D"
+msgstr "N / A"
 
 msgid "Netherlands"
 msgstr "Países Bajos"
@@ -763,31 +803,22 @@ msgid "New Moon"
 msgstr "Luna nueva"
 
 msgid "New version {version} is available."
-msgstr "Nueva versión {version} disponible."
+msgstr "La nueva versión {version} está disponible."
 
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Próximo"
+
+msgid "Next frame"
+msgstr "Siguiente fotograma"
 
 msgid "Next Image"
 msgstr "Imagen siguiente"
-
-msgid "Next frame"
-msgstr "Marco siguiente"
 
 msgid "Next page"
 msgstr "Página siguiente"
 
 msgid "Next time"
-msgstr "Próxima vez"
-
-msgid "No Internet connection detected."
-msgstr "No se detectó conexión a Internet."
-
-msgid "No OSM tiles"
-msgstr "No hay mosaicos OSM"
-
-msgid "No cities found locally for '%s'"
-msgstr "No se encontraron ciudades localmente para '%s'"
+msgstr "La próxima vez"
 
 msgid "No city selected"
 msgstr "Ninguna ciudad seleccionada"
@@ -798,8 +829,14 @@ msgstr "Sin datos"
 msgid "No date available"
 msgstr "No hay fecha disponible"
 
+msgid "No Internet connection detected."
+msgstr "No se detectó ninguna conexión a Internet."
+
 msgid "No location selected"
 msgstr "Ninguna ubicación seleccionada"
+
+msgid "No OSM tiles"
+msgstr "Sin mosaicos OSM"
 
 msgid "No specific legend available."
 msgstr "No hay leyenda específica disponible."
@@ -820,7 +857,7 @@ msgid "North Africa"
 msgstr "África del Norte"
 
 msgid "North America"
-msgstr "América del Norte"
+msgstr "América del norte"
 
 msgid "North Rhine-Westphalia"
 msgstr "Renania del Norte-Westfalia"
@@ -828,18 +865,17 @@ msgstr "Renania del Norte-Westfalia"
 msgid "Norway"
 msgstr "Noruega"
 
+msgid "Ok - Details"
+msgstr "Ok - Detalles"
+
 msgid "OK - Ext Info"
-msgstr "OK - Información adicional"
+msgstr "Aceptar - Información externa"
 
 msgid "OK - Forecast"
 msgstr "OK - Pronóstico"
 
 msgid "OK - Open Map"
-msgstr "OK - Abrir mapa"
-
-#, fuzzy
-msgid "Ok - Details"
-msgstr "Detalles"
+msgstr "Aceptar - Abrir mapa"
 
 msgid "Open Keyboard"
 msgstr "Abrir teclado"
@@ -848,67 +884,67 @@ msgid "Open Map"
 msgstr "Abrir mapa"
 
 msgid "Original design and idea by %s"
-msgstr "Diseño original e idea por %s"
+msgstr "Diseño e idea originales de %s."
 
 msgid "Overcast"
-msgstr "Cubierto"
+msgstr "Nublado"
 
 msgid "Overcast and light rain"
-msgstr "Cubierto y lluvia ligera"
+msgstr "Nublado y lluvia ligera"
 
 msgid "Overcast and light snow"
-msgstr "Cubierto y nieve ligera"
+msgstr "Nublado y nieve ligera"
 
 msgid "Overcast and light wet snow"
-msgstr "Cubierto y aguanieve ligera"
+msgstr "Nieve nublada y ligeramente húmeda"
 
 msgid "Overcast and rain"
-msgstr "Cubierto y lluvia"
+msgstr "Nublado y lluvioso"
 
 msgid "Overcast and showers"
-msgstr "Cubierto y chubascos"
+msgstr "Nublado y chubascos"
 
 msgid "Overcast and snow"
-msgstr "Cubierto y nieve"
+msgstr "Nublado y nevado"
 
 msgid "Overcast and snow showers"
-msgstr "Cubierto y chubascos de nieve"
+msgstr "Nublado y chubascos de nieve"
 
 msgid "Overcast and wet snow"
-msgstr "Cubierto y aguanieve"
+msgstr "Nieve nublada y mojada"
 
 msgid "Overcast and wet snow showers"
-msgstr "Cubierto y chubascos de aguanieve"
+msgstr "Chubascos de nieve nublados y húmedos"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr "Cubierto, tormentas con lluvia"
+msgstr "Nublado, tormentas con lluvia"
 
 msgid "Overnight"
 msgstr "Durante la noche"
 
-msgid "Page Down"
+msgid "Page down"
 msgstr "Página abajo"
 
-msgid "Page Up"
-msgstr "Página arriba"
-
-msgid "Page down"
+msgid "Page Down"
 msgstr "Página abajo"
 
 msgid "Page up"
 msgstr "Página arriba"
 
+msgid "Page Up"
+msgstr "Página arriba"
+
 msgid "Pan down"
-msgstr "Desplazar abajo"
+msgstr "Panorámica hacia abajo"
 
 msgid "Pan left"
-msgstr "Desplazar izquierda"
+msgstr "Panorámica hacia la izquierda"
 
 msgid "Pan right"
-msgstr "Desplazar derecha"
+msgstr "Panorámica hacia la derecha"
 
 msgid "Pan up"
-msgstr "Desplazar arriba"
+msgstr "Panorámica"
 
 msgid "Partly cloudy"
 msgstr "Parcialmente nublado"
@@ -920,7 +956,7 @@ msgid "Partly cloudy and light snow"
 msgstr "Parcialmente nublado y nieve ligera"
 
 msgid "Partly cloudy and light wet snow"
-msgstr "Parcialmente nublado y aguanieve ligera"
+msgstr "Parcialmente nublado y nieve ligera y húmeda"
 
 msgid "Partly cloudy and showers"
 msgstr "Parcialmente nublado y chubascos"
@@ -929,7 +965,7 @@ msgid "Partly cloudy and snow showers"
 msgstr "Parcialmente nublado y chubascos de nieve"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr "Parcialmente nublado y chubascos de aguanieve"
+msgstr "Parcialmente nublado y chubascos de nieve húmedos"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Parcialmente nublado, posibles tormentas con lluvia"
@@ -940,18 +976,17 @@ msgstr "Perigeo"
 msgid "Phase"
 msgstr "Fase"
 
-#, fuzzy
 msgid "Phase: {}"
-msgstr "Fase"
+msgstr "Fase: {}"
 
 msgid "Play/Pause"
-msgstr "Reproducir/Pausa"
+msgstr "Reproducir/Pausar"
 
 msgid "Please enter both API user and API password."
 msgstr "Ingrese el usuario de API y la contraseña de API."
 
 msgid "Please wait ..."
-msgstr "Por favor, espere ..."
+msgstr "Espere por favor ..."
 
 msgid "Poland"
 msgstr "Polonia"
@@ -972,10 +1007,16 @@ msgid "Precipitations: {}%"
 msgstr "Precipitaciones: {}%"
 
 msgid "Press RED to search again"
-msgstr "Presione ROJO para buscar de nuevo"
+msgstr "Presione ROJO para buscar nuevamente"
 
 msgid "Pressure"
 msgstr "Presión"
+
+msgid "Pressure: {}"
+msgstr "Presión: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Presión: {} hPa"
 
 msgid "Pressure: %s"
 msgstr "Presión: %s"
@@ -984,40 +1025,34 @@ msgid "Pressure: %s hPa"
 msgstr "Presión: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr "Presión: N/D"
-
-msgid "Pressure: {}"
-msgstr "Presión: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Presión: {} hPa"
+msgstr "Presión: N/A"
 
 msgid "Prev"
-msgstr "Ant"
+msgstr "Anterior"
 
 msgid "Previous"
 msgstr "Anterior"
 
-msgid "Previous Image"
-msgstr "Imagen anterior"
-
 msgid "Previous frame"
-msgstr "Marco anterior"
+msgstr "Fotograma anterior"
+
+msgid "Previous Image"
+msgstr "Imagen Anterior"
 
 msgid "Previous page"
-msgstr "Página anterior"
+msgstr "Pagina anterior"
 
 msgid "Previous time"
-msgstr "Tiempo anterior"
+msgstr "tiempo anterior"
 
 msgid "Rain Prob."
-msgstr "Prob. lluvia."
+msgstr "Problema de lluvia."
 
 msgid "Rain prob. {}%"
-msgstr "Probabilidad de lluvia {}%"
+msgstr "Problema de lluvia. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr "Prob. lluvia: N/D"
+msgstr "Prob. lluvia: N/A"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Lluvia: {:.1f} {}"
@@ -1025,11 +1060,14 @@ msgstr "Lluvia: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
 
+msgid "Red"
+msgstr "Rojo"
+
 msgid "Red - Color select"
 msgstr "Rojo - Selección de color"
 
 msgid "Refresh"
-msgstr "Actualizar"
+msgstr "Refrescar"
 
 msgid "Restore default server values"
 msgstr "Restaurar los valores predeterminados del servidor"
@@ -1038,19 +1076,19 @@ msgid "Rhineland-Palatine"
 msgstr "Renania-Palatinado"
 
 msgid "Right - Next day"
-msgstr "Derecha - Día siguiente"
+msgstr "Derecha - Al día siguiente"
 
 msgid "Right arrow - Next day"
 msgstr "Flecha derecha - Día siguiente"
 
 msgid "Rise"
-msgstr "Salida"
-
-msgid "Rise azimuth: N/A"
-msgstr "Azimut de subida: N/A"
+msgstr "Elevar"
 
 msgid "Rise azimuth: {:.0f}°"
 msgstr "Azimut de subida: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Azimut de subida: N/A"
 
 msgid "Russia"
 msgstr "Rusia"
@@ -1062,17 +1100,19 @@ msgid "Saarland"
 msgstr "Sarre"
 
 msgid "Satellite Photos"
-msgstr "Fotos satelitales"
+msgstr "Fotos de satélite"
 
 msgid "Satellite photos coming soon!"
 msgstr "¡Fotos satelitales próximamente!"
 
 msgid "Save"
-msgstr "Guardar"
+msgstr "Ahorrar"
 
-#, fuzzy
 msgid "Save API settings"
-msgstr "Menú - Configuración"
+msgstr "Guardar configuración de API"
+
+msgid "Save translation settings"
+msgstr "Guardar configuración de traducción"
 
 msgid "Saxony"
 msgstr "Sajonia"
@@ -1084,55 +1124,52 @@ msgid "Schleswig-Holstein"
 msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
-msgstr "Extraído"
+msgstr "raspado"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr "La búsqueda primero intenta en línea, si falla usa la lista local."
+msgstr "La búsqueda primero se intenta en línea; si falla, se utiliza la lista local."
 
 msgid "Search your City"
-msgstr "Busque su ciudad"
-
-msgid "Searching for '%s'..."
-msgstr "Buscando '%s'..."
+msgstr "Busca tu ciudad"
 
 msgid "Select"
 msgstr "Seleccionar"
 
-msgid "Select Region"
-msgstr "Seleccionar región"
+msgid "Select {} unit"
+msgstr "Seleccione {} unidad"
 
 msgid "Select a city"
-msgstr "Seleccione una ciudad"
+msgstr "Selecciona una ciudad"
 
 msgid "Select a map with OK"
 msgstr "Seleccione un mapa con OK"
 
+msgid "Select Region"
+msgstr "Seleccionar Región"
+
 msgid "Select unit system"
-msgstr "Seleccione sistema de unidades"
+msgstr "Seleccionar sistema de unidad"
 
 msgid "Select wind unit"
-msgstr "Seleccione unidad de viento"
-
-msgid "Select {} unit"
-msgstr "Seleccione unidad de {}"
+msgstr "Seleccionar unidad de viento"
 
 msgid "Selected hour details"
 msgstr "Detalles de la hora seleccionada"
 
-msgid "Set azimuth: N/A"
-msgstr "Establecer azimut: N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "Establecer azimut: {:.0f}°"
 
+msgid "Set azimuth: N/A"
+msgstr "Establecer azimut: N/A"
+
 msgid "Sets"
-msgstr "Puesta"
+msgstr "Conjuntos"
 
 msgid "Show info"
 msgstr "Mostrar información"
 
 msgid "Showers"
-msgstr "Chubascos"
+msgstr "Duchas"
 
 msgid "Slovakia"
 msgstr "Eslovaquia"
@@ -1141,19 +1178,19 @@ msgid "Slower: {}s"
 msgstr "Más lento: {}s"
 
 msgid "Snow / ice"
-msgstr "Nieve / hielo"
+msgstr "Nieve/hielo"
 
 msgid "Snow prob. {}%"
-msgstr "Probabilidad de nieve {}%"
+msgstr "Problema de nieve. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr "Prob. nieve: N/D"
+msgstr "Prob. nieve: N/A"
 
 msgid "South Africa"
 msgstr "Sudáfrica"
 
 msgid "South America"
-msgstr "América del Sur"
+msgstr "Sudamerica"
 
 msgid "Southeast Asia"
 msgstr "Sudeste Asiático"
@@ -1162,7 +1199,7 @@ msgid "Spain"
 msgstr "España"
 
 msgid "Station Observations"
-msgstr "Observaciones de estación"
+msgstr "Observaciones de la estación"
 
 msgid "Station: {}"
 msgstr "Estación: {}"
@@ -1176,9 +1213,8 @@ msgstr "Amanecer"
 msgid "Sunset"
 msgstr "Atardecer"
 
-#, fuzzy
 msgid "Super Full Moon"
-msgstr "Luna llena"
+msgstr "Súper luna llena"
 
 msgid "Sweden"
 msgstr "Suecia"
@@ -1186,20 +1222,14 @@ msgstr "Suecia"
 msgid "Switzerland"
 msgstr "Suiza"
 
+msgid "Target Language"
+msgstr "Lengua de llegada"
+
 msgid "Temp"
-msgstr "Temp"
+msgstr "Temperatura"
 
 msgid "Temperature"
 msgstr "Temperatura"
-
-msgid "Temperature: %d%s"
-msgstr "Temperatura: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Temperatura: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Temperatura: N/D"
 
 msgid "Temperature: {}"
 msgstr "Temperatura: {}"
@@ -1210,21 +1240,29 @@ msgstr "Temperatura: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Temperatura: {}°C"
 
-#, fuzzy
+msgid "Temperature: %d%s"
+msgstr "Temperatura: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatura: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatura: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Gracias a {thanks} y otros amigos por sugerencias y pruebas"
+msgstr "Gracias {thanks} y otros amigos por sus sugerencias."
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "La versión remota ({remote}) es más antigua que la actual ({current})."
+msgstr "La versión remota ({remote}) es anterior a la actual ({current})."
 
 msgid "Thin upper cloud"
-msgstr "Nubes altas delgadas"
+msgstr "Nube superior delgada"
 
 msgid "Thuringia"
 msgstr "Turingia"
 
 msgid "Time"
-msgstr "Hora"
+msgstr "Tiempo"
 
 msgid "Today"
 msgstr "Hoy"
@@ -1250,23 +1288,20 @@ msgstr "Mañana"
 msgid "Transit (culmination): {}"
 msgstr "Tránsito (culminación): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "Altitud de tránsito: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "Altitud de tránsito: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "Configuración de transparencia"
+msgid "Transit altitude: N/A"
+msgstr "Altitud de tránsito: N/A"
+
+msgid "Translation Settings"
+msgstr "Configuración de traducción"
 
 msgid "Transparency level"
 msgstr "Nivel de transparencia"
 
-msgid "UV Index"
-msgstr "Índice UV"
-
-msgid "UV N/A"
-msgstr "UV: N/D"
+msgid "Transparency Settings"
+msgstr "Configuración de transparencia"
 
 msgid "Unhealthy"
 msgstr "Malsano"
@@ -1275,13 +1310,13 @@ msgid "Unhealthy for sensitives"
 msgstr "No saludable para los sensibles"
 
 msgid "Unit Settings"
-msgstr "Configuración de unidades"
+msgstr "Configuración de la unidad"
 
 msgid "Unit Settings (Advanced)"
-msgstr "Configuración de unidades (Avanzado)"
+msgstr "Configuración de la unidad (avanzada)"
 
 msgid "Unit Settings (Simple)"
-msgstr "Configuración de unidades (Simple)"
+msgstr "Configuración de la unidad (simple)"
 
 msgid "Unknown"
 msgstr "Desconocido"
@@ -1296,62 +1331,76 @@ msgid "Update canceled."
 msgstr "Actualización cancelada."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr "Actualización completada. Por favor, reinicie Enigma2."
+msgstr "Actualización completada. Reinicie Enigma2."
 
 msgid "Updated {}"
 msgstr "Actualizado {}"
 
-msgid "Updated: N/A"
-msgstr "Actualizado: N/D"
-
 msgid "Updated: {}"
 msgstr "Actualizado: {}"
+
+msgid "Updated: N/A"
+msgstr "Actualizado: N/A"
 
 msgid "Updating..."
 msgstr "Actualizando..."
 
-msgid "Use arrow keys to scroll"
-msgstr "Use las teclas de flecha para desplazarse"
-
 msgid "Use ← → to change time | OK to exit"
-msgstr "Use ← → para cambiar hora | OK para salir"
+msgstr "Utilice ← → para cambiar la hora | Aceptar para salir"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr "Use ←/→/↑/↓ para moverse | OK para salir"
+msgstr "Utilice ←/→/ ↑/↓ para mover | Aceptar para salir"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr "Use ▲/▼ para cambiar, OK para seleccionar"
+msgstr "Utilice ▲/▼ para cambiar, OK para seleccionar"
+
+msgid "Use arrow keys to scroll"
+msgstr "Utilice las teclas de flecha para desplazarse"
+
+msgid "Use Google Translate"
+msgstr "Utilice el Traductor de Google"
 
 msgid "Using current time"
-msgstr "Usando hora actual"
+msgstr "Usando la hora actual"
+
+msgid "UV"
+msgstr "ultravioleta"
+
+msgid "UV Index"
+msgstr "Índice UV"
+
+msgid "UV N/A"
+msgstr "UVN/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
-msgstr "Lluvia muy intensa"
+msgstr "lluvia muy fuerte"
 
 msgid "Very high"
-msgstr "Muy alto"
+msgstr "muy alto"
 
 msgid "Very hot (>40°C)"
-msgstr "Muy caluroso (>40°C)"
+msgstr "Mucho calor (>40°C)"
 
 msgid "Very low"
-msgstr "Muy bajo"
+msgstr "muy bajo"
 
-#, fuzzy
 msgid "Very unhealthy"
-msgstr "Lluvia muy intensa"
-
-msgid "Visibility: %s m"
-msgstr "Visibilidad: %s m"
+msgstr "muy poco saludable"
 
 msgid "Visibility: {} m"
 msgstr "Visibilidad: {} m"
 
+msgid "Visibility: %s m"
+msgstr "Visibilidad: %s m"
+
 msgid "W"
-msgstr "O"
+msgstr "W."
 
 msgid "Waning Crescent"
-msgstr "Menguante"
+msgstr "Media Luna Menguante"
 
 msgid "Waning Gibbous"
 msgstr "Gibosa menguante"
@@ -1360,7 +1409,7 @@ msgid "Warm (20-30°C)"
 msgstr "Cálido (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr "Creciente"
+msgstr "Media luna creciente"
 
 msgid "Waxing Gibbous"
 msgstr "Gibosa creciente"
@@ -1374,38 +1423,38 @@ msgstr "Mapa del tiempo"
 msgid "Weather Maps"
 msgstr "Mapas meteorológicos"
 
+msgid "Weather Maps (Wetterkontor)"
+msgstr "Mapas de tiempo (Wetterkontor)"
+
 msgid "Weather Maps & Satellite"
 msgstr "Mapas meteorológicos y satélite"
 
-msgid "Weather Maps (Wetterkontor)"
-msgstr "Mapas meteorológicos (Wetterkontor)"
-
 msgid "Weather Maps Slideshow"
-msgstr "Presentación de mapas meteorológicos"
+msgstr "Presentación de diapositivas de mapas meteorológicos"
 
 msgid "Weather Radar"
 msgstr "Radar meteorológico"
 
 msgid "Weather today"
-msgstr "Clima hoy"
+msgstr "El tiempo hoy"
 
 msgid "Weather tomorrow"
-msgstr "Clima mañana"
+msgstr "El tiempo mañana"
 
 msgid "Weekly Forecast"
-msgstr "Pronóstico semanal"
+msgstr "Pronóstico Semanal"
 
 msgid "Wind"
 msgstr "Viento"
+
+msgid "Wind direction"
+msgstr "Dirección del viento"
 
 msgid "Wind Direction today"
 msgstr "Dirección del viento hoy"
 
 msgid "Wind Direction tomorrow"
 msgstr "Dirección del viento mañana"
-
-msgid "Wind direction"
-msgstr "Dirección del viento"
 
 msgid "Wind speed"
 msgstr "Velocidad del viento"
@@ -1416,6 +1465,15 @@ msgstr "Velocidad del viento {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Velocidad del viento: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "Viento: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Viento: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Viento: {} km/h {}"
+
 msgid "Wind: %d %s %s"
 msgstr "Viento: %d %s %s"
 
@@ -1423,16 +1481,7 @@ msgid "Wind: %s km/h %s"
 msgstr "Viento: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr "Viento: N/D"
-
-msgid "Wind: {}"
-msgstr "Viento: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Viento: {} km/h {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Viento: {} {} {}"
+msgstr "Viento: N/A"
 
 msgid "Window transparency"
 msgstr "Transparencia de ventana"
@@ -1440,14 +1489,14 @@ msgstr "Transparencia de ventana"
 msgid "Yellow - Favorite 2"
 msgstr "Amarillo - Favorito 2"
 
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Ya tienes instalada la versión {version}.\n¿Quieres reinstalarla?"
+
 msgid "Zoom In"
-msgstr "Acercar"
+msgstr "Dar un golpe de zoom"
 
 msgid "Zoom Out"
 msgstr "Alejar"
-
-msgid "Zoom+"
-msgstr "Zoom+"
 
 msgid "Zoom-"
 msgstr "Zoom-"
@@ -1455,91 +1504,6 @@ msgstr "Zoom-"
 msgid "Zoom:"
 msgstr "Zoom:"
 
-msgid "v."
-msgstr "v."
+msgid "Zoom+"
+msgstr "Ampliar+"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• AZUL para guardar como Inicio\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- para saltar 500 ciudades\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• VERDE para guardar como Favorito 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK para seleccionar ciudad\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ROJO para abrir el teclado de búsqueda\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Use las teclas de flecha para navegar\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• AMARILLO para guardar como Favorito 2\n"
-
-msgid "← Frame"
-msgstr "← Marco"
-
-#, fuzzy
-#~ msgid "(Additional data not available)"
-#~ msgstr "No hay datos de estación disponibles"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== DETALLES DE LA LUNA ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Diámetro angular: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Magnitud aparente: N/A"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Menú de Foreca One"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Pronóstico de 7 días"
-
-#~ msgid "Blue"
-#~ msgstr "Azul"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Cobertura de nubes"
-
-#~ msgid "Distance"
-#~ msgstr "Distancia"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Imagen descargada"
-
-#~ msgid "Last update"
-#~ msgstr "Última actualización"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Rojo"
-
-#~ msgid "Snow"
-#~ msgstr "Nieve"
-
-#~ msgid "UV"
-#~ msgstr "UV"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Prueba de mapas Wetter.de"
-
-#~ msgid "Ok - Zone"
-#~ msgstr "Ok - Zona"

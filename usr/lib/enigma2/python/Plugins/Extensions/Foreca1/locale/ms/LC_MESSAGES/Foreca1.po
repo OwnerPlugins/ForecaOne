@@ -1,20 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ms translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ms <ekekaz@gmail.com>\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} j {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BIRU untuk disimpan sebagai Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- untuk melompat 500 bandar\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• HIJAU untuk disimpan sebagai 1\n Kegemaran\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK untuk memilih city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• MERAH untuk membuka papan kekunci carian\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Gunakan kekunci anak panah untuk menavigasi\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- untuk melompat 100 bandar\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• KUNING untuk disimpan sebagai 2\n Kegemaran\n"
+
+msgid "← Frame"
+msgstr "← Bingkai"
 
 msgid "0 - Today"
 msgstr "0 - Hari ini"
@@ -40,29 +67,14 @@ msgstr "6 - Hari ini + 6 hari"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hari ini + 7 hari"
 
+msgid "7 Day Forecast"
+msgstr "Ramalan 7 Hari"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Hari ini + 8 hari"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hari ini + 9 hari"
-
-msgid "API credentials not configured."
-msgstr "Bukti kelayakan API tidak dikonfigurasikan."
-
-msgid "API error"
-msgstr "Ralat API"
-
-msgid "API password"
-msgstr "Kata laluan API"
-
-msgid "API user"
-msgstr "pengguna API"
-
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr ""
 
 msgid "Advanced"
 msgstr "Maju"
@@ -79,18 +91,38 @@ msgstr "Umur sejak Bulan Baru: {:.1f} hari"
 msgid "Age: N/A"
 msgstr "Umur: T/A"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diameter sudut: {:.0f}″"
+
 msgid "Angular diameter: N/A"
 msgstr "Diameter sudut: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Diameter sudut: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Fail konfigurasi API tidak ditemui!\n\nSila buat fail:\n{0}\n\ndengan bukti kelayakan API Foreca anda."
+
+msgid "API credentials not configured."
+msgstr "Bukti kelayakan API tidak dikonfigurasikan."
+
+msgid "API error"
+msgstr "Ralat API"
+
+msgid "API password"
+msgstr "Kata laluan API"
+
+msgid "API user"
+msgstr "pengguna API"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Magnitud ketara: {:.2f}"
 
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
 msgid "Assign to Favorite 1"
-msgstr "Berikan kepada Kegemaran 1"
+msgstr "Tetapkan kepada Kegemaran 1"
 
 msgid "Assign to Favorite 2"
 msgstr "Berikan kepada Kegemaran 2"
@@ -99,31 +131,34 @@ msgid "Assign to Home"
 msgstr "Tugaskan ke Rumah"
 
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 msgid "Auth server"
 msgstr "Pelayan pengesahan"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Wuerttemberg"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Barometer"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Bavaria"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Belgium"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 msgid "Black Moon"
 msgstr "Bulan Hitam"
+
+msgid "Blue"
+msgstr "Biru"
 
 msgid "Blue - Home"
 msgstr "Biru - Rumah"
@@ -132,10 +167,10 @@ msgid "Blue Moon"
 msgstr "Bulan Biru"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburg"
 
 msgid "Bremen"
-msgstr ""
+msgstr "Bremen"
 
 msgid "Calculating..."
 msgstr "Mengira..."
@@ -147,7 +182,7 @@ msgid "Celsius, km/h, hPa"
 msgstr "Celsius, km/j, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Changelog: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "Perubahan berlaku serta-merta"
@@ -158,11 +193,14 @@ msgstr "Semak kemas kini"
 msgid "Choose detail view"
 msgstr "Pilih paparan terperinci"
 
+msgid "City list file not found!"
+msgstr "Fail senarai bandar tidak ditemui!"
+
 msgid "City Selection"
 msgstr "Pemilihan Bandar"
 
-msgid "City list file not found!"
-msgstr "Fail senarai bandar tidak ditemui!"
+msgid "City Selection Help:\n\n"
+msgstr "Bantuan Pemilihan Bandar:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Bersihkan Fail Foreca One Temp?"
@@ -209,17 +247,14 @@ msgstr "Mendung, ribut petir dengan hujan"
 msgid "Cold (< 0°C)"
 msgstr "Sejuk (< 0°C)"
 
-msgid "Color Legend"
-msgstr "Lagenda Warna"
-
-msgid "Color Selector"
-msgstr "Pemilih Warna"
-
 msgid "Color data"
 msgstr "Data warna"
 
 msgid "Color legend"
 msgstr "Legenda warna"
+
+msgid "Color Legend"
+msgstr "Lagenda Warna"
 
 msgid "Color name"
 msgstr "Nama warna"
@@ -227,8 +262,14 @@ msgstr "Nama warna"
 msgid "Color select"
 msgstr "Pilih warna"
 
+msgid "Color Selector"
+msgstr "Pemilih Warna"
+
 msgid "Condition: {}"
 msgstr "Keadaan: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfigurasikan bukti kelayakan API Foreca"
 
 msgid "Continents Weather Maps"
 msgstr "Peta Cuaca Benua"
@@ -276,13 +317,13 @@ msgid "Defaults"
 msgstr "Lalai"
 
 msgid "Denmark"
-msgstr ""
+msgstr "Denmark"
 
 msgid "Details"
 msgstr "Butiran"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Dewpoint {}"
 
 msgid "Dewpoint {}°C"
 msgstr "Titik Embun {}°C"
@@ -296,17 +337,20 @@ msgstr "Titik Embun: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Titik Embun: T/A"
 
+msgid "Distance"
+msgstr "Jarak"
+
 msgid "Distance {} km"
 msgstr "Jarak {} km"
-
-msgid "Distance: %s"
-msgstr "Jarak: %s"
 
 msgid "Distance: {}"
 msgstr "Jarak: {}"
 
 msgid "Distance: {} km"
 msgstr "Jarak: {} km"
+
+msgid "Distance: %s"
+msgstr "Jarak: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Adakah anda mahu memasangnya sekarang?"
@@ -327,7 +371,7 @@ msgid "Downloading tiles..."
 msgstr "Memuat turun jubin..."
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "East Asia"
 msgstr "Asia Timur"
@@ -374,6 +418,9 @@ msgstr "Melampau / ribut petir"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, dalamHg"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "Gagal menulis fail konfigurasi:\n%s"
+
 msgid "Faster: {}s"
 msgstr "Lebih pantas: {}s"
 
@@ -383,11 +430,11 @@ msgstr "Kegemaran 1"
 msgid "Favorite 2"
 msgstr "Kegemaran 2"
 
-msgid "Favorites Details"
-msgstr "Butiran Kegemaran"
-
 msgid "Favorites details"
 msgstr "Butiran kegemaran"
+
+msgid "Favorites Details"
+msgstr "Butiran Kegemaran"
 
 msgid "Feels like"
 msgstr "Rasa macam"
@@ -398,15 +445,6 @@ msgstr "Rasa macam {}"
 msgid "Feels like {}{}"
 msgstr "Terasa seperti {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "Terasa seperti: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Terasa seperti: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Rasa macam: N/A"
-
 msgid "Feels like: {}"
 msgstr "Terasa seperti: {}"
 
@@ -416,8 +454,17 @@ msgstr "Terasa seperti: {}{}"
 msgid "Feels like: {}°C"
 msgstr "Terasa seperti: {}°C"
 
+msgid "Feels like: %d%s"
+msgstr "Terasa seperti: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Terasa seperti: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Rasa macam: N/A"
+
 msgid "Finland"
-msgstr ""
+msgstr "Finland"
 
 msgid "First Quarter"
 msgstr "Suku Pertama"
@@ -425,17 +472,20 @@ msgstr "Suku Pertama"
 msgid "Fog"
 msgstr "kabut"
 
-msgid "Foreca API Setup"
-msgstr "Persediaan API Foreca"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Bukti kelayakan API Foreca belum dikonfigurasikan lagi. Sila masukkannya dalam skrin persediaan."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Tetapan API Foreca berjaya disimpan."
 
+msgid "Foreca API Setup"
+msgstr "Persediaan API Foreca"
+
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Peta {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Peta Langsung Foreca One (API)"
@@ -446,23 +496,17 @@ msgstr "Menu Foreca One"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Tiada stesen ditemui"
 
+msgid "Foreca One Setup"
+msgstr "Foreca One Setup"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stesen Foreca One: {} stesen berdekatan ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr "Ramalan Cuaca Satu Foreca"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Cuaca dan Ramalan ver. %s"
 
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Peta {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "Menemui %d bandar secara tempatan untuk '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "Menemui %d bandar dalam talian untuk '%s'"
+msgid "Foreca One Weather Forecast"
+msgstr "Ramalan Cuaca Satu Foreca"
 
 msgid "Frame →"
 msgstr "Bingkai →"
@@ -489,10 +533,13 @@ msgid "Good"
 msgstr "bagus"
 
 msgid "Great Britain"
-msgstr ""
+msgstr "Great Britain"
 
 msgid "Greece"
-msgstr ""
+msgstr "Greece"
+
+msgid "Green"
+msgstr "hijau"
 
 msgid "Green - Favorite 1"
 msgstr "Hijau - Kegemaran 1"
@@ -504,7 +551,7 @@ msgid "Gust: {:.1f} {}"
 msgstr "Tiupan angin: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburg"
 
 msgid "Hazardous"
 msgstr "Berbahaya"
@@ -519,7 +566,7 @@ msgid "Help"
 msgstr "Tolong"
 
 msgid "Hesse"
-msgstr ""
+msgstr "Hesse"
 
 msgid "High"
 msgstr "tinggi"
@@ -533,17 +580,20 @@ msgstr "Panas (30-40°C)"
 msgid "Hour Details"
 msgstr "Butiran Jam"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "Kelembapan"
-
-msgid "Humidity: %s%%"
-msgstr "Kelembapan: %s%%"
 
 msgid "Humidity: {}%"
 msgstr "Kelembapan: {}%"
 
+msgid "Humidity: %s%%"
+msgstr "Kelembapan: %s%%"
+
 msgid "Hungary"
-msgstr ""
+msgstr "Hungary"
 
 msgid "Ice / frost"
 msgstr "Ais / fros"
@@ -555,10 +605,10 @@ msgid "Illumination: {:.1f}%"
 msgstr "Pencahayaan: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Imej %(semasa)d/%(jumlah)d – %(hari)s"
+msgstr "Imej %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Imej %(semasa)d/%(total)d – %(hari)s (Dijeda)"
+msgstr "Imej %(current)d/%(total)d – %(day)s (Dijeda)"
 
 msgid "Image not available"
 msgstr "Imej tidak tersedia"
@@ -576,7 +626,7 @@ msgid "Info - About"
 msgstr "Maklumat - Perihal"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Ireland"
 
 msgid "Italy"
 msgstr "Itali"
@@ -597,10 +647,13 @@ msgid "Keyboard"
 msgstr "papan kekunci"
 
 msgid "Last Quarter"
-msgstr "Suku Tahun Terakhir"
+msgstr "Suku Tahun Lepas"
+
+msgid "Last update"
+msgstr "Kemas kini terakhir"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Latvia"
 
 msgid "Left - Previous day"
 msgstr "Kiri - Hari sebelumnya"
@@ -639,7 +692,7 @@ msgid "Low"
 msgstr "rendah"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Lower Saxony"
 
 msgid "Lunar Calendar"
 msgstr "Kalendar Lunar"
@@ -648,11 +701,13 @@ msgid "Lunar phases from next month"
 msgstr "Fasa lunar dari bulan depan"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Magnitud ketara: N/A"
+msgstr "Magnitud: N/A"
+
+msgid "Map {} selected"
+msgstr "Peta {} dipilih"
 
 msgid "Map & Tiles Loaded"
 msgstr "Peta & Jubin Dimuatkan"
@@ -663,14 +718,11 @@ msgstr "Peta dimuatkan"
 msgid "Map server"
 msgstr "Pelayan peta"
 
-msgid "Map {} selected"
-msgstr "Peta {} dipilih"
-
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Mecklenburg-Vorpommern"
 
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 msgid "Menu - Settings"
 msgstr "Menu - Tetapan"
@@ -679,7 +731,7 @@ msgid "Merge failed"
 msgstr "Gabungan gagal"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Meteogram"
 
 msgid "Metric System"
 msgstr "Sistem Metrik"
@@ -708,12 +760,11 @@ msgstr "Hujan sederhana"
 msgid "Month"
 msgstr "bulan"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "Butiran bulan"
-
 msgid "Moon details"
 msgstr "Butiran bulan"
+
+msgid "Moon Details"
+msgstr "Butiran Bulan"
 
 msgid "Moonrise: {}"
 msgstr "Bulan terbit: {}"
@@ -727,20 +778,20 @@ msgstr "Pagi"
 msgid "Mostly clear"
 msgstr "Kebanyakannya jelas"
 
-msgid "Move Down"
-msgstr "Bergerak ke Bawah"
-
-msgid "Move Up"
-msgstr "Bergerak Ke Atas"
-
 msgid "Move down"
 msgstr "Bergerak ke bawah"
+
+msgid "Move Down"
+msgstr "Bergerak ke Bawah"
 
 msgid "Move up"
 msgstr "Bergerak ke atas"
 
+msgid "Move Up"
+msgstr "Bergerak Ke Atas"
+
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "N/A"
 msgstr "T/A"
@@ -757,26 +808,17 @@ msgstr "Versi baharu {version} tersedia."
 msgid "Next"
 msgstr "Seterusnya"
 
-msgid "Next Image"
-msgstr "Imej Seterusnya"
-
 msgid "Next frame"
 msgstr "Bingkai seterusnya"
+
+msgid "Next Image"
+msgstr "Imej Seterusnya"
 
 msgid "Next page"
 msgstr "Halaman seterusnya"
 
 msgid "Next time"
 msgstr "Lain kali"
-
-msgid "No Internet connection detected."
-msgstr "Tiada sambungan Internet dikesan."
-
-msgid "No OSM tiles"
-msgstr "Tiada jubin OSM"
-
-msgid "No cities found locally for '%s'"
-msgstr "Tiada bandar ditemui secara tempatan untuk '%s'"
 
 msgid "No city selected"
 msgstr "Tiada bandar dipilih"
@@ -787,8 +829,14 @@ msgstr "Tiada data"
 msgid "No date available"
 msgstr "Tiada tarikh tersedia"
 
+msgid "No Internet connection detected."
+msgstr "Tiada sambungan Internet dikesan."
+
 msgid "No location selected"
 msgstr "Tiada lokasi dipilih"
+
+msgid "No OSM tiles"
+msgstr "Tiada jubin OSM"
 
 msgid "No specific legend available."
 msgstr "Tiada legenda khusus tersedia."
@@ -815,7 +863,10 @@ msgid "North Rhine-Westphalia"
 msgstr "Rhine-Westphalia Utara"
 
 msgid "Norway"
-msgstr ""
+msgstr "Norway"
+
+msgid "Ok - Details"
+msgstr "Ok - Butiran"
 
 msgid "OK - Ext Info"
 msgstr "OK - Maklumat Tambahan"
@@ -825,9 +876,6 @@ msgstr "OK - Ramalan"
 
 msgid "OK - Open Map"
 msgstr "OK - Buka Peta"
-
-msgid "Ok - Details"
-msgstr "Ok - Butiran"
 
 msgid "Open Keyboard"
 msgstr "Buka Papan Kekunci"
@@ -874,17 +922,17 @@ msgstr "Mendung, ribut petir dengan hujan"
 msgid "Overnight"
 msgstr "Semalaman"
 
-msgid "Page Down"
-msgstr "Halaman Bawah"
-
-msgid "Page Up"
-msgstr "Halaman Atas"
-
 msgid "Page down"
 msgstr "Halaman bawah"
 
+msgid "Page Down"
+msgstr "Halaman Bawah"
+
 msgid "Page up"
 msgstr "Muka surat naik"
+
+msgid "Page Up"
+msgstr "Halaman Atas"
 
 msgid "Pan down"
 msgstr "Pan ke bawah"
@@ -923,7 +971,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Sebahagian mendung, kemungkinan ribut petir dengan hujan"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigee"
 
 msgid "Phase"
 msgstr "fasa"
@@ -941,10 +989,10 @@ msgid "Please wait ..."
 msgstr "Sila tunggu..."
 
 msgid "Poland"
-msgstr ""
+msgstr "Poland"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 msgid "Precipitation"
 msgstr "kerpasan"
@@ -964,6 +1012,12 @@ msgstr "Tekan MERAH untuk mencari semula"
 msgid "Pressure"
 msgstr "Tekanan"
 
+msgid "Pressure: {}"
+msgstr "Tekanan: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Tekanan: {} hPa"
+
 msgid "Pressure: %s"
 msgstr "Tekanan: %s"
 
@@ -973,23 +1027,17 @@ msgstr "Tekanan: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Tekanan: N/A"
 
-msgid "Pressure: {}"
-msgstr "Tekanan: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Tekanan: {} hPa"
-
 msgid "Prev"
 msgstr "Sebelum"
 
 msgid "Previous"
 msgstr "Sebelumnya"
 
-msgid "Previous Image"
-msgstr "Imej Sebelumnya"
-
 msgid "Previous frame"
 msgstr "Bingkai sebelumnya"
+
+msgid "Previous Image"
+msgstr "Imej Sebelumnya"
 
 msgid "Previous page"
 msgstr "Halaman sebelumnya"
@@ -1012,17 +1060,20 @@ msgstr "Hujan: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
 
+msgid "Red"
+msgstr "merah"
+
 msgid "Red - Color select"
 msgstr "Merah - Pilih warna"
 
 msgid "Refresh"
-msgstr "Muat semula"
+msgstr "Segarkan semula"
 
 msgid "Restore default server values"
 msgstr "Pulihkan nilai pelayan lalai"
 
 msgid "Rhineland-Palatine"
-msgstr ""
+msgstr "Rhineland-Palatine"
 
 msgid "Right - Next day"
 msgstr "Betul - Keesokan harinya"
@@ -1033,20 +1084,20 @@ msgstr "Anak panah kanan - Keesokan harinya"
 msgid "Rise"
 msgstr "Bangkit"
 
-msgid "Rise azimuth: N/A"
-msgstr "Azimut naik: N/A"
-
 msgid "Rise azimuth: {:.0f}°"
 msgstr "Azimut naik: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Azimut naik: N/A"
 
 msgid "Russia"
 msgstr "Rusia"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Saarland"
 
 msgid "Satellite Photos"
 msgstr "Foto Satelit"
@@ -1060,14 +1111,17 @@ msgstr "Jimat"
 msgid "Save API settings"
 msgstr "Simpan tetapan API"
 
+msgid "Save translation settings"
+msgstr "Simpan tetapan terjemahan"
+
 msgid "Saxony"
-msgstr ""
+msgstr "Saxony"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Saxony-Anhalt"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
 msgstr "Dikikis"
@@ -1078,14 +1132,11 @@ msgstr "Cari percubaan pertama dalam talian, jika gagal menggunakan senarai temp
 msgid "Search your City"
 msgstr "Cari Bandar anda"
 
-msgid "Searching for '%s'..."
-msgstr "Mencari '%s'..."
-
 msgid "Select"
 msgstr "Pilih"
 
-msgid "Select Region"
-msgstr "Pilih Wilayah"
+msgid "Select {} unit"
+msgstr "Pilih unit {}."
 
 msgid "Select a city"
 msgstr "Pilih bandar"
@@ -1093,23 +1144,23 @@ msgstr "Pilih bandar"
 msgid "Select a map with OK"
 msgstr "Pilih peta dengan OK"
 
+msgid "Select Region"
+msgstr "Pilih Wilayah"
+
 msgid "Select unit system"
 msgstr "Pilih sistem unit"
 
 msgid "Select wind unit"
 msgstr "Pilih unit angin"
 
-msgid "Select {} unit"
-msgstr "Pilih unit {}."
-
 msgid "Selected hour details"
 msgstr "Butiran jam yang dipilih"
 
-msgid "Set azimuth: N/A"
-msgstr "Tetapkan azimut: N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "Tetapkan azimut: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Tetapkan azimut: N/A"
 
 msgid "Sets"
 msgstr "set"
@@ -1121,7 +1172,7 @@ msgid "Showers"
 msgstr "Hujan"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Slovakia"
 
 msgid "Slower: {}s"
 msgstr "Lebih perlahan: {}s"
@@ -1166,25 +1217,19 @@ msgid "Super Full Moon"
 msgstr "Super Purnama"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Sweden"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Switzerland"
+
+msgid "Target Language"
+msgstr "Bahasa Sasaran"
 
 msgid "Temp"
-msgstr ""
+msgstr "Temp"
 
 msgid "Temperature"
 msgstr "Suhu"
-
-msgid "Temperature: %d%s"
-msgstr "Suhu: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Suhu: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Suhu: N/A"
 
 msgid "Temperature: {}"
 msgstr "Suhu: {}"
@@ -1194,6 +1239,15 @@ msgstr "Suhu: {}{}"
 
 msgid "Temperature: {}°C"
 msgstr "Suhu: {}°C"
+
+msgid "Temperature: %d%s"
+msgstr "Suhu: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Suhu: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Suhu: N/A"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "Terima kasih {thanks} dan rakan lain atas cadangan"
@@ -1205,7 +1259,7 @@ msgid "Thin upper cloud"
 msgstr "Awan atas nipis"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Thuringia"
 
 msgid "Time"
 msgstr "Masa"
@@ -1234,23 +1288,20 @@ msgstr "Esok"
 msgid "Transit (culmination): {}"
 msgstr "Transit (kemuncak): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "Ketinggian transit: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "Ketinggian transit: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "Tetapan Ketelusan"
+msgid "Transit altitude: N/A"
+msgstr "Ketinggian transit: N/A"
+
+msgid "Translation Settings"
+msgstr "Tetapan Terjemahan"
 
 msgid "Transparency level"
 msgstr "Tahap ketelusan"
 
-msgid "UV Index"
-msgstr "Indeks UV"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "Tetapan Ketelusan"
 
 msgid "Unhealthy"
 msgstr "tak sihat"
@@ -1285,17 +1336,14 @@ msgstr "Kemas kini selesai. Sila mulakan semula Enigma2."
 msgid "Updated {}"
 msgstr "Dikemas kini {}"
 
-msgid "Updated: N/A"
-msgstr "Dikemas kini: N/A"
-
 msgid "Updated: {}"
 msgstr "Dikemas kini: {}"
 
+msgid "Updated: N/A"
+msgstr "Dikemas kini: N/A"
+
 msgid "Updating..."
 msgstr "Mengemas kini..."
-
-msgid "Use arrow keys to scroll"
-msgstr "Gunakan kekunci anak panah untuk menatal"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Gunakan ← → untuk menukar masa | OK untuk keluar"
@@ -1306,8 +1354,26 @@ msgstr "Gunakan ←/→/↑/↓ untuk mengalihkan | OK untuk keluar"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Gunakan ▲/▼ untuk menukar, OK untuk memilih"
 
+msgid "Use arrow keys to scroll"
+msgstr "Gunakan kekunci anak panah untuk menatal"
+
+msgid "Use Google Translate"
+msgstr "Gunakan Terjemahan Google"
+
 msgid "Using current time"
 msgstr "Menggunakan masa semasa"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "Indeks UV"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Hujan yang sangat lebat"
@@ -1324,29 +1390,29 @@ msgstr "Sangat rendah"
 msgid "Very unhealthy"
 msgstr "Sangat tidak sihat"
 
-msgid "Visibility: %s m"
-msgstr "Keterlihatan: %s m"
-
 msgid "Visibility: {} m"
 msgstr "Keterlihatan: {} m"
 
+msgid "Visibility: %s m"
+msgstr "Keterlihatan: %s m"
+
 msgid "W"
-msgstr ""
+msgstr "W"
 
 msgid "Waning Crescent"
 msgstr "Bulan Sabit Memudar"
 
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Waning Gibbous"
 
 msgid "Warm (20-30°C)"
 msgstr "Suam (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Waxing Crescent"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Waxing Gibbous"
 
 msgid "Weather"
 msgstr "Cuaca"
@@ -1357,11 +1423,11 @@ msgstr "Peta Cuaca"
 msgid "Weather Maps"
 msgstr "Peta Cuaca"
 
-msgid "Weather Maps & Satellite"
-msgstr "Peta Cuaca & Satelit"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Peta Cuaca (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Peta Cuaca & Satelit"
 
 msgid "Weather Maps Slideshow"
 msgstr "Tayangan Slaid Peta Cuaca"
@@ -1381,14 +1447,14 @@ msgstr "Ramalan Mingguan"
 msgid "Wind"
 msgstr "Angin"
 
+msgid "Wind direction"
+msgstr "Arah angin"
+
 msgid "Wind Direction today"
 msgstr "Arah Angin hari ini"
 
 msgid "Wind Direction tomorrow"
 msgstr "Arah Angin esok"
-
-msgid "Wind direction"
-msgstr "Arah angin"
 
 msgid "Wind speed"
 msgstr "Kelajuan angin"
@@ -1399,6 +1465,15 @@ msgstr "Kelajuan angin {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Kelajuan angin: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "Angin: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Angin: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Angin: {} km/j {}"
+
 msgid "Wind: %d %s %s"
 msgstr "Angin: %d %s %s"
 
@@ -1408,20 +1483,14 @@ msgstr "Angin: %s km/j %s"
 msgid "Wind: N/A"
 msgstr "Angin: N/A"
 
-msgid "Wind: {}"
-msgstr "Angin: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Angin: {} km/j {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Angin: {} {} {}"
-
 msgid "Window transparency"
 msgstr "Ketelusan tingkap"
 
 msgid "Yellow - Favorite 2"
 msgstr "Kuning - Kegemaran 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Anda sudah mempunyai versi {version} dipasang.\nAdakah anda mahu memasangnya semula?"
 
 msgid "Zoom In"
 msgstr "Zum Masuk"
@@ -1429,53 +1498,12 @@ msgstr "Zum Masuk"
 msgid "Zoom Out"
 msgstr "Zum Keluar"
 
-msgid "Zoom+"
-msgstr "Zum+"
-
 msgid "Zoom-"
 msgstr "Zum-"
 
 msgid "Zoom:"
 msgstr "Zum:"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "Zum+"
 
-msgid "{hours} h {mins} min"
-msgstr "{jam} j {minit} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BIRU untuk disimpan sebagai Laman Utama\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- untuk melompat 500 bandar\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• HIJAU untuk disimpan sebagai 1 Kegemaran\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK untuk memilih bandar\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• MERAH untuk membuka papan kekunci carian\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Gunakan kekunci anak panah untuk menavigasi\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• KUNING untuk disimpan sebagai Kegemaran 2\n"
-
-msgid "← Frame"
-msgstr "← Bingkai"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(Data tambahan tidak tersedia)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== BUTIR BULAN ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Diameter sudut: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Magnitud ketara: N/A"

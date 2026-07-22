@@ -1,23 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# sr_Latn translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Language sr-Latn\n"
-"Language: sr-Latn\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sr_Latn <ekekaz@gmail.com>\n"
+"Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Додатни подаци нису доступни)"
+msgid "{hours} h {mins} min"
+msgstr "__ЦСХ_0__ х __ЦСХ_1__ мин"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• ПЛАВА да сачувате као ХомеЕСЦ_0\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• ЦХ+/ЦХ- да прескочите 500 градоваЕСЦ_0\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ЗЕЛЕНО да сачувате као омиљено 1ЕСЦ_0\n"
+
+msgid "• OK to select city\n"
+msgstr "• ОК да изаберете градЕСЦ_0\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ЦРВЕНО за отварање тастатуре за претрагуЕСЦ_0\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Користите тастере са стрелицама за навигацију по ЕСЦ_0\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• ВОЛ+/ВОЛ- да прескочите 100 градоваЕСЦ_0ЕСЦ_1\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• ЖУТО да сачувате као омиљено 2ЕСЦ_0\n"
+
+msgid "← Frame"
+msgstr "← Оквир"
 
 msgid "0 - Today"
 msgstr "0 - Данас"
@@ -43,14 +67,38 @@ msgstr "6 - Данас + 6 дана"
 msgid "7 - Today + 7 days"
 msgstr "7 - Данас + 7 дана"
 
+msgid "7 Day Forecast"
+msgstr "Прогноза за 7 дана"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Данас + 8 дана"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Данас + 9 дана"
 
-msgid "=== MOON DETAILS ==="
-msgstr "=== ДЕТАЉИ МЕСЕЦА ==="
+msgid "Advanced"
+msgstr "Напредно"
+
+msgid "Advanced Unit Settings"
+msgstr "Напредне поставке јединице"
+
+msgid "Afternoon"
+msgstr "поподне"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Старост од младог Месеца: __ЦСХ_0__ дана"
+
+msgid "Age: N/A"
+msgstr "Старост: Н/А"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Угаони пречник: __ЦСХ_0__″"
+
+msgid "Angular diameter: N/A"
+msgstr "Угаони пречник: Н/А"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "АПИ конфигурациона датотека није пронађена!ЕСЦ_0ЕСЦ_1Молимо креирајте датотеку:ЕСЦ_2__ЦСХ_0__ЕСЦ_3ЕСЦ_4са вашим Фореца АПИ акредитивима."
 
 msgid "API credentials not configured."
 msgstr "АПИ акредитиви нису конфигурисани."
@@ -64,38 +112,14 @@ msgstr "АПИ лозинка"
 msgid "API user"
 msgstr "Корисник АПИ-ја"
 
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Привидна величина: __ЦСХ_0__"
+
 msgid "AQI {}"
 msgstr "АКИ {}"
 
 msgid "AQI: N/A"
 msgstr "АКИ: Н/А"
-
-msgid "Advanced"
-msgstr "Напредно"
-
-msgid "Advanced Unit Settings"
-msgstr "Напредне поставке јединице"
-
-msgid "Afternoon"
-msgstr "поподне"
-
-msgid "Age since New Moon: {:.1f} days"
-msgstr "Старост од младог Месеца: {:.1ф} дана"
-
-msgid "Age: N/A"
-msgstr "Старост: Н/А"
-
-msgid "Angular diameter: N/A"
-msgstr "Угаони пречник: Н/А"
-
-msgid "Angular diameter: {:.0f}"
-msgstr "Угаони пречник: {:.0ф}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Привидна величина: Н/А"
-
-msgid "Apparent magnitude: {:.2f}"
-msgstr "Привидна магнитуда: {:.2ф}"
 
 msgid "Assign to Favorite 1"
 msgstr "Додели у омиљено 1"
@@ -133,6 +157,9 @@ msgstr "Берлин"
 msgid "Black Moon"
 msgstr "Блацк Моон"
 
+msgid "Blue"
+msgstr "Плава"
+
 msgid "Blue - Home"
 msgstr "Плава - Дом"
 
@@ -155,7 +182,7 @@ msgid "Celsius, km/h, hPa"
 msgstr "Целзијус, км/х, хПа"
 
 msgid "Changelog: {changelog}"
-msgstr "Дневник промена: {цхангелог}"
+msgstr "Дневник промена: __ЦСХ_0__"
 
 msgid "Changes apply immediately"
 msgstr "Промене се примењују одмах"
@@ -166,11 +193,14 @@ msgstr "Проверите ажурирања"
 msgid "Choose detail view"
 msgstr "Изаберите детаљан приказ"
 
+msgid "City list file not found!"
+msgstr "Датотека листе градова није пронађена!"
+
 msgid "City Selection"
 msgstr "Избор града"
 
-msgid "City list file not found!"
-msgstr "Датотека листе градова није пронађена!"
+msgid "City Selection Help:\n\n"
+msgstr "Помоћ за избор града:ЕСЦ_0ЕСЦ_1\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Чишћење Фореца Оне Темп датотека?"
@@ -217,16 +247,13 @@ msgstr "Облачно, грмљавина са кишом"
 msgid "Cold (< 0°C)"
 msgstr "Хладно (< 0°Ц)"
 
-msgid "Color Legend"
-msgstr "Легенда о боји"
-
-msgid "Color Selector"
-msgstr "Бирач боја"
-
 msgid "Color data"
 msgstr "Подаци о боји"
 
 msgid "Color legend"
+msgstr "Легенда о боји"
+
+msgid "Color Legend"
 msgstr "Легенда о боји"
 
 msgid "Color name"
@@ -235,8 +262,14 @@ msgstr "Назив боје"
 msgid "Color select"
 msgstr "Избор боје"
 
+msgid "Color Selector"
+msgstr "Бирач боја"
+
 msgid "Condition: {}"
 msgstr "Услов: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Конфигуришите Фореца АПИ акредитиве"
 
 msgid "Continents Weather Maps"
 msgstr "Временске карте континената"
@@ -304,17 +337,20 @@ msgstr "Тачка росе: %с°Ц"
 msgid "Dewpoint: N/A"
 msgstr "Тачка росе: Н/А"
 
+msgid "Distance"
+msgstr "Удаљеност"
+
 msgid "Distance {} km"
 msgstr "Удаљеност {} км"
-
-msgid "Distance: %s"
-msgstr "Удаљеност: %с"
 
 msgid "Distance: {}"
 msgstr "Удаљеност: {}"
 
 msgid "Distance: {} km"
 msgstr "Удаљеност: {} км"
+
+msgid "Distance: %s"
+msgstr "Удаљеност: %с"
 
 msgid "Do you want to install it now?"
 msgstr "Да ли желите да га инсталирате сада?"
@@ -382,6 +418,9 @@ msgstr "Екстремно / грмљавина"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Фаренхајт, мпх, инХг"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "Писање конфигурационе датотеке:ЕСЦ_0%с није успело"
+
 msgid "Faster: {}s"
 msgstr "Брже: {}с"
 
@@ -391,11 +430,11 @@ msgstr "Фаворит 1"
 msgid "Favorite 2"
 msgstr "Фаворит 2"
 
-msgid "Favorites Details"
-msgstr "Фаворитес Детаилс"
-
 msgid "Favorites details"
 msgstr "Омиљени детаљи"
+
+msgid "Favorites Details"
+msgstr "Фаворитес Детаилс"
 
 msgid "Feels like"
 msgstr "Осећа се као"
@@ -406,15 +445,6 @@ msgstr "Осећам се као {}"
 msgid "Feels like {}{}"
 msgstr "Осећам се као {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "Осећа се као: %д%с"
-
-msgid "Feels like: %s°C"
-msgstr "Осећа се као: %с°Ц"
-
-msgid "Feels like: N/A"
-msgstr "Осећа се као: Н/А"
-
 msgid "Feels like: {}"
 msgstr "Осећа се као: {}"
 
@@ -423,6 +453,15 @@ msgstr "Осјећај као: {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "Осећа се као: {}°Ц"
+
+msgid "Feels like: %d%s"
+msgstr "Осећа се као: %д%с"
+
+msgid "Feels like: %s°C"
+msgstr "Осећа се као: %с°Ц"
+
+msgid "Feels like: N/A"
+msgstr "Осећа се као: Н/А"
 
 msgid "Finland"
 msgstr "Финланд"
@@ -433,17 +472,20 @@ msgstr "Фирст Куартер"
 msgid "Fog"
 msgstr "Магла"
 
-msgid "Foreca API Setup"
-msgstr "Фореца АПИ подешавање"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Фореца АПИ акредитиви још нису конфигурисани. Унесите их на екрану за подешавање."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Фореца АПИ подешавања су успешно сачувана."
 
+msgid "Foreca API Setup"
+msgstr "Фореца АПИ подешавање"
+
 msgid "Foreca One"
 msgstr "Фореца Оне"
+
+msgid "Foreca One | Map {}"
+msgstr "Фореца Оне | Мапа {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Фореца Оне Ливе Мапс (АПИ)"
@@ -454,23 +496,17 @@ msgstr "Фореца Оне Мену"
 msgid "Foreca One No stations found"
 msgstr "Фореца Оне Није пронађена ниједна станица"
 
+msgid "Foreca One Setup"
+msgstr "Фореца Оне Сетуп"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Фореца Оне станице: {} станица у близини ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr "Фореца Оне временска прогноза"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Фореца Оне Веатхер анд Форецаст вер. %с"
 
-msgid "Foreca One | Map {}"
-msgstr "Фореца Оне | Мапа {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "Пронађено %д градова локално за „%с“"
-
-msgid "Found %d cities online for '%s'"
-msgstr "Пронађено %д градова на мрежи за „%с“"
+msgid "Foreca One Weather Forecast"
+msgstr "Фореца Оне временска прогноза"
 
 msgid "Frame →"
 msgstr "Оквир →"
@@ -502,14 +538,17 @@ msgstr "Велика Британија"
 msgid "Greece"
 msgstr "Грчка"
 
+msgid "Green"
+msgstr "Зелена"
+
 msgid "Green - Favorite 1"
-msgstr "Зелена - омиљена 1"
+msgstr "Зелена - Фаворит 1"
 
 msgid "Gust {}"
 msgstr "налет {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr "Налет: {:.1ф} {}"
+msgstr "Налет: __ЦСХ_0__ {}"
 
 msgid "Hamburg"
 msgstr "Хамбург"
@@ -541,14 +580,17 @@ msgstr "вруће (30-40°Ц)"
 msgid "Hour Details"
 msgstr "Детаљи о сату"
 
+msgid "HTML"
+msgstr "ХТМЛ"
+
 msgid "Humidity"
 msgstr "Влажност"
 
-msgid "Humidity: %s%%"
-msgstr "Влажност: %с%%"
-
 msgid "Humidity: {}%"
 msgstr "Влажност: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Влажност: %с%%"
 
 msgid "Hungary"
 msgstr "Мађарска"
@@ -560,13 +602,13 @@ msgid "Illumination"
 msgstr "Осветљење"
 
 msgid "Illumination: {:.1f}%"
-msgstr "Осветљење: {:.1ф}%"
+msgstr "Осветљење: __ЦСХ_0__%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Слика %(тренутна)д/%(укупно)д – %(дан)с"
+msgstr "Слика __ПИПХ_0__/__ПИПХ_1__ – __ПИПХ_2__"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Слика %(тренутна)д/%(укупно)д – %(дан)с (паузирана)"
+msgstr "Слика __ПИПХ_0__/__ПИПХ_1__ – __ПИПХ_2__ (Паузирано)"
 
 msgid "Image not available"
 msgstr "Слика није доступна"
@@ -606,6 +648,9 @@ msgstr "Тастатура"
 
 msgid "Last Quarter"
 msgstr "Ласт Куартер"
+
+msgid "Last update"
+msgstr "Последње ажурирање"
 
 msgid "Latvia"
 msgstr "Летонија"
@@ -658,6 +703,12 @@ msgstr "Лунарне фазе од следећег месеца"
 msgid "Luxembourg"
 msgstr "Луксембург"
 
+msgid "Magnitude: N/A"
+msgstr "Магнитуда: Н/А"
+
+msgid "Map {} selected"
+msgstr "Изабрана је мапа {}"
+
 msgid "Map & Tiles Loaded"
 msgstr "Мапа и плочице су учитане"
 
@@ -666,9 +717,6 @@ msgstr "Мапа је учитана"
 
 msgid "Map server"
 msgstr "Мап сервер"
-
-msgid "Map {} selected"
-msgstr "Изабрана је мапа {}"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Мекленбург-Ворпоммерн"
@@ -715,6 +763,9 @@ msgstr "Месец"
 msgid "Moon details"
 msgstr "Детаљи о месецу"
 
+msgid "Moon Details"
+msgstr "Моон Детаилс"
+
 msgid "Moonrise: {}"
 msgstr "Излазак месеца: {}"
 
@@ -727,17 +778,17 @@ msgstr "Јутро"
 msgid "Mostly clear"
 msgstr "Углавном ведро"
 
-msgid "Move Down"
-msgstr "Мове Довн"
-
-msgid "Move Up"
-msgstr "Мове Уп"
-
 msgid "Move down"
 msgstr "Помери се доле"
 
+msgid "Move Down"
+msgstr "Мове Довн"
+
 msgid "Move up"
 msgstr "Помери се горе"
+
+msgid "Move Up"
+msgstr "Мове Уп"
 
 msgid "N"
 msgstr "Н"
@@ -752,31 +803,22 @@ msgid "New Moon"
 msgstr "Млад Месец"
 
 msgid "New version {version} is available."
-msgstr "Доступна је нова верзија {версион}."
+msgstr "Доступна је нова верзија __ЦСХ_0__."
 
 msgid "Next"
 msgstr "Следеће"
 
-msgid "Next Image"
-msgstr "Следећа слика"
-
 msgid "Next frame"
 msgstr "Следећи кадар"
+
+msgid "Next Image"
+msgstr "Следећа слика"
 
 msgid "Next page"
 msgstr "Следећа страница"
 
 msgid "Next time"
 msgstr "Следећи пут"
-
-msgid "No Internet connection detected."
-msgstr "Није откривена интернет веза."
-
-msgid "No OSM tiles"
-msgstr "Нема ОСМ плочица"
-
-msgid "No cities found locally for '%s'"
-msgstr "Локално није пронађен ниједан град за „%с“"
 
 msgid "No city selected"
 msgstr "Није изабран ниједан град"
@@ -787,8 +829,14 @@ msgstr "Нема података"
 msgid "No date available"
 msgstr "Нема доступног датума"
 
+msgid "No Internet connection detected."
+msgstr "Није откривена интернет веза."
+
 msgid "No location selected"
 msgstr "Није изабрана ниједна локација"
+
+msgid "No OSM tiles"
+msgstr "Нема ОСМ плочица"
 
 msgid "No specific legend available."
 msgstr "Конкретна легенда није доступна."
@@ -817,6 +865,9 @@ msgstr "Северна Рајна-Вестфалија"
 msgid "Norway"
 msgstr "Норвешка"
 
+msgid "Ok - Details"
+msgstr "Ок - Детаљи"
+
 msgid "OK - Ext Info"
 msgstr "ОК - Ект Инфо"
 
@@ -825,9 +876,6 @@ msgstr "ОК - Прогноза"
 
 msgid "OK - Open Map"
 msgstr "ОК - Отворите мапу"
-
-msgid "Ok - Details"
-msgstr "Ок - Детаљи"
 
 msgid "Open Keyboard"
 msgstr "Отворите тастатуру"
@@ -874,23 +922,23 @@ msgstr "Облачно, грмљавина са кишом"
 msgid "Overnight"
 msgstr "Ноћење"
 
-msgid "Page Down"
-msgstr "Паге Довн"
-
-msgid "Page Up"
-msgstr "Паге Уп"
-
 msgid "Page down"
 msgstr "Страница доле"
 
+msgid "Page Down"
+msgstr "Паге Довн"
+
 msgid "Page up"
 msgstr "Страница горе"
+
+msgid "Page Up"
+msgstr "Паге Уп"
 
 msgid "Pan down"
 msgstr "Пан довн"
 
 msgid "Pan left"
-msgstr "Померите лево"
+msgstr "Помери лево"
 
 msgid "Pan right"
 msgstr "Помери десно"
@@ -964,6 +1012,12 @@ msgstr "Притисните ЦРВЕНУ за поновно претражив
 msgid "Pressure"
 msgstr "Притисак"
 
+msgid "Pressure: {}"
+msgstr "Притисак: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Притисак: {} хПа"
+
 msgid "Pressure: %s"
 msgstr "Притисак: %с"
 
@@ -973,29 +1027,23 @@ msgstr "Притисак: %с хПа"
 msgid "Pressure: N/A"
 msgstr "Притисак: Н/А"
 
-msgid "Pressure: {}"
-msgstr "Притисак: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Притисак: {} хПа"
-
 msgid "Prev"
 msgstr "Прев"
 
 msgid "Previous"
 msgstr "Претходно"
 
-msgid "Previous Image"
-msgstr "Претходна слика"
-
 msgid "Previous frame"
 msgstr "Претходни кадар"
+
+msgid "Previous Image"
+msgstr "Претходна слика"
 
 msgid "Previous page"
 msgstr "Претходна страница"
 
 msgid "Previous time"
-msgstr "Претходно време"
+msgstr "Претходни пут"
 
 msgid "Rain Prob."
 msgstr "Раин Проб."
@@ -1004,13 +1052,16 @@ msgid "Rain prob. {}%"
 msgstr "Раин проб. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr "Проб. за кишу: Н/А"
+msgstr "Киша проб.: Н/А"
 
 msgid "Rain: {:.1f} {}"
-msgstr "Киша: {:.1ф} {}"
+msgstr "Киша: __ЦСХ_0__ {}"
 
 msgid "RainViewer Radar"
 msgstr "РаинВиевер Радар"
+
+msgid "Red"
+msgstr "Црвени"
 
 msgid "Red - Color select"
 msgstr "Црвена - Избор боје"
@@ -1033,11 +1084,11 @@ msgstr "Стрелица десно - Следећи дан"
 msgid "Rise"
 msgstr "Устани"
 
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Азимут успона: __ЦСХ_0__°"
+
 msgid "Rise azimuth: N/A"
 msgstr "Азимут пораста: Н/А"
-
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Азимут успона: {:.0ф}°"
 
 msgid "Russia"
 msgstr "Русија"
@@ -1060,6 +1111,9 @@ msgstr "Сачувај"
 msgid "Save API settings"
 msgstr "Сачувајте подешавања АПИ-ја"
 
+msgid "Save translation settings"
+msgstr "Сачувајте подешавања превода"
+
 msgid "Saxony"
 msgstr "Саксонија"
 
@@ -1078,14 +1132,11 @@ msgstr "Претрага прво покушава на мрежи, ако не 
 msgid "Search your City"
 msgstr "Претражите свој град"
 
-msgid "Searching for '%s'..."
-msgstr "Тражење '%с'..."
-
 msgid "Select"
 msgstr "Изаберите"
 
-msgid "Select Region"
-msgstr "Изаберите Регион"
+msgid "Select {} unit"
+msgstr "Изаберите {} јединицу"
 
 msgid "Select a city"
 msgstr "Изаберите град"
@@ -1093,23 +1144,23 @@ msgstr "Изаберите град"
 msgid "Select a map with OK"
 msgstr "Изаберите карту са ОК"
 
+msgid "Select Region"
+msgstr "Изаберите Регион"
+
 msgid "Select unit system"
 msgstr "Изаберите систем јединица"
 
 msgid "Select wind unit"
 msgstr "Изаберите јединицу ветра"
 
-msgid "Select {} unit"
-msgstr "Изаберите {} јединицу"
-
 msgid "Selected hour details"
 msgstr "Детаљи одабраног сата"
 
+msgid "Set azimuth: {:.0f}°"
+msgstr "Подесите азимут: __ЦСХ_0__°"
+
 msgid "Set azimuth: N/A"
 msgstr "Подесите азимут: Н/А"
-
-msgid "Set azimuth: {:.0f}°"
-msgstr "Подесите азимут: {:.0ф}°"
 
 msgid "Sets"
 msgstr "Сетови"
@@ -1133,7 +1184,7 @@ msgid "Snow prob. {}%"
 msgstr "Снов проб. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr "Снежна проб.: Н/А"
+msgstr "Снов проб.: Н/А"
 
 msgid "South Africa"
 msgstr "Јужна Африка"
@@ -1171,20 +1222,14 @@ msgstr "Сведен"
 msgid "Switzerland"
 msgstr "Швајцарска"
 
+msgid "Target Language"
+msgstr "Циљни језик"
+
 msgid "Temp"
 msgstr "Темп"
 
 msgid "Temperature"
 msgstr "Температура"
-
-msgid "Temperature: %d%s"
-msgstr "Температура: %д%с"
-
-msgid "Temperature: %s°C"
-msgstr "Температура: %с°Ц"
-
-msgid "Temperature: N/A"
-msgstr "Температура: Н/А"
 
 msgid "Temperature: {}"
 msgstr "Температура: {}"
@@ -1195,11 +1240,20 @@ msgstr "Температура: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Температура: {}°Ц"
 
+msgid "Temperature: %d%s"
+msgstr "Температура: %д%с"
+
+msgid "Temperature: %s°C"
+msgstr "Температура: %с°Ц"
+
+msgid "Temperature: N/A"
+msgstr "Температура: Н/А"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Хвала {хвала} и другим пријатељима на предлозима"
+msgstr "Хвала __ЦСХ_0__ и другим пријатељима на предлозима"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "Удаљена верзија ({ремоте}) је старија од тренутне ({цуррент})."
+msgstr "Удаљена верзија (__ЦСХ_0__) је старија од тренутне (__ЦСХ_1__)."
 
 msgid "Thin upper cloud"
 msgstr "Танак горњи облак"
@@ -1234,23 +1288,20 @@ msgstr "сутра"
 msgid "Transit (culmination): {}"
 msgstr "Транзит (кулминација): {}"
 
+msgid "Transit altitude: {:.0f}°"
+msgstr "Висина транзита: __ЦСХ_0__°"
+
 msgid "Transit altitude: N/A"
 msgstr "Транзитна висина: Н/А"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Транзитна висина: {:.0ф}°"
-
-msgid "Transparency Settings"
-msgstr "Подешавања транспарентности"
+msgid "Translation Settings"
+msgstr "Подешавања превода"
 
 msgid "Transparency level"
 msgstr "Ниво транспарентности"
 
-msgid "UV Index"
-msgstr "УВ индекс"
-
-msgid "UV N/A"
-msgstr "УВ Н/А"
+msgid "Transparency Settings"
+msgstr "Подешавања транспарентности"
 
 msgid "Unhealthy"
 msgstr "Нездраво"
@@ -1285,17 +1336,14 @@ msgstr "Ажурирање је завршено. Поново покренит�
 msgid "Updated {}"
 msgstr "Ажурирано {}"
 
-msgid "Updated: N/A"
-msgstr "Ажурирано: Н/А"
-
 msgid "Updated: {}"
 msgstr "Ажурирано: {}"
 
+msgid "Updated: N/A"
+msgstr "Ажурирано: Н/А"
+
 msgid "Updating..."
 msgstr "Ажурирање..."
-
-msgid "Use arrow keys to scroll"
-msgstr "Користите тастере са стрелицама за померање"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Користите ← → да промените време | ОК за излаз"
@@ -1306,8 +1354,26 @@ msgstr "Користите ←/→/↑/↓ за померање | ОК за и�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Користите ▲/▼ да промените, ОК да изаберете"
 
+msgid "Use arrow keys to scroll"
+msgstr "Користите тастере са стрелицама за померање"
+
+msgid "Use Google Translate"
+msgstr "Користите Гоогле преводилац"
+
 msgid "Using current time"
 msgstr "Коришћење тренутног времена"
+
+msgid "UV"
+msgstr "УВ"
+
+msgid "UV Index"
+msgstr "УВ индекс"
+
+msgid "UV N/A"
+msgstr "УВ Н/А"
+
+msgid "v."
+msgstr "в."
 
 msgid "Very heavy rain"
 msgstr "Веома јака киша"
@@ -1324,11 +1390,11 @@ msgstr "Веома ниско"
 msgid "Very unhealthy"
 msgstr "Веома нездраво"
 
-msgid "Visibility: %s m"
-msgstr "Видљивост: %с м"
-
 msgid "Visibility: {} m"
 msgstr "Видљивост: {} м"
+
+msgid "Visibility: %s m"
+msgstr "Видљивост: %с м"
 
 msgid "W"
 msgstr "В"
@@ -1349,7 +1415,7 @@ msgid "Waxing Gibbous"
 msgstr "Вакинг Гиббоус"
 
 msgid "Weather"
-msgstr "Време"
+msgstr "Временска прогноза"
 
 msgid "Weather Map"
 msgstr "Временска карта"
@@ -1357,11 +1423,11 @@ msgstr "Временска карта"
 msgid "Weather Maps"
 msgstr "Временске карте"
 
-msgid "Weather Maps & Satellite"
-msgstr "Временске карте и сателит"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Временске карте (Веттерконтор)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Временске карте и сателит"
 
 msgid "Weather Maps Slideshow"
 msgstr "Временске карте Пројекција слајдова"
@@ -1376,19 +1442,19 @@ msgid "Weather tomorrow"
 msgstr "Време сутра"
 
 msgid "Weekly Forecast"
-msgstr "Недељна прогноза"
+msgstr "Веекли Форецаст"
 
 msgid "Wind"
 msgstr "Ветар"
+
+msgid "Wind direction"
+msgstr "Правац ветра"
 
 msgid "Wind Direction today"
 msgstr "Смер ветра данас"
 
 msgid "Wind Direction tomorrow"
-msgstr "Смер ветра сутра"
-
-msgid "Wind direction"
-msgstr "Правац ветра"
+msgstr "Винд Дирецтион томорров"
 
 msgid "Wind speed"
 msgstr "Брзина ветра"
@@ -1397,7 +1463,16 @@ msgid "Wind speed {}"
 msgstr "брзина ветра {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr "Брзина ветра: {:.1ф} {}"
+msgstr "Брзина ветра: __ЦСХ_0__ {}"
+
+msgid "Wind: {}"
+msgstr "Ветар: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Ветар: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Ветар: {} км/х {}"
 
 msgid "Wind: %d %s %s"
 msgstr "Ветар: %д %с %с"
@@ -1408,20 +1483,14 @@ msgstr "Ветар: %с км/х %с"
 msgid "Wind: N/A"
 msgstr "Ветар: Н/А"
 
-msgid "Wind: {}"
-msgstr "Ветар: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Ветар: {} км/х {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Ветар: {} {} {}"
-
 msgid "Window transparency"
 msgstr "Транспарентност прозора"
 
 msgid "Yellow - Favorite 2"
 msgstr "Жута - Фаворит 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Већ имате инсталирану верзију __ЦСХ_0__.ЕСЦ_0Да ли желите да је поново инсталирате?"
 
 msgid "Zoom In"
 msgstr "Увећај"
@@ -1429,41 +1498,12 @@ msgstr "Увећај"
 msgid "Zoom Out"
 msgstr "Зоом Оут"
 
-msgid "Zoom+"
-msgstr "Зоом+"
-
 msgid "Zoom-"
 msgstr "зумирање-"
 
 msgid "Zoom:"
 msgstr "Зумирање:"
 
-msgid "v."
-msgstr "в."
+msgid "Zoom+"
+msgstr "Зоом+"
 
-msgid "{hours} h {mins} min"
-msgstr "{хоурс} х {минс} мин"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• ПЛАВА да бисте сачували као Почетна\н"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• ЦХ+/ЦХ- да прескочите 500 градова\н"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• ЗЕЛЕНО да бисте сачували као омиљено 1\н"
-
-msgid "• OK to select city\n"
-msgstr "• ОК да изаберете град\н"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ЦРВЕНА за отварање тастатуре за претрагу\н"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Користите тастере са стрелицама за навигацију\н"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• ЖУТО да сачувате као омиљено 2\н"
-
-msgid "← Frame"
-msgstr "← Оквир"

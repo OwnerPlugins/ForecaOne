@@ -1,20 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# am translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Amharic\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: am <ekekaz@gmail.com>\n"
 "Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} ሰ {mins} ደቂቃ"
+
+msgid "• BLUE to save as Home\n"
+msgstr "እንደ Home\n ለመቆጠብ ሰማያዊ\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 ከተሞችን ለመዝለል\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "እንደ ተወዳጅ 1\n ለማስቀመጥ አረንጓዴ\n"
+
+msgid "• OK to select city\n"
+msgstr "ከተማ\nን ለመምረጥ እሺ\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• የፍለጋ ቁልፍ ሰሌዳ\n ለመክፈት ቀይ\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• \nን ለማሰስ የቀስት ቁልፎችን ይጠቀሙ\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• ቮል+/ቮል- 100 ከተማዎችን ለመዝለል\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "እንደ ተወዳጅ 2\n ለመቆጠብ ቢጫ\n"
+
+msgid "← Frame"
+msgstr "← ፍሬም"
 
 msgid "0 - Today"
 msgstr "0 - ዛሬ"
@@ -40,11 +67,38 @@ msgstr "6 - ዛሬ + 6 ቀናት"
 msgid "7 - Today + 7 days"
 msgstr "7 - ዛሬ + 7 ቀናት"
 
+msgid "7 Day Forecast"
+msgstr "7 ቀን ትንበያ"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - ዛሬ + 8 ቀናት"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - ዛሬ + 9 ቀናት"
+
+msgid "Advanced"
+msgstr "የላቀ"
+
+msgid "Advanced Unit Settings"
+msgstr "የላቀ ክፍል ቅንብሮች"
+
+msgid "Afternoon"
+msgstr "ከሰአት"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "ከአዲስ ጨረቃ ጀምሮ ያለው ዕድሜ፡ _CSH_0__ ቀናት"
+
+msgid "Age: N/A"
+msgstr "ዕድሜ፡ N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "የማዕዘን ዲያሜትር፡ {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "የማዕዘን ዲያሜትር፡ N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "የኤፒአይ ውቅር ፋይል አልተገኘም!\n\nእባክዎ ፋይል፡\n{0}\n\nከForeca API ምስክርነቶች ጋር ይፍጠሩ።"
 
 msgid "API credentials not configured."
 msgstr "የኤፒአይ ምስክርነቶች አልተዋቀሩም።"
@@ -58,36 +112,14 @@ msgstr "የኤፒአይ ይለፍ ቃል"
 msgid "API user"
 msgstr "የኤፒአይ ተጠቃሚ"
 
+msgid "Apparent magnitude: {:.2f}"
+msgstr "የሚታየው መጠን፡ {:.2f}"
+
 msgid "AQI {}"
 msgstr "አኪአይ {}"
 
 msgid "AQI: N/A"
 msgstr "አኪይ፡ N/A"
-
-msgid "Advanced"
-msgstr "የላቀ"
-
-msgid "Advanced Unit Settings"
-msgstr "የላቀ ክፍል ቅንብሮች"
-
-msgid "Afternoon"
-msgstr "ከሰአት"
-
-msgid "Age since New Moon: {:.1f} days"
-msgstr "እድሜ ከአዲስ ጨረቃ ጀምሮ፡ {:.1f} ቀናት"
-
-msgid "Age: N/A"
-msgstr "ዕድሜ፡ N/A"
-
-msgid "Angular diameter: N/A"
-msgstr "የማዕዘን ዲያሜትር፡ N/A"
-
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "የማዕዘን ዲያሜትር: {:.0f}"
-
-msgid "Apparent magnitude: {:.2f}"
-msgstr "የሚታየው መጠን፡ {:.2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "ለተወዳጅ 1 መድብ"
@@ -125,6 +157,9 @@ msgstr "በርሊን"
 msgid "Black Moon"
 msgstr "ጥቁር ጨረቃ"
 
+msgid "Blue"
+msgstr "ሰማያዊ"
+
 msgid "Blue - Home"
 msgstr "ሰማያዊ - ቤት"
 
@@ -147,7 +182,7 @@ msgid "Celsius, km/h, hPa"
 msgstr "ሴልሺየስ፣ ኪሜ/ሰ፣ hPa"
 
 msgid "Changelog: {changelog}"
-msgstr "ለውጥ ሎግ፡ {changelog}"
+msgstr "ለውጥ መዝገብ፡ {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "ለውጦች ወዲያውኑ ይተገበራሉ"
@@ -158,11 +193,14 @@ msgstr "ዝማኔዎችን ይመልከቱ"
 msgid "Choose detail view"
 msgstr "የዝርዝር እይታን ይምረጡ"
 
+msgid "City list file not found!"
+msgstr "የከተማ ዝርዝር ፋይል አልተገኘም!"
+
 msgid "City Selection"
 msgstr "የከተማ ምርጫ"
 
-msgid "City list file not found!"
-msgstr "የከተማ ዝርዝር ፋይል አልተገኘም!"
+msgid "City Selection Help:\n\n"
+msgstr "የከተማ ምርጫ እገዛ፡\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Foreca One Temp ፋይሎችን ያጽዱ?"
@@ -209,17 +247,14 @@ msgstr "ደመናማ፣ ነጎድጓድ በዝናብ"
 msgid "Cold (< 0°C)"
 msgstr "ቅዝቃዜ (<0°C)"
 
-msgid "Color Legend"
-msgstr "የቀለም ታሪክ"
-
-msgid "Color Selector"
-msgstr "ቀለም መራጭ"
-
 msgid "Color data"
 msgstr "የቀለም ውሂብ"
 
 msgid "Color legend"
 msgstr "የቀለም አፈ ታሪክ"
+
+msgid "Color Legend"
+msgstr "የቀለም ታሪክ"
 
 msgid "Color name"
 msgstr "የቀለም ስም"
@@ -227,8 +262,14 @@ msgstr "የቀለም ስም"
 msgid "Color select"
 msgstr "ቀለም ይምረጡ"
 
+msgid "Color Selector"
+msgstr "ቀለም መራጭ"
+
 msgid "Condition: {}"
 msgstr "ሁኔታ፡ {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API ምስክርነቶችን ያዋቅሩ"
 
 msgid "Continents Weather Maps"
 msgstr "የአህጉራት የአየር ሁኔታ ካርታዎች"
@@ -294,19 +335,22 @@ msgid "Dewpoint: %s°C"
 msgstr "ጠል ነጥብ፡ %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Dewpoint: N/A"
+
+msgid "Distance"
+msgstr "ርቀት"
 
 msgid "Distance {} km"
 msgstr "ርቀት {} ኪሜ"
-
-msgid "Distance: %s"
-msgstr "ርቀት፡ %s"
 
 msgid "Distance: {}"
 msgstr "ርቀት፡ {}"
 
 msgid "Distance: {} km"
 msgstr "ርቀት፡ {} ኪሜ"
+
+msgid "Distance: %s"
+msgstr "ርቀት፡ %s"
 
 msgid "Do you want to install it now?"
 msgstr "አሁን መጫን ይፈልጋሉ?"
@@ -342,7 +386,7 @@ msgid "Error loading map"
 msgstr "ካርታ መጫን ላይ ስህተት"
 
 msgid "Error loading maps. Check connection."
-msgstr "ካርታዎችን መጫን ላይ ስህተት። ግንኙነትን ያረጋግጡ።"
+msgstr "ካርታዎችን መጫን ላይ ስህተት። ግንኙነት ይፈትሹ."
 
 msgid "Error saving favorite!"
 msgstr "ተወዳጅ ማስቀመጥ ላይ ስህተት!"
@@ -374,6 +418,9 @@ msgstr "ከባድ / ነጎድጓድ"
 msgid "Fahrenheit, mph, inHg"
 msgstr "ፋራናይት፣ ማይል በሰአት፣ ኢንኤችጂ"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "የማዋቀሪያ ፋይል፡\n%s መጻፍ አልተሳካም።"
+
 msgid "Faster: {}s"
 msgstr "ፈጣን፡ {}s"
 
@@ -383,10 +430,10 @@ msgstr "ተወዳጅ 1"
 msgid "Favorite 2"
 msgstr "ተወዳጅ 2"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "ተወዳጆች ዝርዝሮች"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "ተወዳጆች ዝርዝሮች"
 
 msgid "Feels like"
@@ -398,15 +445,6 @@ msgstr "{} ይመስላል"
 msgid "Feels like {}{}"
 msgstr "{}{} ይመስላል"
 
-msgid "Feels like: %d%s"
-msgstr "የሚመስለው፡ %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "የሚሰማው፡ %s°C"
-
-msgid "Feels like: N/A"
-msgstr "የሚሰማው፡ N/A"
-
 msgid "Feels like: {}"
 msgstr "የሚመስለው፡ {}"
 
@@ -415,6 +453,15 @@ msgstr "የሚመስለው፡ {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "የሚመስለው፡ {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "የሚመስለው፡ %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "የሚሰማው፡ %s°C"
+
+msgid "Feels like: N/A"
+msgstr "የሚሰማው፡ N/A"
 
 msgid "Finland"
 msgstr "ፊኒላንድ"
@@ -425,17 +472,20 @@ msgstr "የመጀመሪያ ሩብ"
 msgid "Fog"
 msgstr "ጭጋግ"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API ማዋቀር"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API ምስክርነቶች ገና አልተዋቀሩም። እባክዎ በማዋቀር ስክሪኑ ውስጥ ያስገቡዋቸው።"
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል።"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API ማዋቀር"
+
 msgid "Foreca One"
 msgstr "ትንበያ አንድ"
+
+msgid "Foreca One | Map {}"
+msgstr "ትንበያ አንድ | ካርታ {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One የቀጥታ ካርታዎች (ኤፒአይ)"
@@ -446,23 +496,17 @@ msgstr "ትንበያ አንድ ምናሌ"
 msgid "Foreca One No stations found"
 msgstr "Foreca One ምንም ጣቢያዎች አልተገኙም።"
 
+msgid "Foreca One Setup"
+msgstr "Foreca One Setup"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One ጣቢያዎች፡ {} ጣቢያዎች በአቅራቢያ ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr "ትንበያ አንድ የአየር ሁኔታ ትንበያ"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "ትንበያ አንድ የአየር ሁኔታ እና ትንበያ ver. %s"
 
-msgid "Foreca One | Map {}"
-msgstr "ትንበያ አንድ | ካርታ {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "ለ'%s' %d ከተሞች በአገር ውስጥ ተገኝተዋል"
-
-msgid "Found %d cities online for '%s'"
-msgstr "%d ከተሞች በመስመር ላይ ለ'%s' ተገኝተዋል"
+msgid "Foreca One Weather Forecast"
+msgstr "ትንበያ አንድ የአየር ሁኔታ ትንበያ"
 
 msgid "Frame →"
 msgstr "ፍሬም →"
@@ -493,6 +537,9 @@ msgstr "ታላቋ ብሪታኒያ"
 
 msgid "Greece"
 msgstr "ግሪክ"
+
+msgid "Green"
+msgstr "አረንጓዴ"
 
 msgid "Green - Favorite 1"
 msgstr "አረንጓዴ - ተወዳጅ 1"
@@ -533,14 +580,17 @@ msgstr "ሙቅ (30-40 ° ሴ)"
 msgid "Hour Details"
 msgstr "የሰዓት ዝርዝሮች"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "እርጥበት"
 
-msgid "Humidity: %s%%"
-msgstr "እርጥበት፡ %s%%"
-
 msgid "Humidity: {}%"
 msgstr "እርጥበት፡ {}%"
+
+msgid "Humidity: %s%%"
+msgstr "እርጥበት፡ %s%%"
 
 msgid "Hungary"
 msgstr "ሃንጋሪ"
@@ -552,13 +602,13 @@ msgid "Illumination"
 msgstr "ማብራት"
 
 msgid "Illumination: {:.1f}%"
-msgstr "ብርሃን፡ {:.1f}%"
+msgstr "ብርሃን፡ _CSH_0__%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "ምስል %(የአሁኑ) d/%(ጠቅላላ)d - %(ቀን)s"
+msgstr "ምስል %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "ምስል %(የአሁኑ) d/%(ጠቅላላ)d - %(ቀን)s (ለአፍታ ቆሟል)"
+msgstr "ምስል %(current)d/%(total)d – %(day)s (ለአፍታ ቆሟል)"
 
 msgid "Image not available"
 msgstr "ምስል አይገኝም"
@@ -598,6 +648,9 @@ msgstr "የቁልፍ ሰሌዳ"
 
 msgid "Last Quarter"
 msgstr "የመጨረሻው ሩብ"
+
+msgid "Last update"
+msgstr "የመጨረሻው ዝመና"
 
 msgid "Latvia"
 msgstr "ላቲቪያ"
@@ -650,9 +703,11 @@ msgstr "የጨረቃ ደረጃዎች ከሚቀጥለው ወር"
 msgid "Luxembourg"
 msgstr "ሉዘምቤርግ"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "የሚታየው መጠን፡ N/A"
+msgstr "መጠን፡ N/A"
+
+msgid "Map {} selected"
+msgstr "ካርታ {} ተመርጧል"
 
 msgid "Map & Tiles Loaded"
 msgstr "ካርታ እና ሰቆች ተጭነዋል"
@@ -662,9 +717,6 @@ msgstr "ካርታ ተጭኗል"
 
 msgid "Map server"
 msgstr "የካርታ አገልጋይ"
-
-msgid "Map {} selected"
-msgstr "ካርታ {} ተመርጧል"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "ሜክለንበርግ-ቮርፖመርን።"
@@ -708,11 +760,10 @@ msgstr "መጠነኛ ዝናብ"
 msgid "Month"
 msgstr "ወር"
 
-#, fuzzy
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "የጨረቃ ዝርዝሮች"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "የጨረቃ ዝርዝሮች"
 
 msgid "Moonrise: {}"
@@ -727,17 +778,17 @@ msgstr "ጠዋት"
 msgid "Mostly clear"
 msgstr "በአብዛኛው ግልጽ"
 
-msgid "Move Down"
+msgid "Move down"
 msgstr "ወደ ታች ውሰድ"
 
-msgid "Move Up"
-msgstr "ወደ ላይ ውሰድ"
-
-msgid "Move down"
+msgid "Move Down"
 msgstr "ወደ ታች ውሰድ"
 
 msgid "Move up"
 msgstr "ወደ ላይ ተንቀሳቀስ"
+
+msgid "Move Up"
+msgstr "ወደ ላይ ውሰድ"
 
 msgid "N"
 msgstr "ኤን"
@@ -752,31 +803,22 @@ msgid "New Moon"
 msgstr "አዲስ ጨረቃ"
 
 msgid "New version {version} is available."
-msgstr "አዲስ ስሪት {ስሪት} ይገኛል።"
+msgstr "አዲስ ስሪት {version} ይገኛል።"
 
 msgid "Next"
 msgstr "ቀጥሎ"
 
-msgid "Next Image"
-msgstr "ቀጣይ ምስል"
-
 msgid "Next frame"
 msgstr "ቀጣይ ፍሬም"
+
+msgid "Next Image"
+msgstr "ቀጣይ ምስል"
 
 msgid "Next page"
 msgstr "ቀጣይ ገጽ"
 
 msgid "Next time"
 msgstr "በሚቀጥለው ጊዜ"
-
-msgid "No Internet connection detected."
-msgstr "ምንም የበይነመረብ ግንኙነት አልተገኘም።"
-
-msgid "No OSM tiles"
-msgstr "ምንም OSM ሰቆች የሉም"
-
-msgid "No cities found locally for '%s'"
-msgstr "ለ'%s' ምንም ከተሞች በአካባቢው አልተገኙም"
 
 msgid "No city selected"
 msgstr "ምንም ከተማ አልተመረጠም።"
@@ -787,8 +829,14 @@ msgstr "ምንም ውሂብ የለም"
 msgid "No date available"
 msgstr "ምንም ቀን አይገኝም"
 
+msgid "No Internet connection detected."
+msgstr "ምንም የበይነመረብ ግንኙነት አልተገኘም።"
+
 msgid "No location selected"
 msgstr "ምንም ቦታ አልተመረጠም።"
+
+msgid "No OSM tiles"
+msgstr "ምንም OSM ሰቆች የሉም"
 
 msgid "No specific legend available."
 msgstr "ምንም የተለየ አፈ ታሪክ አይገኝም።"
@@ -817,6 +865,9 @@ msgstr "ሰሜን ራይን-ዌስትፋሊያ"
 msgid "Norway"
 msgstr "ኖርዌይ"
 
+msgid "Ok - Details"
+msgstr "እሺ - ዝርዝሮች"
+
 msgid "OK - Ext Info"
 msgstr "እሺ - Ext መረጃ"
 
@@ -825,9 +876,6 @@ msgstr "እሺ - ትንበያ"
 
 msgid "OK - Open Map"
 msgstr "እሺ - ካርታ ክፈት"
-
-msgid "Ok - Details"
-msgstr "እሺ - ዝርዝሮች"
 
 msgid "Open Keyboard"
 msgstr "የቁልፍ ሰሌዳ ክፈት"
@@ -863,7 +911,7 @@ msgid "Overcast and snow showers"
 msgstr "ከመጠን በላይ እና የበረዶ ዝናብ"
 
 msgid "Overcast and wet snow"
-msgstr "እርጥብ እና ከመጠን በላይ በረዶ"
+msgstr "ከመጠን በላይ እና እርጥብ በረዶ"
 
 msgid "Overcast and wet snow showers"
 msgstr "ከመጠን በላይ እና እርጥብ የበረዶ ዝናብ"
@@ -874,16 +922,16 @@ msgstr "ድንጋጤ፣ ነጎድጓድ በዝናብ"
 msgid "Overnight"
 msgstr "በአንድ ሌሊት"
 
-msgid "Page Down"
-msgstr "ገጽ ወደታች"
-
-msgid "Page Up"
-msgstr "ገጽ ወደ ላይ"
-
 msgid "Page down"
 msgstr "ገጽ ወደታች"
 
+msgid "Page Down"
+msgstr "ገጽ ወደታች"
+
 msgid "Page up"
+msgstr "ገጽ ወደ ላይ"
+
+msgid "Page Up"
 msgstr "ገጽ ወደ ላይ"
 
 msgid "Pan down"
@@ -899,7 +947,7 @@ msgid "Pan up"
 msgstr "ወደላይ"
 
 msgid "Partly cloudy"
-msgstr "ከፊል ደመናማ"
+msgstr "በከፊል ደመናማ"
 
 msgid "Partly cloudy and light rain"
 msgstr "ከፊል ደመናማ እና ቀላል ዝናብ"
@@ -920,7 +968,7 @@ msgid "Partly cloudy and wet snow showers"
 msgstr "በከፊል ደመናማ እና እርጥብ የበረዶ ዝናብ"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr "ከፊል ደመናማ፣ ዝናብ ሊሆን የሚችል ነጎድጓድ"
+msgstr "ከፊል ደመናማ፣ ከዝናብ ጋር ሊሆኑ የሚችሉ ነጎድጓዶች"
 
 msgid "Perigee"
 msgstr "ፔሪጂ"
@@ -964,6 +1012,12 @@ msgstr "እንደገና ለመፈለግ RED ን ይጫኑ"
 msgid "Pressure"
 msgstr "ጫና"
 
+msgid "Pressure: {}"
+msgstr "ጫና፡ {}"
+
+msgid "Pressure: {} hPa"
+msgstr "ግፊት፡ {} hPa"
+
 msgid "Pressure: %s"
 msgstr "ግፊት፡ %s"
 
@@ -971,13 +1025,7 @@ msgid "Pressure: %s hPa"
 msgstr "ግፊት፡ %s hPa"
 
 msgid "Pressure: N/A"
-msgstr "ጫና፡ ኤን/ኤ"
-
-msgid "Pressure: {}"
-msgstr "ጫና፡ {}"
-
-msgid "Pressure: {} hPa"
-msgstr "ግፊት፡ {} hPa"
+msgstr "ግፊት፡ N/A"
 
 msgid "Prev"
 msgstr "ቀዳሚ"
@@ -985,11 +1033,11 @@ msgstr "ቀዳሚ"
 msgid "Previous"
 msgstr "ቀዳሚ"
 
-msgid "Previous Image"
-msgstr "ቀዳሚ ምስል"
-
 msgid "Previous frame"
 msgstr "የቀድሞ ፍሬም"
+
+msgid "Previous Image"
+msgstr "ቀዳሚ ምስል"
 
 msgid "Previous page"
 msgstr "ያለፈው ገጽ"
@@ -1012,6 +1060,9 @@ msgstr "ዝናብ፡ {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer ራዳር"
 
+msgid "Red"
+msgstr "ቀይ"
+
 msgid "Red - Color select"
 msgstr "ቀይ - ቀለም ይምረጡ"
 
@@ -1033,11 +1084,11 @@ msgstr "የቀኝ ቀስት - በሚቀጥለው ቀን"
 msgid "Rise"
 msgstr "ተነሳ"
 
-msgid "Rise azimuth: N/A"
-msgstr "አዚሙት ተነሳ፡ N/A"
-
 msgid "Rise azimuth: {:.0f}°"
 msgstr "አዚሙት ተነሳ፡ {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "አዚሙት ተነሳ፡ N/A"
 
 msgid "Russia"
 msgstr "ራሽያ"
@@ -1060,6 +1111,9 @@ msgstr "አስቀምጥ"
 msgid "Save API settings"
 msgstr "የኤፒአይ ቅንብሮችን አስቀምጥ"
 
+msgid "Save translation settings"
+msgstr "የትርጉም ቅንብሮችን ያስቀምጡ"
+
 msgid "Saxony"
 msgstr "ሳክሶኒ"
 
@@ -1078,14 +1132,11 @@ msgstr "ፍለጋ መጀመሪያ በመስመር ላይ ይሞክራል፣ ካ�
 msgid "Search your City"
 msgstr "ከተማዎን ይፈልጉ"
 
-msgid "Searching for '%s'..."
-msgstr "«%s»ን በመፈለግ ላይ..."
-
 msgid "Select"
 msgstr "ይምረጡ"
 
-msgid "Select Region"
-msgstr "ክልል ይምረጡ"
+msgid "Select {} unit"
+msgstr "{} አሃድ ይምረጡ"
 
 msgid "Select a city"
 msgstr "ከተማ ይምረጡ"
@@ -1093,23 +1144,23 @@ msgstr "ከተማ ይምረጡ"
 msgid "Select a map with OK"
 msgstr "እሺ ያለው ካርታ ይምረጡ"
 
+msgid "Select Region"
+msgstr "ክልል ይምረጡ"
+
 msgid "Select unit system"
 msgstr "አሃድ ስርዓት ይምረጡ"
 
 msgid "Select wind unit"
 msgstr "የንፋስ ክፍልን ይምረጡ"
 
-msgid "Select {} unit"
-msgstr "{} አሃድ ይምረጡ"
-
 msgid "Selected hour details"
 msgstr "የተመረጡ የሰዓት ዝርዝሮች"
 
-msgid "Set azimuth: N/A"
-msgstr "አዚም አዘጋጅ፡ N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "አዚም አዘጋጅ፡ {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "አዚም አዘጋጅ፡ N/A"
 
 msgid "Sets"
 msgstr "ስብስቦች"
@@ -1124,7 +1175,7 @@ msgid "Slovakia"
 msgstr "ስሎቫኒካ"
 
 msgid "Slower: {}s"
-msgstr "በዝግታ፡ {}s"
+msgstr "ቀስ ብሎ፡ {}s"
 
 msgid "Snow / ice"
 msgstr "በረዶ / በረዶ"
@@ -1171,20 +1222,14 @@ msgstr "ስዊዲን"
 msgid "Switzerland"
 msgstr "ስዊዘሪላንድ"
 
+msgid "Target Language"
+msgstr "የዒላማ ቋንቋ"
+
 msgid "Temp"
 msgstr "የሙቀት መጠን"
 
 msgid "Temperature"
 msgstr "የሙቀት መጠን"
-
-msgid "Temperature: %d%s"
-msgstr "የሙቀት መጠን፡ %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "የሙቀት መጠን፡ %s°C"
-
-msgid "Temperature: N/A"
-msgstr "የሙቀት መጠን፡ N/A"
 
 msgid "Temperature: {}"
 msgstr "የሙቀት መጠን፡ {}"
@@ -1195,11 +1240,20 @@ msgstr "የሙቀት መጠን፡ {}{}"
 msgid "Temperature: {}°C"
 msgstr "የሙቀት መጠን፡ {}°ሴ"
 
+msgid "Temperature: %d%s"
+msgstr "የሙቀት መጠን፡ %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "የሙቀት መጠን፡ %s°C"
+
+msgid "Temperature: N/A"
+msgstr "የሙቀት መጠን፡ N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "እናመሰግናለን {አመሰግናለሁ} እና ሌሎች ጓደኞች ለጥቆማዎች"
+msgstr "ለአስተያየት {thanks} እና ሌሎች ጓደኞች እናመሰግናለን"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "የርቀት ስሪቱ ({remote}) ከአሁኑ ({current}) ይበልጣል።"
+msgstr "የርቀት ስሪት ({remote}) ከአሁኑ ({current}) ይበልጣል።"
 
 msgid "Thin upper cloud"
 msgstr "ቀጭን የላይኛው ደመና"
@@ -1234,23 +1288,20 @@ msgstr "ነገ"
 msgid "Transit (culmination): {}"
 msgstr "መጓጓዣ (ፍጻሜ): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "የመጓጓዣ ከፍታ፡ N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "የመጓጓዣ ከፍታ፡ {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "ግልጽነት ቅንብሮች"
+msgid "Transit altitude: N/A"
+msgstr "የመጓጓዣ ከፍታ፡ N/A"
+
+msgid "Translation Settings"
+msgstr "የትርጉም ቅንብሮች"
 
 msgid "Transparency level"
 msgstr "ግልጽነት ደረጃ"
 
-msgid "UV Index"
-msgstr "UV መረጃ ጠቋሚ"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "ግልጽነት ቅንብሮች"
 
 msgid "Unhealthy"
 msgstr "ጤናማ ያልሆነ"
@@ -1285,17 +1336,14 @@ msgstr "ዝማኔ ተጠናቅቋል። እባክዎ Enigma2ን እንደገና 
 msgid "Updated {}"
 msgstr "ተዘምኗል {}"
 
-msgid "Updated: N/A"
-msgstr "የዘመነ፡ N/A"
-
 msgid "Updated: {}"
 msgstr "ተዘምኗል፡ {}"
 
+msgid "Updated: N/A"
+msgstr "ተዘምኗል፡ N/A"
+
 msgid "Updating..."
 msgstr "በማዘመን ላይ..."
-
-msgid "Use arrow keys to scroll"
-msgstr "ለማሸብለል የቀስት ቁልፎችን ይጠቀሙ"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "ጊዜ ለመቀየር ← → ይጠቀሙ | ለመውጣት እሺ"
@@ -1306,8 +1354,26 @@ msgstr "ለማንቀሳቀስ ←/→/↑/↓ ይጠቀሙ | ለመውጣት እ
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "ለመቀየር ▲/▼ ይጠቀሙ፣ ለመምረጥ እሺ"
 
+msgid "Use arrow keys to scroll"
+msgstr "ለማሸብለል የቀስት ቁልፎችን ይጠቀሙ"
+
+msgid "Use Google Translate"
+msgstr "ጎግል ትርጉምን ተጠቀም"
+
 msgid "Using current time"
 msgstr "የአሁኑን ጊዜ በመጠቀም"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV መረጃ ጠቋሚ"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "ቁ."
 
 msgid "Very heavy rain"
 msgstr "በጣም ከባድ ዝናብ"
@@ -1324,11 +1390,11 @@ msgstr "በጣም ዝቅተኛ"
 msgid "Very unhealthy"
 msgstr "በጣም ጤናማ ያልሆነ"
 
-msgid "Visibility: %s m"
-msgstr "ታይነት፡ %s m"
-
 msgid "Visibility: {} m"
 msgstr "ታይነት፡ {} ሜ"
+
+msgid "Visibility: %s m"
+msgstr "ታይነት፡ %s m"
 
 msgid "W"
 msgstr "ወ"
@@ -1346,7 +1412,7 @@ msgid "Waxing Crescent"
 msgstr "የሰም ጨረቃ"
 
 msgid "Waxing Gibbous"
-msgstr "እየሰከረ ጊቦስ"
+msgstr "እየሰመጠ ጊቦስ"
 
 msgid "Weather"
 msgstr "የአየር ሁኔታ"
@@ -1357,11 +1423,11 @@ msgstr "የአየር ሁኔታ ካርታ"
 msgid "Weather Maps"
 msgstr "የአየር ሁኔታ ካርታዎች"
 
-msgid "Weather Maps & Satellite"
-msgstr "የአየር ሁኔታ ካርታዎች እና ሳተላይት"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "የአየር ሁኔታ ካርታዎች (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "የአየር ሁኔታ ካርታዎች እና ሳተላይት"
 
 msgid "Weather Maps Slideshow"
 msgstr "የአየር ሁኔታ ካርታዎች ስላይድ ትዕይንት።"
@@ -1381,14 +1447,14 @@ msgstr "ሳምንታዊ ትንበያ"
 msgid "Wind"
 msgstr "ንፋስ"
 
+msgid "Wind direction"
+msgstr "የንፋስ አቅጣጫ"
+
 msgid "Wind Direction today"
 msgstr "የንፋስ አቅጣጫ ዛሬ"
 
 msgid "Wind Direction tomorrow"
-msgstr "ነገ የንፋስ አቅጣጫ"
-
-msgid "Wind direction"
-msgstr "የንፋስ አቅጣጫ"
+msgstr "የንፋስ አቅጣጫ ነገ"
 
 msgid "Wind speed"
 msgstr "የንፋስ ፍጥነት"
@@ -1397,7 +1463,16 @@ msgid "Wind speed {}"
 msgstr "የንፋስ ፍጥነት {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr "የንፋስ ፍጥነት: {:.1f} {}"
+msgstr "የንፋስ ፍጥነት፡ {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "ንፋስ፡ {}"
+
+msgid "Wind: {} {} {}"
+msgstr "ንፋስ፡ {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "ንፋስ፡ {} ኪሜ በሰአት {}"
 
 msgid "Wind: %d %s %s"
 msgstr "ንፋስ፡ %d %s %s"
@@ -1406,16 +1481,7 @@ msgid "Wind: %s km/h %s"
 msgstr "ንፋስ፡ %s ኪሜ/ሰ %s"
 
 msgid "Wind: N/A"
-msgstr "ንፋስ፡ ኤን/ኤ"
-
-msgid "Wind: {}"
-msgstr "ንፋስ፡ {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "ንፋስ፡ {} ኪሜ በሰአት {}"
-
-msgid "Wind: {} {} {}"
-msgstr "ንፋስ፡ {} {} {}"
+msgstr "ንፋስ፡ N/A"
 
 msgid "Window transparency"
 msgstr "የመስኮት ግልጽነት"
@@ -1423,14 +1489,14 @@ msgstr "የመስኮት ግልጽነት"
 msgid "Yellow - Favorite 2"
 msgstr "ቢጫ - ተወዳጅ 2"
 
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "ቀድሞውኑ {version} ተጭኗል።\n እንደገና መጫን ይፈልጋሉ?"
+
 msgid "Zoom In"
 msgstr "አጉላ"
 
 msgid "Zoom Out"
 msgstr "አሳንስ"
-
-msgid "Zoom+"
-msgstr "አጉላ+"
 
 msgid "Zoom-"
 msgstr "አጉላ -"
@@ -1438,44 +1504,6 @@ msgstr "አጉላ -"
 msgid "Zoom:"
 msgstr "አጉላ፡"
 
-msgid "v."
-msgstr "ቁ."
+msgid "Zoom+"
+msgstr "አጉላ+"
 
-msgid "{hours} h {mins} min"
-msgstr "{ሰዓታት} ሰ {ደቂቃ} ደቂቃ"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• ሰማያዊ እንደ ቤት ለማስቀመጥ\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- 500 ከተሞችን ለመዝለል\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "እንደ ተወዳጅ ለመቆጠብ አረንጓዴ 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• ከተማ ለመምረጥ እሺ\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• የፍለጋ ቁልፍ ሰሌዳ ለመክፈት ቀይ\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• ለማሰስ የቀስት ቁልፎችን ተጠቀም\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• እንደ ተወዳጅ ለመቆጠብ ቢጫ 2\n"
-
-msgid "← Frame"
-msgstr "← ፍሬም"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(ተጨማሪ መረጃ አይገኝም)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== የጨረቃ ዝርዝሮች ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "የማዕዘን ዲያሜትር: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "የሚታየው መጠን፡ N/A"

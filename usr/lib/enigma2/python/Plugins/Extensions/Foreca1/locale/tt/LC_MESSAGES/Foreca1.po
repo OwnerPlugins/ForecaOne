@@ -1,23 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# tt translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:55+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Tatar\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tt <ekekaz@gmail.com>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(Өстәмә мәгълүмат юк)"
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} мин"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• Home\n итеп сакларга Зәңгәр\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH + / CH- 500 шәһәрдән сикерергә\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "ЯРЫН Яраткан 1\n итеп сакларга\n"
+
+msgid "• OK to select city\n"
+msgstr "• city\n сайларга ярый\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• эзләү клавиатурасын ачу өчен RED\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• navig\n өчен ук ачкычларын кулланыгыз\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL + / VOL- 100 шәһәрдән сикерергә\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "Яраткан 2\n итеп сакларга сары\n"
+
+msgid "← Frame"
+msgstr "Me Рам"
 
 msgid "0 - Today"
 msgstr "0 - Бүген"
@@ -43,14 +67,38 @@ msgstr "6 - Бүген + 6 көн"
 msgid "7 - Today + 7 days"
 msgstr "7 - Бүген + 7 көн"
 
+msgid "7 Day Forecast"
+msgstr "7 көнлек фараз"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Бүген + 8 көн"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Бүген + 9 көн"
 
-msgid "=== MOON DETAILS ==="
-msgstr "=== АЙ ДЕТАИЛЛАРЫ ==="
+msgid "Advanced"
+msgstr "Алга киткән"
+
+msgid "Advanced Unit Settings"
+msgstr "Алга киткән берәмлек көйләүләре"
+
+msgid "Afternoon"
+msgstr "Төштән соң"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "Яңа Айдан яшь: {:.1f} көн"
+
+msgid "Age: N/A"
+msgstr "Яше: N / A."
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Почмак диаметры: {:.0f} ″"
+
+msgid "Angular diameter: N/A"
+msgstr "Почмак диаметры: N / A."
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API конфигурация файллары табылмады! \n\n Зинһар, файл ясагыз: \n{0}\n\n Сезнең Foreca API таныклыкларыгыз белән."
 
 msgid "API credentials not configured."
 msgstr "API таныклыклары конфигурацияләнмәгән."
@@ -64,38 +112,14 @@ msgstr "API серсүз"
 msgid "API user"
 msgstr "API кулланучы"
 
+msgid "Apparent magnitude: {:.2f}"
+msgstr "Күренгән зурлык: {:.2f}"
+
 msgid "AQI {}"
-msgstr ""
+msgstr "AQI {}"
 
 msgid "AQI: N/A"
 msgstr "AQI: N / A."
-
-msgid "Advanced"
-msgstr "Алга киткән"
-
-msgid "Advanced Unit Settings"
-msgstr "Алга киткән берәмлек көйләүләре"
-
-msgid "Afternoon"
-msgstr "Төштән соң"
-
-msgid "Age since New Moon: {:.1f} days"
-msgstr "Яңа Айдан яшь: {: .1f} көн"
-
-msgid "Age: N/A"
-msgstr "Яше: N / A."
-
-msgid "Angular diameter: N/A"
-msgstr "Почмак диаметры: N / A."
-
-msgid "Angular diameter: {:.0f}"
-msgstr "Почмак диаметры: {: .0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "Күренгән зурлык: N / A."
-
-msgid "Apparent magnitude: {:.2f}"
-msgstr "Күренгән зурлык: {: .2f}"
 
 msgid "Assign to Favorite 1"
 msgstr "Яраткан 1гә билгеләгез"
@@ -133,6 +157,9 @@ msgstr "Берлин"
 msgid "Black Moon"
 msgstr "Кара ай"
 
+msgid "Blue"
+msgstr "Зәңгәр"
+
 msgid "Blue - Home"
 msgstr "Зәңгәр - Өй"
 
@@ -155,7 +182,7 @@ msgid "Celsius, km/h, hPa"
 msgstr "Celельсий, км / сәг"
 
 msgid "Changelog: {changelog}"
-msgstr "Чангелог: {чангелог}"
+msgstr "Чангелог: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "Changзгәрешләр шунда ук кулланыла"
@@ -166,11 +193,14 @@ msgstr "Яңартуларны тикшерегез"
 msgid "Choose detail view"
 msgstr "Деталь күренешне сайлагыз"
 
+msgid "City list file not found!"
+msgstr "Шәһәр исемлеге файллары табылмады!"
+
 msgid "City Selection"
 msgstr "Шәһәр сайлау"
 
-msgid "City list file not found!"
-msgstr "Шәһәр исемлеге файллары табылмады!"
+msgid "City Selection Help:\n\n"
+msgstr "Шәһәр сайлау ярдәме: \n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Foreca One Temp Files?"
@@ -217,16 +247,13 @@ msgstr "Болытлы, яңгырлы күк күкрәү"
 msgid "Cold (< 0°C)"
 msgstr "Салкын (<0 ° C)"
 
-msgid "Color Legend"
-msgstr "Легенда"
-
-msgid "Color Selector"
-msgstr "Төсләр селекторы"
-
 msgid "Color data"
 msgstr "Төсләр турында мәгълүмат"
 
 msgid "Color legend"
+msgstr "Легенда"
+
+msgid "Color Legend"
 msgstr "Легенда"
 
 msgid "Color name"
@@ -235,8 +262,14 @@ msgstr "Төс исеме"
 msgid "Color select"
 msgstr "Төс сайлау"
 
+msgid "Color Selector"
+msgstr "Төсләр селекторы"
+
 msgid "Condition: {}"
 msgstr "Шарт: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API таныклыкларын конфигурацияләгез"
 
 msgid "Continents Weather Maps"
 msgstr "Континентлар һава торышы карталары"
@@ -290,7 +323,7 @@ msgid "Details"
 msgstr "Детальләр"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Dewpoint {}"
 
 msgid "Dewpoint {}°C"
 msgstr "Чишмә ноктасы {} ° C."
@@ -304,17 +337,20 @@ msgstr "Чишмә ноктасы:% s ° C."
 msgid "Dewpoint: N/A"
 msgstr "Чишмә ноктасы: N / A."
 
+msgid "Distance"
+msgstr "Дистанция"
+
 msgid "Distance {} km"
 msgstr "Аралык {} км"
-
-msgid "Distance: %s"
-msgstr "Аралык:% s"
 
 msgid "Distance: {}"
 msgstr "Аралык: {}"
 
 msgid "Distance: {} km"
 msgstr "Аралык: {} км"
+
+msgid "Distance: %s"
+msgstr "Аралык:% s"
 
 msgid "Do you want to install it now?"
 msgstr "Хәзер урнаштырырга телисезме?"
@@ -323,7 +359,7 @@ msgid "Down"
 msgstr "Түбән"
 
 msgid "Down - Next page"
-msgstr "Түбәндә - Киләсе бит"
+msgstr "Түбән - Киләсе бит"
 
 msgid "Download error"
 msgstr "Йөкләү хата"
@@ -382,8 +418,11 @@ msgstr "Экстремаль / күк күкрәү"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Фаренгейт, миль, inHg"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "Конфигурация файлын яза алмады: \n% s"
+
 msgid "Faster: {}s"
-msgstr "Тизрәк: {} s"
+msgstr "Тизрәк: {s"
 
 msgid "Favorite 1"
 msgstr "Яраткан 1"
@@ -391,10 +430,10 @@ msgstr "Яраткан 1"
 msgid "Favorite 2"
 msgstr "Яраткан 2"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "Яраткан детальләр"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "Яраткан детальләр"
 
 msgid "Feels like"
@@ -406,15 +445,6 @@ msgstr "{} Кебек"
 msgid "Feels like {}{}"
 msgstr "{} {Like кебек тоела"
 
-msgid "Feels like: %d%s"
-msgstr "Кебек:% d% s"
-
-msgid "Feels like: %s°C"
-msgstr "Кебек:% s ° C."
-
-msgid "Feels like: N/A"
-msgstr "Кебек: N / A."
-
 msgid "Feels like: {}"
 msgstr "Кебек: {}"
 
@@ -423,6 +453,15 @@ msgstr "Кебек: {} {}"
 
 msgid "Feels like: {}°C"
 msgstr "Кебек: {} ° C."
+
+msgid "Feels like: %d%s"
+msgstr "Кебек:% d% s"
+
+msgid "Feels like: %s°C"
+msgstr "Кебек:% s ° C."
+
+msgid "Feels like: N/A"
+msgstr "Кебек: N / A."
 
 msgid "Finland"
 msgstr "Финляндия"
@@ -433,17 +472,20 @@ msgstr "Беренче чирек"
 msgid "Fog"
 msgstr "Томан"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API урнаштыру"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API таныклыклары әле конфигурацияләнмәгән. Зинһар, аларны урнаштыру экранына кертегез."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API көйләүләре уңышлы сакланды."
 
+msgid "Foreca API Setup"
+msgstr "Foreca API урнаштыру"
+
 msgid "Foreca One"
 msgstr "Беренче"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Карта {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One Live Карталар (API)"
@@ -454,23 +496,17 @@ msgstr "Foreca Бер меню"
 msgid "Foreca One No stations found"
 msgstr "Форека Бер станция табылмады"
 
-msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr "Foreca One станцияләре: nearby} якындагы станцияләр ({})"
+msgid "Foreca One Setup"
+msgstr "Foreca One Setup"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Бер һава торышын фаразлау"
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "Foreca One станцияләре: near near якындагы станцияләр ({})"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One Weatherава торышы һәм фаразлау. % s"
 
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Карта {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "'% S' өчен җирле% d шәһәрләрен таптылар"
-
-msgid "Found %d cities online for '%s'"
-msgstr ""% S" өчен% d шәһәрләрен онлайнда таптыгыз"
+msgid "Foreca One Weather Forecast"
+msgstr "Бер һава торышын фаразлау"
 
 msgid "Frame →"
 msgstr "Рам →"
@@ -502,6 +538,9 @@ msgstr "Бөек Британия"
 msgid "Greece"
 msgstr "Греция"
 
+msgid "Green"
+msgstr "Яшел"
+
 msgid "Green - Favorite 1"
 msgstr "Яшел - яраткан 1"
 
@@ -509,7 +548,7 @@ msgid "Gust {}"
 msgstr "Густ {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr "Густ: {: .1f} {}"
+msgstr "Густ: {:.1f} {}"
 
 msgid "Hamburg"
 msgstr "Гамбург"
@@ -541,14 +580,17 @@ msgstr "Кайнар (30-40 ° C)"
 msgid "Hour Details"
 msgstr "Сәгать детальләре"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "Дым"
 
-msgid "Humidity: %s%%"
-msgstr "Дым:% s %%"
-
 msgid "Humidity: {}%"
 msgstr "Дым: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Дым:% s %%"
 
 msgid "Hungary"
 msgstr "Венгрия"
@@ -560,13 +602,13 @@ msgid "Illumination"
 msgstr "Яктырту"
 
 msgid "Illumination: {:.1f}%"
-msgstr "Яктырту: {: .1f}%"
+msgstr "Яктырту: __CSH_0 __%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Рәсем% (агым) d /% (гомуми) d -% (көн) s"
+msgstr "Рәсем __PYPH_0 __ / __ PYPH_1__ - %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Рәсем% (агым) d /% (гомуми) d -% (көн) s (Пауза)"
+msgstr "Рәсем __PYPH_0 __ / __ PYPH_1__ - %(day)s (Пауза)"
 
 msgid "Image not available"
 msgstr "Рәсем юк"
@@ -606,6 +648,9 @@ msgstr "Клавиатура"
 
 msgid "Last Quarter"
 msgstr "Соңгы чирек"
+
+msgid "Last update"
+msgstr "Соңгы яңарту"
 
 msgid "Latvia"
 msgstr "Латвия"
@@ -658,6 +703,12 @@ msgstr "Киләсе айдан ай этаплары"
 msgid "Luxembourg"
 msgstr "Люксембург"
 
+msgid "Magnitude: N/A"
+msgstr "Зурлык: N / A."
+
+msgid "Map {} selected"
+msgstr "Карта {} сайланган"
+
 msgid "Map & Tiles Loaded"
 msgstr "Карта һәм плиткалар йөкләнгән"
 
@@ -666,9 +717,6 @@ msgstr "Карта йөкләнгән"
 
 msgid "Map server"
 msgstr "Карта серверы"
-
-msgid "Map {} selected"
-msgstr "Карта {} сайланган"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Мекленбург-Ворпоммерн"
@@ -715,6 +763,9 @@ msgstr "Ай"
 msgid "Moon details"
 msgstr "Ай детальләре"
 
+msgid "Moon Details"
+msgstr "Ай турында мәгълүмат"
+
 msgid "Moonrise: {}"
 msgstr "Ай чыгу: {}"
 
@@ -727,16 +778,16 @@ msgstr "Таң"
 msgid "Mostly clear"
 msgstr "Күпчелек ачык"
 
-msgid "Move Down"
-msgstr "Түбәнгә күчегез"
-
-msgid "Move Up"
-msgstr "Күчерегез"
-
 msgid "Move down"
 msgstr "Түбәнгә күчегез"
 
+msgid "Move Down"
+msgstr "Түбәнгә күчегез"
+
 msgid "Move up"
+msgstr "Күчерегез"
+
+msgid "Move Up"
 msgstr "Күчерегез"
 
 msgid "N"
@@ -752,31 +803,22 @@ msgid "New Moon"
 msgstr "Яңа Ай"
 
 msgid "New version {version} is available."
-msgstr "Яңа версия {версия} бар."
+msgstr "{version} яңа версиясе бар."
 
 msgid "Next"
 msgstr "Киләсе"
 
-msgid "Next Image"
-msgstr "Киләсе рәсем"
-
 msgid "Next frame"
 msgstr "Киләсе рам"
+
+msgid "Next Image"
+msgstr "Киләсе рәсем"
 
 msgid "Next page"
 msgstr "Киләсе бит"
 
 msgid "Next time"
 msgstr "Киләсе тапкыр"
-
-msgid "No Internet connection detected."
-msgstr "Интернетка тоташу табылмады."
-
-msgid "No OSM tiles"
-msgstr "ОСМ плиткалары юк"
-
-msgid "No cities found locally for '%s'"
-msgstr "'% S' өчен җирле шәһәрләр табылмады"
 
 msgid "No city selected"
 msgstr "Бер шәһәр дә сайланмады"
@@ -787,8 +829,14 @@ msgstr "Мәгълүмат юк"
 msgid "No date available"
 msgstr "Дата юк"
 
+msgid "No Internet connection detected."
+msgstr "Интернетка тоташу табылмады."
+
 msgid "No location selected"
 msgstr "Урын сайланмаган"
+
+msgid "No OSM tiles"
+msgstr "ОСМ плиткалары юк"
 
 msgid "No specific legend available."
 msgstr "Конкрет легенда юк."
@@ -817,6 +865,9 @@ msgstr "Төньяк Рейн-Вестфалия"
 msgid "Norway"
 msgstr "Норвегия"
 
+msgid "Ok - Details"
+msgstr "Ярар - детальләр"
+
 msgid "OK - Ext Info"
 msgstr "Ярар - киң мәгълүмат"
 
@@ -825,9 +876,6 @@ msgstr "Ярар - фаразлау"
 
 msgid "OK - Open Map"
 msgstr "Ярар - Ачык картаны"
-
-msgid "Ok - Details"
-msgstr "Ярар - детальләр"
 
 msgid "Open Keyboard"
 msgstr "Клавиатураны ачу"
@@ -874,16 +922,16 @@ msgstr "Яңгыр белән күк күкрәү"
 msgid "Overnight"
 msgstr "Төнлә"
 
-msgid "Page Down"
-msgstr "Бит аста"
-
-msgid "Page Up"
-msgstr "Бит"
-
 msgid "Page down"
 msgstr "Битне аста"
 
+msgid "Page Down"
+msgstr "Бит аста"
+
 msgid "Page up"
+msgstr "Бит"
+
+msgid "Page Up"
 msgstr "Бит"
 
 msgid "Pan down"
@@ -964,6 +1012,12 @@ msgstr "Тагын эзләү өчен RED басыгыз"
 msgid "Pressure"
 msgstr "Басым"
 
+msgid "Pressure: {}"
+msgstr "Басым: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Басым: {} hPa"
+
 msgid "Pressure: %s"
 msgstr "Басым:% s"
 
@@ -973,23 +1027,17 @@ msgstr "Басым:% s hPa"
 msgid "Pressure: N/A"
 msgstr "Басым: N / A."
 
-msgid "Pressure: {}"
-msgstr "Басым: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Басым: {} hPa"
-
 msgid "Prev"
 msgstr "Алдагы"
 
 msgid "Previous"
 msgstr "Алдагы"
 
-msgid "Previous Image"
-msgstr "Алдагы рәсем"
-
 msgid "Previous frame"
 msgstr "Алдагы рам"
+
+msgid "Previous Image"
+msgstr "Алдагы рәсем"
 
 msgid "Previous page"
 msgstr "Алдагы бит"
@@ -1007,10 +1055,13 @@ msgid "Rain prob.: N/A"
 msgstr "Яңгыр проблемасы: N / A."
 
 msgid "Rain: {:.1f} {}"
-msgstr "Яңгыр: {: .1f} {}"
+msgstr "Яңгыр: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer Радар"
+
+msgid "Red"
+msgstr "Кызыл"
 
 msgid "Red - Color select"
 msgstr "Кызыл - төс сайлау"
@@ -1033,11 +1084,11 @@ msgstr "Уң ук - Киләсе көнне"
 msgid "Rise"
 msgstr "Тор"
 
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Азимутны күтәрегез: {:.0f} °"
+
 msgid "Rise azimuth: N/A"
 msgstr "Азимутны күтәрегез: N / A."
-
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Азимутны күтәрегез: {: .0f} °"
 
 msgid "Russia"
 msgstr "Россия"
@@ -1060,6 +1111,9 @@ msgstr "Саклагыз"
 msgid "Save API settings"
 msgstr "API көйләүләрен саклагыз"
 
+msgid "Save translation settings"
+msgstr "Тәрҗемә көйләүләрен саклагыз"
+
 msgid "Saxony"
 msgstr "Саксония"
 
@@ -1073,19 +1127,16 @@ msgid "Scraped"
 msgstr "Керелгән"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr "Эзләү башта онлайн исемлекне сынап карый, уңышсыз булса, җирле исемлек кулланса."
+msgstr "Эзләү башта онлайн исемлекне сынап карый, уңышсыз булса җирле исемлек кулланса."
 
 msgid "Search your City"
 msgstr "Шәһәрегезне эзләгез"
 
-msgid "Searching for '%s'..."
-msgstr "'% S' эзләү ..."
-
 msgid "Select"
 msgstr "Сайлагыз"
 
-msgid "Select Region"
-msgstr "Төбәкне сайлагыз"
+msgid "Select {} unit"
+msgstr "{} Берлеген сайлагыз"
 
 msgid "Select a city"
 msgstr "Шәһәрне сайлагыз"
@@ -1093,23 +1144,23 @@ msgstr "Шәһәрне сайлагыз"
 msgid "Select a map with OK"
 msgstr "Ярар булган картаны сайлагыз"
 
+msgid "Select Region"
+msgstr "Төбәкне сайлагыз"
+
 msgid "Select unit system"
 msgstr "Берәмлек системасын сайлагыз"
 
 msgid "Select wind unit"
 msgstr "Windил берәмлеген сайлагыз"
 
-msgid "Select {} unit"
-msgstr "{} Берлеген сайлагыз"
-
 msgid "Selected hour details"
 msgstr "Сайланган сәгать детальләре"
 
+msgid "Set azimuth: {:.0f}°"
+msgstr "Азимут куегыз: {:.0f} °"
+
 msgid "Set azimuth: N/A"
 msgstr "Азимут куегыз: N / A."
-
-msgid "Set azimuth: {:.0f}°"
-msgstr "Азимут куегыз: {: .0f} °"
 
 msgid "Sets"
 msgstr "Комплектлар"
@@ -1171,20 +1222,14 @@ msgstr "Швеция"
 msgid "Switzerland"
 msgstr "Швейцария"
 
+msgid "Target Language"
+msgstr "Максатлы тел"
+
 msgid "Temp"
 msgstr "Темп"
 
 msgid "Temperature"
 msgstr "Температура"
-
-msgid "Temperature: %d%s"
-msgstr "Температура:% d% s"
-
-msgid "Temperature: %s°C"
-msgstr "Температура:% s ° C."
-
-msgid "Temperature: N/A"
-msgstr "Температура: N / A."
 
 msgid "Temperature: {}"
 msgstr "Температура: {}"
@@ -1195,11 +1240,20 @@ msgstr "Температура: {} {}"
 msgid "Temperature: {}°C"
 msgstr "Температура: {} ° C."
 
+msgid "Temperature: %d%s"
+msgstr "Температура:% d% s"
+
+msgid "Temperature: %s°C"
+msgstr "Температура:% s ° C."
+
+msgid "Temperature: N/A"
+msgstr "Температура: N / A."
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Рәхмәт {рәхмәт} һәм тәкъдимнәр өчен башка дуслар"
+msgstr "Тәкъдимнәр өчен {thanks} һәм башка дусларга рәхмәт"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "Дистанцион версия ({дистанцион}) хәзергегә караганда олырак ({агым})."
+msgstr "Ерактагы версия ({remote}) хәзергегә караганда олырак ({current})."
 
 msgid "Thin upper cloud"
 msgstr "Нечкә өске болыт"
@@ -1234,23 +1288,20 @@ msgstr "Иртәгә"
 msgid "Transit (culmination): {}"
 msgstr "Транзит (кульминация): {}"
 
+msgid "Transit altitude: {:.0f}°"
+msgstr "Транзит биеклеге: {:.0f} °"
+
 msgid "Transit altitude: N/A"
 msgstr "Транзит биеклеге: N / A."
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Транзит биеклеге: {: .0f} °"
-
-msgid "Transparency Settings"
-msgstr "Ачыклык көйләүләре"
+msgid "Translation Settings"
+msgstr "Тәрҗемә көйләүләре"
 
 msgid "Transparency level"
 msgstr "Ачыклык дәрәҗәсе"
 
-msgid "UV Index"
-msgstr "UV индексы"
-
-msgid "UV N/A"
-msgstr "UV N / A."
+msgid "Transparency Settings"
+msgstr "Ачыклык көйләүләре"
 
 msgid "Unhealthy"
 msgstr "Сәламәт түгел"
@@ -1285,20 +1336,17 @@ msgstr "Яңарту тәмамланды. Зинһар, Enigma2-ны яңада
 msgid "Updated {}"
 msgstr "Яңартылды {}"
 
-msgid "Updated: N/A"
-msgstr "Яңартылды: N / A."
-
 msgid "Updated: {}"
 msgstr "Яңартылды: {}"
+
+msgid "Updated: N/A"
+msgstr "Яңартылды: N / A."
 
 msgid "Updating..."
 msgstr "Яңарту ..."
 
-msgid "Use arrow keys to scroll"
-msgstr "Әйләнү өчен ук ачкычларын кулланыгыз"
-
 msgid "Use ← → to change time | OK to exit"
-msgstr "Вакытны үзгәртү өчен ← → кулланыгыз | Чыгып китәргә ярый"
+msgstr "Вакытны үзгәртү өчен ← Use кулланыгыз Чыгып китәргә ярый"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
 msgstr "Күчерү өчен ← / → / ↑ / Use кулланыгыз | Чыгып китәргә ярый"
@@ -1306,8 +1354,26 @@ msgstr "Күчерү өчен ← / → / ↑ / Use кулланыгыз | Чы�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Changeзгәртү өчен ▲ / Use кулланыгыз, сайлау өчен ярый"
 
+msgid "Use arrow keys to scroll"
+msgstr "Әйләнү өчен ук ачкычларын кулланыгыз"
+
+msgid "Use Google Translate"
+msgstr "Google Translate кулланыгыз"
+
 msgid "Using current time"
 msgstr "Хәзерге вакытны куллану"
+
+msgid "UV"
+msgstr "УВ"
+
+msgid "UV Index"
+msgstr "UV индексы"
+
+msgid "UV N/A"
+msgstr "UV N / A."
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Бик көчле яңгыр"
@@ -1324,11 +1390,11 @@ msgstr "Бик түбән"
 msgid "Very unhealthy"
 msgstr "Бик сәламәт түгел"
 
-msgid "Visibility: %s m"
-msgstr "Күренеш:% s м"
-
 msgid "Visibility: {} m"
 msgstr "Күренеш: {} м"
+
+msgid "Visibility: %s m"
+msgstr "Күренеш:% s м"
 
 msgid "W"
 msgstr "В."
@@ -1357,11 +1423,11 @@ msgstr "Weatherава торышы картасы"
 msgid "Weather Maps"
 msgstr "Weatherава торышы карталары"
 
-msgid "Weather Maps & Satellite"
-msgstr "Weatherава торышы карталары һәм иярчен"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Weatherава торышы карталары (Веттерконтор)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Weatherава торышы карталары һәм иярчен"
 
 msgid "Weather Maps Slideshow"
 msgstr "Weatherава торышы карталары слайдшоу"
@@ -1381,14 +1447,14 @@ msgstr "Атналык фараз"
 msgid "Wind"
 msgstr "Windил"
 
+msgid "Wind direction"
+msgstr "Windил юнәлеше"
+
 msgid "Wind Direction today"
 msgstr "Бүген җил юнәлеше"
 
 msgid "Wind Direction tomorrow"
 msgstr "Иртәгә җил юнәлеше"
-
-msgid "Wind direction"
-msgstr "Windил юнәлеше"
 
 msgid "Wind speed"
 msgstr "Windил тизлеге"
@@ -1397,25 +1463,25 @@ msgid "Wind speed {}"
 msgstr "Windил тизлеге {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr "Windил тизлеге: {: .1f} {}"
+msgstr "Windил тизлеге: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Windил: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Windил: {} {}}}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Windил: {} км / с {}"
 
 msgid "Wind: %d %s %s"
 msgstr "Windил:% d% s% s"
 
 msgid "Wind: %s km/h %s"
-msgstr "Windил:% s км / с% s"
+msgstr "Windил:% s км / с% с"
 
 msgid "Wind: N/A"
 msgstr "Windил: N / A."
-
-msgid "Wind: {}"
-msgstr "Windил: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Windил: {} км / с {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Windил: {} {}}}"
 
 msgid "Window transparency"
 msgstr "Тәрәзә ачыклыгы"
@@ -1423,14 +1489,14 @@ msgstr "Тәрәзә ачыклыгы"
 msgid "Yellow - Favorite 2"
 msgstr "Сары - яраткан 2"
 
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Сездә {version} версиясе урнаштырылган. \n Сез аны яңадан урнаштырырга телисезме?"
+
 msgid "Zoom In"
 msgstr "Зурайту"
 
 msgid "Zoom Out"
 msgstr "Зурайту"
-
-msgid "Zoom+"
-msgstr "Зурайту +"
 
 msgid "Zoom-"
 msgstr "Зурайту-"
@@ -1438,32 +1504,6 @@ msgstr "Зурайту-"
 msgid "Zoom:"
 msgstr "Зурайту:"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "Зурайту +"
 
-msgid "{hours} h {mins} min"
-msgstr "{сәгать} ч {минут} мин"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• Зәңгәр өй итеп сакларга \ n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH + / CH- 500 шәһәрдән сикерергә \ n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "ЯРЫН Яраткан 1 \ n итеп сакларга"
-
-msgid "• OK to select city\n"
-msgstr "• Шәһәрне сайларга ярый \ n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• эзләү клавиатурасын ачу өчен RED \ n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Навигация өчен ук ачкычларын кулланыгыз"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• Сары төстә яраткан 2 \ n итеп сакларга"
-
-msgid "← Frame"
-msgstr "Me Рам"

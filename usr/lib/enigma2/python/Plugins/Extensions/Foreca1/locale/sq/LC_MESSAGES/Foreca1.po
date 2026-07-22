@@ -1,20 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# sq translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sq <ekekaz@gmail.com>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLU për ta ruajtur si Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- për të kapërcyer 500 qytete\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• E GJELBËR për ta ruajtur si të preferuar 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK për të zgjedhur city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• E KUQE për të hapur tastierën e kërkimit\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Përdorni tastet e shigjetave për të lundruar në \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- për të kapërcyer 100 qytete\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• VERDHA për ta ruajtur si të preferuar 2\n"
+
+msgid "← Frame"
+msgstr "← Korniza"
 
 msgid "0 - Today"
 msgstr "0 - Sot"
@@ -40,29 +67,14 @@ msgstr "6 - Sot + 6 ditë"
 msgid "7 - Today + 7 days"
 msgstr "7 - Sot + 7 ditë"
 
+msgid "7 Day Forecast"
+msgstr "Parashikimi 7-ditor"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Sot + 8 ditë"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Sot + 9 ditë"
-
-msgid "API credentials not configured."
-msgstr "Kredencialet API nuk janë konfiguruar."
-
-msgid "API error"
-msgstr "Gabim API"
-
-msgid "API password"
-msgstr "Fjalëkalimi API"
-
-msgid "API user"
-msgstr "Përdorues API"
-
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr ""
 
 msgid "Advanced"
 msgstr "E avancuar"
@@ -79,15 +91,35 @@ msgstr "Mosha që nga Hëna e Re: {:.1f} ditë"
 msgid "Age: N/A"
 msgstr "Mosha: N/A"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diametri këndor: {:.0f}″"
+
 msgid "Angular diameter: N/A"
 msgstr "Diametri këndor: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Diametri këndor: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Skedari i konfigurimit të API nuk u gjet!\n\nJu lutemi krijoni skedarin:\n{0}\n\nme kredencialet tuaja Foreca API."
+
+msgid "API credentials not configured."
+msgstr "Kredencialet API nuk janë konfiguruar."
+
+msgid "API error"
+msgstr "Gabim API"
+
+msgid "API password"
+msgstr "Fjalëkalimi API"
+
+msgid "API user"
+msgstr "Përdorues API"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Madhësia e dukshme: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Cakto tek e preferuara 1"
@@ -99,22 +131,22 @@ msgid "Assign to Home"
 msgstr "Cakto në Shtëpi"
 
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 msgid "Auth server"
 msgstr "Serveri i autorizimit"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Wuerttemberg"
 
 msgid "Barometer"
 msgstr "Barometri"
 
 msgid "Bavaria"
-msgstr ""
+msgstr "Bavaria"
 
 msgid "Belgium"
 msgstr "Belgjika"
@@ -125,6 +157,9 @@ msgstr "Berlini"
 msgid "Black Moon"
 msgstr "Hëna e zezë"
 
+msgid "Blue"
+msgstr "Blu"
+
 msgid "Blue - Home"
 msgstr "Blu - Shtëpi"
 
@@ -132,7 +167,7 @@ msgid "Blue Moon"
 msgstr "Hëna blu"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburg"
 
 msgid "Bremen"
 msgstr "Bremeni"
@@ -144,7 +179,7 @@ msgid "Cancel"
 msgstr "Anulo"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Celsius, km/h, hPa"
 
 msgid "Changelog: {changelog}"
 msgstr "Ndryshimet: {changelog}"
@@ -158,11 +193,14 @@ msgstr "Kontrolloni për përditësime"
 msgid "Choose detail view"
 msgstr "Zgjidhni pamjen e detajeve"
 
+msgid "City list file not found!"
+msgstr "Skedari i listës së qyteteve nuk u gjet!"
+
 msgid "City Selection"
 msgstr "Zgjedhja e qytetit"
 
-msgid "City list file not found!"
-msgstr "Skedari i listës së qyteteve nuk u gjet!"
+msgid "City Selection Help:\n\n"
+msgstr "Ndihmë për zgjedhjen e qytetit:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Të pastrohen skedarët Foreca One Temp?"
@@ -209,16 +247,13 @@ msgstr "Vranësira, stuhi me reshje shiu"
 msgid "Cold (< 0°C)"
 msgstr "Ftohtë (< 0°C)"
 
-msgid "Color Legend"
-msgstr "Legjenda e ngjyrave"
-
-msgid "Color Selector"
-msgstr "Zgjedhësi i ngjyrave"
-
 msgid "Color data"
 msgstr "Të dhënat e ngjyrave"
 
 msgid "Color legend"
+msgstr "Legjenda e ngjyrave"
+
+msgid "Color Legend"
 msgstr "Legjenda e ngjyrave"
 
 msgid "Color name"
@@ -227,8 +262,14 @@ msgstr "Emri i ngjyrës"
 msgid "Color select"
 msgstr "Zgjidh ngjyra"
 
+msgid "Color Selector"
+msgstr "Zgjedhësi i ngjyrave"
+
 msgid "Condition: {}"
 msgstr "Gjendja: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfiguro kredencialet e Foreca API"
 
 msgid "Continents Weather Maps"
 msgstr "Hartat e motit të kontinenteve"
@@ -296,17 +337,20 @@ msgstr "Pika e vesës: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Pika e vesës: N/A"
 
+msgid "Distance"
+msgstr "Largësia"
+
 msgid "Distance {} km"
 msgstr "Distanca {} km"
-
-msgid "Distance: %s"
-msgstr "Distanca: %s"
 
 msgid "Distance: {}"
 msgstr "Distanca: {}"
 
 msgid "Distance: {} km"
 msgstr "Distanca: {} km"
+
+msgid "Distance: %s"
+msgstr "Distanca: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Dëshiron ta instalosh tani?"
@@ -327,7 +371,7 @@ msgid "Downloading tiles..."
 msgstr "Po shkarkon pllakat..."
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "East Asia"
 msgstr "Azinë Lindore"
@@ -372,7 +416,10 @@ msgid "Extreme / thunderstorms"
 msgstr "Ekstreme / stuhi"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Shkrimi i skedarit të konfigurimit dështoi:\n%s"
 
 msgid "Faster: {}s"
 msgstr "Më shpejt: {}s"
@@ -383,10 +430,10 @@ msgstr "E preferuara 1"
 msgid "Favorite 2"
 msgstr "E preferuara 2"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "Detajet e të preferuarave"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "Detajet e të preferuarave"
 
 msgid "Feels like"
@@ -398,15 +445,6 @@ msgstr "Ndihet si {}"
 msgid "Feels like {}{}"
 msgstr "Ndihet si {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "Ndjehet si: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Ndjehet si: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Ndjehet si: N/A"
-
 msgid "Feels like: {}"
 msgstr "Ndjehet si: {}"
 
@@ -415,6 +453,15 @@ msgstr "Ndjehet si: {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "Ndjehet si: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Ndjehet si: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Ndjehet si: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Ndjehet si: N/A"
 
 msgid "Finland"
 msgstr "Finlanda"
@@ -425,20 +472,23 @@ msgstr "Tremujori i parë"
 msgid "Fog"
 msgstr "Mjegull"
 
-msgid "Foreca API Setup"
-msgstr "Konfigurimi i Foreca API"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Kredencialet e Foreca API nuk janë konfiguruar ende. Ju lutemi futini ato në ekranin e konfigurimit."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Cilësimet e Foreca API u ruajtën me sukses."
 
+msgid "Foreca API Setup"
+msgstr "Konfigurimi i Foreca API"
+
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Harta {}"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One Live Maps (API)"
 
 msgid "Foreca One Menu"
 msgstr "Menuja Foreca One"
@@ -446,23 +496,17 @@ msgstr "Menuja Foreca One"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Nuk u gjet asnjë stacion"
 
+msgid "Foreca One Setup"
+msgstr "Konfigurimi i Foreca One"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stacione Foreca One: {} stacione afër ({})"
 
-msgid "Foreca One Weather Forecast"
-msgstr ""
-
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
+msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Harta {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "U gjetën %d qytete në nivel lokal për '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "U gjetën %d qytete në internet për '%s'"
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Weather Forecast"
 
 msgid "Frame →"
 msgstr "Korniza →"
@@ -494,6 +538,9 @@ msgstr "Britania e Madhe"
 msgid "Greece"
 msgstr "Greqia"
 
+msgid "Green"
+msgstr "E gjelbër"
+
 msgid "Green - Favorite 1"
 msgstr "E gjelbër - E preferuara 1"
 
@@ -501,7 +548,7 @@ msgid "Gust {}"
 msgstr "Gurë {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr ""
+msgstr "Gust: {:.1f} {}"
 
 msgid "Hamburg"
 msgstr "Hamburgu"
@@ -533,14 +580,17 @@ msgstr "E nxehtë (30-40°C)"
 msgid "Hour Details"
 msgstr "Detajet e orës"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "Lagështia"
 
-msgid "Humidity: %s%%"
-msgstr "Lagështia: %s%%"
-
 msgid "Humidity: {}%"
 msgstr "Lagështia: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Lagështia: %s%%"
 
 msgid "Hungary"
 msgstr "Hungaria"
@@ -555,10 +605,10 @@ msgid "Illumination: {:.1f}%"
 msgstr "Ndriçimi: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Imazhi %(aktual)d/%(total)d – %(ditë)s"
+msgstr "Imazhi %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Imazhi %(aktuale)d/%(gjithsej)d – %(ditë)s (Në pauzë)"
+msgstr "Imazhi %(current)d/%(total)d – %(day)s (Në pauzë)"
 
 msgid "Image not available"
 msgstr "Imazhi nuk disponohet"
@@ -599,6 +649,9 @@ msgstr "Tastierë"
 msgid "Last Quarter"
 msgstr "Tremujori i fundit"
 
+msgid "Last update"
+msgstr "Përditësimi i fundit"
+
 msgid "Latvia"
 msgstr "Letonia"
 
@@ -615,7 +668,7 @@ msgid "Light rain / drizzle"
 msgstr "Shi i lehtë / shi"
 
 msgid "Light to moderate"
-msgstr "E lehtë në mesatare"
+msgstr "E lehtë deri në mesatare"
 
 msgid "Loading available maps..."
 msgstr "Hartat e disponueshme po ngarkohen..."
@@ -650,9 +703,11 @@ msgstr "Fazat hënore nga muaji i ardhshëm"
 msgid "Luxembourg"
 msgstr "Luksemburgu"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Madhësia e dukshme: N/A"
+msgstr "Madhësia: N/A"
+
+msgid "Map {} selected"
+msgstr "Harta {} u zgjodh"
 
 msgid "Map & Tiles Loaded"
 msgstr "Harta dhe pllakat u ngarkuan"
@@ -663,11 +718,8 @@ msgstr "Harta u ngarkua"
 msgid "Map server"
 msgstr "Serveri i hartës"
 
-msgid "Map {} selected"
-msgstr "Harta {} u zgjodh"
-
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Mecklenburg-Vorpommern"
 
 msgid "Menu"
 msgstr "Menyja"
@@ -679,7 +731,7 @@ msgid "Merge failed"
 msgstr "Bashkimi dështoi"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Meteogram"
 
 msgid "Metric System"
 msgstr "Sistemi metrik"
@@ -708,12 +760,11 @@ msgstr "Shi i moderuar"
 msgid "Month"
 msgstr "muaj"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "Detajet e hënës"
-
 msgid "Moon details"
 msgstr "Detajet e hënës"
+
+msgid "Moon Details"
+msgstr "Detajet e Hënës"
 
 msgid "Moonrise: {}"
 msgstr "Lindja e hënës: {}"
@@ -727,23 +778,23 @@ msgstr "Mëngjes"
 msgid "Mostly clear"
 msgstr "Kryesisht i qartë"
 
-msgid "Move Down"
-msgstr "Lëvizni Poshtë"
-
-msgid "Move Up"
-msgstr "Lëviz lart"
-
 msgid "Move down"
 msgstr "Lëvizni poshtë"
+
+msgid "Move Down"
+msgstr "Lëvizni Poshtë"
 
 msgid "Move up"
 msgstr "Lëvizni lart"
 
+msgid "Move Up"
+msgstr "Lëviz lart"
+
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "Netherlands"
 msgstr "Holanda"
@@ -757,26 +808,17 @@ msgstr "Versioni i ri {version} është i disponueshëm."
 msgid "Next"
 msgstr "Tjetra"
 
-msgid "Next Image"
-msgstr "Imazhi tjetër"
-
 msgid "Next frame"
 msgstr "Korniza tjetër"
+
+msgid "Next Image"
+msgstr "Imazhi tjetër"
 
 msgid "Next page"
 msgstr "Faqja tjetër"
 
 msgid "Next time"
 msgstr "Herën tjetër"
-
-msgid "No Internet connection detected."
-msgstr "Nuk u zbulua asnjë lidhje interneti."
-
-msgid "No OSM tiles"
-msgstr "Nuk ka pllaka OSM"
-
-msgid "No cities found locally for '%s'"
-msgstr "Nuk u gjet asnjë qytet në nivel lokal për '%s'"
 
 msgid "No city selected"
 msgstr "Asnjë qytet i zgjedhur"
@@ -787,8 +829,14 @@ msgstr "Nuk ka të dhëna"
 msgid "No date available"
 msgstr "Nuk ka datë të disponueshme"
 
+msgid "No Internet connection detected."
+msgstr "Nuk u zbulua asnjë lidhje interneti."
+
 msgid "No location selected"
 msgstr "Nuk u zgjodh asnjë vend"
+
+msgid "No OSM tiles"
+msgstr "Nuk ka pllaka OSM"
 
 msgid "No specific legend available."
 msgstr "Nuk ka legjendë specifike."
@@ -812,10 +860,13 @@ msgid "North America"
 msgstr "Amerikën e Veriut"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "North Rhine-Westphalia"
 
 msgid "Norway"
 msgstr "Norvegjia"
+
+msgid "Ok - Details"
+msgstr "Ok - Detaje"
 
 msgid "OK - Ext Info"
 msgstr "OK - Informacion shtesë"
@@ -825,9 +876,6 @@ msgstr "OK - Parashikimi"
 
 msgid "OK - Open Map"
 msgstr "OK - Hap hartën"
-
-msgid "Ok - Details"
-msgstr "Ok - Detaje"
 
 msgid "Open Keyboard"
 msgstr "Hap tastierën"
@@ -848,10 +896,10 @@ msgid "Overcast and light snow"
 msgstr "Me vranësira dhe borë e lehtë"
 
 msgid "Overcast and light wet snow"
-msgstr "I vranët dhe borë e lehtë e lagësht"
+msgstr "Me vranësira dhe borë e lehtë e lagësht"
 
 msgid "Overcast and rain"
-msgstr "Vrenë dhe shi"
+msgstr "Me vranësira dhe shi"
 
 msgid "Overcast and showers"
 msgstr "Vrenë dhe shira"
@@ -874,17 +922,17 @@ msgstr "Me vranësira, shtrëngata me reshje shiu"
 msgid "Overnight"
 msgstr "Gjatë natës"
 
-msgid "Page Down"
+msgid "Page down"
 msgstr "Faqe poshtë"
 
-msgid "Page Up"
-msgstr "Faqja lart"
-
-msgid "Page down"
+msgid "Page Down"
 msgstr "Faqe poshtë"
 
 msgid "Page up"
 msgstr "Faqe lart"
+
+msgid "Page Up"
+msgstr "Faqja lart"
 
 msgid "Pan down"
 msgstr "Lëvizni poshtë"
@@ -893,7 +941,7 @@ msgid "Pan left"
 msgstr "Pan majtas"
 
 msgid "Pan right"
-msgstr "Rrip djathtas"
+msgstr "Lëviz djathtas"
 
 msgid "Pan up"
 msgstr "Lëvizni lart"
@@ -917,13 +965,13 @@ msgid "Partly cloudy and snow showers"
 msgstr "Pjesërisht me vranësira dhe reshje bore"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr "Pjesërisht me vranësira dhe reshje bore të lagësht"
+msgstr "Reshje të pjesshme me vranësira dhe borë të lagësht"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Pjesërisht me vranësira, të mundshme shtrëngata me reshje shiu"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigee"
 
 msgid "Phase"
 msgstr "Faza"
@@ -964,6 +1012,12 @@ msgstr "Shtypni RED për të kërkuar përsëri"
 msgid "Pressure"
 msgstr "Presioni"
 
+msgid "Pressure: {}"
+msgstr "Presioni: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Presioni: {} hPa"
+
 msgid "Pressure: %s"
 msgstr "Presioni: %s"
 
@@ -973,23 +1027,17 @@ msgstr "Presioni: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Presioni: N/A"
 
-msgid "Pressure: {}"
-msgstr "Presioni: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Presioni: {} hPa"
-
 msgid "Prev"
-msgstr ""
+msgstr "Prev"
 
 msgid "Previous"
 msgstr "E mëparshme"
 
-msgid "Previous Image"
-msgstr "Imazhi i mëparshëm"
-
 msgid "Previous frame"
 msgstr "Korniza e mëparshme"
+
+msgid "Previous Image"
+msgstr "Imazhi i mëparshëm"
 
 msgid "Previous page"
 msgstr "Faqja e mëparshme"
@@ -1012,6 +1060,9 @@ msgstr "Shi: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radari RainViewer"
 
+msgid "Red"
+msgstr "E kuqe"
+
 msgid "Red - Color select"
 msgstr "E kuqe - Zgjidh ngjyrën"
 
@@ -1022,7 +1073,7 @@ msgid "Restore default server values"
 msgstr "Rivendosni vlerat e paracaktuara të serverit"
 
 msgid "Rhineland-Palatine"
-msgstr "Rheinland-Palatine"
+msgstr "Rhineland-Palatine"
 
 msgid "Right - Next day"
 msgstr "E drejta - Ditën tjetër"
@@ -1033,20 +1084,20 @@ msgstr "Shigjeta djathtas - Ditën tjetër"
 msgid "Rise"
 msgstr "Ngrihuni"
 
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Azimuti i rritjes: {:.0f}°"
+
 msgid "Rise azimuth: N/A"
 msgstr "Azimuth i ngritjes: N/A"
-
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Ngritja e azimutit: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rusia"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Saarland"
 
 msgid "Satellite Photos"
 msgstr "Fotografitë satelitore"
@@ -1060,6 +1111,9 @@ msgstr "Ruaj"
 msgid "Save API settings"
 msgstr "Ruaj cilësimet e API"
 
+msgid "Save translation settings"
+msgstr "Ruaj cilësimet e përkthimit"
+
 msgid "Saxony"
 msgstr "Saksonia"
 
@@ -1067,7 +1121,7 @@ msgid "Saxony-Anhalt"
 msgstr "Saksoni-Anhalt"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
 msgstr "E gërvishtur"
@@ -1078,14 +1132,11 @@ msgstr "Kërkimi provon fillimisht në internet, nëse dështon përdor listën 
 msgid "Search your City"
 msgstr "Kërkoni qytetin tuaj"
 
-msgid "Searching for '%s'..."
-msgstr "Po kërkon '%s'..."
-
 msgid "Select"
 msgstr "Zgjidhni"
 
-msgid "Select Region"
-msgstr "Zgjidhni Rajoni"
+msgid "Select {} unit"
+msgstr "Zgjidh {} njësi"
 
 msgid "Select a city"
 msgstr "Zgjidhni një qytet"
@@ -1093,23 +1144,23 @@ msgstr "Zgjidhni një qytet"
 msgid "Select a map with OK"
 msgstr "Zgjidhni një hartë me OK"
 
+msgid "Select Region"
+msgstr "Zgjidhni Rajoni"
+
 msgid "Select unit system"
 msgstr "Zgjidhni sistemin e njësisë"
 
 msgid "Select wind unit"
 msgstr "Zgjidhni njësinë e erës"
 
-msgid "Select {} unit"
-msgstr "Zgjidh {} njësi"
-
 msgid "Selected hour details"
 msgstr "Detajet e zgjedhura të orës"
 
-msgid "Set azimuth: N/A"
-msgstr "Vendos azimutin: N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "Cakto azimutin: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Vendos azimutin: N/A"
 
 msgid "Sets"
 msgstr "Komplete"
@@ -1127,7 +1178,7 @@ msgid "Slower: {}s"
 msgstr "Më ngadalë: {}s"
 
 msgid "Snow / ice"
-msgstr "Bora / akull"
+msgstr "Borë / akull"
 
 msgid "Snow prob. {}%"
 msgstr "prob bore. {}%"
@@ -1171,20 +1222,14 @@ msgstr "Suedia"
 msgid "Switzerland"
 msgstr "Zvicra"
 
+msgid "Target Language"
+msgstr "Gjuha e synuar"
+
 msgid "Temp"
-msgstr ""
+msgstr "Temp"
 
 msgid "Temperature"
 msgstr "Temperatura"
-
-msgid "Temperature: %d%s"
-msgstr "Temperatura: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Temperatura: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Temperatura: N/A"
 
 msgid "Temperature: {}"
 msgstr "Temperatura: {}"
@@ -1195,11 +1240,20 @@ msgstr "Temperatura: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Temperatura: {}°C"
 
+msgid "Temperature: %d%s"
+msgstr "Temperatura: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatura: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatura: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Faleminderit {faleminderit} dhe miq të tjerë për sugjerimet"
+msgstr "Faleminderit {thanks} dhe miq të tjerë për sugjerimet"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "Versioni në distancë ({remote}) është më i vjetër se ai aktual ({aktuale})."
+msgstr "Versioni në distancë ({remote}) është më i vjetër se ai aktual ({current})."
 
 msgid "Thin upper cloud"
 msgstr "Re e sipërme e hollë"
@@ -1234,23 +1288,20 @@ msgstr "Nesër"
 msgid "Transit (culmination): {}"
 msgstr "Transit (kulmi): {}"
 
+msgid "Transit altitude: {:.0f}°"
+msgstr "Lartësia e tranzitit: {:.0f}°"
+
 msgid "Transit altitude: N/A"
 msgstr "Lartësia e tranzitit: N/A"
 
-msgid "Transit altitude: {:.0f}°"
-msgstr "Lartësia transit: {:.0f}°"
-
-msgid "Transparency Settings"
-msgstr "Cilësimet e transparencës"
+msgid "Translation Settings"
+msgstr "Cilësimet e përkthimit"
 
 msgid "Transparency level"
 msgstr "Niveli i transparencës"
 
-msgid "UV Index"
-msgstr "Indeksi UV"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "Cilësimet e transparencës"
 
 msgid "Unhealthy"
 msgstr "E pashëndetshme"
@@ -1285,17 +1336,14 @@ msgstr "Përditësimi përfundoi. Ju lutemi rinisni Enigma2."
 msgid "Updated {}"
 msgstr "Përditësuar {}"
 
-msgid "Updated: N/A"
-msgstr "Përditësuar: N/A"
-
 msgid "Updated: {}"
 msgstr "Përditësuar: {}"
 
+msgid "Updated: N/A"
+msgstr "Përditësuar: N/A"
+
 msgid "Updating..."
 msgstr "Po përditësohet..."
-
-msgid "Use arrow keys to scroll"
-msgstr "Përdorni tastet e shigjetave për të lëvizur"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Përdorni ← → për të ndryshuar kohën | OK për të dalë"
@@ -1306,8 +1354,26 @@ msgstr "Përdorni ←/→/↑/↓ për të lëvizur | OK për të dalë"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Përdorni ▲/▼ për të ndryshuar, OK për të zgjedhur"
 
+msgid "Use arrow keys to scroll"
+msgstr "Përdorni tastet e shigjetave për të lëvizur"
+
+msgid "Use Google Translate"
+msgstr "Përdorni Google Translate"
+
 msgid "Using current time"
 msgstr "Përdorimi i kohës aktuale"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "Indeksi UV"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Shi shumë i fortë"
@@ -1324,14 +1390,14 @@ msgstr "Shumë e ulët"
 msgid "Very unhealthy"
 msgstr "Shumë e pashëndetshme"
 
-msgid "Visibility: %s m"
-msgstr "Dukshmëria: %s m"
-
 msgid "Visibility: {} m"
 msgstr "Dukshmëria: {} m"
 
+msgid "Visibility: %s m"
+msgstr "Dukshmëria: %s m"
+
 msgid "W"
-msgstr ""
+msgstr "W"
 
 msgid "Waning Crescent"
 msgstr "Gjysmëhënës në rënie"
@@ -1357,11 +1423,11 @@ msgstr "Harta e motit"
 msgid "Weather Maps"
 msgstr "Hartat e motit"
 
-msgid "Weather Maps & Satellite"
-msgstr "Hartat e motit dhe sateliti"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Hartat e motit (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Hartat e motit dhe satelitët"
 
 msgid "Weather Maps Slideshow"
 msgstr "Slideshow i Hartave të Motit"
@@ -1381,14 +1447,14 @@ msgstr "Parashikimi javor"
 msgid "Wind"
 msgstr "Era"
 
+msgid "Wind direction"
+msgstr "Drejtimi i erës"
+
 msgid "Wind Direction today"
 msgstr "Drejtimi i erës sot"
 
 msgid "Wind Direction tomorrow"
 msgstr "Drejtimi i erës nesër"
-
-msgid "Wind direction"
-msgstr "Drejtimi i erës"
 
 msgid "Wind speed"
 msgstr "Shpejtësia e erës"
@@ -1399,6 +1465,15 @@ msgstr "Shpejtësia e erës {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Shpejtësia e erës: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "Era: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Era: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Era: {} km/h {}"
+
 msgid "Wind: %d %s %s"
 msgstr "Era: %d %s %s"
 
@@ -1408,20 +1483,14 @@ msgstr "Era: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Era: N/A"
 
-msgid "Wind: {}"
-msgstr "Era: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Era: {} km/h {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Era: {} {} {}"
-
 msgid "Window transparency"
 msgstr "Transparenca e dritares"
 
 msgid "Yellow - Favorite 2"
 msgstr "E verdha - E preferuara 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Ju tashmë keni të instaluar versionin {version}.\nDoni ta riinstaloni atë?"
 
 msgid "Zoom In"
 msgstr "Zmadhoni"
@@ -1429,53 +1498,12 @@ msgstr "Zmadhoni"
 msgid "Zoom Out"
 msgstr "Zmadhoni"
 
-msgid "Zoom+"
-msgstr ""
-
 msgid "Zoom-"
 msgstr "Zmadhoni -"
 
 msgid "Zoom:"
 msgstr "Zmadhimi:"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "Zoom+"
 
-msgid "{hours} h {mins} min"
-msgstr "{orë} orë {min.} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLU për ta ruajtur si bazë\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- për të kapërcyer 500 qytete\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• E GJELBËR për ta ruajtur si të preferuar 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK për të zgjedhur qytetin\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• E KUQE për të hapur tastierën e kërkimit\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Përdor tastet e shigjetave për të lundruar\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• E VERDHA për ta ruajtur si të preferuar 2\n"
-
-msgid "← Frame"
-msgstr "← Korniza"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(Të dhëna shtesë nuk disponohen)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== DETAJET E HËNËS ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Diametri këndor: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Madhësia e dukshme: N/A"

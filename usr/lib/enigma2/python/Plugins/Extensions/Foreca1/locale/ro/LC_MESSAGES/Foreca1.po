@@ -1,107 +1,134 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ro translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-15 16:26+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ro <ekekaz@gmail.com>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
-"X-Generator: Poedit 3.9\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• ALBASTRU pentru a salva ca Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- pentru a sări 500 de orașe\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• VERDE pentru a salva ca Favorit 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK pentru a selecta orașul\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ROȘU pentru a deschide tastatura de căutare\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Folosiți tastele săgeți pentru a naviga prin \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- pentru a sări 100 de orașe\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GALBEN pentru a salva ca Favorit 2\n"
+
+msgid "← Frame"
+msgstr "← Cadru"
 
 msgid "0 - Today"
 msgstr "0 - Astăzi"
 
 msgid "1 - Today + 1 day"
-msgstr "1 - Astăzi + 1 zi"
+msgstr "1 - Azi + 1 zi"
 
 msgid "2 - Today + 2 days"
-msgstr "2 - Astăzi + 2 zile"
+msgstr "2 - Azi + 2 zile"
 
 msgid "3 - Today + 3 days"
-msgstr "3 - Astăzi + 3 zile"
+msgstr "3 - Azi + 3 zile"
 
 msgid "4 - Today + 4 days"
-msgstr "4 - Astăzi + 4 zile"
+msgstr "4 - Azi + 4 zile"
 
 msgid "5 - Today + 5 days"
-msgstr "5 - Astăzi + 5 zile"
+msgstr "5 - Azi + 5 zile"
 
 msgid "6 - Today + 6 days"
-msgstr "6 - Astăzi + 6 zile"
+msgstr "6 - Azi + 6 zile"
 
 msgid "7 - Today + 7 days"
-msgstr "7 - Astăzi + 7 zile"
+msgstr "7 - Azi + 7 zile"
+
+msgid "7 Day Forecast"
+msgstr "Prognoza pe 7 zile"
 
 msgid "8 - Today + 8 days"
-msgstr "8 - Astăzi + 8 zile"
+msgstr "8 - Azi + 8 zile"
 
 msgid "9 - Today + 9 days"
-msgstr "9 - Astăzi + 9 zile"
-
-msgid "API credentials not configured."
-msgstr "Datele de autentificare API nu sunt configurate."
-
-msgid "API error"
-msgstr "Eroare API"
-
-#, fuzzy
-msgid "API password"
-msgstr "Eroare API"
-
-#, fuzzy
-msgid "API user"
-msgstr "Eroare API"
-
-msgid "AQI {}"
-msgstr "ICA {}"
-
-msgid "AQI: N/A"
-msgstr "ICA: N/D"
+msgstr "9 - Azi + 9 zile"
 
 msgid "Advanced"
 msgstr "Avansat"
 
 msgid "Advanced Unit Settings"
-msgstr "Setări avansate pentru unități"
+msgstr "Setări avansate ale unității"
 
 msgid "Afternoon"
-msgstr "După-amiază"
+msgstr "după-amiază"
 
 msgid "Age since New Moon: {:.1f} days"
 msgstr "Vârsta de la Luna Nouă: {:.1f} zile"
 
-#, fuzzy
 msgid "Age: N/A"
-msgstr "ICA: N/D"
+msgstr "Vârsta: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Diametru unghiular: {:.0f}″"
 
 msgid "Angular diameter: N/A"
 msgstr "Diametru unghiular: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Diametru unghiular: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Fișierul de configurare API nu a fost găsit! \n\nVă rugăm să creați fișierul:\n{0}\n\ncu acreditările dvs. Foreca API."
+
+msgid "API credentials not configured."
+msgstr "Acreditările API nu au fost configurate."
+
+msgid "API error"
+msgstr "Eroare API"
+
+msgid "API password"
+msgstr "parola API"
+
+msgid "API user"
+msgstr "utilizator API"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Mărimea aparentă: {:.2f}"
 
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
+
 msgid "Assign to Favorite 1"
-msgstr "Atribuiți la Favorite 1"
+msgstr "Atribuiți la Favorit 1"
 
 msgid "Assign to Favorite 2"
-msgstr "Atribuiți la Favorite 2"
+msgstr "Atribuiți la Favorit 2"
 
 msgid "Assign to Home"
-msgstr "Setați ca Acasă"
+msgstr "Atribuiți la Acasă"
 
 msgid "Australia"
 msgstr "Australia"
@@ -113,7 +140,7 @@ msgid "Auth server"
 msgstr "Server de autentificare"
 
 msgid "Baden-Wuerttemberg"
-msgstr "Baden-Württemberg"
+msgstr "Baden-Wuerttemberg"
 
 msgid "Barometer"
 msgstr "Barometru"
@@ -127,16 +154,17 @@ msgstr "Belgia"
 msgid "Berlin"
 msgstr "Berlin"
 
-#, fuzzy
 msgid "Black Moon"
-msgstr "Lună plină"
+msgstr "Luna Neagră"
+
+msgid "Blue"
+msgstr "Albastru"
 
 msgid "Blue - Home"
 msgstr "Albastru - Acasă"
 
-#, fuzzy
 msgid "Blue Moon"
-msgstr "Lună nouă"
+msgstr "Luna albastră"
 
 msgid "Brandenburg"
 msgstr "Brandenburg"
@@ -145,31 +173,34 @@ msgid "Bremen"
 msgstr "Bremen"
 
 msgid "Calculating..."
-msgstr "Se calculează..."
+msgstr "De calculat..."
 
 msgid "Cancel"
-msgstr "Anulare"
+msgstr "Anula"
 
 msgid "Celsius, km/h, hPa"
 msgstr "Celsius, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr "Jurnal modificări: {changelog}"
+msgstr "Jurnal de modificări: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "Modificările se aplică imediat"
 
 msgid "Check for updates"
-msgstr "Verifică actualizări"
+msgstr "Verificați actualizările"
 
 msgid "Choose detail view"
-msgstr "Alegeți vizualizarea detaliată"
-
-msgid "City Selection"
-msgstr "Selecție oraș"
+msgstr "Alegeți vizualizarea de detaliu"
 
 msgid "City list file not found!"
-msgstr "Fișierul cu lista orașelor nu a fost găsit!"
+msgstr "Fișierul listei orașelor nu a fost găsit!"
+
+msgid "City Selection"
+msgstr "Selectia orasului"
+
+msgid "City Selection Help:\n\n"
+msgstr "Ajutor pentru selectarea orașului: \n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Curățați fișierele Foreca One Temp?"
@@ -178,10 +209,10 @@ msgid "Cleanup temp files"
 msgstr "Curățați fișierele temporare"
 
 msgid "Clear"
-msgstr "Senin"
+msgstr "Clar"
 
 msgid "Close"
-msgstr "Închide"
+msgstr "Aproape"
 
 msgid "Close legend"
 msgstr "Închide legenda"
@@ -190,25 +221,25 @@ msgid "Close setup without saving"
 msgstr "Închideți configurarea fără a salva"
 
 msgid "Cloudy"
-msgstr "Înnorat"
+msgstr "Noros"
 
 msgid "Cloudy and light rain"
-msgstr "Înnorat și ploaie ușoară"
+msgstr "Înnorat și ploaie slabă"
 
 msgid "Cloudy and light snow"
-msgstr "Înnorat și ninsoare ușoară"
+msgstr "Înnorat și ninsoare slabă"
 
 msgid "Cloudy and light wet snow"
-msgstr "Înnorat și lapoviță ușoară"
+msgstr "Înnorat și zăpadă umedă ușoară"
 
 msgid "Cloudy and showers"
 msgstr "Înnorat și averse"
 
 msgid "Cloudy and snow showers"
-msgstr "Înnorat și averse de zăpadă"
+msgstr "Averse cu nori și ninsoare"
 
 msgid "Cloudy and wet snow showers"
-msgstr "Înnorat și averse de lapoviță"
+msgstr "Averse de zăpadă înnorată și umedă"
 
 msgid "Cloudy, thunderstorms with rain"
 msgstr "Înnorat, furtuni cu ploaie"
@@ -216,38 +247,41 @@ msgstr "Înnorat, furtuni cu ploaie"
 msgid "Cold (< 0°C)"
 msgstr "Rece (< 0°C)"
 
-msgid "Color Legend"
-msgstr "Legendă culori"
-
-msgid "Color Selector"
-msgstr "Selector culoare"
-
 msgid "Color data"
-msgstr "Date culoare"
+msgstr "Date de culoare"
 
 msgid "Color legend"
-msgstr "Legendă culori"
+msgstr "Legenda culorii"
+
+msgid "Color Legend"
+msgstr "Legenda culorilor"
 
 msgid "Color name"
-msgstr "Nume culoare"
+msgstr "Numele culorii"
 
 msgid "Color select"
 msgstr "Selectare culoare"
 
+msgid "Color Selector"
+msgstr "Selector de culoare"
+
 msgid "Condition: {}"
 msgstr "Stare: {}"
 
+msgid "Configure Foreca API credentials"
+msgstr "Configurați acreditările Foreca API"
+
 msgid "Continents Weather Maps"
-msgstr "Hărți meteo continente"
+msgstr "Hărți meteorologice ale continentelor"
 
 msgid "Cool (0-10°C)"
-msgstr "Răcoros (0-10°C)"
+msgstr "rece (0-10°C)"
 
 msgid "Could not fetch update information."
-msgstr "Nu s-au putut obține informațiile despre actualizare."
+msgstr "Nu s-au putut prelua informațiile de actualizare."
 
 msgid "Could not initialize map API."
-msgstr "Nu s-a putut inițializa API-ul hărții."
+msgstr "API-ul pentru hărți nu a putut fi inițializat."
 
 msgid "Could not load forecast data"
 msgstr "Nu s-au putut încărca datele de prognoză"
@@ -256,13 +290,13 @@ msgid "Could not parse version information."
 msgstr "Nu s-au putut analiza informațiile despre versiune."
 
 msgid "Current weather and forecast"
-msgstr "Vremea actuală și prognoza"
+msgstr "Vremea și prognoza actuală"
 
 msgid "Current weather and forecast for the next 10 days"
 msgstr "Vremea actuală și prognoza pentru următoarele 10 zile"
 
 msgid "Current: {}"
-msgstr "Actual: {}"
+msgstr "Curent: {}"
 
 msgid "Czech Republic"
 msgstr "Republica Cehă"
@@ -277,7 +311,7 @@ msgid "Day"
 msgstr "Zi"
 
 msgid "Decrease Speed"
-msgstr "Reduceți viteza"
+msgstr "Scade viteza"
 
 msgid "Defaults"
 msgstr "Valori implicite"
@@ -301,23 +335,25 @@ msgid "Dewpoint: %s°C"
 msgstr "Punct de rouă: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr "Punct de rouă: N/D"
+msgstr "Punct de rouă: N/A"
+
+msgid "Distance"
+msgstr "Distanţă"
 
 msgid "Distance {} km"
-msgstr "Distanță {} km"
-
-msgid "Distance: %s"
-msgstr "Distanță: %s"
+msgstr "Distanța {} km"
 
 msgid "Distance: {}"
 msgstr "Distanță: {}"
 
-#, fuzzy
 msgid "Distance: {} km"
-msgstr "Distanță {} km"
+msgstr "Distanță: {} km"
+
+msgid "Distance: %s"
+msgstr "Distanță: %s"
 
 msgid "Do you want to install it now?"
-msgstr "Doriți să o instalați acum?"
+msgstr "Vrei să-l instalezi acum?"
 
 msgid "Down"
 msgstr "Jos"
@@ -326,13 +362,13 @@ msgid "Down - Next page"
 msgstr "Jos - Pagina următoare"
 
 msgid "Download error"
-msgstr "Eroare descărcare"
+msgstr "Eroare de descărcare"
 
 msgid "Downloading images..."
-msgstr "Se descarcă imaginile..."
+msgstr "Se descarcă imagini..."
 
 msgid "Downloading tiles..."
-msgstr "Se descarcă tile-urile..."
+msgstr "Se descarcă piese..."
 
 msgid "E"
 msgstr "E"
@@ -353,13 +389,13 @@ msgid "Error loading maps. Check connection."
 msgstr "Eroare la încărcarea hărților. Verificați conexiunea."
 
 msgid "Error saving favorite!"
-msgstr "Eroare la salvarea favoritului!"
+msgstr "Eroare la salvarea preferatului!"
 
 msgid "Europe"
 msgstr "Europa"
 
 msgid "European Weather Maps"
-msgstr "Hărți meteo europene"
+msgstr "Hărți meteorologice europene"
 
 msgid "Evening"
 msgstr "Seară"
@@ -371,71 +407,70 @@ msgid "Exit - End"
 msgstr "Ieșire - Sfârșit"
 
 msgid "Exit / Close legend"
-msgstr "Ieșire / Închide legenda"
+msgstr "Ieșire / Închidere legendă"
 
 msgid "Extreme"
 msgstr "Extrem"
 
 msgid "Extreme / thunderstorms"
-msgstr "Extrem / furtuni"
+msgstr "Extreme / furtuni"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Nu s-a putut scrie fișierul de configurare: \n%s"
 
 msgid "Faster: {}s"
 msgstr "Mai rapid: {}s"
 
 msgid "Favorite 1"
-msgstr "Favorite 1"
+msgstr "Favorit 1"
 
 msgid "Favorite 2"
-msgstr "Favorite 2"
-
-msgid "Favorites Details"
-msgstr "Detalii favorite"
+msgstr "Favorit 2"
 
 msgid "Favorites details"
 msgstr "Detalii favorite"
 
+msgid "Favorites Details"
+msgstr "Detalii Favorite"
+
 msgid "Feels like"
-msgstr "Percepție termică"
+msgstr "Se simte ca"
 
 msgid "Feels like {}"
-msgstr "Percepție termică {}"
+msgstr "Se simte ca {}"
 
 msgid "Feels like {}{}"
-msgstr "Percepție termică {}{}"
-
-msgid "Feels like: %d%s"
-msgstr "Percepție termică: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Percepție termică: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Percepție termică: N/D"
+msgstr "Se simte ca {}{}"
 
 msgid "Feels like: {}"
-msgstr "Percepție termică: {}"
+msgstr "Se simte ca: {}"
 
 msgid "Feels like: {}{}"
-msgstr "Percepție termică: {}{}"
+msgstr "Se simte ca: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr "Percepție termică: {}°C"
+msgstr "Se simte ca: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Se simte ca: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Se simte ca: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Se simte ca: N/A"
 
 msgid "Finland"
 msgstr "Finlanda"
 
 msgid "First Quarter"
-msgstr "Primul pătrar"
+msgstr "Primul trimestru"
 
 msgid "Fog"
-msgstr "Ceață"
-
-#, fuzzy
-msgid "Foreca API Setup"
-msgstr "Meniu Foreca One"
+msgstr "Ceaţă"
 
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Acreditările API Foreca nu sunt încă configurate. Vă rugăm să le introduceți în ecranul de configurare."
@@ -443,35 +478,35 @@ msgstr "Acreditările API Foreca nu sunt încă configurate. Vă rugăm să le i
 msgid "Foreca API settings saved successfully."
 msgstr "Setările API-ului Foreca au fost salvate cu succes."
 
+msgid "Foreca API Setup"
+msgstr "Configurare API Foreca"
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Harta {}"
+
 msgid "Foreca One Live Maps (API)"
-msgstr "Hărți live Foreca One (API)"
+msgstr "Foreca One Live Maps (API)"
 
 msgid "Foreca One Menu"
 msgstr "Meniu Foreca One"
 
 msgid "Foreca One No stations found"
-msgstr "Foreca One: Nu s-au găsit stații"
+msgstr "Foreca One Nu au fost găsite posturi"
+
+msgid "Foreca One Setup"
+msgstr "Configurare Foreca One"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stații Foreca One: {} stații în apropiere ({})"
 
-msgid "Foreca One Weather Forecast"
-msgstr "Prognoză meteo Foreca One"
-
 msgid "Foreca One Weather and Forecast ver. %s"
-msgstr "Vreme și prognoză Foreca One versiunea %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
 
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Harta {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "S-au găsit %d orașe local pentru '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "S-au găsit %d orașe online pentru '%s'"
+msgid "Foreca One Weather Forecast"
+msgstr "Prognoza meteo Foreca One"
 
 msgid "Frame →"
 msgstr "Cadru →"
@@ -480,16 +515,16 @@ msgid "Frame: {}"
 msgstr "Cadru: {}"
 
 msgid "France"
-msgstr "Franța"
+msgstr "Franţa"
 
 msgid "Full Moon"
 msgstr "Lună plină"
 
 msgid "Gale force (>60 km/h)"
-msgstr "Vijelie (>60 km/h)"
+msgstr "Forța vânturilor (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr "Hărți meteo statele germane"
+msgstr "Hărți meteo ale statelor germane"
 
 msgid "Germany"
 msgstr "Germania"
@@ -503,8 +538,11 @@ msgstr "Marea Britanie"
 msgid "Greece"
 msgstr "Grecia"
 
+msgid "Green"
+msgstr "Verde"
+
 msgid "Green - Favorite 1"
-msgstr "Verde - Favorite 1"
+msgstr "Verde - Favorit 1"
 
 msgid "Gust {}"
 msgstr "Rafală {}"
@@ -522,13 +560,13 @@ msgid "Header - not selectable"
 msgstr "Antet - nu poate fi selectat"
 
 msgid "Heavy rain"
-msgstr "Ploaie abundentă"
+msgstr "Ploaie puternică"
 
 msgid "Help"
 msgstr "Ajutor"
 
 msgid "Hesse"
-msgstr "Hessa"
+msgstr "Hesse"
 
 msgid "High"
 msgstr "Ridicat"
@@ -537,19 +575,22 @@ msgid "Home"
 msgstr "Acasă"
 
 msgid "Hot (30-40°C)"
-msgstr "Cald (30-40°C)"
+msgstr "fierbinte (30-40°C)"
 
 msgid "Hour Details"
-msgstr "Detalii orare"
+msgstr "Detalii oră"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Humidity"
 msgstr "Umiditate"
 
-msgid "Humidity: %s%%"
-msgstr "Umiditate: %s%%"
-
 msgid "Humidity: {}%"
 msgstr "Umiditate: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Umiditate: %s%%"
 
 msgid "Hungary"
 msgstr "Ungaria"
@@ -560,30 +601,29 @@ msgstr "Gheață / îngheț"
 msgid "Illumination"
 msgstr "Iluminare"
 
-#, fuzzy
 msgid "Illumination: {:.1f}%"
-msgstr "Iluminare"
+msgstr "Iluminare: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Imagine %(current)d/%(total)d – %(day)s"
+msgstr "Imaginea %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Imagine %(current)d/%(total)d – %(day)s (Pauză)"
+msgstr "Imaginea %(current)d/%(total)d – %(day)s (Întreruptă)"
 
 msgid "Image not available"
-msgstr "Imagine indisponibilă"
+msgstr "Imaginea nu este disponibilă"
 
 msgid "Imperial System"
-msgstr "Sistem imperial"
+msgstr "Sistemul Imperial"
 
 msgid "Increase Speed"
-msgstr "Creșteți viteza"
+msgstr "Măriți viteza"
 
 msgid "Info"
-msgstr "Informații"
+msgstr "Info"
 
 msgid "Info - About"
-msgstr "Informații - Despre"
+msgstr "Info - Despre"
 
 msgid "Ireland"
 msgstr "Irlanda"
@@ -592,22 +632,25 @@ msgid "Italy"
 msgstr "Italia"
 
 msgid "Jump 100 down"
-msgstr "Salt 100 în jos"
+msgstr "Sari cu 100 in jos"
 
 msgid "Jump 100 up"
-msgstr "Salt 100 în sus"
+msgstr "Sari cu 100 în sus"
 
 msgid "Jump 500 down"
-msgstr "Salt 500 în jos"
+msgstr "Sari 500 jos"
 
 msgid "Jump 500 up"
-msgstr "Salt 500 în sus"
+msgstr "Sari cu 500 în sus"
 
 msgid "Keyboard"
-msgstr "Tastatură"
+msgstr "Tastatura"
 
 msgid "Last Quarter"
-msgstr "Ultimul pătrar"
+msgstr "Ultimul trimestru"
+
+msgid "Last update"
+msgstr "Ultima actualizare"
 
 msgid "Latvia"
 msgstr "Letonia"
@@ -619,31 +662,31 @@ msgid "Left arrow - Previous day"
 msgstr "Săgeată stânga - Ziua anterioară"
 
 msgid "Light (0-20 km/h)"
-msgstr "Ușor (0-20 km/h)"
+msgstr "Ușoară (0-20 km/h)"
 
 msgid "Light rain / drizzle"
-msgstr "Ploaie ușoară / burniță"
+msgstr "Ploaie slabă / burniță"
 
 msgid "Light to moderate"
-msgstr "Ușor spre moderat"
+msgstr "Ușoară spre moderată"
 
 msgid "Loading available maps..."
 msgstr "Se încarcă hărțile disponibile..."
 
 msgid "Loading lunar phases..."
-msgstr "Se încarcă fazele lunii..."
+msgstr "Se încarcă fazele lunare..."
 
 msgid "Loading nearby stations..."
 msgstr "Se încarcă stațiile din apropiere..."
 
 msgid "Loading tiles..."
-msgstr "Se încarcă tile-urile..."
+msgstr "Se încarcă plăci..."
 
 msgid "Loading weekly forecast..."
 msgstr "Se încarcă prognoza săptămânală..."
 
 msgid "Loading..."
-msgstr "Se încarcă..."
+msgstr "Încărcare..."
 
 msgid "Low"
 msgstr "Scăzut"
@@ -652,20 +695,22 @@ msgid "Lower Saxony"
 msgstr "Saxonia Inferioară"
 
 msgid "Lunar Calendar"
-msgstr "Calendar lunar"
+msgstr "Calendarul lunar"
 
 msgid "Lunar phases from next month"
-msgstr "Fazele lunii de luna viitoare"
+msgstr "Fazele lunare de luna viitoare"
 
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Mărimea aparentă: N/A"
+msgstr "Magnitudine: N/A"
+
+msgid "Map {} selected"
+msgstr "Harta {} selectată"
 
 msgid "Map & Tiles Loaded"
-msgstr "Harta și tile-urile au fost încărcate"
+msgstr "Hartă și plăci încărcate"
 
 msgid "Map loaded"
 msgstr "Harta a fost încărcată"
@@ -673,11 +718,8 @@ msgstr "Harta a fost încărcată"
 msgid "Map server"
 msgstr "Server de hartă"
 
-msgid "Map {} selected"
-msgstr "Harta {} selectată"
-
 msgid "Mecklenburg-Vorpommern"
-msgstr "Mecklenburg-Pomerania Inferioară"
+msgstr "Mecklenburg-Vorpommern"
 
 msgid "Menu"
 msgstr "Meniu"
@@ -686,25 +728,25 @@ msgid "Menu - Settings"
 msgstr "Meniu - Setări"
 
 msgid "Merge failed"
-msgstr "Combinarea a eșuat"
+msgstr "Îmbinarea a eșuat"
 
 msgid "Meteogram"
-msgstr "Meteogramă"
+msgstr "Meteograma"
 
 msgid "Metric System"
 msgstr "Sistem metric"
 
 msgid "Middle America"
-msgstr "America Centrală"
+msgstr "America de mijloc"
 
 msgid "Middle Asia"
-msgstr "Asia Centrală"
+msgstr "Asia Mijlociu"
 
 msgid "Middle East"
 msgstr "Orientul Mijlociu"
 
 msgid "Mild (10-20°C)"
-msgstr "Blând (10-20°C)"
+msgstr "Ușoară (10-20°C)"
 
 msgid "Moderate"
 msgstr "Moderat"
@@ -718,13 +760,11 @@ msgstr "Ploaie moderată"
 msgid "Month"
 msgstr "Lună"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "Detalii orare"
-
-#, fuzzy
 msgid "Moon details"
-msgstr "Detalii orare"
+msgstr "Detalii de lună"
+
+msgid "Moon Details"
+msgstr "Detalii Luna"
 
 msgid "Moonrise: {}"
 msgstr "Răsărit de lună: {}"
@@ -733,88 +773,85 @@ msgid "Moonset: {}"
 msgstr "Apus de lună: {}"
 
 msgid "Morning"
-msgstr "Dimineață"
+msgstr "Dimineaţă"
 
 msgid "Mostly clear"
-msgstr "Predominant senin"
-
-msgid "Move Down"
-msgstr "Mutare în jos"
-
-msgid "Move Up"
-msgstr "Mutare în sus"
+msgstr "În mare parte clar"
 
 msgid "Move down"
-msgstr "Mutare în jos"
+msgstr "Deplasați-vă în jos"
+
+msgid "Move Down"
+msgstr "Mutați în jos"
 
 msgid "Move up"
-msgstr "Mutare în sus"
+msgstr "Mișcă-te în sus"
+
+msgid "Move Up"
+msgstr "Deplasați-vă în sus"
 
 msgid "N"
 msgstr "N"
 
 msgid "N/A"
-msgstr "N/D"
+msgstr "N / A"
 
 msgid "Netherlands"
-msgstr "Țările de Jos"
+msgstr "Olanda"
 
 msgid "New Moon"
 msgstr "Lună nouă"
 
 msgid "New version {version} is available."
-msgstr "Versiunea nouă {version} este disponibilă."
+msgstr "Noua versiune {version} este disponibilă."
 
 msgid "Next"
 msgstr "Următorul"
 
+msgid "Next frame"
+msgstr "Următorul cadru"
+
 msgid "Next Image"
 msgstr "Imaginea următoare"
-
-msgid "Next frame"
-msgstr "Cadrul următor"
 
 msgid "Next page"
 msgstr "Pagina următoare"
 
 msgid "Next time"
-msgstr "Următoarea oră"
-
-msgid "No Internet connection detected."
-msgstr "Nu s-a detectat nicio conexiune la internet."
-
-msgid "No OSM tiles"
-msgstr "Nu există tile-uri OSM"
-
-msgid "No cities found locally for '%s'"
-msgstr "Nu s-au găsit orașe local pentru '%s'"
+msgstr "Data viitoare"
 
 msgid "No city selected"
 msgstr "Niciun oraș selectat"
 
 msgid "No data"
-msgstr "Nu există date"
+msgstr "Fără date"
 
 msgid "No date available"
-msgstr "Nu există dată disponibilă"
+msgstr "Nu există o dată disponibilă"
+
+msgid "No Internet connection detected."
+msgstr "Nu a fost detectată conexiune la internet."
 
 msgid "No location selected"
 msgstr "Nicio locație selectată"
 
+msgid "No OSM tiles"
+msgstr "Fără plăci OSM"
+
 msgid "No specific legend available."
-msgstr "Nu există o legendă specifică disponibilă."
+msgstr "Nu există nicio legendă specifică disponibilă."
 
 msgid "No station data"
-msgstr "Nu există date stație"
+msgstr "Nu există date despre stație"
 
 msgid "No station data available"
-msgstr "Nu sunt disponibile date ale stației"
+msgstr "Nu sunt disponibile date despre stație"
 
 msgid "No stations found"
 msgstr "Nu s-au găsit stații"
 
 msgid "No tiles downloaded"
-msgstr "Nu s-au descărcat tile-uri"
+msgstr "Nu au fost descărcate piese"
 
 msgid "North Africa"
 msgstr "Africa de Nord"
@@ -828,111 +865,110 @@ msgstr "Renania de Nord-Westfalia"
 msgid "Norway"
 msgstr "Norvegia"
 
+msgid "Ok - Details"
+msgstr "Ok - Detalii"
+
 msgid "OK - Ext Info"
-msgstr "OK - Info suplimentare"
+msgstr "OK - Ext Info"
 
 msgid "OK - Forecast"
 msgstr "OK - Prognoză"
 
 msgid "OK - Open Map"
-msgstr "OK - Deschide harta"
-
-#, fuzzy
-msgid "Ok - Details"
-msgstr "Detalii"
+msgstr "OK - Deschide Harta"
 
 msgid "Open Keyboard"
-msgstr "Deschide tastatura"
+msgstr "Deschideți tastatura"
 
 msgid "Open Map"
-msgstr "Deschide harta"
+msgstr "Deschide Harta"
 
 msgid "Original design and idea by %s"
-msgstr "Designul original și ideea de %s"
+msgstr "Design și idee originale de %s"
 
 msgid "Overcast"
-msgstr "Acoperit"
+msgstr "Acoperit de nori"
 
 msgid "Overcast and light rain"
-msgstr "Acoperit și ploaie ușoară"
+msgstr "Înnorat și ploaie slabă"
 
 msgid "Overcast and light snow"
-msgstr "Acoperit și ninsoare ușoară"
+msgstr "Înnorat și ninsoare slabă"
 
 msgid "Overcast and light wet snow"
-msgstr "Acoperit și lapoviță ușoară"
+msgstr "Înnorat și zăpadă umedă ușoară"
 
 msgid "Overcast and rain"
-msgstr "Acoperit și ploaie"
+msgstr "Înnorat și ploaie"
 
 msgid "Overcast and showers"
-msgstr "Acoperit și averse"
+msgstr "Înnorat și averse"
 
 msgid "Overcast and snow"
-msgstr "Acoperit și ninsoare"
+msgstr "Înnorat și ninsoare"
 
 msgid "Overcast and snow showers"
-msgstr "Acoperit și averse de zăpadă"
+msgstr "Averse cu nori și zăpadă"
 
 msgid "Overcast and wet snow"
-msgstr "Acoperit și lapoviță"
+msgstr "Zăpadă înnorat și umedă"
 
 msgid "Overcast and wet snow showers"
-msgstr "Acoperit și averse de lapoviță"
+msgstr "Averse de zăpadă umedă și înnorat"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr "Acoperit, furtuni cu ploaie"
+msgstr "Înnorat, furtuni cu ploaie"
 
 msgid "Overnight"
 msgstr "Peste noapte"
 
-msgid "Page Down"
+msgid "Page down"
 msgstr "Pagina în jos"
 
-msgid "Page Up"
-msgstr "Pagina în sus"
-
-msgid "Page down"
+msgid "Page Down"
 msgstr "Pagina în jos"
 
 msgid "Page up"
 msgstr "Pagina în sus"
 
+msgid "Page Up"
+msgstr "Pagina în sus"
+
 msgid "Pan down"
-msgstr "Deplasare în jos"
+msgstr "Pană în jos"
 
 msgid "Pan left"
-msgstr "Deplasare la stânga"
+msgstr "Pan la stânga"
 
 msgid "Pan right"
-msgstr "Deplasare la dreapta"
+msgstr "Pan dreapta"
 
 msgid "Pan up"
-msgstr "Deplasare în sus"
+msgstr "Pana sus"
 
 msgid "Partly cloudy"
 msgstr "Parțial înnorat"
 
 msgid "Partly cloudy and light rain"
-msgstr "Parțial înnorat și ploaie ușoară"
+msgstr "Parţial noros şi ploaie slabă"
 
 msgid "Partly cloudy and light snow"
-msgstr "Parțial înnorat și ninsoare ușoară"
+msgstr "Parţial noros şi ninsoare slabă"
 
 msgid "Partly cloudy and light wet snow"
-msgstr "Parțial înnorat și lapoviță ușoară"
+msgstr "Parțial noros și zăpadă umedă ușoară"
 
 msgid "Partly cloudy and showers"
-msgstr "Parțial înnorat și averse"
+msgstr "Parţial noros şi averse"
 
 msgid "Partly cloudy and snow showers"
-msgstr "Parțial înnorat și averse de zăpadă"
+msgstr "Parțial noros și averse de ninsoare"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr "Parțial înnorat și averse de lapoviță"
+msgstr "Parțial noros și averse umede de zăpadă"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr "Parțial înnorat, posibile furtuni cu ploaie"
+msgstr "Parțial noros, posibile furtuni cu ploaie"
 
 msgid "Perigee"
 msgstr "Perigeu"
@@ -940,9 +976,8 @@ msgstr "Perigeu"
 msgid "Phase"
 msgstr "Fază"
 
-#, fuzzy
 msgid "Phase: {}"
-msgstr "Fază"
+msgstr "Faza: {}"
 
 msgid "Play/Pause"
 msgstr "Redare/Pauză"
@@ -951,7 +986,7 @@ msgid "Please enter both API user and API password."
 msgstr "Vă rugăm să introduceți atât utilizatorul API, cât și parola API."
 
 msgid "Please wait ..."
-msgstr "Vă rugăm așteptați ..."
+msgstr "Va rugam asteptati ..."
 
 msgid "Poland"
 msgstr "Polonia"
@@ -960,22 +995,28 @@ msgid "Portugal"
 msgstr "Portugalia"
 
 msgid "Precipitation"
-msgstr "Precipitații"
+msgstr "Precipitare"
 
 msgid "Precipitation: {}"
 msgstr "Precipitații: {}"
 
 msgid "Precipitations"
-msgstr "Precipitații"
+msgstr "Precipitaţii"
 
 msgid "Precipitations: {}%"
 msgstr "Precipitații: {}%"
 
 msgid "Press RED to search again"
-msgstr "Apăsați ROȘU pentru a căuta din nou"
+msgstr "Apăsați roșu pentru a căuta din nou"
 
 msgid "Pressure"
 msgstr "Presiune"
+
+msgid "Pressure: {}"
+msgstr "Presiune: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Presiune: {} hPa"
 
 msgid "Pressure: %s"
 msgstr "Presiune: %s"
@@ -984,25 +1025,19 @@ msgid "Pressure: %s hPa"
 msgstr "Presiune: %s hPa"
 
 msgid "Pressure: N/A"
-msgstr "Presiune: N/D"
-
-msgid "Pressure: {}"
-msgstr "Presiune: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Presiune: {} hPa"
+msgstr "Presiune: N/A"
 
 msgid "Prev"
-msgstr "Prec"
+msgstr "Prev"
 
 msgid "Previous"
 msgstr "Anterior"
 
-msgid "Previous Image"
-msgstr "Imaginea anterioară"
-
 msgid "Previous frame"
 msgstr "Cadrul anterior"
+
+msgid "Previous Image"
+msgstr "Imaginea anterioară"
 
 msgid "Previous page"
 msgstr "Pagina anterioară"
@@ -1011,13 +1046,13 @@ msgid "Previous time"
 msgstr "Ora anterioară"
 
 msgid "Rain Prob."
-msgstr "Prob. ploaie."
+msgstr "Ploaie Prob."
 
 msgid "Rain prob. {}%"
-msgstr "Probabilitate de ploaie {}%"
+msgstr "problema ploii {}%"
 
 msgid "Rain prob.: N/A"
-msgstr "Prob. ploaie: N/D"
+msgstr "Prob. ploaie: N/A"
 
 msgid "Rain: {:.1f} {}"
 msgstr "Ploaie: {:.1f} {}"
@@ -1025,32 +1060,35 @@ msgstr "Ploaie: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "Radar RainViewer"
 
+msgid "Red"
+msgstr "Roşu"
+
 msgid "Red - Color select"
 msgstr "Roșu - Selectare culoare"
 
 msgid "Refresh"
-msgstr "Reîmprospătare"
+msgstr "Reîmprospăta"
 
 msgid "Restore default server values"
 msgstr "Restabiliți valorile implicite ale serverului"
 
 msgid "Rhineland-Palatine"
-msgstr "Renania-Palatinat"
+msgstr "Renania-Palatină"
 
 msgid "Right - Next day"
-msgstr "Dreapta - Ziua următoare"
+msgstr "Corect - a doua zi"
 
 msgid "Right arrow - Next day"
-msgstr "Săgeată dreapta - Ziua următoare"
+msgstr "Săgeată dreapta - A doua zi"
 
 msgid "Rise"
-msgstr "Răsărit"
-
-msgid "Rise azimuth: N/A"
-msgstr "Azimut de creștere: N/A"
+msgstr "Creştere"
 
 msgid "Rise azimuth: {:.0f}°"
 msgstr "Azimut de creștere: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Azimut de creștere: N/A"
 
 msgid "Russia"
 msgstr "Rusia"
@@ -1062,17 +1100,19 @@ msgid "Saarland"
 msgstr "Saarland"
 
 msgid "Satellite Photos"
-msgstr "Fotografii satelitare"
+msgstr "Fotografii prin satelit"
 
 msgid "Satellite photos coming soon!"
-msgstr "Fotografii satelitare în curând!"
+msgstr "Fotografii prin satelit în curând!"
 
 msgid "Save"
-msgstr "Salvare"
+msgstr "Salva"
 
-#, fuzzy
 msgid "Save API settings"
-msgstr "Meniu - Setări"
+msgstr "Salvați setările API"
+
+msgid "Save translation settings"
+msgstr "Salvați setările de traducere"
 
 msgid "Saxony"
 msgstr "Saxonia"
@@ -1084,22 +1124,19 @@ msgid "Schleswig-Holstein"
 msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
-msgstr "Extras"
+msgstr "Razuit"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr "Căutarea încearcă mai întâi online, dacă eșuează folosește lista locală."
+msgstr "Căutarea mai întâi încearcă online, dacă eșuează, folosește lista locală."
 
 msgid "Search your City"
 msgstr "Căutați orașul dvs"
 
-msgid "Searching for '%s'..."
-msgstr "Se caută '%s'..."
-
 msgid "Select"
-msgstr "Selectare"
+msgstr "Selecta"
 
-msgid "Select Region"
-msgstr "Selectați regiunea"
+msgid "Select {} unit"
+msgstr "Selectați {} unitate"
 
 msgid "Select a city"
 msgstr "Selectați un oraș"
@@ -1107,29 +1144,29 @@ msgstr "Selectați un oraș"
 msgid "Select a map with OK"
 msgstr "Selectați o hartă cu OK"
 
+msgid "Select Region"
+msgstr "Selectați Regiune"
+
 msgid "Select unit system"
-msgstr "Selectați sistemul de unități"
+msgstr "Selectați sistemul de unitate"
 
 msgid "Select wind unit"
-msgstr "Selectați unitatea pentru vânt"
-
-msgid "Select {} unit"
-msgstr "Selectați unitatea pentru {}"
+msgstr "Selectați unitatea de vânt"
 
 msgid "Selected hour details"
-msgstr "Detalii pentru ora selectată"
-
-msgid "Set azimuth: N/A"
-msgstr "Set azimut: N/A"
+msgstr "Detalii ale orei selectate"
 
 msgid "Set azimuth: {:.0f}°"
 msgstr "Setați azimut: {:.0f}°"
 
+msgid "Set azimuth: N/A"
+msgstr "Set azimut: N/A"
+
 msgid "Sets"
-msgstr "Apus"
+msgstr "Seturi"
 
 msgid "Show info"
-msgstr "Afișare informații"
+msgstr "Afișați informații"
 
 msgid "Showers"
 msgstr "Averse"
@@ -1141,13 +1178,13 @@ msgid "Slower: {}s"
 msgstr "Mai lent: {}s"
 
 msgid "Snow / ice"
-msgstr "Zăpadă / gheață"
+msgstr "Zăpadă/gheață"
 
 msgid "Snow prob. {}%"
-msgstr "Probabilitate de zăpadă {}%"
+msgstr "problema de zapada. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr "Prob. zăpadă: N/D"
+msgstr "Problemă zăpadă: N/A"
 
 msgid "South Africa"
 msgstr "Africa de Sud"
@@ -1162,7 +1199,7 @@ msgid "Spain"
 msgstr "Spania"
 
 msgid "Station Observations"
-msgstr "Observații stație"
+msgstr "Observații ale stației"
 
 msgid "Station: {}"
 msgstr "Stație: {}"
@@ -1171,20 +1208,22 @@ msgid "Strong (40-60 km/h)"
 msgstr "Puternic (40-60 km/h)"
 
 msgid "Sunrise"
-msgstr "Răsărit"
+msgstr "Răsărit de soare"
 
 msgid "Sunset"
-msgstr "Apus"
+msgstr "Apus de soare"
 
-#, fuzzy
 msgid "Super Full Moon"
-msgstr "Lună plină"
+msgstr "Super Lună Plină"
 
 msgid "Sweden"
 msgstr "Suedia"
 
 msgid "Switzerland"
-msgstr "Elveția"
+msgstr "Elveţia"
+
+msgid "Target Language"
+msgstr "Limba țintă"
 
 msgid "Temp"
 msgstr "Temp"
@@ -1192,48 +1231,47 @@ msgstr "Temp"
 msgid "Temperature"
 msgstr "Temperatură"
 
-msgid "Temperature: %d%s"
-msgstr "Temperatură: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Temperatură: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Temperatură: N/D"
-
 msgid "Temperature: {}"
-msgstr "Temperatură: {}"
+msgstr "Temperatura: {}"
 
 msgid "Temperature: {}{}"
-msgstr "Temperatură: {}{}"
+msgstr "Temperatura: {}{}"
 
 msgid "Temperature: {}°C"
-msgstr "Temperatură: {}°C"
+msgstr "Temperatura: {}°C"
 
-#, fuzzy
+msgid "Temperature: %d%s"
+msgstr "Temperatura: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatura: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatura: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Mulțumiri lui {thanks} și altor prieteni pentru sugestii și testare"
+msgstr "Mulțumesc {thanks} și altor prieteni pentru sugestii"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "Versiunea la distanță ({remote}) este mai veche decât cea curentă ({current})."
+msgstr "Versiunea la distanță ({remote}) este mai veche decât cea actuală ({current})."
 
 msgid "Thin upper cloud"
-msgstr "Nori subțiri înalți"
+msgstr "Nor subțire superior"
 
 msgid "Thuringia"
 msgstr "Turingia"
 
 msgid "Time"
-msgstr "Ora"
+msgstr "Timp"
 
 msgid "Today"
 msgstr "Astăzi"
 
 msgid "Today/Tomorrow details"
-msgstr "Detalii astăzi/mâine"
+msgstr "Detalii azi/mâine"
 
 msgid "Toggle legend"
-msgstr "Comutare legendă"
+msgstr "Comutați legenda"
 
 msgid "Token expire hours"
 msgstr "Orele de expirare a simbolului"
@@ -1250,23 +1288,20 @@ msgstr "Mâine"
 msgid "Transit (culmination): {}"
 msgstr "Tranzit (apogeu): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "Altitudine de tranzit: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "Altitudine de tranzit: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "Setări transparență"
+msgid "Transit altitude: N/A"
+msgstr "Altitudine de tranzit: N/A"
+
+msgid "Translation Settings"
+msgstr "Setări de traducere"
 
 msgid "Transparency level"
-msgstr "Nivel transparență"
+msgstr "Nivel de transparență"
 
-msgid "UV Index"
-msgstr "Indice UV"
-
-msgid "UV N/A"
-msgstr "UV: N/D"
+msgid "Transparency Settings"
+msgstr "Setări de transparență"
 
 msgid "Unhealthy"
 msgstr "Nesănătos"
@@ -1275,13 +1310,13 @@ msgid "Unhealthy for sensitives"
 msgstr "Nesănătos pentru sensibili"
 
 msgid "Unit Settings"
-msgstr "Setări unități"
+msgstr "Setările unității"
 
 msgid "Unit Settings (Advanced)"
-msgstr "Setări unități (Avansat)"
+msgstr "Setări unități (avansate)"
 
 msgid "Unit Settings (Simple)"
-msgstr "Setări unități (Simplu)"
+msgstr "Setări unități (simple)"
 
 msgid "Unknown"
 msgstr "Necunoscut"
@@ -1296,40 +1331,55 @@ msgid "Update canceled."
 msgstr "Actualizare anulată."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr "Actualizare finalizată. Vă rugăm reporniți Enigma2."
+msgstr "Actualizare finalizată. Vă rugăm să reporniți Enigma2."
 
 msgid "Updated {}"
 msgstr "Actualizat {}"
 
-msgid "Updated: N/A"
-msgstr "Actualizat: N/D"
-
 msgid "Updated: {}"
 msgstr "Actualizat: {}"
+
+msgid "Updated: N/A"
+msgstr "Actualizat: N/A"
 
 msgid "Updating..."
 msgstr "Se actualizează..."
 
-msgid "Use arrow keys to scroll"
-msgstr "Utilizați tastele săgeți pentru derulare"
-
 msgid "Use ← → to change time | OK to exit"
-msgstr "Utilizați ← → pentru a schimba ora | OK pentru ieșire"
+msgstr "Folosiți ← → pentru a schimba ora | OK pentru a ieși"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr "Utilizați ←/→/↑/↓ pentru a vă deplasa | OK pentru ieșire"
+msgstr "Folosiți ←/→/↑/↓ pentru a vă deplasa | OK pentru a ieși"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr "Utilizați ▲/▼ pentru a modifica, OK pentru a selecta"
+msgstr "Folosiți ▲/▼ pentru a schimba, OK pentru a selecta"
+
+msgid "Use arrow keys to scroll"
+msgstr "Folosiți tastele săgeți pentru a derula"
+
+msgid "Use Google Translate"
+msgstr "Utilizați Google Translate"
 
 msgid "Using current time"
-msgstr "Se folosește ora curentă"
+msgstr "Folosind ora curentă"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "Index UV"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
-msgstr "Ploaie foarte abundentă"
+msgstr "Ploaie foarte puternică"
 
 msgid "Very high"
-msgstr "Foarte ridicat"
+msgstr "Foarte sus"
 
 msgid "Very hot (>40°C)"
 msgstr "Foarte cald (>40°C)"
@@ -1337,75 +1387,74 @@ msgstr "Foarte cald (>40°C)"
 msgid "Very low"
 msgstr "Foarte scăzut"
 
-#, fuzzy
 msgid "Very unhealthy"
-msgstr "Ploaie foarte abundentă"
-
-msgid "Visibility: %s m"
-msgstr "Vizibilitate: %s m"
+msgstr "Foarte nesănătos"
 
 msgid "Visibility: {} m"
 msgstr "Vizibilitate: {} m"
 
+msgid "Visibility: %s m"
+msgstr "Vizibilitate: %s m"
+
 msgid "W"
-msgstr "V"
+msgstr "W"
 
 msgid "Waning Crescent"
-msgstr "Semilună descrescătoare"
+msgstr "Semiluna în scădere"
 
 msgid "Waning Gibbous"
-msgstr "Gibbă descrescătoare"
+msgstr "Waning Gibbous"
 
 msgid "Warm (20-30°C)"
-msgstr "Calduros (20-30°C)"
+msgstr "Cald (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr "Semilună crescătoare"
+msgstr "Semiluna în ceară"
 
 msgid "Waxing Gibbous"
-msgstr "Gibbă crescătoare"
+msgstr "Gibos în ceară"
 
 msgid "Weather"
 msgstr "Vreme"
 
 msgid "Weather Map"
-msgstr "Hartă meteo"
+msgstr "Harta vremii"
 
 msgid "Weather Maps"
 msgstr "Hărți meteo"
 
-msgid "Weather Maps & Satellite"
-msgstr "Hărți meteo și satelit"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Hărți meteo (Wetterkontor)"
 
+msgid "Weather Maps & Satellite"
+msgstr "Hărți meteo și satelit"
+
 msgid "Weather Maps Slideshow"
-msgstr "Prezentare hărți meteo"
+msgstr "Prezentare Hărți meteo"
 
 msgid "Weather Radar"
 msgstr "Radar meteo"
 
 msgid "Weather today"
-msgstr "Vremea astăzi"
+msgstr "Vremea azi"
 
 msgid "Weather tomorrow"
 msgstr "Vremea mâine"
 
 msgid "Weekly Forecast"
-msgstr "Prognoză săptămânală"
+msgstr "Prognoza săptămânală"
 
 msgid "Wind"
 msgstr "Vânt"
+
+msgid "Wind direction"
+msgstr "Direcția vântului"
 
 msgid "Wind Direction today"
 msgstr "Direcția vântului astăzi"
 
 msgid "Wind Direction tomorrow"
 msgstr "Direcția vântului mâine"
-
-msgid "Wind direction"
-msgstr "Direcția vântului"
 
 msgid "Wind speed"
 msgstr "Viteza vântului"
@@ -1416,6 +1465,15 @@ msgstr "Viteza vântului {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Viteza vântului: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "Vânt: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vânt: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vânt: {} km/h {}"
+
 msgid "Wind: %d %s %s"
 msgstr "Vânt: %d %s %s"
 
@@ -1423,31 +1481,22 @@ msgid "Wind: %s km/h %s"
 msgstr "Vânt: %s km/h %s"
 
 msgid "Wind: N/A"
-msgstr "Vânt: N/D"
-
-msgid "Wind: {}"
-msgstr "Vânt: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Vânt: {} km/h {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Vânt: {} {} {}"
+msgstr "Vânt: N/A"
 
 msgid "Window transparency"
-msgstr "Transparență fereastră"
+msgstr "Transparența ferestrei"
 
 msgid "Yellow - Favorite 2"
-msgstr "Galben - Favorite 2"
+msgstr "Galben - Favorit 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Aveți deja instalată versiunea {version}.\nDoriți să o reinstalați?"
 
 msgid "Zoom In"
-msgstr "Mărire"
+msgstr "Măriți"
 
 msgid "Zoom Out"
-msgstr "Micșorare"
-
-msgid "Zoom+"
-msgstr "Zoom+"
+msgstr "Micșorați"
 
 msgid "Zoom-"
 msgstr "Zoom-"
@@ -1455,91 +1504,6 @@ msgstr "Zoom-"
 msgid "Zoom:"
 msgstr "Zoom:"
 
-msgid "v."
-msgstr "v."
+msgid "Zoom+"
+msgstr "Zoom+"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} h {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• ALBASTRU pentru a salva ca Acasă\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- pentru a sări 500 de orașe\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• VERDE pentru a salva ca Favorite 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK pentru a selecta orașul\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ROȘU pentru a deschide tastatura de căutare\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Utilizați tastele săgeți pentru navigare\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• GALBEN pentru a salva ca Favorite 2\n"
-
-msgid "← Frame"
-msgstr "← Cadru"
-
-#, fuzzy
-#~ msgid "(Additional data not available)"
-#~ msgstr "Nu sunt disponibile date ale stației"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== DETALII LUNA ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Diametru unghiular: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Mărimea aparentă: N/A"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Meniu Foreca One"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "Prognoză pe 7 zile"
-
-#~ msgid "Blue"
-#~ msgstr "Albastru"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "Acoperire nori"
-
-#~ msgid "Distance"
-#~ msgstr "Distanță"
-
-#~ msgid "Green"
-#~ msgstr "Verde"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "Imagine descărcată"
-
-#~ msgid "Last update"
-#~ msgstr "Ultima actualizare"
-
-#~ msgid "Radar"
-#~ msgstr "Radar"
-
-#~ msgid "Red"
-#~ msgstr "Roșu"
-
-#~ msgid "Snow"
-#~ msgstr "Zăpadă"
-
-#~ msgid "UV"
-#~ msgstr "UV"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Test hărți Wetter.de"
-
-#~ msgid "Ok - Zone"
-#~ msgstr "OK - Zonă"

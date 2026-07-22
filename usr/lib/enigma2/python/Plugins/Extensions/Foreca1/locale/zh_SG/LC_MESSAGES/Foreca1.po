@@ -1,20 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# zh_SG translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:55+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Language zh-SG\n"
-"Language: zh-SG\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: zh_SG <ekekaz@gmail.com>\n"
+"Language: zh_SG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} 小时 {mins} 分钟"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• 蓝色保存为Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 跳跃 500 个城市\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• 绿色表示另存为收藏夹 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• 确定选择城市\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• 红色打开搜索键盘\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• 使用箭头键导航\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- 跳转100个城市\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• 黄色保存为收藏夹 2\n"
+
+msgid "← Frame"
+msgstr "← 框架"
 
 msgid "0 - Today"
 msgstr "0 - 今天"
@@ -40,29 +67,14 @@ msgstr "6 - 今天 + 6 天"
 msgid "7 - Today + 7 days"
 msgstr "7 - 今天 + 7 天"
 
+msgid "7 Day Forecast"
+msgstr "7 天预报"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - 今天 + 8 天"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - 今天 + 9 天"
-
-msgid "API credentials not configured."
-msgstr "未配置 API 凭据。"
-
-msgid "API error"
-msgstr "API错误"
-
-msgid "API password"
-msgstr "接口密码"
-
-msgid "API user"
-msgstr "接口用户"
-
-msgid "AQI {}"
-msgstr "空气质量指数{}"
-
-msgid "AQI: N/A"
-msgstr "空气质量指数：不适用"
 
 msgid "Advanced"
 msgstr "先进的"
@@ -79,15 +91,35 @@ msgstr "自新月以来的年龄：{:.1f} 天"
 msgid "Age: N/A"
 msgstr "年龄：不适用"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "角直径：{:.0f}″"
+
 msgid "Angular diameter: N/A"
 msgstr "角直径：不适用"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "角直径：{:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "未找到 API 配置文件！\n\n请使用您的 Foreca API 凭据创建文件：\n{0}\n\n。"
+
+msgid "API credentials not configured."
+msgstr "未配置 API 凭据。"
+
+msgid "API error"
+msgstr "API错误"
+
+msgid "API password"
+msgstr "接口密码"
+
+msgid "API user"
+msgstr "接口用户"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "视星等：{:.2f}"
+
+msgid "AQI {}"
+msgstr "空气质量指数{}"
+
+msgid "AQI: N/A"
+msgstr "空气质量指数：不适用"
 
 msgid "Assign to Favorite 1"
 msgstr "分配至收藏夹 1"
@@ -125,6 +157,9 @@ msgstr "柏林"
 msgid "Black Moon"
 msgstr "黑月"
 
+msgid "Blue"
+msgstr "蓝色的"
+
 msgid "Blue - Home"
 msgstr "蓝色 - 主页"
 
@@ -147,7 +182,7 @@ msgid "Celsius, km/h, hPa"
 msgstr "摄氏度、公里/小时、百帕"
 
 msgid "Changelog: {changelog}"
-msgstr "变更日志：{变更日志}"
+msgstr "变更日志：{changelog}"
 
 msgid "Changes apply immediately"
 msgstr "更改立即生效"
@@ -158,11 +193,14 @@ msgstr "检查更新"
 msgid "Choose detail view"
 msgstr "选择详细视图"
 
+msgid "City list file not found!"
+msgstr "未找到城市列表文件！"
+
 msgid "City Selection"
 msgstr "城市选择"
 
-msgid "City list file not found!"
-msgstr "未找到城市列表文件！"
+msgid "City Selection Help:\n\n"
+msgstr "城市选择帮助：\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "清理 Foreca One 临时文件？"
@@ -209,16 +247,13 @@ msgstr "多云，雷阵雨，有阵雨"
 msgid "Cold (< 0°C)"
 msgstr "寒冷 (< 0°C)"
 
-msgid "Color Legend"
-msgstr "颜色图例"
-
-msgid "Color Selector"
-msgstr "颜色选择器"
-
 msgid "Color data"
 msgstr "颜色数据"
 
 msgid "Color legend"
+msgstr "颜色图例"
+
+msgid "Color Legend"
 msgstr "颜色图例"
 
 msgid "Color name"
@@ -227,8 +262,14 @@ msgstr "颜色名称"
 msgid "Color select"
 msgstr "颜色选择"
 
+msgid "Color Selector"
+msgstr "颜色选择器"
+
 msgid "Condition: {}"
 msgstr "健康）状况： {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "配置 Foreca API 凭据"
 
 msgid "Continents Weather Maps"
 msgstr "大洲气象图"
@@ -296,17 +337,20 @@ msgstr "露点：%s°C"
 msgid "Dewpoint: N/A"
 msgstr "露点：不适用"
 
+msgid "Distance"
+msgstr "距离"
+
 msgid "Distance {} km"
 msgstr "距离 {} 公里"
-
-msgid "Distance: %s"
-msgstr "距离：%s"
 
 msgid "Distance: {}"
 msgstr "距离： {}"
 
 msgid "Distance: {} km"
 msgstr "距离：{} 公里"
+
+msgid "Distance: %s"
+msgstr "距离：%s"
 
 msgid "Do you want to install it now?"
 msgstr "您想现在安装吗？"
@@ -374,6 +418,9 @@ msgstr "极端/雷暴"
 msgid "Fahrenheit, mph, inHg"
 msgstr "华氏度、英里/小时、英寸汞柱"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "写入配置文件失败：\n%s"
+
 msgid "Faster: {}s"
 msgstr "更快：{}"
 
@@ -383,11 +430,11 @@ msgstr "最喜欢的 1"
 msgid "Favorite 2"
 msgstr "最喜欢的 2"
 
-msgid "Favorites Details"
-msgstr "收藏夹 详细信息"
-
 msgid "Favorites details"
 msgstr "收藏夹详细信息"
+
+msgid "Favorites Details"
+msgstr "收藏夹 详细信息"
 
 msgid "Feels like"
 msgstr "感觉就像"
@@ -398,15 +445,6 @@ msgstr "感觉像{}"
 msgid "Feels like {}{}"
 msgstr "感觉就像{}{}"
 
-msgid "Feels like: %d%s"
-msgstr "感觉就像：%d%s"
-
-msgid "Feels like: %s°C"
-msgstr "感觉像：%s°C"
-
-msgid "Feels like: N/A"
-msgstr "感觉就像：不适用"
-
 msgid "Feels like: {}"
 msgstr "感觉就像：{}"
 
@@ -415,6 +453,15 @@ msgstr "感觉就像：{}{}"
 
 msgid "Feels like: {}°C"
 msgstr "感觉像：{}°C"
+
+msgid "Feels like: %d%s"
+msgstr "感觉就像：%d%s"
+
+msgid "Feels like: %s°C"
+msgstr "感觉像：%s°C"
+
+msgid "Feels like: N/A"
+msgstr "感觉就像：不适用"
 
 msgid "Finland"
 msgstr "芬兰"
@@ -425,17 +472,20 @@ msgstr "第一季度"
 msgid "Fog"
 msgstr "多雾路段"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API 设置"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API 凭证尚未配置。请在设置屏幕中输入它们。"
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API 设置已成功保存。"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API 设置"
+
 msgid "Foreca One"
 msgstr "福雷卡一号"
+
+msgid "Foreca One | Map {}"
+msgstr "福雷卡一号 |地图 {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One 实时地图 (API)"
@@ -446,23 +496,17 @@ msgstr "福雷卡一号菜单"
 msgid "Foreca One No stations found"
 msgstr "Foreca One 未找到电台"
 
+msgid "Foreca One Setup"
+msgstr "Foreca One 设置"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One 车站：附近有 {} 个车站 ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr "Foreca One 天气预报"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One 天气和预报版本。 %s"
 
-msgid "Foreca One | Map {}"
-msgstr "福雷卡一号 |地图 {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "在本地找到“%s”的 %d 个城市"
-
-msgid "Found %d cities online for '%s'"
-msgstr "在线找到“%s”的 %d 个城市"
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One 天气预报"
 
 msgid "Frame →"
 msgstr "框架 →"
@@ -493,6 +537,9 @@ msgstr "英国"
 
 msgid "Greece"
 msgstr "希腊"
+
+msgid "Green"
+msgstr "绿色的"
 
 msgid "Green - Favorite 1"
 msgstr "绿色 - 最喜欢的 1"
@@ -533,14 +580,17 @@ msgstr "热 (30-40°C)"
 msgid "Hour Details"
 msgstr "营业时间详情"
 
+msgid "HTML"
+msgstr "超文本标记语言"
+
 msgid "Humidity"
 msgstr "湿度"
 
-msgid "Humidity: %s%%"
-msgstr "湿度：%s%%"
-
 msgid "Humidity: {}%"
 msgstr "湿度： {}％"
+
+msgid "Humidity: %s%%"
+msgstr "湿度：%s%%"
 
 msgid "Hungary"
 msgstr "匈牙利"
@@ -552,13 +602,13 @@ msgid "Illumination"
 msgstr "照明"
 
 msgid "Illumination: {:.1f}%"
-msgstr "照度：{:.1f}%"
+msgstr "光照：{:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "图片 %(当前)d/%(总计)d – %(天)s"
+msgstr "图片 %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "图片 %(当前)d/%(总计)d – %(天)s（已暂停）"
+msgstr "图片 %(current)d/%(total)d – %(day)s（已暂停）"
 
 msgid "Image not available"
 msgstr "图片不可用"
@@ -598,6 +648,9 @@ msgstr "键盘"
 
 msgid "Last Quarter"
 msgstr "上季度"
+
+msgid "Last update"
+msgstr "最后更新"
 
 msgid "Latvia"
 msgstr "拉脱维亚"
@@ -650,9 +703,11 @@ msgstr "下个月开始的月相"
 msgid "Luxembourg"
 msgstr "卢森堡"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "视星等：不适用"
+msgstr "震级：不适用"
+
+msgid "Map {} selected"
+msgstr "已选择地图 {}"
 
 msgid "Map & Tiles Loaded"
 msgstr "地图和图块已加载"
@@ -662,9 +717,6 @@ msgstr "地图已加载"
 
 msgid "Map server"
 msgstr "地图服务器"
-
-msgid "Map {} selected"
-msgstr "已选择地图 {}"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "梅克伦堡-前波莫瑞州"
@@ -708,11 +760,10 @@ msgstr "中雨"
 msgid "Month"
 msgstr "月"
 
-#, fuzzy
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "月亮细节"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "月亮细节"
 
 msgid "Moonrise: {}"
@@ -727,16 +778,16 @@ msgstr "早晨"
 msgid "Mostly clear"
 msgstr "基本清晰"
 
-msgid "Move Down"
-msgstr "下移"
-
-msgid "Move Up"
-msgstr "向上移动"
-
 msgid "Move down"
 msgstr "下移"
 
+msgid "Move Down"
+msgstr "下移"
+
 msgid "Move up"
+msgstr "向上移动"
+
+msgid "Move Up"
 msgstr "向上移动"
 
 msgid "N"
@@ -757,26 +808,17 @@ msgstr "新版本 {version} 可用。"
 msgid "Next"
 msgstr "下一个"
 
-msgid "Next Image"
-msgstr "下一张图片"
-
 msgid "Next frame"
 msgstr "下一帧"
+
+msgid "Next Image"
+msgstr "下一张图片"
 
 msgid "Next page"
 msgstr "下一页"
 
 msgid "Next time"
 msgstr "下次"
-
-msgid "No Internet connection detected."
-msgstr "未检测到互联网连接。"
-
-msgid "No OSM tiles"
-msgstr "无 OSM 瓷砖"
-
-msgid "No cities found locally for '%s'"
-msgstr "本地未找到“%s”的城市"
 
 msgid "No city selected"
 msgstr "未选择城市"
@@ -787,8 +829,14 @@ msgstr "无数据"
 msgid "No date available"
 msgstr "无可用日期"
 
+msgid "No Internet connection detected."
+msgstr "未检测到互联网连接。"
+
 msgid "No location selected"
 msgstr "未选择地点"
+
+msgid "No OSM tiles"
+msgstr "无 OSM 瓷砖"
 
 msgid "No specific legend available."
 msgstr "没有具体的传说。"
@@ -817,6 +865,9 @@ msgstr "北莱茵-威斯特法伦州"
 msgid "Norway"
 msgstr "挪威"
 
+msgid "Ok - Details"
+msgstr "好的 - 详细信息"
+
 msgid "OK - Ext Info"
 msgstr "确定 - 分机信息"
 
@@ -825,9 +876,6 @@ msgstr "确定 - 预测"
 
 msgid "OK - Open Map"
 msgstr "确定 - 打开地图"
-
-msgid "Ok - Details"
-msgstr "好的 - 详细信息"
 
 msgid "Open Keyboard"
 msgstr "打开键盘"
@@ -874,16 +922,16 @@ msgstr "阴天，雷阵雨，有阵雨"
 msgid "Overnight"
 msgstr "过夜"
 
-msgid "Page Down"
-msgstr "向下翻页"
-
-msgid "Page Up"
-msgstr "向上翻页"
-
 msgid "Page down"
 msgstr "向下翻页"
 
+msgid "Page Down"
+msgstr "向下翻页"
+
 msgid "Page up"
+msgstr "向上翻页"
+
+msgid "Page Up"
 msgstr "向上翻页"
 
 msgid "Pan down"
@@ -964,6 +1012,12 @@ msgstr "按红色再次搜索"
 msgid "Pressure"
 msgstr "压力"
 
+msgid "Pressure: {}"
+msgstr "压力： {}"
+
+msgid "Pressure: {} hPa"
+msgstr "气压：{} hPa"
+
 msgid "Pressure: %s"
 msgstr "压力：%s"
 
@@ -973,23 +1027,17 @@ msgstr "气压：%s hPa"
 msgid "Pressure: N/A"
 msgstr "压力：不适用"
 
-msgid "Pressure: {}"
-msgstr "压力： {}"
-
-msgid "Pressure: {} hPa"
-msgstr "气压：{} hPa"
-
 msgid "Prev"
 msgstr "上一篇"
 
 msgid "Previous"
 msgstr "以前的"
 
-msgid "Previous Image"
-msgstr "上一张图片"
-
 msgid "Previous frame"
 msgstr "上一帧"
+
+msgid "Previous Image"
+msgstr "上一张图片"
 
 msgid "Previous page"
 msgstr "上一页"
@@ -1012,6 +1060,9 @@ msgstr "雨：{:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "雨视雷达"
 
+msgid "Red"
+msgstr "红色的"
+
 msgid "Red - Color select"
 msgstr "红色 - 颜色选择"
 
@@ -1033,17 +1084,17 @@ msgstr "右箭头 - 第二天"
 msgid "Rise"
 msgstr "上升"
 
-msgid "Rise azimuth: N/A"
-msgstr "上升方位角：不适用"
-
 msgid "Rise azimuth: {:.0f}°"
 msgstr "上升方位角：{:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "上升方位角：不适用"
 
 msgid "Russia"
 msgstr "俄罗斯"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "Saarland"
 msgstr "萨尔州"
@@ -1059,6 +1110,9 @@ msgstr "节省"
 
 msgid "Save API settings"
 msgstr "保存 API 设置"
+
+msgid "Save translation settings"
+msgstr "保存翻译设置"
 
 msgid "Saxony"
 msgstr "萨克森"
@@ -1078,14 +1132,11 @@ msgstr "首先尝试在线搜索，如果失败则使用本地列表。"
 msgid "Search your City"
 msgstr "搜索您的城市"
 
-msgid "Searching for '%s'..."
-msgstr "正在搜索“%s”..."
-
 msgid "Select"
 msgstr "选择"
 
-msgid "Select Region"
-msgstr "选择地区"
+msgid "Select {} unit"
+msgstr "选择 {} 单位"
 
 msgid "Select a city"
 msgstr "选择城市"
@@ -1093,23 +1144,23 @@ msgstr "选择城市"
 msgid "Select a map with OK"
 msgstr "单击“确定”选择地图"
 
+msgid "Select Region"
+msgstr "选择地区"
+
 msgid "Select unit system"
 msgstr "选择单位制"
 
 msgid "Select wind unit"
 msgstr "选择风力机组"
 
-msgid "Select {} unit"
-msgstr "选择 {} 单位"
-
 msgid "Selected hour details"
 msgstr "所选时间详细信息"
 
-msgid "Set azimuth: N/A"
-msgstr "设置方位角：N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "设置方位角：{:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "设置方位角：N/A"
 
 msgid "Sets"
 msgstr "套"
@@ -1171,20 +1222,14 @@ msgstr "瑞典"
 msgid "Switzerland"
 msgstr "瑞士"
 
+msgid "Target Language"
+msgstr "目标语言"
+
 msgid "Temp"
 msgstr "温度"
 
 msgid "Temperature"
 msgstr "温度"
-
-msgid "Temperature: %d%s"
-msgstr "温度：%d%s"
-
-msgid "Temperature: %s°C"
-msgstr "温度：%s°C"
-
-msgid "Temperature: N/A"
-msgstr "温度：不适用"
 
 msgid "Temperature: {}"
 msgstr "温度： {}"
@@ -1194,6 +1239,15 @@ msgstr "温度： {}{}"
 
 msgid "Temperature: {}°C"
 msgstr "温度：{}°C"
+
+msgid "Temperature: %d%s"
+msgstr "温度：%d%s"
+
+msgid "Temperature: %s°C"
+msgstr "温度：%s°C"
+
+msgid "Temperature: N/A"
+msgstr "温度：不适用"
 
 msgid "Thanks {thanks} and other friends for suggestions"
 msgstr "感谢{thanks}和其他朋友的建议"
@@ -1234,23 +1288,20 @@ msgstr "明天"
 msgid "Transit (culmination): {}"
 msgstr "过境（高潮）：{}"
 
-msgid "Transit altitude: N/A"
-msgstr "过境高度：不适用"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "过境高度：{:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "透明度设置"
+msgid "Transit altitude: N/A"
+msgstr "过境高度：不适用"
+
+msgid "Translation Settings"
+msgstr "翻译设置"
 
 msgid "Transparency level"
 msgstr "透明度等级"
 
-msgid "UV Index"
-msgstr "紫外线指数"
-
-msgid "UV N/A"
-msgstr "紫外线 不适用"
+msgid "Transparency Settings"
+msgstr "透明度设置"
 
 msgid "Unhealthy"
 msgstr "不良"
@@ -1285,17 +1336,14 @@ msgstr "更新完成。请重新启动 Enigma2。"
 msgid "Updated {}"
 msgstr "更新了{}"
 
-msgid "Updated: N/A"
-msgstr "更新：不适用"
-
 msgid "Updated: {}"
 msgstr "更新：{}"
 
+msgid "Updated: N/A"
+msgstr "更新：不适用"
+
 msgid "Updating..."
 msgstr "更新中..."
-
-msgid "Use arrow keys to scroll"
-msgstr "使用箭头键滚动"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "使用 ← → 更改时间 |确定退出"
@@ -1306,8 +1354,26 @@ msgstr "使用 ←/→/↑/↓ 移动 |确定退出"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "用▲/▼键更改，OK选择"
 
+msgid "Use arrow keys to scroll"
+msgstr "使用箭头键滚动"
+
+msgid "Use Google Translate"
+msgstr "使用谷歌翻译"
+
 msgid "Using current time"
 msgstr "使用当前时间"
+
+msgid "UV"
+msgstr "紫外线"
+
+msgid "UV Index"
+msgstr "紫外线指数"
+
+msgid "UV N/A"
+msgstr "紫外线 不适用"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "特大雨"
@@ -1324,11 +1390,11 @@ msgstr "很低"
 msgid "Very unhealthy"
 msgstr "非常不健康"
 
-msgid "Visibility: %s m"
-msgstr "能见度：%s米"
-
 msgid "Visibility: {} m"
 msgstr "能见度：{}米"
+
+msgid "Visibility: %s m"
+msgstr "能见度：%s米"
 
 msgid "W"
 msgstr "瓦"
@@ -1357,11 +1423,11 @@ msgstr "气象图"
 msgid "Weather Maps"
 msgstr "气象图"
 
-msgid "Weather Maps & Satellite"
-msgstr "气象图和卫星"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "气象图 (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "气象图和卫星"
 
 msgid "Weather Maps Slideshow"
 msgstr "天气图幻灯片"
@@ -1381,14 +1447,14 @@ msgstr "每周预测"
 msgid "Wind"
 msgstr "风"
 
+msgid "Wind direction"
+msgstr "风向"
+
 msgid "Wind Direction today"
 msgstr "今天风向"
 
 msgid "Wind Direction tomorrow"
 msgstr "明天风向"
-
-msgid "Wind direction"
-msgstr "风向"
 
 msgid "Wind speed"
 msgstr "风速"
@@ -1399,6 +1465,15 @@ msgstr "风速{}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "风速：{:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "风： {}"
+
+msgid "Wind: {} {} {}"
+msgstr "风： {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "风：{} 公里/小时{}"
+
 msgid "Wind: %d %s %s"
 msgstr "风：%d %s %s"
 
@@ -1408,20 +1483,14 @@ msgstr "风：%s 公里/小时 %s"
 msgid "Wind: N/A"
 msgstr "风：不适用"
 
-msgid "Wind: {}"
-msgstr "风： {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "风：{} 公里/小时{}"
-
-msgid "Wind: {} {} {}"
-msgstr "风： {} {} {}"
-
 msgid "Window transparency"
 msgstr "窗口透明度"
 
 msgid "Yellow - Favorite 2"
 msgstr "黄色 - 最喜欢的 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "您已安装版本 {version}。\n是否要重新安装？"
 
 msgid "Zoom In"
 msgstr "放大"
@@ -1429,53 +1498,12 @@ msgstr "放大"
 msgid "Zoom Out"
 msgstr "缩小"
 
-msgid "Zoom+"
-msgstr "变焦+"
-
 msgid "Zoom-"
 msgstr "飞涨-"
 
 msgid "Zoom:"
 msgstr "飞涨："
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "变焦+"
 
-msgid "{hours} h {mins} min"
-msgstr "{小时} 小时 {分钟} 分钟"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• 蓝色保存为主页\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- 跳跃 500 个城市\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• 绿色表示另存为收藏夹 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• 确定选择城市\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• 红色打开搜索键盘\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• 使用箭头键导航\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• 黄色保存为收藏夹 2\n"
-
-msgid "← Frame"
-msgstr "← 框架"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "（无法提供其他数据）"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== 月球细节 ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "角直径：{:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "视星等：不适用"

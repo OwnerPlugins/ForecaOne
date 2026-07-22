@@ -1,23 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ka translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Georgian <(nothing)>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ka <ekekaz@gmail.com>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "(Additional data not available)"
-msgstr "(დამატებითი მონაცემები მიუწვდომელია)"
+msgid "{hours} h {mins} min"
+msgstr "{hours} სთ {mins} წთ"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• ლურჯი შესანახად როგორც Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 ქალაქზე გადასასვლელად\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• მწვანე 1\n ფავორიტად შესანახად\n"
+
+msgid "• OK to select city\n"
+msgstr "• კარგი, რომ აირჩიოთ city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• წითელი საძიებო კლავიატურა\n-ის გასახსნელად\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• გამოიყენეთ ისრიანი ღილაკები ნავიგაციისთვის\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- 100 ქალაქზე გადასასვლელად\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• ყვითელი 2\n ფავორიტად შესანახად\n"
+
+msgid "← Frame"
+msgstr "← ჩარჩო"
 
 msgid "0 - Today"
 msgstr "0 - დღეს"
@@ -43,14 +67,38 @@ msgstr "6 - დღეს + 6 დღე"
 msgid "7 - Today + 7 days"
 msgstr "7 - დღეს + 7 დღე"
 
+msgid "7 Day Forecast"
+msgstr "7 დღის პროგნოზი"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - დღეს + 8 დღე"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - დღეს + 9 დღე"
 
-msgid "=== MOON DETAILS ==="
-msgstr "=== მთვარის დეტალები ==="
+msgid "Advanced"
+msgstr "გაფართოებული"
+
+msgid "Advanced Unit Settings"
+msgstr "გაფართოებული ერთეულის პარამეტრები"
+
+msgid "Afternoon"
+msgstr "შუადღე"
+
+msgid "Age since New Moon: {:.1f} days"
+msgstr "ასაკი ახალი მთვარედან: {:.1f} დღე"
+
+msgid "Age: N/A"
+msgstr "ასაკი: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "კუთხოვანი დიამეტრი: {:.0f}″"
+
+msgid "Angular diameter: N/A"
+msgstr "კუთხოვანი დიამეტრი: N/A"
+
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API კონფიგურაციის ფაილი ვერ მოიძებნა!\n\nგთხოვთ, შექმნათ ფაილი:\n{0}\n\nთქვენი Foreca API სერთიფიკატებით."
 
 msgid "API credentials not configured."
 msgstr "API სერთიფიკატები არ არის კონფიგურირებული."
@@ -64,38 +112,14 @@ msgstr "API პაროლი"
 msgid "API user"
 msgstr "API მომხმარებელი"
 
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr ""
-
-msgid "Advanced"
-msgstr "გაფართოებული"
-
-msgid "Advanced Unit Settings"
-msgstr "გაფართოებული ერთეულის პარამეტრები"
-
-msgid "Afternoon"
-msgstr "შუადღე"
-
-msgid "Age since New Moon: {:.1f} days"
-msgstr "ასაკი ახალი მთვარის შემდეგ: {:.1f} დღე"
-
-msgid "Age: N/A"
-msgstr "ასაკი: N/A"
-
-msgid "Angular diameter: N/A"
-msgstr "კუთხოვანი დიამეტრი: N/A"
-
-msgid "Angular diameter: {:.0f}"
-msgstr "კუთხოვანი დიამეტრი: {:.0f}"
-
-msgid "Apparent magnitude: N/A"
-msgstr "მოჩვენებითი სიდიდე: N/A"
-
 msgid "Apparent magnitude: {:.2f}"
 msgstr "აშკარა სიდიდე: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "მიანიჭეთ რჩეულს 1"
@@ -133,6 +157,9 @@ msgstr "ბერლინი"
 msgid "Black Moon"
 msgstr "შავი მთვარე"
 
+msgid "Blue"
+msgstr "ლურჯი"
+
 msgid "Blue - Home"
 msgstr "ლურჯი - მთავარი"
 
@@ -146,7 +173,7 @@ msgid "Bremen"
 msgstr "ბრემენი"
 
 msgid "Calculating..."
-msgstr "გაანგარიშება..."
+msgstr "მიმდინარეობს გაანგარიშება..."
 
 msgid "Cancel"
 msgstr "გაუქმება"
@@ -166,11 +193,14 @@ msgstr "შეამოწმეთ განახლებები"
 msgid "Choose detail view"
 msgstr "აირჩიეთ დეტალური ხედი"
 
+msgid "City list file not found!"
+msgstr "ქალაქების სიის ფაილი ვერ მოიძებნა!"
+
 msgid "City Selection"
 msgstr "ქალაქის შერჩევა"
 
-msgid "City list file not found!"
-msgstr "ქალაქების სიის ფაილი ვერ მოიძებნა!"
+msgid "City Selection Help:\n\n"
+msgstr "ქალაქის შერჩევის დახმარება:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "გაასუფთავეთ Foreca One Temp ფაილები?"
@@ -217,16 +247,13 @@ msgstr "მოღრუბლული, ჭექა-ქუხილი წვ�
 msgid "Cold (< 0°C)"
 msgstr "ცივი (<0°C)"
 
-msgid "Color Legend"
-msgstr "ფერის ლეგენდა"
-
-msgid "Color Selector"
-msgstr "ფერის ამომრჩევი"
-
 msgid "Color data"
 msgstr "ფერის მონაცემები"
 
 msgid "Color legend"
+msgstr "ფერის ლეგენდა"
+
+msgid "Color Legend"
 msgstr "ფერის ლეგენდა"
 
 msgid "Color name"
@@ -235,8 +262,14 @@ msgstr "ფერის სახელი"
 msgid "Color select"
 msgstr "ფერის არჩევა"
 
+msgid "Color Selector"
+msgstr "ფერის ამომრჩევი"
+
 msgid "Condition: {}"
 msgstr "მდგომარეობა: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API სერთიფიკატების კონფიგურაცია"
 
 msgid "Continents Weather Maps"
 msgstr "კონტინენტების ამინდის რუქები"
@@ -290,31 +323,34 @@ msgid "Details"
 msgstr "დეტალები"
 
 msgid "Dewpoint {}"
-msgstr ""
+msgstr "Dewpoint {}"
 
 msgid "Dewpoint {}°C"
-msgstr ""
+msgstr "Dewpoint {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr ""
+msgstr "Dewpoint: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr ""
+msgstr "Dewpoint: %s°C"
 
 msgid "Dewpoint: N/A"
-msgstr ""
+msgstr "Dewpoint: N/A"
+
+msgid "Distance"
+msgstr "მანძილი"
 
 msgid "Distance {} km"
 msgstr "მანძილი {} კმ"
-
-msgid "Distance: %s"
-msgstr "მანძილი: %s"
 
 msgid "Distance: {}"
 msgstr "მანძილი: {}"
 
 msgid "Distance: {} km"
 msgstr "მანძილი: {} კმ"
+
+msgid "Distance: %s"
+msgstr "მანძილი: %s"
 
 msgid "Do you want to install it now?"
 msgstr "გსურთ მისი დაყენება ახლა?"
@@ -382,6 +418,9 @@ msgstr "ექსტრემალური / ჭექა-ქუხილი"
 msgid "Fahrenheit, mph, inHg"
 msgstr "ფარენჰეიტი, mph, inHg"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "კონფიგურაციის ფაილის ჩაწერა ვერ მოხერხდა:\n%s"
+
 msgid "Faster: {}s"
 msgstr "უფრო სწრაფად: {} წმ"
 
@@ -391,11 +430,11 @@ msgstr "საყვარელი 1"
 msgid "Favorite 2"
 msgstr "საყვარელი 2"
 
-msgid "Favorites Details"
-msgstr "ფავორიტების დეტალები"
-
 msgid "Favorites details"
 msgstr "რჩეული დეტალები"
+
+msgid "Favorites Details"
+msgstr "ფავორიტების დეტალები"
 
 msgid "Feels like"
 msgstr "იგრძნობა"
@@ -406,15 +445,6 @@ msgstr "გრძნობს, როგორც {}"
 msgid "Feels like {}{}"
 msgstr "გრძნობს, როგორც {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "იგრძნობა: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "იგრძნობა: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "იგრძნობა: N/A"
-
 msgid "Feels like: {}"
 msgstr "იგრძნობა: {}"
 
@@ -423,6 +453,15 @@ msgstr "იგრძნობა: {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "იგრძნობა: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "იგრძნობა: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "იგრძნობა: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "იგრძნობა: N/A"
 
 msgid "Finland"
 msgstr "ფინეთი"
@@ -433,20 +472,23 @@ msgstr "პირველი კვარტალი"
 msgid "Fog"
 msgstr "ნისლი"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API-ის დაყენება"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API სერთიფიკატები ჯერ არ არის კონფიგურირებული. გთხოვთ, შეიყვანოთ ისინი დაყენების ეკრანზე."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API პარამეტრები წარმატებით შენახულია."
 
+msgid "Foreca API Setup"
+msgstr "Foreca API-ის დაყენება"
+
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | რუკა {}"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One Live Maps (API)"
 
 msgid "Foreca One Menu"
 msgstr "Foreca One მენიუ"
@@ -454,23 +496,17 @@ msgstr "Foreca One მენიუ"
 msgid "Foreca One No stations found"
 msgstr "Foreca One სადგურები არ მოიძებნა"
 
+msgid "Foreca One Setup"
+msgstr "Foreca One დაყენება"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One სადგურები: {} სადგურები ახლოს ({})"
 
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
 msgid "Foreca One Weather Forecast"
 msgstr "Foreca One ამინდის პროგნოზი"
-
-msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | რუკა {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "ნაპოვნია %d ქალაქი ადგილობრივად '%s'-ისთვის"
-
-msgid "Found %d cities online for '%s'"
-msgstr "ნაპოვნია %d ქალაქი ინტერნეტში '%s'-ისთვის"
 
 msgid "Frame →"
 msgstr "ჩარჩო →"
@@ -501,6 +537,9 @@ msgstr "დიდი ბრიტანეთი"
 
 msgid "Greece"
 msgstr "საბერძნეთი"
+
+msgid "Green"
+msgstr "მწვანე"
 
 msgid "Green - Favorite 1"
 msgstr "მწვანე - საყვარელი 1"
@@ -541,14 +580,17 @@ msgstr "ცხელი (30-40°C)"
 msgid "Hour Details"
 msgstr "საათის დეტალები"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "ტენიანობა"
 
-msgid "Humidity: %s%%"
-msgstr "ტენიანობა: %s%%"
-
 msgid "Humidity: {}%"
 msgstr "ტენიანობა: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "ტენიანობა: %s%%"
 
 msgid "Hungary"
 msgstr "უნგრეთი"
@@ -563,10 +605,10 @@ msgid "Illumination: {:.1f}%"
 msgstr "განათება: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "სურათი %(მიმდინარე)d/%(სულ)d – %(დღე)s"
+msgstr "სურათი %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "სურათი %(მიმდინარე)d/%(სულ)d – %(დღე)s (დაპაუზებულია)"
+msgstr "სურათი %(current)d/%(total)d – %(day)s (დაპაუზებულია)"
 
 msgid "Image not available"
 msgstr "სურათი მიუწვდომელია"
@@ -606,6 +648,9 @@ msgstr "კლავიატურა"
 
 msgid "Last Quarter"
 msgstr "ბოლო კვარტალი"
+
+msgid "Last update"
+msgstr "ბოლო განახლება"
 
 msgid "Latvia"
 msgstr "ლატვია"
@@ -658,6 +703,12 @@ msgstr "მთვარის ფაზები მომავალი თვ
 msgid "Luxembourg"
 msgstr "ლუქსემბურგი"
 
+msgid "Magnitude: N/A"
+msgstr "მაგნიტუდა: N/A"
+
+msgid "Map {} selected"
+msgstr "არჩეულია რუკა {}"
+
 msgid "Map & Tiles Loaded"
 msgstr "რუკა და ფილები ჩაიტვირთა"
 
@@ -666,9 +717,6 @@ msgstr "რუკა ჩაიტვირთა"
 
 msgid "Map server"
 msgstr "რუქის სერვერი"
-
-msgid "Map {} selected"
-msgstr "არჩეულია რუკა {}"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "მეკლენბურგი-ფორპომერნია"
@@ -715,6 +763,9 @@ msgstr "თვე"
 msgid "Moon details"
 msgstr "მთვარის დეტალები"
 
+msgid "Moon Details"
+msgstr "მთვარის დეტალები"
+
 msgid "Moonrise: {}"
 msgstr "მთვარის ამოსვლა: {}"
 
@@ -727,23 +778,23 @@ msgstr "დილა"
 msgid "Mostly clear"
 msgstr "ძირითადად ნათელი"
 
-msgid "Move Down"
-msgstr "გადაადგილება ქვემოთ"
-
-msgid "Move Up"
-msgstr "გადაადგილება ზემოთ"
-
 msgid "Move down"
 msgstr "ქვევით გადაადგილება"
 
+msgid "Move Down"
+msgstr "გადაადგილება ქვემოთ"
+
 msgid "Move up"
 msgstr "ზევით გადაადგილება"
+
+msgid "Move Up"
+msgstr "გადაადგილება ზემოთ"
 
 msgid "N"
 msgstr "ნ"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "Netherlands"
 msgstr "ნიდერლანდები"
@@ -757,26 +808,17 @@ msgstr "ახალი ვერსია {version} ხელმისაწვ
 msgid "Next"
 msgstr "შემდეგი"
 
-msgid "Next Image"
-msgstr "შემდეგი სურათი"
-
 msgid "Next frame"
 msgstr "შემდეგი ჩარჩო"
+
+msgid "Next Image"
+msgstr "შემდეგი სურათი"
 
 msgid "Next page"
 msgstr "შემდეგი გვერდი"
 
 msgid "Next time"
 msgstr "შემდეგ ჯერზე"
-
-msgid "No Internet connection detected."
-msgstr "ინტერნეტ კავშირი არ არის აღმოჩენილი."
-
-msgid "No OSM tiles"
-msgstr "არ არის OSM ფილები"
-
-msgid "No cities found locally for '%s'"
-msgstr "ქალაქები არ მოიძებნა ადგილობრივად '%s'-ისთვის"
 
 msgid "No city selected"
 msgstr "არ არის შერჩეული ქალაქი"
@@ -787,8 +829,14 @@ msgstr "მონაცემები არ არის"
 msgid "No date available"
 msgstr "თარიღი არ არის ხელმისაწვდომი"
 
+msgid "No Internet connection detected."
+msgstr "ინტერნეტ კავშირი არ არის აღმოჩენილი."
+
 msgid "No location selected"
-msgstr "მდებარეობა არჩეული არ არის"
+msgstr "ადგილი არ არის არჩეული"
+
+msgid "No OSM tiles"
+msgstr "OSM ფილები არ არის"
 
 msgid "No specific legend available."
 msgstr "კონკრეტული ლეგენდა არ არის ხელმისაწვდომი."
@@ -817,6 +865,9 @@ msgstr "ჩრდილოეთ რაინ-ვესტფალია"
 msgid "Norway"
 msgstr "ნორვეგია"
 
+msgid "Ok - Details"
+msgstr "კარგი - დეტალები"
+
 msgid "OK - Ext Info"
 msgstr "OK - დამატებითი ინფორმაცია"
 
@@ -825,9 +876,6 @@ msgstr "კარგი - პროგნოზი"
 
 msgid "OK - Open Map"
 msgstr "OK - გახსენით რუკა"
-
-msgid "Ok - Details"
-msgstr "კარგი - დეტალები"
 
 msgid "Open Keyboard"
 msgstr "გახსენით კლავიატურა"
@@ -874,16 +922,16 @@ msgstr "მოღრუბლული, ჭექა-ქუხილი წვ�
 msgid "Overnight"
 msgstr "ღამისთევა"
 
-msgid "Page Down"
-msgstr "გვერდი ქვემოთ"
-
-msgid "Page Up"
-msgstr "გვერდი ზემოთ"
-
 msgid "Page down"
 msgstr "გვერდი ქვემოთ"
 
+msgid "Page Down"
+msgstr "გვერდი ქვემოთ"
+
 msgid "Page up"
+msgstr "გვერდი ზემოთ"
+
+msgid "Page Up"
 msgstr "გვერდი ზემოთ"
 
 msgid "Pan down"
@@ -964,6 +1012,12 @@ msgstr "ხელახლა მოსაძებნად დააჭირ�
 msgid "Pressure"
 msgstr "წნევა"
 
+msgid "Pressure: {}"
+msgstr "წნევა: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "წნევა: {} hPa"
+
 msgid "Pressure: %s"
 msgstr "წნევა: %s"
 
@@ -973,23 +1027,17 @@ msgstr "წნევა: %s hPa"
 msgid "Pressure: N/A"
 msgstr "წნევა: N/A"
 
-msgid "Pressure: {}"
-msgstr "წნევა: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "წნევა: {} hPa"
-
 msgid "Prev"
 msgstr "წინა"
 
 msgid "Previous"
 msgstr "წინა"
 
-msgid "Previous Image"
-msgstr "წინა სურათი"
-
 msgid "Previous frame"
 msgstr "წინა ჩარჩო"
+
+msgid "Previous Image"
+msgstr "წინა სურათი"
 
 msgid "Previous page"
 msgstr "წინა გვერდი"
@@ -1012,8 +1060,11 @@ msgstr "წვიმა: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer რადარი"
 
+msgid "Red"
+msgstr "წითელი"
+
 msgid "Red - Color select"
-msgstr "წითელი - ფერის შერჩევა"
+msgstr "წითელი - ფერის არჩევა"
 
 msgid "Refresh"
 msgstr "განაახლეთ"
@@ -1031,13 +1082,13 @@ msgid "Right arrow - Next day"
 msgstr "მარჯვენა ისარი - მეორე დღეს"
 
 msgid "Rise"
-msgstr "ამაღლება"
-
-msgid "Rise azimuth: N/A"
-msgstr "აწევის აზიმუტი: N/A"
+msgstr "აწევა"
 
 msgid "Rise azimuth: {:.0f}°"
 msgstr "აწევის აზიმუტი: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "აწევის აზიმუტი: N/A"
 
 msgid "Russia"
 msgstr "რუსეთი"
@@ -1060,6 +1111,9 @@ msgstr "შენახვა"
 msgid "Save API settings"
 msgstr "შეინახეთ API პარამეტრები"
 
+msgid "Save translation settings"
+msgstr "თარგმანის პარამეტრების შენახვა"
+
 msgid "Saxony"
 msgstr "საქსონია"
 
@@ -1078,14 +1132,11 @@ msgstr "ძიება ჯერ ონლაინ ცდება, თუ ვ
 msgid "Search your City"
 msgstr "მოძებნეთ თქვენი ქალაქი"
 
-msgid "Searching for '%s'..."
-msgstr ""%s"-ის ძიება..."
-
 msgid "Select"
 msgstr "აირჩიეთ"
 
-msgid "Select Region"
-msgstr "აირჩიეთ რეგიონი"
+msgid "Select {} unit"
+msgstr "აირჩიეთ {} ერთეული"
 
 msgid "Select a city"
 msgstr "აირჩიეთ ქალაქი"
@@ -1093,23 +1144,23 @@ msgstr "აირჩიეთ ქალაქი"
 msgid "Select a map with OK"
 msgstr "აირჩიეთ რუკა OK-ით"
 
+msgid "Select Region"
+msgstr "აირჩიეთ რეგიონი"
+
 msgid "Select unit system"
 msgstr "აირჩიეთ ერთეული სისტემა"
 
 msgid "Select wind unit"
 msgstr "აირჩიეთ ქარის ერთეული"
 
-msgid "Select {} unit"
-msgstr "აირჩიეთ {} ერთეული"
-
 msgid "Selected hour details"
 msgstr "არჩეული საათის დეტალები"
 
-msgid "Set azimuth: N/A"
-msgstr "დააყენეთ აზიმუტი: N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "დააყენეთ აზიმუტი: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "დააყენეთ აზიმუტი: N/A"
 
 msgid "Sets"
 msgstr "კომპლექტი"
@@ -1171,20 +1222,14 @@ msgstr "შვედეთი"
 msgid "Switzerland"
 msgstr "შვეიცარია"
 
+msgid "Target Language"
+msgstr "სამიზნე ენა"
+
 msgid "Temp"
 msgstr "ტემპერატურა"
 
 msgid "Temperature"
 msgstr "ტემპერატურა"
-
-msgid "Temperature: %d%s"
-msgstr "ტემპერატურა: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "ტემპერატურა: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "ტემპერატურა: N/A"
 
 msgid "Temperature: {}"
 msgstr "ტემპერატურა: {}"
@@ -1195,11 +1240,20 @@ msgstr "ტემპერატურა: {}{}"
 msgid "Temperature: {}°C"
 msgstr "ტემპერატურა: {}°C"
 
+msgid "Temperature: %d%s"
+msgstr "ტემპერატურა: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "ტემპერატურა: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "ტემპერატურა: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "მადლობა {მადლობა} და სხვა მეგობრებს შემოთავაზებისთვის"
+msgstr "მადლობა {thanks} და სხვა მეგობრებს შემოთავაზებისთვის"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "დისტანციური ვერსია ({დისტანციური}) უფრო ძველია, ვიდრე მიმდინარე ({მიმდინარე})."
+msgstr "დისტანციური ვერსია ({remote}) უფრო ძველია, ვიდრე მიმდინარე ({current})."
 
 msgid "Thin upper cloud"
 msgstr "თხელი ზედა ღრუბელი"
@@ -1234,23 +1288,20 @@ msgstr "ხვალ"
 msgid "Transit (culmination): {}"
 msgstr "ტრანზიტი (კულმინაცია): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "სატრანზიტო სიმაღლე: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "სატრანზიტო სიმაღლე: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "გამჭვირვალობის პარამეტრები"
+msgid "Transit altitude: N/A"
+msgstr "სატრანზიტო სიმაღლე: N/A"
+
+msgid "Translation Settings"
+msgstr "თარგმანის პარამეტრები"
 
 msgid "Transparency level"
 msgstr "გამჭვირვალობის დონე"
 
-msgid "UV Index"
-msgstr "UV ინდექსი"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "გამჭვირვალობის პარამეტრები"
 
 msgid "Unhealthy"
 msgstr "არაჯანსაღი"
@@ -1285,17 +1336,14 @@ msgstr "განახლება დასრულდა. გთხოვთ
 msgid "Updated {}"
 msgstr "განახლებულია {}"
 
-msgid "Updated: N/A"
-msgstr "განახლებულია: N/A"
-
 msgid "Updated: {}"
 msgstr "განახლებულია: {}"
 
+msgid "Updated: N/A"
+msgstr "განახლებულია: N/A"
+
 msgid "Updating..."
 msgstr "მიმდინარეობს განახლება..."
-
-msgid "Use arrow keys to scroll"
-msgstr "გამოიყენეთ ისრიანი ღილაკები გადახვევისთვის"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "გამოიყენეთ ← → დროის შესაცვლელად | კარგი გასასვლელად"
@@ -1306,8 +1354,26 @@ msgstr "გამოიყენეთ ←/→/↑/↓ გადასაად�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "გამოიყენეთ ▲/▼ შესაცვლელად, OK ასარჩევად"
 
+msgid "Use arrow keys to scroll"
+msgstr "გამოიყენეთ ისრიანი ღილაკები გადახვევისთვის"
+
+msgid "Use Google Translate"
+msgstr "გამოიყენეთ Google Translate"
+
 msgid "Using current time"
 msgstr "მიმდინარე დროის გამოყენება"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV ინდექსი"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "ვ."
 
 msgid "Very heavy rain"
 msgstr "ძალიან ძლიერი წვიმა"
@@ -1324,11 +1390,11 @@ msgstr "ძალიან დაბალი"
 msgid "Very unhealthy"
 msgstr "ძალიან არაჯანსაღი"
 
-msgid "Visibility: %s m"
-msgstr "ხილვადობა: %s მ"
-
 msgid "Visibility: {} m"
 msgstr "ხილვადობა: {} მ"
+
+msgid "Visibility: %s m"
+msgstr "ხილვადობა: %s მ"
 
 msgid "W"
 msgstr "ვ"
@@ -1357,11 +1423,11 @@ msgstr "ამინდის რუკა"
 msgid "Weather Maps"
 msgstr "ამინდის რუქები"
 
-msgid "Weather Maps & Satellite"
-msgstr "ამინდის რუქები და სატელიტური"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "ამინდის რუქები (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "ამინდის რუქები და სატელიტური"
 
 msgid "Weather Maps Slideshow"
 msgstr "ამინდის რუქების სლაიდშოუ"
@@ -1381,14 +1447,14 @@ msgstr "ყოველკვირეული პროგნოზი"
 msgid "Wind"
 msgstr "ქარი"
 
+msgid "Wind direction"
+msgstr "ქარის მიმართულება"
+
 msgid "Wind Direction today"
 msgstr "ქარის მიმართულება დღეს"
 
 msgid "Wind Direction tomorrow"
 msgstr "ქარის მიმართულება ხვალ"
-
-msgid "Wind direction"
-msgstr "ქარის მიმართულება"
 
 msgid "Wind speed"
 msgstr "ქარის სიჩქარე"
@@ -1399,6 +1465,15 @@ msgstr "ქარის სიჩქარე {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "ქარის სიჩქარე: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "ქარი: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "ქარი: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "ქარი: {} კმ/სთ {}"
+
 msgid "Wind: %d %s %s"
 msgstr "ქარი: %d %s %s"
 
@@ -1408,20 +1483,14 @@ msgstr "ქარი: %s კმ/სთ %s"
 msgid "Wind: N/A"
 msgstr "ქარი: N/A"
 
-msgid "Wind: {}"
-msgstr "ქარი: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "ქარი: {} კმ/სთ {}"
-
-msgid "Wind: {} {} {}"
-msgstr "ქარი: {} {} {}"
-
 msgid "Window transparency"
 msgstr "ფანჯრის გამჭვირვალობა"
 
 msgid "Yellow - Favorite 2"
 msgstr "ყვითელი - საყვარელი 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "თქვენ უკვე გაქვთ დაინსტალირებული ვერსია {version}.\nგსურთ მისი ხელახლა ინსტალაცია?"
 
 msgid "Zoom In"
 msgstr "მასშტაბირება"
@@ -1429,41 +1498,12 @@ msgstr "მასშტაბირება"
 msgid "Zoom Out"
 msgstr "მასშტაბირება"
 
-msgid "Zoom+"
-msgstr ""
-
 msgid "Zoom-"
 msgstr "მასშტაბირება -"
 
 msgid "Zoom:"
 msgstr "მასშტაბირება:"
 
-msgid "v."
-msgstr "ვ."
+msgid "Zoom+"
+msgstr "Zoom+"
 
-msgid "{hours} h {mins} min"
-msgstr "{საათი} სთ {წთ} წთ"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• ცისფერი, რათა შეინახოთ როგორც მთავარი\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- 500 ქალაქზე გადასასვლელად\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• მწვანე რჩეულში 1\n შესანახად"
-
-msgid "• OK to select city\n"
-msgstr "• OK ქალაქის ასარჩევად\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• წითელი საძიებო კლავიატურის გასახსნელად\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• გამოიყენეთ ისრიანი ღილაკები ნავიგაციისთვის\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• ყვითელი რჩეულში 2\n შესანახად"
-
-msgid "← Frame"
-msgstr "← ჩარჩო"

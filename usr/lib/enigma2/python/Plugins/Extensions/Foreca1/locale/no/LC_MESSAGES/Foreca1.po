@@ -1,21 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# no translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Norwegian\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: no <ekekaz@gmail.com>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} t {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLÅ for å lagre som Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- for å hoppe 500 byer \n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GRØNN for å lagre som favoritt 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK for å velge city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RØD for å åpne søketastatur\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Bruk piltastene for å navigere i\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- for å hoppe 100 byer\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• GUL for å lagre som favoritt 2\n"
+
+msgid "← Frame"
+msgstr "← Ramme"
 
 msgid "0 - Today"
 msgstr "0 - I dag"
@@ -41,29 +67,14 @@ msgstr "6 - I dag + 6 dager"
 msgid "7 - Today + 7 days"
 msgstr "7 - I dag + 7 dager"
 
+msgid "7 Day Forecast"
+msgstr "7 dagers værmelding"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - I dag + 8 dager"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - I dag + 9 dager"
-
-msgid "API credentials not configured."
-msgstr "API-legitimasjon er ikke konfigurert."
-
-msgid "API error"
-msgstr "API-feil"
-
-msgid "API password"
-msgstr "API-passord"
-
-msgid "API user"
-msgstr "API-bruker"
-
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr ""
 
 msgid "Advanced"
 msgstr "Avansert"
@@ -80,15 +91,35 @@ msgstr "Alder siden nymåne: {:.1f} dager"
 msgid "Age: N/A"
 msgstr "Alder: N/A"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "Vinkeldiameter: {:.0f}″"
+
 msgid "Angular diameter: N/A"
 msgstr "Vinkeldiameter: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Vinkeldiameter: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Finner ikke API-konfigurasjonsfil!\n\nVennligst opprett filen:\n{0}\n\nmed din Foreca API-legitimasjon."
+
+msgid "API credentials not configured."
+msgstr "API-legitimasjon er ikke konfigurert."
+
+msgid "API error"
+msgstr "API-feil"
+
+msgid "API password"
+msgstr "API-passord"
+
+msgid "API user"
+msgstr "API-bruker"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Tilsynelatende størrelse: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Tilordne til favoritt 1"
@@ -100,19 +131,19 @@ msgid "Assign to Home"
 msgstr "Tilordne til Hjem"
 
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 msgid "Austria"
 msgstr "Østerrike"
 
 msgid "Auth server"
-msgstr ""
+msgstr "Auth server"
 
 msgid "Baden-Wuerttemberg"
 msgstr "Baden-Württemberg"
 
 msgid "Barometer"
-msgstr ""
+msgstr "Barometer"
 
 msgid "Bavaria"
 msgstr "Bayern"
@@ -121,10 +152,13 @@ msgid "Belgium"
 msgstr "Belgia"
 
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 msgid "Black Moon"
 msgstr "Svart måne"
+
+msgid "Blue"
+msgstr "Blå"
 
 msgid "Blue - Home"
 msgstr "Blå - Hjem"
@@ -133,10 +167,10 @@ msgid "Blue Moon"
 msgstr "Blå måne"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburg"
 
 msgid "Bremen"
-msgstr ""
+msgstr "Bremen"
 
 msgid "Calculating..."
 msgstr "Beregner..."
@@ -159,11 +193,14 @@ msgstr "Se etter oppdateringer"
 msgid "Choose detail view"
 msgstr "Velg detaljvisning"
 
+msgid "City list file not found!"
+msgstr "Finner ikke fil med byliste!"
+
 msgid "City Selection"
 msgstr "Byutvalg"
 
-msgid "City list file not found!"
-msgstr "Finner ikke fil med byliste!"
+msgid "City Selection Help:\n\n"
+msgstr "Byvalg Hjelp:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Rydde opp Foreca One Temp-filer?"
@@ -208,13 +245,7 @@ msgid "Cloudy, thunderstorms with rain"
 msgstr "Overskyet, tordenvær med regn"
 
 msgid "Cold (< 0°C)"
-msgstr "Kaldt (< 0 °C)"
-
-msgid "Color Legend"
-msgstr "Fargeforklaring"
-
-msgid "Color Selector"
-msgstr "Fargevelger"
+msgstr "Kaldt (< 0°C)"
 
 msgid "Color data"
 msgstr "Fargedata"
@@ -222,14 +253,23 @@ msgstr "Fargedata"
 msgid "Color legend"
 msgstr "Fargelegende"
 
+msgid "Color Legend"
+msgstr "Fargeforklaring"
+
 msgid "Color name"
 msgstr "Fargenavn"
 
 msgid "Color select"
 msgstr "Velg farge"
 
+msgid "Color Selector"
+msgstr "Fargevelger"
+
 msgid "Condition: {}"
 msgstr "Tilstand: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfigurer Foreca API-legitimasjon"
 
 msgid "Continents Weather Maps"
 msgstr "Værkart for kontinenter"
@@ -297,17 +337,20 @@ msgstr "Duggpunkt: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Duggpunkt: N/A"
 
+msgid "Distance"
+msgstr "Avstand"
+
 msgid "Distance {} km"
 msgstr "Avstand {} km"
-
-msgid "Distance: %s"
-msgstr "Avstand: %s"
 
 msgid "Distance: {}"
 msgstr "Avstand: {}"
 
 msgid "Distance: {} km"
 msgstr "Avstand: {} km"
+
+msgid "Distance: %s"
+msgstr "Avstand: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Vil du installere den nå?"
@@ -325,10 +368,10 @@ msgid "Downloading images..."
 msgstr "Laster ned bilder..."
 
 msgid "Downloading tiles..."
-msgstr "Laster ned fliser..."
+msgstr "Laster ned fliser ..."
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "East Asia"
 msgstr "Øst-Asia"
@@ -373,7 +416,10 @@ msgid "Extreme / thunderstorms"
 msgstr "Ekstreme / tordenvær"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Kunne ikke skrive konfigurasjonsfilen:\n%s"
 
 msgid "Faster: {}s"
 msgstr "Raskere: {}s"
@@ -384,10 +430,10 @@ msgstr "Favoritt 1"
 msgid "Favorite 2"
 msgstr "Favoritt 2"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "Favorittdetaljer"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "Favorittdetaljer"
 
 msgid "Feels like"
@@ -399,15 +445,6 @@ msgstr "Føles som {}"
 msgid "Feels like {}{}"
 msgstr "Føles som {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "Føles som: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Føles som: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Føles som: N/A"
-
 msgid "Feels like: {}"
 msgstr "Føles som: {}"
 
@@ -417,8 +454,17 @@ msgstr "Føles som: {}{}"
 msgid "Feels like: {}°C"
 msgstr "Føles som: {}°C"
 
+msgid "Feels like: %d%s"
+msgstr "Føles som: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Føles som: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Føles som: N/A"
+
 msgid "Finland"
-msgstr ""
+msgstr "Finland"
 
 msgid "First Quarter"
 msgstr "Første kvartal"
@@ -426,20 +472,23 @@ msgstr "Første kvartal"
 msgid "Fog"
 msgstr "Tåke"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API-oppsett"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API-legitimasjon er ikke konfigurert ennå. Vennligst skriv dem inn i oppsettskjermen."
 
 msgid "Foreca API settings saved successfully."
-msgstr "Foreca API-innstillinger ble lagret."
+msgstr "Foreca API-innstillinger er lagret."
+
+msgid "Foreca API Setup"
+msgstr "Foreca API-oppsett"
 
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Kart {}"
 
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One Live Maps (API)"
 
 msgid "Foreca One Menu"
 msgstr "Foreca One Meny"
@@ -447,23 +496,17 @@ msgstr "Foreca One Meny"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Ingen stasjoner funnet"
 
+msgid "Foreca One Setup"
+msgstr "Foreca One-oppsett"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stations: {} stasjoner i nærheten ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr "Værmelding for Foreca One"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One vær og værmelding ver. %s"
 
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Kart {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "Fant %d byer lokalt for '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "Fant %d byer på nettet for '%s'"
+msgid "Foreca One Weather Forecast"
+msgstr "Værmelding for Foreca One"
 
 msgid "Frame →"
 msgstr "Ramme →"
@@ -495,6 +538,9 @@ msgstr "Storbritannia"
 msgid "Greece"
 msgstr "Hellas"
 
+msgid "Green"
+msgstr "Grønn"
+
 msgid "Green - Favorite 1"
 msgstr "Grønn - Favoritt 1"
 
@@ -502,16 +548,16 @@ msgid "Gust {}"
 msgstr "Vindkast {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr "Vindkast: {:.1f} {}"
+msgstr "Gust: {:.1f} {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburg"
 
 msgid "Hazardous"
 msgstr "Farlig"
 
 msgid "Header - not selectable"
-msgstr "Overskrift – ikke valgbar"
+msgstr "Topptekst – ikke valgbar"
 
 msgid "Heavy rain"
 msgstr "Kraftig regn"
@@ -534,14 +580,17 @@ msgstr "Varm (30-40°C)"
 msgid "Hour Details"
 msgstr "Timedetaljer"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "Fuktighet"
 
-msgid "Humidity: %s%%"
-msgstr "Fuktighet: %s%%"
-
 msgid "Humidity: {}%"
 msgstr "Fuktighet: {} %"
+
+msgid "Humidity: %s%%"
+msgstr "Fuktighet: %s%%"
 
 msgid "Hungary"
 msgstr "Ungarn"
@@ -553,13 +602,13 @@ msgid "Illumination"
 msgstr "Belysning"
 
 msgid "Illumination: {:.1f}%"
-msgstr "Belysning: {:.1f} %"
+msgstr "Belysning: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
 msgstr "Bilde %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Bilde %(current)d/%(total)d – %(day)s (pausert)"
+msgstr "Bilde %(current)d/%(total)d – %(day)s (pause)"
 
 msgid "Image not available"
 msgstr "Bildet er ikke tilgjengelig"
@@ -571,7 +620,7 @@ msgid "Increase Speed"
 msgstr "Øk hastigheten"
 
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 msgid "Info - About"
 msgstr "Info - Om"
@@ -600,8 +649,11 @@ msgstr "Tastatur"
 msgid "Last Quarter"
 msgstr "Siste kvartal"
 
+msgid "Last update"
+msgstr "Siste oppdatering"
+
 msgid "Latvia"
-msgstr ""
+msgstr "Latvia"
 
 msgid "Left - Previous day"
 msgstr "Venstre - Forrige dag"
@@ -649,11 +701,13 @@ msgid "Lunar phases from next month"
 msgstr "Månefaser fra neste måned"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Tilsynelatende størrelse: N/A"
+msgstr "Størrelse: N/A"
+
+msgid "Map {} selected"
+msgstr "Kart {} er valgt"
 
 msgid "Map & Tiles Loaded"
 msgstr "Kart og fliser lastet"
@@ -664,11 +718,8 @@ msgstr "Kartet er lastet inn"
 msgid "Map server"
 msgstr "Kartserver"
 
-msgid "Map {} selected"
-msgstr "Kart {} er valgt"
-
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Mecklenburg-Vorpommern"
 
 msgid "Menu"
 msgstr "Meny"
@@ -680,7 +731,7 @@ msgid "Merge failed"
 msgstr "Sammenslåing mislyktes"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Meteogram"
 
 msgid "Metric System"
 msgstr "Metrisk system"
@@ -695,7 +746,7 @@ msgid "Middle East"
 msgstr "Midtøsten"
 
 msgid "Mild (10-20°C)"
-msgstr ""
+msgstr "Mild (10-20°C)"
 
 msgid "Moderate"
 msgstr "Moderat"
@@ -709,11 +760,10 @@ msgstr "Moderat regn"
 msgid "Month"
 msgstr "Måned"
 
-#, fuzzy
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "Månedetaljer"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "Månedetaljer"
 
 msgid "Moonrise: {}"
@@ -728,23 +778,23 @@ msgstr "Morgen"
 msgid "Mostly clear"
 msgstr "Stort sett klart"
 
-msgid "Move Down"
+msgid "Move down"
 msgstr "Flytt ned"
 
-msgid "Move Up"
-msgstr "Flytt opp"
-
-msgid "Move down"
+msgid "Move Down"
 msgstr "Flytt ned"
 
 msgid "Move up"
 msgstr "Flytt opp"
 
+msgid "Move Up"
+msgstr "Flytt opp"
+
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "Netherlands"
 msgstr "Nederland"
@@ -758,26 +808,17 @@ msgstr "Ny versjon {version} er tilgjengelig."
 msgid "Next"
 msgstr "Neste"
 
-msgid "Next Image"
-msgstr "Neste bilde"
-
 msgid "Next frame"
 msgstr "Neste ramme"
+
+msgid "Next Image"
+msgstr "Neste bilde"
 
 msgid "Next page"
 msgstr "Neste side"
 
 msgid "Next time"
 msgstr "Neste gang"
-
-msgid "No Internet connection detected."
-msgstr "Ingen Internett-tilkobling oppdaget."
-
-msgid "No OSM tiles"
-msgstr "Ingen OSM-fliser"
-
-msgid "No cities found locally for '%s'"
-msgstr "Ingen byer funnet lokalt for '%s'"
 
 msgid "No city selected"
 msgstr "Ingen by er valgt"
@@ -788,8 +829,14 @@ msgstr "Ingen data"
 msgid "No date available"
 msgstr "Ingen dato tilgjengelig"
 
+msgid "No Internet connection detected."
+msgstr "Ingen Internett-tilkobling oppdaget."
+
 msgid "No location selected"
 msgstr "Ingen plassering er valgt"
+
+msgid "No OSM tiles"
+msgstr "Ingen OSM-fliser"
 
 msgid "No specific legend available."
 msgstr "Ingen spesifikk forklaring tilgjengelig."
@@ -818,17 +865,17 @@ msgstr "Nordrhein-Westfalen"
 msgid "Norway"
 msgstr "Norge"
 
+msgid "Ok - Details"
+msgstr "Ok - Detaljer"
+
 msgid "OK - Ext Info"
-msgstr ""
+msgstr "OK - Ext Info"
 
 msgid "OK - Forecast"
 msgstr "OK - Værmelding"
 
 msgid "OK - Open Map"
 msgstr "OK - Åpne kart"
-
-msgid "Ok - Details"
-msgstr "Ok - Detaljer"
 
 msgid "Open Keyboard"
 msgstr "Åpne Tastatur"
@@ -875,16 +922,16 @@ msgstr "Overskyet, tordenvær med regn"
 msgid "Overnight"
 msgstr "Over natten"
 
-msgid "Page Down"
-msgstr "Side ned"
-
-msgid "Page Up"
-msgstr "Side opp"
-
 msgid "Page down"
 msgstr "Side ned"
 
+msgid "Page Down"
+msgstr "Side ned"
+
 msgid "Page up"
+msgstr "Side opp"
+
+msgid "Page Up"
 msgstr "Side opp"
 
 msgid "Pan down"
@@ -924,7 +971,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Delvis skyet, mulig tordenvær med regn"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigee"
 
 msgid "Phase"
 msgstr "Fase"
@@ -945,7 +992,7 @@ msgid "Poland"
 msgstr "Polen"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 msgid "Precipitation"
 msgstr "Nedbør"
@@ -965,6 +1012,12 @@ msgstr "Trykk RØD for å søke på nytt"
 msgid "Pressure"
 msgstr "Trykk"
 
+msgid "Pressure: {}"
+msgstr "Trykk: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Trykk: {} hPa"
+
 msgid "Pressure: %s"
 msgstr "Trykk: %s"
 
@@ -974,23 +1027,17 @@ msgstr "Trykk: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Trykk: N/A"
 
-msgid "Pressure: {}"
-msgstr "Trykk: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Trykk: {} hPa"
-
 msgid "Prev"
 msgstr "Forrige"
 
 msgid "Previous"
 msgstr "Tidligere"
 
-msgid "Previous Image"
-msgstr "Forrige bilde"
-
 msgid "Previous frame"
 msgstr "Forrige ramme"
+
+msgid "Previous Image"
+msgstr "Forrige bilde"
 
 msgid "Previous page"
 msgstr "Forrige side"
@@ -1013,6 +1060,9 @@ msgstr "Regn: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer radar"
 
+msgid "Red"
+msgstr "Rød"
+
 msgid "Red - Color select"
 msgstr "Rød - Velg farge"
 
@@ -1034,20 +1084,20 @@ msgstr "Høyre pil - Neste dag"
 msgid "Rise"
 msgstr "Stige"
 
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Økende asimut: {:.0f}°"
+
 msgid "Rise azimuth: N/A"
 msgstr "Stigningsasimut: N/A"
-
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Stigningsasimut: {:.0f}°"
 
 msgid "Russia"
 msgstr "Russland"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Saarland"
 
 msgid "Satellite Photos"
 msgstr "Satellittbilder"
@@ -1061,6 +1111,9 @@ msgstr "Spare"
 msgid "Save API settings"
 msgstr "Lagre API-innstillinger"
 
+msgid "Save translation settings"
+msgstr "Lagre oversettelsesinnstillinger"
+
 msgid "Saxony"
 msgstr "Sachsen"
 
@@ -1068,7 +1121,7 @@ msgid "Saxony-Anhalt"
 msgstr "Sachsen-Anhalt"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
 msgstr "Skrapet"
@@ -1079,14 +1132,11 @@ msgstr "Søk først prøver på nettet, hvis det mislykkes bruker lokal liste."
 msgid "Search your City"
 msgstr "Søk i byen din"
 
-msgid "Searching for '%s'..."
-msgstr "Søker etter '%s'..."
-
 msgid "Select"
 msgstr "Velge"
 
-msgid "Select Region"
-msgstr "Velg Region"
+msgid "Select {} unit"
+msgstr "Velg {} enhet"
 
 msgid "Select a city"
 msgstr "Velg en by"
@@ -1094,23 +1144,23 @@ msgstr "Velg en by"
 msgid "Select a map with OK"
 msgstr "Velg et kart med OK"
 
+msgid "Select Region"
+msgstr "Velg Region"
+
 msgid "Select unit system"
 msgstr "Velg enhetssystem"
 
 msgid "Select wind unit"
 msgstr "Velg vindenhet"
 
-msgid "Select {} unit"
-msgstr "Velg {} enhet"
-
 msgid "Selected hour details"
 msgstr "Valgte timedetaljer"
 
+msgid "Set azimuth: {:.0f}°"
+msgstr "Sett asimut: {:.0f}°"
+
 msgid "Set azimuth: N/A"
 msgstr "Sett asimut: N/A"
-
-msgid "Set azimuth: {:.0f}°"
-msgstr "Angi asimut: {:.0f}°"
 
 msgid "Sets"
 msgstr "Sett"
@@ -1122,7 +1172,7 @@ msgid "Showers"
 msgstr "Dusj"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Slovakia"
 
 msgid "Slower: {}s"
 msgstr "Langsommere: {}s"
@@ -1172,20 +1222,14 @@ msgstr "Sverige"
 msgid "Switzerland"
 msgstr "Sveits"
 
+msgid "Target Language"
+msgstr "Målspråk"
+
 msgid "Temp"
-msgstr ""
+msgstr "Temp"
 
 msgid "Temperature"
 msgstr "Temperatur"
-
-msgid "Temperature: %d%s"
-msgstr "Temperatur: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Temperatur: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Temperatur: N/A"
 
 msgid "Temperature: {}"
 msgstr "Temperatur: {}"
@@ -1196,8 +1240,17 @@ msgstr "Temperatur: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Temperatur: {}°C"
 
+msgid "Temperature: %d%s"
+msgstr "Temperatur: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperatur: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperatur: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Takk {takk} og andre venner for forslag"
+msgstr "Takk {thanks} og andre venner for forslag"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
 msgstr "Den eksterne versjonen ({remote}) er eldre enn den nåværende ({current})."
@@ -1235,23 +1288,20 @@ msgstr "I morgen"
 msgid "Transit (culmination): {}"
 msgstr "Transitt (kulminasjon): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "Transithøyde: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "Transithøyde: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "Innstillinger for åpenhet"
+msgid "Transit altitude: N/A"
+msgstr "Transithøyde: N/A"
+
+msgid "Translation Settings"
+msgstr "Oversettelsesinnstillinger"
 
 msgid "Transparency level"
 msgstr "Transparensnivå"
 
-msgid "UV Index"
-msgstr "UV-indeks"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "Innstillinger for åpenhet"
 
 msgid "Unhealthy"
 msgstr "Usunn"
@@ -1286,17 +1336,14 @@ msgstr "Oppdatering fullført. Vennligst start Enigma2 på nytt."
 msgid "Updated {}"
 msgstr "Oppdatert {}"
 
-msgid "Updated: N/A"
-msgstr "Oppdatert: N/A"
-
 msgid "Updated: {}"
 msgstr "Oppdatert: {}"
 
+msgid "Updated: N/A"
+msgstr "Oppdatert: N/A"
+
 msgid "Updating..."
 msgstr "Oppdaterer..."
-
-msgid "Use arrow keys to scroll"
-msgstr "Bruk piltastene for å bla"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Bruk ← → for å endre tid | OK for å avslutte"
@@ -1307,8 +1354,26 @@ msgstr "Bruk ←/→/↑/↓ for å flytte | OK for å avslutte"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Bruk ▲/▼ for å endre, OK for å velge"
 
+msgid "Use arrow keys to scroll"
+msgstr "Bruk piltastene for å bla"
+
+msgid "Use Google Translate"
+msgstr "Bruk Google Translate"
+
 msgid "Using current time"
 msgstr "Bruker gjeldende tid"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV-indeks"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Svært kraftig regn"
@@ -1325,14 +1390,14 @@ msgstr "Veldig lavt"
 msgid "Very unhealthy"
 msgstr "Veldig usunt"
 
-msgid "Visibility: %s m"
-msgstr "Synlighet: %s m"
-
 msgid "Visibility: {} m"
 msgstr "Sikt: {} m"
 
+msgid "Visibility: %s m"
+msgstr "Synlighet: %s m"
+
 msgid "W"
-msgstr ""
+msgstr "W"
 
 msgid "Waning Crescent"
 msgstr "Avtagende halvmåne"
@@ -1358,11 +1423,11 @@ msgstr "Værkart"
 msgid "Weather Maps"
 msgstr "Værkart"
 
-msgid "Weather Maps & Satellite"
-msgstr "Værkart og satellitt"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Værkart (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Værkart og satellitt"
 
 msgid "Weather Maps Slideshow"
 msgstr "Værkart lysbildefremvisning"
@@ -1382,14 +1447,14 @@ msgstr "Ukentlig værvarsel"
 msgid "Wind"
 msgstr "Vind"
 
+msgid "Wind direction"
+msgstr "Vindretning"
+
 msgid "Wind Direction today"
 msgstr "Vindretning i dag"
 
 msgid "Wind Direction tomorrow"
 msgstr "Vindretning i morgen"
-
-msgid "Wind direction"
-msgstr "Vindretning"
 
 msgid "Wind speed"
 msgstr "Vindhastighet"
@@ -1400,6 +1465,15 @@ msgstr "Vindhastighet {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Vindstyrke: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "Vind: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vind: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vind: {} km/t {}"
+
 msgid "Wind: %d %s %s"
 msgstr "Vind: %d %s %s"
 
@@ -1409,20 +1483,14 @@ msgstr "Vind: %s km/t %s"
 msgid "Wind: N/A"
 msgstr "Vind: N/A"
 
-msgid "Wind: {}"
-msgstr "Vind: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Vind: {} km/t {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Vind: {} {} {}"
-
 msgid "Window transparency"
-msgstr "Gjennomsiktighet i vinduet"
+msgstr "Gjennomsiktig vindu"
 
 msgid "Yellow - Favorite 2"
 msgstr "Gul - Favoritt 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Du har allerede versjon {version} installert.\nVil du installere den på nytt?"
 
 msgid "Zoom In"
 msgstr "Zoom inn"
@@ -1430,53 +1498,12 @@ msgstr "Zoom inn"
 msgid "Zoom Out"
 msgstr "Zoom ut"
 
-msgid "Zoom+"
-msgstr ""
-
 msgid "Zoom-"
-msgstr ""
+msgstr "Zoom-"
 
 msgid "Zoom:"
-msgstr ""
+msgstr "Zoom:"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "Zoom+"
 
-msgid "{hours} h {mins} min"
-msgstr "{timer} t {mins} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLÅ for å lagre som Hjem\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- for å hoppe over 500 byer\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• GRØNN for å lagre som favoritt 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK for å velge by\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• RØD for å åpne søketastaturet\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Bruk piltastene for å navigere\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• GUL for å lagre som favoritt 2\n"
-
-msgid "← Frame"
-msgstr "← Ramme"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(Ytterligere data er ikke tilgjengelig)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== MÅNEDETALJER ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Vinkeldiameter: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Tilsynelatende størrelse: N/A"

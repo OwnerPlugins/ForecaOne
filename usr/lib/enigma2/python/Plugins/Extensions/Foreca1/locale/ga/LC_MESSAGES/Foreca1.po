@@ -1,21 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ga translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ga <ekekaz@gmail.com>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} nóim"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• GORM le sábháil mar Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 cathair a léim\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• GLAS le sábháil mar an 1\n is Fearr\n"
+
+msgid "• OK to select city\n"
+msgstr "• Ceart go leor city\n a roghnú\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RED chun an cuardach keyboard\n a oscailt\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Úsáid saigheadeochracha le nascleanúint a dhéanamh ar \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- chun 100 cathair a léim\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• YELLOW a shábháil mar an 2\n is Fearr\n"
+
+msgid "← Frame"
+msgstr "← Fráma"
 
 msgid "0 - Today"
 msgstr "0 - Inniu"
@@ -41,29 +67,14 @@ msgstr "6 - Sa lá atá inniu + 6 lá"
 msgid "7 - Today + 7 days"
 msgstr "7 - Inniu + 7 lá"
 
+msgid "7 Day Forecast"
+msgstr "Réamhaisnéis 7 Lá"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Inniu + 8 lá"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Inniu + 9 lá"
-
-msgid "API credentials not configured."
-msgstr "Níl dintiúir API cumraithe."
-
-msgid "API error"
-msgstr "Earráid API"
-
-msgid "API password"
-msgstr "Pasfhocal API"
-
-msgid "API user"
-msgstr "Úsáideoir API"
-
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr "AQI: N/B"
 
 msgid "Advanced"
 msgstr "Casta"
@@ -80,15 +91,35 @@ msgstr "Aois ó Ghealach Nua: {:.1f} lá"
 msgid "Age: N/A"
 msgstr "Aois: N/B"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "Trastomhas uilleach: {:.0f}″"
+
 msgid "Angular diameter: N/A"
 msgstr "Trastomhas uilleach: N/B"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Trastomhas uilleach: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Comhad cumraíochta API gan aimsiú!\n\nCruthaigh comhad:\n{0}\n\nle do dhintiúir API Foreca."
+
+msgid "API credentials not configured."
+msgstr "Níl dintiúir API cumraithe."
+
+msgid "API error"
+msgstr "Earráid API"
+
+msgid "API password"
+msgstr "Pasfhocal API"
+
+msgid "API user"
+msgstr "Úsáideoir API"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Méid dealraitheach: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/B"
 
 msgid "Assign to Favorite 1"
 msgstr "Sann don 1 is fearr leat"
@@ -109,7 +140,7 @@ msgid "Auth server"
 msgstr "Freastalaí Údar"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Wuerttemberg"
 
 msgid "Barometer"
 msgstr "Baraiméadar"
@@ -126,6 +157,9 @@ msgstr "Beirlín"
 msgid "Black Moon"
 msgstr "Gealach Dubh"
 
+msgid "Blue"
+msgstr "Gorm"
+
 msgid "Blue - Home"
 msgstr "Gorm - Baile"
 
@@ -133,10 +167,10 @@ msgid "Blue Moon"
 msgstr "Gealach Gorm"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburg"
 
 msgid "Bremen"
-msgstr ""
+msgstr "Bremen"
 
 msgid "Calculating..."
 msgstr "Ag ríomh..."
@@ -145,10 +179,10 @@ msgid "Cancel"
 msgstr "Cealaigh"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Celsius, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr ""
+msgstr "Loga athrú: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "Tagann athruithe i bhfeidhm láithreach"
@@ -159,11 +193,14 @@ msgstr "Seiceáil le haghaidh nuashonruithe"
 msgid "Choose detail view"
 msgstr "Roghnaigh mionmharc"
 
+msgid "City list file not found!"
+msgstr "Comhad liosta cathrach gan aimsiú!"
+
 msgid "City Selection"
 msgstr "Roghnú Cathrach"
 
-msgid "City list file not found!"
-msgstr "Comhad liosta cathrach gan aimsiú!"
+msgid "City Selection Help:\n\n"
+msgstr "Cabhair Roghnúcháin Cathrach:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Glanta Foreca One Temp File?"
@@ -196,7 +233,7 @@ msgid "Cloudy and light wet snow"
 msgstr "Sneachta fliuch scamallach agus éadrom"
 
 msgid "Cloudy and showers"
-msgstr "Scamaill agus ceathanna"
+msgstr "Scamaill agus cithfholcadáin"
 
 msgid "Cloudy and snow showers"
 msgstr "Ceathanna scamallach agus sneachta"
@@ -210,17 +247,14 @@ msgstr "Scamailleach, stoirmeacha toirní le báisteach"
 msgid "Cold (< 0°C)"
 msgstr "Fuar (< 0°C)"
 
-msgid "Color Legend"
-msgstr "Finscéal Dath"
-
-msgid "Color Selector"
-msgstr "Roghnóir Dathanna"
-
 msgid "Color data"
 msgstr "Sonraí datha"
 
 msgid "Color legend"
 msgstr "Finscéal dath"
+
+msgid "Color Legend"
+msgstr "Finscéal Dath"
 
 msgid "Color name"
 msgstr "Ainm datha"
@@ -228,14 +262,20 @@ msgstr "Ainm datha"
 msgid "Color select"
 msgstr "Roghnaigh dath"
 
+msgid "Color Selector"
+msgstr "Roghnóir Dathanna"
+
 msgid "Condition: {}"
 msgstr "Coinníoll: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Cumraigh dintiúir API Foreca"
 
 msgid "Continents Weather Maps"
 msgstr "Léarscáileanna Aimsire Mór-Roinn"
 
 msgid "Cool (0-10°C)"
-msgstr ""
+msgstr "Cool (0-10°C)"
 
 msgid "Could not fetch update information."
 msgstr "Níorbh fhéidir faisnéis nuashonraithe a fháil."
@@ -283,7 +323,7 @@ msgid "Details"
 msgstr "Sonraí"
 
 msgid "Dewpoint {}"
-msgstr "Screamhphointe {}"
+msgstr "Dewpoint {}"
 
 msgid "Dewpoint {}°C"
 msgstr "Screamhphointe {}°C"
@@ -297,17 +337,20 @@ msgstr "Dramhphointe: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Dearcadh: N/B"
 
+msgid "Distance"
+msgstr "Fad"
+
 msgid "Distance {} km"
 msgstr "Fad {} km"
-
-msgid "Distance: %s"
-msgstr "Fad: %s"
 
 msgid "Distance: {}"
 msgstr "Fad: {}"
 
 msgid "Distance: {} km"
 msgstr "Fad: {} km"
+
+msgid "Distance: %s"
+msgstr "Fad: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Ar mhaith leat é a shuiteáil anois?"
@@ -328,7 +371,7 @@ msgid "Downloading tiles..."
 msgstr "Íosluchtaigh tíleanna.. ."
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "East Asia"
 msgstr "Áise Thoir"
@@ -375,6 +418,9 @@ msgstr "Foircní / stoirmeacha toirní"
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, msu, inHg"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "Níorbh fhéidir an comhad cumraíochta a scríobh: \n%s"
+
 msgid "Faster: {}s"
 msgstr "Níos tapúla: {}s"
 
@@ -384,11 +430,11 @@ msgstr "1 is fearr leat"
 msgid "Favorite 2"
 msgstr "2 is fearr leat"
 
-msgid "Favorites Details"
-msgstr "Sonraí Ceanáin"
-
 msgid "Favorites details"
 msgstr "Sonraí is fearr leat"
+
+msgid "Favorites Details"
+msgstr "Sonraí Ceanáin"
 
 msgid "Feels like"
 msgstr "Mothaíonn mhaith"
@@ -399,15 +445,6 @@ msgstr "Mothaíonn sé cosúil le {}"
 msgid "Feels like {}{}"
 msgstr "Mothaíonn sé cosúil le {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "Mothaíonn sé mar: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Mothaíonn sé mar: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Mothaíonn sé mar: N/B"
-
 msgid "Feels like: {}"
 msgstr "Mothaíonn cosúil le: {}"
 
@@ -416,6 +453,15 @@ msgstr "Mothaíonn sé mar: {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "Mothaíonn sé mar: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Mothaíonn sé mar: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Mothaíonn sé mar: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Mothaíonn sé mar: N/B"
 
 msgid "Finland"
 msgstr "an Fhionlainn"
@@ -426,17 +472,20 @@ msgstr "An Chéad Cheathrú"
 msgid "Fog"
 msgstr "Ceo"
 
-msgid "Foreca API Setup"
-msgstr "Socrú Foreca API"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Níl dintiúir Foreca API cumraithe fós. Cuir isteach iad sa scáileán socraithe le do thoil."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Sábháladh socruithe Foreca API go rathúil."
 
+msgid "Foreca API Setup"
+msgstr "Socrú Foreca API"
+
 msgid "Foreca One"
 msgstr "Foreca a hAon"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca a hAon | Léarscáil {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Léarscáileanna Beo Foreca One (API)"
@@ -447,23 +496,17 @@ msgstr "Roghchlár a hAon Foreca"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Níor aimsíodh aon stáisiúin"
 
+msgid "Foreca One Setup"
+msgstr "Socrú Foreca One"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Stáisiúin Foreca One: {} stáisiún in aice láimhe ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr ""
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca Aimsir agus Réamhaisnéis a hAon leagan. %s"
 
-msgid "Foreca One | Map {}"
-msgstr "Foreca a hAon | Léarscáil {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "Aimsíodh %d cathracha go háitiúil le haghaidh '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "Aimsíodh %d cathracha ar líne le haghaidh '%s'"
+msgid "Foreca One Weather Forecast"
+msgstr "Foreca One Weather Forecast"
 
 msgid "Frame →"
 msgstr "Fráma →"
@@ -495,6 +538,9 @@ msgstr "An Bhreatain Mhór"
 msgid "Greece"
 msgstr "an Ghréig"
 
+msgid "Green"
+msgstr "Glas"
+
 msgid "Green - Favorite 1"
 msgstr "Glas - 1 is fearr leat"
 
@@ -502,10 +548,10 @@ msgid "Gust {}"
 msgstr "Séideán {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr "Séideán: {:.1f}{}"
+msgstr "Séideán: _CSH_0__ {}"
 
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburg"
 
 msgid "Hazardous"
 msgstr "Guaiseach"
@@ -534,14 +580,17 @@ msgstr "te (30-40°C)"
 msgid "Hour Details"
 msgstr "Sonraí Uair"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "Taiseachas"
 
-msgid "Humidity: %s%%"
-msgstr "Bogthaise: %s%%"
-
 msgid "Humidity: {}%"
 msgstr "Taise: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Bogthaise: %s%%"
 
 msgid "Hungary"
 msgstr "an Ungáir"
@@ -553,13 +602,13 @@ msgid "Illumination"
 msgstr "Soilsiú"
 
 msgid "Illumination: {:.1f}%"
-msgstr "Soilsiú: {:.1f} %"
+msgstr "Soilsiú: _CSH_0__%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "Íomhá %(current)d/ %(total)d – %(day)s"
+msgstr "Íomhá %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Íomhá %(current)d/ %(total)d – %(day)s (Ar sos)"
+msgstr "Íomhá %(current)d/%(total)d – %(day)s (Ar sos)"
 
 msgid "Image not available"
 msgstr "Níl an íomhá ar fáil"
@@ -599,6 +648,9 @@ msgstr "Méarchlár"
 
 msgid "Last Quarter"
 msgstr "Ceathrú dheireanach"
+
+msgid "Last update"
+msgstr "Nuashonrú is déanaí"
 
 msgid "Latvia"
 msgstr "an Laitvia"
@@ -651,9 +703,11 @@ msgstr "Céimeanna gealaí ón mhí seo chugainn"
 msgid "Luxembourg"
 msgstr "Lucsamburg"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Méid dealraitheach: N/B"
+msgstr "Méid: N/B"
+
+msgid "Map {} selected"
+msgstr "Léarscáil {} roghnaithe"
 
 msgid "Map & Tiles Loaded"
 msgstr "Léarscáil & Tíleanna Luchtaithe"
@@ -664,11 +718,8 @@ msgstr "Léarscáil luchtaithe"
 msgid "Map server"
 msgstr "Freastalaí léarscáil"
 
-msgid "Map {} selected"
-msgstr "Léarscáil {} roghnaithe"
-
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Mecklenburg-Vorpommern"
 
 msgid "Menu"
 msgstr "Roghchlár"
@@ -709,12 +760,11 @@ msgstr "Báisteach measartha"
 msgid "Month"
 msgstr "Mí"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "Sonraí gealach"
-
 msgid "Moon details"
 msgstr "Sonraí gealach"
+
+msgid "Moon Details"
+msgstr "Sonraí Gealach"
 
 msgid "Moonrise: {}"
 msgstr "Éirí na gealaí: {}"
@@ -728,20 +778,20 @@ msgstr "Maidin"
 msgid "Mostly clear"
 msgstr "Den chuid is mó soiléir"
 
-msgid "Move Down"
-msgstr "Bog Síos"
-
-msgid "Move Up"
-msgstr "Bog Suas"
-
 msgid "Move down"
 msgstr "Bog síos"
+
+msgid "Move Down"
+msgstr "Bog Síos"
 
 msgid "Move up"
 msgstr "Bog suas"
 
+msgid "Move Up"
+msgstr "Bog Suas"
+
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "N/A"
 msgstr "N/B"
@@ -758,26 +808,17 @@ msgstr "Tá leagan nua {version} ar fáil."
 msgid "Next"
 msgstr "Ar aghaidh"
 
-msgid "Next Image"
-msgstr "An Chéad Íomhá Eile"
-
 msgid "Next frame"
 msgstr "An chéad fhráma eile"
+
+msgid "Next Image"
+msgstr "Íomhá Next"
 
 msgid "Next page"
 msgstr "An chéad leathanach eile"
 
 msgid "Next time"
 msgstr "An chéad uair eile"
-
-msgid "No Internet connection detected."
-msgstr "Níor aimsíodh aon nasc Idirlín."
-
-msgid "No OSM tiles"
-msgstr "Uimh tíleanna OSM"
-
-msgid "No cities found locally for '%s'"
-msgstr "Níor aimsíodh aon chathair go háitiúil le haghaidh '%s'"
 
 msgid "No city selected"
 msgstr "Níor roghnaíodh aon chathair"
@@ -788,8 +829,14 @@ msgstr "Gan sonraí"
 msgid "No date available"
 msgstr "Níl dáta ar fáil"
 
+msgid "No Internet connection detected."
+msgstr "Níor aimsíodh aon nasc Idirlín."
+
 msgid "No location selected"
 msgstr "Níl aon suíomh roghnaithe"
+
+msgid "No OSM tiles"
+msgstr "Uimh tíleanna OSM"
 
 msgid "No specific legend available."
 msgstr "Níl aon finscéal ar leith ar fáil."
@@ -818,6 +865,9 @@ msgstr "Réine Thuaidh-Westphalia"
 msgid "Norway"
 msgstr "Iorua"
 
+msgid "Ok - Details"
+msgstr "Ceart go leor - Sonraí"
+
 msgid "OK - Ext Info"
 msgstr "OK - Eolas Folíne"
 
@@ -826,9 +876,6 @@ msgstr "OK - Réamhaisnéis"
 
 msgid "OK - Open Map"
 msgstr "OK - Oscail Léarscáil"
-
-msgid "Ok - Details"
-msgstr "Ceart go leor - Sonraí"
 
 msgid "Open Keyboard"
 msgstr "Oscail Méarchlár"
@@ -852,7 +899,7 @@ msgid "Overcast and light wet snow"
 msgstr "Dorcha agus sneachta fliuch éadrom"
 
 msgid "Overcast and rain"
-msgstr "Faill Léidearnach Thointrí"
+msgstr "Dorcha agus báisteach"
 
 msgid "Overcast and showers"
 msgstr "Dorcha agus ceathanna"
@@ -873,19 +920,19 @@ msgid "Overcast, thunderstorms with rain"
 msgstr "Dorcha, stoirmeacha toirní le báisteach"
 
 msgid "Overnight"
-msgstr "Thar oíche"
-
-msgid "Page Down"
-msgstr "Leathanach Síos"
-
-msgid "Page Up"
-msgstr "Leathanach Suas"
+msgstr "thar oíche"
 
 msgid "Page down"
 msgstr "Leathanach síos"
 
+msgid "Page Down"
+msgstr "Leathanach Síos"
+
 msgid "Page up"
 msgstr "Leathanach suas"
+
+msgid "Page Up"
+msgstr "Leathanach Suas"
 
 msgid "Pan down"
 msgstr "Pan síos"
@@ -924,7 +971,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "Beagán Scamallach, stoirmeacha toirní féideartha le báisteach"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigee"
 
 msgid "Phase"
 msgstr "Céim"
@@ -965,6 +1012,12 @@ msgstr "Brúigh RED chun cuardach a dhéanamh arís"
 msgid "Pressure"
 msgstr "Brú"
 
+msgid "Pressure: {}"
+msgstr "Brú: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Brú: {} hPa"
+
 msgid "Pressure: %s"
 msgstr "Brú: %s"
 
@@ -974,23 +1027,17 @@ msgstr "Brú: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Brú: N/A"
 
-msgid "Pressure: {}"
-msgstr "Brú: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Brú: {} hPa"
-
 msgid "Prev"
 msgstr "Roimhe seo"
 
 msgid "Previous"
 msgstr "Roimhe Seo"
 
-msgid "Previous Image"
-msgstr "Íomhá Roimhe Seo"
-
 msgid "Previous frame"
 msgstr "Fráma roimhe seo"
+
+msgid "Previous Image"
+msgstr "Íomhá Roimhe Seo"
 
 msgid "Previous page"
 msgstr "An leathanach roimhe seo"
@@ -1008,10 +1055,13 @@ msgid "Rain prob.: N/A"
 msgstr "Tástáil báistí: N/B"
 
 msgid "Rain: {:.1f} {}"
-msgstr "Báisteach: {:.1f}{}"
+msgstr "Báisteach: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "Radar báistí"
+
+msgid "Red"
+msgstr "Dearg"
 
 msgid "Red - Color select"
 msgstr "Dearg - Roghnaigh dath"
@@ -1034,20 +1084,20 @@ msgstr "Ar dheis - an chéad lá eile"
 msgid "Rise"
 msgstr "Eirigh"
 
+msgid "Rise azimuth: {:.0f}°"
+msgstr "Ardaigh azimuth: {:.0f}°"
+
 msgid "Rise azimuth: N/A"
 msgstr "Ardú Azimuth: N/B"
-
-msgid "Rise azimuth: {:.0f}°"
-msgstr "Ardú azimuth: {:.0f}°"
 
 msgid "Russia"
 msgstr "Rúis"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Saarland"
 
 msgid "Satellite Photos"
 msgstr "Grianghraif Satailíte"
@@ -1061,6 +1111,9 @@ msgstr "Sábháil"
 msgid "Save API settings"
 msgstr "Sábháil socruithe API"
 
+msgid "Save translation settings"
+msgstr "Sábháil socruithe aistriúcháin"
+
 msgid "Saxony"
 msgstr "tSacsain"
 
@@ -1068,7 +1121,7 @@ msgid "Saxony-Anhalt"
 msgstr "tSacsain-Anhalt"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
 msgstr "Scríobtha"
@@ -1079,14 +1132,11 @@ msgstr "Déanann cuardaigh an chéad iarracht ar líne, má theipeann air úsái
 msgid "Search your City"
 msgstr "Cuardach do Chathair"
 
-msgid "Searching for '%s'..."
-msgstr "'%s' á chuardach..."
-
 msgid "Select"
 msgstr "Roghnaigh"
 
-msgid "Select Region"
-msgstr "Roghnaigh Réigiún"
+msgid "Select {} unit"
+msgstr "Roghnaigh {} aonad"
 
 msgid "Select a city"
 msgstr "Roghnaigh cathair"
@@ -1094,23 +1144,23 @@ msgstr "Roghnaigh cathair"
 msgid "Select a map with OK"
 msgstr "Roghnaigh léarscáil le OK"
 
+msgid "Select Region"
+msgstr "Roghnaigh Réigiún"
+
 msgid "Select unit system"
 msgstr "Roghnaigh córas aonad"
 
 msgid "Select wind unit"
 msgstr "Roghnaigh aonad gaoithe"
 
-msgid "Select {} unit"
-msgstr "Roghnaigh {} aonad"
-
 msgid "Selected hour details"
 msgstr "Sonraí uaire roghnaithe"
 
-msgid "Set azimuth: N/A"
-msgstr "Socraigh azimuth: N/B"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "Socraigh azimuth: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Socraigh azimuth: N/B"
 
 msgid "Sets"
 msgstr "Leagann"
@@ -1172,20 +1222,14 @@ msgstr "an tSualainn"
 msgid "Switzerland"
 msgstr "Eilvéis"
 
+msgid "Target Language"
+msgstr "Sprioctheanga"
+
 msgid "Temp"
 msgstr "Teocht"
 
 msgid "Temperature"
 msgstr "Teocht"
-
-msgid "Temperature: %d%s"
-msgstr "Teocht: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Teocht: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Teocht: N/B"
 
 msgid "Temperature: {}"
 msgstr "Teocht: {}"
@@ -1196,17 +1240,26 @@ msgstr "Teocht: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Teocht: {}°C"
 
+msgid "Temperature: %d%s"
+msgstr "Teocht: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Teocht: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Teocht: N/B"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Go raibh maith agat {go raibh maith agat} agus a chairde eile as moltaí"
+msgstr "Go raibh maith agat {thanks} agus a chairde eile as moltaí"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "Tá an leagan cianda ({remote}) níos sine ná an ceann reatha ({current})."
+msgstr "Tá an cianleagan ({remote}) níos sine ná an ceann reatha ({current})."
 
 msgid "Thin upper cloud"
 msgstr "Scamall uachtair tanaí"
 
 msgid "Thuringia"
-msgstr ""
+msgstr "Thuringia"
 
 msgid "Time"
 msgstr "Am"
@@ -1235,23 +1288,20 @@ msgstr "amárach"
 msgid "Transit (culmination): {}"
 msgstr "Idirthuras (buaicphointe): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "Airde idirthurais: N/B"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "Airde idirthurais: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "Socruithe Trédhearcachta"
+msgid "Transit altitude: N/A"
+msgstr "Airde idirthurais: N/B"
+
+msgid "Translation Settings"
+msgstr "Socruithe Aistriúcháin"
 
 msgid "Transparency level"
 msgstr "Leibhéal trédhearcachta"
 
-msgid "UV Index"
-msgstr "Innéacs UV"
-
-msgid "UV N/A"
-msgstr "UV N/B"
+msgid "Transparency Settings"
+msgstr "Socruithe Trédhearcachta"
 
 msgid "Unhealthy"
 msgstr "míshláintiúil"
@@ -1275,7 +1325,7 @@ msgid "Up"
 msgstr "Suas"
 
 msgid "Up - Previous page"
-msgstr "Suas - leathanach roimhe seo"
+msgstr "Thuas - leathanach roimhe seo"
 
 msgid "Update canceled."
 msgstr "Nuashonrú cealaithe."
@@ -1286,17 +1336,14 @@ msgstr "Nuashonrú críochnaithe. Atosaigh Enigma2 le do thoil."
 msgid "Updated {}"
 msgstr "Nuashonraíodh {}"
 
-msgid "Updated: N/A"
-msgstr "Nuashonraithe: N/B"
-
 msgid "Updated: {}"
 msgstr "Nuashonraithe: {}"
 
+msgid "Updated: N/A"
+msgstr "Nuashonraithe: N/B"
+
 msgid "Updating..."
 msgstr "Ag nuashonrú..."
-
-msgid "Use arrow keys to scroll"
-msgstr "Bain úsáid as saigheadeochracha chun scrollú"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Úsáid ← → chun am a athrú | Ceart go leor chun imeacht"
@@ -1307,8 +1354,26 @@ msgstr "Úsáid ←/→/↑/↓ chun | Ceart go leor chun imeacht"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Úsáid ▲/▼ chun athrú, ceart go leor a roghnú"
 
+msgid "Use arrow keys to scroll"
+msgstr "Bain úsáid as saigheadeochracha chun scrollú"
+
+msgid "Use Google Translate"
+msgstr "Úsáid Google Translate"
+
 msgid "Using current time"
 msgstr "Ag baint úsáide as an am reatha"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "Innéacs UV"
+
+msgid "UV N/A"
+msgstr "UV N/B"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Báisteach an-trom"
@@ -1325,14 +1390,14 @@ msgstr "An-íseal"
 msgid "Very unhealthy"
 msgstr "An-mhíshláintiúil"
 
-msgid "Visibility: %s m"
-msgstr "Infheictheacht: %s m"
-
 msgid "Visibility: {} m"
 msgstr "Infheictheacht: {} m"
 
+msgid "Visibility: %s m"
+msgstr "Infheictheacht: %s m"
+
 msgid "W"
-msgstr ""
+msgstr "W"
 
 msgid "Waning Crescent"
 msgstr "Corrán Éanlaithe"
@@ -1347,7 +1412,7 @@ msgid "Waxing Crescent"
 msgstr "Corrán céirithe"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Waxing Gibbous"
 
 msgid "Weather"
 msgstr "Aimsir"
@@ -1358,11 +1423,11 @@ msgstr "Léarscáil Aimsire"
 msgid "Weather Maps"
 msgstr "Léarscáileanna Aimsire"
 
-msgid "Weather Maps & Satellite"
-msgstr "Léarscáileanna Aimsire & Satailít"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Léarscáileanna Aimsire (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Léarscáileanna Aimsire & Satailít"
 
 msgid "Weather Maps Slideshow"
 msgstr "Taispeántas Sleamhnán Léarscáileanna Aimsir"
@@ -1382,14 +1447,14 @@ msgstr "Réamhaisnéis na Seachtaine"
 msgid "Wind"
 msgstr "Gaoth"
 
+msgid "Wind direction"
+msgstr "Treo na gaoithe"
+
 msgid "Wind Direction today"
 msgstr "Treo na Gaoithe: Aneas"
 
 msgid "Wind Direction tomorrow"
 msgstr "Treo na Gaoithe: Aneas"
-
-msgid "Wind direction"
-msgstr "Treo na gaoithe"
 
 msgid "Wind speed"
 msgstr "Luas na gaoithe"
@@ -1398,7 +1463,16 @@ msgid "Wind speed {}"
 msgstr "Luas na gaoithe {}"
 
 msgid "Wind speed: {:.1f} {}"
-msgstr "Luas na gaoithe: {:.1f}{}"
+msgstr "Luas na gaoithe: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Gaoth: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Gaoth: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Gaoth: {} km/u {}"
 
 msgid "Wind: %d %s %s"
 msgstr "Gaoth: %d %s %s"
@@ -1409,20 +1483,14 @@ msgstr "Gaoth: %s km/u %s"
 msgid "Wind: N/A"
 msgstr "Gaoithe: N/B"
 
-msgid "Wind: {}"
-msgstr "Gaoth: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Gaoth: {} km/u {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Gaoth: {} {} {}"
-
 msgid "Window transparency"
 msgstr "Trédhearcacht fuinneoige"
 
 msgid "Yellow - Favorite 2"
 msgstr "Buí - 2 is fearr leat"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Tá leagan {version} suiteáilte agat cheana féin.\nAr mhaith leat é a athshuiteáil?"
 
 msgid "Zoom In"
 msgstr "Súmáil Isteach"
@@ -1430,56 +1498,12 @@ msgstr "Súmáil Isteach"
 msgid "Zoom Out"
 msgstr "Súmáil Amach"
 
-msgid "Zoom+"
-msgstr "Súmáil+"
-
 msgid "Zoom-"
 msgstr "Súmáil-"
 
 msgid "Zoom:"
 msgstr "Súmáil:"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "Súmáil+"
 
-msgid "{hours} h {mins} min"
-msgstr "{uair} h {nóiméad} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• GORM le sábháil mar Bhaile\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- 500 cathair a léim\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• GLAS le sábháil mar an 1 is fearr leat"
-
-msgid "• OK to select city\n"
-msgstr "• Ceart go leor chun cathair\n a roghnú"
-"• Ceart go leor chun cathair\n"
-" a roghnú• Ceart go leor cathair\n"
-" a roghnú"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• RED chun an méarchlár cuardaigh a oscailt\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Bain úsáid as saigheadeochracha chun nascleanúint a dhéanamh\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• YELLOW le sábháil mar an 2 is fearr leat\n"
-
-msgid "← Frame"
-msgstr "← Fráma"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(Níl sonraí breise ar fáil)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== SONRAÍ AN GHEALACH ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Trastomhas uilleach: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Méid dealraitheach: N/B"

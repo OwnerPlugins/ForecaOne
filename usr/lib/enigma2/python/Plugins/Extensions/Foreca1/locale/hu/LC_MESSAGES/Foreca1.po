@@ -1,15 +1,47 @@
+# hu translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Warder <ciksa@seznam.cz>\n"
-"Language-Team: \n"
+"Last-Translator: \n"
+"Language-Team: hu <ekekaz@gmail.com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.9\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• KÉK a Home\n néven történő mentéshez\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- 500 város közötti ugráshoz\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• ZÖLD a kedvencként való mentéshez 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• OK a city\n kiválasztásához\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• PIROS az \n keresőbillentyűzet megnyitásához\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Használja a nyílbillentyűket az \n navigációhoz\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- 100 város közötti ugráshoz\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• SÁRGA a kedvencként való mentéshez 2\n"
+
+msgid "← Frame"
+msgstr "← Keret"
 
 msgid "0 - Today"
 msgstr "0 - Ma"
@@ -35,34 +67,17 @@ msgstr "6 - Ma + 6 nap"
 msgid "7 - Today + 7 days"
 msgstr "7 - Ma + 7 nap"
 
+msgid "7 Day Forecast"
+msgstr "7 napos előrejelzés"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Ma + 8 nap"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Ma + 9 nap"
 
-msgid "API credentials not configured."
-msgstr "Az API-hitelesítő adatok nincsenek beállítva."
-
-msgid "API error"
-msgstr "API-hiba"
-
-#, fuzzy
-msgid "API password"
-msgstr "API-hiba"
-
-#, fuzzy
-msgid "API user"
-msgstr "API-hiba"
-
-msgid "AQI {}"
-msgstr "AQI {}"
-
-msgid "AQI: N/A"
-msgstr "AQI: N/A"
-
 msgid "Advanced"
-msgstr "Haladó"
+msgstr "Fejlett"
 
 msgid "Advanced Unit Settings"
 msgstr "Speciális egységbeállítások"
@@ -73,25 +88,44 @@ msgstr "Délután"
 msgid "Age since New Moon: {:.1f} days"
 msgstr "Életkor Újhold óta: {:.1f} nap"
 
-#, fuzzy
 msgid "Age: N/A"
-msgstr "AQI: N/A"
+msgstr "Kor: N/A"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "Angular diameter: {:.0f}″"
 
 msgid "Angular diameter: N/A"
 msgstr "Szögátmérő: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Szögátmérő: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "Az API konfigurációs fájl nem található!\n\nKérjük, hozzon létre egy fájlt: \n{0}\n\n a Foreca API hitelesítő adataival."
+
+msgid "API credentials not configured."
+msgstr "Az API hitelesítő adatok nincsenek konfigurálva."
+
+msgid "API error"
+msgstr "API hiba"
+
+msgid "API password"
+msgstr "API jelszó"
+
+msgid "API user"
+msgstr "API felhasználó"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr "Látszólagos magnitúdó: {:.2f}"
+msgstr "Látszólagos nagyságrend: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
-msgstr "Hozzárendelés a Kedvenc 1-hez"
+msgstr "Hozzárendelés a kedvenchez 1"
 
 msgid "Assign to Favorite 2"
-msgstr "Hozzárendelés a Kedvenc 2-höz"
+msgstr "Hozzárendelés a 2. kedvenchez"
 
 msgid "Assign to Home"
 msgstr "Hozzárendelés a Kezdőlaphoz"
@@ -123,6 +157,9 @@ msgstr "Berlin"
 msgid "Black Moon"
 msgstr "Fekete Hold"
 
+msgid "Blue"
+msgstr "Kék"
+
 msgid "Blue - Home"
 msgstr "Kék – Otthon"
 
@@ -136,7 +173,7 @@ msgid "Bremen"
 msgstr "Bremen"
 
 msgid "Calculating..."
-msgstr "Számítás.."
+msgstr "Számító..."
 
 msgid "Cancel"
 msgstr "Mégsem"
@@ -145,37 +182,40 @@ msgid "Celsius, km/h, hPa"
 msgstr "Celsius, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr "Változási napló: {changelog}"
+msgstr "Változásnapló: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr "A módosítások azonnal érvénybe lépnek"
+msgstr "A változások azonnal hatályba lépnek"
 
 msgid "Check for updates"
-msgstr "Frissítések keresése"
+msgstr "Ellenőrizze a frissítéseket"
 
 msgid "Choose detail view"
-msgstr "Részletes nézet kiválasztása"
-
-msgid "City Selection"
-msgstr "Város kiválasztása"
+msgstr "Válasszon részletes nézetet"
 
 msgid "City list file not found!"
 msgstr "A városlista fájl nem található!"
 
+msgid "City Selection"
+msgstr "Város kiválasztása"
+
+msgid "City Selection Help:\n\n"
+msgstr "Városválasztási súgó: \n\n"
+
 msgid "Cleanup Foreca One Temp Files?"
-msgstr "Törli a Foreca One ideiglenes fájljait?"
+msgstr "Megtisztítja a Foreca One Temp fájlokat?"
 
 msgid "Cleanup temp files"
-msgstr "Ideiglenes fájlok törlése"
+msgstr "Tisztítsa meg az ideiglenes fájlokat"
 
 msgid "Clear"
-msgstr "Derült"
+msgstr "Világos"
 
 msgid "Close"
-msgstr "Bezár"
+msgstr "Közeli"
 
 msgid "Close legend"
-msgstr "Jelmagyarázat bezárása"
+msgstr "Legenda szoros"
 
 msgid "Close setup without saving"
 msgstr "Zárja be a beállítást mentés nélkül"
@@ -184,49 +224,52 @@ msgid "Cloudy"
 msgstr "Felhős"
 
 msgid "Cloudy and light rain"
-msgstr "Felhős, gyenge eső"
+msgstr "Felhős és gyenge eső"
 
 msgid "Cloudy and light snow"
-msgstr "Felhős, gyenge havazás"
+msgstr "Felhős és gyenge hó"
 
 msgid "Cloudy and light wet snow"
-msgstr "Felhős, gyenge havas eső"
+msgstr "Felhős és enyhe nedves hó"
 
 msgid "Cloudy and showers"
-msgstr "Felhős, záporok"
+msgstr "Felhős idő és záporok"
 
 msgid "Cloudy and snow showers"
-msgstr "Felhős, hózáporok"
+msgstr "Felhős idő és hózápor"
 
 msgid "Cloudy and wet snow showers"
-msgstr "Felhős idő és havas eső záporok"
+msgstr "Felhős és nedves hózápor"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr "Felhős, zivatarok esővel"
+msgstr "Felhős, zivatar, esővel"
 
 msgid "Cold (< 0°C)"
 msgstr "Hideg (< 0°C)"
 
+msgid "Color data"
+msgstr "Színes adatok"
+
+msgid "Color legend"
+msgstr "Színes legenda"
+
 msgid "Color Legend"
-msgstr "Színjelmagyarázat"
+msgstr "Színes legenda"
+
+msgid "Color name"
+msgstr "Színnév"
+
+msgid "Color select"
+msgstr "Színválasztás"
 
 msgid "Color Selector"
 msgstr "Színválasztó"
 
-msgid "Color data"
-msgstr "Színadatok"
-
-msgid "Color legend"
-msgstr "Színmagyarázat"
-
-msgid "Color name"
-msgstr "Szín neve"
-
-msgid "Color select"
-msgstr "Szín kiválasztása"
-
 msgid "Condition: {}"
 msgstr "Állapot: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Konfigurálja a Foreca API hitelesítő adatait"
 
 msgid "Continents Weather Maps"
 msgstr "Kontinensek időjárási térképei"
@@ -244,19 +287,19 @@ msgid "Could not load forecast data"
 msgstr "Nem sikerült betölteni az előrejelzési adatokat"
 
 msgid "Could not parse version information."
-msgstr "Nem sikerült feldolgozni a verzióinformációkat."
+msgstr "Nem sikerült elemezni a verzióinformációkat."
 
 msgid "Current weather and forecast"
-msgstr "Aktuális időjárás és előrejelzés"
+msgstr "Jelenlegi időjárás és előrejelzés"
 
 msgid "Current weather and forecast for the next 10 days"
-msgstr "Aktuális időjárás és előrejelzés a következő 10 napra"
+msgstr "Jelenlegi időjárás és előrejelzés a következő 10 napra"
 
 msgid "Current: {}"
 msgstr "Jelenlegi: {}"
 
 msgid "Czech Republic"
-msgstr "Cseh Köztársaság"
+msgstr "Csehország"
 
 msgid "Data provided by Foreca"
 msgstr "Az adatokat a Foreca szolgáltatta"
@@ -286,7 +329,7 @@ msgid "Dewpoint {}°C"
 msgstr "Harmatpont {}°C"
 
 msgid "Dewpoint: %d%s"
-msgstr "Harmatpont: %d% s"
+msgstr "Harmatpont: %d%s"
 
 msgid "Dewpoint: %s°C"
 msgstr "Harmatpont: %s°C"
@@ -294,11 +337,11 @@ msgstr "Harmatpont: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Harmatpont: N/A"
 
-msgid "Distance {} km"
-msgstr "Távolság: {} km"
+msgid "Distance"
+msgstr "Távolság"
 
-msgid "Distance: %s"
-msgstr "Távolság: %s"
+msgid "Distance {} km"
+msgstr "Távolság {} km"
 
 msgid "Distance: {}"
 msgstr "Távolság: {}"
@@ -306,16 +349,14 @@ msgstr "Távolság: {}"
 msgid "Distance: {} km"
 msgstr "Távolság: {} km"
 
+msgid "Distance: %s"
+msgstr "Távolság: %s"
+
 msgid "Do you want to install it now?"
 msgstr "Most szeretné telepíteni?"
-"Most szeretné telepíteni?Most szeretné telepíteni?Új verzió (%s) elérhető\n"
-"\n"
-"Változásnapló: %s\n"
-"\n"
-"Telepíteni szeretnéd most?"
 
 msgid "Down"
-msgstr "Lefelé"
+msgstr "Le"
 
 msgid "Down - Next page"
 msgstr "Le - Következő oldal"
@@ -330,13 +371,13 @@ msgid "Downloading tiles..."
 msgstr "Csempék letöltése..."
 
 msgid "E"
-msgstr "K"
+msgstr "E"
 
 msgid "East Asia"
 msgstr "Kelet-Ázsia"
 
 msgid "Error checking for updates."
-msgstr "Hiba a frissítések ellenőrzésekor."
+msgstr "Hiba a frissítések keresésekor."
 
 msgid "Error loading data"
 msgstr "Hiba az adatok betöltésekor"
@@ -348,7 +389,7 @@ msgid "Error loading maps. Check connection."
 msgstr "Hiba a térképek betöltésekor. Ellenőrizze a kapcsolatot."
 
 msgid "Error saving favorite!"
-msgstr "Hiba a kedvenc mentésekor!"
+msgstr "Hiba a kedvenc mentése során!"
 
 msgid "Europe"
 msgstr "Európa"
@@ -360,7 +401,7 @@ msgid "Evening"
 msgstr "Este"
 
 msgid "Exit"
-msgstr "Kilépés"
+msgstr "Kijárat"
 
 msgid "Exit - End"
 msgstr "Kilépés - Vége"
@@ -369,13 +410,16 @@ msgid "Exit / Close legend"
 msgstr "Kilépés / Jelmagyarázat bezárása"
 
 msgid "Extreme"
-msgstr "Szélsőséges"
+msgstr "Szélső"
 
 msgid "Extreme / thunderstorms"
-msgstr "Szélsőséges / zivatarok"
+msgstr "Extrém / zivatarok"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Nem sikerült írni a konfigurációs fájlt: \n%s"
 
 msgid "Faster: {}s"
 msgstr "Gyorsabb: {}s"
@@ -386,38 +430,38 @@ msgstr "Kedvenc 1"
 msgid "Favorite 2"
 msgstr "Kedvenc 2"
 
-msgid "Favorites Details"
-msgstr "Kedvencek részletei"
-
 msgid "Favorites details"
 msgstr "Kedvencek részletei"
 
+msgid "Favorites Details"
+msgstr "Kedvencek Részletek"
+
 msgid "Feels like"
-msgstr "Olyan érzés, mintha"
+msgstr "Úgy érzi"
 
 msgid "Feels like {}"
-msgstr "Hőérzet: {}"
+msgstr "Olyan érzés, mint {}"
 
 msgid "Feels like {}{}"
-msgstr "Hőérzet: {}{}"
-
-msgid "Feels like: %d%s"
-msgstr "Hőérzet: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Hőérzet: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Hőérzet: N/A"
+msgstr "Olyan érzés, mint {}{}"
 
 msgid "Feels like: {}"
-msgstr "Hőérzet: {}"
+msgstr "Olyan érzés, mint: {}"
 
 msgid "Feels like: {}{}"
-msgstr "Hőérzet: {}{}"
+msgstr "Olyan érzés, mint: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr "Hőérzet: {}°C"
+msgstr "Érzés: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Olyan érzés, mint: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Érzés: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Olyan érzés, mint: N/A"
 
 msgid "Finland"
 msgstr "Finnország"
@@ -428,51 +472,47 @@ msgstr "Első negyed"
 msgid "Fog"
 msgstr "Köd"
 
-#, fuzzy
-msgid "Foreca API Setup"
-msgstr "Foreca One menü"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "A Foreca API hitelesítő adatai még nincsenek konfigurálva. Kérjük, írja be őket a beállítási képernyőn."
 
 msgid "Foreca API settings saved successfully."
 msgstr "A Foreca API beállításai sikeresen mentve."
 
+msgid "Foreca API Setup"
+msgstr "Foreca API beállítása"
+
 msgid "Foreca One"
 msgstr "Foreca One"
 
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | Térkép {}"
+
 msgid "Foreca One Live Maps (API)"
-msgstr "Foreca One élő térképek (API)"
+msgstr "Foreca One Live Maps (API)"
 
 msgid "Foreca One Menu"
 msgstr "Foreca One menü"
 
 msgid "Foreca One No stations found"
-msgstr "Foreca One – Nem találhatók állomások"
+msgstr "Foreca One Nem található állomás"
+
+msgid "Foreca One Setup"
+msgstr "Foreca One beállítás"
 
 msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr "Foreca One állomások: {} közeli állomás ({})"
+msgstr "Foreca One állomások: {} állomás a közelben ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
 
 msgid "Foreca One Weather Forecast"
 msgstr "Foreca One időjárás-előrejelzés"
 
-msgid "Foreca One Weather and Forecast ver. %s"
-msgstr "Foreca One időjárás és előrejelzés, ver. %s"
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | Térkép {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "%d várost találtunk helyben a(z) „%s” kifejezésre"
-
-msgid "Found %d cities online for '%s'"
-msgstr "%d várost találtunk online a(z) „%s” kifejezésre"
-
 msgid "Frame →"
-msgstr "Képkocka →"
+msgstr "Keret →"
 
 msgid "Frame: {}"
-msgstr "Képkocka: {}"
+msgstr "Keret: {}"
 
 msgid "France"
 msgstr "Franciaország"
@@ -481,10 +521,10 @@ msgid "Full Moon"
 msgstr "Telihold"
 
 msgid "Gale force (>60 km/h)"
-msgstr "Viharos szél (>60 km/h)"
+msgstr "Gale erő (>60 km/h)"
 
 msgid "German States Weather Maps"
-msgstr "Német tartományok időjárási térképei"
+msgstr "Német államok időjárási térképei"
 
 msgid "Germany"
 msgstr "Németország"
@@ -498,14 +538,17 @@ msgstr "Nagy-Britannia"
 msgid "Greece"
 msgstr "Görögország"
 
+msgid "Green"
+msgstr "Zöld"
+
 msgid "Green - Favorite 1"
 msgstr "Zöld – Kedvenc 1"
 
 msgid "Gust {}"
-msgstr "Széllökés: {}"
+msgstr "széllökés {}"
 
 msgid "Gust: {:.1f} {}"
-msgstr "Széllökés: {:.1f} {}"
+msgstr "széllökés: {:.1f} {}"
 
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -523,28 +566,31 @@ msgid "Help"
 msgstr "Segítség"
 
 msgid "Hesse"
-msgstr "Hessen"
+msgstr "Hesse"
 
 msgid "High"
 msgstr "Magas"
 
 msgid "Home"
-msgstr "Főoldal"
+msgstr "Otthon"
 
 msgid "Hot (30-40°C)"
-msgstr "Meleg (30–40°C)"
+msgstr "Forró (30-40°C)"
 
 msgid "Hour Details"
-msgstr "Óra részletei"
+msgstr "Óra Részletek"
+
+msgid "HTML"
+msgstr "HTML"
 
 msgid "Humidity"
-msgstr "Páratartalom"
-
-msgid "Humidity: %s%%"
-msgstr "Páratartalom: %s%%"
+msgstr "Nedvesség"
 
 msgid "Humidity: {}%"
 msgstr "Páratartalom: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Páratartalom: %s%%"
 
 msgid "Hungary"
 msgstr "Magyarország"
@@ -574,10 +620,10 @@ msgid "Increase Speed"
 msgstr "Sebesség növelése"
 
 msgid "Info"
-msgstr "Információ"
+msgstr "Info"
 
 msgid "Info - About"
-msgstr "Infó – Névjegy"
+msgstr "Info - Körülbelül"
 
 msgid "Ireland"
 msgstr "Írország"
@@ -586,22 +632,25 @@ msgid "Italy"
 msgstr "Olaszország"
 
 msgid "Jump 100 down"
-msgstr "Ugrás 100-zal lefelé"
+msgstr "Ugorj 100-at lefelé"
 
 msgid "Jump 100 up"
-msgstr "Ugrás 100-zal felfelé"
+msgstr "Ugorj fel 100-at"
 
 msgid "Jump 500 down"
-msgstr "Ugrás 500-zal lefelé"
+msgstr "Ugorj le 500-at"
 
 msgid "Jump 500 up"
-msgstr "Ugrás 500-zal felfelé"
+msgstr "Ugorj fel 500-at"
 
 msgid "Keyboard"
 msgstr "Billentyűzet"
 
 msgid "Last Quarter"
-msgstr "Utolsó negyedév"
+msgstr "Utolsó negyed"
+
+msgid "Last update"
+msgstr "Utolsó frissítés"
 
 msgid "Latvia"
 msgstr "Lettország"
@@ -613,13 +662,13 @@ msgid "Left arrow - Previous day"
 msgstr "Balra nyíl – előző nap"
 
 msgid "Light (0-20 km/h)"
-msgstr "Gyenge (0–20 km/h)"
+msgstr "Könnyű (0-20 km/h)"
 
 msgid "Light rain / drizzle"
 msgstr "Gyenge eső / szitálás"
 
 msgid "Light to moderate"
-msgstr "Gyenge–mérsékelt"
+msgstr "Könnyűtől közepesig"
 
 msgid "Loading available maps..."
 msgstr "Elérhető térképek betöltése..."
@@ -637,7 +686,7 @@ msgid "Loading weekly forecast..."
 msgstr "Heti előrejelzés betöltése..."
 
 msgid "Loading..."
-msgstr "Betöltés..."
+msgstr "Terhelés..."
 
 msgid "Low"
 msgstr "Alacsony"
@@ -654,21 +703,20 @@ msgstr "Holdfázisok a következő hónaptól"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Látszólagos nagyságrend: N/A"
+msgstr "Nagyságrend: N/A"
+
+msgid "Map {} selected"
+msgstr "{} térkép kiválasztva"
 
 msgid "Map & Tiles Loaded"
-msgstr "Térkép és csempék betöltve"
+msgstr "Térkép és csempe betöltve"
 
 msgid "Map loaded"
 msgstr "Térkép betöltve"
 
 msgid "Map server"
 msgstr "Térképszerver"
-
-msgid "Map {} selected"
-msgstr "A(z) {} térkép kiválasztva"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Mecklenburg-Vorpommern"
@@ -677,10 +725,10 @@ msgid "Menu"
 msgstr "Menü"
 
 msgid "Menu - Settings"
-msgstr "Menü – Beállítások"
+msgstr "Menü - Beállítások"
 
 msgid "Merge failed"
-msgstr "Az egyesítés sikertelen"
+msgstr "Az egyesítés nem sikerült"
 
 msgid "Meteogram"
 msgstr "Meteogram"
@@ -698,13 +746,13 @@ msgid "Middle East"
 msgstr "Közel-Kelet"
 
 msgid "Mild (10-20°C)"
-msgstr "Enyhe (10–20°C)"
+msgstr "Enyhe (10-20°C)"
 
 msgid "Moderate"
 msgstr "Mérsékelt"
 
 msgid "Moderate (20-40 km/h)"
-msgstr "Mérsékelt (20–40 km/h)"
+msgstr "Mérsékelt (20-40 km/h)"
 
 msgid "Moderate rain"
 msgstr "Mérsékelt eső"
@@ -712,13 +760,11 @@ msgstr "Mérsékelt eső"
 msgid "Month"
 msgstr "Hónap"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "Óra részletei"
-
-#, fuzzy
 msgid "Moon details"
-msgstr "Óra részletei"
+msgstr "Hold részletei"
+
+msgid "Moon Details"
+msgstr "Hold Részletek"
 
 msgid "Moonrise: {}"
 msgstr "Holdkelte: {}"
@@ -730,19 +776,19 @@ msgid "Morning"
 msgstr "Reggel"
 
 msgid "Mostly clear"
-msgstr "Többnyire tiszta"
-
-msgid "Move Down"
-msgstr "Lefelé mozgatás"
-
-msgid "Move Up"
-msgstr "Felfelé mozgatás"
+msgstr "Többnyire világos"
 
 msgid "Move down"
-msgstr "Mozgatás lefelé"
+msgstr "Mozgás lefelé"
+
+msgid "Move Down"
+msgstr "Mozgás lefelé"
 
 msgid "Move up"
-msgstr "Mozgatás felfelé"
+msgstr "Lépj felfelé"
+
+msgid "Move Up"
+msgstr "Mozgás felfelé"
 
 msgid "N"
 msgstr "N"
@@ -757,31 +803,22 @@ msgid "New Moon"
 msgstr "Újhold"
 
 msgid "New version {version} is available."
-msgstr "Új verzió ({version}) érhető el."
+msgstr "Új verzió {version} elérhető."
 
 msgid "Next"
 msgstr "Következő"
 
-msgid "Next Image"
-msgstr "Következő kép"
-
 msgid "Next frame"
 msgstr "Következő képkocka"
+
+msgid "Next Image"
+msgstr "Következő kép"
 
 msgid "Next page"
 msgstr "Következő oldal"
 
 msgid "Next time"
 msgstr "Legközelebb"
-
-msgid "No Internet connection detected."
-msgstr "Nem észlelhető internetkapcsolat."
-
-msgid "No OSM tiles"
-msgstr "Nincsenek OSM csempék"
-
-msgid "No cities found locally for '%s'"
-msgstr "Nem találhatók helyben városok a(z) „%s” kifejezésre"
 
 msgid "No city selected"
 msgstr "Nincs kiválasztott város"
@@ -792,20 +829,26 @@ msgstr "Nincs adat"
 msgid "No date available"
 msgstr "Nincs elérhető dátum"
 
+msgid "No Internet connection detected."
+msgstr "Nem észlelhető internetkapcsolat."
+
 msgid "No location selected"
-msgstr "Nincs kiválasztott hely"
+msgstr "Nincs kiválasztva hely"
+
+msgid "No OSM tiles"
+msgstr "Nincs OSM csempe"
 
 msgid "No specific legend available."
-msgstr "Nem érhető el konkrét jelmagyarázat."
+msgstr "Nincs konkrét jelmagyarázat."
 
 msgid "No station data"
 msgstr "Nincsenek állomásadatok"
 
 msgid "No station data available"
-msgstr "Nem érhetők el állomásadatok"
+msgstr "Nem állnak rendelkezésre állomásadatok"
 
 msgid "No stations found"
-msgstr "Nincsenek állomások"
+msgstr "Nem található állomás"
 
 msgid "No tiles downloaded"
 msgstr "Nincsenek letöltött csempék"
@@ -814,128 +857,127 @@ msgid "North Africa"
 msgstr "Észak-Afrika"
 
 msgid "North America"
-msgstr "Észak-Amerika"
+msgstr "Észak Amerika"
 
 msgid "North Rhine-Westphalia"
-msgstr "Észak-Rajna–Vesztfália"
+msgstr "Észak-Rajna-Vesztfália"
 
 msgid "Norway"
 msgstr "Norvégia"
 
+msgid "Ok - Details"
+msgstr "Ok - Részletek"
+
 msgid "OK - Ext Info"
-msgstr "OK – Bőv. infó"
+msgstr "OK - Külső információ"
 
 msgid "OK - Forecast"
-msgstr "OK – Előrejelzés"
+msgstr "OK - Előrejelzés"
 
 msgid "OK - Open Map"
-msgstr "OK – Térkép megnyitása"
-
-msgid "Ok - Details"
-msgstr "Ok – Részletek"
+msgstr "OK - Nyissa meg a térképet"
 
 msgid "Open Keyboard"
 msgstr "Nyissa meg a Billentyűzetet"
 
 msgid "Open Map"
-msgstr "Térkép megnyitása"
+msgstr "Nyissa meg a Térképet"
 
 msgid "Original design and idea by %s"
-msgstr "Eredeti dizájn és ötlet: %s"
+msgstr "Eredeti tervezés és ötlet, %s"
 
 msgid "Overcast"
 msgstr "Felhős"
 
 msgid "Overcast and light rain"
-msgstr "Borult, gyenge eső"
+msgstr "Borult és gyenge eső"
 
 msgid "Overcast and light snow"
-msgstr "Borult, gyenge havazás"
+msgstr "Borult és gyenge hó"
 
 msgid "Overcast and light wet snow"
-msgstr "Borult, gyenge havas eső"
+msgstr "Felhős és enyhe nedves hó"
 
 msgid "Overcast and rain"
-msgstr "Borult, esővel"
+msgstr "Borús és eső"
 
 msgid "Overcast and showers"
-msgstr "Borult, záporokkal"
+msgstr "Borult és záporok"
 
 msgid "Overcast and snow"
-msgstr "Borult, havazás"
+msgstr "Felhős és hó"
 
 msgid "Overcast and snow showers"
-msgstr "Borult, hózápor"
+msgstr "Borult és hózápor"
 
 msgid "Overcast and wet snow"
-msgstr "Borult, havas eső"
+msgstr "Felhős és nedves hó"
 
 msgid "Overcast and wet snow showers"
-msgstr "Borult, havas eső záporok"
+msgstr "Borult és nedves hózápor"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr "Borult, zivatarok esővel"
+msgstr "Borult, zivatar, esővel"
 
 msgid "Overnight"
-msgstr "Éjszaka"
+msgstr "Éjszakai"
+
+msgid "Page down"
+msgstr "Oldal lefelé"
 
 msgid "Page Down"
-msgstr "Oldal le"
+msgstr "Oldal lefelé"
+
+msgid "Page up"
+msgstr "Oldal felfelé"
 
 msgid "Page Up"
 msgstr "Oldal fel"
 
-msgid "Page down"
-msgstr "Oldal le"
-
-msgid "Page up"
-msgstr "Oldal fel"
-
 msgid "Pan down"
-msgstr "Pásztázás lefelé"
+msgstr "Pásztázzon le"
 
 msgid "Pan left"
-msgstr "Pásztázás balra"
+msgstr "Pan balra"
 
 msgid "Pan right"
-msgstr "Pásztázás jobbra"
+msgstr "Pásztázzon jobbra"
 
 msgid "Pan up"
-msgstr "Pásztázás felfelé"
+msgstr "Pörögjön fel"
 
 msgid "Partly cloudy"
-msgstr "Részben felhős"
+msgstr "Helyenként felhős"
 
 msgid "Partly cloudy and light rain"
-msgstr "Részben felhős, gyenge eső"
+msgstr "Részben felhős és gyenge eső"
 
 msgid "Partly cloudy and light snow"
-msgstr "Részben felhős, gyenge havazás"
+msgstr "Részben felhős és gyenge hó"
 
 msgid "Partly cloudy and light wet snow"
-msgstr "Részben felhős, gyenge havas eső"
+msgstr "Részben felhős és enyhe nedves hó"
 
 msgid "Partly cloudy and showers"
-msgstr "Részben felhős, záporok"
+msgstr "Részben felhős, záporeső"
 
 msgid "Partly cloudy and snow showers"
-msgstr "Részben felhős, hózáporok"
+msgstr "Változóan felhős, havas eső"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr "Részben felhős, havas eső záporok"
+msgstr "Részben felhős, esős hózápor"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr "Részben felhős, esővel kísért zivatarok lehetségesek"
+msgstr "Változóan felhős, zivatar is előfordulhat esővel"
 
 msgid "Perigee"
-msgstr "Perigeum"
+msgstr "Földközel"
 
 msgid "Phase"
 msgstr "Fázis"
 
-#, fuzzy
 msgid "Phase: {}"
-msgstr "Fázis"
+msgstr "Fázis: {}"
 
 msgid "Play/Pause"
 msgstr "Lejátszás/Szünet"
@@ -944,7 +986,7 @@ msgid "Please enter both API user and API password."
 msgstr "Kérjük, adja meg az API felhasználót és az API jelszót is."
 
 msgid "Please wait ..."
-msgstr "Kérlek várj…"
+msgstr "Kérem, várjon..."
 
 msgid "Poland"
 msgstr "Lengyelország"
@@ -959,31 +1001,31 @@ msgid "Precipitation: {}"
 msgstr "Csapadék: {}"
 
 msgid "Precipitations"
-msgstr "Csapadék"
+msgstr "Csapadékok"
 
 msgid "Precipitations: {}%"
 msgstr "Csapadék: {}%"
 
 msgid "Press RED to search again"
-msgstr "Nyomd meg a PIROS gombot az újbóli kereséshez"
+msgstr "Nyomja meg a PIROS gombot az újbóli kereséshez"
 
 msgid "Pressure"
-msgstr "Légnyomás"
-
-msgid "Pressure: %s"
-msgstr "Légnyomás: %s"
-
-msgid "Pressure: %s hPa"
-msgstr "Légnyomás: %s hPa"
-
-msgid "Pressure: N/A"
-msgstr "Légnyomás: N/A"
+msgstr "Nyomás"
 
 msgid "Pressure: {}"
-msgstr "Légnyomás: {}"
+msgstr "Nyomás: {}"
 
 msgid "Pressure: {} hPa"
-msgstr "Légnyomás: {} hPa"
+msgstr "Nyomás: {} hPa"
+
+msgid "Pressure: %s"
+msgstr "Nyomás: %s"
+
+msgid "Pressure: %s hPa"
+msgstr "Nyomás: %s hPa"
+
+msgid "Pressure: N/A"
+msgstr "Nyomás: N/A"
 
 msgid "Prev"
 msgstr "Előző"
@@ -991,11 +1033,11 @@ msgstr "Előző"
 msgid "Previous"
 msgstr "Előző"
 
-msgid "Previous Image"
-msgstr "Előző kép"
-
 msgid "Previous frame"
 msgstr "Előző képkocka"
+
+msgid "Previous Image"
+msgstr "Előző kép"
 
 msgid "Previous page"
 msgstr "Előző oldal"
@@ -1004,22 +1046,25 @@ msgid "Previous time"
 msgstr "Előző időpont"
 
 msgid "Rain Prob."
-msgstr "Eső valószínű."
+msgstr "Rain Prob."
 
 msgid "Rain prob. {}%"
-msgstr "Csapadék esélye: {}%"
+msgstr "Esőprobléma. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr "Csapadék esélye: N/A"
+msgstr "Esőprob.: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr "Csapadék: {:.1f} {}"
+msgstr "Eső: {:.1f} {}"
 
 msgid "RainViewer Radar"
 msgstr "RainViewer radar"
 
+msgid "Red"
+msgstr "Piros"
+
 msgid "Red - Color select"
-msgstr "Piros - Színválasztás"
+msgstr "Piros – Színválasztás"
 
 msgid "Refresh"
 msgstr "Frissítés"
@@ -1037,13 +1082,13 @@ msgid "Right arrow - Next day"
 msgstr "Jobbra nyíl – Másnap"
 
 msgid "Rise"
-msgstr "Holdkelte"
-
-msgid "Rise azimuth: N/A"
-msgstr "Azimut emelkedése: N/A"
+msgstr "Emelkedik"
 
 msgid "Rise azimuth: {:.0f}°"
 msgstr "Azimut emelkedése: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Azimut emelkedése: N/A"
 
 msgid "Russia"
 msgstr "Oroszország"
@@ -1052,20 +1097,22 @@ msgid "S"
 msgstr "S"
 
 msgid "Saarland"
-msgstr "Saar-vidék"
+msgstr "Saarland"
 
 msgid "Satellite Photos"
-msgstr "Műholdképek"
+msgstr "Műholdas fotók"
 
 msgid "Satellite photos coming soon!"
-msgstr "A műholdképek hamarosan érkeznek!"
+msgstr "Műholdas fotók hamarosan!"
 
 msgid "Save"
-msgstr "Mentés"
+msgstr "Megtakarítás"
 
-#, fuzzy
 msgid "Save API settings"
-msgstr "Menü – Beállítások"
+msgstr "Mentse az API beállításokat"
+
+msgid "Save translation settings"
+msgstr "Mentse el a fordítási beállításokat"
 
 msgid "Saxony"
 msgstr "Szászország"
@@ -1077,73 +1124,70 @@ msgid "Schleswig-Holstein"
 msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
-msgstr "Kinyerve"
+msgstr "Kikapart"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr "A keresés először online próbálkozik, ha nem sikerül, a helyi listát használja."
+msgstr "A keresés először online próbálkozik, ha sikertelen, a helyi listát használja."
 
 msgid "Search your City"
 msgstr "Keresse meg városát"
 
-msgid "Searching for '%s'..."
-msgstr "Keresés erre: '%s'..."
-
 msgid "Select"
-msgstr "Kiválasztás"
-
-msgid "Select Region"
-msgstr "Régió kiválasztása"
-
-msgid "Select a city"
-msgstr "Város"
-
-msgid "Select a map with OK"
-msgstr "Válassz térképet az OK gombbal"
-
-msgid "Select unit system"
-msgstr "Válassz mértékegységrendszert"
-
-msgid "Select wind unit"
-msgstr "Válassz szél mértékegységet"
+msgstr "Válassza ki"
 
 msgid "Select {} unit"
-msgstr "Válaszd ki a(z) {} mértékegységet"
+msgstr "Válassza ki a(z) {} egységet"
+
+msgid "Select a city"
+msgstr "Válasszon várost"
+
+msgid "Select a map with OK"
+msgstr "Válasszon egy térképet az OK gombbal"
+
+msgid "Select Region"
+msgstr "Válassza ki a Régiót"
+
+msgid "Select unit system"
+msgstr "Válassza ki az egységrendszert"
+
+msgid "Select wind unit"
+msgstr "Válassza ki a szél egységet"
 
 msgid "Selected hour details"
 msgstr "A kiválasztott óra részletei"
 
+msgid "Set azimuth: {:.0f}°"
+msgstr "Az azimut beállítása: {:.0f}°"
+
 msgid "Set azimuth: N/A"
 msgstr "Azimut beállítása: N/A"
 
-msgid "Set azimuth: {:.0f}°"
-msgstr "Azimut beállítása: {:.0f}°"
-
 msgid "Sets"
-msgstr "Holdnyugta"
+msgstr "Készletek"
 
 msgid "Show info"
-msgstr "Információ megjelenítése"
+msgstr "Információk megjelenítése"
 
 msgid "Showers"
-msgstr "Záporok"
+msgstr "Zuhanyzók"
 
 msgid "Slovakia"
 msgstr "Szlovákia"
 
 msgid "Slower: {}s"
-msgstr "Lassabb: {}s"
+msgstr "Lassabban: {}s"
 
 msgid "Snow / ice"
-msgstr "Hó / jég"
+msgstr "Hó/jég"
 
 msgid "Snow prob. {}%"
-msgstr "Hó valósz. {}%"
+msgstr "Hóprob. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr "Hó valósz.: N/A"
+msgstr "Hóprob.: N/A"
 
 msgid "South Africa"
-msgstr "Dél-Afrikai Köztársaság"
+msgstr "Dél-Afrika"
 
 msgid "South America"
 msgstr "Dél-Amerika"
@@ -1155,7 +1199,7 @@ msgid "Spain"
 msgstr "Spanyolország"
 
 msgid "Station Observations"
-msgstr "Állomási megfigyelések"
+msgstr "Állomás megfigyelések"
 
 msgid "Station: {}"
 msgstr "Állomás: {}"
@@ -1164,13 +1208,13 @@ msgid "Strong (40-60 km/h)"
 msgstr "Erős (40-60 km/h)"
 
 msgid "Sunrise"
-msgstr "Sunrise"
+msgstr "Napkelte"
 
 msgid "Sunset"
 msgstr "Napnyugta"
 
 msgid "Super Full Moon"
-msgstr "Szuperhold (telihold)"
+msgstr "Szuper Telihold"
 
 msgid "Sweden"
 msgstr "Svédország"
@@ -1178,20 +1222,14 @@ msgstr "Svédország"
 msgid "Switzerland"
 msgstr "Svájc"
 
+msgid "Target Language"
+msgstr "Célnyelv"
+
 msgid "Temp"
 msgstr "Temp"
 
 msgid "Temperature"
 msgstr "Hőmérséklet"
-
-msgid "Temperature: %d%s"
-msgstr "Hőmérséklet: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Hőmérséklet: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Hőmérséklet: N/A"
 
 msgid "Temperature: {}"
 msgstr "Hőmérséklet: {}"
@@ -1202,15 +1240,23 @@ msgstr "Hőmérséklet: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Hőmérséklet: {}°C"
 
-#, fuzzy
+msgid "Temperature: %d%s"
+msgstr "Hőmérséklet: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Hőmérséklet: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Hőmérséklet: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Köszönet {thanks}-nak/nek és más barátoknak a javaslatokért és a tesztelésért"
+msgstr "Köszönjük {thanks} és más barátok javaslatait"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
 msgstr "A távoli verzió ({remote}) régebbi, mint a jelenlegi ({current})."
 
 msgid "Thin upper cloud"
-msgstr "Vékony felső felhőzet"
+msgstr "Vékony felső felhő"
 
 msgid "Thuringia"
 msgstr "Türingia"
@@ -1222,10 +1268,10 @@ msgid "Today"
 msgstr "Ma"
 
 msgid "Today/Tomorrow details"
-msgstr "Mai/holnapi részletek"
+msgstr "Ma/Holnap részletek"
 
 msgid "Toggle legend"
-msgstr "Jelmagyarázat be-/kikapcsolása"
+msgstr "Jelmagyarázat váltása"
 
 msgid "Token expire hours"
 msgstr "Token lejárati óra"
@@ -1242,38 +1288,35 @@ msgstr "Holnap"
 msgid "Transit (culmination): {}"
 msgstr "Tömegközlekedés (tetőpont): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "Tranzitmagasság: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "Tömegközlekedési magasság: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "Átlátszósági beállítások"
+msgid "Transit altitude: N/A"
+msgstr "Tranzitmagasság: N/A"
+
+msgid "Translation Settings"
+msgstr "Fordítási beállítások"
 
 msgid "Transparency level"
-msgstr "Átlátszósági szint"
+msgstr "Átláthatósági szint"
 
-msgid "UV Index"
-msgstr "UV-index"
-
-msgid "UV N/A"
-msgstr "UV: N/A"
+msgid "Transparency Settings"
+msgstr "Átlátszósági beállítások"
 
 msgid "Unhealthy"
 msgstr "Egészségtelen"
 
 msgid "Unhealthy for sensitives"
-msgstr "Nem egészséges az érzékenyek számára"
+msgstr "Érzékenyek számára egészségtelen"
 
 msgid "Unit Settings"
-msgstr "Tantárgy beállításai"
+msgstr "Egységbeállítások"
 
 msgid "Unit Settings (Advanced)"
-msgstr "Mértékegység-beállítások (haladó)"
+msgstr "Egységbeállítások (speciális)"
 
 msgid "Unit Settings (Simple)"
-msgstr "Mértékegység-beállítások (egyszerű)"
+msgstr "Egységbeállítások (egyszerű)"
 
 msgid "Unknown"
 msgstr "Ismeretlen"
@@ -1288,37 +1331,52 @@ msgid "Update canceled."
 msgstr "Frissítés megszakítva."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr "A frissítés befejeződött. Kérjük, indítsa újra az Enigma2-t."
+msgstr "Frissítés kész. Kérjük, indítsa újra az Enigma2-t."
 
 msgid "Updated {}"
+msgstr "Frissítve: {}"
+
+msgid "Updated: {}"
 msgstr "Frissítve: {}"
 
 msgid "Updated: N/A"
 msgstr "Frissítve: N/A"
 
-msgid "Updated: {}"
-msgstr "Frissítve: {}"
-
 msgid "Updating..."
-msgstr "Feltöltés.."
+msgstr "Frissítés..."
+
+msgid "Use ← → to change time | OK to exit"
+msgstr "Használja a ← → gombot az idő módosításához | OK a kilépéshez"
+
+msgid "Use ←/→/↑/↓ to move | OK to exit"
+msgstr "A ←/→/↑/↓ gombokkal mozgassa | OK a kilépéshez"
+
+msgid "Use ▲/▼ to change, OK to select"
+msgstr "Használja a ▲/▼ gombot a módosításhoz, az OK gombot a kiválasztáshoz"
 
 msgid "Use arrow keys to scroll"
 msgstr "A görgetéshez használja a nyílbillentyűket"
 
-msgid "Use ← → to change time | OK to exit"
-msgstr "Használja a ← → gombokat az idő módosításához | OK a kilépéshez"
-
-msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr "Használja a ←/→/↑/↓ gombokat a mozgatáshoz | OK a kilépéshez"
-
-msgid "Use ▲/▼ to change, OK to select"
-msgstr "Használja a ▲/▼ gombokat a módosításhoz, OK a kiválasztáshoz"
+msgid "Use Google Translate"
+msgstr "Használja a Google Fordítót"
 
 msgid "Using current time"
 msgstr "Az aktuális idő használata"
 
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV-index"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
+
 msgid "Very heavy rain"
-msgstr "Nagyon heves eső"
+msgstr "Nagyon heves esőzés"
 
 msgid "Very high"
 msgstr "Nagyon magas"
@@ -1332,29 +1390,29 @@ msgstr "Nagyon alacsony"
 msgid "Very unhealthy"
 msgstr "Nagyon egészségtelen"
 
-msgid "Visibility: %s m"
-msgstr "Látótávolság: %s m"
-
 msgid "Visibility: {} m"
-msgstr "Látótávolság: {} m"
+msgstr "Láthatóság: {} m"
+
+msgid "Visibility: %s m"
+msgstr "Láthatóság: %s m"
 
 msgid "W"
-msgstr "SZ"
+msgstr "W"
 
 msgid "Waning Crescent"
-msgstr "Fogyó holdsarló"
+msgstr "Hanyatló Félhold"
 
 msgid "Waning Gibbous"
-msgstr "Fogyó hold (púpos)"
+msgstr "Hanyatló Gibbous"
 
 msgid "Warm (20-30°C)"
 msgstr "Meleg (20-30°C)"
 
 msgid "Waxing Crescent"
-msgstr "Növekvő sarló"
+msgstr "Gyászoló Félhold"
 
 msgid "Waxing Gibbous"
-msgstr "Növekvő púpos"
+msgstr "Gyantázás Gibbous"
 
 msgid "Weather"
 msgstr "Időjárás"
@@ -1365,11 +1423,11 @@ msgstr "Időjárási térkép"
 msgid "Weather Maps"
 msgstr "Időjárási térképek"
 
-msgid "Weather Maps & Satellite"
-msgstr "Időjárási térképek és műhold"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Időjárási térképek (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Időjárási térképek és műhold"
 
 msgid "Weather Maps Slideshow"
 msgstr "Időjárási térképek diavetítése"
@@ -1378,10 +1436,10 @@ msgid "Weather Radar"
 msgstr "Időjárási radar"
 
 msgid "Weather today"
-msgstr "Mai időjárás"
+msgstr "Időjárás ma"
 
 msgid "Weather tomorrow"
-msgstr "Holnapi időjárás"
+msgstr "Időjárás holnap"
 
 msgid "Weekly Forecast"
 msgstr "Heti előrejelzés"
@@ -1389,23 +1447,32 @@ msgstr "Heti előrejelzés"
 msgid "Wind"
 msgstr "Szél"
 
+msgid "Wind direction"
+msgstr "A szél iránya"
+
 msgid "Wind Direction today"
-msgstr "Szélirány ma"
+msgstr "A szél iránya ma"
 
 msgid "Wind Direction tomorrow"
-msgstr "Holnapi szélirány"
-
-msgid "Wind direction"
-msgstr "Szélirány"
+msgstr "szélirány holnap"
 
 msgid "Wind speed"
 msgstr "Szélsebesség"
 
 msgid "Wind speed {}"
-msgstr "Szélsebesség: {}"
+msgstr "szélsebesség {}"
 
 msgid "Wind speed: {:.1f} {}"
 msgstr "Szélsebesség: {:.1f} {}"
+
+msgid "Wind: {}"
+msgstr "Szél: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Szél: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Szél: {} km/h {}"
 
 msgid "Wind: %d %s %s"
 msgstr "Szél: %d %s %s"
@@ -1416,20 +1483,14 @@ msgstr "Szél: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Szél: N/A"
 
-msgid "Wind: {}"
-msgstr "Szél: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Szél: {} km/h {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Szél: {} {} {}"
-
 msgid "Window transparency"
 msgstr "Ablak átlátszósága"
 
 msgid "Yellow - Favorite 2"
 msgstr "Sárga – Kedvenc 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "A {version} verzió már telepítve van.\nÚjra szeretné telepíteni?"
 
 msgid "Zoom In"
 msgstr "Nagyítás"
@@ -1437,90 +1498,12 @@ msgstr "Nagyítás"
 msgid "Zoom Out"
 msgstr "Kicsinyítés"
 
-msgid "Zoom+"
-msgstr "Nagyítás+"
-
 msgid "Zoom-"
-msgstr "Kicsinyítés-"
+msgstr "Zoomolás-"
 
 msgid "Zoom:"
-msgstr "Nagyítás:"
+msgstr "Zoomolás:"
 
-msgid "v."
-msgstr "v."
+msgid "Zoom+"
+msgstr "Zoom+"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} ó {mins} perc"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• KÉK a mentéshez Kezdőlapként\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- 500 város ugrásához\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• ZÖLD a mentéshez Kedvenc 1-ként\n"
-
-msgid "• OK to select city\n"
-msgstr "• OK a város kiválasztásához\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• PIROS a keresőbillentyűzet megnyitásához\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• A navigáláshoz használd a nyílbillentyűket\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• SÁRGA a mentéshez Kedvenc 2-ként\n"
-
-msgid "← Frame"
-msgstr "← Keret"
-
-#, fuzzy
-#~ msgid "(Additional data not available)"
-#~ msgstr "Nem érhetők el állomásadatok"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== HOLD RÉSZLETEK ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Szögátmérő: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Látszólagos nagyságrend: N/A"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "Foreca One menü"
-
-#, fuzzy
-#~ msgid "7 Day Forecast"
-#~ msgstr "OK – Előrejelzés"
-
-#, fuzzy
-#~ msgid "Blue"
-#~ msgstr "Kék Hold"
-
-#, fuzzy
-#~ msgid "Cloud Cover"
-#~ msgstr "Felhős, záporok"
-
-#, fuzzy
-#~ msgid "Distance"
-#~ msgstr "Távolság: %s"
-
-#, fuzzy
-#~ msgid "Green"
-#~ msgstr "Görögország"
-
-#, fuzzy
-#~ msgid "Image Downloaded"
-#~ msgstr "Oldal le"
-
-#, fuzzy
-#~ msgid "Last update"
-#~ msgstr "Utolsó negyedév"
-
-#, fuzzy
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "Időjárási térképek"

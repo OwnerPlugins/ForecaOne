@@ -1,30 +1,56 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ar translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-15 16:04+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Arabic <(nothing)>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ar <ekekaz@gmail.com>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.9\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} ح {mins} دقيقة"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• أزرق لحفظه باسم Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- للقفز إلى 500 مدينة\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• أخضر للحفظ كمفضل 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• موافق لتحديد city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• اللون الأحمر لفتح لوحة مفاتيح البحث\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• استخدم مفاتيح الأسهم للتنقل في \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- للقفز 100 مدينة\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• أصفر لحفظه كمفضل 2\n"
+
+msgid "← Frame"
+msgstr "← الإطار"
 
 msgid "0 - Today"
 msgstr "0 - اليوم"
 
 msgid "1 - Today + 1 day"
-msgstr "1 - اليوم + يوم واحد"
+msgstr "1 - اليوم + 1 يوم"
 
 msgid "2 - Today + 2 days"
-msgstr "2 - اليوم + يومان"
+msgstr "2 - اليوم + يومين"
 
 msgid "3 - Today + 3 days"
 msgstr "3 - اليوم + 3 أيام"
@@ -41,37 +67,20 @@ msgstr "6 - اليوم + 6 أيام"
 msgid "7 - Today + 7 days"
 msgstr "7 - اليوم + 7 أيام"
 
+msgid "7 Day Forecast"
+msgstr "توقعات 7 أيام"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - اليوم + 8 أيام"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - اليوم + 9 أيام"
 
-msgid "API credentials not configured."
-msgstr "لم يتم تكوين بيانات اعتماد API."
-
-msgid "API error"
-msgstr "خطأ في API"
-
-#, fuzzy
-msgid "API password"
-msgstr "خطأ في API"
-
-#, fuzzy
-msgid "API user"
-msgstr "خطأ في API"
-
-msgid "AQI {}"
-msgstr "مؤشر جودة الهواء {}"
-
-msgid "AQI: N/A"
-msgstr "مؤشر جودة الهواء: غير متوفر"
-
 msgid "Advanced"
 msgstr "متقدم"
 
 msgid "Advanced Unit Settings"
-msgstr "إعدادات الوحدات المتقدمة"
+msgstr "إعدادات الوحدة المتقدمة"
 
 msgid "Afternoon"
 msgstr "بعد الظهر"
@@ -79,19 +88,38 @@ msgstr "بعد الظهر"
 msgid "Age since New Moon: {:.1f} days"
 msgstr "العمر منذ ظهور القمر الجديد: {:.1f} يوم"
 
-#, fuzzy
 msgid "Age: N/A"
-msgstr "مؤشر جودة الهواء: غير متوفر"
+msgstr "العمر: غير متوفر"
+
+msgid "Angular diameter: {:.0f}″"
+msgstr "القطر الزاوي: {:.0f}\\\""
 
 msgid "Angular diameter: N/A"
 msgstr "القطر الزاوي: غير متوفر"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "القطر الزاوي: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "لم يتم العثور على ملف تكوين API!\n\nالرجاء إنشاء ملف:\n{0}\n\nباستخدام بيانات اعتماد Foreca API الخاصة بك."
+
+msgid "API credentials not configured."
+msgstr "لم يتم تكوين بيانات اعتماد API."
+
+msgid "API error"
+msgstr "خطأ في واجهة برمجة التطبيقات"
+
+msgid "API password"
+msgstr "كلمة مرور واجهة برمجة التطبيقات"
+
+msgid "API user"
+msgstr "مستخدم واجهة برمجة التطبيقات"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "الحجم الظاهري: {:.2f}"
+
+msgid "AQI {}"
+msgstr "مؤشر جودة الهواء {}"
+
+msgid "AQI: N/A"
+msgstr "مؤشر جودة الهواء: لا يوجد"
 
 msgid "Assign to Favorite 1"
 msgstr "تعيين إلى المفضلة 1"
@@ -100,7 +128,7 @@ msgid "Assign to Favorite 2"
 msgstr "تعيين إلى المفضلة 2"
 
 msgid "Assign to Home"
-msgstr "تعيين كالصفحة الرئيسية"
+msgstr "تعيين إلى المنزل"
 
 msgid "Australia"
 msgstr "أستراليا"
@@ -112,10 +140,10 @@ msgid "Auth server"
 msgstr "خادم المصادقة"
 
 msgid "Baden-Wuerttemberg"
-msgstr "بادن-فورتمبيرغ"
+msgstr "بادن فورتمبيرغ"
 
 msgid "Barometer"
-msgstr "البارومتر"
+msgstr "بارومتر"
 
 msgid "Bavaria"
 msgstr "بافاريا"
@@ -126,16 +154,17 @@ msgstr "بلجيكا"
 msgid "Berlin"
 msgstr "برلين"
 
-#, fuzzy
 msgid "Black Moon"
-msgstr "البدر"
+msgstr "القمر الأسود"
+
+msgid "Blue"
+msgstr "أزرق"
 
 msgid "Blue - Home"
-msgstr "أزرق - الصفحة الرئيسية"
+msgstr "الأزرق - الصفحة الرئيسية"
 
-#, fuzzy
 msgid "Blue Moon"
-msgstr "المحاق"
+msgstr "القمر الأزرق"
 
 msgid "Brandenburg"
 msgstr "براندنبورغ"
@@ -144,31 +173,34 @@ msgid "Bremen"
 msgstr "بريمن"
 
 msgid "Calculating..."
-msgstr "جاري الحساب..."
+msgstr "جارٍ الحساب..."
 
 msgid "Cancel"
-msgstr "إلغاء"
+msgstr "يلغي"
 
 msgid "Celsius, km/h, hPa"
-msgstr "مئوية، كم/س، هيكتوباسكال"
+msgstr "مئوية، كم/ساعة، هبأ"
 
 msgid "Changelog: {changelog}"
-msgstr "سجل التغييرات: {changelog}"
+msgstr "سجل التغيير: {changelog}"
 
 msgid "Changes apply immediately"
-msgstr "يتم تطبيق التغييرات فورًا"
+msgstr "تنطبق التغييرات على الفور"
 
 msgid "Check for updates"
-msgstr "التحقق من التحديثات"
+msgstr "التحقق من وجود تحديثات"
 
 msgid "Choose detail view"
 msgstr "اختر عرض التفاصيل"
 
+msgid "City list file not found!"
+msgstr "لم يتم العثور على ملف قائمة المدينة!"
+
 msgid "City Selection"
 msgstr "اختيار المدينة"
 
-msgid "City list file not found!"
-msgstr "ملف قائمة المدن غير موجود!"
+msgid "City Selection Help:\n\n"
+msgstr "مساعدة اختيار المدينة:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "تنظيف ملفات Foreca One Temp؟"
@@ -177,13 +209,13 @@ msgid "Cleanup temp files"
 msgstr "تنظيف الملفات المؤقتة"
 
 msgid "Clear"
-msgstr "صافٍ"
+msgstr "واضح"
 
 msgid "Close"
-msgstr "إغلاق"
+msgstr "يغلق"
 
 msgid "Close legend"
-msgstr "إغلاق وسيلة الإيضاح"
+msgstr "إغلاق الأسطورة"
 
 msgid "Close setup without saving"
 msgstr "إغلاق الإعداد دون حفظ"
@@ -195,37 +227,34 @@ msgid "Cloudy and light rain"
 msgstr "غائم وأمطار خفيفة"
 
 msgid "Cloudy and light snow"
-msgstr "غائم وثلوج خفيفة"
+msgstr "غائم والثلوج الخفيفة"
 
 msgid "Cloudy and light wet snow"
-msgstr "غائم وثلوج رطبة خفيفة"
+msgstr "غائم والثلوج الرطبة الخفيفة"
 
 msgid "Cloudy and showers"
-msgstr "غائم وزخات مطر"
+msgstr "غائم وأمطار"
 
 msgid "Cloudy and snow showers"
-msgstr "غائم وزخات ثلجية"
+msgstr "زخات مطر غائمة وثلجية"
 
 msgid "Cloudy and wet snow showers"
-msgstr "غائم وزخات ثلج رطب"
+msgstr "زخات ثلجية غائمة ورطبة"
 
 msgid "Cloudy, thunderstorms with rain"
-msgstr "غائم، عواصف رعدية مع أمطار"
+msgstr "غائم، عواصف رعدية مع المطر"
 
 msgid "Cold (< 0°C)"
-msgstr "بارد (< 0°م)"
-
-msgid "Color Legend"
-msgstr "وسيلة إيضاح الألوان"
-
-msgid "Color Selector"
-msgstr "محدد اللون"
+msgstr "بارد (<0 درجة مئوية)"
 
 msgid "Color data"
-msgstr "بيانات الألوان"
+msgstr "بيانات اللون"
 
 msgid "Color legend"
-msgstr "وسيلة إيضاح الألوان"
+msgstr "أسطورة اللون"
+
+msgid "Color Legend"
+msgstr "أسطورة اللون"
 
 msgid "Color name"
 msgstr "اسم اللون"
@@ -233,20 +262,26 @@ msgstr "اسم اللون"
 msgid "Color select"
 msgstr "اختيار اللون"
 
+msgid "Color Selector"
+msgstr "محدد اللون"
+
 msgid "Condition: {}"
-msgstr "الحالة: {}"
+msgstr "حالة: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "تكوين بيانات اعتماد Foreca API"
 
 msgid "Continents Weather Maps"
 msgstr "خرائط الطقس للقارات"
 
 msgid "Cool (0-10°C)"
-msgstr "بارد (0-10°م)"
+msgstr "بارد (0-10 درجة مئوية)"
 
 msgid "Could not fetch update information."
 msgstr "تعذر جلب معلومات التحديث."
 
 msgid "Could not initialize map API."
-msgstr "تعذر تهيئة واجهة برمجة تطبيقات الخريطة."
+msgstr "تعذر تهيئة واجهة API للخريطة."
 
 msgid "Could not load forecast data"
 msgstr "تعذر تحميل بيانات التوقعات"
@@ -261,19 +296,19 @@ msgid "Current weather and forecast for the next 10 days"
 msgstr "الطقس الحالي والتوقعات للأيام العشرة القادمة"
 
 msgid "Current: {}"
-msgstr "الحالي: {}"
+msgstr "حاضِر: {}"
 
 msgid "Czech Republic"
-msgstr "جمهورية التشيك"
+msgstr "الجمهورية التشيكية"
 
 msgid "Data provided by Foreca"
-msgstr "البيانات مقدمة من Foreca"
+msgstr "البيانات المقدمة من فوريكا"
 
 msgid "Date: {}"
-msgstr "التاريخ: {}"
+msgstr "تاريخ: {}"
 
 msgid "Day"
-msgstr "اليوم"
+msgstr "يوم"
 
 msgid "Decrease Speed"
 msgstr "تقليل السرعة"
@@ -285,41 +320,43 @@ msgid "Denmark"
 msgstr "الدنمارك"
 
 msgid "Details"
-msgstr "التفاصيل"
+msgstr "تفاصيل"
 
 msgid "Dewpoint {}"
 msgstr "نقطة الندى {}"
 
 msgid "Dewpoint {}°C"
-msgstr "نقطة الندى {}°م"
+msgstr "نقطة الندى {} درجة مئوية"
 
 msgid "Dewpoint: %d%s"
 msgstr "نقطة الندى: %d%s"
 
 msgid "Dewpoint: %s°C"
-msgstr "نقطة الندى: %s°م"
+msgstr "نقطة الندى: %s°C"
 
 msgid "Dewpoint: N/A"
 msgstr "نقطة الندى: غير متوفر"
 
+msgid "Distance"
+msgstr "مسافة"
+
 msgid "Distance {} km"
 msgstr "المسافة {} كم"
 
+msgid "Distance: {}"
+msgstr "مسافة: {}"
+
+msgid "Distance: {} km"
+msgstr "المسافة: {} كم"
+
 msgid "Distance: %s"
 msgstr "المسافة: %s"
-
-msgid "Distance: {}"
-msgstr "المسافة: {}"
-
-#, fuzzy
-msgid "Distance: {} km"
-msgstr "المسافة {} كم"
 
 msgid "Do you want to install it now?"
 msgstr "هل تريد تثبيته الآن؟"
 
 msgid "Down"
-msgstr "أسفل"
+msgstr "تحت"
 
 msgid "Down - Next page"
 msgstr "أسفل - الصفحة التالية"
@@ -328,13 +365,13 @@ msgid "Download error"
 msgstr "خطأ في التنزيل"
 
 msgid "Downloading images..."
-msgstr "جاري تحميل الصور..."
+msgstr "جارٍ تنزيل الصور..."
 
 msgid "Downloading tiles..."
-msgstr "جاري تحميل البلاط..."
+msgstr "تحميل البلاط..."
 
 msgid "E"
-msgstr "ش"
+msgstr "ه"
 
 msgid "East Asia"
 msgstr "شرق آسيا"
@@ -343,13 +380,13 @@ msgid "Error checking for updates."
 msgstr "خطأ في التحقق من التحديثات."
 
 msgid "Error loading data"
-msgstr "خطأ في تحميل البيانات"
+msgstr "حدث خطأ أثناء تحميل البيانات"
 
 msgid "Error loading map"
-msgstr "خطأ في تحميل الخريطة"
+msgstr "حدث خطأ أثناء تحميل الخريطة"
 
 msgid "Error loading maps. Check connection."
-msgstr "خطأ في تحميل الخرائط. تحقق من الاتصال."
+msgstr "حدث خطأ أثناء تحميل الخرائط. تحقق من الاتصال."
 
 msgid "Error saving favorite!"
 msgstr "خطأ في حفظ المفضلة!"
@@ -361,28 +398,31 @@ msgid "European Weather Maps"
 msgstr "خرائط الطقس الأوروبية"
 
 msgid "Evening"
-msgstr "المساء"
+msgstr "مساء"
 
 msgid "Exit"
-msgstr "خروج"
+msgstr "مخرج"
 
 msgid "Exit - End"
-msgstr "خروج - إنهاء"
+msgstr "خروج - نهاية"
 
 msgid "Exit / Close legend"
 msgstr "خروج / إغلاق وسيلة الإيضاح"
 
 msgid "Extreme"
-msgstr "شديد"
+msgstr "أقصى"
 
 msgid "Extreme / thunderstorms"
-msgstr "شديد / عواصف رعدية"
+msgstr "المتطرفة / العواصف الرعدية"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr "فهرنهايت، ميل/س، بوصة زئبقية"
+msgstr "فهرنهايت، ميلا في الساعة، بوصة زئبقية"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "فشل في كتابة ملف التكوين:\n%s"
 
 msgid "Faster: {}s"
-msgstr "أسرع: {}ث"
+msgstr "أسرع: {}s"
 
 msgid "Favorite 1"
 msgstr "المفضلة 1"
@@ -390,38 +430,38 @@ msgstr "المفضلة 1"
 msgid "Favorite 2"
 msgstr "المفضلة 2"
 
+msgid "Favorites details"
+msgstr "التفاصيل المفضلة"
+
 msgid "Favorites Details"
 msgstr "تفاصيل المفضلة"
 
-msgid "Favorites details"
-msgstr "تفاصيل المفضلة"
-
 msgid "Feels like"
-msgstr "يبدو كـ"
+msgstr "يشعر وكأنه"
 
 msgid "Feels like {}"
-msgstr "يبدو كـ {}"
+msgstr "يشعر وكأنه {}"
 
 msgid "Feels like {}{}"
-msgstr "يبدو كـ {}{}"
-
-msgid "Feels like: %d%s"
-msgstr "يبدو كـ: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "يبدو كـ: %s°م"
-
-msgid "Feels like: N/A"
-msgstr "يبدو كـ: غير متوفر"
+msgstr "يبدو وكأنه {}{}"
 
 msgid "Feels like: {}"
-msgstr "يبدو كـ: {}"
+msgstr "يشعر وكأنه: {}"
 
 msgid "Feels like: {}{}"
-msgstr "يبدو كـ: {}{}"
+msgstr "يبدو مثل: {}{}"
 
 msgid "Feels like: {}°C"
-msgstr "يبدو كـ: {}°م"
+msgstr "يبدو وكأنه: {} درجة مئوية"
+
+msgid "Feels like: %d%s"
+msgstr "يبدو الأمر كما يلي: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "يبدو الأمر كما يلي: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "يشعر وكأنه: غير متاح"
 
 msgid "Finland"
 msgstr "فنلندا"
@@ -432,48 +472,44 @@ msgstr "الربع الأول"
 msgid "Fog"
 msgstr "ضباب"
 
-#, fuzzy
-msgid "Foreca API Setup"
-msgstr "قائمة Foreca One"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "لم يتم تكوين بيانات اعتماد Foreca API بعد. الرجاء إدخالها في شاشة الإعداد."
 
 msgid "Foreca API settings saved successfully."
 msgstr "تم حفظ إعدادات Foreca API بنجاح."
 
+msgid "Foreca API Setup"
+msgstr "إعداد واجهة برمجة تطبيقات فوريكا"
+
 msgid "Foreca One"
-msgstr "Foreca One"
-
-msgid "Foreca One Live Maps (API)"
-msgstr "خرائط Foreca One الحية (API)"
-
-msgid "Foreca One Menu"
-msgstr "قائمة Foreca One"
-
-msgid "Foreca One No stations found"
-msgstr "Foreca One: لم يتم العثور على محطات"
-
-msgid "Foreca One Stations: {} stations nearby ({})"
-msgstr "محطات Foreca One: {} محطة قريبة ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr "توقعات طقس Foreca One"
-
-msgid "Foreca One Weather and Forecast ver. %s"
-msgstr "طقس وتوقعات Foreca One الإصدار %s"
+msgstr "فوريكا وان"
 
 msgid "Foreca One | Map {}"
-msgstr "Foreca One | الخريطة {}"
+msgstr "فوريكا وان | الخريطة {}"
 
-msgid "Found %d cities locally for '%s'"
-msgstr "تم العثور على %d مدينة محليًا لـ '%s'"
+msgid "Foreca One Live Maps (API)"
+msgstr "خرائط فوريكا وان الحية (API)"
 
-msgid "Found %d cities online for '%s'"
-msgstr "تم العثور على %d مدينة عبر الإنترنت لـ '%s'"
+msgid "Foreca One Menu"
+msgstr "قائمة فوريكا وان"
+
+msgid "Foreca One No stations found"
+msgstr "لم يتم العثور على محطات Foreca One"
+
+msgid "Foreca One Setup"
+msgstr "إعداد فوريكا واحد"
+
+msgid "Foreca One Stations: {} stations nearby ({})"
+msgstr "محطات Foreca One: {} من المحطات القريبة ({})"
+
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One الطقس والتنبؤات الإصدار. %s"
+
+msgid "Foreca One Weather Forecast"
+msgstr "فوريكا وان توقعات الطقس"
 
 msgid "Frame →"
-msgstr "إطار →"
+msgstr "الإطار →"
 
 msgid "Frame: {}"
 msgstr "إطار: {}"
@@ -482,13 +518,13 @@ msgid "France"
 msgstr "فرنسا"
 
 msgid "Full Moon"
-msgstr "البدر"
+msgstr "اكتمال القمر"
 
 msgid "Gale force (>60 km/h)"
-msgstr "عاصف (>60 كم/س)"
+msgstr "قوة العاصفة (> 60 كم/ساعة)"
 
 msgid "German States Weather Maps"
-msgstr "خرائط طقس الولايات الألمانية"
+msgstr "خرائط الطقس للولايات الألمانية"
 
 msgid "Germany"
 msgstr "ألمانيا"
@@ -502,8 +538,11 @@ msgstr "بريطانيا العظمى"
 msgid "Greece"
 msgstr "اليونان"
 
+msgid "Green"
+msgstr "أخضر"
+
 msgid "Green - Favorite 1"
-msgstr "أخضر - المفضلة 1"
+msgstr "الأخضر - المفضل 1"
 
 msgid "Gust {}"
 msgstr "عاصفة {}"
@@ -518,50 +557,52 @@ msgid "Hazardous"
 msgstr "خطرة"
 
 msgid "Header - not selectable"
-msgstr "رأس - غير قابل للتحديد"
+msgstr "الرأس - غير قابل للتحديد"
 
 msgid "Heavy rain"
 msgstr "أمطار غزيرة"
 
 msgid "Help"
-msgstr "مساعدة"
+msgstr "يساعد"
 
 msgid "Hesse"
-msgstr "هيسن"
+msgstr "هيس"
 
 msgid "High"
-msgstr "مرتفع"
+msgstr "عالي"
 
 msgid "Home"
-msgstr "الصفحة الرئيسية"
+msgstr "بيت"
 
 msgid "Hot (30-40°C)"
-msgstr "حار (30-40°م)"
+msgstr "ساخن (30-40 درجة مئوية)"
 
 msgid "Hour Details"
 msgstr "تفاصيل الساعة"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
-msgstr "الرطوبة"
+msgstr "رطوبة"
+
+msgid "Humidity: {}%"
+msgstr "رطوبة: {}٪"
 
 msgid "Humidity: %s%%"
 msgstr "الرطوبة: %s%%"
 
-msgid "Humidity: {}%"
-msgstr "الرطوبة: {}%"
-
 msgid "Hungary"
-msgstr "المجر"
+msgstr "هنغاريا"
 
 msgid "Ice / frost"
-msgstr "جليد / صقيع"
+msgstr "الجليد / الصقيع"
 
 msgid "Illumination"
-msgstr "الإضاءة"
+msgstr "إضاءة"
 
-#, fuzzy
 msgid "Illumination: {:.1f}%"
-msgstr "الإضاءة"
+msgstr "الإضاءة: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
 msgstr "الصورة %(current)d/%(total)d – %(day)s"
@@ -573,7 +614,7 @@ msgid "Image not available"
 msgstr "الصورة غير متوفرة"
 
 msgid "Imperial System"
-msgstr "النظام الإمبراطوري"
+msgstr "النظام الامبراطوري"
 
 msgid "Increase Speed"
 msgstr "زيادة السرعة"
@@ -591,13 +632,13 @@ msgid "Italy"
 msgstr "إيطاليا"
 
 msgid "Jump 100 down"
-msgstr "القفز 100 لأسفل"
+msgstr "القفز 100 إلى أسفل"
 
 msgid "Jump 100 up"
 msgstr "القفز 100 لأعلى"
 
 msgid "Jump 500 down"
-msgstr "القفز 500 لأسفل"
+msgstr "القفز 500 إلى أسفل"
 
 msgid "Jump 500 up"
 msgstr "القفز 500 لأعلى"
@@ -608,44 +649,47 @@ msgstr "لوحة المفاتيح"
 msgid "Last Quarter"
 msgstr "الربع الأخير"
 
+msgid "Last update"
+msgstr "التحديث الأخير"
+
 msgid "Latvia"
 msgstr "لاتفيا"
 
 msgid "Left - Previous day"
-msgstr "يسار - اليوم السابق"
+msgstr "اليسار - اليوم السابق"
 
 msgid "Left arrow - Previous day"
 msgstr "السهم الأيسر - اليوم السابق"
 
 msgid "Light (0-20 km/h)"
-msgstr "خفيف (0-20 كم/س)"
+msgstr "الضوء (0-20 كم/ساعة)"
 
 msgid "Light rain / drizzle"
 msgstr "أمطار خفيفة / رذاذ"
 
 msgid "Light to moderate"
-msgstr "خفيف إلى معتدل"
+msgstr "خفيفة إلى معتدلة"
 
 msgid "Loading available maps..."
-msgstr "جاري تحميل الخرائط المتاحة..."
+msgstr "جارٍ تحميل الخرائط المتاحة..."
 
 msgid "Loading lunar phases..."
-msgstr "جاري تحميل أطوار القمر..."
+msgstr "جارٍ تحميل مراحل القمر..."
 
 msgid "Loading nearby stations..."
-msgstr "جاري تحميل المحطات القريبة..."
+msgstr "جارٍ تحميل المحطات القريبة..."
 
 msgid "Loading tiles..."
-msgstr "جاري تحميل البلاط..."
+msgstr "جارٍ تحميل البلاط..."
 
 msgid "Loading weekly forecast..."
-msgstr "جاري تحميل التوقعات الأسبوعية..."
+msgstr "جارٍ تحميل التوقعات الأسبوعية..."
 
 msgid "Loading..."
-msgstr "جاري التحميل..."
+msgstr "تحميل..."
 
 msgid "Low"
-msgstr "منخفض"
+msgstr "قليل"
 
 msgid "Lower Saxony"
 msgstr "ساكسونيا السفلى"
@@ -654,14 +698,16 @@ msgid "Lunar Calendar"
 msgstr "التقويم القمري"
 
 msgid "Lunar phases from next month"
-msgstr "أطوار القمر من الشهر القادم"
+msgstr "مراحل القمر من الشهر المقبل"
 
 msgid "Luxembourg"
 msgstr "لوكسمبورغ"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "الحجم الظاهري: N / A"
+msgstr "الحجم: غير متوفر"
+
+msgid "Map {} selected"
+msgstr "تم تحديد الخريطة {}."
 
 msgid "Map & Tiles Loaded"
 msgstr "تم تحميل الخريطة والبلاط"
@@ -672,14 +718,11 @@ msgstr "تم تحميل الخريطة"
 msgid "Map server"
 msgstr "خادم الخريطة"
 
-msgid "Map {} selected"
-msgstr "الخريطة {} محددة"
-
 msgid "Mecklenburg-Vorpommern"
-msgstr "مكلنبورغ-فوربومرن"
+msgstr "مكلنبورغ فوربومرن"
 
 msgid "Menu"
-msgstr "القائمة"
+msgstr "قائمة طعام"
 
 msgid "Menu - Settings"
 msgstr "القائمة - الإعدادات"
@@ -688,7 +731,7 @@ msgid "Merge failed"
 msgstr "فشل الدمج"
 
 msgid "Meteogram"
-msgstr "الرسم الجوي"
+msgstr "ميتيوجرام"
 
 msgid "Metric System"
 msgstr "النظام المتري"
@@ -703,27 +746,25 @@ msgid "Middle East"
 msgstr "الشرق الأوسط"
 
 msgid "Mild (10-20°C)"
-msgstr "معتدل (10-20°م)"
+msgstr "خفيف (10-20 درجة مئوية)"
 
 msgid "Moderate"
 msgstr "معتدل"
 
 msgid "Moderate (20-40 km/h)"
-msgstr "معتدل (20-40 كم/س)"
+msgstr "معتدل (20-40 كم/ساعة)"
 
 msgid "Moderate rain"
-msgstr "أمطار معتدلة"
+msgstr "أمطار متوسطة"
 
 msgid "Month"
-msgstr "الشهر"
+msgstr "شهر"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "تفاصيل الساعة"
-
-#, fuzzy
 msgid "Moon details"
-msgstr "تفاصيل الساعة"
+msgstr "تفاصيل القمر"
+
+msgid "Moon Details"
+msgstr "تفاصيل القمر"
 
 msgid "Moonrise: {}"
 msgstr "طلوع القمر: {}"
@@ -732,34 +773,34 @@ msgid "Moonset: {}"
 msgstr "غروب القمر: {}"
 
 msgid "Morning"
-msgstr "الصباح"
+msgstr "صباح"
 
 msgid "Mostly clear"
-msgstr "صافٍ غالبًا"
-
-msgid "Move Down"
-msgstr "تحريك لأسفل"
-
-msgid "Move Up"
-msgstr "تحريك لأعلى"
+msgstr "واضحة في الغالب"
 
 msgid "Move down"
-msgstr "تحريك لأسفل"
+msgstr "تحرك للأسفل"
+
+msgid "Move Down"
+msgstr "تحرك للأسفل"
 
 msgid "Move up"
-msgstr "تحريك لأعلى"
+msgstr "تحرك للأعلى"
+
+msgid "Move Up"
+msgstr "تحرك لأعلى"
 
 msgid "N"
-msgstr "ش"
+msgstr "ن"
 
 msgid "N/A"
-msgstr "غير متوفر"
+msgstr "لا يوجد"
 
 msgid "Netherlands"
 msgstr "هولندا"
 
 msgid "New Moon"
-msgstr "المحاق"
+msgstr "القمر الجديد"
 
 msgid "New version {version} is available."
 msgstr "الإصدار الجديد {version} متاح."
@@ -767,29 +808,20 @@ msgstr "الإصدار الجديد {version} متاح."
 msgid "Next"
 msgstr "التالي"
 
-msgid "Next Image"
-msgstr "الصورة التالية"
-
 msgid "Next frame"
 msgstr "الإطار التالي"
+
+msgid "Next Image"
+msgstr "الصورة التالية"
 
 msgid "Next page"
 msgstr "الصفحة التالية"
 
 msgid "Next time"
-msgstr "الوقت التالي"
-
-msgid "No Internet connection detected."
-msgstr "لم يتم اكتشاف اتصال بالإنترنت."
-
-msgid "No OSM tiles"
-msgstr "لا توجد بلاط OSM"
-
-msgid "No cities found locally for '%s'"
-msgstr "لم يتم العثور على مدن محليًا لـ '%s'"
+msgstr "المرة التالية"
 
 msgid "No city selected"
-msgstr "لم يتم اختيار مدينة"
+msgstr "لم يتم تحديد أي مدينة"
 
 msgid "No data"
 msgstr "لا توجد بيانات"
@@ -797,23 +829,29 @@ msgstr "لا توجد بيانات"
 msgid "No date available"
 msgstr "لا يوجد تاريخ متاح"
 
+msgid "No Internet connection detected."
+msgstr "لم يتم اكتشاف اتصال بالإنترنت."
+
 msgid "No location selected"
-msgstr "لم يتم اختيار موقع"
+msgstr "لم يتم تحديد أي موقع"
+
+msgid "No OSM tiles"
+msgstr "لا يوجد بلاط OSM"
 
 msgid "No specific legend available."
-msgstr "لا توجد وسيلة إيضاح محددة متاحة."
+msgstr "لا توجد أسطورة محددة متاحة."
 
 msgid "No station data"
-msgstr "لا توجد بيانات محطة"
+msgstr "لا توجد بيانات المحطة"
 
 msgid "No station data available"
-msgstr "لا توجد بيانات محطة متاحة"
+msgstr "لا توجد بيانات المحطة المتاحة"
 
 msgid "No stations found"
 msgstr "لم يتم العثور على محطات"
 
 msgid "No tiles downloaded"
-msgstr "لم يتم تحميل أي بلاط"
+msgstr "لم يتم تنزيل أي بلاط"
 
 msgid "North Africa"
 msgstr "شمال أفريقيا"
@@ -822,126 +860,124 @@ msgid "North America"
 msgstr "أمريكا الشمالية"
 
 msgid "North Rhine-Westphalia"
-msgstr "شمال الراين-وستفاليا"
+msgstr "شمال الراين وستفاليا"
 
 msgid "Norway"
 msgstr "النرويج"
 
+msgid "Ok - Details"
+msgstr "طيب - التفاصيل"
+
 msgid "OK - Ext Info"
-msgstr "موافق - معلومات إضافية"
+msgstr "موافق - معلومات تحويلة"
 
 msgid "OK - Forecast"
-msgstr "موافق - التوقعات"
+msgstr "حسنًا - توقعات"
 
 msgid "OK - Open Map"
-msgstr "موافق - فتح الخريطة"
-
-#, fuzzy
-msgid "Ok - Details"
-msgstr "التفاصيل"
+msgstr "موافق - افتح الخريطة"
 
 msgid "Open Keyboard"
-msgstr "فتح لوحة المفاتيح"
+msgstr "افتح لوحة المفاتيح"
 
 msgid "Open Map"
-msgstr "فتح الخريطة"
+msgstr "افتح الخريطة"
 
 msgid "Original design and idea by %s"
-msgstr "التصميم والفكرة الأصلية بواسطة %s"
+msgstr "التصميم الأصلي والفكرة من %s"
 
 msgid "Overcast"
-msgstr "غائم بالكامل"
+msgstr "ملبد بالغيوم"
 
 msgid "Overcast and light rain"
-msgstr "غائم بالكامل وأمطار خفيفة"
+msgstr "غائم وأمطار خفيفة"
 
 msgid "Overcast and light snow"
-msgstr "غائم بالكامل وثلوج خفيفة"
+msgstr "ملبد بالغيوم والثلوج الخفيفة"
 
 msgid "Overcast and light wet snow"
-msgstr "غائم بالكامل وثلوج رطبة خفيفة"
+msgstr "ملبد بالغيوم والثلوج الرطبة الخفيفة"
 
 msgid "Overcast and rain"
-msgstr "غائم بالكامل وأمطار"
+msgstr "ملبد بالغيوم والمطر"
 
 msgid "Overcast and showers"
-msgstr "غائم بالكامل وزخات مطر"
+msgstr "ملبد بالغيوم والاستحمام"
 
 msgid "Overcast and snow"
-msgstr "غائم بالكامل وثلوج"
+msgstr "ملبد بالغيوم والثلوج"
 
 msgid "Overcast and snow showers"
-msgstr "غائم بالكامل وزخات ثلجية"
+msgstr "غائم وزخات ثلجية"
 
 msgid "Overcast and wet snow"
-msgstr "غائم بالكامل وثلوج رطبة"
+msgstr "ملبد بالغيوم والثلوج الرطبة"
 
 msgid "Overcast and wet snow showers"
-msgstr "غائم بالكامل وزخات ثلج رطب"
+msgstr "زخات مطر ثلجية ملبدة بالغيوم ورطبة"
 
 msgid "Overcast, thunderstorms with rain"
-msgstr "غائم بالكامل، عواصف رعدية مع أمطار"
+msgstr "غائم، عواصف رعدية مع المطر"
 
 msgid "Overnight"
-msgstr "أثناء الليل"
-
-msgid "Page Down"
-msgstr "الصفحة التالية"
-
-msgid "Page Up"
-msgstr "الصفحة السابقة"
+msgstr "بين عشية وضحاها"
 
 msgid "Page down"
-msgstr "الصفحة التالية"
+msgstr "الصفحة لأسفل"
+
+msgid "Page Down"
+msgstr "الصفحة لأسفل"
 
 msgid "Page up"
-msgstr "الصفحة السابقة"
+msgstr "صفحة لأعلى"
+
+msgid "Page Up"
+msgstr "صفحة لأعلى"
 
 msgid "Pan down"
-msgstr "تحريك لأسفل"
+msgstr "عموم إلى أسفل"
 
 msgid "Pan left"
-msgstr "تحريك لليسار"
+msgstr "عموم اليسار"
 
 msgid "Pan right"
-msgstr "تحريك لليمين"
+msgstr "عموم الحق"
 
 msgid "Pan up"
-msgstr "تحريك لأعلى"
+msgstr "عموم"
 
 msgid "Partly cloudy"
-msgstr "غائم جزئيًا"
+msgstr "غائم جزئيا"
 
 msgid "Partly cloudy and light rain"
-msgstr "غائم جزئيًا وأمطار خفيفة"
+msgstr "غائم جزئيا وأمطار خفيفة"
 
 msgid "Partly cloudy and light snow"
-msgstr "غائم جزئيًا وثلوج خفيفة"
+msgstr "غائم جزئيا وثلوج خفيفة"
 
 msgid "Partly cloudy and light wet snow"
-msgstr "غائم جزئيًا وثلوج رطبة خفيفة"
+msgstr "غائم جزئيا والثلوج الرطبة الخفيفة"
 
 msgid "Partly cloudy and showers"
-msgstr "غائم جزئيًا وزخات مطر"
+msgstr "غائم جزئيا وأمطار"
 
 msgid "Partly cloudy and snow showers"
 msgstr "غائم جزئيًا وزخات ثلجية"
 
 msgid "Partly cloudy and wet snow showers"
-msgstr "غائم جزئيًا وزخات ثلج رطب"
+msgstr "زخات ثلجية غائمة جزئيًا ورطبة"
 
 msgid "Partly cloudy, possible thunderstorms with rain"
-msgstr "غائم جزئيًا، احتمالية عواصف رعدية مع أمطار"
+msgstr "غائم جزئياً، واحتمال هطول أمطار رعدية"
 
 msgid "Perigee"
 msgstr "الحضيض"
 
 msgid "Phase"
-msgstr "الطور"
+msgstr "مرحلة"
 
-#, fuzzy
 msgid "Phase: {}"
-msgstr "الطور"
+msgstr "مرحلة: {}"
 
 msgid "Play/Pause"
 msgstr "تشغيل/إيقاف مؤقت"
@@ -950,7 +986,7 @@ msgid "Please enter both API user and API password."
 msgstr "الرجاء إدخال كلاً من مستخدم واجهة برمجة التطبيقات وكلمة مرور واجهة برمجة التطبيقات."
 
 msgid "Please wait ..."
-msgstr "يرجى الانتظار ..."
+msgstr "انتظر من فضلك ..."
 
 msgid "Poland"
 msgstr "بولندا"
@@ -959,49 +995,49 @@ msgid "Portugal"
 msgstr "البرتغال"
 
 msgid "Precipitation"
-msgstr "هطول الأمطار"
+msgstr "تساقط"
 
 msgid "Precipitation: {}"
-msgstr "هطول الأمطار: {}"
+msgstr "تساقط: {}"
 
 msgid "Precipitations"
 msgstr "هطول الأمطار"
 
 msgid "Precipitations: {}%"
-msgstr "هطول الأمطار: {}%"
+msgstr "هطول: {}%"
 
 msgid "Press RED to search again"
-msgstr "اضغط على الأحمر للبحث مرة أخرى"
+msgstr "اضغط على اللون الأحمر للبحث مرة أخرى"
 
 msgid "Pressure"
-msgstr "الضغط الجوي"
+msgstr "ضغط"
+
+msgid "Pressure: {}"
+msgstr "ضغط: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "الضغط: {} هبأ"
 
 msgid "Pressure: %s"
 msgstr "الضغط: %s"
 
 msgid "Pressure: %s hPa"
-msgstr "الضغط: %s هيكتوباسكال"
+msgstr "الضغط: %s hPa"
 
 msgid "Pressure: N/A"
 msgstr "الضغط: غير متوفر"
-
-msgid "Pressure: {}"
-msgstr "الضغط: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "الضغط: {} هيكتوباسكال"
 
 msgid "Prev"
 msgstr "السابق"
 
 msgid "Previous"
-msgstr "السابق"
-
-msgid "Previous Image"
-msgstr "الصورة السابقة"
+msgstr "سابق"
 
 msgid "Previous frame"
 msgstr "الإطار السابق"
+
+msgid "Previous Image"
+msgstr "الصورة السابقة"
 
 msgid "Previous page"
 msgstr "الصفحة السابقة"
@@ -1010,13 +1046,13 @@ msgid "Previous time"
 msgstr "الوقت السابق"
 
 msgid "Rain Prob."
-msgstr "احتمالية المطر."
+msgstr "مشكلة المطر."
 
 msgid "Rain prob. {}%"
-msgstr "احتمالية المطر {}%"
+msgstr "احتمال المطر. {}%"
 
 msgid "Rain prob.: N/A"
-msgstr "احتمالية المطر: غير متوفرة"
+msgstr "احتمال المطر: غير متوفر"
 
 msgid "Rain: {:.1f} {}"
 msgstr "المطر: {:.1f} {}"
@@ -1024,38 +1060,41 @@ msgstr "المطر: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "رادار RainViewer"
 
+msgid "Red"
+msgstr "أحمر"
+
 msgid "Red - Color select"
-msgstr "أحمر - اختيار اللون"
+msgstr "الأحمر - اختر اللون"
 
 msgid "Refresh"
-msgstr "تحديث"
+msgstr "ينعش"
 
 msgid "Restore default server values"
 msgstr "استعادة قيم الخادم الافتراضية"
 
 msgid "Rhineland-Palatine"
-msgstr "راينلاند-بفالز"
+msgstr "راينلاند بالاتين"
 
 msgid "Right - Next day"
-msgstr "يمين - اليوم التالي"
+msgstr "الحق - في اليوم التالي"
 
 msgid "Right arrow - Next day"
-msgstr "السهم الأيمن - اليوم التالي"
+msgstr "السهم الأيمن - في اليوم التالي"
 
 msgid "Rise"
-msgstr "الشروق"
-
-msgid "Rise azimuth: N/A"
-msgstr "ارتفاع السمت: غير متوفر"
+msgstr "يعلو"
 
 msgid "Rise azimuth: {:.0f}°"
 msgstr "سمت الارتفاع: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "ارتفاع السمت: غير متوفر"
 
 msgid "Russia"
 msgstr "روسيا"
 
 msgid "S"
-msgstr "ج"
+msgstr "س"
 
 msgid "Saarland"
 msgstr "سارلاند"
@@ -1064,89 +1103,88 @@ msgid "Satellite Photos"
 msgstr "صور الأقمار الصناعية"
 
 msgid "Satellite photos coming soon!"
-msgstr "صور الأقمار الصناعية قريبًا!"
+msgstr "صور الأقمار الصناعية قريبا!"
 
 msgid "Save"
-msgstr "حفظ"
+msgstr "يحفظ"
 
-#, fuzzy
 msgid "Save API settings"
-msgstr "القائمة - الإعدادات"
+msgstr "حفظ إعدادات API"
+
+msgid "Save translation settings"
+msgstr "حفظ إعدادات الترجمة"
 
 msgid "Saxony"
 msgstr "ساكسونيا"
 
 msgid "Saxony-Anhalt"
-msgstr "ساكسونيا-أنهالت"
+msgstr "ساكسونيا أنهالت"
 
 msgid "Schleswig-Holstein"
-msgstr "شليسفيغ-هولشتاين"
+msgstr "شليسفيغ هولشتاين"
 
 msgid "Scraped"
-msgstr "تم استخراجه"
+msgstr "كشط"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr "البحث أولاً عبر الإنترنت، إذا فشل يستخدم القائمة المحلية."
+msgstr "يحاول البحث أولاً عبر الإنترنت، وإذا فشل يستخدم القائمة المحلية."
 
 msgid "Search your City"
-msgstr "ابحث عن مدينتك"
-
-msgid "Searching for '%s'..."
-msgstr "جاري البحث عن '%s'..."
+msgstr "ابحث في مدينتك"
 
 msgid "Select"
-msgstr "اختيار"
+msgstr "يختار"
 
-msgid "Select Region"
-msgstr "اختيار المنطقة"
+msgid "Select {} unit"
+msgstr "حدد {} وحدة"
 
 msgid "Select a city"
 msgstr "اختر مدينة"
 
 msgid "Select a map with OK"
-msgstr "اختر خريطة باستخدام موافق"
+msgstr "حدد خريطة باستخدام موافق"
+
+msgid "Select Region"
+msgstr "حدد المنطقة"
 
 msgid "Select unit system"
-msgstr "اختر نظام الوحدات"
+msgstr "حدد نظام الوحدة"
 
 msgid "Select wind unit"
-msgstr "اختر وحدة الرياح"
-
-msgid "Select {} unit"
-msgstr "اختر وحدة {}"
+msgstr "حدد وحدة الرياح"
 
 msgid "Selected hour details"
-msgstr "تفاصيل الساعة المحددة"
-
-msgid "Set azimuth: N/A"
-msgstr "ضبط السمت: غير متوفر"
+msgstr "تفاصيل الساعة المختارة"
 
 msgid "Set azimuth: {:.0f}°"
 msgstr "ضبط السمت: {:.0f}°"
 
+msgid "Set azimuth: N/A"
+msgstr "ضبط السمت: غير متوفر"
+
 msgid "Sets"
-msgstr "الغروب"
+msgstr "مجموعات"
 
 msgid "Show info"
-msgstr "إظهار المعلومات"
+msgstr "عرض المعلومات"
 
 msgid "Showers"
-msgstr "زخات مطر"
+msgstr "الاستحمام"
 
 msgid "Slovakia"
 msgstr "سلوفاكيا"
 
 msgid "Slower: {}s"
-msgstr "أبطأ: {}ث"
+msgstr "أبطأ: {}s"
 
 msgid "Snow / ice"
-msgstr "ثلج / جليد"
+msgstr "الثلج / الجليد"
 
 msgid "Snow prob. {}%"
-msgstr "احتمالية الثلج {}%"
+msgstr "مشكلة الثلوج. {}%"
 
 msgid "Snow prob.: N/A"
-msgstr "احتمالية الثلج: غير متوفرة"
+msgstr "مشكلة الثلوج: غير متوفر"
 
 msgid "South Africa"
 msgstr "جنوب أفريقيا"
@@ -1164,20 +1202,19 @@ msgid "Station Observations"
 msgstr "ملاحظات المحطة"
 
 msgid "Station: {}"
-msgstr "المحطة: {}"
+msgstr "محطة: {}"
 
 msgid "Strong (40-60 km/h)"
-msgstr "قوي (40-60 كم/س)"
+msgstr "قوي (40-60 كم/ساعة)"
 
 msgid "Sunrise"
 msgstr "شروق الشمس"
 
 msgid "Sunset"
-msgstr "غروب الشمس"
+msgstr "غروب"
 
-#, fuzzy
 msgid "Super Full Moon"
-msgstr "البدر"
+msgstr "سوبر البدر"
 
 msgid "Sweden"
 msgstr "السويد"
@@ -1185,51 +1222,53 @@ msgstr "السويد"
 msgid "Switzerland"
 msgstr "سويسرا"
 
+msgid "Target Language"
+msgstr "اللغة المستهدفة"
+
 msgid "Temp"
-msgstr "درجة الحرارة"
+msgstr "درجة حرارة"
 
 msgid "Temperature"
-msgstr "درجة الحرارة"
+msgstr "درجة حرارة"
+
+msgid "Temperature: {}"
+msgstr "درجة حرارة: {}"
+
+msgid "Temperature: {}{}"
+msgstr "درجة حرارة: {}{}"
+
+msgid "Temperature: {}°C"
+msgstr "درجة الحرارة: {} درجة مئوية"
 
 msgid "Temperature: %d%s"
 msgstr "درجة الحرارة: %d%s"
 
 msgid "Temperature: %s°C"
-msgstr "درجة الحرارة: %s°م"
+msgstr "درجة الحرارة: %s درجة مئوية"
 
 msgid "Temperature: N/A"
 msgstr "درجة الحرارة: غير متوفر"
 
-msgid "Temperature: {}"
-msgstr "درجة الحرارة: {}"
-
-msgid "Temperature: {}{}"
-msgstr "درجة الحرارة: {}{}"
-
-msgid "Temperature: {}°C"
-msgstr "درجة الحرارة: {}°م"
-
-#, fuzzy
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "شكرًا {thanks} والأصدقاء الآخرين على الاقتراحات والاختبار"
+msgstr "شكرًا {thanks} والأصدقاء الآخرين على الاقتراحات"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
 msgstr "الإصدار البعيد ({remote}) أقدم من الإصدار الحالي ({current})."
 
 msgid "Thin upper cloud"
-msgstr "سحب عليا رقيقة"
+msgstr "سحابة علوية رقيقة"
 
 msgid "Thuringia"
-msgstr "تورينغن"
+msgstr "تورينجيا"
 
 msgid "Time"
-msgstr "الوقت"
+msgstr "وقت"
 
 msgid "Today"
 msgstr "اليوم"
 
 msgid "Today/Tomorrow details"
-msgstr "تفاصيل اليوم/الغد"
+msgstr "تفاصيل اليوم/غداً"
 
 msgid "Toggle legend"
 msgstr "تبديل وسيلة الإيضاح"
@@ -1238,34 +1277,31 @@ msgid "Token expire hours"
 msgstr "ساعات تنتهي صلاحية الرمز المميز"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr "يجب أن تكون ساعات انتهاء صلاحية الرمز المميز -1 أو رقمًا موجبًا."
+msgstr "يجب أن تكون ساعات انتهاء الرمز المميز -1 أو رقمًا موجبًا."
 
 msgid "Token expire hours must be a number."
 msgstr "يجب أن تكون ساعات انتهاء الرمز المميز رقمًا."
 
 msgid "Tomorrow"
-msgstr "الغد"
+msgstr "غداً"
 
 msgid "Transit (culmination): {}"
 msgstr "العبور (الذروة): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "ارتفاع العبور: غير متوفر"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "ارتفاع العبور: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "إعدادات الشفافية"
+msgid "Transit altitude: N/A"
+msgstr "ارتفاع العبور: N/A"
+
+msgid "Translation Settings"
+msgstr "إعدادات الترجمة"
 
 msgid "Transparency level"
 msgstr "مستوى الشفافية"
 
-msgid "UV Index"
-msgstr "مؤشر الأشعة فوق البنفسجية"
-
-msgid "UV N/A"
-msgstr "مؤشر الأشعة فوق البنفسجية: غير متوفر"
+msgid "Transparency Settings"
+msgstr "إعدادات الشفافية"
 
 msgid "Unhealthy"
 msgstr "غير صحي"
@@ -1274,98 +1310,112 @@ msgid "Unhealthy for sensitives"
 msgstr "غير صحي للأشخاص الحساسين"
 
 msgid "Unit Settings"
-msgstr "إعدادات الوحدات"
+msgstr "إعدادات الوحدة"
 
 msgid "Unit Settings (Advanced)"
-msgstr "إعدادات الوحدات (متقدم)"
+msgstr "إعدادات الوحدة (متقدمة)"
 
 msgid "Unit Settings (Simple)"
-msgstr "إعدادات الوحدات (بسيط)"
+msgstr "إعدادات الوحدة (بسيطة)"
 
 msgid "Unknown"
-msgstr "غير معروف"
+msgstr "مجهول"
 
 msgid "Up"
 msgstr "أعلى"
 
 msgid "Up - Previous page"
-msgstr "أعلى - الصفحة السابقة"
+msgstr "لأعلى - الصفحة السابقة"
 
 msgid "Update canceled."
 msgstr "تم إلغاء التحديث."
 
 msgid "Update completed. Please restart Enigma2."
-msgstr "اكتمل التحديث. يرجى إعادة تشغيل Enigma2."
+msgstr "اكتمل التحديث. الرجاء إعادة تشغيل Enigma2."
 
 msgid "Updated {}"
 msgstr "تم التحديث {}"
 
-msgid "Updated: N/A"
-msgstr "آخر تحديث: غير متوفر"
-
 msgid "Updated: {}"
-msgstr "آخر تحديث: {}"
+msgstr "تم التحديث: {}"
+
+msgid "Updated: N/A"
+msgstr "تم التحديث: غير متاح"
 
 msgid "Updating..."
-msgstr "جاري التحديث..."
-
-msgid "Use arrow keys to scroll"
-msgstr "استخدم مفاتيح الأسهم للتمرير"
+msgstr "جارٍ التحديث..."
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "استخدم ← → لتغيير الوقت | موافق للخروج"
 
 msgid "Use ←/→/↑/↓ to move | OK to exit"
-msgstr "استخدم ←/→/↑/↓ للتحريك | موافق للخروج"
+msgstr "استخدم ←/→/↑/↓ للتحرك | موافق للخروج"
 
 msgid "Use ▲/▼ to change, OK to select"
-msgstr "استخدم ▲/▼ للتغيير، موافق للاختيار"
+msgstr "استخدم ▲/▼ للتغيير، ثم موافق للاختيار"
+
+msgid "Use arrow keys to scroll"
+msgstr "استخدم مفاتيح الأسهم للتمرير"
+
+msgid "Use Google Translate"
+msgstr "استخدم ترجمة جوجل"
 
 msgid "Using current time"
-msgstr "استخدام الوقت الحالي"
+msgstr "باستخدام الوقت الحالي"
+
+msgid "UV"
+msgstr "الأشعة فوق البنفسجية"
+
+msgid "UV Index"
+msgstr "مؤشر الأشعة فوق البنفسجية"
+
+msgid "UV N/A"
+msgstr "الأشعة فوق البنفسجية غير متوفرة"
+
+msgid "v."
+msgstr "ضد"
 
 msgid "Very heavy rain"
-msgstr "أمطار غزيرة جدًا"
+msgstr "امطار غزيرة جدا"
 
 msgid "Very high"
-msgstr "مرتفع جدًا"
+msgstr "عالية جدا"
 
 msgid "Very hot (>40°C)"
-msgstr "حار جدًا (>40°م)"
+msgstr "حار جدًا (> 40 درجة مئوية)"
 
 msgid "Very low"
 msgstr "منخفض جدًا"
 
-#, fuzzy
 msgid "Very unhealthy"
-msgstr "أمطار غزيرة جدًا"
-
-msgid "Visibility: %s m"
-msgstr "الرؤية: %s م"
+msgstr "غير صحي للغاية"
 
 msgid "Visibility: {} m"
 msgstr "الرؤية: {} م"
 
+msgid "Visibility: %s m"
+msgstr "الرؤية: %s م"
+
 msgid "W"
-msgstr "غ"
+msgstr "دبليو"
 
 msgid "Waning Crescent"
-msgstr "الهلال المتضائل"
+msgstr "الهلال المتضاءل"
 
 msgid "Waning Gibbous"
-msgstr "الأحدب المتضائل"
+msgstr "يتضاءل جيبوس"
 
 msgid "Warm (20-30°C)"
-msgstr "دافئ (20-30°م)"
+msgstr "دافئ (20-30 درجة مئوية)"
 
 msgid "Waxing Crescent"
-msgstr "الهلال المتزايد"
+msgstr "الهلال المصبح"
 
 msgid "Waxing Gibbous"
-msgstr "الأحدب المتزايد"
+msgstr "الصبح جيبوس"
 
 msgid "Weather"
-msgstr "الطقس"
+msgstr "طقس"
 
 msgid "Weather Map"
 msgstr "خريطة الطقس"
@@ -1373,11 +1423,11 @@ msgstr "خريطة الطقس"
 msgid "Weather Maps"
 msgstr "خرائط الطقس"
 
-msgid "Weather Maps & Satellite"
-msgstr "خرائط الطقس والأقمار الصناعية"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "خرائط الطقس (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "خرائط الطقس والأقمار الصناعية"
 
 msgid "Weather Maps Slideshow"
 msgstr "عرض شرائح خرائط الطقس"
@@ -1386,25 +1436,25 @@ msgid "Weather Radar"
 msgstr "رادار الطقس"
 
 msgid "Weather today"
-msgstr "طقس اليوم"
+msgstr "الطقس اليوم"
 
 msgid "Weather tomorrow"
-msgstr "طقس الغد"
+msgstr "الطقس غدا"
 
 msgid "Weekly Forecast"
 msgstr "التوقعات الأسبوعية"
 
 msgid "Wind"
-msgstr "الرياح"
+msgstr "رياح"
+
+msgid "Wind direction"
+msgstr "اتجاه الرياح"
 
 msgid "Wind Direction today"
 msgstr "اتجاه الرياح اليوم"
 
 msgid "Wind Direction tomorrow"
-msgstr "اتجاه الرياح غدًا"
-
-msgid "Wind direction"
-msgstr "اتجاه الرياح"
+msgstr "اتجاه الرياح غدا"
 
 msgid "Wind speed"
 msgstr "سرعة الرياح"
@@ -1415,29 +1465,32 @@ msgstr "سرعة الرياح {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "سرعة الرياح: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "رياح: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "رياح: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "الرياح: {} كم/ساعة {}"
+
 msgid "Wind: %d %s %s"
 msgstr "الرياح: %d %s %s"
 
 msgid "Wind: %s km/h %s"
-msgstr "الرياح: %s كم/س %s"
+msgstr "الرياح: %s كم/ساعة %s"
 
 msgid "Wind: N/A"
-msgstr "الرياح: غير متوفر"
-
-msgid "Wind: {}"
-msgstr "الرياح: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "الرياح: {} كم/س {}"
-
-msgid "Wind: {} {} {}"
-msgstr "الرياح: {} {} {}"
+msgstr "الرياح: غير متاح"
 
 msgid "Window transparency"
 msgstr "شفافية النافذة"
 
 msgid "Yellow - Favorite 2"
-msgstr "أصفر - المفضلة 2"
+msgstr "الأصفر - المفضل 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "لقد قمت بالفعل بتثبيت الإصدار {version}.\nهل تريد إعادة تثبيته؟"
 
 msgid "Zoom In"
 msgstr "تكبير"
@@ -1445,100 +1498,12 @@ msgstr "تكبير"
 msgid "Zoom Out"
 msgstr "تصغير"
 
+msgid "Zoom-"
+msgstr "تكبير-"
+
+msgid "Zoom:"
+msgstr "تكبير:"
+
 msgid "Zoom+"
 msgstr "تكبير +"
 
-msgid "Zoom-"
-msgstr "تصغير -"
-
-msgid "Zoom:"
-msgstr "التكبير:"
-
-msgid "v."
-msgstr "الإصدار."
-
-msgid "{hours} h {mins} min"
-msgstr "{hours} س {mins} د"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• أزرق للحفظ كالصفحة الرئيسية\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- للقفز 500 مدينة\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• أخضر للحفظ كالمفضلة 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• موافق لاختيار المدينة\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• أحمر لفتح لوحة مفاتيح البحث\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• استخدم مفاتيح الأسهم للتنقل\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• أصفر للحفظ كالمفضلة 2\n"
-
-msgid "← Frame"
-msgstr "إطار ←"
-
-#, fuzzy
-#~ msgid "(Additional data not available)"
-#~ msgstr "لا توجد بيانات محطة متاحة"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== تفاصيل القمر ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "القطر الزاوي: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "الحجم الظاهري: N / A"
-
-#, fuzzy
-#~ msgid "Foreca One Setup"
-#~ msgstr "قائمة Foreca One"
-
-#~ msgid "7 Day Forecast"
-#~ msgstr "توقعات 7 أيام"
-
-#~ msgid "Blue"
-#~ msgstr "أزرق"
-
-#~ msgid "Cloud Cover"
-#~ msgstr "الغطاء السحابي"
-
-#~ msgid "Distance"
-#~ msgstr "المسافة"
-
-#~ msgid "Green"
-#~ msgstr "أخضر"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#~ msgid "Image Downloaded"
-#~ msgstr "تم تحميل الصورة"
-
-#~ msgid "Last update"
-#~ msgstr "آخر تحديث"
-
-#~ msgid "Radar"
-#~ msgstr "الرادار"
-
-#~ msgid "Red"
-#~ msgstr "أحمر"
-
-#~ msgid "Snow"
-#~ msgstr "ثلج"
-
-#~ msgid "UV"
-#~ msgstr "الأشعة فوق البنفسجية"
-
-#~ msgid "Wetter.de Maps Test"
-#~ msgstr "اختبار خرائط Wetter.de"
-
-#~ msgid "Ok - Zone"
-#~ msgstr "موافق - المنطقة"

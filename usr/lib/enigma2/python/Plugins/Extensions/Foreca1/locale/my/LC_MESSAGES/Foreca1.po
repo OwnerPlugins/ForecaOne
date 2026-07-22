@@ -1,20 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# my translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Burmese\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: my <ekekaz@gmail.com>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} နာရီ {mins} မိနစ်"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• Home\n အဖြစ် သိမ်းဆည်းရန် BLUE\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- မြို့ 500 ခုန်ရန်\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• အကြိုက်ဆုံး 1\n အဖြစ် သိမ်းဆည်းရန် အစိမ်းရောင်\n"
+
+msgid "• OK to select city\n"
+msgstr "• city\n ကို ရွေးရန် အိုကေ\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• ရှာဖွေမှုကီးဘုတ်\n ကိုဖွင့်ရန် RED\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "•\n သွားလာရန် မြှားခလုတ်များကိုသုံးပါ။\n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- မြို့ပေါင်း 100 ခုန်ရန်\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• အကြိုက်ဆုံး 2\n အဖြစ် သိမ်းဆည်းရန် အဝါရောင်\n"
+
+msgid "← Frame"
+msgstr "← ဘောင်"
 
 msgid "0 - Today"
 msgstr "0 - ဒီနေ့"
@@ -40,32 +67,17 @@ msgstr "၆ - ဒီနေ့ + ၆ ရက်"
 msgid "7 - Today + 7 days"
 msgstr "7 - ယနေ့ + 7 ရက်"
 
+msgid "7 Day Forecast"
+msgstr "7 ရက်ခန့်မှန်းချက်"
+
 msgid "8 - Today + 8 days"
 msgstr "၈ - ဒီနေ့ + ၈ ရက်"
 
 msgid "9 - Today + 9 days"
 msgstr "၉ - ဒီနေ့ + ၉ ရက်"
 
-msgid "API credentials not configured."
-msgstr "API အထောက်အထားများကို ပြင်ဆင်မထားပါ။"
-
-msgid "API error"
-msgstr "API အမှား"
-
-msgid "API password"
-msgstr "API စကားဝှက်"
-
-msgid "API user"
-msgstr "API အသုံးပြုသူ"
-
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr "AQI- မရှိပါ။"
-
 msgid "Advanced"
-msgstr "အဆင့်မြင့်သည်။"
+msgstr "အဆင့်မြင့်"
 
 msgid "Advanced Unit Settings"
 msgstr "အဆင့်မြင့်ယူနစ် ဆက်တင်များ"
@@ -79,21 +91,41 @@ msgstr "လဆန်းကတည်းက သက်တမ်း- {:.1f} ရက�
 msgid "Age: N/A"
 msgstr "အသက်- N/A"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "ထောင့်အချင်း- {:.0f}\\""
+
 msgid "Angular diameter: N/A"
 msgstr "ထောင့်အချင်း- N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "ထောင့်အချင်း- {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API ဖွဲ့စည်းမှုပုံစံဖိုင်ကို ရှာမတွေ့ပါ။\n\nကျေးဇူးပြု၍ ဖိုင်ကိုဖန်တီးပါ-\n{0}\n\nသင်၏ Foreca API အထောက်အထားများဖြင့် ဖိုင်ကိုဖန်တီးပါ။"
+
+msgid "API credentials not configured."
+msgstr "API အထောက်အထားများကို ပြုပြင်မထားပါ။"
+
+msgid "API error"
+msgstr "API အမှား"
+
+msgid "API password"
+msgstr "API စကားဝှက်"
+
+msgid "API user"
+msgstr "API အသုံးပြုသူ"
 
 msgid "Apparent magnitude: {:.2f}"
-msgstr "သိသာထင်ရှားသော ပြင်းအား- {:.2f}"
+msgstr "ထင်ရှားသော ပြင်းအား- {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI- မရှိပါ။"
 
 msgid "Assign to Favorite 1"
 msgstr "အကြိုက်ဆုံး ၁ သို့ သတ်မှတ်ပါ။"
 
 msgid "Assign to Favorite 2"
-msgstr "အကြိုက်ဆုံး ၂ ခုကို သတ်မှတ်ပေးပါ။"
+msgstr "အကြိုက်ဆုံး 2 ကိုသတ်မှတ်ပါ။"
 
 msgid "Assign to Home"
 msgstr "အိမ်သို့ တာဝန်ပေးပါ။"
@@ -108,7 +140,7 @@ msgid "Auth server"
 msgstr "စစ်မှန်သော ဆာဗာ"
 
 msgid "Baden-Wuerttemberg"
-msgstr ""
+msgstr "Baden-Wuerttemberg"
 
 msgid "Barometer"
 msgstr "ဘာရိုမီတာ"
@@ -123,7 +155,10 @@ msgid "Berlin"
 msgstr "ဘာလင်"
 
 msgid "Black Moon"
-msgstr ""
+msgstr "Black Moon"
+
+msgid "Blue"
+msgstr "အပြာ"
 
 msgid "Blue - Home"
 msgstr "အပြာ - အိမ်"
@@ -158,14 +193,17 @@ msgstr "အပ်ဒိတ်များအတွက် စစ်ဆေးပ�
 msgid "Choose detail view"
 msgstr "အသေးစိတ်မြင်ကွင်းကို ရွေးပါ။"
 
-msgid "City Selection"
-msgstr "မြို့ရွေးချယ်ရေး"
-
 msgid "City list file not found!"
 msgstr "မြို့စာရင်းဖိုင်ကို ရှာမတွေ့ပါ။"
 
+msgid "City Selection"
+msgstr "မြို့ရွေးချယ်ရေး"
+
+msgid "City Selection Help:\n\n"
+msgstr "မြို့ရွေးချယ်ရေး အကူအညီ-\n\n"
+
 msgid "Cleanup Foreca One Temp Files?"
-msgstr "Foreca One Temp ဖိုင်များကို ရှင်းလင်းမလား။"
+msgstr "Foreca One Temp Files ကို ရှင်းလင်းမလား။"
 
 msgid "Cleanup temp files"
 msgstr "အပူချိန်ဖိုင်များကို ရှင်းလင်းပါ။"
@@ -192,7 +230,7 @@ msgid "Cloudy and light snow"
 msgstr "တိမ်ထူပြီး ဆီးနှင်းများ ကျနေပါသည်။"
 
 msgid "Cloudy and light wet snow"
-msgstr "တိမ်ထူပြီး ဆီးနှင်းများ စိုစွတ်နေပါသည်။"
+msgstr "တိမ်ထူပြီး နှင်းတွေ စိုစွတ်နေတယ်။"
 
 msgid "Cloudy and showers"
 msgstr "တိမ်ထူပြီး မိုးရွာတယ်။"
@@ -209,17 +247,14 @@ msgstr "တိမ်ထူထပ်နေပြီး မိုးကြို�
 msgid "Cold (< 0°C)"
 msgstr "အအေး (< 0°C)"
 
-msgid "Color Legend"
-msgstr "အရောင်အညွန်း"
-
-msgid "Color Selector"
-msgstr "အရောင်ရွေးချယ်မှု"
-
 msgid "Color data"
 msgstr "အရောင်အချက်အလက်"
 
 msgid "Color legend"
 msgstr "အရောင်ဒဏ္ဍာရီ"
+
+msgid "Color Legend"
+msgstr "အရောင်အညွန်း"
 
 msgid "Color name"
 msgstr "အရောင်အမည်"
@@ -227,8 +262,14 @@ msgstr "အရောင်အမည်"
 msgid "Color select"
 msgstr "အရောင်ရွေးပါ။"
 
+msgid "Color Selector"
+msgstr "အရောင်ရွေးချယ်မှု"
+
 msgid "Condition: {}"
 msgstr "အခြေအနေ- {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Foreca API အထောက်အထားများကို စီစဉ်သတ်မှတ်ပါ။"
 
 msgid "Continents Weather Maps"
 msgstr "တိုက်ကြီး မိုးလေဝသမြေပုံများ"
@@ -285,7 +326,7 @@ msgid "Dewpoint {}"
 msgstr "နှင်းပွိုင့် {}"
 
 msgid "Dewpoint {}°C"
-msgstr "နှင်းအမှတ် {}°C"
+msgstr "နှင်းရည်မှတ် {}°C"
 
 msgid "Dewpoint: %d%s"
 msgstr "Dewpoint- %d%s"
@@ -296,17 +337,20 @@ msgstr "နှင်းအမှတ်- %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Dewpoint- မရှိပါ။"
 
+msgid "Distance"
+msgstr "အကွာအဝေး"
+
 msgid "Distance {} km"
 msgstr "အကွာအဝေး {} ကီလိုမီတာ"
-
-msgid "Distance: %s"
-msgstr "အကွာအဝေး- %s"
 
 msgid "Distance: {}"
 msgstr "အကွာအဝေး- {}"
 
 msgid "Distance: {} km"
 msgstr "အကွာအဝေး- {} ကီလိုမီတာ"
+
+msgid "Distance: %s"
+msgstr "အကွာအဝေး- %s"
 
 msgid "Do you want to install it now?"
 msgstr "၎င်းကို ယခုထည့်သွင်းလိုပါသလား။"
@@ -366,13 +410,16 @@ msgid "Exit / Close legend"
 msgstr "ထွက်ရန် / ပိတ်ပါ။"
 
 msgid "Extreme"
-msgstr "အလွန်အမင်း"
+msgstr "အလွန်အကျူး"
 
 msgid "Extreme / thunderstorms"
 msgstr "လွန်ကဲ/မိုးကြိုးမုန်တိုင်းများ"
 
 msgid "Fahrenheit, mph, inHg"
 msgstr "ဖာရင်ဟိုက်၊ တစ်နာရီမိုင်၊ inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "ဖွဲ့စည်းမှုဖိုင်-\n%s ကိုရေးရန် မအောင်မြင်ပါ။"
 
 msgid "Faster: {}s"
 msgstr "ပိုမြန်သည်- {}s"
@@ -383,10 +430,10 @@ msgstr "အကြိုက်ဆုံး ၁"
 msgid "Favorite 2"
 msgstr "အကြိုက်ဆုံး ၂"
 
-msgid "Favorites Details"
+msgid "Favorites details"
 msgstr "စိတ်ကြိုက်အသေးစိတ်"
 
-msgid "Favorites details"
+msgid "Favorites Details"
 msgstr "စိတ်ကြိုက်အသေးစိတ်"
 
 msgid "Feels like"
@@ -398,15 +445,6 @@ msgstr "{} ကဲ့သို့ခံစားရသည်"
 msgid "Feels like {}{}"
 msgstr "{}{} ကဲ့သို့ခံစားရသည်"
 
-msgid "Feels like: %d%s"
-msgstr "ခံစားရသည်- %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "ခံစားရသည်- %s°C"
-
-msgid "Feels like: N/A"
-msgstr "ခံစားရသည်- N/A"
-
 msgid "Feels like: {}"
 msgstr "ခံစားရသည်- {}"
 
@@ -415,6 +453,15 @@ msgstr "ခံစားရသည်- {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "ခံစားရသည်- {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "ခံစားရသည်- %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "ခံစားရသည်- %s°C"
+
+msgid "Feels like: N/A"
+msgstr "ခံစားရသည်- N/A"
 
 msgid "Finland"
 msgstr "ဖင်လန်"
@@ -425,44 +472,41 @@ msgstr "ပထမရပ်ကွက်"
 msgid "Fog"
 msgstr "မြူနှင်း"
 
-msgid "Foreca API Setup"
-msgstr "Foreca API စနစ်ထည့်သွင်းခြင်း။"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API အထောက်အထားများကို မပြင်ဆင်ရသေးပါ။ ကျေးဇူးပြု၍ ၎င်းတို့ကို စနစ်ထည့်သွင်းမှု မျက်နှာပြင်တွင် ထည့်သွင်းပါ။"
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API ဆက်တင်များကို အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။"
 
+msgid "Foreca API Setup"
+msgstr "Foreca API စနစ်ထည့်သွင်းခြင်း။"
+
 msgid "Foreca One"
-msgstr ""
+msgstr "Foreca One"
+
+msgid "Foreca One | Map {}"
+msgstr "Foreca One | မြေပုံ {}"
 
 msgid "Foreca One Live Maps (API)"
 msgstr "Foreca One တိုက်ရိုက်မြေပုံများ (API)"
 
 msgid "Foreca One Menu"
-msgstr ""
+msgstr "Foreca One Menu"
 
 msgid "Foreca One No stations found"
 msgstr "Foreca One ဘူတာများကိုမတွေ့ပါ။"
 
+msgid "Foreca One Setup"
+msgstr "Foreca One Setup"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One ဘူတာများ- အနီးနားရှိ ဘူတာ {} ခု ({})"
 
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
 msgid "Foreca One Weather Forecast"
 msgstr "Foreca One မိုးလေဝသခန့်မှန်းချက်"
-
-msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca One | မြေပုံ {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "'%s' အတွက် ဒေသအလိုက် မြို့ %d ခုကို တွေ့သည်"
-
-msgid "Found %d cities online for '%s'"
-msgstr "'%s' အတွက် %d မြို့များကို အွန်လိုင်းတွင် တွေ့သည်"
 
 msgid "Frame →"
 msgstr "ဘောင် →"
@@ -493,6 +537,9 @@ msgstr "ဂရိတ်ဗြိတိန်"
 
 msgid "Greece"
 msgstr "ဟေ"
+
+msgid "Green"
+msgstr "အစိမ်းရောင်"
 
 msgid "Green - Favorite 1"
 msgstr "အစိမ်းရောင် - အကြိုက်ဆုံး ၁"
@@ -533,14 +580,17 @@ msgstr "ပူ (30-40°C)"
 msgid "Hour Details"
 msgstr "နာရီအသေးစိတ်"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "စိုထိုင်းဆ"
 
-msgid "Humidity: %s%%"
-msgstr "စိုထိုင်းဆ- %s%%"
-
 msgid "Humidity: {}%"
 msgstr "စိုထိုင်းဆ- {}%"
+
+msgid "Humidity: %s%%"
+msgstr "စိုထိုင်းဆ- %s%%"
 
 msgid "Hungary"
 msgstr "ဟန်ဂေရီ"
@@ -555,10 +605,10 @@ msgid "Illumination: {:.1f}%"
 msgstr "အလင်းရောင်- {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "ပုံ %(လက်ရှိ)d/%(စုစုပေါင်း)d – %(day)s"
+msgstr "ပုံ %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "ပုံ %(လက်ရှိ)d/%(စုစုပေါင်း)d – %(ရက်)s (ရပ်ထားသည်)"
+msgstr "ပုံ %(current)d/%(total)d – %(day)s (ရပ်ထားသည်)"
 
 msgid "Image not available"
 msgstr "ပုံမရရှိနိုင်ပါ။"
@@ -598,6 +648,9 @@ msgstr "ကီးဘုတ်"
 
 msgid "Last Quarter"
 msgstr "နောက်ဆုံးသုံးလပတ်"
+
+msgid "Last update"
+msgstr "နောက်ဆုံးအပ်ဒိတ်"
 
 msgid "Latvia"
 msgstr "လတ်"
@@ -639,7 +692,7 @@ msgid "Low"
 msgstr "နိမ့်သည်။"
 
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Lower Saxony"
 
 msgid "Lunar Calendar"
 msgstr "လပြက္ခဒိန်"
@@ -650,9 +703,11 @@ msgstr "လာမည့်လမှစပြီး လအဆင့်မျာ�
 msgid "Luxembourg"
 msgstr "လူဇင်ဘတ်"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "ထင်ရှားသော ပြင်းအား- N/A"
+msgstr "ပမာဏ- N/A"
+
+msgid "Map {} selected"
+msgstr "မြေပုံ {} ကို ရွေးထားသည်။"
 
 msgid "Map & Tiles Loaded"
 msgstr "မြေပုံနှင့် ကြွေပြားများ တင်ထားသည်။"
@@ -663,11 +718,8 @@ msgstr "မြေပုံတင်ထားသည်။"
 msgid "Map server"
 msgstr "မြေပုံဆာဗာ"
 
-msgid "Map {} selected"
-msgstr "မြေပုံ {} ကို ရွေးထားသည်။"
-
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
+msgstr "Mecklenburg-Vorpommern"
 
 msgid "Menu"
 msgstr "မီနူး"
@@ -679,7 +731,7 @@ msgid "Merge failed"
 msgstr "ပေါင်းစည်းခြင်း မအောင်မြင်ပါ။"
 
 msgid "Meteogram"
-msgstr ""
+msgstr "Meteogram"
 
 msgid "Metric System"
 msgstr "မက်ထရစ်စနစ်"
@@ -708,11 +760,10 @@ msgstr "မိုးအသင့်အတင့်"
 msgid "Month"
 msgstr "လ"
 
-#, fuzzy
-msgid "Moon Details"
+msgid "Moon details"
 msgstr "မွန်းအသေးစိတ်"
 
-msgid "Moon details"
+msgid "Moon Details"
 msgstr "မွန်းအသေးစိတ်"
 
 msgid "Moonrise: {}"
@@ -727,20 +778,20 @@ msgstr "မနက်ခင်း"
 msgid "Mostly clear"
 msgstr "အများအားဖြင့် ရှင်းပါတယ်။"
 
-msgid "Move Down"
+msgid "Move down"
 msgstr "အောက်သို့ရွှေ့ပါ။"
 
-msgid "Move Up"
-msgstr "အပေါ်ကိုရွှေ့ပါ။"
-
-msgid "Move down"
+msgid "Move Down"
 msgstr "အောက်သို့ရွှေ့ပါ။"
 
 msgid "Move up"
 msgstr "အပေါ်ကိုရွှေ့ပါ။"
 
+msgid "Move Up"
+msgstr "အပေါ်ကိုရွှေ့ပါ။"
+
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "N/A"
 msgstr "မရှိ"
@@ -752,31 +803,22 @@ msgid "New Moon"
 msgstr "လဆန်း"
 
 msgid "New version {version} is available."
-msgstr "ဗားရှင်းအသစ် {ဗားရှင်း} ရရှိနိုင်ပါပြီ။"
+msgstr "ဗားရှင်းအသစ် {version} ရရှိနိုင်ပါပြီ။"
 
 msgid "Next"
 msgstr "နောက်တစ်ခု"
 
-msgid "Next Image"
-msgstr "နောက်ပုံ"
-
 msgid "Next frame"
 msgstr "နောက်ဘောင်"
+
+msgid "Next Image"
+msgstr "နောက်ပုံ"
 
 msgid "Next page"
 msgstr "နောက်စာမျက်နှာ"
 
 msgid "Next time"
 msgstr "နောက်တစ်ခါ"
-
-msgid "No Internet connection detected."
-msgstr "အင်တာနက်ချိတ်ဆက်မှု မတွေ့ရှိရပါ။"
-
-msgid "No OSM tiles"
-msgstr "OSM အကွက်များ မရှိပါ။"
-
-msgid "No cities found locally for '%s'"
-msgstr "'%s' အတွက် ဒေသအလိုက် မြို့များကို ရှာမတွေ့ပါ"
 
 msgid "No city selected"
 msgstr "မြို့မရွေး"
@@ -787,8 +829,14 @@ msgstr "ဒေတာမရှိပါ။"
 msgid "No date available"
 msgstr "ရက်စွဲမရှိပါ။"
 
+msgid "No Internet connection detected."
+msgstr "အင်တာနက်ချိတ်ဆက်မှု မတွေ့ရှိရပါ။"
+
 msgid "No location selected"
 msgstr "တည်နေရာကို ရွေးထားခြင်းမရှိပါ။"
+
+msgid "No OSM tiles"
+msgstr "OSM အကွက်များ မရှိပါ။"
 
 msgid "No specific legend available."
 msgstr "တိကျသောဒဏ္ဍာရီကို မရနိုင်ပါ။"
@@ -812,10 +860,13 @@ msgid "North America"
 msgstr "မြောက်အမေရိက"
 
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "North Rhine-Westphalia"
 
 msgid "Norway"
 msgstr "နော်ဝေး"
+
+msgid "Ok - Details"
+msgstr "Ok - အသေးစိတ်"
 
 msgid "OK - Ext Info"
 msgstr "OK - Ext အချက်အလက်"
@@ -825,9 +876,6 @@ msgstr "အိုကေ - ခန့်မှန်းချက်"
 
 msgid "OK - Open Map"
 msgstr "OK - မြေပုံကိုဖွင့်ပါ။"
-
-msgid "Ok - Details"
-msgstr "Ok - အသေးစိတ်"
 
 msgid "Open Keyboard"
 msgstr "Keyboard ကိုဖွင့်ပါ။"
@@ -866,7 +914,7 @@ msgid "Overcast and wet snow"
 msgstr "အုံ့မှိုင်းပြီး နှင်းတွေ စိုစွတ်နေတယ်။"
 
 msgid "Overcast and wet snow showers"
-msgstr "အုံ့မှိုင်းပြီး နှင်းတွေ စိုစွတ်နေတယ်။"
+msgstr "အုံ့မှိုင်းကာ နှင်းများ စိုစွတ်နေပါသည်။"
 
 msgid "Overcast, thunderstorms with rain"
 msgstr "မိုးအုံ့၊ မိုးကြိုးမုန်တိုင်း"
@@ -874,17 +922,17 @@ msgstr "မိုးအုံ့၊ မိုးကြိုးမုန်တ�
 msgid "Overnight"
 msgstr "တချိူ့"
 
-msgid "Page Down"
-msgstr "Page Down ပါ။"
-
-msgid "Page Up"
-msgstr ""
-
 msgid "Page down"
 msgstr "စာမျက်နှာအောက်သို့"
 
+msgid "Page Down"
+msgstr "Page Down ပါ။"
+
 msgid "Page up"
 msgstr "စာမျက်နှာတက်"
+
+msgid "Page Up"
+msgstr "Page Up"
 
 msgid "Pan down"
 msgstr "ပန်ဆင်း"
@@ -923,7 +971,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "တိမ်အသင့်အတင့် ဖြစ်ထွန်းပြီး၊ မိုးထစ်ချုန်းရွာနိုင်ပါတယ်။"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigee"
 
 msgid "Phase"
 msgstr "အဆင့်"
@@ -964,6 +1012,12 @@ msgstr "ထပ်မံရှာဖွေရန် RED ကိုနှိပ်�
 msgid "Pressure"
 msgstr "ဖိအား"
 
+msgid "Pressure: {}"
+msgstr "ဖိအား- {}"
+
+msgid "Pressure: {} hPa"
+msgstr "ဖိအား- {} hPa"
+
 msgid "Pressure: %s"
 msgstr "ဖိအား- %s"
 
@@ -973,23 +1027,17 @@ msgstr "ဖိအား- %s hPa"
 msgid "Pressure: N/A"
 msgstr "ဖိအား- N/A"
 
-msgid "Pressure: {}"
-msgstr "ဖိအား- {}"
-
-msgid "Pressure: {} hPa"
-msgstr "ဖိအား- {} hPa"
-
 msgid "Prev"
 msgstr "အကြို"
 
 msgid "Previous"
 msgstr "အရင်"
 
-msgid "Previous Image"
-msgstr "ယခင်ပုံ"
-
 msgid "Previous frame"
 msgstr "အရင်ဘောင်"
+
+msgid "Previous Image"
+msgstr "ယခင်ပုံ"
 
 msgid "Previous page"
 msgstr "ယခင်စာမျက်နှာ"
@@ -1012,6 +1060,9 @@ msgstr "မိုး- {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer ရေဒါ"
 
+msgid "Red"
+msgstr "အနီရောင်"
+
 msgid "Red - Color select"
 msgstr "အနီရောင် - အရောင်ရွေးပါ။"
 
@@ -1033,11 +1084,11 @@ msgstr "ညာဘက်မြှား - နောက်နေ့"
 msgid "Rise"
 msgstr "ထရန်"
 
+msgid "Rise azimuth: {:.0f}°"
+msgstr "အဇမ်မတ်- {:.0f}° အတက်"
+
 msgid "Rise azimuth: N/A"
 msgstr "azimuth အတက်- N/A"
-
-msgid "Rise azimuth: {:.0f}°"
-msgstr "azimuth အတက်- {:.0f}°"
 
 msgid "Russia"
 msgstr "ရုရှား"
@@ -1046,13 +1097,13 @@ msgid "S"
 msgstr "၎"
 
 msgid "Saarland"
-msgstr ""
+msgstr "Saarland"
 
 msgid "Satellite Photos"
 msgstr "ဂြိုလ်တုဓာတ်ပုံများ"
 
 msgid "Satellite photos coming soon!"
-msgstr "ဂြိုလ်တုဓာတ်ပုံများမကြာမီလာမည်"
+msgstr "ဂြိုလ်တုဓာတ်ပုံများ မကြာမီလာမည်"
 
 msgid "Save"
 msgstr "သိမ်းဆည်းပါ။"
@@ -1060,32 +1111,32 @@ msgstr "သိမ်းဆည်းပါ။"
 msgid "Save API settings"
 msgstr "API ဆက်တင်များကို သိမ်းဆည်းပါ။"
 
+msgid "Save translation settings"
+msgstr "ဘာသာပြန်ဆက်တင်များကို သိမ်းဆည်းပါ။"
+
 msgid "Saxony"
-msgstr ""
+msgstr "Saxony"
 
 msgid "Saxony-Anhalt"
-msgstr ""
+msgstr "Saxony-Anhalt"
 
 msgid "Schleswig-Holstein"
-msgstr ""
+msgstr "Schleswig-Holstein"
 
 msgid "Scraped"
 msgstr "ခြစ်တယ်။"
 
 msgid "Search first tries online, if fails uses local list."
-msgstr "အဆင်မပြေပါက ဒေသတွင်းစာရင်းကို အသုံးပြု၍ ပထမဆုံး အွန်လိုင်းတွင် ကြိုးစားရှာဖွေပါ။"
+msgstr "အဆင်မပြေပါက ဒေသတွင်းစာရင်းကို အသုံးပြု၍ ပထမအကြိမ် ရှာဖွေရန် အွန်လိုင်းတွင် ကြိုးစားပါ။"
 
 msgid "Search your City"
 msgstr "သင်၏မြို့ကိုရှာဖွေပါ။"
 
-msgid "Searching for '%s'..."
-msgstr "'%s' ကို ရှာဖွေနေသည်..."
-
 msgid "Select"
 msgstr "ရွေးချယ်ပါ။"
 
-msgid "Select Region"
-msgstr "ဒေသကို ရွေးပါ။"
+msgid "Select {} unit"
+msgstr "{} ယူနစ်ကို ရွေးပါ။"
 
 msgid "Select a city"
 msgstr "မြို့ကို ရွေးပါ။"
@@ -1093,23 +1144,23 @@ msgstr "မြို့ကို ရွေးပါ။"
 msgid "Select a map with OK"
 msgstr "OK ဖြင့် မြေပုံကို ရွေးပါ။"
 
+msgid "Select Region"
+msgstr "ဒေသကို ရွေးပါ။"
+
 msgid "Select unit system"
 msgstr "ယူနစ်စနစ်ရွေးချယ်ပါ။"
 
 msgid "Select wind unit"
 msgstr "လေယူနစ်ကို ရွေးပါ။"
 
-msgid "Select {} unit"
-msgstr "{} ယူနစ်ကို ရွေးပါ။"
-
 msgid "Selected hour details"
 msgstr "ရွေးချယ်ထားသော နာရီအသေးစိတ်"
 
-msgid "Set azimuth: N/A"
-msgstr "azimuth သတ်မှတ်ရန်- N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "azimuth သတ်မှတ်ရန်- {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "azimuth သတ်မှတ်ရန်- N/A"
 
 msgid "Sets"
 msgstr "အစုံပါပဲ။"
@@ -1171,20 +1222,14 @@ msgstr "ဆွီဒင်"
 msgid "Switzerland"
 msgstr "ဆွစ်ဇာလန်"
 
+msgid "Target Language"
+msgstr "ပစ်မှတ်ဘာသာစကား"
+
 msgid "Temp"
 msgstr "အပူချိန်"
 
 msgid "Temperature"
 msgstr "အပူချိန်"
-
-msgid "Temperature: %d%s"
-msgstr "အပူချိန်- %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "အပူချိန်- %s°C"
-
-msgid "Temperature: N/A"
-msgstr "အပူချိန်- N/A"
 
 msgid "Temperature: {}"
 msgstr "အပူချိန်- {}"
@@ -1195,8 +1240,17 @@ msgstr "အပူချိန်- {}{}"
 msgid "Temperature: {}°C"
 msgstr "အပူချိန်- {}°C"
 
+msgid "Temperature: %d%s"
+msgstr "အပူချိန်- %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "အပူချိန်- %s°C"
+
+msgid "Temperature: N/A"
+msgstr "အပူချိန်- N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "အကြံပြုချက်များအတွက် {thank} နှင့် အခြားသူငယ်ချင်းများကို ကျေးဇူးတင်ပါသည်။"
+msgstr "အကြံပြုချက်များအတွက် {thanks} နှင့် အခြားသူငယ်ချင်းများကို ကျေးဇူးတင်ပါသည်။"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
 msgstr "အဝေးထိန်းဗားရှင်း ({remote}) သည် လက်ရှိ ({current}) ထက် ပိုဟောင်းသည်။"
@@ -1205,7 +1259,7 @@ msgid "Thin upper cloud"
 msgstr "အထက်တိမ်လွှာ"
 
 msgid "Thuringia"
-msgstr "သူရင်းဂျာ"
+msgstr "သူရင်းဂျီးယား"
 
 msgid "Time"
 msgstr "အချိန်"
@@ -1234,23 +1288,20 @@ msgstr "မနက်ဖြန်"
 msgid "Transit (culmination): {}"
 msgstr "အကူးအပြောင်း (အထွတ်အထိပ်): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "သယ်ယူပို့ဆောင်ရေး အမြင့်ပေ- N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "သယ်ယူပို့ဆောင်ရေး အမြင့်ပေ- {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "ပွင့်လင်းမြင်သာမှု ဆက်တင်များ"
+msgid "Transit altitude: N/A"
+msgstr "သယ်ယူပို့ဆောင်ရေး အမြင့်ပေ- N/A"
+
+msgid "Translation Settings"
+msgstr "ဘာသာပြန်ခြင်း ဆက်တင်များ"
 
 msgid "Transparency level"
 msgstr "ပွင့်လင်းမြင်သာမှုအဆင့်"
 
-msgid "UV Index"
-msgstr "ခရမ်းလွန်ရောင်ခြည်ညွှန်းကိန်း"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "ပွင့်လင်းမြင်သာမှု ဆက်တင်များ"
 
 msgid "Unhealthy"
 msgstr "ကျန်းမာရေးနဲ့ မညီညွတ်ဘူး။"
@@ -1271,10 +1322,10 @@ msgid "Unknown"
 msgstr "မသိ"
 
 msgid "Up"
-msgstr "တက်"
+msgstr "ချီ"
 
 msgid "Up - Previous page"
-msgstr "အပေါ် - ယခင်စာမျက်နှာ"
+msgstr "Up - ယခင်စာမျက်နှာ"
 
 msgid "Update canceled."
 msgstr "အပ်ဒိတ်ကို ပယ်ဖျက်လိုက်ပါပြီ။"
@@ -1285,17 +1336,14 @@ msgstr "Update ပြီးပါပြီ။ Enigma2 ကို ပြန်လ�
 msgid "Updated {}"
 msgstr "အပ်ဒိတ်လုပ်ထားသည် {}"
 
-msgid "Updated: N/A"
-msgstr "အပ်ဒိတ်လုပ်ထားသည်- N/A"
-
 msgid "Updated: {}"
 msgstr "အပ်ဒိတ်လုပ်ထားသည်- {}"
 
+msgid "Updated: N/A"
+msgstr "အပ်ဒိတ်လုပ်ထားသည်- N/A"
+
 msgid "Updating..."
 msgstr "အပ်ဒိတ်လုပ်နေသည်..."
-
-msgid "Use arrow keys to scroll"
-msgstr "လှိမ့်ရန် မြှားခလုတ်များကို အသုံးပြုပါ။"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "အချိန် | ပြောင်းလဲရန် ← → ကိုသုံးပါ။ ထွက်ရန် OK"
@@ -1306,8 +1354,26 @@ msgstr "| ရွှေ့ရန် ←/→/↑/↓ ကိုသုံးပါ�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "ပြောင်းလဲရန် ▲/▼ ကိုသုံးပါ၊ ရွေးရန် အိုကေ"
 
+msgid "Use arrow keys to scroll"
+msgstr "လှိမ့်ရန် မြှားခလုတ်များကို အသုံးပြုပါ။"
+
+msgid "Use Google Translate"
+msgstr "Google Translate ကိုသုံးပါ။"
+
 msgid "Using current time"
 msgstr "လက်ရှိအချိန်ကိုအသုံးပြုခြင်း။"
+
+msgid "UV"
+msgstr "ခရမ်းလွန်ရောင်ခြည်"
+
+msgid "UV Index"
+msgstr "ခရမ်းလွန်ရောင်ခြည်ညွှန်းကိန်း"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "မိုးအရမ်းရွာတယ်။"
@@ -1322,13 +1388,13 @@ msgid "Very low"
 msgstr "အရမ်းနည်းတယ်။"
 
 msgid "Very unhealthy"
-msgstr "အလွန်ကျန်းမာရေးမကောင်း"
-
-msgid "Visibility: %s m"
-msgstr "မြင်နိုင်စွမ်း- %s m"
+msgstr "အလွန်ကျန်းမာရေးမကောင်းပါ။"
 
 msgid "Visibility: {} m"
 msgstr "မြင်နိုင်စွမ်း- {} m"
+
+msgid "Visibility: %s m"
+msgstr "မြင်နိုင်စွမ်း- %s m"
 
 msgid "W"
 msgstr "ဒဗလျူ"
@@ -1346,7 +1412,7 @@ msgid "Waxing Crescent"
 msgstr "Waxing လခြမ်း"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Waxing Gibbous"
 
 msgid "Weather"
 msgstr "ရာသီဥတု"
@@ -1357,11 +1423,11 @@ msgstr "မိုးလေဝသမြေပုံ"
 msgid "Weather Maps"
 msgstr "မိုးလေဝသမြေပုံများ"
 
-msgid "Weather Maps & Satellite"
-msgstr "မိုးလေဝသမြေပုံများနှင့် ဂြိုလ်တု"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "မိုးလေဝသမြေပုံများ (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "မိုးလေဝသမြေပုံများနှင့် ဂြိုလ်တု"
 
 msgid "Weather Maps Slideshow"
 msgstr "မိုးလေဝသမြေပုံဆလိုက်ရှိုး"
@@ -1381,14 +1447,14 @@ msgstr "အပတ်စဉ် ခန့်မှန်းချက်"
 msgid "Wind"
 msgstr "လေတိုက်သည်။"
 
+msgid "Wind direction"
+msgstr "လေတိုက်နှုန်း"
+
 msgid "Wind Direction today"
 msgstr "ယနေ့ လေတိုက်နှုန်း"
 
 msgid "Wind Direction tomorrow"
-msgstr "မနက်ဖြန် လေတိုက်နှုန်း"
-
-msgid "Wind direction"
-msgstr "လေတိုက်နှုန်း"
+msgstr "မနက်ဖြန် လေတိုက်တဲ့ လမ်းကြောင်း"
 
 msgid "Wind speed"
 msgstr "လေတိုက်နှုန်း"
@@ -1399,6 +1465,15 @@ msgstr "လေတိုက်နှုန်း {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "လေတိုက်နှုန်း- {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "လေ- {}"
+
+msgid "Wind: {} {} {}"
+msgstr "လေ- {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "လေတိုက်နှုန်း- {} ကီလိုမီတာ/နာရီ {}"
+
 msgid "Wind: %d %s %s"
 msgstr "လေ- %d %s %s"
 
@@ -1408,20 +1483,14 @@ msgstr "လေတိုက်ခြင်း- %s km/h %s"
 msgid "Wind: N/A"
 msgstr "လေ- N/A"
 
-msgid "Wind: {}"
-msgstr "လေ- {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "လေတိုက်နှုန်း- {} ကီလိုမီတာ/နာရီ {}"
-
-msgid "Wind: {} {} {}"
-msgstr "လေ- {} {} {}"
-
 msgid "Window transparency"
 msgstr "ပြတင်းပေါက် ပွင့်လင်းမြင်သာမှု"
 
 msgid "Yellow - Favorite 2"
 msgstr "အဝါ - အကြိုက်ဆုံး ၂"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "သင့်တွင် ဗားရှင်း {version} ထည့်သွင်းထားပြီးဖြစ်သည်။\n၎င်းကို ပြန်လည်ထည့်သွင်းလိုပါသလား။"
 
 msgid "Zoom In"
 msgstr "ချဲ့ကြည့်ပါ။"
@@ -1429,65 +1498,12 @@ msgstr "ချဲ့ကြည့်ပါ။"
 msgid "Zoom Out"
 msgstr "ချဲ့ကြည့်ပါ။"
 
-msgid "Zoom+"
-msgstr "ဇူးမ်+"
-
 msgid "Zoom-"
 msgstr "ချဲ့-"
 
 msgid "Zoom:"
 msgstr "ဇူးမ်-"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "ဇူးမ်+"
 
-msgid "{hours} h {mins} min"
-msgstr "{hours} နာရီ {mins} မိနစ်"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• ပင်မ\nအဖြစ် သိမ်းဆည်းရန် အပြာရောင်"
-"• ပင်မ\n"
-"အဖြစ် သိမ်းဆည်းရန် အပြာရောင်• ပင်မ\n"
-"အဖြစ် သိမ်းဆည်းရန် အပြာရောင်"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• မြို့ 500 ကိုခုန်ရန် CH+/CH-\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• အကြိုက်ဆုံး 1\nအဖြစ် သိမ်းဆည်းရန် အစိမ်းရောင်"
-"• အကြိုက်ဆုံး 1\n"
-"အဖြစ် သိမ်းဆည်းရန် အစိမ်းရောင်• အကြိုက်ဆုံး 1\n"
-"အဖြစ် သိမ်းဆည်းရန် အစိမ်းရောင်"
-
-msgid "• OK to select city\n"
-msgstr "• မြို့\nကို ရွေးရန် အိုကေ"
-"• မြို့\n"
-"ကို ရွေးရန် အိုကေ• မြို့\n"
-"ကို ရွေးရန် အိုကေ"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• ရှာဖွေမှုကီးဘုတ်ကိုဖွင့်ရန် အနီရောင်\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• လမ်းညွှန်ရန် မြှားခလုတ်များကို အသုံးပြုပါ\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• အကြိုက်ဆုံး 2\nအဖြစ် သိမ်းဆည်းရန် အဝါရောင်"
-"• အကြိုက်ဆုံး 2\n"
-"အဖြစ် သိမ်းဆည်းရန် အဝါရောင်• အကြိုက်ဆုံး 2\n"
-"အဖြစ် သိမ်းဆည်းရန် အဝါရောင်"
-
-msgid "← Frame"
-msgstr "← ဘောင်"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(နောက်ထပ်ဒေတာ မရရှိနိုင်ပါ)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== လမင်းအသေးစိတ် ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "ထောင့်အချင်း- {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "ထင်ရှားသော ပြင်းအား- N/A"

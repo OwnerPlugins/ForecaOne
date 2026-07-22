@@ -1,21 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# eo translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:54+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: eo <ekekaz@gmail.com>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} h {mins} min"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• BLU por konservi kiel Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- por salti 500 urbojn\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• VERDA por konservi kiel Favorita 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• Bone elekti urbo\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• RUĜA por malfermi serĉklavaron\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• Uzu sagoklavojn por navigi \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- por salti 100 urboj\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• FLAVA por konservi kiel Favorita 2\n"
+
+msgid "← Frame"
+msgstr "← Kadro"
 
 msgid "0 - Today"
 msgstr "0 - Hodiaŭ"
@@ -41,29 +67,14 @@ msgstr "6 - Hodiaŭ + 6 tagoj"
 msgid "7 - Today + 7 days"
 msgstr "7 - Hodiaŭ + 7 tagoj"
 
+msgid "7 Day Forecast"
+msgstr "7 Taga Prognozo"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - Hodiaŭ + 8 tagoj"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - Hodiaŭ + 9 tagoj"
-
-msgid "API credentials not configured."
-msgstr "API-akreditaĵoj ne agordis."
-
-msgid "API error"
-msgstr "API-eraro"
-
-msgid "API password"
-msgstr "API-pasvorto"
-
-msgid "API user"
-msgstr "API-uzanto"
-
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr ""
 
 msgid "Advanced"
 msgstr "Altnivela"
@@ -80,15 +91,35 @@ msgstr "Aĝo ekde novluno: {:.1f} tagoj"
 msgid "Age: N/A"
 msgstr "Aĝo: N/A"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "Angula diametro: {:.0f}″"
+
 msgid "Angular diameter: N/A"
 msgstr "Angula diametro: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "Angula diametro: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "API-agorda dosiero ne trovita!\n\nBonvolu krei dosieron:\n{0}\n\nkun viaj akreditaĵoj de Foreca API."
+
+msgid "API credentials not configured."
+msgstr "API-akreditaĵoj ne agordis."
+
+msgid "API error"
+msgstr "API-eraro"
+
+msgid "API password"
+msgstr "API-pasvorto"
+
+msgid "API user"
+msgstr "API-uzanto"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "Ŝajna grandeco: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "Asigni al Favorito 1"
@@ -126,6 +157,9 @@ msgstr "Berlino"
 msgid "Black Moon"
 msgstr "Nigra Luno"
 
+msgid "Blue"
+msgstr "Blua"
+
 msgid "Blue - Home"
 msgstr "Blua - Hejmo"
 
@@ -133,7 +167,7 @@ msgid "Blue Moon"
 msgstr "Blua Luno"
 
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburg"
 
 msgid "Bremen"
 msgstr "Bremeno"
@@ -145,10 +179,10 @@ msgid "Cancel"
 msgstr "Nuligi"
 
 msgid "Celsius, km/h, hPa"
-msgstr ""
+msgstr "Celsius, km/h, hPa"
 
 msgid "Changelog: {changelog}"
-msgstr "Ŝanĝprotokolo: {ŝanĝologo}"
+msgstr "Ŝanĝprotokolo: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "Ŝanĝoj validas tuj"
@@ -159,11 +193,14 @@ msgstr "Kontrolu ĝisdatigojn"
 msgid "Choose detail view"
 msgstr "Elektu detalan vidon"
 
+msgid "City list file not found!"
+msgstr "Urba listdosiero ne trovita!"
+
 msgid "City Selection"
 msgstr "Urba Elekto"
 
-msgid "City list file not found!"
-msgstr "Urba listdosiero ne trovita!"
+msgid "City Selection Help:\n\n"
+msgstr "Helpo pri Elekto de Urbo:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "Ĉu purigi Foreca One Temp Files?"
@@ -210,17 +247,14 @@ msgstr "Nuba, fulmotondroj kun pluvo"
 msgid "Cold (< 0°C)"
 msgstr "Malvarmo (< 0 °C)"
 
-msgid "Color Legend"
-msgstr "Kolora Legendo"
-
-msgid "Color Selector"
-msgstr "Kolora Elektilo"
-
 msgid "Color data"
 msgstr "Koloraj datumoj"
 
 msgid "Color legend"
 msgstr "Kolora legendo"
+
+msgid "Color Legend"
+msgstr "Kolora Legendo"
 
 msgid "Color name"
 msgstr "Kolora nomo"
@@ -228,8 +262,14 @@ msgstr "Kolora nomo"
 msgid "Color select"
 msgstr "Elektu koloron"
 
+msgid "Color Selector"
+msgstr "Kolora Elektilo"
+
 msgid "Condition: {}"
 msgstr "Kondiĉo: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "Agordi Foreca API-akreditaĵojn"
 
 msgid "Continents Weather Maps"
 msgstr "Veteraj Mapoj de Kontinentoj"
@@ -241,7 +281,7 @@ msgid "Could not fetch update information."
 msgstr "Ne eblis akiri ĝisdatigajn informojn."
 
 msgid "Could not initialize map API."
-msgstr "Ne eblis pravalorizi mapAPI."
+msgstr "Ne eblis pravalorigi mapAPI."
 
 msgid "Could not load forecast data"
 msgstr "Ne eblis ŝargi prognozajn datumojn"
@@ -256,7 +296,7 @@ msgid "Current weather and forecast for the next 10 days"
 msgstr "Nuna vetero kaj prognozo por la venontaj 10 tagoj"
 
 msgid "Current: {}"
-msgstr "Aktuala: {}"
+msgstr "Aktualo: {}"
 
 msgid "Czech Republic"
 msgstr "Ĉeĥio"
@@ -297,17 +337,20 @@ msgstr "Rospunkto: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "Rospunkto: N/A"
 
+msgid "Distance"
+msgstr "Distanco"
+
 msgid "Distance {} km"
 msgstr "Distanco {} km"
-
-msgid "Distance: %s"
-msgstr "Distanco: %s"
 
 msgid "Distance: {}"
 msgstr "Distanco: {}"
 
 msgid "Distance: {} km"
 msgstr "Distanco: {} km"
+
+msgid "Distance: %s"
+msgstr "Distanco: %s"
 
 msgid "Do you want to install it now?"
 msgstr "Ĉu vi volas instali ĝin nun?"
@@ -328,7 +371,7 @@ msgid "Downloading tiles..."
 msgstr "Elŝutante kahelojn..."
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "East Asia"
 msgstr "Orienta Azio"
@@ -352,7 +395,7 @@ msgid "Europe"
 msgstr "Eŭropo"
 
 msgid "European Weather Maps"
-msgstr "Eŭropaj Veteraj Mapoj"
+msgstr "Eŭropaj Vetermapoj"
 
 msgid "Evening"
 msgstr "Vespero"
@@ -373,7 +416,10 @@ msgid "Extreme / thunderstorms"
 msgstr "Ekstremaj / fulmotondroj"
 
 msgid "Fahrenheit, mph, inHg"
-msgstr ""
+msgstr "Fahrenheit, mph, inHg"
+
+msgid "Failed to write configuration file:\n%s"
+msgstr "Malsukcesis verki agordan dosieron:\n%s"
 
 msgid "Faster: {}s"
 msgstr "Pli rapide: {}s"
@@ -384,11 +430,11 @@ msgstr "Plej ŝatata 1"
 msgid "Favorite 2"
 msgstr "Plej ŝatata 2"
 
-msgid "Favorites Details"
-msgstr "Plej ŝatataj Detaloj"
-
 msgid "Favorites details"
 msgstr "Plej ŝatataj detaloj"
+
+msgid "Favorites Details"
+msgstr "Favoritaj Detaloj"
 
 msgid "Feels like"
 msgstr "Sentas kiel"
@@ -399,15 +445,6 @@ msgstr "Sentas kiel {}"
 msgid "Feels like {}{}"
 msgstr "Sentas kiel {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "Sentas kiel: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "Sentas kiel: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "Sentas kiel: N/A"
-
 msgid "Feels like: {}"
 msgstr "Sentas kiel: {}"
 
@@ -416,6 +453,15 @@ msgstr "Sentas kiel: {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "Sentas kiel: {}°C"
+
+msgid "Feels like: %d%s"
+msgstr "Sentas kiel: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "Sentas kiel: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "Sentas kiel: N/A"
 
 msgid "Finland"
 msgstr "Finnlando"
@@ -426,20 +472,23 @@ msgstr "Unua Kvarono"
 msgid "Fog"
 msgstr "Nebulo"
 
-msgid "Foreca API Setup"
-msgstr "Agordo de Foreca API"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API-akreditaĵoj ankoraŭ ne estas agorditaj. Bonvolu enigi ilin en la agorda ekrano."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API-agordoj sukcese konservitaj."
 
+msgid "Foreca API Setup"
+msgstr "Agordo de Foreca API"
+
 msgid "Foreca One"
 msgstr "Foreca Unu"
 
+msgid "Foreca One | Map {}"
+msgstr "Foreca Unu | Mapo {}"
+
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One Live Maps (API)"
 
 msgid "Foreca One Menu"
 msgstr "Foreca Unu Menuo"
@@ -447,23 +496,17 @@ msgstr "Foreca Unu Menuo"
 msgid "Foreca One No stations found"
 msgstr "Foreca One Neniuj stacioj trovitaj"
 
+msgid "Foreca One Setup"
+msgstr "Foreca One Agordo"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "Foreca One Stations: {} stacioj proksime ({})"
 
+msgid "Foreca One Weather and Forecast ver. %s"
+msgstr "Foreca One Weather and Forecast ver. %s"
+
 msgid "Foreca One Weather Forecast"
 msgstr "Foreca Unu Vetera Prognozo"
-
-msgid "Foreca One Weather and Forecast ver. %s"
-msgstr ""
-
-msgid "Foreca One | Map {}"
-msgstr "Foreca Unu | Mapo {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "Trovis %d urbojn loke por '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "Trovis %d urbojn interrete por '%s'"
 
 msgid "Frame →"
 msgstr "Kadro →"
@@ -494,6 +537,9 @@ msgstr "Britio"
 
 msgid "Greece"
 msgstr "Grekio"
+
+msgid "Green"
+msgstr "Verda"
 
 msgid "Green - Favorite 1"
 msgstr "Verda - Plej ŝatata 1"
@@ -534,14 +580,17 @@ msgstr "Varma (30-40 °C)"
 msgid "Hour Details"
 msgstr "Horaj Detaloj"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "Humideco"
 
-msgid "Humidity: %s%%"
-msgstr "Humideco: %s%%"
-
 msgid "Humidity: {}%"
 msgstr "Humideco: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "Humideco: %s%%"
 
 msgid "Hungary"
 msgstr "Hungario"
@@ -559,7 +608,7 @@ msgid "Image %(current)d/%(total)d – %(day)s"
 msgstr "Bildo %(current)d/%(total)d – %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "Bildo %(nuna)d/%(total)d – %(day)s (Paŭzita)"
+msgstr "Bildo %(current)d/%(total)d – %(day)s (Paŭzita)"
 
 msgid "Image not available"
 msgstr "Bildo ne havebla"
@@ -571,7 +620,7 @@ msgid "Increase Speed"
 msgstr "Pliigi Rapidon"
 
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 msgid "Info - About"
 msgstr "Info - Pri"
@@ -599,6 +648,9 @@ msgstr "Klavaro"
 
 msgid "Last Quarter"
 msgstr "Lasta Kvarono"
+
+msgid "Last update"
+msgstr "Lasta ĝisdatigo"
 
 msgid "Latvia"
 msgstr "Latvio"
@@ -651,9 +703,11 @@ msgstr "Lunaj fazoj de la venonta monato"
 msgid "Luxembourg"
 msgstr "Luksemburgio"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "Ŝajna grandeco: N/A"
+msgstr "Grandeco: N/A"
+
+msgid "Map {} selected"
+msgstr "Mapo {} elektita"
 
 msgid "Map & Tiles Loaded"
 msgstr "Mapo kaj Kaheloj Ŝargitaj"
@@ -663,9 +717,6 @@ msgstr "Mapo ŝarĝita"
 
 msgid "Map server"
 msgstr "Mapservilo"
-
-msgid "Map {} selected"
-msgstr "Mapo {} elektita"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "Meklenburgo-Antaŭpomerio"
@@ -709,12 +760,11 @@ msgstr "Modera pluvo"
 msgid "Month"
 msgstr "Monato"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "Luno detaloj"
-
 msgid "Moon details"
 msgstr "Luno detaloj"
+
+msgid "Moon Details"
+msgstr "Detaloj pri Luno"
 
 msgid "Moonrise: {}"
 msgstr "Lunoleviĝo: {}"
@@ -728,23 +778,23 @@ msgstr "Mateno"
 msgid "Mostly clear"
 msgstr "Plejparte klara"
 
-msgid "Move Down"
-msgstr "Movu Malsupren"
-
-msgid "Move Up"
-msgstr "Movu Supren"
-
 msgid "Move down"
 msgstr "Movu malsupren"
+
+msgid "Move Down"
+msgstr "Movu Malsupren"
 
 msgid "Move up"
 msgstr "Movu supren"
 
+msgid "Move Up"
+msgstr "Movu Supren"
+
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "Netherlands"
 msgstr "Nederlando"
@@ -758,26 +808,17 @@ msgstr "Nova versio {version} disponeblas."
 msgid "Next"
 msgstr "Poste"
 
-msgid "Next Image"
-msgstr "Sekva Bildo"
-
 msgid "Next frame"
 msgstr "Sekva kadro"
+
+msgid "Next Image"
+msgstr "Sekva Bildo"
 
 msgid "Next page"
 msgstr "Sekva paĝo"
 
 msgid "Next time"
 msgstr "Venontfoje"
-
-msgid "No Internet connection detected."
-msgstr "Neniu interreta konekto detektita."
-
-msgid "No OSM tiles"
-msgstr "Neniuj OSM-kaheloj"
-
-msgid "No cities found locally for '%s'"
-msgstr "Neniuj urboj trovitaj loke por '%s'"
 
 msgid "No city selected"
 msgstr "Neniu urbo elektita"
@@ -788,8 +829,14 @@ msgstr "Neniuj datumoj"
 msgid "No date available"
 msgstr "Neniu dato disponebla"
 
+msgid "No Internet connection detected."
+msgstr "Neniu interreta konekto detektita."
+
 msgid "No location selected"
 msgstr "Neniu loko elektita"
+
+msgid "No OSM tiles"
+msgstr "Neniuj OSM-kaheloj"
 
 msgid "No specific legend available."
 msgstr "Neniu specifa legendo havebla."
@@ -818,6 +865,9 @@ msgstr "Nordrejn-Vestfalio"
 msgid "Norway"
 msgstr "Norvegio"
 
+msgid "Ok - Details"
+msgstr "Bone - Detaloj"
+
 msgid "OK - Ext Info"
 msgstr "Bone - Eksteraj Informoj"
 
@@ -826,9 +876,6 @@ msgstr "Bone - Prognozo"
 
 msgid "OK - Open Map"
 msgstr "Bone - Malfermu Mapon"
-
-msgid "Ok - Details"
-msgstr "Bone - Detaloj"
 
 msgid "Open Keyboard"
 msgstr "Malfermu Klavaron"
@@ -875,17 +922,17 @@ msgstr "Nuba, fulmotondroj kun pluvo"
 msgid "Overnight"
 msgstr "Dum la nokto"
 
-msgid "Page Down"
-msgstr "Paĝo Malsupren"
-
-msgid "Page Up"
-msgstr "Paĝo Supre"
-
 msgid "Page down"
 msgstr "Paĝo malsupren"
 
+msgid "Page Down"
+msgstr "Paĝo Malsupren"
+
 msgid "Page up"
 msgstr "Paĝo supren"
+
+msgid "Page Up"
+msgstr "Paĝo Supre"
 
 msgid "Pan down"
 msgstr "Pan malsupren"
@@ -965,6 +1012,12 @@ msgstr "Premu RUĜAN por serĉi denove"
 msgid "Pressure"
 msgstr "Premo"
 
+msgid "Pressure: {}"
+msgstr "Premo: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "Premo: {} hPa"
+
 msgid "Pressure: %s"
 msgstr "Premo: %s"
 
@@ -974,23 +1027,17 @@ msgstr "Premo: %s hPa"
 msgid "Pressure: N/A"
 msgstr "Premo: N/A"
 
-msgid "Pressure: {}"
-msgstr "Premo: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "Premo: {} hPa"
-
 msgid "Prev"
 msgstr "Antaŭa"
 
 msgid "Previous"
 msgstr "Antaŭa"
 
-msgid "Previous Image"
-msgstr "Antaŭa Bildo"
-
 msgid "Previous frame"
 msgstr "Antaŭa kadro"
+
+msgid "Previous Image"
+msgstr "Antaŭa Bildo"
 
 msgid "Previous page"
 msgstr "Antaŭa paĝo"
@@ -1013,6 +1060,9 @@ msgstr "Pluvo: {:.1f} {}"
 msgid "RainViewer Radar"
 msgstr "RainViewer Radaro"
 
+msgid "Red"
+msgstr "Ruĝa"
+
 msgid "Red - Color select"
 msgstr "Ruĝa - Elekto de koloro"
 
@@ -1034,17 +1084,17 @@ msgstr "Dekstra sago - La sekvan tagon"
 msgid "Rise"
 msgstr "Leviĝu"
 
-msgid "Rise azimuth: N/A"
-msgstr "Altiĝo azimuto: N/A"
-
 msgid "Rise azimuth: {:.0f}°"
 msgstr "Altiĝo azimuto: {:.0f}°"
+
+msgid "Rise azimuth: N/A"
+msgstr "Altiĝo azimuto: N/A"
 
 msgid "Russia"
 msgstr "Rusio"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "Saarland"
 msgstr "Sarlando"
@@ -1060,6 +1110,9 @@ msgstr "Konservu"
 
 msgid "Save API settings"
 msgstr "Konservu API-agordojn"
+
+msgid "Save translation settings"
+msgstr "Konservu tradukajn agordojn"
 
 msgid "Saxony"
 msgstr "Saksio"
@@ -1079,14 +1132,11 @@ msgstr "Serĉu unue provas interrete, se malsukcesas uzas lokan liston."
 msgid "Search your City"
 msgstr "Serĉu vian Urbon"
 
-msgid "Searching for '%s'..."
-msgstr "Serĉante '%s'..."
-
 msgid "Select"
 msgstr "Elektu"
 
-msgid "Select Region"
-msgstr "Elektu Regionon"
+msgid "Select {} unit"
+msgstr "Elektu {} unuon"
 
 msgid "Select a city"
 msgstr "Elektu urbon"
@@ -1094,23 +1144,23 @@ msgstr "Elektu urbon"
 msgid "Select a map with OK"
 msgstr "Elektu mapon per OK"
 
+msgid "Select Region"
+msgstr "Elektu Regionon"
+
 msgid "Select unit system"
 msgstr "Elektu unuosistemon"
 
 msgid "Select wind unit"
 msgstr "Elektu ventounuon"
 
-msgid "Select {} unit"
-msgstr "Elektu {} unuon"
-
 msgid "Selected hour details"
 msgstr "Elektitaj horoj detaloj"
 
-msgid "Set azimuth: N/A"
-msgstr "Agordu azimuton: N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "Agordu azimuton: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "Agordu azimuton: N/A"
 
 msgid "Sets"
 msgstr "Aroj"
@@ -1172,20 +1222,14 @@ msgstr "Svedio"
 msgid "Switzerland"
 msgstr "Svislando"
 
+msgid "Target Language"
+msgstr "Cellingvo"
+
 msgid "Temp"
-msgstr ""
+msgstr "Temp"
 
 msgid "Temperature"
 msgstr "Temperaturo"
-
-msgid "Temperature: %d%s"
-msgstr "Temperaturo: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "Temperaturo: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "Temperaturo: N/A"
 
 msgid "Temperature: {}"
 msgstr "Temperaturo: {}"
@@ -1196,11 +1240,20 @@ msgstr "Temperaturo: {}{}"
 msgid "Temperature: {}°C"
 msgstr "Temperaturo: {}°C"
 
+msgid "Temperature: %d%s"
+msgstr "Temperaturo: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "Temperaturo: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "Temperaturo: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "Dankon {dankon} kaj aliaj amikoj pro sugestoj"
+msgstr "Dankon al {thanks} kaj aliaj amikoj pro sugestoj"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "La fora versio ({remote}) estas pli malnova ol la nuna ({nuna})."
+msgstr "La fora versio ({remote}) estas pli malnova ol la nuna ({current})."
 
 msgid "Thin upper cloud"
 msgstr "Maldika supra nubo"
@@ -1224,7 +1277,7 @@ msgid "Token expire hours"
 msgstr "Token eksvalidiĝas horoj"
 
 msgid "Token expire hours must be -1 or a positive number."
-msgstr "Tokenaj eksvalidaj horoj devas esti -1 aŭ pozitiva nombro."
+msgstr "Token-eksvalidiĝaj horoj devas esti -1 aŭ pozitiva nombro."
 
 msgid "Token expire hours must be a number."
 msgstr "Tokenaj eksvalidaj horoj devas esti nombro."
@@ -1235,23 +1288,20 @@ msgstr "Morgaŭ"
 msgid "Transit (culmination): {}"
 msgstr "Transiro (kulmino): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "Transira alteco: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "Transira alteco: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "Agordoj de travidebleco"
+msgid "Transit altitude: N/A"
+msgstr "Transira alteco: N/A"
+
+msgid "Translation Settings"
+msgstr "Tradukaj agordoj"
 
 msgid "Transparency level"
 msgstr "Nivelo de travidebleco"
 
-msgid "UV Index"
-msgstr "UV-Indekso"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "Agordoj de travidebleco"
 
 msgid "Unhealthy"
 msgstr "Nesana"
@@ -1275,7 +1325,7 @@ msgid "Up"
 msgstr "Supren"
 
 msgid "Up - Previous page"
-msgstr "Supre - Antaŭa paĝo"
+msgstr "Supren - Antaŭa paĝo"
 
 msgid "Update canceled."
 msgstr "Ĝisdatigo nuligita."
@@ -1286,17 +1336,14 @@ msgstr "Ĝisdatigo finiĝis. Bonvolu rekomenci Enigma2."
 msgid "Updated {}"
 msgstr "Ĝisdatigita {}"
 
-msgid "Updated: N/A"
-msgstr "Ĝisdatigita: N/A"
-
 msgid "Updated: {}"
 msgstr "Ĝisdatigita: {}"
 
+msgid "Updated: N/A"
+msgstr "Ĝisdatigita: N/A"
+
 msgid "Updating..."
 msgstr "Ĝisdatigante..."
-
-msgid "Use arrow keys to scroll"
-msgstr "Uzu sagoklavojn por rulumi"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "Uzu ← → por ŝanĝi la tempon | Bone por eliri"
@@ -1307,8 +1354,26 @@ msgstr "Uzu ←/→/↑/↓ por movi | Bone por eliri"
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "Uzu ▲/▼ por ŝanĝi, OK por elekti"
 
+msgid "Use arrow keys to scroll"
+msgstr "Uzu sagoklavojn por rulumi"
+
+msgid "Use Google Translate"
+msgstr "Uzu Google Translate"
+
 msgid "Using current time"
 msgstr "Uzante aktualan tempon"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV-Indekso"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "Tre forta pluvo"
@@ -1325,20 +1390,20 @@ msgstr "Tre malalta"
 msgid "Very unhealthy"
 msgstr "Tre malsana"
 
-msgid "Visibility: %s m"
-msgstr "Videbleco: %s m"
-
 msgid "Visibility: {} m"
 msgstr "Videbleco: {} m"
 
+msgid "Visibility: %s m"
+msgstr "Videbleco: %s m"
+
 msgid "W"
-msgstr ""
+msgstr "W"
 
 msgid "Waning Crescent"
 msgstr "Malkreskanta Lunarko"
 
 msgid "Waning Gibbous"
-msgstr "Malkreskanta Gibozo"
+msgstr "Malkreskanta Giba"
 
 msgid "Warm (20-30°C)"
 msgstr "Varma (20-30 °C)"
@@ -1347,7 +1412,7 @@ msgid "Waxing Crescent"
 msgstr "Veksanta Lunarko"
 
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Waxing Gibbous"
 
 msgid "Weather"
 msgstr "Vetero"
@@ -1358,11 +1423,11 @@ msgstr "Vetermapo"
 msgid "Weather Maps"
 msgstr "Veteraj Mapoj"
 
-msgid "Weather Maps & Satellite"
-msgstr "Veteraj Mapoj kaj Satelito"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "Veteraj Mapoj (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "Veteraj Mapoj kaj Satelito"
 
 msgid "Weather Maps Slideshow"
 msgstr "Bildprezento pri Veteraj Mapoj"
@@ -1382,14 +1447,14 @@ msgstr "Semajna Prognozo"
 msgid "Wind"
 msgstr "Vento"
 
+msgid "Wind direction"
+msgstr "Ventodirekto"
+
 msgid "Wind Direction today"
 msgstr "Ventodirekto hodiaŭ"
 
 msgid "Wind Direction tomorrow"
 msgstr "Ventodirekto morgaŭ"
-
-msgid "Wind direction"
-msgstr "Ventodirekto"
 
 msgid "Wind speed"
 msgstr "Ventorapideco"
@@ -1400,6 +1465,15 @@ msgstr "Ventorapideco {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "Ventorapideco: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "Vento: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "Vento: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "Vento: {} km/h {}"
+
 msgid "Wind: %d %s %s"
 msgstr "Vento: %d %s %s"
 
@@ -1409,29 +1483,20 @@ msgstr "Vento: %s km/h %s"
 msgid "Wind: N/A"
 msgstr "Vento: N/A"
 
-msgid "Wind: {}"
-msgstr "Vento: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "Vento: {} km/h {}"
-
-msgid "Wind: {} {} {}"
-msgstr "Vento: {} {} {}"
-
 msgid "Window transparency"
 msgstr "Fenestra travidebleco"
 
 msgid "Yellow - Favorite 2"
 msgstr "Flava - Plej ŝatata 2"
 
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "Vi jam havas instalitan version {version}.\nĈu vi volas reinstali ĝin?"
+
 msgid "Zoom In"
 msgstr "Zoom En"
 
 msgid "Zoom Out"
-msgstr ""
-
-msgid "Zoom+"
-msgstr ""
+msgstr "Zoom Out"
 
 msgid "Zoom-"
 msgstr "Zomi-"
@@ -1439,44 +1504,6 @@ msgstr "Zomi-"
 msgid "Zoom:"
 msgstr "Zomi:"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "Zoom+"
 
-msgid "{hours} h {mins} min"
-msgstr "{horoj} h {min.} min"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• BLU por konservi kiel Hejmo\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- por salti 500 urbojn\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• VERDA por konservi kiel Favorita 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• Bone elekti urbon\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• RUĜA por malfermi serĉklavaron\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• Uzu sagoklavojn por navigi\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• FLAVA por konservi kiel Favorita 2\n"
-
-msgid "← Frame"
-msgstr "← Kadro"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(Pliaj datumoj ne haveblaj)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== LUNO-DETALOJ ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "Angula diametro: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "Ŝajna grandeco: N/A"

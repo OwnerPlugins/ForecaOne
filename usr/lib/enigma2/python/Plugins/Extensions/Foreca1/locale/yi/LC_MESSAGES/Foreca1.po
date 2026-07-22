@@ -1,20 +1,47 @@
-# Foreca4 translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# yi translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreca4\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-05 17:55+0100\n"
-"Last-Translator: root <EMAIL@ADDRESS>\n"
-"Language-Team: Yiddish\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: yi <ekekaz@gmail.com>\n"
 "Language: yi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "{hours} h {mins} min"
+msgstr "{hours} שעה {mins} מין"
+
+msgid "• BLUE to save as Home\n"
+msgstr "• בלוי צו ראַטעווען ווי Home\n"
+
+msgid "• CH+/CH- to jump 500 cities\n"
+msgstr "• CH+/CH- צו שפּרינגען 500 שטעט\n"
+
+msgid "• GREEN to save as Favorite 1\n"
+msgstr "• גרין צו ראַטעווען ווי באַליבסטע 1\n"
+
+msgid "• OK to select city\n"
+msgstr "• גוט צו סעלעקטירן city\n"
+
+msgid "• RED to open search keyboard\n"
+msgstr "• רויט צו עפענען זוכן קלאַוויאַטור\n"
+
+msgid "• Use arrow keys to navigate\n"
+msgstr "• ניצן פייַל קיז צו נאַוויגירן \n"
+
+msgid "• VOL+/VOL- to jump 100 cities\n\n"
+msgstr "• VOL+/VOL- צו שפּרינגען 100 שטעט\n\n"
+
+msgid "• YELLOW to save as Favorite 2\n"
+msgstr "• געל צו ראַטעווען ווי באַליבסטע 2\n"
+
+msgid "← Frame"
+msgstr "← ראַם"
 
 msgid "0 - Today"
 msgstr "0 - הייַנט"
@@ -40,29 +67,14 @@ msgstr "6 - הייַנט + 6 טעג"
 msgid "7 - Today + 7 days"
 msgstr "7 - הייַנט + 7 טעג"
 
+msgid "7 Day Forecast"
+msgstr "7 טאָג פאָרויסזאָגן"
+
 msgid "8 - Today + 8 days"
 msgstr "8 - הייַנט + 8 טעג"
 
 msgid "9 - Today + 9 days"
 msgstr "9 - הייַנט + 9 טעג"
-
-msgid "API credentials not configured."
-msgstr "API קראַדענטשאַלז ניט קאַנפיגיערד."
-
-msgid "API error"
-msgstr "אַפּי טעות"
-
-msgid "API password"
-msgstr "אַפּי פּאַראָל"
-
-msgid "API user"
-msgstr "אַפּי באַניצער"
-
-msgid "AQI {}"
-msgstr ""
-
-msgid "AQI: N/A"
-msgstr ""
 
 msgid "Advanced"
 msgstr "אַוואַנסירטע"
@@ -74,20 +86,40 @@ msgid "Afternoon"
 msgstr "נאָכמיטאָג"
 
 msgid "Age since New Moon: {:.1f} days"
-msgstr "עלטער זינט ניו לבנה: {:.1ף} טעג"
+msgstr "עלטער זינט ניו לבנה: {:.1f} טעג"
 
 msgid "Age: N/A"
 msgstr "עלטער: N/A"
 
+msgid "Angular diameter: {:.0f}″"
+msgstr "ווינקלדיק דיאַמעטער: {:.0f} ″"
+
 msgid "Angular diameter: N/A"
 msgstr "ווינקלדיק דיאַמעטער: N/A"
 
-#, fuzzy
-msgid "Angular diameter: {:.0f}″"
-msgstr "ווינקלדיק דיאַמעטער: {:.0f}"
+msgid "API configuration file not found!\n\nPlease create file:\n{0}\n\nwith your Foreca API credentials."
+msgstr "אַפּי קאַנפיגיעריישאַן טעקע ניט געפונען!\n\nביטע שאַפֿן טעקע:\n{0}\n\nמיט דיין Foreca API קראַדענטשאַלז."
+
+msgid "API credentials not configured."
+msgstr "API קראַדענטשאַלז ניט קאַנפיגיערד."
+
+msgid "API error"
+msgstr "אַפּי טעות"
+
+msgid "API password"
+msgstr "אַפּי פּאַראָל"
+
+msgid "API user"
+msgstr "API באַניצער"
 
 msgid "Apparent magnitude: {:.2f}"
 msgstr "קלאָר מאַגנאַטוד: {:.2f}"
+
+msgid "AQI {}"
+msgstr "AQI {}"
+
+msgid "AQI: N/A"
+msgstr "AQI: N/A"
 
 msgid "Assign to Favorite 1"
 msgstr "באַשטימען צו באַליבסטע 1"
@@ -125,6 +157,9 @@ msgstr "בערלין"
 msgid "Black Moon"
 msgstr "שוואַרץ לבנה"
 
+msgid "Blue"
+msgstr "בלוי"
+
 msgid "Blue - Home"
 msgstr "בלוי - היים"
 
@@ -147,7 +182,7 @@ msgid "Celsius, km/h, hPa"
 msgstr "סעלסיוס, קילאמעטער/ה, הפּאַ"
 
 msgid "Changelog: {changelog}"
-msgstr "טשאַנגעלאָג: {טשאַנגעלאָג}"
+msgstr "טשאַנגעלאָג: {changelog}"
 
 msgid "Changes apply immediately"
 msgstr "ענדערונגען צולייגן מיד"
@@ -158,11 +193,14 @@ msgstr "קוק פֿאַר דערהייַנטיקונגען"
 msgid "Choose detail view"
 msgstr "קלייַבן דעטאַל מיינונג"
 
+msgid "City list file not found!"
+msgstr "שטאָט רשימה טעקע ניט געפֿונען!"
+
 msgid "City Selection"
 msgstr "שטאָט סעלעקציע"
 
-msgid "City list file not found!"
-msgstr "שטאָט רשימה טעקע ניט געפֿונען!"
+msgid "City Selection Help:\n\n"
+msgstr "שטאָט סעלעקציע הילף:\n\n"
 
 msgid "Cleanup Foreca One Temp Files?"
 msgstr "קלינאַפּ פאָרעקאַ איין טעמפּ טעקעס?"
@@ -207,13 +245,7 @@ msgid "Cloudy, thunderstorms with rain"
 msgstr "פארוואלקענט, טאנדערשטורמען מיט רעגן"
 
 msgid "Cold (< 0°C)"
-msgstr "קאַלט (<0°C)"
-
-msgid "Color Legend"
-msgstr "קאָליר לעגענד"
-
-msgid "Color Selector"
-msgstr "קאָליר סעלעקטאָר"
+msgstr "קאלט (<0°C)"
 
 msgid "Color data"
 msgstr "קאָליר דאַטן"
@@ -221,14 +253,23 @@ msgstr "קאָליר דאַטן"
 msgid "Color legend"
 msgstr "קאָליר לעגענדע"
 
+msgid "Color Legend"
+msgstr "קאָליר לעגענד"
+
 msgid "Color name"
 msgstr "קאָליר נאָמען"
 
 msgid "Color select"
 msgstr "קאָליר אויסקלייַבן"
 
+msgid "Color Selector"
+msgstr "קאָליר סעלעקטאָר"
+
 msgid "Condition: {}"
 msgstr "צושטאַנד: {}"
+
+msgid "Configure Foreca API credentials"
+msgstr "קאַנפיגיער פאָרעקאַ אַפּי קראַדענטשאַלז"
 
 msgid "Continents Weather Maps"
 msgstr "קאָנטינענץ וועטער מאַפּס"
@@ -296,17 +337,20 @@ msgstr "טויפּונקט: %s°C"
 msgid "Dewpoint: N/A"
 msgstr "טויפּאָינט: N/A"
 
+msgid "Distance"
+msgstr "דיסטאַנסע"
+
 msgid "Distance {} km"
 msgstr "דיסטאַנסע {} קילאמעטער"
-
-msgid "Distance: %s"
-msgstr "דיסטאַנסע: %s"
 
 msgid "Distance: {}"
 msgstr "דיסטאַנסע: {}"
 
 msgid "Distance: {} km"
 msgstr "דיסטאַנסע: {} קילאמעטער"
+
+msgid "Distance: %s"
+msgstr "דיסטאַנסע: %s"
 
 msgid "Do you want to install it now?"
 msgstr "צי איר ווילן צו ינסטאַלירן עס איצט?"
@@ -327,7 +371,7 @@ msgid "Downloading tiles..."
 msgstr "דאַונלאָודינג טיילז ..."
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "East Asia"
 msgstr "מזרח אזיע"
@@ -374,6 +418,9 @@ msgstr "עקסטרעם / טאַנדערסטאָרמז"
 msgid "Fahrenheit, mph, inHg"
 msgstr "פערנהייט, מ.פ.ש, אינהג"
 
+msgid "Failed to write configuration file:\n%s"
+msgstr "ניט אַנדערש צו שרייַבן קאַנפיגיעריישאַן טעקע:\n%s"
+
 msgid "Faster: {}s"
 msgstr "שנעלער: {}ס"
 
@@ -383,11 +430,11 @@ msgstr "באַליבסטע 1"
 msgid "Favorite 2"
 msgstr "באַליבסטע 2"
 
-msgid "Favorites Details"
-msgstr "פאַוואָריטעס דעטאַילס"
-
 msgid "Favorites details"
 msgstr "פאַוואָריטעס פרטים"
+
+msgid "Favorites Details"
+msgstr "פאַוואָריטעס דעטאַילס"
 
 msgid "Feels like"
 msgstr "פילז ווי"
@@ -398,15 +445,6 @@ msgstr "פילז ווי {}"
 msgid "Feels like {}{}"
 msgstr "פילז ווי {}{}"
 
-msgid "Feels like: %d%s"
-msgstr "פילז ווי: %d%s"
-
-msgid "Feels like: %s°C"
-msgstr "פילז ווי: %s°C"
-
-msgid "Feels like: N/A"
-msgstr "פילז ווי: N/A"
-
 msgid "Feels like: {}"
 msgstr "פילז ווי: {}"
 
@@ -415,6 +453,15 @@ msgstr "פילז ווי: {}{}"
 
 msgid "Feels like: {}°C"
 msgstr "פילז ווי: {} °C"
+
+msgid "Feels like: %d%s"
+msgstr "פילז ווי: %d%s"
+
+msgid "Feels like: %s°C"
+msgstr "פילז ווי: %s°C"
+
+msgid "Feels like: N/A"
+msgstr "פילז ווי: N/A"
 
 msgid "Finland"
 msgstr "פינלאַנד"
@@ -425,20 +472,23 @@ msgstr "ערשטער פערטל"
 msgid "Fog"
 msgstr "נעפּל"
 
-msgid "Foreca API Setup"
-msgstr "פאָרעקאַ אַפּי סעטאַפּ"
-
 msgid "Foreca API credentials are not configured yet. Please enter them in the setup screen."
 msgstr "Foreca API קראַדענטשאַלז זענען נישט קאַנפיגיערד נאָך. ביטע אַרייַן זיי אין די סעטאַפּ פאַרשטעלן."
 
 msgid "Foreca API settings saved successfully."
 msgstr "Foreca API סעטטינגס געראטעוועט הצלחה."
 
+msgid "Foreca API Setup"
+msgstr "פאָרעקאַ אַפּי סעטאַפּ"
+
 msgid "Foreca One"
 msgstr "פאָרעקאַ איין"
 
+msgid "Foreca One | Map {}"
+msgstr "פאָרעקאַ איין | מאַפּע {}"
+
 msgid "Foreca One Live Maps (API)"
-msgstr ""
+msgstr "Foreca One Live Maps (API)"
 
 msgid "Foreca One Menu"
 msgstr "פאָרעקאַ איין מעניו"
@@ -446,23 +496,17 @@ msgstr "פאָרעקאַ איין מעניו"
 msgid "Foreca One No stations found"
 msgstr "פאָרעקאַ איין קיין סטיישאַנז געפונען"
 
+msgid "Foreca One Setup"
+msgstr "פאָרעקאַ איין סעטאַפּ"
+
 msgid "Foreca One Stations: {} stations nearby ({})"
 msgstr "פאָרעקאַ איין סטיישאַנז: {} סטיישאַנז נירביי ({})"
-
-msgid "Foreca One Weather Forecast"
-msgstr "פאָרעקאַ איין וועטער פאָרעקאַסט"
 
 msgid "Foreca One Weather and Forecast ver. %s"
 msgstr "Foreca One וועטער און פאָרעקאַסט ווער. %s"
 
-msgid "Foreca One | Map {}"
-msgstr "פאָרעקאַ איין | מאַפּע {}"
-
-msgid "Found %d cities locally for '%s'"
-msgstr "געפונען %d שטעט לאָוקאַלי פֿאַר '%s'"
-
-msgid "Found %d cities online for '%s'"
-msgstr "געפונען %d שטעט אָנליין פֿאַר '%s'"
+msgid "Foreca One Weather Forecast"
+msgstr "פאָרעקאַ איין וועטער פאָרעקאַסט"
 
 msgid "Frame →"
 msgstr "ראַם →"
@@ -480,7 +524,7 @@ msgid "Gale force (>60 km/h)"
 msgstr "גאַלע קראַפט (> 60 קילאמעטער / ה)"
 
 msgid "German States Weather Maps"
-msgstr "די דייַטש שטאַטן וועטער מאַפּס"
+msgstr "דייטשלאנד וועטער מאַפּס"
 
 msgid "Germany"
 msgstr "דייטשלאנד"
@@ -493,6 +537,9 @@ msgstr "גרויס בריטאַן"
 
 msgid "Greece"
 msgstr "גריכנלאנד"
+
+msgid "Green"
+msgstr "גרין"
 
 msgid "Green - Favorite 1"
 msgstr "גרין - באַליבסטע 1"
@@ -533,14 +580,17 @@ msgstr "הייס (30-40 °C)"
 msgid "Hour Details"
 msgstr "שעה דעטאַילס"
 
+msgid "HTML"
+msgstr "HTML"
+
 msgid "Humidity"
 msgstr "הומידיטי"
 
-msgid "Humidity: %s%%"
-msgstr "הומידיטי: %s %%"
-
 msgid "Humidity: {}%"
 msgstr "הומידיטי: {}%"
+
+msgid "Humidity: %s%%"
+msgstr "הומידיטי: %s %%"
 
 msgid "Hungary"
 msgstr "אונגארן"
@@ -549,16 +599,16 @@ msgid "Ice / frost"
 msgstr "אייז / פראָסט"
 
 msgid "Illumination"
-msgstr ""
+msgstr "Illumination"
 
 msgid "Illumination: {:.1f}%"
 msgstr "יללומינאַציע: {:.1f}%"
 
 msgid "Image %(current)d/%(total)d – %(day)s"
-msgstr "בילד %(קראַנט) ד/%(גאַנץ) ד – %(טאָג) s"
+msgstr "בילד %(current)d/%(total)d - %(day)s"
 
 msgid "Image %(current)d/%(total)d – %(day)s (Paused)"
-msgstr "בילד %(קראַנט) ד/%(גאַנץ) ד – %(טאָג) s (פּאַוז)"
+msgstr "בילד %(current)d/%(total)d - %(day)s (פּאַוזד)"
 
 msgid "Image not available"
 msgstr "בילד ניט בנימצא"
@@ -598,6 +648,9 @@ msgstr "קלאַוויאַטור"
 
 msgid "Last Quarter"
 msgstr "לעצטע פערטל"
+
+msgid "Last update"
+msgstr "לעצטע דערהייַנטיקן"
 
 msgid "Latvia"
 msgstr "לאַטוויאַ"
@@ -650,9 +703,11 @@ msgstr "לונער פייזאַז פון ווייַטער חודש"
 msgid "Luxembourg"
 msgstr "לוקסעמבאָורג"
 
-#, fuzzy
 msgid "Magnitude: N/A"
-msgstr "קלאָר מאַגנאַטוד: N/A"
+msgstr "גרייס: N/A"
+
+msgid "Map {} selected"
+msgstr "מאַפּע {} אויסגעקליבן"
 
 msgid "Map & Tiles Loaded"
 msgstr "מאַפּע & טילעס לאָודיד"
@@ -662,9 +717,6 @@ msgstr "מאַפּע לאָודיד"
 
 msgid "Map server"
 msgstr "מאַפּע סערווער"
-
-msgid "Map {} selected"
-msgstr "מאַפּע {} אויסגעקליבן"
 
 msgid "Mecklenburg-Vorpommern"
 msgstr "מעקלענבורג-פארפאמערן"
@@ -708,12 +760,11 @@ msgstr "מעסיק רעגן"
 msgid "Month"
 msgstr "חודש"
 
-#, fuzzy
-msgid "Moon Details"
-msgstr "לבנה פרטים"
-
 msgid "Moon details"
 msgstr "לבנה פרטים"
+
+msgid "Moon Details"
+msgstr "לבנה דעטאַילס"
 
 msgid "Moonrise: {}"
 msgstr "מאָאָנריסע: {}"
@@ -727,23 +778,23 @@ msgstr "מאָרגן"
 msgid "Mostly clear"
 msgstr "מערסטנס קלאָר"
 
-msgid "Move Down"
-msgstr "מאַך אַראָפּ"
-
-msgid "Move Up"
-msgstr "מאַך אַרויף"
-
 msgid "Move down"
 msgstr "מאַך אַראָפּ"
 
+msgid "Move Down"
+msgstr "מאַך אַראָפּ"
+
 msgid "Move up"
+msgstr "מאַך אַרויף"
+
+msgid "Move Up"
 msgstr "מאַך אַרויף"
 
 msgid "N"
 msgstr "נ"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "Netherlands"
 msgstr "נעטהערלאַנדס"
@@ -752,31 +803,22 @@ msgid "New Moon"
 msgstr "ניו לבנה"
 
 msgid "New version {version} is available."
-msgstr "נייַע ווערסיע {version} איז בארעכטיגט."
+msgstr "די נייַע ווערסיע {version} איז בארעכטיגט."
 
 msgid "Next"
 msgstr "ווייַטער"
 
-msgid "Next Image"
-msgstr "ווייַטער בילד"
-
 msgid "Next frame"
 msgstr "ווייַטער ראַם"
+
+msgid "Next Image"
+msgstr "ווייַטער בילד"
 
 msgid "Next page"
 msgstr "ווייַטער בלאַט"
 
 msgid "Next time"
 msgstr "ווייַטער מאָל"
-
-msgid "No Internet connection detected."
-msgstr "קיין אינטערנעט פֿאַרבינדונג דיטעקטאַד."
-
-msgid "No OSM tiles"
-msgstr "קיין OSM טיילז"
-
-msgid "No cities found locally for '%s'"
-msgstr "קיין שטעט געפונען לאָוקאַלי פֿאַר '%s'"
 
 msgid "No city selected"
 msgstr "קיין שטאָט אויסגעקליבן"
@@ -787,8 +829,14 @@ msgstr "קיין דאַטן"
 msgid "No date available"
 msgstr "קיין דאַטע בנימצא"
 
+msgid "No Internet connection detected."
+msgstr "קיין אינטערנעט פֿאַרבינדונג דיטעקטאַד."
+
 msgid "No location selected"
 msgstr "קיין אָרט אויסגעקליבן"
+
+msgid "No OSM tiles"
+msgstr "קיין OSM טיילז"
 
 msgid "No specific legend available."
 msgstr "קיין ספּעציפיש לעגענדע בנימצא."
@@ -817,6 +865,9 @@ msgstr "צפון ריין-וועסטפאליע"
 msgid "Norway"
 msgstr "נארוועגיע"
 
+msgid "Ok - Details"
+msgstr "גוט - דעטאַילס"
+
 msgid "OK - Ext Info"
 msgstr "OK - עקסט אינפֿאָרמאַציע"
 
@@ -825,9 +876,6 @@ msgstr "גוט - פאָרויסזאָגן"
 
 msgid "OK - Open Map"
 msgstr "OK - עפֿן מאַפּע"
-
-msgid "Ok - Details"
-msgstr "גוט - דעטאַילס"
 
 msgid "Open Keyboard"
 msgstr "עפֿן קלאַוויאַטור"
@@ -874,17 +922,17 @@ msgstr "פארוואלקענט, טאנדערשטורמען מיט רעגן"
 msgid "Overnight"
 msgstr "יבערנאַכטיק"
 
-msgid "Page Down"
-msgstr ""
-
-msgid "Page Up"
-msgstr ""
-
 msgid "Page down"
 msgstr "בלאַט אַראָפּ"
 
+msgid "Page Down"
+msgstr "Page Down"
+
 msgid "Page up"
 msgstr "בלאַט אַרויף"
+
+msgid "Page Up"
+msgstr "Page Up"
 
 msgid "Pan down"
 msgstr "פּאַן אַראָפּ"
@@ -923,7 +971,7 @@ msgid "Partly cloudy, possible thunderstorms with rain"
 msgstr "טייל פארוואלקענט, מעגליכע טאנדערשטורמען מיט רעגן"
 
 msgid "Perigee"
-msgstr ""
+msgstr "Perigee"
 
 msgid "Phase"
 msgstr "פאַסע"
@@ -964,6 +1012,12 @@ msgstr "דריקן רויט צו זוכן ווידער"
 msgid "Pressure"
 msgstr "דרוק"
 
+msgid "Pressure: {}"
+msgstr "דרוק: {}"
+
+msgid "Pressure: {} hPa"
+msgstr "דרוק: {} הפּאַ"
+
 msgid "Pressure: %s"
 msgstr "דרוק: %s"
 
@@ -973,23 +1027,17 @@ msgstr "דרוק: %s hPa"
 msgid "Pressure: N/A"
 msgstr "דרוק: N/A"
 
-msgid "Pressure: {}"
-msgstr "דרוק: {}"
-
-msgid "Pressure: {} hPa"
-msgstr "דרוק: {} הפּאַ"
-
 msgid "Prev"
-msgstr ""
+msgstr "Prev"
 
 msgid "Previous"
 msgstr "פֿריִערדיקע"
 
-msgid "Previous Image"
-msgstr "פֿריִערדיקע בילד"
-
 msgid "Previous frame"
 msgstr "פֿריִערדיקע ראַם"
+
+msgid "Previous Image"
+msgstr "פֿריִערדיקע בילד"
 
 msgid "Previous page"
 msgstr "פֿריִערדיקע בלאַט"
@@ -1007,10 +1055,13 @@ msgid "Rain prob.: N/A"
 msgstr "רעגן פּראָב.: N/A"
 
 msgid "Rain: {:.1f} {}"
-msgstr "רעגן: {:.1ף} {}"
+msgstr "רעגן: {:.1f} {}"
 
 msgid "RainViewer Radar"
-msgstr "RainViewer ראַדאַר"
+msgstr "RainViewer Radar"
+
+msgid "Red"
+msgstr "רויט"
 
 msgid "Red - Color select"
 msgstr "רויט - קאָליר אויסקלייַבן"
@@ -1033,11 +1084,11 @@ msgstr "רעכט פייַל - ווייַטער טאָג"
 msgid "Rise"
 msgstr "שטיי"
 
+msgid "Rise azimuth: {:.0f}°"
+msgstr "העכערונג אַזימוט: {:.0f}°"
+
 msgid "Rise azimuth: N/A"
 msgstr "העכערונג אַזימוט: N/A"
-
-msgid "Rise azimuth: {:.0f}°"
-msgstr "העכערונג אזימוט: {:.0f}°"
 
 msgid "Russia"
 msgstr "רוסלאַנד"
@@ -1060,6 +1111,9 @@ msgstr "היט"
 msgid "Save API settings"
 msgstr "היט אַפּי סעטטינגס"
 
+msgid "Save translation settings"
+msgstr "היט איבערזעצונג סעטטינגס"
+
 msgid "Saxony"
 msgstr "סאַקסאָני"
 
@@ -1078,14 +1132,11 @@ msgstr "זוכן ערשטער פרוווט אָנליין, אויב פיילז �
 msgid "Search your City"
 msgstr "זוכן דיין שטאָט"
 
-msgid "Searching for '%s'..."
-msgstr "זוכן פֿאַר '%s'..."
-
 msgid "Select"
 msgstr "אויסקלייַבן"
 
-msgid "Select Region"
-msgstr "אויסקלייַבן געגנט"
+msgid "Select {} unit"
+msgstr "אויסקלייַבן {} אַפּאַראַט"
 
 msgid "Select a city"
 msgstr "אויסקלייַבן אַ שטאָט"
@@ -1093,23 +1144,23 @@ msgstr "אויסקלייַבן אַ שטאָט"
 msgid "Select a map with OK"
 msgstr "אויסקלייַבן אַ מאַפּע מיט OK"
 
+msgid "Select Region"
+msgstr "אויסקלייַבן געגנט"
+
 msgid "Select unit system"
 msgstr "אויסקלייַבן אַפּאַראַט סיסטעם"
 
 msgid "Select wind unit"
 msgstr "אויסקלייַבן ווינט אַפּאַראַט"
 
-msgid "Select {} unit"
-msgstr "אויסקלייַבן {} אַפּאַראַט"
-
 msgid "Selected hour details"
 msgstr "אויסגעקליבן שעה פרטים"
 
-msgid "Set azimuth: N/A"
-msgstr "שטעלן אַזימוט: N/A"
-
 msgid "Set azimuth: {:.0f}°"
 msgstr "שטעלן אַזימוט: {:.0f}°"
+
+msgid "Set azimuth: N/A"
+msgstr "שטעלן אַזימוט: N/A"
 
 msgid "Sets"
 msgstr "שטעלט"
@@ -1171,20 +1222,14 @@ msgstr "שוועדן"
 msgid "Switzerland"
 msgstr "שווייץ"
 
+msgid "Target Language"
+msgstr "ציל שפּראַך"
+
 msgid "Temp"
 msgstr "טעמפּ"
 
 msgid "Temperature"
 msgstr "טעמפּעראַטור"
-
-msgid "Temperature: %d%s"
-msgstr "טעמפּעראַטור: %d%s"
-
-msgid "Temperature: %s°C"
-msgstr "טעמפּעראַטור: %s°C"
-
-msgid "Temperature: N/A"
-msgstr "טעמפּעראַטור: N/A"
 
 msgid "Temperature: {}"
 msgstr "טעמפּעראַטור: {}"
@@ -1195,11 +1240,20 @@ msgstr "טעמפּעראַטור: {}{}"
 msgid "Temperature: {}°C"
 msgstr "טעמפּעראַטור: {} °C"
 
+msgid "Temperature: %d%s"
+msgstr "טעמפּעראַטור: %d%s"
+
+msgid "Temperature: %s°C"
+msgstr "טעמפּעראַטור: %s°C"
+
+msgid "Temperature: N/A"
+msgstr "טעמפּעראַטור: N/A"
+
 msgid "Thanks {thanks} and other friends for suggestions"
-msgstr "דאַנקען {דאַנק} און אנדערע פרענדז פֿאַר פֿירלייגן"
+msgstr "דאַנקען {thanks} און אנדערע פרענדז פֿאַר פֿירלייגן"
 
 msgid "The remote version ({remote}) is older than the current one ({current})."
-msgstr "די ווייַט ווערסיע ({ רימאָוט}) איז עלטער ווי די קראַנט ווערסיע ({Current})."
+msgstr "די ווייַט ווערסיע ({remote}) איז עלטער ווי די קראַנט ווערסיע ({current})."
 
 msgid "Thin upper cloud"
 msgstr "דין אויבערשטער וואָלקן"
@@ -1234,23 +1288,20 @@ msgstr "מאָרגן"
 msgid "Transit (culmination): {}"
 msgstr "דורכפאָר (קאַלמאַניישאַן): {}"
 
-msgid "Transit altitude: N/A"
-msgstr "דורכפאָר הייך: N/A"
-
 msgid "Transit altitude: {:.0f}°"
 msgstr "דורכפאָר הייך: {:.0f}°"
 
-msgid "Transparency Settings"
-msgstr "דורכזעיקייַט סעטטינגס"
+msgid "Transit altitude: N/A"
+msgstr "דורכפאָר הייך: N/A"
+
+msgid "Translation Settings"
+msgstr "איבערזעצונג סעטטינגס"
 
 msgid "Transparency level"
 msgstr "דורכזעיקייַט מדרגה"
 
-msgid "UV Index"
-msgstr "UV אינדעקס"
-
-msgid "UV N/A"
-msgstr ""
+msgid "Transparency Settings"
+msgstr "דורכזעיקייַט סעטטינגס"
 
 msgid "Unhealthy"
 msgstr "אַנכעלטי"
@@ -1285,17 +1336,14 @@ msgstr "דערהייַנטיקן געענדיקט. ביטע ריסטאַרט Eni
 msgid "Updated {}"
 msgstr "דערהייַנטיקט {}"
 
-msgid "Updated: N/A"
-msgstr "דערהייַנטיקט: N/A"
-
 msgid "Updated: {}"
 msgstr "דערהייַנטיקט: {}"
 
+msgid "Updated: N/A"
+msgstr "דערהייַנטיקט: N/A"
+
 msgid "Updating..."
 msgstr "דערהייַנטיקט ..."
-
-msgid "Use arrow keys to scroll"
-msgstr "ניצן פייַל קיז צו מעגילע"
 
 msgid "Use ← → to change time | OK to exit"
 msgstr "ניצן ← → צו טוישן צייט | גוט צו אַרויסגאַנג"
@@ -1306,8 +1354,26 @@ msgstr "ניצן ←/→/↑/↓ צו רירן | גוט צו אַרויסגאַ�
 msgid "Use ▲/▼ to change, OK to select"
 msgstr "ניצן ▲/▼ צו טוישן, OK צו אויסקלייַבן"
 
+msgid "Use arrow keys to scroll"
+msgstr "ניצן פייַל קיז צו מעגילע"
+
+msgid "Use Google Translate"
+msgstr "ניצן Google Translate"
+
 msgid "Using current time"
 msgstr "ניצן קראַנט צייט"
+
+msgid "UV"
+msgstr "UV"
+
+msgid "UV Index"
+msgstr "UV אינדעקס"
+
+msgid "UV N/A"
+msgstr "UV N/A"
+
+msgid "v."
+msgstr "v."
 
 msgid "Very heavy rain"
 msgstr "זייער שווער רעגן"
@@ -1324,11 +1390,11 @@ msgstr "זייער נידעריק"
 msgid "Very unhealthy"
 msgstr "זייער אַנכעלטי"
 
-msgid "Visibility: %s m"
-msgstr "וויזאַביליטי: %s עם"
-
 msgid "Visibility: {} m"
 msgstr "וויזאַביליטי: {} עם"
+
+msgid "Visibility: %s m"
+msgstr "וויזאַביליטי: %s עם"
 
 msgid "W"
 msgstr "וו"
@@ -1346,7 +1412,7 @@ msgid "Waxing Crescent"
 msgstr "וואַקסינג קרעססענט"
 
 msgid "Waxing Gibbous"
-msgstr "וואַקסינג גיבאָוס"
+msgstr "וואַקסינג גיבבוס"
 
 msgid "Weather"
 msgstr "וועטער"
@@ -1357,11 +1423,11 @@ msgstr "וועטער מאפע"
 msgid "Weather Maps"
 msgstr "וועטער מאַפּס"
 
-msgid "Weather Maps & Satellite"
-msgstr "וועטער מאַפּס & סאַטעליט"
-
 msgid "Weather Maps (Wetterkontor)"
 msgstr "וועטער מאַפּס (Wetterkontor)"
+
+msgid "Weather Maps & Satellite"
+msgstr "וועטער מאַפּס & סאַטעליט"
 
 msgid "Weather Maps Slideshow"
 msgstr "וועטער מאַפּס סלידעשאָוו"
@@ -1381,14 +1447,14 @@ msgstr "וואכנשריפט פאָרויסזאָגן"
 msgid "Wind"
 msgstr "ווינט"
 
+msgid "Wind direction"
+msgstr "ווינט ריכטונג"
+
 msgid "Wind Direction today"
 msgstr "ווינט ריכטונג הייַנט"
 
 msgid "Wind Direction tomorrow"
 msgstr "ווינט ריכטונג מאָרגן"
-
-msgid "Wind direction"
-msgstr "ווינט ריכטונג"
 
 msgid "Wind speed"
 msgstr "ווינט גיכקייַט"
@@ -1399,6 +1465,15 @@ msgstr "ווינט גיכקייַט {}"
 msgid "Wind speed: {:.1f} {}"
 msgstr "ווינט גיכקייַט: {:.1f} {}"
 
+msgid "Wind: {}"
+msgstr "ווינט: {}"
+
+msgid "Wind: {} {} {}"
+msgstr "ווינט: {} {} {}"
+
+msgid "Wind: {} km/h {}"
+msgstr "ווינט: {} קילאמעטער/ה {}"
+
 msgid "Wind: %d %s %s"
 msgstr "ווינט: %d %s %s"
 
@@ -1408,20 +1483,14 @@ msgstr "ווינט: %s קילאמעטער/ה %s"
 msgid "Wind: N/A"
 msgstr "ווינט: N/A"
 
-msgid "Wind: {}"
-msgstr "ווינט: {}"
-
-msgid "Wind: {} km/h {}"
-msgstr "ווינט: {} קילאמעטער/ה {}"
-
-msgid "Wind: {} {} {}"
-msgstr "ווינט: {} {} {}"
-
 msgid "Window transparency"
 msgstr "פֿענצטער דורכזעיקייַט"
 
 msgid "Yellow - Favorite 2"
 msgstr "געל - באַליבסטע 2"
+
+msgid "You already have version {version} installed.\nDo you want to reinstall it?"
+msgstr "איר שוין האָבן אינסטאַלירן ווערסיע {version}.\nצי איר ווילן צו ריינסטאַל עס?"
 
 msgid "Zoom In"
 msgstr "פארגרעסער אין"
@@ -1429,53 +1498,12 @@ msgstr "פארגרעסער אין"
 msgid "Zoom Out"
 msgstr "פארגרעסער אויס"
 
-msgid "Zoom+"
-msgstr "פארגרעסער +"
-
 msgid "Zoom-"
 msgstr "פארגרעסער-"
 
 msgid "Zoom:"
 msgstr "פארגרעסער:"
 
-msgid "v."
-msgstr ""
+msgid "Zoom+"
+msgstr "פארגרעסער +"
 
-msgid "{hours} h {mins} min"
-msgstr "{שעה} ה {מינס} מין"
-
-msgid "• BLUE to save as Home\n"
-msgstr "• בלוי צו ראַטעווען ווי היים\n"
-
-msgid "• CH+/CH- to jump 500 cities\n"
-msgstr "• CH+/CH- צו שפּרינגען 500 שטעט\n"
-
-msgid "• GREEN to save as Favorite 1\n"
-msgstr "• גרין צו ראַטעווען ווי באַליבסטע 1\n"
-
-msgid "• OK to select city\n"
-msgstr "• גוט צו אויסקלייַבן שטאָט\n"
-
-msgid "• RED to open search keyboard\n"
-msgstr "• רויט צו עפענען זוכן קלאַוויאַטור\n"
-
-msgid "• Use arrow keys to navigate\n"
-msgstr "• ניצן פייַל קיז צו נאַוויגירן\n"
-
-msgid "• YELLOW to save as Favorite 2\n"
-msgstr "• געל צו ראַטעווען ווי באַליבסטע 2\n"
-
-msgid "← Frame"
-msgstr "← ראַם"
-
-#~ msgid "(Additional data not available)"
-#~ msgstr "(נאָך דאַטן ניט בנימצא)"
-
-#~ msgid "=== MOON DETAILS ==="
-#~ msgstr "=== לעוואָנע דעטאַילס ==="
-
-#~ msgid "Angular diameter: {:.0f}"
-#~ msgstr "ווינקלדיק דיאַמעטער: {:.0f}"
-
-#~ msgid "Apparent magnitude: N/A"
-#~ msgstr "קלאָר מאַגנאַטוד: N/A"
