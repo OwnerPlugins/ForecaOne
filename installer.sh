@@ -1,7 +1,8 @@
 #!/bin/bash
 
-version='1.2.8'
-changelog = 'Fix Malformated Locale Language.\nOffer coffee if you like this plugin'
+version='1.3.0'
+changelog='Introduce configurable translation engine allowing users to choose between gettext (local .po files) and Google Translate for UI translations. Features include:\n- New translation engine config option in plugin settings\n- Support for 100+ languages via Google Translate with automatic system language detection\n- Placeholder preservation logic to handle format strings in translated text\n- New "Translation Settings" menu item in main interface\n- Improved translation function with fallback mechanisms and error handling\n- Version bump to 1.3.0\n- Code formatting improvements (f-string to % formatting for Python 2 compatibility)\n- Enhanced documentation with section headers and docstrings'
+
 TMPPATH=/tmp/ForecaOne-install
 FILEPATH=/tmp/ForecaOne-main.tar.gz
 
