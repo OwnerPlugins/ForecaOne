@@ -22,7 +22,8 @@ from Components.config import config, ConfigSubsection, ConfigBoolean, ConfigSel
 if not hasattr(config.plugins, 'foreca'):
     config.plugins.foreca = ConfigSubsection()
 
-# Translation engine: False = gettext (local .po files), True = Google Translate
+# Translation engine: False = gettext (local .po files), True = Google
+# Translate
 config.plugins.foreca.translation_engine = ConfigBoolean(default=False)
 
 # Target language for Google Translate (ISO 639-1 codes)
@@ -138,7 +139,8 @@ LANGUAGE_CHOICES = [
     ('zu', 'Zulu'),
 ]
 
-config.plugins.foreca.target_language = ConfigSelection(choices=LANGUAGE_CHOICES, default='auto')
+config.plugins.foreca.target_language = ConfigSelection(
+    choices=LANGUAGE_CHOICES, default='auto')
 
 __version__ = "1.3.0"
 VERSION = __version__
@@ -256,7 +258,9 @@ def _restore_placeholders_from_original(original, translated):
         placeholders.append(match.group(0))
 
     # 2. Python style: %(name)s, %(name)d, etc.
-    for match in re.finditer(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]', original):
+    for match in re.finditer(
+        r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]',
+            original):
         placeholders.append(match.group(0))
 
     # 3. Python style: %s, %d, etc.
@@ -280,7 +284,8 @@ def _restore_placeholders_from_original(original, translated):
 
         # Otherwise, try to find if the placeholder was translated
         # We need to know the context to restore it properly
-        # Without mapping, we can't know which translated word corresponds to which placeholder
+        # Without mapping, we can't know which translated word corresponds to
+        # which placeholder
 
         # Fallback: keep the translated string as-is
         # The user will need to fix the .po files
@@ -352,7 +357,11 @@ def _(txt):
 
         old_lang = environ.get('LANGUAGE')
         environ['LANGUAGE'] = target_lang
-        gettext.bindtextdomain(PluginLanguageDomain, resolveFilename(SCOPE_PLUGINS, PluginLanguagePath))
+        gettext.bindtextdomain(
+            PluginLanguageDomain,
+            resolveFilename(
+                SCOPE_PLUGINS,
+                PluginLanguagePath))
         gettext.textdomain(PluginLanguageDomain)
 
         translated = gettext.dgettext(PluginLanguageDomain, txt)
@@ -364,7 +373,8 @@ def _(txt):
                 del environ['LANGUAGE']
 
         if translated and translated != txt:
-            # If original has placeholders and translated doesn't match, try to restore
+            # If original has placeholders and translated doesn't match, try to
+            # restore
             if _has_placeholders(txt):
                 # Simple: if translated has the same placeholders, keep it
                 # Otherwise, we need to fix the .po files
@@ -420,7 +430,11 @@ def load_skin_by_class(class_name):
     # 1) Try custom skins first
     custom_skin_file = None
     if exists(CUSTOM_SKINS_PATH):
-        custom_skin_file = join(CUSTOM_SKINS_PATH, resolution, "%s.xml" % class_name)
+        custom_skin_file = join(
+            CUSTOM_SKINS_PATH,
+            resolution,
+            "%s.xml" %
+            class_name)
         if DEBUG:
             print("[SKIN DEBUG] Trying custom: %s" % custom_skin_file)
             print("[SKIN DEBUG] Exists? %s" % exists(custom_skin_file))
@@ -458,7 +472,8 @@ def load_skin_by_class(class_name):
                 content = f.read()
                 if DEBUG:
                     print("[SKIN DEBUG] ✓ Loaded %d bytes" % len(content))
-                    print("[SKIN DEBUG] First 100 chars: %s" % content[:100].replace(chr(10), ' '))
+                    print("[SKIN DEBUG] First 100 chars: %s" %
+                          content[:100].replace(chr(10), ' '))
                     print("=" * 60 + "\n")
                 return content
         except Exception as e:
