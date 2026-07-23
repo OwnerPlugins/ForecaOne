@@ -24,14 +24,15 @@
   <a href="https://python.org">
     <img src="https://img.shields.io/badge/Python-3.x-yellow.svg" alt="Python">
   </a>
+  <a href="https://hosted.weblate.org/engage/foreca-one/">
+    <img src="https://hosted.weblate.org/widget/foreca-one/svg-badge.svg" alt="Stato traduzione">
+  </a>
 </p>
 <p align="center">
   <a href="https://github.com/Belfagor2005">
     <img src="https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet" alt="Visitors">
   </a>
 </p>
-
-<a href="https://hosted.weblate.org/engage/foreca-one/"><img src="https://hosted.weblate.org/widget/foreca-one/svg-badge.svg" alt="Stato traduzione"></a>
 
 <p align="center">
   <a href="https://ko-fi.com/lululla">
