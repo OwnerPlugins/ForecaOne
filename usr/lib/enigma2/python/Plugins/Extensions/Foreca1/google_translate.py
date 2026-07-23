@@ -10,14 +10,14 @@ import time
 from json import JSONDecodeError, loads
 from os import makedirs, remove
 from os.path import dirname, exists, join
-
+import re
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 from Components.config import config
 
-from . import DEBUG, HEADERS, SYSTEM_DIR
+from . import DEBUG, HEADERS, SYSTEM_DIR, _get_system_language
 
 # ============================================================
 # CUSTOM CONFIGURATION
@@ -101,16 +101,46 @@ def _log(message):
         print(f"[Foreca-1-Translate][{timestamp:.2f}] {message}")
 
 
-def _get_system_language():
-    """Get system language in short format"""
-    try:
-        lang = config.misc.language.value
-        return lang.split('_')[0].lower()
-    except Exception:
-        lang = config.osd.language.value
-        return lang.split('_')[0].lower()
+def _protect_placeholders(text):
+    """Protect placeholders before translation."""
+    if not text:
+        return text, {}, {}
+    
+    python_placeholders = {}
+    csharp_placeholders = {}
+    idx = 0
+    
+    # Protect Python: %(name)s, %(name)d, etc.
+    python_regex = re.compile(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]')
+    for match in python_regex.finditer(text):
+        placeholder = match.group(0)
+        replacement = f"__PYPH_{idx}__"
+        text = text.replace(placeholder, replacement)
+        python_placeholders[replacement] = placeholder
+        idx += 1
+    
+    # Protect C#: {name}, {0}, {hours}
+    idx = 0
+    csharp_regex = re.compile(r'\{[^{}]+\}')
+    for match in csharp_regex.finditer(text):
+        placeholder = match.group(0)
+        replacement = f"__CSH_{idx}__"
+        text = text.replace(placeholder, replacement)
+        csharp_placeholders[replacement] = placeholder
+        idx += 1
+    
+    return text, python_placeholders, csharp_placeholders
 
-# print("System Language:", _get_system_language())
+
+def _restore_placeholders(text, python_placeholders, csharp_placeholders):
+    """Restore placeholders after translation."""
+    if not text:
+        return text
+    for key, value in csharp_placeholders.items():
+        text = text.replace(key, value)
+    for key, value in python_placeholders.items():
+        text = text.replace(key, value)
+    return text
 
 
 def _to_unicode(text):
@@ -255,107 +285,87 @@ def clear_cache():
 # ============================================================
 # MAIN TRANSLATION FUNCTION
 # ============================================================
-
 def translate_text(text, target_lang=None, use_cache=True):
     """
     Translates text using the Google Translate API.
-
-    Args:
-        text (str): Text to translate
-        target_lang (str): Target language (e.g. 'it', 'en', 'de')
-                           If None, uses the system language
-        use_cache (bool): Whether to use the local cache
-
-    Returns:
-        str: Translated text or original text in case of error
+    Now protects placeholders before translation.
     """
     start_time = time.time()
     _log(f"Target language: '{target_lang}'")
-    # Input validation
+    
     if not text:
         return ""
 
-    # Convert to Unicode
     text_unicode = _to_unicode(text)
 
-    # Use system language if not specified
     if target_lang is None:
         target_lang = _get_system_language()
-
-    # Normalize language (ensure lowercase)
     target_lang = target_lang.lower()
 
-    # If the text is already Arabic, do not translate it
     if _is_text_arabic(text_unicode):
         _log(f"Arabic text detected, not translated: '{text_unicode[:50]}...'")
         return text_unicode
 
-    # Check cache if enabled
+    # ---- PROTECT PLACEHOLDERS ----
+    protected_text, python_placeholders, csharp_placeholders = _protect_placeholders(text_unicode)
+
+    # Check cache with protected text
     if use_cache:
-        cached = _get_cached_translation(text_unicode, target_lang)
+        cached = _get_cached_translation(protected_text, target_lang)
         if cached is not None:
-            _log(f"Cache HIT: '{text_unicode[:30]}...' -> '{cached[:30]}...'")
-            return cached
+            restored = _restore_placeholders(cached, python_placeholders, csharp_placeholders)
+            _log(f"Cache HIT: '{text_unicode[:30]}...' -> '{restored[:30]}...'")
+            return restored
 
-    # Error handling for overly long texts
-    if len(text_unicode) > MAX_CHARS_PER_REQUEST:
-        _log(
-            f"Text too long ({len(text_unicode)} chars), truncated to {MAX_CHARS_PER_REQUEST}")
-        text_unicode = text_unicode[:MAX_CHARS_PER_REQUEST]
+    if len(protected_text) > MAX_CHARS_PER_REQUEST:
+        _log(f"Text too long ({len(protected_text)} chars), truncated to {MAX_CHARS_PER_REQUEST}")
+        protected_text = protected_text[:MAX_CHARS_PER_REQUEST]
 
-    # Prepare the request
+    # Prepare request with protected text
     params = {
-        "client": "gtx",           # Fake client to bypass restrictions
-        "sl": "auto",              # Automatic source language
-        "tl": target_lang,         # Target language
-        "dt": "t",                 # Response type: translation only
-        "q": text_unicode,         # Text to translate
+        "client": "gtx",
+        "sl": "auto",
+        "tl": target_lang,
+        "dt": "t",
+        "q": protected_text,
     }
 
     try:
-        # Build the URL
         query_string = urlencode(params)
         url = f"{TRANSLATE_API_URL}?{query_string}"
 
-        _log(f"Translating: '{text_unicode[:40]}...' -> {target_lang}")
+        _log(f"Translating: '{protected_text[:40]}...' -> {target_lang}")
 
-        # Set timeout to avoid blocking
         socket.setdefaulttimeout(REQUEST_TIMEOUT)
 
-        # Perform the request
         req = Request(url)
         for key, value in HEADERS.items():
             req.add_header(key, value)
         response = urlopen(req, timeout=REQUEST_TIMEOUT)
         raw_data = response.read()
 
-        # Decode the response
         if isinstance(raw_data, bytes):
             raw_data = raw_data.decode('utf-8')
 
-        # Parse JSON response
         data = loads(raw_data)
 
-        # Extract the translation from the JSON structure
         translated_text = ""
         if isinstance(data, list) and data:
-            # Typical structure: [[[translation, original], ...], ...]
             for item in data[0]:
                 if item and isinstance(item, list) and item[0]:
                     translated_text += item[0]
 
-        # Clean the result
         if translated_text:
             translated_text = _clean_whitespace(translated_text)
 
-            # Save to cache
+            # ---- RESTORE PLACEHOLDERS ----
+            translated_text = _restore_placeholders(translated_text, python_placeholders, csharp_placeholders)
+
             if use_cache:
-                _cache_translation(text_unicode, target_lang, translated_text)
+                _cache_translation(protected_text, target_lang, translated_text)
 
             elapsed = time.time() - start_time
-            _log(
-                f"Translation completed in {elapsed:.2f}s: '{text_unicode[:30]}...' -> '{translated_text[:30]}...'")
-
+            _log(f"Translation completed in {elapsed:.2f}s: '{text_unicode[:30]}...' -> '{translated_text[:30]}...'")
             return translated_text
         else:
             _log(f"Empty API response for: '{text_unicode[:30]}...'")
@@ -379,7 +389,6 @@ def translate_text(text, target_lang=None, use_cache=True):
         return text_unicode
 
     finally:
-        # Restore default timeout
         socket.setdefaulttimeout(None)
 
 

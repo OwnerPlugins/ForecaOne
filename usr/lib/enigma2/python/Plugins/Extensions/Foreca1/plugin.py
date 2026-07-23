@@ -21,7 +21,7 @@ from Screens.Screen import Screen
 from Screens.HelpMenu import HelpableScreen
 from Screens.ChoiceBox import ChoiceBox
 from Screens.MessageBox import MessageBox
-from Components.config import ConfigPassword, ConfigText, NoSave, getConfigListEntry
+from Components.config import config, ConfigPassword, ConfigText, NoSave, getConfigListEntry
 
 from enigma import gRGB, eTimer
 from skin import parseColor
@@ -957,8 +957,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.session.openWithCallback(
                 self.after_main_menu, InfoDialog, self)
         elif key == "translation":
-            self.session.openWithCallback(
-                self.after_translation_settings, TranslationSetup)
+            self.session.openWithCallback(self.after_translation_settings, TranslationSetup)
         elif key == "exit":
             return
 
@@ -2363,47 +2362,16 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         reactor.callFromThread(update_ui)
 
-    # not used
-    def _get_icon_number_from_api(self, phase_name, illum_percent):
-        """
-        Maps phase and illumination (0-100) to the icon index (0-100)
-        according to the naming convention of moonXXXX.png files
-        """
-        name = phase_name.lower()
-        if name == "new moon":
-            return 0
-        if name == "first quarter":
-            return 25
-        if name == "full moon":
-            return 50
-        if name in ("last quarter", "third quarter"):
-            return 75
-
-        # For intermediate phases (Waxing Crescent, Waxing Gibbous, etc.) use
-        # illumination
-        if "waxing crescent" in name:
-            return int(round(illum_percent * 25 / 50))
-        if "waxing gibbous" in name:
-            return int(round(25 + (illum_percent - 50) * 25 / 50))
-        if "waning gibbous" in name:
-            return int(round(50 + (100 - illum_percent) * 25 / 50))
-        if "waning crescent" in name:
-            return int(round(75 + (50 - illum_percent) * 25 / 50))
-        # Fallback
-        return 50
-
     def show_moon_details(self):
         if self.f_date and len(self.f_date) > 0:
             try:
-                target_date = datetime.datetime.strptime(
-                    self.f_date[0], "%d.%m.%Y").date()
+                target_date = datetime.datetime.strptime(self.f_date[0], "%d.%m.%Y").date()
             except ValueError:
                 target_date = datetime.date.today()
         else:
             target_date = datetime.date.today()
 
-        target_datetime = datetime.datetime(
-            target_date.year, target_date.month, target_date.day, 0, 0, 0)
+        target_datetime = datetime.datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0)
 
         info = self.moon.get_phase_info(target_datetime)
         phase_name = info.get("name", "N/A")
@@ -2423,8 +2391,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         data = {
             'phase_name': phase_name,
             'illumination': illumination,
-            'distance': int(
-                round(distance_km)),
+            'distance': int(round(distance_km)),
             'moonrise': self["moonrise_value"].getText() if "moonrise_value" in self else "N/A",
             'moonset': self["moonset_value"].getText() if "moonset_value" in self else "N/A",
             'extra': extra,
