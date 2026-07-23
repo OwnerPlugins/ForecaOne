@@ -140,7 +140,7 @@ LANGUAGE_CHOICES = [
 
 config.plugins.foreca.target_language = ConfigSelection(choices=LANGUAGE_CHOICES, default='auto')
 
-__version__ = "1.3.0"
+__version__ = "1.3.1"
 VERSION = __version__
 _AUTHOR_ = "by Lululla - 2026"
 IDEAS = "@Bauernbub"
@@ -298,19 +298,6 @@ def _get_system_language():
     except Exception:
         lang = config.osd.language.value
         return lang.split('_')[0].lower()
-
-
-# def _get_system_language():
-    # """Return system language (for Enigma2 or environment variable)"""
-    # try:
-        # from Components.config import config
-        # lang = config.misc.language.value
-        # return lang.split('_')[0].lower()
-    # except ImportError:
-        # lang = environ.get('LANG', 'en_US.UTF-8').split('.')[0]
-        # return lang.split('_')[0].lower()
-    # except Exception:
-        # return 'en'
 
 
 def _has_placeholders(text):
