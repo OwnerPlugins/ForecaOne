@@ -42,8 +42,12 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
         self.target_language = config.plugins.foreca.target_language
 
         self.list = [
-            getConfigListEntry(_("Use Google Translate"), self.translation_engine),
-            getConfigListEntry(_("Target Language"), self.target_language),
+            getConfigListEntry(
+                _("Use Google Translate"),
+                self.translation_engine),
+            getConfigListEntry(
+                _("Target Language"),
+                self.target_language),
         ]
 
         ConfigListScreen.__init__(self, self.list, session=session)
@@ -76,7 +80,8 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
                         r, g, b = parts[0], parts[1], parts[2]
                         bg_color = gRGB(int(r), int(g), int(b))
                         if "background_plate" in self:
-                            self["background_plate"].instance.setBackgroundColor(bg_color)
+                            self["background_plate"].instance.setBackgroundColor(
+                                bg_color)
             except Exception as e:
                 print("[TranslationSetup] Error loading color:", e)
         # Transparency
@@ -85,7 +90,8 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
                 with open(alpha_file, "r") as f:
                     alpha = f.read().strip()
                     if "selection_overlay" in self:
-                        self["selection_overlay"].instance.setBackgroundColor(parseColor(alpha))
+                        self["selection_overlay"].instance.setBackgroundColor(
+                            parseColor(alpha))
             except Exception as e:
                 print("[TranslationSetup] Error loading alpha:", e)
 

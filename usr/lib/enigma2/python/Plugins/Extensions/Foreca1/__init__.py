@@ -22,7 +22,8 @@ from Components.config import config, ConfigSubsection, ConfigBoolean, ConfigSel
 if not hasattr(config.plugins, 'foreca'):
     config.plugins.foreca = ConfigSubsection()
 
-# Translation engine: False = gettext (local .po files), True = Google Translate
+# Translation engine: False = gettext (local .po files), True = Google
+# Translate
 config.plugins.foreca.translation_engine = ConfigBoolean(default=False)
 
 # Target language for Google Translate (ISO 639-1 codes)
@@ -138,7 +139,8 @@ LANGUAGE_CHOICES = [
     ('zu', 'Zulu'),
 ]
 
-config.plugins.foreca.target_language = ConfigSelection(choices=LANGUAGE_CHOICES, default='auto')
+config.plugins.foreca.target_language = ConfigSelection(
+    choices=LANGUAGE_CHOICES, default='auto')
 
 __version__ = "1.3.0"
 VERSION = __version__
@@ -256,7 +258,9 @@ def _restore_placeholders_from_original(original, translated):
         placeholders.append(match.group(0))
 
     # 2. Python style: %(name)s, %(name)d, etc.
-    for match in re.finditer(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]', original):
+    for match in re.finditer(
+        r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]',
+            original):
         placeholders.append(match.group(0))
 
     # 3. Python style: %s, %d, etc.
@@ -280,7 +284,8 @@ def _restore_placeholders_from_original(original, translated):
 
         # Otherwise, try to find if the placeholder was translated
         # We need to know the context to restore it properly
-        # Without mapping, we can't know which translated word corresponds to which placeholder
+        # Without mapping, we can't know which translated word corresponds to
+        # which placeholder
 
         # Fallback: keep the translated string as-is
         # The user will need to fix the .po files
@@ -320,15 +325,15 @@ def _has_placeholders(text):
     """
     if not text:
         return False
-    
+
     # If the string is exactly a placeholder pattern, skip translation
     # Example: "{hours} h {mins} min" - has placeholders but also text
     # We need to check if the string contains ONLY placeholders
-    
+
     # If the string contains { but also has text around it, we CAN translate
     # But we need to protect the placeholders before translating
-    
-    return False 
+
+    return False
 
 
 def _(txt):
@@ -349,16 +354,18 @@ def _(txt):
     # ---- PROTECT PLACEHOLDERS BEFORE TRANSLATION ----
     placeholders = {}
     protected_text = txt
-    
+
     # Protect C# placeholders: {name}, {0}, {hours}
     csharp_matches = re.findall(r'\{[^{}]+\}', protected_text)
     for i, match in enumerate(csharp_matches):
         placeholder = f"__PH_{i}__"
         protected_text = protected_text.replace(match, placeholder)
         placeholders[placeholder] = match
-    
+
     # Protect Python placeholders: %(name)s, %s
-    python_matches = re.findall(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]|%[diouxXeEfFgGcrs]', protected_text)
+    python_matches = re.findall(
+        r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]|%[diouxXeEfFgGcrs]',
+        protected_text)
     for i, match in enumerate(python_matches):
         placeholder = f"__PY_{i}__"
         protected_text = protected_text.replace(match, placeholder)
@@ -383,11 +390,14 @@ def _(txt):
         try:
             old_lang = environ.get('LANGUAGE')
             environ['LANGUAGE'] = target_lang
-            gettext.bindtextdomain(PluginLanguageDomain, resolveFilename(SCOPE_PLUGINS, PluginLanguagePath))
+            gettext.bindtextdomain(
+                PluginLanguageDomain, resolveFilename(
+                    SCOPE_PLUGINS, PluginLanguagePath))
             gettext.textdomain(PluginLanguageDomain)
-            
-            translated_text = gettext.dgettext(PluginLanguageDomain, protected_text)
-            
+
+            translated_text = gettext.dgettext(
+                PluginLanguageDomain, protected_text)
+
             if old_lang:
                 environ['LANGUAGE'] = old_lang
             else:
@@ -451,7 +461,11 @@ def load_skin_by_class(class_name):
     # 1) Try custom skins first
     custom_skin_file = None
     if exists(CUSTOM_SKINS_PATH):
-        custom_skin_file = join(CUSTOM_SKINS_PATH, resolution, "%s.xml" % class_name)
+        custom_skin_file = join(
+            CUSTOM_SKINS_PATH,
+            resolution,
+            "%s.xml" %
+            class_name)
         if DEBUG:
             print("[SKIN DEBUG] Trying custom: %s" % custom_skin_file)
             print("[SKIN DEBUG] Exists? %s" % exists(custom_skin_file))
@@ -489,7 +503,8 @@ def load_skin_by_class(class_name):
                 content = f.read()
                 if DEBUG:
                     print("[SKIN DEBUG] ✓ Loaded %d bytes" % len(content))
-                    print("[SKIN DEBUG] First 100 chars: %s" % content[:100].replace(chr(10), ' '))
+                    print("[SKIN DEBUG] First 100 chars: %s" %
+                          content[:100].replace(chr(10), ' '))
                     print("=" * 60 + "\n")
                 return content
         except Exception as e:
