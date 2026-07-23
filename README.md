@@ -30,6 +30,9 @@
     <img src="https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet" alt="Visitors">
   </a>
 </p>
+
+<a href="https://hosted.weblate.org/engage/foreca-one/"><img src="https://hosted.weblate.org/widget/foreca-one/svg-badge.svg" alt="Stato traduzione"></a>
+
 <p align="center">
   <a href="https://ko-fi.com/lululla">
     <img src="https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Donate via Ko-fi">
