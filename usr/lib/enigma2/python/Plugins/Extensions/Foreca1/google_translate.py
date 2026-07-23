@@ -15,7 +15,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-from Components.config import config
+# from Components.config import config
 
 from . import DEBUG, HEADERS, SYSTEM_DIR, _get_system_language
 
@@ -105,11 +105,11 @@ def _protect_placeholders(text):
     """Protect placeholders before translation."""
     if not text:
         return text, {}, {}
-
+    
     python_placeholders = {}
     csharp_placeholders = {}
     idx = 0
-
+    
     # Protect Python: %(name)s, %(name)d, etc.
     python_regex = re.compile(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]')
     for match in python_regex.finditer(text):
@@ -118,7 +118,7 @@ def _protect_placeholders(text):
         text = text.replace(placeholder, replacement)
         python_placeholders[replacement] = placeholder
         idx += 1
-
+    
     # Protect C#: {name}, {0}, {hours}
     idx = 0
     csharp_regex = re.compile(r'\{[^{}]+\}')
@@ -128,7 +128,7 @@ def _protect_placeholders(text):
         text = text.replace(placeholder, replacement)
         csharp_placeholders[replacement] = placeholder
         idx += 1
-
+    
     return text, python_placeholders, csharp_placeholders
 
 
@@ -292,7 +292,7 @@ def translate_text(text, target_lang=None, use_cache=True):
     """
     start_time = time.time()
     _log(f"Target language: '{target_lang}'")
-
+    
     if not text:
         return ""
 
@@ -307,22 +307,18 @@ def translate_text(text, target_lang=None, use_cache=True):
         return text_unicode
 
     # ---- PROTECT PLACEHOLDERS ----
-    protected_text, python_placeholders, csharp_placeholders = _protect_placeholders(
-        text_unicode)
+    protected_text, python_placeholders, csharp_placeholders = _protect_placeholders(text_unicode)
 
     # Check cache with protected text
     if use_cache:
         cached = _get_cached_translation(protected_text, target_lang)
         if cached is not None:
-            restored = _restore_placeholders(
-                cached, python_placeholders, csharp_placeholders)
-            _log(
-                f"Cache HIT: '{text_unicode[:30]}...' -> '{restored[:30]}...'")
+            restored = _restore_placeholders(cached, python_placeholders, csharp_placeholders)
+            _log(f"Cache HIT: '{text_unicode[:30]}...' -> '{restored[:30]}...'")
             return restored
 
     if len(protected_text) > MAX_CHARS_PER_REQUEST:
-        _log(
-            f"Text too long ({len(protected_text)} chars), truncated to {MAX_CHARS_PER_REQUEST}")
+        _log(f"Text too long ({len(protected_text)} chars), truncated to {MAX_CHARS_PER_REQUEST}")
         protected_text = protected_text[:MAX_CHARS_PER_REQUEST]
 
     # Prepare request with protected text
@@ -363,16 +359,13 @@ def translate_text(text, target_lang=None, use_cache=True):
             translated_text = _clean_whitespace(translated_text)
 
             # ---- RESTORE PLACEHOLDERS ----
-            translated_text = _restore_placeholders(
-                translated_text, python_placeholders, csharp_placeholders)
+            translated_text = _restore_placeholders(translated_text, python_placeholders, csharp_placeholders)
 
             if use_cache:
-                _cache_translation(
-                    protected_text, target_lang, translated_text)
+                _cache_translation(protected_text, target_lang, translated_text)
 
             elapsed = time.time() - start_time
-            _log(
-                f"Translation completed in {elapsed:.2f}s: '{text_unicode[:30]}...' -> '{translated_text[:30]}...'")
+            _log(f"Translation completed in {elapsed:.2f}s: '{text_unicode[:30]}...' -> '{translated_text[:30]}...'")
             return translated_text
         else:
             _log(f"Empty API response for: '{text_unicode[:30]}...'")
