@@ -957,7 +957,8 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.session.openWithCallback(
                 self.after_main_menu, InfoDialog, self)
         elif key == "translation":
-            self.session.openWithCallback(self.after_translation_settings, TranslationSetup)
+            self.session.openWithCallback(
+                self.after_translation_settings, TranslationSetup)
         elif key == "exit":
             return
 
@@ -2367,13 +2368,15 @@ class Foreca_Preview(Screen, HelpableScreen):
     def show_moon_details(self):
         if self.f_date and len(self.f_date) > 0:
             try:
-                target_date = datetime.datetime.strptime(self.f_date[0], "%d.%m.%Y").date()
+                target_date = datetime.datetime.strptime(
+                    self.f_date[0], "%d.%m.%Y").date()
             except ValueError:
                 target_date = datetime.date.today()
         else:
             target_date = datetime.date.today()
 
-        target_datetime = datetime.datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0)
+        target_datetime = datetime.datetime(
+            target_date.year, target_date.month, target_date.day, 0, 0, 0)
 
         info = self.moon.get_phase_info(target_datetime)
         phase_name = info.get("name", "N/A")
@@ -2393,7 +2396,8 @@ class Foreca_Preview(Screen, HelpableScreen):
         data = {
             'phase_name': phase_name,
             'illumination': illumination,
-            'distance': int(round(distance_km)),
+            'distance': int(
+                round(distance_km)),
             'moonrise': self["moonrise_value"].getText() if "moonrise_value" in self else "N/A",
             'moonset': self["moonset_value"].getText() if "moonset_value" in self else "N/A",
             'extra': extra,
