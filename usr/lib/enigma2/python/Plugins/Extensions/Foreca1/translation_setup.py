@@ -42,12 +42,8 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
         self.target_language = config.plugins.foreca.target_language
 
         self.list = [
-            getConfigListEntry(
-                _("Use Google Translate"),
-                self.translation_engine),
-            getConfigListEntry(
-                _("Target Language"),
-                self.target_language),
+            getConfigListEntry(_("Use Google Translate"), self.translation_engine),
+            getConfigListEntry(_("Target Language"), self.target_language),
         ]
 
         ConfigListScreen.__init__(self, self.list, session=session)
@@ -66,12 +62,14 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
             -2,
         )
 
-        self.apply_theme()
+        # Apply theme after layout is complete (widgets are fully rendered)
+        self.onLayoutFinish.append(self.apply_theme)
 
     def apply_theme(self):
         """Apply colors and transparency like other hybrid screens."""
         color_file = join(SYSTEM_DIR, "set_color.conf")
         alpha_file = join(SYSTEM_DIR, "set_alpha.conf")
+
         if exists(color_file):
             try:
                 with open(color_file, "r") as f:
@@ -79,19 +77,17 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
                     if len(parts) >= 3:
                         r, g, b = parts[0], parts[1], parts[2]
                         bg_color = gRGB(int(r), int(g), int(b))
-                        if "background_plate" in self:
-                            self["background_plate"].instance.setBackgroundColor(
-                                bg_color)
+                        if "background_plate" in self and self["background_plate"].instance is not None:
+                            self["background_plate"].instance.setBackgroundColor(bg_color)
             except Exception as e:
                 print("[TranslationSetup] Error loading color:", e)
-        # Transparency
+
         if exists(alpha_file):
             try:
                 with open(alpha_file, "r") as f:
                     alpha = f.read().strip()
-                    if "selection_overlay" in self:
-                        self["selection_overlay"].instance.setBackgroundColor(
-                            parseColor(alpha))
+                    if "selection_overlay" in self and self["selection_overlay"].instance is not None:
+                        self["selection_overlay"].instance.setBackgroundColor(parseColor(alpha))
             except Exception as e:
                 print("[TranslationSetup] Error loading alpha:", e)
 

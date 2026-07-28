@@ -369,7 +369,7 @@ class ForecaFreeAPI:
                 sunrise=sunrise,
                 sunset=sunset,
                 # daylength=item["daylen"],
-                daylength = item.get("daylen")
+                daylength = item.get("daylen"),
                 maxwind=item.get("maxwind"),
                 pres=item.get("pres"),
                 uvi=item.get("uvi"),
