@@ -345,14 +345,16 @@ class ForecaFreeAPI:
                 sunrise = None
                 if item.get("sunrise") is not None:
                     try:
-                        sunrise = datetime.datetime.strptime(item["sunrise"], "%H:%M:%S").time()
+                        sunrise = datetime.datetime.strptime(
+                            item["sunrise"], "%H:%M:%S").time()
                     except (ValueError, TypeError):
                         sunrise = None
 
                 sunset = None
                 if item.get("sunset") is not None:
                     try:
-                        sunset = datetime.datetime.strptime(item["sunset"], "%H:%M:%S").time()
+                        sunset = datetime.datetime.strptime(
+                            item["sunset"], "%H:%M:%S").time()
                     except (ValueError, TypeError):
                         sunset = None
             except (KeyError, ValueError):
