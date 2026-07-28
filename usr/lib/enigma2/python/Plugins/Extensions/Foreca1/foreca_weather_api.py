@@ -342,10 +342,19 @@ class ForecaFreeAPI:
             try:
                 date = datetime.datetime.strptime(
                     item["date"], "%Y-%m-%d").date()
-                sunrise = datetime.datetime.strptime(
-                    item["sunrise"], "%H:%M:%S").time()
-                sunset = datetime.datetime.strptime(
-                    item["sunset"], "%H:%M:%S").time()
+                sunrise = None
+                if item.get("sunrise") is not None:
+                    try:
+                        sunrise = datetime.datetime.strptime(item["sunrise"], "%H:%M:%S").time()
+                    except (ValueError, TypeError):
+                        sunrise = None
+
+                sunset = None
+                if item.get("sunset") is not None:
+                    try:
+                        sunset = datetime.datetime.strptime(item["sunset"], "%H:%M:%S").time()
+                    except (ValueError, TypeError):
+                        sunset = None
             except (KeyError, ValueError):
                 continue
             day = DayForecast(
@@ -359,7 +368,8 @@ class ForecaFreeAPI:
                 precipitation=item.get("rain", 0),
                 sunrise=sunrise,
                 sunset=sunset,
-                daylength=item["daylen"],
+                # daylength=item["daylen"],
+                daylength = item.get("daylen")
                 maxwind=item.get("maxwind"),
                 pres=item.get("pres"),
                 uvi=item.get("uvi"),
