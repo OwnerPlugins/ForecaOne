@@ -182,29 +182,48 @@ else
     exit 1
 fi
 
+sync
+
+echo "Verifying installation..."
+if [ -d "$PLUGINPATH" ] && [ -n "$(ls -A "$PLUGINPATH" 2>/dev/null)" ]; then
+    echo "Plugin directory found and not empty: $PLUGINPATH"
+    echo "Contents:"
+    ls -la "$PLUGINPATH/" | head -10
+else
+    echo "Plugin installation failed or directory is empty!"
+    cleanup
+    exit 1
+fi
+
+
 # Restore user configuration after installing new version
 restore_config
 sync
 
-# --- Début des modifications pour OpenPLi/OpenATV ---
-box_type=$(head -n 1 /etc/hostname 2>/dev/null || echo "Unknown")
+FILE="/etc/image-version"
+box_type=$(sed -n '1p' /etc/hostname 2>/dev/null || echo "Unknown")
 
-# Détection de la version de l'image
-if [ -f /usr/lib/enigma.info ]; then
-    # OpenPLi : on utilise /usr/lib/enigma.info
-    distro_value=$(grep '^distro=' /usr/lib/enigma.info 2>/dev/null | awk -F '=' '{print $2}')
-    distro_version=$(grep '^imageversion=' /usr/lib/enigma.info 2>/dev/null | awk -F '=' '{print $2}')
-elif [ -f /etc/image-version ]; then
-    # OpenATV : on utilise /etc/image-version
-    distro_value=$(grep '^distro=' /etc/image-version 2>/dev/null | awk -F '=' '{print $2}')
-    distro_version=$(grep '^version=' /etc/image-version 2>/dev/null | awk -F '=' '{print $2}')
-else
-    distro_value="Unknown"
-    distro_version="Unknown"
+# distro_value=$(grep '^distro=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
+# distro_version=$(grep '^version=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
+distro_value="Unknown"
+distro_version="Unknown"
+if [ -r /etc/os-release ]; then
+    distro_value=$(grep '^NAME=' /etc/os-release 2>/dev/null | cut -d'"' -f2)
+    distro_version=$(grep '^VERSION_ID=' /etc/os-release 2>/dev/null | cut -d'"' -f2)
+elif [ -r /etc/issue ]; then
+    distro_value=$(head -n 1 /etc/issue 2>/dev/null | awk '{print $1}')
+    distro_version=$(head -n 1 /etc/issue 2>/dev/null | awk '{print $2}')
+elif [ -r /etc/vtiversion.info ]; then
+    distro_value=$(head -n 1 /etc/vtiversion.info 2>/dev/null)
+elif [ -r /etc/issue.net ]; then
+    distro_value=$(head -n 1 /etc/issue.net 2>/dev/null | awk '{print $1}')
+    distro_version=$(head -n 1 /etc/issue.net 2>/dev/null | awk '{print $2}')
 fi
 
+[ -z "$distro_value" ] && distro_value="Unknown"
+[ -z "$distro_version" ] && distro_version="Unknown"
 python_vers=$(python --version 2>&1)
-# --- Fin des modifications ---
+
 
 cat <<EOF
 
