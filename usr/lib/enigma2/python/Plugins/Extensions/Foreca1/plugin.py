@@ -344,6 +344,7 @@ class ForecaSetup(Screen, ConfigListScreen):
                     f"TOKEN_EXPIRE_HOURS={token_expire_hours_int}\n")
                 config_file.write(f"MAP_SERVER={map_server}\n")
                 config_file.write(f"AUTH_SERVER={auth_server}\n")
+            chmod(CONFIG_FILE, 0o600)
         except Exception as error:
             self.session.open(
                 MessageBox,
@@ -1201,6 +1202,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             print(
                 f"[DEBUG] sunrise={daily_all[self.tag].sunrise}, sunset={daily_all[self.tag].sunset}")
 
+        day_selected = None
         if daily_all and len(daily_all) > self.tag:
             day_selected = daily_all[self.tag]
 
@@ -1269,6 +1271,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # Hourly forecast (try free, fallback to auth)
         hourly = None
+        target_date = None
         # First try free API
         try:
             hourly = self.weather_api.get_hourly_forecast(
@@ -1395,10 +1398,10 @@ class Foreca_Preview(Screen, HelpableScreen):
         try:
             with open(filename, "w") as f:
                 f.write(city_id)
-            chmod(filename, 0o655)
+            chmod(filename, 0o644)
             if DEBUG:
                 print(
-                    f"[Foreca1] Saved {names[index]} = {city_id} (perms 655)")
+                    f"[Foreca1] Saved {names[index]} = {city_id} (perms 644)")
         except Exception as e:
             print(f"[Foreca1] Error saving {names[index]}: {e}")
 
@@ -1407,7 +1410,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         try:
             with open(path, "w") as f:
                 f.write(f"{self.rgbmyr} {self.rgbmyg} {self.rgbmyb}")
-            chmod(path, 0o655)
+            chmod(path, 0o644)
             if DEBUG:
                 print(
                     f"[Foreca1] Color saved: {self.rgbmyr} {self.rgbmyg} {self.rgbmyb}")
@@ -1419,7 +1422,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         try:
             with open(path, "w") as f:
                 f.write(self.alpha)
-            chmod(path, 0o655)
+            chmod(path, 0o644)
         except Exception as e:
             print("[Foreca1] Error saving alpha:", e)
 
@@ -2212,11 +2215,16 @@ class Foreca_Preview(Screen, HelpableScreen):
         # Truncate text if too long
         station_text = truncate(station_text)
 
-        # Safely update the widget only if it exists
-        if "station_name" in self:
-            self["station_name"].setText(station_text)
-        if source:
-            print(f"[Foreca1] Station source: {source}")
+        from twisted.internet import reactor
+
+        def update_ui():
+            # Safely update the widget only if it exists
+            if "station_name" in self:
+                self["station_name"].setText(station_text)
+            if source:
+                print(f"[Foreca1] Station source: {source}")
+
+        reactor.callFromThread(update_ui)
 
     def _update_moon(self, target_date=None):
         """

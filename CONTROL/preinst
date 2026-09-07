@@ -52,6 +52,13 @@ else
     echo "⚠ Could not install ${PY}-requests, but continuing installation"
 fi
 
+echo "Installing ${PY}-pillow..."
+if opkg install --force-reinstall "${PY}-pillow" > /dev/null 2>&1; then
+    echo "✓ ${PY}-pillow installed successfully"
+else
+    echo "⚠ Could not install ${PY}-pillow, but continuing installation"
+fi
+
 # Additional dependency checks
 echo "Verifying system compatibility..."
 if [ -e "/usr/bin/enigma2" ]; then

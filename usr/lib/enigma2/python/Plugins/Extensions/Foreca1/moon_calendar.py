@@ -6,6 +6,8 @@
 from datetime import datetime, timedelta
 from os.path import exists, join
 from collections import defaultdict
+from threading import Thread
+from twisted.internet import reactor
 from Screens.Screen import Screen
 from Screens.HelpMenu import HelpableScreen
 from Screens.MessageBox import MessageBox
@@ -156,6 +158,10 @@ class MoonCalendar(Screen, HelpableScreen):
     def load_calendar(self):
         """Generate the list of lunar phases and special events for the next 12 months."""
         self["info"].setText(_("Calculating..."))
+        Thread(target=self._load_calendar_worker).start()
+
+    def _load_calendar_worker(self):
+        """Heavy lunar-phase computation. Runs off the UI thread."""
         self.phases = []
         today = datetime.now()
         # Start from the first day of next month
@@ -253,6 +259,10 @@ class MoonCalendar(Screen, HelpableScreen):
         # Update current moon info
         info = self.moon.get_phase_info()
 
+        reactor.callFromThread(self._apply_calendar_data, info)
+
+    def _apply_calendar_data(self, info):
+        """Populate widgets with the computed calendar data. Runs on the UI thread."""
         if info["icon_path"] and exists(info["icon_path"]):
             self["current_phase_icon"].instance.setPixmapFromFile(
                 info["icon_path"])
