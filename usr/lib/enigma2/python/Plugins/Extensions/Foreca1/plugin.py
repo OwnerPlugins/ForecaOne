@@ -1373,7 +1373,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f"[DEBUG] Daily forecast for day {self.tag}: {day_selected.__dict__ if day_selected else 'None'}")
 
         if seq != getattr(self, '_load_favorite_seq', seq):
-            # A newer _load_favorite call superseded this one; drop stale results.
+            # A newer _load_favorite call superseded this one; drop stale
+            # results.
             return
 
         from twisted.internet import reactor
