@@ -344,6 +344,7 @@ class ForecaSetup(Screen, ConfigListScreen):
                     f"TOKEN_EXPIRE_HOURS={token_expire_hours_int}\n")
                 config_file.write(f"MAP_SERVER={map_server}\n")
                 config_file.write(f"AUTH_SERVER={auth_server}\n")
+            chmod(CONFIG_FILE, 0o600)
         except Exception as error:
             self.session.open(
                 MessageBox,
@@ -1397,10 +1398,10 @@ class Foreca_Preview(Screen, HelpableScreen):
         try:
             with open(filename, "w") as f:
                 f.write(city_id)
-            chmod(filename, 0o655)
+            chmod(filename, 0o644)
             if DEBUG:
                 print(
-                    f"[Foreca1] Saved {names[index]} = {city_id} (perms 655)")
+                    f"[Foreca1] Saved {names[index]} = {city_id} (perms 644)")
         except Exception as e:
             print(f"[Foreca1] Error saving {names[index]}: {e}")
 
@@ -1409,7 +1410,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         try:
             with open(path, "w") as f:
                 f.write(f"{self.rgbmyr} {self.rgbmyg} {self.rgbmyb}")
-            chmod(path, 0o655)
+            chmod(path, 0o644)
             if DEBUG:
                 print(
                     f"[Foreca1] Color saved: {self.rgbmyr} {self.rgbmyg} {self.rgbmyb}")
@@ -1421,7 +1422,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         try:
             with open(path, "w") as f:
                 f.write(self.alpha)
-            chmod(path, 0o655)
+            chmod(path, 0o644)
         except Exception as e:
             print("[Foreca1] Error saving alpha:", e)
 

@@ -262,7 +262,14 @@ class RainViewerMaps(Screen, HelpableScreen):
                         _("API error")))
                 return
             data = resp.json()
-            self.host = data['host']
+            returned_host = data['host']
+            if returned_host.startswith('https://') and returned_host[8:].split(
+                    '/')[0].endswith('.rainviewer.com'):
+                self.host = returned_host
+            else:
+                print(
+                    f"[RainViewer] Unexpected host in API response, ignoring: {returned_host}")
+                self.host = 'https://tilecache.rainviewer.com'
             self.frames = [frame['path'] for frame in data['radar']['past']]
             self.frames.reverse()  # oldest to newest
             self.current_frame = len(self.frames) - 1  # last frame

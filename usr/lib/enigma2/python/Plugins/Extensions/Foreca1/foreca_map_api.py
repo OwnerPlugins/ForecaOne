@@ -100,8 +100,8 @@ class ForecaMapAPI:
             config_data = default_config
 
         # Assign values
-        self.user = config_data.get("API_USER", "ekekaz")
-        self.password = config_data.get("API_PASSWORD", "im5issEYcMUG")
+        self.user = config_data.get("API_USER", "your_username_here")
+        self.password = config_data.get("API_PASSWORD", "your_password_here")
         self.token_expire_hours = int(
             config_data.get(
                 "TOKEN_EXPIRE_HOURS", 720))
@@ -150,10 +150,10 @@ class ForecaMapAPI:
                 # Rename this file to api_config.txt and fill with your credentials
 
                 # Your Foreca API username
-                API_USER=ekekaz
+                API_USER=your_username_here
 
                 # Your Foreca API password
-                API_PASSWORD=im5issEYcMUG
+                API_PASSWORD=your_password_here
 
                 # Token expiration in hours (max 720 = 30 days)
                 TOKEN_EXPIRE_HOURS=720

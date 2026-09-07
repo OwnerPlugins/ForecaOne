@@ -5,6 +5,7 @@
 # fallback
 
 import requests
+from urllib.parse import quote_plus
 from os.path import exists, join
 from enigma import eListboxPythonMultiContent, gFont, RT_VALIGN_CENTER, eTimer, eListbox
 
@@ -296,7 +297,8 @@ class CityPanel4(Screen, HelpableScreen):
         """Cerca tramite API Foreca. Ritorna True se ha trovato risultati, False altrimenti."""
         current_lang = _get_system_language()
         try:
-            url = "%s/locations/search/%s.json" % (BASE_URL, search_term)
+            url = "%s/locations/search/%s.json" % (
+                BASE_URL, quote_plus(search_term))
             params = {
                 "limit": 20,
                 "lang": current_lang
