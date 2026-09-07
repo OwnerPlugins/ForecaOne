@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/Enigma2-Plugin-orange.svg" alt="Enigma2 Plugin">
   </a>
   <a href="https://github.com/Belfagor2005/ForecaOne">
-    <img src="https://img.shields.io/badge/Version-1.3.1-blue.svg" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.3.2-blue.svg" alt="Version">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.html">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
@@ -205,6 +205,15 @@
 
 ## Installation
 
+### Automatic (recommended)
+Download and run `installer.sh` directly on your Enigma2 box. It detects your image/OS, installs the required dependencies (requests, Pillow, etc.), and copies the plugin files for you:
+```
+wget --no-check-certificate 'https://github.com/Belfagor2005/ForecaOne/raw/main/installer.sh' -O installer.sh
+chmod +x installer.sh
+./installer.sh
+```
+
+### Manual
 1. Copy the `Foreca1` folder to your Enigma2 plugins directory:
    ```
    /usr/lib/enigma2/python/Plugins/Extensions/
@@ -213,7 +222,8 @@
    ```
    chmod -R 755 /usr/lib/enigma2/python/Plugins/Extensions/Foreca1
    ```
-3. Restart Enigma2 or the plugin menu to make the plugin visible.
+3. Install the required dependencies yourself (`requests`, `Pillow`) using your image's package manager (`opkg`/`apt-get`).
+4. Restart Enigma2 or the plugin menu to make the plugin visible.
 
 ## Initial Configuration
 

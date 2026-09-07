@@ -31,14 +31,15 @@ else
     echo "✓ No previous installation found"
 fi
 
-# Determine python command and install dependencies
+# ForecaOne requires Python 3; install dependencies accordingly
 echo "Installing required dependencies..."
 if [ -e "/usr/bin/python3" ]; then
     PY="python3"
     echo "✓ Using Python 3"
 else
-    PY="python"
-    echo "✓ Using Python 2.7"
+    echo "ERROR: Python 3 is required but was not found (/usr/bin/python3 missing)."
+    echo "ForecaOne only supports Python 3."
+    exit 1
 fi
 
 # Update package list and install dependencies

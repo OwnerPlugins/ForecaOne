@@ -1009,7 +1009,13 @@ class Foreca_Preview(Screen, HelpableScreen):
         self._load_favorite(2, self.path_loc2)
 
     def _update_fav_button_names(self):
-        """Update the buttons with city names (truncated to 11 characters)"""
+        """Update the buttons with city names (truncated to 11 characters).
+        Fetches names (network calls) in a background thread; only the
+        final widget update runs on the UI thread.
+        """
+        Thread(target=self._update_fav_button_names_worker).start()
+
+    def _update_fav_button_names_worker(self):
         fav_paths = [self.path_loc0, self.path_loc1, self.path_loc2]
         button_names = []
 
@@ -1056,6 +1062,11 @@ class Foreca_Preview(Screen, HelpableScreen):
                 print(f"[DEBUG] Error Fav {i}: {e}")
                 button_names.append(f"Fav{i}")
 
+        from twisted.internet import reactor
+        reactor.callFromThread(self._apply_fav_button_names, button_names)
+
+    def _apply_fav_button_names(self, button_names):
+        """Set the favorite button labels. Runs on the UI thread."""
         # Assign: 0=home(blue), 1=fav1(green), 2=fav2(yellow)
         self["key_blue"].setText(_(button_names[0]))
         self["key_green"].setText(_(button_names[1]))
@@ -1071,6 +1082,8 @@ class Foreca_Preview(Screen, HelpableScreen):
         """Load data for the specified favorite.
         path_loc can be just the ID or "ID/Name_with_underscores".
         forced_name can be used to override the name.
+        Kicks off the (blocking) fetch in a background thread so the UI
+        doesn't freeze while waiting on the network.
         """
         if self.weather_anim_running:
             self.weather_anim_timer.stop()
@@ -1084,6 +1097,20 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.windspeed_anim_timer.stop()
             self.windspeed_anim_running = False
 
+        self.myloc = fav_index
+
+        # Sequence guard: if a newer _load_favorite call comes in before this
+        # one finishes (e.g. rapid arrow-key presses), the older worker's
+        # results are discarded instead of overwriting the newer ones.
+        self._load_favorite_seq = getattr(self, '_load_favorite_seq', 0) + 1
+        seq = self._load_favorite_seq
+        Thread(
+            target=self._load_favorite_worker,
+            args=(fav_index, path_loc, forced_name, seq)
+        ).start()
+
+    def _load_favorite_worker(self, fav_index, path_loc, forced_name, seq):
+        """Fetch weather/location data for a favorite. Runs off the UI thread."""
         # Extract ID and stored name (if present)
         if '/' in path_loc:
             location_id, stored_name = path_loc.split('/', 1)
@@ -1092,7 +1119,6 @@ class Foreca_Preview(Screen, HelpableScreen):
             location_id = path_loc
             stored_name = None
 
-        self.myloc = fav_index
         day_index = self.tag
 
         # Fetch location data from API (for country, lat, lon, timezone)
@@ -1345,6 +1371,18 @@ class Foreca_Preview(Screen, HelpableScreen):
                 f"[DEBUG] Current weather raw: temp={self.cur_temp}, feels={self.fl_temp}, pressure={self.pressure}, ...")
             print(
                 f"[DEBUG] Daily forecast for day {self.tag}: {day_selected.__dict__ if day_selected else 'None'}")
+
+        if seq != getattr(self, '_load_favorite_seq', seq):
+            # A newer _load_favorite call superseded this one; drop stale results.
+            return
+
+        from twisted.internet import reactor
+        reactor.callFromThread(self._apply_favorite_data, target_date, seq)
+
+    def _apply_favorite_data(self, target_date, seq):
+        """Populate widgets once _load_favorite_worker finishes. Runs on the UI thread."""
+        if seq != getattr(self, '_load_favorite_seq', seq):
+            return
 
         # Update UI
         self._update_moon(target_date=target_date)
