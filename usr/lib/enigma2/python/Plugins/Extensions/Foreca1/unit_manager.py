@@ -341,7 +341,7 @@ class UnitSettingsSimple(Screen, HelpableScreen):
                 "red": (self.exit, _("Exit")),
                 "green": (self.save, _("Save")),
                 "blue": (self.open_advanced, _("Advanced")),
-                "left": (self.down, _("Prev")),
+                "left": (self.up, _("Prev")),
                 "right": (self.down, _("Next")),
                 "up": (self.up, _("Prev")),
                 "down": (self.down, _("Next"))

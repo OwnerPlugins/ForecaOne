@@ -10,10 +10,8 @@ import tempfile
 from json import load, dump
 from os import remove, listdir, unlink
 from os.path import exists, join, isfile, getmtime
-from threading import Thread
 
 import requests
-from PIL import Image
 
 from . import (
     DEBUG,
@@ -370,57 +368,6 @@ class ForecaMapAPI:
         except Exception as e:
             print(f"[Foreca1MapAPI] Tile download exception: {e}")
             return None
-
-    def download_tile_grid_async(self, timestamp, callback):
-        def download_thread():
-            cx, cy = self.latlon_to_tile(
-                self.center_lat, self.center_lon, self.zoom_level)
-            offset_cols = self.grid_cols // 2
-            offset_rows = self.grid_rows // 2
-
-            tile_paths = []
-            for dx in range(-offset_cols, offset_cols + 1):
-                for dy in range(-offset_rows, offset_rows + 1):
-                    tx = cx + dx
-                    ty = cy + dy
-                    path = self.api.get_tile(
-                        self.layer_id,
-                        timestamp,
-                        self.zoom_level,
-                        tx, ty,
-                        self.unit_system
-                    )
-
-                    if path and exists(path):
-                        try:
-                            if DEBUG:
-                                with Image.open(path) as img:
-                                    # Debug only, if it fails skip
-                                    print(
-                                        f"[DEBUG] Tile zoom={self.zoom_level} ({tx},{ty}) size: {img.size}")
-                            tile_paths.append(
-                                (dx + offset_cols, dy + offset_rows, path))
-                        except Exception as e:
-                            print(
-                                f"[Foreca1] Corrupted tile, skipped: {path} - {e}")
-                            # Remove corrupted file to avoid future reuse
-                            try:
-                                remove(path)
-                            except BaseException:
-                                pass
-
-            if len(tile_paths) > 0:
-                merged = self.merge_tile_grid(tile_paths)
-                if merged and callback:
-                    callback(merged)
-            else:
-                if DEBUG:
-                    print("[Foreca1] No valid tiles downloaded")
-                from twisted.internet import reactor
-                reactor.callFromThread(self._show_no_tiles_error)
-                callback(None)
-
-        Thread(target=download_thread).start()
 
     def check_credentials(self):
         """Check if credentials are configured"""
