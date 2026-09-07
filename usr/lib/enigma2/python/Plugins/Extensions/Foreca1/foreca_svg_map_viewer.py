@@ -36,7 +36,8 @@ if not exists(SVG_MAPS_DIR):
 
 TILE_SIZE = 256
 
-# Fallback center coordinates per region, used when a layer has no usable extent.
+# Fallback center coordinates per region, used when a layer has no usable
+# extent.
 REGION_CENTERS = {
     'eu': (50.0, 10.0),
     'europe': (50.0, 10.0),
