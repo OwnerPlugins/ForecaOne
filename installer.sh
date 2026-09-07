@@ -92,23 +92,14 @@ if ! command -v wget >/dev/null 2>&1; then
     esac
 fi
 
-if python --version 2>&1 | grep -q '^Python 3\.'; then
-    echo "Python3 image detected"
-    PYTHON="PY3"
-    Packagesix="python3-six"
-    Packagerequests="python3-requests"
-    Packagepillow="python3-pillow"
-else
-    echo "Python2 image detected"
-    PYTHON="PY2"
-    Packagerequests="python-requests"
-    Packagepillow="python-pillow"
-    if [ "$OSTYPE" = "DreamOs" ] || [ "$OSTYPE" = "Debian" ]; then
-        Packagesix="python-six"
-    else
-        Packagesix="python-six"
-    fi
+if ! command -v python3 >/dev/null 2>&1 || ! python3 --version 2>&1 | grep -q '^Python 3\.'; then
+    echo "ERROR: Python 3 is required but was not found on this system."
+    echo "ForecaOne only supports Python 3 (see README.md)."
+    exit 1
 fi
+echo "Python3 image detected: $(python3 --version 2>&1)"
+Packagerequests="python3-requests"
+Packagepillow="python3-pillow"
 
 install_pkg() {
     local pkg=$1
@@ -130,8 +121,8 @@ install_pkg() {
     fi
 }
 
-[ "$PYTHON" = "PY3" ] && install_pkg "$Packagesix"
 install_pkg "$Packagerequests"
+install_pkg "$Packagepillow"
 
 if [ "$OSTYPE" = "OE" ]; then
     echo "Installing additional dependencies for OpenEmbedded..."
@@ -222,7 +213,7 @@ fi
 
 [ -z "$distro_value" ] && distro_value="Unknown"
 [ -z "$distro_version" ] && distro_version="Unknown"
-python_vers=$(python --version 2>&1)
+python_vers=$(python3 --version 2>&1)
 
 
 cat <<EOF

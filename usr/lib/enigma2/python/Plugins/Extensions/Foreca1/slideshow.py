@@ -184,7 +184,7 @@ class ForecaSlideshow(Screen, HelpableScreen):
         """Download all 6 images for the region"""
 
         for i in range(self.total_images):
-            url = f"http://img.wetterkontor.de/karten/{self.region_code}{i}.jpg"
+            url = f"https://img.wetterkontor.de/karten/{self.region_code}{i}.jpg"
             cache_file = join(
                 WETTERKONTOR_CACHE,
                 f"{self.region_code}_{i}.jpg")
