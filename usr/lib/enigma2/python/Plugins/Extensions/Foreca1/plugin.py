@@ -1201,6 +1201,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             print(
                 f"[DEBUG] sunrise={daily_all[self.tag].sunrise}, sunset={daily_all[self.tag].sunset}")
 
+        day_selected = None
         if daily_all and len(daily_all) > self.tag:
             day_selected = daily_all[self.tag]
 
@@ -1269,6 +1270,7 @@ class Foreca_Preview(Screen, HelpableScreen):
 
         # Hourly forecast (try free, fallback to auth)
         hourly = None
+        target_date = None
         # First try free API
         try:
             hourly = self.weather_api.get_hourly_forecast(

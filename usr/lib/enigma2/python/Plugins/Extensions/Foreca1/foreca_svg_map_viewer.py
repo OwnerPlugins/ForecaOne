@@ -30,13 +30,39 @@ from . import (
     apply_global_theme,
     TEMP_DIR
 )
-from .foreca_map_viewer import REGION_CENTERS, get_background_for_layer
-
 SVG_MAPS_DIR = join(TEMP_DIR, "svgmapviewer")
 if not exists(SVG_MAPS_DIR):
     makedirs(SVG_MAPS_DIR)
 
 TILE_SIZE = 256
+
+# Fallback center coordinates per region, used when a layer has no usable extent.
+REGION_CENTERS = {
+    'eu': (50.0, 10.0),
+    'europe': (50.0, 10.0),
+    'us': (39.0, -98.0),
+    'usa': (39.0, -98.0),
+    'africa': (1.0, 20.0),
+    'asia': (34.0, 100.0),
+    'oceania': (-25.0, 135.0),
+    'world': (20.0, 0.0),
+}
+
+# Maps a region to a background PNG that actually exists under thumb/.
+_REGION_BACKGROUNDS = {
+    'eu': 'europa.png',
+    'europe': 'europa.png',
+    'us': 'nordamerika.png',
+    'usa': 'nordamerika.png',
+    'africa': 'africa.png',
+    'asia': 'asia_se.png',
+    'oceania': 'australia.png',
+}
+
+
+def get_background_for_layer(layer_title, region):
+    """Pick a background PNG for the given region (layer_title currently unused)."""
+    return _REGION_BACKGROUNDS.get((region or '').lower(), 'world.png')
 
 
 class ForecaSVGMapViewer(Screen, HelpableScreen):

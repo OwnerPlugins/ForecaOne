@@ -63,14 +63,13 @@ class ForecaMapMenu(Screen, HelpableScreen):
         self.layers = self.api.get_capabilities()
         if DEBUG:
             print(f"[DEBUG] Layers ricevuti ({len(self.layers)}):")
-        for layer in self.layers:
-            layer_id = layer['id']
-            title = layer.get('title', 'N/A')
-            layer_type = layer.get('type', 'N/A')
-            colorschemes = layer.get('colorschemes', [])
-            if DEBUG:
+        if DEBUG:
+            for layer in self.layers:
+                title = layer.get('title', 'N/A')
+                layer_type = layer.get('type', 'N/A')
+                colorschemes = layer.get('colorschemes', [])
                 print(
-                    f"  ID: {layer_id}, Title: {title}, Type: {layer_type}, Schemes: {colorschemes}")
+                    f"  ID: {layer['id']}, Title: {title}, Type: {layer_type}, Schemes: {colorschemes}")
 
         if not self.layers:
             self["info"].setText(_("Error loading maps. Check connection."))
@@ -81,7 +80,7 @@ class ForecaMapMenu(Screen, HelpableScreen):
             title = layer.get('title', f"Layer {layer['id']}")
             if 'wind symbol' in title.lower():
                 continue
-            if layer_id == 3:
+            if layer['id'] == 3:
                 continue
             items.append((trans(title), layer))
 
