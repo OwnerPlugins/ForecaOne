@@ -2215,11 +2215,16 @@ class Foreca_Preview(Screen, HelpableScreen):
         # Truncate text if too long
         station_text = truncate(station_text)
 
-        # Safely update the widget only if it exists
-        if "station_name" in self:
-            self["station_name"].setText(station_text)
-        if source:
-            print(f"[Foreca1] Station source: {source}")
+        from twisted.internet import reactor
+
+        def update_ui():
+            # Safely update the widget only if it exists
+            if "station_name" in self:
+                self["station_name"].setText(station_text)
+            if source:
+                print(f"[Foreca1] Station source: {source}")
+
+        reactor.callFromThread(update_ui)
 
     def _update_moon(self, target_date=None):
         """

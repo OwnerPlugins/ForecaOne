@@ -8,7 +8,9 @@ import datetime
 from json import loads, JSONDecodeError
 from os.path import exists, join
 from os import makedirs, listdir, remove
+from threading import Thread
 import requests
+from twisted.internet import reactor
 
 from enigma import getDesktop, ePoint
 
@@ -224,11 +226,15 @@ class MeteogramView(Screen, HelpableScreen):
                 print(f"[Meteogram] Error cleaning temp files: {e}")
 
     def fetch_data(self):
-        """Download the detailed forecast page and extract JSON data."""
+        """Kick off the (blocking) forecast download in a background thread."""
+        Thread(target=self._fetch_data_worker).start()
+
+    def _fetch_data_worker(self):
+        """Download the detailed forecast page and extract JSON data. Runs off the UI thread."""
         lang = _get_system_language()
         place = self.api.get_location_by_id(self.loc_id)
         if not place:
-            self.close()
+            reactor.callFromThread(self.close)
             return
 
         url = f"https://www.foreca.com/{lang}/{self.loc_id}/{place.address}/detailed-forecast"
@@ -272,6 +278,10 @@ class MeteogramView(Screen, HelpableScreen):
             write_meteogram_debug(
                 f"First element keys: {list(forecast[0].keys())}")
 
+        reactor.callFromThread(self._apply_fetched_data, forecast, ranges)
+
+    def _apply_fetched_data(self, forecast, ranges):
+        """Populate widgets from downloaded forecast data. Runs on the UI thread."""
         # Update time (first element's 'updated' field)
         if forecast and len(forecast) > 1:
             updated_utc = forecast[1].get('updated', '').replace('Z', '+00:00')
