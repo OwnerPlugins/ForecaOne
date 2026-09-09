@@ -175,8 +175,7 @@ class CityPanel4(Screen, HelpableScreen):
                 MessageBox,
                 _("City list file not found! Use the search to find your city first."),
                 MessageBox.TYPE_WARNING,
-                timeout=5
-            )
+                timeout=5)
             return
 
         try:
