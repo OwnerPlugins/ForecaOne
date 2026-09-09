@@ -963,7 +963,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         elif key == "exit":
             return
 
-    def city_selected(self, result):
+    def city_selected(self, result=None):
         if result is None:
             return
 
