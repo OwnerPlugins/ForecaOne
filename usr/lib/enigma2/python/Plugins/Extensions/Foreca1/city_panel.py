@@ -165,17 +165,19 @@ class CityPanel4(Screen, HelpableScreen):
         self.Mlist = []
         self.city_list = []
 
-        def _close_panel(*args):
-            self.close(None)
-
         city_cfg_path = join(SYSTEM_DIR, "new_city.cfg")
         if not exists(city_cfg_path):
-            self.session.openWithCallback(
-                _close_panel,
-                MessageBox,
-                _("City list file not found! Use the search to find your city first."),
-                MessageBox.TYPE_WARNING,
-                timeout=5)
+            # onShown can fire more than once per screen open; only warn once.
+            if not getattr(self, '_missing_file_warned', False):
+                self._missing_file_warned = True
+                self.session.open(
+                    MessageBox,
+                    _("City list file not found! Press RED to search for your city online."),
+                    MessageBox.TYPE_WARNING,
+                    timeout=5
+                )
+            self.filtered_list = self.Mlist
+            self["Mlist"].setList(self.filtered_list)
             return
 
         try:
