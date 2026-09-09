@@ -174,8 +174,7 @@ class CityPanel4(Screen, HelpableScreen):
                     MessageBox,
                     _("City list file not found! Press RED to search for your city online."),
                     MessageBox.TYPE_WARNING,
-                    timeout=5
-                )
+                    timeout=5)
             self.filtered_list = self.Mlist
             self["Mlist"].setList(self.filtered_list)
             return
