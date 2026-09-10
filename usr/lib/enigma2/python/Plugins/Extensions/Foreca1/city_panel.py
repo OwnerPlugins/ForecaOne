@@ -366,7 +366,8 @@ class CityPanel4(Screen, HelpableScreen):
                             continue
                         existing_ids.add(line.split("/", 1)[0])
             except Exception as e:
-                print(f"[CityPanel4] Error reading offline list for dedup: {e}")
+                print(
+                    f"[CityPanel4] Error reading offline list for dedup: {e}")
                 return
 
         new_lines = [
