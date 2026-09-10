@@ -320,7 +320,6 @@ class CityPanel4(Screen, HelpableScreen):
         # Build new list with online results
         new_entries = []
         new_city_list = []
-        offline_entries = []
         for res in results:
             city_id = res.get("id")
             name = res.get("name", "")
@@ -330,8 +329,6 @@ class CityPanel4(Screen, HelpableScreen):
                 display_name, city_id=city_id, is_header=False)
             new_entries.append(entry)
             new_city_list.append((display_name, city_id))
-            if city_id and name:
-                offline_entries.append((city_id, name))
 
         # Replace the filtered list with the online one
         self.filtered_list = new_entries
@@ -343,20 +340,20 @@ class CityPanel4(Screen, HelpableScreen):
         self["description"].setText(
             _("Found %d cities online for '%s'") %
             (count, search_term))
-
-        self._append_to_offline_city_list(offline_entries)
         return True
 
-    def _append_to_offline_city_list(self, entries):
-        """Append newly found cities to new_city.cfg so the offline list
-        builds up automatically over time (README-documented behavior).
-        Skips ids already present in the file.
+    def _remember_city_offline(self, formatted_entry):
+        """Append a single "id/Name_With_Underscores" entry (the same
+        format get_selected_city() returns, matching the offline file's
+        own format) to new_city.cfg, so the offline list builds up over
+        time with only the cities the user actually picks - not every
+        search result. Skips it if that id is already present.
         """
-        if not entries:
+        if not formatted_entry or "/" not in formatted_entry:
             return
+        city_id = formatted_entry.split("/", 1)[0]
 
         city_cfg_path = join(SYSTEM_DIR, "new_city.cfg")
-        existing_ids = set()
         if exists(city_cfg_path):
             try:
                 with open(city_cfg_path, "r", encoding="utf-8") as f:
@@ -364,29 +361,20 @@ class CityPanel4(Screen, HelpableScreen):
                         line = line.strip()
                         if not line or line.startswith("#") or "/" not in line:
                             continue
-                        existing_ids.add(line.split("/", 1)[0])
+                        if line.split("/", 1)[0] == city_id:
+                            return  # already known
             except Exception as e:
                 print(
                     f"[CityPanel4] Error reading offline list for dedup: {e}")
                 return
 
-        new_lines = [
-            f"{city_id}/{name.replace(' ', '_')}"
-            for city_id, name in entries
-            if str(city_id) not in existing_ids
-        ]
-        if not new_lines:
-            return
-
         try:
             if not exists(SYSTEM_DIR):
                 makedirs(SYSTEM_DIR, exist_ok=True)
             with open(city_cfg_path, "a", encoding="utf-8") as f:
-                for line in new_lines:
-                    f.write(line + "\n")
+                f.write(formatted_entry + "\n")
             if DEBUG:
-                print(
-                    f"[CityPanel4] Appended {len(new_lines)} cities to offline list")
+                print(f"[CityPanel4] Remembered city offline: {formatted_entry}")
         except Exception as e:
             print(f"[CityPanel4] Error appending to offline list: {e}")
 
@@ -500,6 +488,7 @@ class CityPanel4(Screen, HelpableScreen):
     def save_favorite1(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             self.save_favorite("fav1", selected)
             self._update_fav_buttons()
             self.close((selected, 'assign', 1))
@@ -507,6 +496,7 @@ class CityPanel4(Screen, HelpableScreen):
     def save_favorite2(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             self.save_favorite("fav2", selected)
             self._update_fav_buttons()
             self.close((selected, 'assign', 1))
@@ -514,6 +504,7 @@ class CityPanel4(Screen, HelpableScreen):
     def save_home(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             self.save_favorite("home", selected)
             self._update_fav_buttons()
             self.close((selected, 'assign', 1))
@@ -521,6 +512,7 @@ class CityPanel4(Screen, HelpableScreen):
     def ok(self):
         selected = self.get_selected_city()
         if selected:
+            self._remember_city_offline(selected)
             if '/' in selected:
                 city_id, display_name = selected.split('/', 1)
                 display_name = display_name.replace('_', ' ')
