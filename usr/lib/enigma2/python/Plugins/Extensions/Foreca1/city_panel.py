@@ -6,6 +6,7 @@
 
 import requests
 from urllib.parse import quote_plus
+from os import makedirs
 from os.path import exists, join
 from enigma import eListboxPythonMultiContent, gFont, RT_VALIGN_CENTER, eTimer, eListbox
 
@@ -320,6 +321,7 @@ class CityPanel4(Screen, HelpableScreen):
         # Build new list with online results
         new_entries = []
         new_city_list = []
+        offline_entries = []
         for res in results:
             city_id = res.get("id")
             name = res.get("name", "")
@@ -329,6 +331,8 @@ class CityPanel4(Screen, HelpableScreen):
                 display_name, city_id=city_id, is_header=False)
             new_entries.append(entry)
             new_city_list.append((display_name, city_id))
+            if city_id and name:
+                offline_entries.append((city_id, name))
 
         # Replace the filtered list with the online one
         self.filtered_list = new_entries
@@ -340,7 +344,51 @@ class CityPanel4(Screen, HelpableScreen):
         self["description"].setText(
             _("Found %d cities online for '%s'") %
             (count, search_term))
+
+        self._append_to_offline_city_list(offline_entries)
         return True
+
+    def _append_to_offline_city_list(self, entries):
+        """Append newly found cities to new_city.cfg so the offline list
+        builds up automatically over time (README-documented behavior).
+        Skips ids already present in the file.
+        """
+        if not entries:
+            return
+
+        city_cfg_path = join(SYSTEM_DIR, "new_city.cfg")
+        existing_ids = set()
+        if exists(city_cfg_path):
+            try:
+                with open(city_cfg_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or line.startswith("#") or "/" not in line:
+                            continue
+                        existing_ids.add(line.split("/", 1)[0])
+            except Exception as e:
+                print(f"[CityPanel4] Error reading offline list for dedup: {e}")
+                return
+
+        new_lines = [
+            f"{city_id}/{name.replace(' ', '_')}"
+            for city_id, name in entries
+            if str(city_id) not in existing_ids
+        ]
+        if not new_lines:
+            return
+
+        try:
+            if not exists(SYSTEM_DIR):
+                makedirs(SYSTEM_DIR, exist_ok=True)
+            with open(city_cfg_path, "a", encoding="utf-8") as f:
+                for line in new_lines:
+                    f.write(line + "\n")
+            if DEBUG:
+                print(
+                    f"[CityPanel4] Appended {len(new_lines)} cities to offline list")
+        except Exception as e:
+            print(f"[CityPanel4] Error appending to offline list: {e}")
 
     def search_offline(self, search_term):
         """Search the local file (already loaded into self.Mlist)."""
