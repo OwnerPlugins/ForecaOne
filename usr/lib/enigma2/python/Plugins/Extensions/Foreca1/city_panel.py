@@ -374,7 +374,8 @@ class CityPanel4(Screen, HelpableScreen):
             with open(city_cfg_path, "a", encoding="utf-8") as f:
                 f.write(formatted_entry + "\n")
             if DEBUG:
-                print(f"[CityPanel4] Remembered city offline: {formatted_entry}")
+                print(
+                    f"[CityPanel4] Remembered city offline: {formatted_entry}")
         except Exception as e:
             print(f"[CityPanel4] Error appending to offline list: {e}")
 
