@@ -65,7 +65,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
-        if: steps.check_tag.outputs.exists == 'false'
+        if: steps.check_tag.outputs.skip != 'true'
         run: |
           gh release create "v${{ steps.get_version.outputs.version }}" \
             --title "Release v${{ steps.get_version.outputs.version }}" \
