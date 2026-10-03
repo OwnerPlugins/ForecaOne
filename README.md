@@ -9,9 +9,6 @@
   <a href="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml">
     <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/pylint.yml/badge.svg" alt="Python package">
   </a>
-  <a href="https://github.com/Belfagor2005/ForecaOne/actions/workflows/ruff.yml">
-    <img src="https://github.com/Belfagor2005/ForecaOne/actions/workflows/ruff.yml/badge.svg" alt="Ruff Status">
-  </a>
   <a href="https://github.com/OpenPLi/enigma2">
     <img src="https://img.shields.io/badge/Enigma2-Plugin-orange.svg" alt="Enigma2 Plugin">
   </a>
