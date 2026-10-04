@@ -27,7 +27,6 @@ from .google_translate import trans
 from . import (
     _,
     DEBUG,
-    # THUMB_PATH,
     load_skin_for_class,
     apply_global_theme,
     TEMP_DIR,
@@ -47,19 +46,12 @@ OSM_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
 
 
 BACKGROUND_EXTENTS = {
-    # Europe (based on get_background_for_layer)
     'europa.png': {'minLat': 36, 'maxLat': 71, 'minLon': -9.57, 'maxLon': 66.17},
-    # Africa
     'africa.png': {'minLat': -34.85, 'maxLat': 37.35, 'minLon': -17.56, 'maxLon': 51.46},
-    # Asia (two ranges to cross 180°)
     'asia.png': {'minLat': -1.27, 'maxLat': 77.72, 'minLon': 26.07, 'maxLon': 180},
-    # North America (two ranges)
     'nordamerika.png': {'minLat': 7.2, 'maxLat': 83.67, 'minLon': -180, 'maxLon': -12.13},
-    # South America
     'suedamerika.png': {'minLat': -56.5, 'maxLat': 12.45, 'minLon': -81.33, 'maxLon': -34.78},
-    # Oceania
     'oceania.png': {'minLat': -55.05, 'maxLat': 28.63, 'minLon': 110, 'maxLon': 180},
-    # World (fallback)
     'world.png': {'minLat': -90, 'maxLat': 90, 'minLon': -180, 'maxLon': 180},
 }
 
@@ -230,7 +222,7 @@ class RainViewerMaps(Screen, HelpableScreen):
             if r.status_code == 200:
                 with open(cache_file, 'wb') as f:
                     f.write(r.content)
-                enforce_cache_limit(RAIN_MAPS_DIR, max_files=500)
+                enforce_cache_limit(RAIN_MAPS_DIR, max_files=1500)
                 return cache_file
             else:
                 if DEBUG:
@@ -400,6 +392,15 @@ class RainViewerMaps(Screen, HelpableScreen):
         try:
             if not self.widget_width or not self.widget_height:
                 self.get_widget_size()
+
+            # Hide the widget before replacing the pixmap so Enigma2
+            # releases the previous accelerated surface. Without this
+            # the gAccel allocator runs out of memory after a few
+            # animation frames (accelAlloc failed spam in the log).
+            try:
+                self["map"].instance.hide()
+            except Exception:
+                pass
 
             from PIL import Image
             img = Image.open(path)
