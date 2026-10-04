@@ -46,13 +46,41 @@ OSM_URL = "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
 
 
 BACKGROUND_EXTENTS = {
-    'europa.png': {'minLat': 36, 'maxLat': 71, 'minLon': -9.57, 'maxLon': 66.17},
-    'africa.png': {'minLat': -34.85, 'maxLat': 37.35, 'minLon': -17.56, 'maxLon': 51.46},
-    'asia.png': {'minLat': -1.27, 'maxLat': 77.72, 'minLon': 26.07, 'maxLon': 180},
-    'nordamerika.png': {'minLat': 7.2, 'maxLat': 83.67, 'minLon': -180, 'maxLon': -12.13},
-    'suedamerika.png': {'minLat': -56.5, 'maxLat': 12.45, 'minLon': -81.33, 'maxLon': -34.78},
-    'oceania.png': {'minLat': -55.05, 'maxLat': 28.63, 'minLon': 110, 'maxLon': 180},
-    'world.png': {'minLat': -90, 'maxLat': 90, 'minLon': -180, 'maxLon': 180},
+    'europa.png': {
+        'minLat': 36,
+        'maxLat': 71,
+        'minLon': -9.57,
+        'maxLon': 66.17},
+    'africa.png': {
+        'minLat': -34.85,
+        'maxLat': 37.35,
+        'minLon': -17.56,
+        'maxLon': 51.46},
+    'asia.png': {
+        'minLat': -1.27,
+        'maxLat': 77.72,
+        'minLon': 26.07,
+        'maxLon': 180},
+    'nordamerika.png': {
+        'minLat': 7.2,
+        'maxLat': 83.67,
+        'minLon': -180,
+        'maxLon': -12.13},
+    'suedamerika.png': {
+        'minLat': -56.5,
+        'maxLat': 12.45,
+        'minLon': -81.33,
+        'maxLon': -34.78},
+    'oceania.png': {
+        'minLat': -55.05,
+        'maxLat': 28.63,
+        'minLon': 110,
+        'maxLon': 180},
+    'world.png': {
+        'minLat': -90,
+        'maxLat': 90,
+        'minLon': -180,
+        'maxLon': 180},
 }
 
 
