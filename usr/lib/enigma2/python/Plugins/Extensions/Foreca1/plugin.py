@@ -74,6 +74,9 @@ from .hour_detail import HourDetailView
 from .moon_details_screen import MoonDetailsScreen
 
 from .translation_setup import TranslationSetup
+from .overlay import set_enabled as set_overlay_enabled
+from .overlay import is_enabled as is_overlay_enabled
+from .overlay import write_temperature as write_overlay_temperature
 
 # Foreca One Weather Forecast for Enigma2
 # Copyright (C) 2026 @Lululla
@@ -862,6 +865,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             (_("Unit Settings (Advanced)"), "units_advanced"),
             (_("Color select"), "colorselector"),
             (_("Transparency Settings"), "transparency"),
+            (_("Temperature Overlay"), "overlay_toggle"),
             (_("API Settings"), "api_setup"),
             (_("Check for updates"), "update"),
             (_("Cleanup temp files"), "cleanup"),
@@ -964,6 +968,8 @@ class Foreca_Preview(Screen, HelpableScreen):
         elif key == "transparency":
             self.session.openWithCallback(
                 self.after_main_menu, TransparencySelector, self)
+        elif key == "overlay_toggle":
+            self.toggle_overlay()
         elif key == "api_setup":
             self.session.openWithCallback(
                 self.after_main_menu, ForecaSetup)
@@ -1602,6 +1608,12 @@ class Foreca_Preview(Screen, HelpableScreen):
         else:
             cur_temp_text = "N/A"
         self["temperature_current"].setText(cur_temp_text)
+        # Push the current temperature to the always-on-top overlay
+        try:
+            write_overlay_temperature(cur_temp_text)
+        except Exception as e:
+            if DEBUG:
+                print(f"[Foreca1] overlay write failed: {e}")
         # FEELS LIKE
         if self.fl_temp != 'N/A':
             fl_val, fl_unit = self.unit_manager.convert_temperature(
@@ -2128,23 +2140,133 @@ class Foreca_Preview(Screen, HelpableScreen):
                 MessageBox.TYPE_ERROR)
 
     def install_update(self, answer, installer_url):
-        """Runs the update script if the user confirmed."""
-        if answer:
-            cmd = f"wget -q --no-check-certificate {installer_url} -O - | /bin/sh"
-            from Screens.Console import Console
-            self.session.open(
-                Console,
-                _("Updating..."),
-                cmdlist=[cmd],
-                finishedCallback=self.update_finished,
-                closeOnSuccess=True
-            )
-        else:
+        """Download the installer, verify it, then execute it.
+        Never pipe wget directly to sh: a 404 or HTML error page would
+        be executed by the shell otherwise."""
+        if not answer:
             self.session.open(
                 MessageBox,
                 _("Update canceled."),
                 MessageBox.TYPE_INFO,
                 timeout=3)
+            return
+
+        import subprocess
+        import tempfile
+        from os import chmod, remove as _rm
+
+        # 1) Download into a temp file (never pipe directly to sh)
+        try:
+            fd, tmp_path = tempfile.mkstemp(
+                prefix="foreca_update_", suffix=".sh", dir="/tmp")
+            os.close(fd)
+        except Exception as e:
+            self.session.open(
+                MessageBox,
+                _("Could not create temporary update file: %s") % e,
+                MessageBox.TYPE_ERROR)
+            return
+
+        try:
+            dl = subprocess.run(
+                ["wget", "-q", "--no-check-certificate",
+                 "-O", tmp_path, installer_url],
+                timeout=30, capture_output=True)
+            if dl.returncode != 0 or not exists(tmp_path):
+                raise RuntimeError("download failed")
+            size = os.path.getsize(tmp_path)
+            if size <= 0:
+                raise RuntimeError("empty installer")
+            if DEBUG:
+                print(f"[Foreca1] installer downloaded: {size} bytes")
+        except Exception as e:
+            try:
+                if exists(tmp_path):
+                    _rm(tmp_path)
+            except OSError:
+                pass
+            self.session.open(
+                MessageBox,
+                _("Could not download the installer: %s") % e,
+                MessageBox.TYPE_ERROR)
+            return
+
+        # 2) Sanity check: must look like a shell script, not HTML
+        try:
+            with open(tmp_path, "rb") as f:
+                head = f.read(512)
+            head_lower = head.lower()
+            if b"<!doctype" in head_lower or b"<html" in head_lower:
+                raise RuntimeError("received HTML instead of a script")
+            if not (head.startswith(b"#!") or b"#!/" in head[:128]):
+                # Not fatal: many installers start with a comment.
+                # We only warn in the debug log.
+                if DEBUG:
+                    print("[Foreca1] installer has no shebang (continuing)")
+        except Exception as e:
+            try:
+                _rm(tmp_path)
+            except OSError:
+                pass
+            self.session.open(
+                MessageBox,
+                _("Invalid installer file: %s") % e,
+                MessageBox.TYPE_ERROR)
+            return
+
+        # 3) Bash syntax check with 'bash -n'
+        try:
+            check = subprocess.run(
+                ["/bin/bash", "-n", tmp_path],
+                timeout=10, capture_output=True)
+            if check.returncode != 0:
+                err = check.stderr.decode("utf-8", "replace")[:300]
+                try:
+                    _rm(tmp_path)
+                except OSError:
+                    pass
+                self.session.open(
+                    MessageBox,
+                    _("Installer has a syntax error:\n%s") % err,
+                    MessageBox.TYPE_ERROR)
+                return
+            if DEBUG:
+                print("[Foreca1] installer syntax check: OK")
+        except Exception as e:
+            try:
+                _rm(tmp_path)
+            except OSError:
+                pass
+            self.session.open(
+                MessageBox,
+                _("Could not validate installer: %s") % e,
+                MessageBox.TYPE_ERROR)
+            return
+
+        # 4) Make it executable and run it
+        try:
+            chmod(tmp_path, 0o755)
+        except OSError:
+            pass
+
+        cmd = f"/bin/bash {tmp_path}"
+        from Screens.Console import Console
+        self.session.open(
+            Console,
+            _("Updating..."),
+            cmdlist=[cmd],
+            finishedCallback=lambda result=None: self._cleanup_and_finish(tmp_path),
+            closeOnSuccess=True)
+
+    def _cleanup_and_finish(self, installer_path=None):
+        """Remove the temp installer and call the normal finished handler."""
+        if installer_path:
+            try:
+                if exists(installer_path):
+                    os.remove(installer_path)
+            except OSError:
+                pass
+        self.update_finished()
 
     def update_finished(self, result=None):
         """Callback executed when the installation finishes."""
@@ -2675,6 +2797,18 @@ class Foreca_Preview(Screen, HelpableScreen):
             self.my_forecast_weather()
             self._update_fav_button_names()
 
+    def toggle_overlay(self):
+        """Toggle the always-on-top temperature overlay."""
+        new_state = not is_overlay_enabled()
+        set_overlay_enabled(new_state)
+        state_text = _("enabled") if new_state else _("disabled")
+        self.session.openWithCallback(
+            self.after_main_menu,
+            MessageBox,
+            _("Temperature overlay %s.") % state_text,
+            MessageBox.TYPE_INFO,
+            timeout=3)
+
     def maps_menu_callback(self, choice):
         if choice is None:
             return
@@ -2957,10 +3091,18 @@ def Plugins(path, **kwargs):
             where=PluginDescriptor.WHERE_EXTENSIONSMENU,
             fnc=main
         ),
-        # PluginDescriptor(
-        #    name=_("Foreca One Setup"),
-        #    description=_("Configure Foreca API credentials"),
-        #    where=PluginDescriptor.WHERE_PLUGINMENU,
-        #    fnc=open_setup
-        # ),
+        PluginDescriptor(
+            where=PluginDescriptor.WHERE_SESSIONSTART,
+            fnc=autostart_overlay
+        ),
     ]
+
+
+def autostart_overlay(reason, **kwargs):
+    """Wrapper so the overlay module can be imported lazily."""
+    try:
+        from .overlay import autostart
+        autostart(reason, **kwargs)
+    except Exception as e:
+        print(f"[Foreca1] overlay autostart failed: {e}")
+

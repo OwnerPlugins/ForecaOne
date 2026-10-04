@@ -32,7 +32,8 @@ from . import (
     apply_global_theme,
     TEMP_DIR,
     HEADERS,
-    OSM_HEADERS
+    OSM_HEADERS,
+    enforce_cache_limit
 )
 
 
@@ -229,6 +230,7 @@ class RainViewerMaps(Screen, HelpableScreen):
             if r.status_code == 200:
                 with open(cache_file, 'wb') as f:
                     f.write(r.content)
+                enforce_cache_limit(RAIN_MAPS_DIR, max_files=500)
                 return cache_file
             else:
                 if DEBUG:

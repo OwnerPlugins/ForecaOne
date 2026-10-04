@@ -18,7 +18,8 @@ from . import (
     CACHE_BASE,
     TOKEN_FILE,
     CONFIG_FILE,
-    CACHE_EXPIRE
+    CACHE_EXPIRE,
+    enforce_cache_limit
 )
 
 
@@ -360,6 +361,7 @@ class ForecaMapAPI:
             if response.status_code == 200:
                 with open(cache_file, 'wb') as f:
                     f.write(response.content)
+                enforce_cache_limit(CACHE_BASE, max_files=1000)
                 return cache_file
             else:
                 print(

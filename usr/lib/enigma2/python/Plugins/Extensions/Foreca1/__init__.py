@@ -4,10 +4,10 @@
 
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from Components.Language import language
-from os.path import exists, join, dirname
+from os.path import exists, join, dirname, isfile, getmtime
 from enigma import getDesktop, gRGB
 from skin import parseColor
-from os import makedirs, environ, rmdir, walk, remove
+from os import makedirs, environ, rmdir, walk, remove, listdir
 import gettext
 import codecs
 import shutil
@@ -592,6 +592,38 @@ def get_icon_path(icon_name, fallback='na.png'):
     # Fallback to the na.png icon
     fallback_path = join(THUMB_PATH, fallback)
     return fallback_path if exists(fallback_path) else None
+
+
+def enforce_cache_limit(cache_dir, max_files=500):
+    """Keep only the most recently used files in cache_dir.
+    Deletes oldest files (by mtime) when the count exceeds max_files.
+    Safe: never touches subdirectories, never raises."""
+    if not exists(cache_dir):
+        return
+    try:
+        files = []
+        for name in listdir(cache_dir):
+            full = join(cache_dir, name)
+            if not isfile(full):
+                continue
+            try:
+                files.append((getmtime(full), full))
+            except OSError:
+                continue
+        if len(files) <= max_files:
+            return
+        files.sort()
+        for xs, path in files[:len(files) - max_files]:
+            try:
+                remove(path)
+            except OSError:
+                pass
+        if DEBUG:
+            print(
+                f"[Foreca1] cache limit: removed "
+                f"{len(files) - max_files} files from {cache_dir}")
+    except Exception as e:
+        print(f"[Foreca1] cache limit error on {cache_dir}: {e}")
 
 
 def cleanup_temp_files(keep_token=True):

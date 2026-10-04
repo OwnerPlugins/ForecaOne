@@ -31,7 +31,8 @@ from . import (
     load_skin_for_class,
     apply_global_theme,
     HEADERS,
-    OSM_HEADERS
+    OSM_HEADERS,
+    enforce_cache_limit
 )
 
 TILE_SIZE = 256
@@ -239,6 +240,7 @@ class ForecaMapViewer(Screen, HelpableScreen):
             if r.status_code == 200:
                 with open(cache_file, 'wb') as f:
                     f.write(r.content)
+                enforce_cache_limit(OSM_CACHE_DIR, max_files=500)
                 if DEBUG:
                     print(f"[ForecaMapViewer] Tile downloaded: {cache_file}")
                 return cache_file
