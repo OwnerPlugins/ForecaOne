@@ -1,7 +1,8 @@
 #!/bin/bash
 
 version='1.3.5'
-changelog='Favorites persistence fix and API-optional improvements:\n- Fixed a long-standing bug that caused Home/Favorite1/Favorite2 to be saved as location IDs only, without the city name\n- Favorites are now displayed instantly at startup without calling the Foreca API for name resolution\n- Removed a redundant second write in the favorites save path that overwrote the correct value\n- API credentials are now truly optional at first launch, as documented\n- Added API Settings entry to the main menu for adding or updating credentials at any time'
+changelog='Favorites persistence fix and API-optional improvements:\n- Fixed a long-standing bug that caused Home/Favorite1/Favorite2 to be saved as location IDs only, without the city name\n- Favorites are now displayed instantly at startup without calling the Foreca API for name resolution\n- Removed a redundant second write in the favorites save path that overwrote the correct value\n- API credentials are now truly optional at first launch, as documented\n- Added API Settings entry to the main menu for adding or updating credentials at any time\n-
+- Bounded LRU cache for map tiles (Foreca, RainViewer, OSM) to prevent unbounded growth\n- Update installer is now downloaded and syntax-checked with bash -n before execution\n- New Temperature Overlay: small always-on-top widget showing the current temperature during TV viewing (toggle from Menu)\n- Reduced accelerated-surface exhaustion on RainViewer radar animation'
 TMPPATH=/tmp/ForecaOne-install
 FILEPATH=/tmp/ForecaOne-main.tar.gz
 

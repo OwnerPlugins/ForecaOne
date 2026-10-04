@@ -116,6 +116,7 @@
   - [Weather Maps](#weather-maps)
   - [Unit Settings](#unit-settings)
   - [Color and Transparency](#color-and-transparency)
+  - [Temperature Overlay](#temperature-overlay)
   - [Translation Settings](#translation-settings)
   - [API Settings](#api-settings)
   - [Cleanup Temp Files](#cleanup-temp-files)
@@ -130,7 +131,7 @@
 
 ## Introduction
 
-**Foreca One Weather Forecast** is a comprehensive Enigma2 plugin that provides detailed weather forecasts for up to 10 days using public data from **Foreca**. With an intuitive interface and extensive customization options, you can always keep an eye on the weather directly from your receiver. The plugin also includes a **complete lunar calendar** with precise astronomical calculations and a **live radar viewer** based on RainViewer data.
+**Foreca One Weather Forecast** is a comprehensive Enigma2 plugin that provides detailed weather forecasts for up to 10 days using public data from **Foreca**. With an intuitive interface and extensive customization options, you can always keep an eye on the weather directly from your receiver. The plugin also includes a **complete lunar calendar** with precise astronomical calculations, a **live radar viewer** based on RainViewer data, and a **temperature overlay** that stays on top of the TV picture.
 
 ## Key Features
 
@@ -174,6 +175,13 @@
   - Ideal for tracking precipitation worldwide
 - All three viewers feature a **dedicated color legend overlay**, togglable via the INFO button.
 
+### 🎨 Temperature Overlay
+- Small always-on-top widget showing the current temperature
+- Perfect while watching TV: no need to open the plugin to check the weather
+- Toggle ON/OFF from the plugin menu (persistent across reboots)
+- Updates automatically once per minute
+- Uses the same units configured for the plugin (°C / °F)
+
 ### ⚙️ Advanced Unit Management
 - Choose between **metric** and **imperial** systems
 - **Customize individual units**:
@@ -190,7 +198,7 @@
 - **Full remote control navigation** – all screens accessible via keys
 - **Skins for FHD, HD, WQHD** – perfect on any screen
 - **Centralized icon fallback** – missing icons show `na.png` to avoid blank spaces
-- **Custom Skins** – you can now create your own skins without modifying the built-in ones. Place your custom XML files in `skins_user/<resolution>/` inside the plugin folder, naming them after the screen class (e.g. `MoonCalendar.xml`, `MoonDetailsScreen.xml`); the plugin will load them instead of the default skins.
+- **Custom Skins** – create your own skins without modifying the built-in ones. Place custom XML files in `skins_user/<resolution>/` inside the plugin folder, naming them after the screen class (e.g. `MoonCalendar.xml`, `MoonDetailsScreen.xml`); the plugin will load them instead of the default skins.
 
 ### 🌈 Animated Weather Icons
 - Optional animated icons for weather conditions (e.g., clouds moving, sun pulsing)
@@ -201,8 +209,9 @@
 ### 🔧 Technical Highlights
 - Python 3 only (enforced by the installer)
 - Asynchronous downloads (moon, maps, stations)
+- Bounded on-disk cache for map tiles (Foreca, RainViewer, OSM)
+- Update installer is syntax-checked with `bash -n` before execution
 - Debug mode with detailed logs
-- Smart caching (translations, API tokens, map tiles)
 
 ## Installation
 
@@ -291,6 +300,7 @@ Pressing **MENU** opens the following options:
 - **Unit Settings (Advanced)** – customize wind, pressure, temperature, precipitation
 - **Color Selector** – change global background color
 - **Transparency Settings** – adjust overlay transparency
+- **Temperature Overlay** – toggle the always-on-top temperature widget
 - **API Settings** – configure or update Foreca API credentials at any time
 - **Check for updates** – version update from GitHub
 - **Cleanup temp files** – remove cached tiles, images, and debug logs
@@ -403,6 +413,37 @@ Navigate categories with YELLOW (next) and BLUE (prev). Inside a category, selec
 - **Color Selector** – lists predefined colors (from `color_database.txt`). UP/DOWN to move, OK to confirm. Applied to all screens.
 - **Transparency Settings** – lists levels from 0% to 56%. OK confirms, change is visible immediately.
 
+### Temperature Overlay
+
+The temperature overlay is a small always-on-top widget that shows the current temperature in the top-right corner of the screen while you watch TV. It is handy if you want to keep an eye on the weather without opening the plugin.
+
+**How to enable / disable:**
+1. Open the plugin (MENU key from the main weather screen is not needed — just open the plugin as usual).
+2. Press **MENU** on the remote control.
+3. Select **Temperature Overlay** from the list.
+4. A confirmation message appears ("Temperature overlay enabled" / "disabled").
+5. Return to TV. The overlay appears (or disappears) within a few seconds.
+
+**Behavior:**
+- When enabled, the widget stays visible on top of any channel, including when you change channels, open the EPG, or navigate other plugins.
+- It updates automatically **once per minute** using the last known temperature for the currently active city.
+- It follows the plugin's unit configuration: it shows **°C** in metric mode and **°F** in imperial mode.
+- The state is persistent: it survives Enigma2 restarts. If you turned it on, it will come back on after reboot.
+
+**Position and appearance:**
+- The widget is fixed in the top-right corner with a small margin.
+- Semi-transparent dark background with a yellow temperature value, sized to remain readable but not intrusive.
+- The exact appearance is defined in `overlay.py` (embedded skin), so advanced users can tweak it if desired.
+
+**Notes:**
+- The overlay is created at Enigma2 session start via `WHERE_SESSIONSTART`. It does not block the remote control, does not steal focus, and does not interfere with the InfoBar.
+- If you change the active city in the plugin, the overlay updates at the next automatic refresh (within 60 seconds).
+- If the plugin has never been opened since boot, the overlay shows `--` until the first temperature is available.
+
+**Files used:**
+- `/etc/enigma2/foreca/overlay_enabled.cfg` – stores `1` (enabled) or `0` (disabled)
+- `/etc/enigma2/foreca/overlay_temp.txt` – stores the last temperature string shown
+
 ### Translation Settings
 Choose the translation engine:
 - **gettext** (local `.po` files) – works offline
@@ -422,7 +463,7 @@ Saving writes credentials to `/etc/enigma2/foreca/api_config.txt` with restricte
 Removes cached OSM tiles, Foreca map tiles, meteogram SVG files, weather-detail radar images, and translation cache. Useful to free space on flash memory.
 
 ### Check Update
-Checks if an update has been released online and runs it.
+Checks if an update has been released online and runs it. For safety, the downloaded installer is checked with `bash -n` before execution; if the script contains a syntax error or the server returns an HTML error page, the update is aborted with a clear message.
 
 ### Plugin Info
 Shows version, authors and credits.
@@ -507,22 +548,29 @@ An example file `api_config.txt.example` is created automatically in `/etc/enigm
 ### 10. Plugin opens in "free mode"
 - This is expected when no API credentials are configured. Add credentials from **Menu → API Settings** to unlock live maps and API stations.
 
-### 11. Lunar calendar takes a while to open on slow hardware
+### 11. Temperature overlay does not appear
+- Make sure you enabled it from **Menu → Temperature Overlay** and that a confirmation message appeared.
+- Check that `/etc/enigma2/foreca/overlay_enabled.cfg` contains `1`.
+- If the plugin has never been opened since boot, the overlay shows `--` until the first temperature is available. Open the plugin once and let it load a city.
+- If the overlay is still not visible, restart Enigma2 once so the widget is recreated at session start.
+
+### 12. Lunar calendar takes a while to open on slow hardware
 - The lunar calendar computes phases for 12 months. On older boxes this can take 2-3 seconds. The computation runs in a background thread so the UI remains responsive.
 
 ## Changelog
 
-### v1.3.5 – Favorites persistence fix
-- Fixed a long-standing bug that caused Home / Favorite 1 / Favorite 2 to be saved as location IDs only, without the city name
-- Favorites are now displayed instantly at startup without calling the Foreca API for name resolution
-- Removed a redundant second write in the favorites save path that overwrote the correct value
-- API credentials are now truly optional at first launch, as documented
-- Added **API Settings** entry to the main menu for adding or updating credentials at any time
-- HD and WQHD skin fixes on lunar calendar and moon details screens
-
-### v1.3.4 – Bug-fix release
-- Fixed favorites assignment writing to the wrong file
-- API credentials now truly optional at launch
+### v1.3.5
+- Fixed favorites (Home / Fav1 / Fav2) saved without the city name
+- Favorites now load instantly at startup, no API call needed
+- Removed redundant file overwrite in the save path
+- API credentials truly optional at launch
+- Added **API Settings** entry to the main menu
+- Cleaner city name display in the main screen title
+- HD and WQHD skin fixes on lunar calendar and moon details
+- **Bounded LRU cache** for map tiles (Foreca, RainViewer, OSM) to prevent unbounded growth
+- Update installer is now **downloaded and syntax-checked with `bash -n`** before execution
+- **New Temperature Overlay**: small always-on-top widget showing the current temperature during TV viewing (toggle from Menu)
+- Reduced accelerated-surface exhaustion on RainViewer radar animation
 - Faster lunar rise/set/transit calculations
 - Fixed thread-safety issues in weather detail screen
 - Removed global socket timeout leak
@@ -534,13 +582,12 @@ An example file `api_config.txt.example` is created automatically in `/etc/enigm
 - Escape protection in translation placeholders
 - `DEBUG` disabled by default
 - Removed dead files from the source tree
-- HD and WQHD skin fixes for lunar calendar and moon details
 
 ## Credits
 
 - **Original design and idea:** @Bauernbub
 - **Modifications and further development:** @Lululla
-- **Contributions:** Assistant (API refactoring, meteogram, new data integration, extensive debugging, menu navigation, station scraping, lunar calendar, advanced units, global theme, DailyForecast fixes, map improvements, RainViewer integration, pan in live maps, centralized icon fallback, custom skins support, lunar calculation performance, thread-safety fixes, optional-API refactor, favorites persistence fix)
+- **Contributions:** Assistant (API refactoring, meteogram, new data integration, extensive debugging, menu navigation, station scraping, lunar calendar, advanced units, global theme, DailyForecast fixes, map improvements, RainViewer integration, pan in live maps, centralized icon fallback, custom skins support, lunar calculation performance, thread-safety fixes, optional-API refactor, favorites persistence fix, cache LRU, update validation, temperature overlay)
 
 Thanks to @Orlandox and all friends who provided suggestions and tested the plugin.
 
