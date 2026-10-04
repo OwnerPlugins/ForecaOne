@@ -491,24 +491,18 @@ class CityPanel4(Screen, HelpableScreen):
         if selected:
             self._remember_city_offline(selected)
             self.save_favorite("fav1", selected)
-            self._update_fav_buttons()
-            self.close((selected, 'assign', 1))
 
     def save_favorite2(self):
         selected = self.get_selected_city()
         if selected:
             self._remember_city_offline(selected)
             self.save_favorite("fav2", selected)
-            self._update_fav_buttons()
-            self.close((selected, 'assign', 1))
 
     def save_home(self):
         selected = self.get_selected_city()
         if selected:
             self._remember_city_offline(selected)
             self.save_favorite("home", selected)
-            self._update_fav_buttons()
-            self.close((selected, 'assign', 1))
 
     def ok(self):
         selected = self.get_selected_city()

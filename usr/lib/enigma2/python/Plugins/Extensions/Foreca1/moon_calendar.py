@@ -149,7 +149,7 @@ class MoonCalendar(Screen, HelpableScreen):
         return DtoJD(dt.day, dt.month, dt.year, dt.hour, dt.minute, dt.second)
 
     def _jd_to_datetime(self, jd):
-        d, m, y, h, mn, s, _ = JDtoD(jd)
+        d, m, y, h, mn, s = JDtoD(jd)
         return datetime(y, m, d, h, mn, s)
 
     # ------------------------------------------------------------------

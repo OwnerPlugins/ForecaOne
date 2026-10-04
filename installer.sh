@@ -1,8 +1,7 @@
 #!/bin/bash
 
-version='1.3.3'
-changelog='Hd skin Fix - Bug fix release following a full repository audit:\n- Fixed crash bugs in day navigation, wind-symbol maps, and the map layer menu\n- Removed hardcoded API credentials and tightened saved config file permissions\n- Validated third-party API responses before use and URL-encoded search input\n- Fixed UI freezes on weather refresh, meteogram, and lunar calendar screens by backgrounding network/CPU-heavy work\n- Enforced the Python 3 requirement in install scripts (fixes silent failures on Python-2-only systems)\n- Removed dead code and fixed missing Pillow dependency in the opkg install path'
-
+version='1.3.4'
+changelog='HD skin fix - Bug-fix release following a full repository audit:\n- Fixed crash bugs in day navigation, wind-symbol maps, and the map layer menu\n- Removed hardcoded API credentials and tightened saved config file permissions\n- Validated third-party API responses before use and URL-encoded search input\n- Fixed UI freezes on weather refresh, meteogram, and lunar calendar screens by backgrounding network- and CPU-heavy work\n- Enforced the Python 3 requirement in install scripts (fixes silent failures on Python 2-only systems)\n- Removed dead code and fixed the missing Pillow dependency in the opkg install path\n- Fixed double-close bug in city favorites assignment (Home / Favorite 1 / Favorite 2)\n- Made API credentials truly optional at first launch, as documented'
 TMPPATH=/tmp/ForecaOne-install
 FILEPATH=/tmp/ForecaOne-main.tar.gz
 

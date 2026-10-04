@@ -89,17 +89,13 @@ def JDtoD(JD):
     else:
         y = C - 4715
 
-    h = int((JD + 1.5) % 7)
-    hname = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu']
-    hari = hname[h]
-
     FJD = (JD - int(JD)) - 0.5
     if FJD < 0:
         FJD = 1 + FJD
     hrs = int(FJD * 24)
     mnt = int((FJD * 24 - hrs) * 60)
     dtk = int(((FJD * 24 - hrs) * 60 - mnt) * 60)
-    return d, m, y, hrs, mnt, dtk, hari
+    return d, m, y, hrs, mnt, dtk
 
 
 # ----------------------------------------------------------------------

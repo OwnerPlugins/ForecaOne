@@ -4,16 +4,16 @@
     <ePixmap position="2176,1311" size="180,47" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/images/forecalogo.png" zPosition="10" scale="1" />
     <ePixmap position="73,267" size="2400,960" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/backgrounds/background.png" zPosition="2" scale="1" cornerRadius="28" />
 
-    <widget name="current_phase_icon" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon0050.png" position="2339,95" size="133,133" zPosition="9" scale="1" alphatest="blend" />
-    <widget name="current_phase_name" position="1873,79" size="453,53" font="Liberation; 37" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
-    <widget name="current_distance" position="1873,132" size="453,53" font="Liberation; 32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
-    <widget name="current_illum" position="1873,189" size="453,53" font="Liberation; 32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+    <widget name="current_phase_icon" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/moon/moon0050.png" position="2317,73" size="133,133" zPosition="9" scale="1" alphatest="blend" />
+    <widget name="current_phase_name" position="1873,79" size="420,53" font="Liberation; 37" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+    <widget name="current_distance" position="1873,132" size="420,53" font="Liberation; 32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
+    <widget name="current_illum" position="1873,189" size="420,53" font="Liberation; 32" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="right" valign="center" zPosition="9" />
     <widget name="illum_bar" position="2059,237" size="267,20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Foreca1/buttons/progress_big.png" borderWidth="3" borderColor="#cccccc" zPosition="9" />
 
-    <widget name="Phase" position="307,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
-    <widget name="Day" position="1120,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
-    <widget name="Month" position="1307,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
-    <widget name="Time" position="1693,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+    <widget name="Phase" position="286,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+    <widget name="Day" position="1067,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+    <widget name="Month" position="1213,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
+    <widget name="Time" position="1613,208" size="267,53" font="Liberation; 44" foregroundColor="#53a9ff" backgroundColor="#000000" transparent="1" alphatest="blend" zPosition="9" />
     <eLabel position="73,263" size="2400,3" zPosition="50" backgroundColor="#FFFFFF" />
 
     <widget source="menu" render="Listbox" position="73,267" size="2400,960" scrollbarMode="showOnDemand" zPosition="3" transparent="1" backgroundColor="transparent">

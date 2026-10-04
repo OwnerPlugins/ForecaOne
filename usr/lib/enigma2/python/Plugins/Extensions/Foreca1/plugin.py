@@ -38,11 +38,11 @@ from . import (
     load_skin_for_class,
     DEBUG,
     TEMP_DIR,
-    # DBG_DIR,
     CONFIG_FILE,
     SYSTEM_DIR,
     get_icon_path,
-    cleanup_temp_files
+    cleanup_temp_files,
+    HEADERS
 )
 
 from .city_panel import CityPanel4
@@ -698,21 +698,39 @@ class Foreca_Preview(Screen, HelpableScreen):
         self.my_cur_weather()
 
     def mypicload(self):
-        """Download radar map."""
+        """Download the radar map for the current location (pre-cache)."""
         if not is_valid(self.lon) or not is_valid(self.lat):
             return
-        import subprocess
+
+        import requests
         base_url = "https://map-cf.foreca.net/teaser/map/light/rain/6/"
         output_file = join(TEMP_DIR, '385.png')
         full_url = f"{base_url}{self.lon}/{self.lat}/317/385.png?names"
-        cmd = ['wget', '-O', output_file, full_url]
+
         try:
-            subprocess.run(cmd, capture_output=True, timeout=30)
-            if exists(output_file):
-                # if there is a radar_map widget, update it
-                pass
-        except Exception as e:
-            print("[Foreca1] Map download error:", e)
+            response = requests.get(full_url, headers=HEADERS, timeout=15)
+            if response.status_code != 200:
+                if DEBUG:
+                    print(
+                        "[Foreca1] Radar map HTTP error: "
+                        f"{response.status_code}")
+                return
+            content_type = response.headers.get('Content-Type', '')
+            if 'image' not in content_type.lower():
+                if DEBUG:
+                    print(
+                        "[Foreca1] Radar map unexpected content-type: "
+                        f"{content_type}")
+                return
+            with open(output_file, 'wb') as f:
+                f.write(response.content)
+            if DEBUG:
+                print(
+                    f"[Foreca1] Radar map cached: "
+                    f"{len(response.content)} bytes -> {output_file}")
+        except requests.RequestException as e:
+            if DEBUG:
+                print(f"[Foreca1] Radar map download error: {e}")
 
     def OK(self):
         menu = [
@@ -844,6 +862,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             (_("Unit Settings (Advanced)"), "units_advanced"),
             (_("Color select"), "colorselector"),
             (_("Transparency Settings"), "transparency"),
+            (_("API Settings"), "api_setup"),
             (_("Check for updates"), "update"),
             (_("Cleanup temp files"), "cleanup"),
             (_("Translation Settings"), "translation"),
@@ -945,6 +964,9 @@ class Foreca_Preview(Screen, HelpableScreen):
         elif key == "transparency":
             self.session.openWithCallback(
                 self.after_main_menu, TransparencySelector, self)
+        elif key == "api_setup":
+            self.session.openWithCallback(
+                self.after_main_menu, ForecaSetup)
         elif key == "update":
             self.update_me()
         elif key == "maps":
@@ -2850,14 +2872,14 @@ class Foreca_Preview(Screen, HelpableScreen):
 
 
 def checkInternet():
+    """Check internet connectivity with a short HTTP HEAD request.
+    Avoids blocking DNS/port 53 traffic and does not touch the
+    process-wide default socket timeout."""
     try:
-        import socket
-        socket.setdefaulttimeout(0.5)
-        socket.socket(
-            socket.AF_INET, socket.SOCK_STREAM).connect(
-            ('8.8.8.8', 53))
+        import requests
+        requests.head("https://api.foreca.net", timeout=3)
         return True
-    except BaseException:
+    except requests.RequestException:
         return False
 
 
@@ -2876,8 +2898,7 @@ def main(session, **kwargs):
     try:
         from enigma import addFont
 
-        plugin_path = "/usr/lib/enigma2/python/Plugins/Extensions/Foreca1"
-        font_path = join(plugin_path, "fonts", "LiberationSans-Regular.ttf")
+        font_path = join(PLUGIN_PATH, "fonts", "LiberationSans-Regular.ttf")
         print("[FONT] Checking path:", font_path)
         print("[FONT] Exists?", exists(font_path))
         if exists(font_path):
@@ -2889,13 +2910,17 @@ def main(session, **kwargs):
         print("[FONT] ✗ Error:", e)
 
     if not has_api_credentials():
+        # Inform the user once but do not block the plugin:
+        # the free API covers the main features. Credentials can
+        # be added later from Menu -> API Settings.
         session.open(
             MessageBox,
-            _("Foreca API credentials are not configured yet. Please enter them in the setup screen."),
+            _("Foreca API credentials are not configured. "
+              "The plugin will run in free mode. "
+              "You can add credentials later from Menu -> API Settings."),
             MessageBox.TYPE_INFO,
+            timeout=8,
         )
-        session.open(ForecaSetup)
-        return
 
     session.open(Foreca_Preview)
 

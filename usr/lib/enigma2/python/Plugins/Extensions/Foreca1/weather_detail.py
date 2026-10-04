@@ -265,7 +265,6 @@ class WeatherDetailView(Screen, HelpableScreen):
         self._update_summaries()
         self._update_temperature_values()
         self._update_background_colors()
-        self._start_translation_thread()
         self._update_wind_icons()
 
     def _load_radar_map(self):
@@ -522,16 +521,9 @@ class WeatherDetailView(Screen, HelpableScreen):
             parseColor(self.alpha)
         )
 
-    def _start_translation_thread(self):
-        from threading import Thread
-        Thread(target=self._translate_content).start()
-
-    def _translate_content(self):
-        self['title_today'].setText(_('Weather today'))
-        self['title_tomorrow'].setText(_('Weather tomorrow'))
-        self['title_location'].setText(trans(self.town))
-        # Also update summaries if needed
-        self._update_summaries()
+    # (metodi _start_translation_thread e _translate_content rimossi:
+    # aggiornavano widget da un thread secondario. Il titolo e i
+    # summary vengono già impostati in _on_screen_shown.)
 
     def _degrees_to_wind_icon(self, degrees):
         try:

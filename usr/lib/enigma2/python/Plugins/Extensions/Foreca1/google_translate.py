@@ -102,7 +102,7 @@ def _log(message):
 
 
 def _protect_placeholders(text):
-    """Protect placeholders before translation."""
+    """Protect placeholders and escape sequences before translation."""
     if not text:
         return text, {}, {}
 
@@ -110,13 +110,24 @@ def _protect_placeholders(text):
     csharp_placeholders = {}
     idx = 0
 
-    # Protect Python: %(name)s, %(name)d, etc.
-    python_regex = re.compile(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]')
+    # Protect Python: %(name)s, %(name)d, %d, %s, etc.
+    python_regex = re.compile(
+        r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]|%[diouxXeEfFgGcrs]')
     for match in python_regex.finditer(text):
         placeholder = match.group(0)
         replacement = f"__PYPH_{idx}__"
         text = text.replace(placeholder, replacement)
         python_placeholders[replacement] = placeholder
+        idx += 1
+
+    # Protect \n and \t so the translator does not duplicate backslashes
+    idx = 0
+    escape_regex = re.compile(r'\\[nt]')
+    for match in escape_regex.finditer(text):
+        escape = match.group(0)
+        replacement = f"__ESC_{idx}__"
+        text = text.replace(escape, replacement)
+        csharp_placeholders[replacement] = escape
         idx += 1
 
     # Protect C#: {name}, {0}, {hours}
@@ -340,8 +351,7 @@ def translate_text(text, target_lang=None, use_cache=True):
 
         _log(f"Translating: '{protected_text[:40]}...' -> {target_lang}")
 
-        socket.setdefaulttimeout(REQUEST_TIMEOUT)
-
+        # Perform the request (timeout applies only to this call)
         req = Request(url)
         for key, value in HEADERS.items():
             req.add_header(key, value)
@@ -394,9 +404,6 @@ def translate_text(text, target_lang=None, use_cache=True):
         error_type = type(e).__name__
         _log(f"Error {error_type}: {str(e)}")
         return text_unicode
-
-    finally:
-        socket.setdefaulttimeout(None)
 
 
 # ============================================================

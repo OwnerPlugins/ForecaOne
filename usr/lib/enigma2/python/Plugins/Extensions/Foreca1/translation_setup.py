@@ -101,6 +101,13 @@ class TranslationSetup(Screen, ConfigListScreen, HelpableScreen):
         """Save settings and close."""
         config.plugins.foreca.translation_engine.save()
         config.plugins.foreca.target_language.save()
+        # Invalidate the cached values in __init__ so the next _()
+        # call sees the new settings without an Enigma2 restart.
+        try:
+            from . import refresh_translation_config
+            refresh_translation_config()
+        except Exception as e:
+            print("[TranslationSetup] refresh cache error:", e)
         self.close(True)
 
     def cancel(self):

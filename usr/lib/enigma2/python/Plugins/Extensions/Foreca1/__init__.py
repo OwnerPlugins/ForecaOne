@@ -18,13 +18,14 @@ import re
 # ============================================================
 from Components.config import config, ConfigSubsection, ConfigBoolean, ConfigSelection
 
-# Ensure config namespace exists
+# Ensure config namespace exists (idempotent: do not recreate on re-import)
 if not hasattr(config.plugins, 'foreca'):
     config.plugins.foreca = ConfigSubsection()
 
 # Translation engine: False = gettext (local .po files), True = Google
 # Translate
-config.plugins.foreca.translation_engine = ConfigBoolean(default=False)
+if not hasattr(config.plugins.foreca, 'translation_engine'):
+    config.plugins.foreca.translation_engine = ConfigBoolean(default=False)
 
 # Target language for Google Translate (ISO 639-1 codes)
 # 'auto' means use system language
@@ -139,10 +140,11 @@ LANGUAGE_CHOICES = [
     ('zu', 'Zulu'),
 ]
 
-config.plugins.foreca.target_language = ConfigSelection(
-    choices=LANGUAGE_CHOICES, default='auto')
+if not hasattr(config.plugins.foreca, 'target_language'):
+    config.plugins.foreca.target_language = ConfigSelection(
+        choices=LANGUAGE_CHOICES, default='auto')
 
-__version__ = "1.3.3"
+__version__ = "1.3.4"
 VERSION = __version__
 _AUTHOR_ = "by Lululla - 2026"
 IDEAS = "@Bauernbub"
@@ -323,6 +325,43 @@ def _has_placeholders(text):
     return False
 
 
+# --------------------------------------------------------------------
+# Translation config cache
+# --------------------------------------------------------------------
+# Reading config.plugins.foreca.* on every _() call is both wasteful
+# (dozens of calls per render) and not thread-safe if _() is invoked
+# from a non-UI context. We read them once and cache the values here.
+# TranslationSetup.save() calls refresh_translation_config() to
+# invalidate the cache after the user changes the settings.
+# --------------------------------------------------------------------
+_CACHED_TRANSLATION_ENGINE = None
+_CACHED_TARGET_LANG = None
+
+
+def _get_translation_config():
+    """Return (use_google, target_lang) from cache, reading config once."""
+    global _CACHED_TRANSLATION_ENGINE, _CACHED_TARGET_LANG
+    if _CACHED_TRANSLATION_ENGINE is None or _CACHED_TARGET_LANG is None:
+        try:
+            _CACHED_TRANSLATION_ENGINE = bool(
+                config.plugins.foreca.translation_engine.value)
+            _CACHED_TARGET_LANG = str(
+                config.plugins.foreca.target_language.value or 'auto')
+        except Exception:
+            # Fallback if config is not ready yet
+            _CACHED_TRANSLATION_ENGINE = False
+            _CACHED_TARGET_LANG = 'auto'
+    return _CACHED_TRANSLATION_ENGINE, _CACHED_TARGET_LANG
+
+
+def refresh_translation_config():
+    """Invalidate cached translation settings.
+    Call this after config.plugins.foreca.* has been saved."""
+    global _CACHED_TRANSLATION_ENGINE, _CACHED_TARGET_LANG
+    _CACHED_TRANSLATION_ENGINE = None
+    _CACHED_TARGET_LANG = None
+
+
 def _(txt):
     """
     Translation function with placeholder protection.
@@ -331,9 +370,8 @@ def _(txt):
     if not txt:
         return ""
 
-    # Read settings
-    use_google = config.plugins.foreca.translation_engine.value
-    target_lang = config.plugins.foreca.target_language.value
+    # Read settings (cached, thread-safe)
+    use_google, target_lang = _get_translation_config()
 
     if target_lang == 'auto':
         target_lang = _get_system_language()

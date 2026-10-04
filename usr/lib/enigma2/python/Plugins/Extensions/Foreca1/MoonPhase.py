@@ -188,7 +188,7 @@ class MoonPhase:
         return info
 
     def _jd_to_datetime(self, jd):
-        d, m, y, h, mn, s, _ = JDtoD(jd)
+        d, m, y, h, mn, s = JDtoD(jd)
         return datetime.datetime(y, m, d, h, mn, s)
 
     # ------------------------------------------------------------------
@@ -362,103 +362,108 @@ class MoonPhase:
             "age": age
         }
 
+    def _altitude_and_azimuth(self, lat, lon, dt):
+        """Compute altitude and azimuth of the Moon at a given datetime."""
+        jd = DtoJD(dt.day, dt.month, dt.year, dt.hour, dt.minute, dt.second)
+        _, ra_c, dec_c, _, _ = LunarPos(jd)
+        return self._equatorial_to_horizontal(lat, lon, dt, ra_c, dec_c)
+
+    def _bisect_horizon(self, lat, lon, t_before, t_after, rising,
+                        iterations=8):
+        """Find the horizon crossing between two samples.
+        Returns (datetime, azimuth)."""
+        for _ in range(iterations):
+            t_mid = t_before + (t_after - t_before) / 2
+            alt, _ = self._altitude_and_azimuth(lat, lon, t_mid)
+            if rising:
+                if alt < 0:
+                    t_before = t_mid
+                else:
+                    t_after = t_mid
+            else:
+                if alt > 0:
+                    t_before = t_mid
+                else:
+                    t_after = t_mid
+        t_result = t_before + (t_after - t_before) / 2
+        _, az = self._altitude_and_azimuth(lat, lon, t_result)
+        return t_result, az
+
     def _calculate_rise_set(self, lat, lon, dt, ra, dec):
-        # Search around midnight of the specified day
         start_dt = datetime.datetime(
-            dt.year,
-            dt.month,
-            dt.day,
-            0,
-            0,
-            0,
+            dt.year, dt.month, dt.day, 0, 0, 0,
             tzinfo=datetime.timezone.utc)
         rise_time = None
         set_time = None
         rise_az = None
         set_az = None
-        prev_alt_val = None
+        prev_alt = None
+        prev_dt = None
+        step = datetime.timedelta(minutes=15)
+        t = start_dt
+        end_dt = start_dt + datetime.timedelta(hours=24)
 
-        # Search interval: 24 hours
-        for minute_offset in range(0, 24 * 60):
-            check_dt = start_dt + datetime.timedelta(minutes=minute_offset)
-            jd_check = DtoJD(
-                check_dt.day,
-                check_dt.month,
-                check_dt.year,
-                check_dt.hour,
-                check_dt.minute,
-                check_dt.second)
-            _, ra_check, dec_check, _, _ = LunarPos(jd_check)
-            alt, az = self._equatorial_to_horizontal(
-                lat, lon, check_dt, ra_check, dec_check)
-
-            if minute_offset > 0 and prev_alt_val is not None:
-                if prev_alt_val < 0 and alt >= 0:
-                    rise_time = check_dt
-                    rise_az = az
-                elif prev_alt_val > 0 and alt <= 0:
-                    set_time = check_dt
-                    set_az = az
-            prev_alt_val = alt
-
+        while t <= end_dt:
+            alt, _ = self._altitude_and_azimuth(lat, lon, t)
+            if prev_alt is not None:
+                if prev_alt < 0 <= alt and rise_time is None:
+                    rise_time, rise_az = self._bisect_horizon(
+                        lat, lon, prev_dt, t, rising=True)
+                elif prev_alt > 0 >= alt and set_time is None:
+                    set_time, set_az = self._bisect_horizon(
+                        lat, lon, prev_dt, t, rising=False)
             if rise_time and set_time:
                 break
+            prev_alt = alt
+            prev_dt = t
+            t += step
 
-        # Format times as HH:MM strings (local time)
         tz_offset = self._get_offset_hours()
-        if rise_time:
-            local_rise = rise_time + datetime.timedelta(hours=tz_offset)
-            rise_time_str = local_rise.strftime("%H:%M")
-        else:
-            rise_time_str = "N/A"
-
-        if set_time:
-            local_set = set_time + datetime.timedelta(hours=tz_offset)
-            set_time_str = local_set.strftime("%H:%M")
-        else:
-            set_time_str = "N/A"
-
+        rise_time_str = (
+            (rise_time + datetime.timedelta(hours=tz_offset)
+             ).strftime("%H:%M")
+            if rise_time else "N/A")
+        set_time_str = (
+            (set_time + datetime.timedelta(hours=tz_offset)
+             ).strftime("%H:%M")
+            if set_time else "N/A")
         return rise_time_str, set_time_str, rise_az, set_az
 
     def _calculate_transit(self, lat, lon, dt, ra, dec):
         start_dt = datetime.datetime(
-            dt.year,
-            dt.month,
-            dt.day,
-            0,
-            0,
-            0,
+            dt.year, dt.month, dt.day, 0, 0, 0,
             tzinfo=datetime.timezone.utc)
-        max_alt = -90
-        transit_dt = None
+        step = datetime.timedelta(minutes=15)
+        t = start_dt
+        end_dt = start_dt + datetime.timedelta(hours=24)
+        samples = []
+        while t <= end_dt:
+            alt, _ = self._altitude_and_azimuth(lat, lon, t)
+            samples.append((t, alt))
+            t += step
 
-        # Search full 24 hours
-        for minute_offset in range(0, 24 * 60):
-            check_dt = start_dt + datetime.timedelta(minutes=minute_offset)
-            jd_check = DtoJD(
-                check_dt.day,
-                check_dt.month,
-                check_dt.year,
-                check_dt.hour,
-                check_dt.minute,
-                check_dt.second)
-            _, ra_check, dec_check, _, _ = LunarPos(jd_check)
-            alt, az = self._equatorial_to_horizontal(
-                lat, lon, check_dt, ra_check, dec_check)
+        best_idx = max(range(len(samples)), key=lambda i: samples[i][1])
+        lo_t = samples[max(0, best_idx - 1)][0]
+        hi_t = samples[min(len(samples) - 1, best_idx + 1)][0]
 
-            # Track maximum altitude (transit point)
-            if alt > max_alt:
-                max_alt = alt
-                transit_dt = check_dt
+        # Ternary search for maximum altitude
+        for _ in range(12):
+            m1 = lo_t + (hi_t - lo_t) / 3
+            m2 = hi_t - (hi_t - lo_t) / 3
+            a1, _ = self._altitude_and_azimuth(lat, lon, m1)
+            a2, _ = self._altitude_and_azimuth(lat, lon, m2)
+            if a1 < a2:
+                lo_t = m1
+            else:
+                hi_t = m2
+
+        transit_dt = lo_t + (hi_t - lo_t) / 2
+        transit_alt, _ = self._altitude_and_azimuth(lat, lon, transit_dt)
 
         tz_offset = self._get_offset_hours()
-        if transit_dt:
-            local_transit = transit_dt + datetime.timedelta(hours=tz_offset)
-            transit_time_str = local_transit.strftime("%H:%M")
-        else:
-            transit_time_str = "N/A"
-
-        return transit_time_str, max_alt
+        transit_time_str = (transit_dt + datetime.timedelta(hours=tz_offset)
+                            ).strftime("%H:%M")
+        return transit_time_str, transit_alt
 
     def _equatorial_to_horizontal(self, lat, lon, dt, ra, dec):
         """
