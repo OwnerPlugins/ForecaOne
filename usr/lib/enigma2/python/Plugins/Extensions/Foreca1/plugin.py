@@ -2175,7 +2175,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             if size <= 0:
                 raise RuntimeError("empty installer")
             if DEBUG:
-                print(f"[Foreca1] installer downloaded: {size} bytes")
+                print("[Foreca1] installer downloaded: %d bytes" % size)
         except Exception as e:
             try:
                 if exists(tmp_path):
@@ -2188,29 +2188,6 @@ class Foreca_Preview(Screen, HelpableScreen):
                 MessageBox.TYPE_ERROR)
             return
 
-        try:
-            dl = subprocess.run(
-                ["wget", "-q", "--no-check-certificate",
-                 "-O", tmp_path, installer_url],
-                timeout=30, capture_output=True)
-            if dl.returncode != 0 or not exists(tmp_path):
-                raise RuntimeError("download failed")
-            size = os.path.getsize(tmp_path)
-            if size <= 0:
-                raise RuntimeError("empty installer")
-            if DEBUG:
-                print(f"[Foreca1] installer downloaded: {size} bytes")
-        except Exception as e:
-            try:
-                remove(tmp_path)
-            except OSError:
-                pass
-            self.session.open(
-                MessageBox,
-                _("Invalid installer file: %s") % e,
-                MessageBox.TYPE_ERROR)
-            return
-
         # 2) Sanity check: must look like a shell script, not HTML
         try:
             with open(tmp_path, "rb") as f:
@@ -2219,13 +2196,11 @@ class Foreca_Preview(Screen, HelpableScreen):
             if b"<!doctype" in head_lower or b"<html" in head_lower:
                 raise RuntimeError("received HTML instead of a script")
             if not (head.startswith(b"#!") or b"#!/" in head[:128]):
-                # Not fatal: many installers start with a comment.
-                # We only warn in the debug log.
                 if DEBUG:
                     print("[Foreca1] installer has no shebang (continuing)")
         except Exception as e:
             try:
-                _rm(tmp_path)
+                remove(tmp_path)
             except OSError:
                 pass
             self.session.open(
@@ -2269,7 +2244,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         except OSError:
             pass
 
-        cmd = f"/bin/bash {tmp_path}"
+        cmd = "/bin/bash " + tmp_path
         from Screens.Console import Console
         self.session.open(
             Console,
