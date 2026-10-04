@@ -4,8 +4,11 @@
 
 import glob
 import datetime
-from os import chmod, makedirs
-from os.path import exists, join
+import subprocess
+import tempfile
+import requests
+from os import chmod, makedirs, close, remove
+from os.path import exists, join, getsize
 from threading import Thread
 
 from Components.ActionMap import HelpableActionMap
@@ -705,7 +708,6 @@ class Foreca_Preview(Screen, HelpableScreen):
         if not is_valid(self.lon) or not is_valid(self.lat):
             return
 
-        import requests
         base_url = "https://map-cf.foreca.net/teaser/map/light/rain/6/"
         output_file = join(TEMP_DIR, '385.png')
         full_url = f"{base_url}{self.lon}/{self.lat}/317/385.png?names"
@@ -2056,7 +2058,6 @@ class Foreca_Preview(Screen, HelpableScreen):
 
     def update_me(self):
         """Checks for updates and asks for confirmation to install them."""
-        import requests
         try:
             resp = requests.get(INSTALLER_URL, timeout=10)
             if resp.status_code != 200:
@@ -2151,19 +2152,39 @@ class Foreca_Preview(Screen, HelpableScreen):
                 timeout=3)
             return
 
-        import subprocess
-        import tempfile
-        from os import chmod, remove as _rm
-
         # 1) Download into a temp file (never pipe directly to sh)
         try:
             fd, tmp_path = tempfile.mkstemp(
                 prefix="foreca_update_", suffix=".sh", dir="/tmp")
-            os.close(fd)
+            close(fd)
         except Exception as e:
             self.session.open(
                 MessageBox,
                 _("Could not create temporary update file: %s") % e,
+                MessageBox.TYPE_ERROR)
+            return
+
+        try:
+            dl = subprocess.run(
+                ["wget", "-q", "--no-check-certificate",
+                 "-O", tmp_path, installer_url],
+                timeout=30, capture_output=True)
+            if dl.returncode != 0 or not exists(tmp_path):
+                raise RuntimeError("download failed")
+            size = getsize(tmp_path)
+            if size <= 0:
+                raise RuntimeError("empty installer")
+            if DEBUG:
+                print(f"[Foreca1] installer downloaded: {size} bytes")
+        except Exception as e:
+            try:
+                if exists(tmp_path):
+                    remove(tmp_path)
+            except OSError:
+                pass
+            self.session.open(
+                MessageBox,
+                _("Could not download the installer: %s") % e,
                 MessageBox.TYPE_ERROR)
             return
 
@@ -2181,13 +2202,12 @@ class Foreca_Preview(Screen, HelpableScreen):
                 print(f"[Foreca1] installer downloaded: {size} bytes")
         except Exception as e:
             try:
-                if exists(tmp_path):
-                    _rm(tmp_path)
+                remove(tmp_path)
             except OSError:
                 pass
             self.session.open(
                 MessageBox,
-                _("Could not download the installer: %s") % e,
+                _("Invalid installer file: %s") % e,
                 MessageBox.TYPE_ERROR)
             return
 
@@ -2222,7 +2242,7 @@ class Foreca_Preview(Screen, HelpableScreen):
             if check.returncode != 0:
                 err = check.stderr.decode("utf-8", "replace")[:300]
                 try:
-                    _rm(tmp_path)
+                    remove(tmp_path)
                 except OSError:
                     pass
                 self.session.open(
@@ -2234,7 +2254,7 @@ class Foreca_Preview(Screen, HelpableScreen):
                 print("[Foreca1] installer syntax check: OK")
         except Exception as e:
             try:
-                _rm(tmp_path)
+                remove(tmp_path)
             except OSError:
                 pass
             self.session.open(
@@ -2263,7 +2283,7 @@ class Foreca_Preview(Screen, HelpableScreen):
         if installer_path:
             try:
                 if exists(installer_path):
-                    os.remove(installer_path)
+                    remove(installer_path)
             except OSError:
                 pass
         self.update_finished()
@@ -2976,7 +2996,6 @@ class Foreca_Preview(Screen, HelpableScreen):
 
     def _get_timezone_offset(self, tz_name):
         """Calculate the current UTC offset for a given timezone (in hours)."""
-        import subprocess
         try:
             # Use the 'date' command with TZ environment variable to get offset
             output = subprocess.check_output(
@@ -3105,3 +3124,4 @@ def autostart_overlay(reason, **kwargs):
         autostart(reason, **kwargs)
     except Exception as e:
         print(f"[Foreca1] overlay autostart failed: {e}")
+
