@@ -3124,4 +3124,3 @@ def autostart_overlay(reason, **kwargs):
         autostart(reason, **kwargs)
     except Exception as e:
         print(f"[Foreca1] overlay autostart failed: {e}")
-
