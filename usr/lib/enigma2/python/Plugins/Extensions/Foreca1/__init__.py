@@ -144,7 +144,7 @@ if not hasattr(config.plugins.foreca, 'target_language'):
     config.plugins.foreca.target_language = ConfigSelection(
         choices=LANGUAGE_CHOICES, default='auto')
 
-__version__ = "1.3.4"
+__version__ = "1.3.5"
 VERSION = __version__
 _AUTHOR_ = "by Lululla - 2026"
 IDEAS = "@Bauernbub"

@@ -509,21 +509,20 @@ class CityPanel4(Screen, HelpableScreen):
         if selected:
             self._remember_city_offline(selected)
             if '/' in selected:
-                city_id, display_name = selected.split('/', 1)
+                _city_id, display_name = selected.split('/', 1)
                 display_name = display_name.replace('_', ' ')
             else:
-                city_id = selected
                 display_name = None
             if self.menu_dialog:
                 self.menu_dialog.close()
-            self.close((city_id, 'select', display_name))
+            # Send the full "ID/Name" so the callback writes it correctly
+            self.close((selected, 'select', display_name))
 
     def save_favorite(self, fav_type, city):
         path = join(SYSTEM_DIR, f"{fav_type}.cfg")
         try:
             with open(path, "w", encoding='utf-8') as f:
                 f.write(city)
-            city_id = city.split('/')[0]
             # Determine the favorite's index
             if fav_type == 'home':
                 fav_index = 0
@@ -533,7 +532,8 @@ class CityPanel4(Screen, HelpableScreen):
                 fav_index = 2
             else:
                 fav_index = None
-            self.close((city_id, 'assign', fav_index))
+            # Send the full "ID/Name" string, not just the ID
+            self.close((city, 'assign', fav_index))
         except Exception as e:
             print("[CityPanel] Error saving:", e)
             self.session.open(

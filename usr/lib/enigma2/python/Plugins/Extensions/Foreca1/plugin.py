@@ -1004,7 +1004,8 @@ class Foreca_Preview(Screen, HelpableScreen):
                 self.instance.invalidate()
             elif action == 'assign':
                 fav_index = result[2]  # 0,1,2
-                self._save_favorite(fav_index, city_id)
+                # File was already written by CityPanel4.save_favorite()
+                # with the full "ID/Name". Do not overwrite it here.
                 self.path_loc0 = self._read_favorite('home') or self.path_loc0
                 self.path_loc1 = self._read_favorite('fav1') or self.path_loc1
                 self.path_loc2 = self._read_favorite('fav2') or self.path_loc2
@@ -2156,7 +2157,23 @@ class Foreca_Preview(Screen, HelpableScreen):
         date_str = str(self.f_date[0]) if self.f_date else _(
             "No date available")
         day_str = trans(self.f_day) if is_valid(self.f_day) else ""
-        title_text = f"{self.town}, {trans(self.country)} - {date_str}"
+        # self.town may already contain city, region and country (comes from
+        # the favorite file or the search result). Use only the first
+        # component to avoid duplicating the region and country below.
+        if self.town and self.town != 'N/A':
+            short_town = self.town.split(',')[0].strip()
+        else:
+            short_town = self.town
+        # self.country may also contain province + country; keep only the
+        # last component (the actual country name).
+        if self.country and self.country != 'N/A':
+            short_country = self.country.split(',')[-1].strip()
+        else:
+            short_country = self.country
+        if short_country and short_country != 'N/A':
+            title_text = f"{short_town}, {trans(short_country)} - {date_str}"
+        else:
+            title_text = f"{short_town} - {date_str}"
         if day_str:
             title_text += f" - {day_str}"
         self["title_main"].text = title_text
