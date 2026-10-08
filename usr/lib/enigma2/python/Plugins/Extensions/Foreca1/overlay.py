@@ -62,7 +62,7 @@ def write_temperature(text):
 
 def refresh():
     """Force an immediate overlay redraw (called after toggle or update)."""
-    global _overlay_screen
+    # global _overlay_screen
     if _overlay_screen is not None:
         try:
             _overlay_screen._refresh()
